@@ -6,12 +6,12 @@
   padding: 0;
 }*/
 @import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
-@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+/*@import url(http://fonts.googleapis.com/css?family=EB+Garamond);*/
 html, body { height: 100%; }
 
 body {
   font-family: 'Sorts Mill Goudy', georgia, "times new roman", serif;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   background: #f4f4f4;
 }
@@ -39,7 +39,7 @@ a:hover   {color:blue; text-decoration:underline; }
 
 .site-header {
   margin-left: 250px; margin-right: 250px; width: 600px; margin-bottom: 5px; position: relative; overflow: hidden;}
-.site-header a{font-size: 14px;color: #818181; }
+.site-header a{font-size: 20px;color: #818181; }
 .site-header:hover a{color:black;text-shadow: 2px 2px 4px #888888 ; }
 .site-header a:active{}
 .site-header a:hover{}
@@ -132,7 +132,7 @@ a:hover   {color:blue; text-decoration:underline; }
 /* ----------------------------------------------------------*/
 
 .note{overflow: hidden;display: block; height:80px; width:100px ; padding:10px;margin:20px 20px; float: left; background-color:white;vertical-align: middle;}
-.note-link{font-size:14px;display:block;text-align:center;color: black }
+.note-link{font-size:16px;display:block;text-align:center;color: black }
 .note:hover{ box-shadow: 0px 0px 20px 10px #888888; background-color: white; color: #205caa}
 .note:hover .note-link{color:#3333CC;text-decoration: none }
 
@@ -150,7 +150,7 @@ a:hover   {color:blue; text-decoration:underline; }
 
 .posts .post-date {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   color: #818181;
 }
 
@@ -161,14 +161,14 @@ a:hover   {color:blue; text-decoration:underline; }
 /*.post-header { margin: 10px 0 30px; }*/
 
 .post-header h5 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1;
-  font-family: 'EB Garamond';
+  font-family: 'EB Garamond'
   font-weight: 800;
 }
 
 .post-header .meta {
-  font-size: 12px;
+  font-size: 14px;
   color: #818181;
   margin-top: 5px;
 }
