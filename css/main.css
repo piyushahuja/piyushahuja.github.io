@@ -5,15 +5,16 @@
   margin: 0;
   padding: 0;
 }*/
-@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
-/*@import url(http://fonts.googleapis.com/css?family=EB+Garamond);*/
+/*@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);*/
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 html, body { height: 100%; }
 
 body {
-  font-family: 'Sorts Mill Goudy', georgia, "times new roman", serif;
+  font-family: 'EB Garamond', georgia, "times new roman", serif;
   font-size: 16px;
   font-weight: 300;
   background: #f4f4f4;
+  letter-spacing: 0.5px
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
@@ -39,12 +40,12 @@ a:hover   {color:blue; text-decoration:underline; }
 
 .site-header {
   margin-left: 250px; margin-right: 250px; width: 600px; margin-bottom: 5px; position: relative; overflow: hidden;}
-.site-header a{font-size: 16px;color: #818181; }
+.site-header a{ }
 .site-header:hover a{color:black;text-shadow: 2px 2px 4px #888888 ; }
 .site-header a:active{}
 .site-header a:hover{}
 
-.site-title{float: left;}
+.site-title {float: left;font-size: 16px;color:black;text-shadow: 2px 2px 4px #888888 ;}
 .site-title:hover{text-decoration: none;}
 
 .site-nav {
@@ -53,8 +54,8 @@ a:hover   {color:blue; text-decoration:underline; }
 
 .site-nav .menu-icon { display: none;}
 
-.site-nav .page-link {
-  margin-left: 10px;
+.site-nav .page-link {font-size: 16px;
+  margin-left: 10px;color: #818181;
 }
 
 .site-nav .page-link:hover{
