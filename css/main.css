@@ -39,7 +39,7 @@ a:hover   {color:blue; text-decoration:underline; }
 
 .site-header {
   margin-left: 250px; margin-right: 250px; width: 600px; margin-bottom: 5px; position: relative; overflow: hidden;}
-.site-header a{font-size: 20px;color: #818181; }
+.site-header a{font-size: 16px;color: #818181; }
 .site-header:hover a{color:black;text-shadow: 2px 2px 4px #888888 ; }
 .site-header a:active{}
 .site-header a:hover{}
