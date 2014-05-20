@@ -67,7 +67,6 @@ Friends:
 
 - [Samar Singla](http://samarsingla.com/)
 - [Manu Saxena](http://manusaxena.blogspot.in/)
-- [Amit Deshwal](http://earthisnotround.wordpress.com/about/)
 
 
 
