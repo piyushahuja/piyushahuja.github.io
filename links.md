@@ -4,8 +4,6 @@ title: Links
 permalink: /links/
 ---
 
-This is a list of websites I frequent.
-
 Essays:
 
 - [Paul Graham](http://www.paulgraham.com/articles.html)
@@ -23,7 +21,7 @@ Essays:
 - [Luke Muehlhauser](http://lukeprog.com/writings.html)
 - [The Ferrett](http://theferrett.livejournal.com/)
 
-Blogs:
+Miscellaneous:
 
 - [Futility Closer](http://www.futilitycloset.com/)
 - [Brain Pickings](http://www.brainpickings.org/)
@@ -34,6 +32,7 @@ Blogs:
 - [The Dictionary of Obscure Sorrows](http://www.dictionaryofobscuresorrows.com/)
 - [Tales of Mere Existence](https://www.youtube.com/show/talesofmereexistence)
 - [RSA Animate](http://www.thersa.org/events/rsaanimate)
+- [Critical Theory](http://www.critical-theory.com/)
 
 Game Theory, Puzzles and Algorithms:
 
@@ -53,6 +52,7 @@ Philsophy:
 
 - [Justin Lieber](http://mailer.fsu.edu/~jleiber/Justin%20Leiber's%20Home%20Page.htm)
 - [Michael Sandel's Justice Lectures](http://www.justiceharvard.org/watch/)
+- [Scott Aaronson](http://www.scottaaronson.com/blog/)
 
 Economics and Policy:
 
@@ -67,9 +67,10 @@ Friends:
 
 - [Samar Singla](http://samarsingla.com/)
 - [Manu Saxena](http://manusaxena.blogspot.in/)
-- [Amit Deshwal](http://earthisnotround.wordpress.com/about/)
 
+India:
 
+- [Caravan Magazine](http://www.caravanmagazine.in/reporting-and-essays/essay)
 
 
 

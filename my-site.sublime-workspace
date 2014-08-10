@@ -8,8 +8,40 @@
 				"margin-bottom"
 			],
 			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"padd",
-				"padding"
+				"padding-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"border-co",
+				"border-color"
 			],
 			[
 				"te",
@@ -22,10 +54,6 @@
 			[
 				"pad",
 				"padding"
-			],
-			[
-				"bor",
-				"border-style"
 			],
 			[
 				"text-",
@@ -58,10 +86,6 @@
 			[
 				"border-s",
 				"border-style"
-			],
-			[
-				"co",
-				"content"
 			],
 			[
 				"do",
@@ -244,6 +268,19 @@
 	},
 	"file_history":
 	[
+		"/Users/Piyush/Programming/my-site/_essays/selfeconomics.md",
+		"/Users/Piyush/Programming/my-site/essays.html",
+		"/Users/Piyush/Programming/my-site/_site/css/screen.css",
+		"/Users/Piyush/Programming/my-site/_config.yml",
+		"/Users/Piyush/Programming/my-site/_includes/footer.html",
+		"/Users/Piyush/Programming/my-site/index.html",
+		"/Users/Piyush/Programming/my-site/_posts/2014-05-18-leo_post.md",
+		"/Users/Piyush/Programming/my-site/_includes/header.html",
+		"/Users/Piyush/Programming/my-site/css/main.css",
+		"/Users/Piyush/Programming/my-site/_site/index.html",
+		"/Users/Piyush/Programming/my-site/css/syntax2.css",
+		"/Users/Piyush/Programming/my-site/css/screen2.css",
+		"/Users/Piyush/Programming/my-site/_site/css/main.css",
 		"/Users/Piyush/Programming/mysite/css/main.css",
 		"/Users/Piyush/Programming/theme-mark-reid-master/_includes/themes/mark-reid/settings.yml",
 		"/Users/Piyush/Downloads/theme-mark-reid-master/assets/themes/mark-reid/css/screen.css",
@@ -347,6 +384,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"about",
+			"rss",
+			"username",
+			"margin-bott",
+			"text",
+			"border-st",
+			"border-",
+			"line-hei",
+			"block",
+			"position",
+			"trigger",
+			"wrap",
+			"weap",
+			"color",
+			"font-siz",
+			"line-he",
+			"home",
 			"http://yourdomain.com",
 			"domain",
 			"font-",

@@ -7,7 +7,7 @@ title: Essays
     {% for post in site.posts %}
     <div class = "note">
       <a class="note-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
-        <span class="post-date">{{ post.tag}}</span>
+        <span class="post-tag">{{ post.tag}}</span>
     </div>
     {% endfor %}
   
