@@ -5,14 +5,23 @@
   margin: 0;
   padding: 0;
 }*/
+<<<<<<< HEAD
 
 @import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
 /*@import url(http://fonts.googleapis.com/css?family=EB+Garamond);*/
+=======
+/*@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);*/
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+>>>>>>> FETCH_HEAD
 html, body { height: 100%; }
 
 
 body {
+<<<<<<< HEAD
   font-family: 'Sorts Mill Goudy', "times new roman", serif;
+=======
+  font-family: 'EB Garamond', georgia, "times new roman", serif;
+>>>>>>> FETCH_HEAD
   font-size: 16px;
   font-weight: 300;
   background: #f4f4f4;
