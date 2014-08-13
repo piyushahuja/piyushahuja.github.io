@@ -3,18 +3,25 @@
 
   {% include head.html %}
 
-    <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
+<body id="{{ page.section }}">
 
 
-    <!--{% include footer.html %}-->
+    <div id="site">
 
-    </body>
+        {{ content }}
+
+ <!--    <div id="footer">
+        {% include footer.html %}
+
+     </div> -->
+    </div> 
+
+</body>
 </html>
+
+
+
+
+  
+  
+  

@@ -1,0 +1,34 @@
+---
+layout: default
+top: Piyush Ahuja
+feed: atom.xml
+---
+
+<div id="header">
+  {% include nav-home.html %}
+</div>
+
+<div id="page">
+  
+  <h1 class="emphnext">{{ page.title }}</h1>
+
+{{ content }}
+
+  <address class="signature">
+    <a class="author" href="/about">Piyush Ahuja</a> 
+    <span class="date">{{ page.date | date_to_long_string }}</span>
+    <span class="location">{{ page.location }}</span>
+  </address>
+</div><!-- End Page -->
+
+
+
+
+<!-- Discus Comments -->
+<div id="disqus_thread">
+  {% include comments.html %}
+ </div>
+<!-- Enable Disqus comments -->
+
+
+

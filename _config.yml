@@ -1,12 +1,14 @@
 # Site settings
 title: Piyush Ahuja
 email: piyushahuja.in@gmail.com
-description: ""
+description: "This is Piyush Ahuja's website"
 baseurl: ""
 url: "http://piyushahuja.com"
-essays: '/_essays/'
+author: "Piyush Ahuja"
 
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+

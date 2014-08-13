@@ -1,76 +1,91 @@
 ---
-layout: page
+layout: page-home
 title: Links
 permalink: /links/
+section: Home
 ---
 
-Essays:
+<div class="section" markdown="1">
+Essays
+=====
 
-- [Paul Graham](http://www.paulgraham.com/articles.html)
-- [Peter Thiel](http://blakemasters.com/peter-thiels-cs183-startup)
-- [Less Wrong](http://wiki.lesswrong.com/wiki/Sequences)
-- [Overcoming Bias](http://www.overcomingbias.com/archives)
-- [Zen Habbits](http://zenhabits.net/archives/)
-- [Reid Hoffman](http://reidhoffman.org/essays/)
-- [Daniel Lemire](http://lemire.me/blog/)
-- [Gwern](http://www.gwern.net/)
-- [Aaron Swartz](http://www.aaronsw.com/weblog/)
-- [Terrence Tao](http://terrytao.wordpress.com/career-advice/)
-- [Nate Kreuter](http://www.natekreuter.net/)
-- [Kaj Sotala](http://kajsotala.fi/)
-- [Luke Muehlhauser](http://lukeprog.com/writings.html)
-- [The Ferrett](http://theferrett.livejournal.com/)
-
-Miscellaneous:
-
-- [Futility Closer](http://www.futilitycloset.com/)
-- [Brain Pickings](http://www.brainpickings.org/)
-- [Letters of Note](http://www.lettersofnote.com/)
-- [Zen Pencils](http://zenpencils.com/)
-- [Ashish Shakya](http://stupidusmaximus.wordpress.com/)
-- [Lapidariam Notes](http://aminotes.tumblr.com/)
-- [The Dictionary of Obscure Sorrows](http://www.dictionaryofobscuresorrows.com/)
-- [Tales of Mere Existence](https://www.youtube.com/show/talesofmereexistence)
-- [RSA Animate](http://www.thersa.org/events/rsaanimate)
-- [Critical Theory](http://www.critical-theory.com/)
-
-Game Theory, Puzzles and Algorithms:
-
-- [Mind Your Decisions](http://mindyourdecisions.com/blog/)
-- [Prateek Poddar](http://www.cseblog.com/)
-- [Michael Nielson](http://michaelnielsen.org/blog/writing/)
-- [Gurmeet Puzzles](http://gurmeet.net/puzzles/)
-
-Literature:
-
-- [O Henry](http://www.literaturecollection.com/a/o_henry/)
-- [James Somers](http://jsomers.net/#feeds)
-- [James Mickens](http://blogs.msdn.com/b/oldnewthing/archive/2013/12/24/10484402.aspx)
+[Paul Graham](http://www.paulgraham.com/articles.html)
+| [Peter Thiel](http://blakemasters.com/peter-thiels-cs183-startup)
+| [Less Wrong](http://wiki.lesswrong.com/wiki/Sequences)
+| [Overcoming Bias](http://www.overcomingbias.com/archives)
+| [Zen Habbits](http://zenhabits.net/archives/)
+| [Reid Hoffman](http://reidhoffman.org/essays/)
+| [Daniel Lemire](http://lemire.me/blog/)
+| [Gwern](http://www.gwern.net/)
+| [Aaron Swartz](http://www.aaronsw.com/weblog/)
+| [Terrence Tao](http://terrytao.wordpress.com/career-advice/)
+| [Nate Kreuter](http://www.natekreuter.net/)
+| [Kaj Sotala](http://kajsotala.fi/)
+| [Luke Muehlhauser](http://lukeprog.com/writings.html)
+| [The Ferrett](http://theferrett.livejournal.com/)
 
 
-Philsophy:
+Interesting
+=====
 
-- [Justin Lieber](http://mailer.fsu.edu/~jleiber/Justin%20Leiber's%20Home%20Page.htm)
-- [Michael Sandel's Justice Lectures](http://www.justiceharvard.org/watch/)
-- [Scott Aaronson](http://www.scottaaronson.com/blog/)
+[Futility Closet](http://www.futilitycloset.com/)
+| [Brain Pickings](http://www.brainpickings.org/)
+| [Letters of Note](http://www.lettersofnote.com/)
+| [Zen Pencils](http://zenpencils.com/)
+| [Ashish Shakya](http://stupidusmaximus.wordpress.com/)
+| [Lapidariam Notes](http://aminotes.tumblr.com/)
+| [The Dictionary of Obscure Sorrows](http://www.dictionaryofobscuresorrows.com/)
+| [Tales of Mere Existence](https://www.youtube.com/show/talesofmereexistence)
+| [RSA Animate](http://www.thersa.org/events/rsaanimate)
+| [Critical Theory](http://www.critical-theory.com/)
+| [The Gateless Gate](http://www.ibiblio.org/zen/cgi-bin/koan-index.pl)
 
-Economics and Policy:
+Puzzles:
+=====
 
-- [Berkeley's Course on IT Strategy, Economics and Policy](http://courses.ischool.berkeley.edu/i290-itesap/f11/Readings.html)
+[Mind Your Decisions](http://mindyourdecisions.com/blog/)
+| [Prateek Poddar](http://www.cseblog.com/)
+| [Michael Nielson](http://michaelnielsen.org/blog/writing/)
+| [Gurmeet Puzzles](http://gurmeet.net/puzzles/)
 
-Productivity:
+Literature
+=====
 
-- [Matt Might](http://matt.might.net/articles/)
-- [The Art of Manliness](http://www.artofmanliness.com/2011/11/13/masculine-voice/)
+[O Henry](http://www.literaturecollection.com/a/o_henry/)
+| [James Somers](http://jsomers.net/#feeds)
+| [James Mickens](http://blogs.msdn.com/b/oldnewthing/archive/2013/12/24/10484402.aspx)
 
-Friends:
 
-- [Samar Singla](http://samarsingla.com/)
-- [Manu Saxena](http://manusaxena.blogspot.in/)
+Philosophy
+=====
 
-India:
+[Justin Lieber](http://mailer.fsu.edu/~jleiber/Justin%20Leiber's%20Home%20Page.htm)
+| [Michael Sandel's Justice Lectures](http://www.justiceharvard.org/watch/)
+| [Scott Aaronson](http://www.scottaaronson.com/blog/)
 
-- [Caravan Magazine](http://www.caravanmagazine.in/reporting-and-essays/essay)
+Economics:
+=====
+[Berkeley's Course on IT Strategy, Economics and Policy](http://courses.ischool.berkeley.edu/i290-itesap/f11/Readings.html)
+
+Productivity
+=====
+
+[Matt Might](http://matt.might.net/articles/)
+| [The Art of Manliness](http://www.artofmanliness.com/2011/11/13/masculine-voice/)
+
+Kith
+=====
+
+[Samar Singla](http://samarsingla.com/)
+| [Manu Saxena](http://manusaxena.blogspot.in/)
+
+India
+=====
+
+[Caravan Magazine](http://www.caravanmagazine.in/reporting-and-essays/essay)
+
+
+
 
 
 
