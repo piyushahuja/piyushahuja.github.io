@@ -84,7 +84,11 @@ India
 
 [Caravan Magazine](http://www.caravanmagazine.in/reporting-and-essays/essay)
 
+Academia
+=====
 
+[J Michael Steel @ Wharton Stats](http://www-stat.wharton.upenn.edu/~steele/Rants.htm)
+| [David Aldous @ Berkeley Stats](http://www.stat.berkeley.edu/~aldous/)
 
 
 
