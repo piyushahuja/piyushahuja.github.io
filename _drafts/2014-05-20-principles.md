@@ -30,7 +30,7 @@ Who says success has to be incremental[^eg] - or what is the right mix. Maybe al
 Who says the secret of success lies in following your passion? Maybe following comes first and whatever you follow is termed passion? Maybe success lies in having a flexible passion, and bending it to suit the needs of the hour. Maybe you need to undergo painful tasks you hate as rites of passage.
 
 Nothing is difficult in itself, only unfamiliar. 
-
+http://www.43folders.com/2009/01/02/feeling-creative
 
 ***
 

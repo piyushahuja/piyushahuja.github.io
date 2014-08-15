@@ -28,7 +28,8 @@ Essays
 Interesting
 =====
 
-[Futility Closet](http://www.futilitycloset.com/)
+[Nowness](http://www.nowness.com/)
+| [Futility Closet](http://www.futilitycloset.com/)
 | [Brain Pickings](http://www.brainpickings.org/)
 | [Letters of Note](http://www.lettersofnote.com/)
 | [Zen Pencils](http://zenpencils.com/)
@@ -71,7 +72,9 @@ Productivity
 =====
 
 [Matt Might](http://matt.might.net/articles/)
-| [The Art of Manliness](http://www.artofmanliness.com/2011/11/13/masculine-voice/)
+| [The Art of Manliness](http://www.artofmanliness.com/2011/11/13/masculine-voice/) 
+| [43 Folders](http://www.43folders.com/howto) 
+
 
 Kith
 =====
