@@ -6,6 +6,4 @@ section: Home
 ---
 
 
-I write stuff here. 
-
-
+I write stuff.

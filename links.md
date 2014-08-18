@@ -13,7 +13,6 @@ Essays
 | [Peter Thiel](http://blakemasters.com/peter-thiels-cs183-startup)
 | [Less Wrong](http://wiki.lesswrong.com/wiki/Sequences)
 | [Overcoming Bias](http://www.overcomingbias.com/archives)
-| [Zen Habbits](http://zenhabits.net/archives/)
 | [Reid Hoffman](http://reidhoffman.org/essays/)
 | [Daniel Lemire](http://lemire.me/blog/)
 | [Gwern](http://www.gwern.net/)
@@ -40,6 +39,9 @@ Interesting
 | [RSA Animate](http://www.thersa.org/events/rsaanimate)
 | [Critical Theory](http://www.critical-theory.com/)
 | [The Gateless Gate](http://www.ibiblio.org/zen/cgi-bin/koan-index.pl)
+| [The Confectionary Stall by Andy Zaltzman](http://www.espncricinfo.com/blogs/content/story/blogs?genre=457)
+
+
 
 Puzzles:
 =====
@@ -55,6 +57,8 @@ Literature
 [O Henry](http://www.literaturecollection.com/a/o_henry/)
 | [James Somers](http://jsomers.net/#feeds)
 | [James Mickens](http://blogs.msdn.com/b/oldnewthing/archive/2013/12/24/10484402.aspx)
+| [Science Creative Quaterly Humour](http://www.scq.ubc.ca/humour/)
+
 
 
 Philosophy
@@ -74,7 +78,8 @@ Productivity
 [Matt Might](http://matt.might.net/articles/)
 | [The Art of Manliness](http://www.artofmanliness.com/2011/11/13/masculine-voice/) 
 | [43 Folders](http://www.43folders.com/howto) 
-
+| [Zen Habbits](http://zenhabits.net/archives/)
+| [Minimalism](http://mnmlist.com/)
 
 Kith
 =====

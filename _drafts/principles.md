@@ -42,7 +42,10 @@ Nothing is difficult in itself, only unfamiliar.
 
 Decisiveness: Don't retype, don't correct, don't care. You’re always right, even when you’re wrong.
 
-Call out bullshit when you see it. For errors, apologies can be delivered later.
+Call out bullshit when you see it. For errors, apologies can be delivered later
+
+It is not about actions. It is about how you conduct actions. Stength and character come from the *way* you conduct yourself, not through whether you conduct yourself at all or not. So make that phone call when it's needed. Follow-up. Ask if the other person is alright. Apologize. Ask for that job. Show that you're serious in the interview. These actions in themeselves don't mean anything. Your demeanour and behavioral response would show that. Dont be "I’m a deserving guy – my work speaks for itself. I don’t need to be a salesperson " Be a salesperson. But a serious one. Any only sell things you actually have. It's all in context, body language and substance.
+.
 
 Perceptions of work are often different and sometimes more important than actuality. (Case in point - Singapore, QC, CGPA, MTP) . Sense of Value is different from actual value.
 
