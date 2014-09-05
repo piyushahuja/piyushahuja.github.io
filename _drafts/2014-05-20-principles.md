@@ -38,7 +38,15 @@ http://www.43folders.com/2009/01/02/feeling-creative
 
  For a leader, it is essential that he always maintains an aura of infinite depth. To show your own boundaries pins down exactly what you are - leaving little to the imagination. It humanizes you to the point that people think you are one of them in ability as well - and then look down on you - which does not bode well for you to lead. People want to be led by someone who they perceive to be better than them in a black-box sort of way. Being opaque gives the impression of a black-box - you never know what it has the potential of producing, and to what depths your talent extends has a reasonable degree of ambiguity about it. 
 
+"Consider the claim that "we are likely to admire behavior more as we understand it less" (p. 53). In a strong sense of "explain," it follows that we admire virtually all behavior, since we can explain virtually none. In a looser sense, Skinner is claiming that if Eichmann is incomprehensible to us, but we understand why the Vietnamese fight on, then we are likely to admire Eichmann but not the Vietnamese resistance." - Chomsky, The case against Skinner
+
+
  In the same spirit, never repeat a joke. Never repeat emphasize a thought. Not only does it leave the impression that you're rather limited in your ideas, but it also disincentivizes thinking about new ones.
+Added Note: A leader should make his positive attributes, actions and behavior ununderstandable, but his negative actions understandable. 
+
+Similarly, Skinner asserts, "Except when physically restrained, a person is least free or dignified when he is under threat of punishment" (p. 60). Thus someone who refuses to bend to authority in the face of severe threat has lost his dignity. Point to be noted: Silence is not always a virtue.
+
+
 
 Decisiveness: Don't retype, don't correct, don't care. You’re always right, even when you’re wrong.
 
@@ -80,7 +88,11 @@ Before taking on a task, ask yourself is it meaningful to you because of itself,
 
 ***
 
+####Friendships
 
+If you aren't in a social circle you wanted, then you can cultivate your own social circle. Seek out, talk to people, participate, build relationships. Case in point - Quizzing Club, Couch Surfing, Eton Hall
+
+***
 [^eg]: That if you are to become a good poet you have to be writing poem from a young age, that if you are to be be a government head you have to be president of a student union, ...
 
 

@@ -12,7 +12,7 @@ A mathematician who is not also something of a poet will never be a complete mat
 — Karl Weierstrass
 Such is the advantage of a well constructed language that its simplified notation often becomes the source of profound theories.
 — Pierre-Simon Laplace (source)
-
+http://en.wikipedia.org/wiki/Intuitionist
 Imagine a parallel universe, a very simplistic one,  where a civilization is on the cusp of enlightenment. People are making observations of the world around them, taking notes, springing up hypotheses, recording more observations and so on. They notice that there are in total 32 distinct individuals in their world, and though sometimes a few die and some are resurrected, that number never increases. They discover 
 
 these individuals can be categorised into two symmetric types - which they call black and white. Thhey discover more rules: each type kills the other type, the motion of different individuals are restricted and follow certain patterns, that each individual occupies what can be called a square, that their world is a grid-like space having 64 such squares, and so on. They give specific names to each categorisation of individual  - knights, bishops, queens, kings, pawns, rook, to patterns - castling, checkmate etc, and so on. Till a point come where there is no further categorisation or rule left - they've recorded them all and given them names.

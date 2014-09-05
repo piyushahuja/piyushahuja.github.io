@@ -22,10 +22,19 @@ Essays
 | [Kaj Sotala](http://kajsotala.fi/)
 | [Luke Muehlhauser](http://lukeprog.com/writings.html)
 | [The Ferrett](http://theferrett.livejournal.com/)
+| [George Orwell](http://orwell.ru/library/essays/index_en)
+| [Bertrand Russell](http://www.users.drew.edu/~jlenz/brtexts.html)
+| [Kevin Simler](http://www.meltingasphalt.com/)
+| [Richard Dawkings](http://old.richarddawkins.net/archive/originals/latest)
+| [Elizier Yudkowsky](http://yudkowsky.net/)
 
-
-Interesting
+Random
 =====
+[Mark Hill](http://www.mehill.org/)
+| [Ted Talks](https://spreadsheets.google.com/spreadsheet/lv?key=tWri7T3f4Ex6-uVU8i9-FFQ&type=view&gid=0&f=true&sortcolid=10&sortasc=false&rowsperpage=250&pli=1)
+| [Plinkett Movie Reviews](http://redlettermedia.com/plinkett/star-wars/star-wars-episode-ii-attack-of-the-clones/)
+| [Changemakers](http://www.changemakers.com/)
+| [Best of Rationality Quotes](http://people.mokk.bme.hu/~daniel/rationality_quotes_2013/rq.html)
 
 [Nowness](http://www.nowness.com/)
 | [Futility Closet](http://www.futilitycloset.com/)
@@ -38,10 +47,13 @@ Interesting
 | [Tales of Mere Existence](https://www.youtube.com/show/talesofmereexistence)
 | [RSA Animate](http://www.thersa.org/events/rsaanimate)
 | [Critical Theory](http://www.critical-theory.com/)
-| [The Gateless Gate](http://www.ibiblio.org/zen/cgi-bin/koan-index.pl)
+| [Zen Koans in The Gateless Gate](http://www.ibiblio.org/zen/cgi-bin/koan-index.pl)
 | [The Confectionary Stall by Andy Zaltzman](http://www.espncricinfo.com/blogs/content/story/blogs?genre=457)
-
-
+| [Grooks by Piet Hein](http://www.archimedes-lab.org/grooks.html)
+| [Letters of Note](http://www.lettersofnote.com/)
+| [Why are there no girls in SF?](http://whytherearenogirls.blogspot.in/)
+| [Shots of Awe](http://thisisjasonsilva.com/)
+| [Birdbox Studio](http://birdboxstudio.com/)
 
 Puzzles:
 =====
@@ -80,6 +92,9 @@ Productivity
 | [43 Folders](http://www.43folders.com/howto) 
 | [Zen Habbits](http://zenhabits.net/archives/)
 | [Minimalism](http://mnmlist.com/)
+| [The Municipal Machiavelli](http://ianchadwick.com/machiavelli/chapters-1-7/chapter-1-home-town-kingdoms/)
+| [Crossword Unclued] (http://www.crosswordunclued.com/2008/08/tackling-cryptic-crosswords-7-step_11.html)
+| [Wordplay](http://www.fun-with-words.com/index.html)
 
 Kith
 =====

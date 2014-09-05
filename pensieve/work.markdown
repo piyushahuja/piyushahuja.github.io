@@ -95,8 +95,8 @@ _[The Problem of Consciousness][yields2]{:.pdf :}_. In _Mind, Machine and Langua
 [name]: /files/essays/name.pdf
 [knight]: /files/writings/knight.pdf
 [god]: /files/writings/god.pdf
-[thesaurus]: files/writings/jurrasicwispers.pdf
-[othello]: files/presentations/othello.pdf
-[yields2]: files/presentations/yields.pdf
+[thesaurus]: /files/writings/jurrasicwispers.pdf
+[othello]: /files/presentations/othello.pdf
+[yields2]: /files/presentations/yields.pdf
 
 
