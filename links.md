@@ -70,6 +70,7 @@ Literature
 | [James Somers](http://jsomers.net/#feeds)
 | [James Mickens](http://blogs.msdn.com/b/oldnewthing/archive/2013/12/24/10484402.aspx)
 | [Science Creative Quaterly Humour](http://www.scq.ubc.ca/humour/)
+| [Simon Rich](http://www.newyorker.com/contributors/simon-rich)
 
 
 
