@@ -27,6 +27,7 @@ Essays
 | [Kevin Simler](http://www.meltingasphalt.com/)
 | [Richard Dawkings](http://old.richarddawkins.net/archive/originals/latest)
 | [Elizier Yudkowsky](http://yudkowsky.net/)
+| [Pico Iyer](http://picoiyerjourneys.com/index.php/theinnerworld/)
 
 Random
 =====
