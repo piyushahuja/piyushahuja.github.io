@@ -28,6 +28,7 @@ Essays
 | [Richard Dawkings](http://old.richarddawkins.net/archive/originals/latest)
 | [Elizier Yudkowsky](http://yudkowsky.net/)
 | [Pico Iyer](http://picoiyerjourneys.com/index.php/theinnerworld/)
+| [Slate Star Codex](http://slatestarcodex.com/about/)
 
 Random
 =====
@@ -36,6 +37,7 @@ Random
 | [Plinkett Movie Reviews](http://redlettermedia.com/plinkett/star-wars/star-wars-episode-ii-attack-of-the-clones/)
 | [Changemakers](http://www.changemakers.com/)
 | [Best of Rationality Quotes](http://people.mokk.bme.hu/~daniel/rationality_quotes_2013/rq.html)
+| [John Green Crash Courses] (https://www.youtube.com/user/crashcourse)
 
 [Nowness](http://www.nowness.com/)
 | [Futility Closet](http://www.futilitycloset.com/)
@@ -103,6 +105,7 @@ Kith
 
 [Samar Singla](http://samarsingla.com/)
 | [Manu Saxena](http://manusaxena.blogspot.in/)
+| [Prachi] (http://whatshallwedowithasoberexplorer.wordpress.com/)
 
 India
 =====
