@@ -37,7 +37,7 @@ Random
 | [Plinkett Movie Reviews](http://redlettermedia.com/plinkett/star-wars/star-wars-episode-ii-attack-of-the-clones/)
 | [Changemakers](http://www.changemakers.com/)
 | [Best of Rationality Quotes](http://people.mokk.bme.hu/~daniel/rationality_quotes_2013/rq.html)
-| [John Green Crash Courses] (https://www.youtube.com/user/crashcourse)
+| [John Green Crash Courses] (https://www.youtube.com/user/crashcourse.html)
 
 [Nowness](http://www.nowness.com/)
 | [Futility Closet](http://www.futilitycloset.com/)
@@ -105,7 +105,7 @@ Kith
 
 [Samar Singla](http://samarsingla.com/)
 | [Manu Saxena](http://manusaxena.blogspot.in/)
-| [Prachi] (http://whatshallwedowithasoberexplorer.wordpress.com/)
+| [Prachi] (http://whatshallwedowithasoberexplorer.wordpress.com)
 
 India
 =====
