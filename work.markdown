@@ -5,7 +5,7 @@ permalink: /work/
 section: Home
 ---
 
-If any of these interest you, feel free to reach out to me.
+Please feel free to reach out if you find any of these of interest. 
 
 <div class="section" markdown="1">
 
