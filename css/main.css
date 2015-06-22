@@ -1,4 +1,4 @@
-/* Base */
+ Base */
 /* ----------------------------------------------------------*/
 
 /** {
@@ -12,7 +12,7 @@
 html, body { height: 100%; }
 
 
-body {font-family: Palantino,'Sorts Mill Goudy', "times new roman", serif;
+body {font-family: Palantino,'Sorts Mill Goudy', ''times new roman", serif;
   font-size: 16px;
   font-weight: 300;
   background: #f4f4f4;
@@ -131,7 +131,7 @@ a:hover{color:blue; text-decoration:underline; }
 .post-header h5 {
   font-size: 20px;
   line-height: 1;
-  font-family: 'EB Garamond'
+  font-family: ''
   font-weight: 800;
 }
 

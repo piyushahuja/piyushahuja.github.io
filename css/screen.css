@@ -3,13 +3,14 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr { margin:0; padding:0;}
 /* @end */
 @import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
-/*@import url(http://fonts.googleapis.com/css?family=EB+Garamond);*/
+
 
 body {
-	font-family: Palatino, 'Sorts Mill Goudy', "times new roman", serif;
+	font-family: 'Sorts Mill Goudy',Palatino,  "times new roman", serif;
 	background-color: #f4f4f4;
 	background-position: center -18em;
-	background-repeat: repeat-x; 
+	background-repeat: repeat-x;
+	
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */

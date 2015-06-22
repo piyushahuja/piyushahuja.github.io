@@ -8,7 +8,7 @@ section: Home
 
 I graduated from IIT Delhi in 2013 with a major in Mathematics and Computing. Prior to that, I was born and brought-up in Chandigarh, where I had my schooling at St. John's High.
 
-Starting October 2014, I'd be reading Philosophy, Politics and Economics at University of Oxford.
+I am currently reading for a degree in Philosophy, Politics and Economics at the University of Oxford.
 
 
 

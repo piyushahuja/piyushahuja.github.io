@@ -32,7 +32,9 @@ Essays
 
 Random
 =====
-[Mark Hill](http://www.mehill.org/)
+
+[Bret Victor Projects](http://worrydream.com/)
+| [Mark Hill](http://www.mehill.org/)
 | [Ted Talks](https://spreadsheets.google.com/spreadsheet/lv?key=tWri7T3f4Ex6-uVU8i9-FFQ&type=view&gid=0&f=true&sortcolid=10&sortasc=false&rowsperpage=250&pli=1)
 | [Plinkett Movie Reviews](http://redlettermedia.com/plinkett/star-wars/star-wars-episode-ii-attack-of-the-clones/)
 | [Changemakers](http://www.changemakers.com/)
@@ -100,17 +102,14 @@ Productivity
 | [Crossword Unclued](http://www.crosswordunclued.com/2008/08/tackling-cryptic-crosswords-7-step_11.html)
 | [Wordplay](http://www.fun-with-words.com/index.html)
 
-Kith
+People I know
 =====
 
 [Samar Singla](http://samarsingla.com/)
 | [Manu Saxena](http://manusaxena.blogspot.in/)
 | [Prachi](http://whatshallwedowithasoberexplorer.wordpress.com)
 
-India
-=====
 
-[Caravan Magazine](http://www.caravanmagazine.in/reporting-and-essays/essay)
 
 Academia
 =====
