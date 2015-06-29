@@ -56,6 +56,15 @@ Perceptions of work are often different and sometimes more important than actual
 
 Smile judiciously. 
 
+"I think we all know that laughter brings relaxation, and that humor makes us playful, yet how many times important discussions been held where really original and creative ideas were desperately needed to solve important problems, but where humor was taboo because the subject being discussed was {air quotes} "so serious"?
+
+This attitude seems to me to stem from a very basic misunderstanding of the difference between 'serious' and 'solemn'.
+
+Now I suggest to you that a group of us could be sitting around after dinner, discussing matters that were extremely serious like the education of our children, or our marriages, or the meaning of life (and I'm not talking about the film), and we could be laughing, and that would not make what we were discussing one bit less serious.
+
+Solemnity, on the other hand… I don't know what it's for. I mean, what is the point of it? The two most beautiful memorial services that I've ever attended both had a lot of humor, and it somehow freed us all, and made the services inspiring and cathartic.
+
+But solemnity? It serves pomposity, and the self-important always know with some level of their consciousness that their egotism is going to be punctured by humor -- that's why they see it as a threat. And so {they} dishonestly pretend that their deficiency makes their views more substantial, when it only makes them feel bigger."
 ***
 
 #### Self-Improvement and Creativity
@@ -68,6 +77,7 @@ Smile judiciously.
 
  Keep the importance of framing and metaphors in mind. One can frame the Aam Aadmi Party as a startup, as a political party, or a philosophical club. You can be agony aunt, a grandma willow, or a consultant. Framing can also foster creativity - find new metaphors and things start becoming interesting.
 
+https://github.com/tjluoma/John-Cleese-on-Creativity/blob/master/Transcript.markdown#Bates
 
 When undertaking a new task, whether it is writing something to making a video or something, first do and then compare. Looking at other's work undermines your own creativity and aesthetic sensibility. Sure, do borrow good elements and styles from others, but the first draft has to be uniquely yours. Don't underestimate what your own mind can produce. If you do, then it won't, in a self-fullfilling prophetic way. Do not compromise on innovation.
 
