@@ -65,6 +65,14 @@ Now I suggest to you that a group of us could be sitting around after dinner, di
 Solemnity, on the other hand… I don't know what it's for. I mean, what is the point of it? The two most beautiful memorial services that I've ever attended both had a lot of humor, and it somehow freed us all, and made the services inspiring and cathartic.
 
 But solemnity? It serves pomposity, and the self-important always know with some level of their consciousness that their egotism is going to be punctured by humor -- that's why they see it as a threat. And so {they} dishonestly pretend that their deficiency makes their views more substantial, when it only makes them feel bigger."
+
+"Fake it till you make it; confidence is more important than knowledge. Don't be intimidated by anyone"
+
+Don't be afraid to ask questions. It's not about what you do, it's about the way you do it. (Duja asks questions all the time.)
+
+Don't be sensitive to what other people think of you. Seriously, don't even let that thought come near your thoughts. Let side remarks pass by (The questions he asks, they're so random).
+
+Always remember people by a few quirky facts. (A is worried her weight will be 60. A cries like a baby, and still worries about exams like a teenage girl. B does things for people. B thinks of technology as magic. C has too much food on her plate. C 'Love you loads')
 ***
 
 #### Self-Improvement and Creativity
@@ -85,6 +93,9 @@ Stay in the present.
 
 *When we are present to what is, we are right up front with the expansion of time, but when we make a mistake and get frozen in what was, a layer of detachment builds. Time goes on and we stop. Suddenly, we are living, playing chess, crossing the street with our eyes closed in memory. And then comes the taxicab.* - Josh Waitzkin, The Art of Learning
 
+"Go to your managers with solutions, instead of problems. Make their job easier, learn how they work, and then ride their coattails up the ladder."
+
+People care less than you think they do. They are less critical of you than you are of yourself.  This is true about any communication really: speech, presentations, writing, exam answers, online chat, wall posts, anything. 
 
 ***
 

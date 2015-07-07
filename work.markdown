@@ -13,7 +13,7 @@ Thesis
 =====
 
 [Approximation Algorithms in Network Design]()
-:   Linear Programming has been very powerful in obtaining good approximation algorithms for problems arising in network design. In this project, we study the modeling of these problems as integer programs. We survey the application of the primal dual method towards obtaining efficient approximation algorithms for the following NP-hard problems: Facility Location, Generalized Steiner tree, Prize Collecting Steiner Tree, Single-Sink Rent-or-Buy and Connected Facility Location. We devise a new primal dual algorithm for the Single-Sink Rent-or-Buy problem using a natural integer program. We also find pathological cases where the algorithm fails, and prove elementary results about the working of the algorithm and the structure of the optimal solution. We investigate the scope for improvement in the 4.55 approximation algorithm by Swamy and Kumar. We identify the sources of inefficiencies in the algorithm, and prove a lower bound of 3 on its performance guarantee.
+:   Linear Programming has been very powerful in obtaining good approximation algorithms for problems arising in network design. In this project, we study the modeling of these problems as integer programs. We survey the application of the primal dual method towards obtaining efficient approximation algorithms for the following NP-hard problems: Facility Location, Generalized Steiner tree, Prize Collecting Steiner Tree, Single-Sink Rent-or-Buy and Connected Facility Location. We devise a new primal dual algorithm for the Single-Sink Rent-or-Buy problem using a natural integer program. We identify the pathological cases where the algorithm fails. Elementary results about the working of the algorithm and the structure of the optimal solution are proved. We also investigate whether there is a scope of improvement in the 4.55 approximation algorithm by Swamy and Kumar. In doing this, we prove a lower bound of 3 on its performance guarantee.
 
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 
@@ -44,10 +44,10 @@ _[Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Tec
 _[Redimensioning of Euclidean Spaces ][lapaper]{:.pdf :}_. _Preprint_ at [Arxiv](http://arxiv.org/abs/1307.7010)
 
 
-[Financial Theory and Functional Analysis]()
+<!-- [Financial Theory and Functional Analysis]()
 :   We study how concepts from measure theory can be used to capture information flow in financial markets. We show that the existence of the conditional expectation of a given random variable follows from the structure of \mathcal{L}_2 Hilbert Spaces. Interpreted this way, the conditional expectation is the orthogonal projection of the random variable on a sub − σ – algebra - the unique a.e best approximation of the random variable on the closed subspace of the space of all random variables with finite variance.
 
-_[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_. _[Conditional Expectation through Hilbert Spaces](/files/research/mad2.pdf){:.pdf :}_. _[Hilbert Spaces and Conditional Expectation (Slides)](/files/research/mad.pdf){:.pdf :}_.     
+_[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_. _[Conditional Expectation through Hilbert Spaces](/files/research/mad2.pdf){:.pdf :}_. _[Hilbert Spaces and Conditional Expectation (Slides)](/files/research/mad.pdf){:.pdf :}_.  -->    
 
 
 </div>
@@ -59,30 +59,30 @@ _[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_.
 Other Writings
 =====================
 
-_[What's in a Name?][name]{:.pdf :}_. An essay in Philosophy of Language.
 
-_[Yields Falsehood When Preceded by its Own Quotation][yields]{:.pdf :}_. On The Problem of Consciousness
+<!-- _[Yields Falsehood When Preceded by its Own Quotation][yields]{:.pdf :}_. On The Problem of Consciousness -->
 
 _[Game Theory and The Dark Knight][knight]{:.pdf :}_. Published in _Infinite Epsilons_ (Maths Department Magazine)
 
-_[A God's Workshop in an Idle Mind][god]{:.pdf :}_. Conversations with God
+<!-- _[A God's Workshop in an Idle Mind][god]{:.pdf :}_. Conversations with God
 
 _[Jurassic Whispers][thesaurus]{:.pdf :}_. A short poem
 
+_[What's in a Name?][name]{:.pdf :}_. An essay in Philosophy of Language. -->
 
 </div>
 
 ***
 
 <div class="section" markdown="1">
-
+<!-- 
 Presentations
 =====================
 
 _[Othello and Omkara: Reading Shakespeare in Modern Times][othello]{:.pdf :}_. In _Introduction to Drama_.
 
 
-_[The Problem of Consciousness][yields2]{:.pdf :}_. In _Mind, Machine and Language_.
+_[The Problem of Consciousness][yields2]{:.pdf :}_. In _Mind, Machine and Language_. -->
 
 
 
@@ -96,7 +96,7 @@ _[The Problem of Consciousness][yields2]{:.pdf :}_. In _Mind, Machine and Langua
 [name]: /files/essays/name.pdf
 [knight]: /files/writings/knight.pdf
 [god]: /files/writings/god.pdf
-[thesaurus]: /files/writings/jurrasicwispers.pdf
+[thesaurus]: /files/writings/jurrasicwhispers.pdf
 [othello]: /files/presentations/othello.pdf
 [yields2]: /files/presentations/yields.pdf
 
