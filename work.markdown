@@ -56,7 +56,7 @@ _[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_.
 
 <div class="section" markdown="1">
 
-Other Writings
+Others
 =====================
 
 
