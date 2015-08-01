@@ -98,7 +98,7 @@ Productivity
 | [43 Folders](http://www.43folders.com/howto) 
 | [Zen Habbits](http://zenhabits.net/archives/)
 | [Minimalism](http://mnmlist.com/)
-| [The Municipal Machiavelli](http://ianchadwick.com/machiavelli/chapters-1-7/chapter-1-home-town-kingdoms/)
+.com/machiavelli/chapters-1-7/chapter-1-home-town-kingdoms/)
 | [Crossword Unclued](http://www.crosswordunclued.com/2008/08/tackling-cryptic-crosswords-7-step_11.html)
 | [Wordplay](http://www.fun-with-words.com/index.html)
 

@@ -21,6 +21,13 @@ _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 Research
 =====
 
+[The Congestion Option: Financial Instruments for the Internet ecoystem]() (Ongoing) 
+
+:   The modern multiparty ecosystem of the Internet can be viewed as an economy with self-interested agents corresponding to Internet Service Providers, Content Providers and Users. In this economy, the Content Providers face an economic risk, based on future congestion levels in the network. We model the network congestion as a stochastic process, where at each time instance the competing players perceive a common level of congestion, similar to market price in traditional economic models. Under suitable assumptions, the players in the model converge to a unique ‘Congestion Equilibrium’. Drawing analogies from risk models in financial markets and option contracts, we investigate the possibilities of ‘Congestion Options’ for the Internet economy, and devise fair valuations for these instruments.
+
+<!-- 
+_[The Congestion Option][nus]{:.pdf :}_ -->
+
 [Greed and Altruism: Observations through the lens of Behavioral Economics]()
 :   We investigate departures from Von-Neumann-Morgenstern rationality in human behavior in certain economic transactions, and explained them in light of the recent literature in Behavioral Economics. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and devise experiments to demonstrate it. We also hypothesize that the psychological value of money depends on ownership, and devise experiments to test it. 
 
@@ -28,10 +35,7 @@ _[Essays in Economics and Morality][rbn]{:.pdf :}_
 
 
 
-[The Congestion Option: Financial Instruments for the Internet ecoystem]()
-:   The modern multiparty ecosystem of the Internet can be viewed as an economy with self-interested agents corresponding to Internet Service Providers, Content Providers and Users. In this economy, the Content Providers face an economic risk, based on future congestion levels in the network. We model the network congestion as a stochastic process, where at each time instance the competing players perceive a common level of congestion, similar to market price in traditional economic models. Under suitable assumptions, the players in the model converge to a unique ‘Congestion Equilibrium’. Drawing analogies from risk models in financial markets and option contracts, we investigate the possibilities of ‘Congestion Options’ for the Internet economy, and devise fair valuations for these instruments.
 
-_[The Congestion Option][nus]{:.pdf :}_
 
 [Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Technology]()
 :   Artificial Intelligence began as a field probing some of the most fundamental questions of science - the nature of intelligence and the design of intelligent artifacts. But it has grown into a discipline that is deeply entwined with commerce and society. Today's AI technology, such as expert systems and intelligent assistants, pose some difficult questions of risk, trust and accountability. In this paper, we present these concerns, examining them in the context of historical developments that have shaped the nature and direction of AI research. We also suggest the exploration and further development of two paradigms, human intelligence-machine cooperation, and a sociological view of intelligence, which might help address some of these concerns.
