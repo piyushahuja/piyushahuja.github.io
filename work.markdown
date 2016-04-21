@@ -21,12 +21,12 @@ _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 Research
 =====
 
-[The Congestion Option: Financial Instruments for the Internet ecoystem]() (Ongoing) 
+[Congestion Based Financial Instruments for the Internet Economy]() 
 
-:   The modern multiparty ecosystem of the Internet can be viewed as an economy with self-interested agents corresponding to Internet Service Providers, Content Providers and Users. In this economy, the Content Providers face an economic risk, based on future congestion levels in the network. We model the network congestion as a stochastic process, where at each time instance the competing players perceive a common level of congestion, similar to market price in traditional economic models. Under suitable assumptions, the players in the model converge to a unique ‘Congestion Equilibrium’. Drawing analogies from risk models in financial markets and option contracts, we investigate the possibilities of ‘Congestion Options’ for the Internet economy, and devise fair valuations for these instruments.
+:   Could market mechanisms be employed to tackle or relieve Internet congestion? In particular, we look at three market mechanisms: consumer- side congestion pricing, content-side paid prioritization, and bilateral risk sharing agree- ments. While the former two have been heavily studied in economic literature, the risk sharing approach towards congestion is a novel addition of this thesis. We treat the un- certainty in broadband congestion levels as an economic risk that consumers and Inter- net businesses are forced to bear. The thesis investigates the possibility of introducing congestion-based financial instruments, similar to derivatives in a stock market, that efficiently allocate risk borne out of congestion.
 
-<!-- 
-_[The Congestion Option][nus]{:.pdf :}_ -->
+
+_[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
 
 [Greed and Altruism: Observations through the lens of Behavioral Economics]()
 :   We investigate departures from Von-Neumann-Morgenstern rationality in human behavior in certain economic transactions, and explained them in light of the recent literature in Behavioral Economics. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and devise experiments to demonstrate it. We also hypothesize that the psychological value of money depends on ownership, and devise experiments to test it. 

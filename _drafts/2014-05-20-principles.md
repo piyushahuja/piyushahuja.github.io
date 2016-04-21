@@ -73,13 +73,21 @@ Don't be afraid to ask questions. It's not about what you do, it's about the way
 Don't be sensitive to what other people think of you. Seriously, don't even let that thought come near your thoughts. Let side remarks pass by (The questions he asks, they're so random).
 
 Always remember people by a few quirky facts. (A is worried her weight will be 60. A cries like a baby, and still worries about exams like a teenage girl. B does things for people. B thinks of technology as magic. C has too much food on her plate. C 'Love you loads')
+
+First impressions are important, and the aura even more so. When someone has a good impression of you, all your actions are interpreted in a positive light, and you have more freedom in being yourself,  since you need not be apprehensive in your actions or intent being interpreted in the wrong way. 
+
 ***
 
 #### Self-Improvement and Creativity
 
+
+ Creativity is not an activity, an event, but a way of living life. Of living openly. It pervades each and everything you do, and has playfulness, openness, metaphors, analogy etc. as part of its recipe. 
+
  Keep the power of incremental effort and network effects in mind. While the big award seems miles away and no amount of effort can take you there, making a small effort might lead to a small reward which in turn might set off a series of events which leads to the big reward. 
 
  Don't be afraid of doing the ordinary, saying the conventional when it must be said or done. Differentiate between contrarianism and constructive skepticism. 
+
+ “...instead of problems you see potential, instead of obstacles you see opportunities, and instead of challenges you see a chance to create breakthrough solutions. All founders face obstacles. However, only those founders who envision a future where those challenges have been resolved have a high probability of successfully addressing them. 
 
  Modify your environment in such a way that the path you want to follow becomes the most convenient path. We habitually do not follow optimal path, but the path of least resistance. So a good idea is to change the resistance in such a way that they become the same - to change the rules of the game. For example, surround yourself with people you want to become. Change the default home page of your computer. Don't buy junk food. Espouse minimalism.
 
@@ -107,6 +115,7 @@ Before dreaming of doing anything, look at what you are giving up. Imagine the w
 
 Before taking on a task, ask yourself is it meaningful to you because of itself, or because of the sociocultural atmosphere around you. Is it eternally meaningful? In your old age, would you regret the time spent on that? What is your benchmark for social proof - is it your immediate circle, National, or International? Some of the things I have walked away from - BRCA elections, event management, jobs in finance sector- have been according to this principle. 
 
+"The libertarian worship of individual freedom, and contempt for social convention, comes easiest to people who have never really had to grow up. An appetite for disruption and risk—two of Thiel’s favorite words—reflects, in part, a sense of immunity to the normal heartbreak and defeats that a deadening job, money trouble, and unhappy children deal out to the “unthinking herd.” Thiel and his circle in Silicon Valley may be able to imagine a future that would never occur to other people precisely because they’ve refused to leave that stage of youthful wonder which life forces most human beings to outgrow. Everyone finds justification for his or her views in logic and analysis, but a personal philosophy often emerges from some archaic part of the mind, an early idea of how the world should be. Thiel is no different. He wants to live forever, have the option to escape to outer space or an oceanic city-state, and play chess against a robot that can discuss Tolkien, because these were the fantasies that filled his childhood imagination."
 ***
 
 ####Friendships
