@@ -28,7 +28,7 @@ Economics Thesis
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
 
 
-Research (Miscelanneous)
+Research (Misc)
 =====
 
 [Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Technology]()
