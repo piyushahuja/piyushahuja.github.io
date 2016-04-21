@@ -9,7 +9,7 @@ section: Home
 
 <div class="section" markdown="1">
 
-Thesis
+Maths/CS Thesis
 =====
 
 [Approximation Algorithms in Network Design]()
@@ -17,7 +17,8 @@ Thesis
 
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 
-
+Economics Thesis
+=====
 
 [Congestion Based Financial Instruments for the Internet Economy]() 
 
@@ -27,17 +28,8 @@ _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
 
 
-Research
+Research (Miscelanneous)
 =====
-
-[Greed and Altruism: Observations through the lens of Behavioral Economics]()
-:   We investigate departures from Von-Neumann-Morgenstern rationality in human behavior in certain economic transactions, and explained them in light of the recent literature in Behavioral Economics. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and devise experiments to demonstrate it. We also hypothesize that the psychological value of money depends on ownership, and devise experiments to test it. 
-
-_[Essays in Economics and Morality][rbn]{:.pdf :}_
-
-
-
-
 
 [Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Technology]()
 :   Artificial Intelligence began as a field probing some of the most fundamental questions of science - the nature of intelligence and the design of intelligent artifacts. But it has grown into a discipline that is deeply entwined with commerce and society. Today's AI technology, such as expert systems and intelligent assistants, pose some difficult questions of risk, trust and accountability. In this paper, we present these concerns, examining them in the context of historical developments that have shaped the nature and direction of AI research. We also suggest the exploration and further development of two paradigms, human intelligence-machine cooperation, and a sociological view of intelligence, which might help address some of these concerns.
@@ -48,6 +40,12 @@ _[Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Tec
 :   A vector space over a field $$\mathbb{F}$$ is a set $$V$$$ together with two binary operations, called vector addition and scalar multiplication. It is standard practice to think of a Euclidean space $$\mathbb{R}^n$$ as an $$n$$-dimensional real coordinate space i.e. the space of all $$n$$-tuples of real numbers $$R^n$$, with vector operations defined using real addition and multiplication coordinate-wise. A natural question which arises is if it is possible to redefine vector operations on the space in such a way that it acquires some other dimension, say $$k$$ (over the same field, i.e., $$\mathbb{R}$$). In this paper, we answer the question in the affirmative, for all $$k\in\mathbb{N}$$. We achieve the required dimension by `dragging' the structure of a standard $$k$$-dimensional Euclidean space $$\mathbb{R}^k$$ on the $n$-tuple of real numbers $$R^n$$. At the heart of the argument is Cantor's counterintuitive result that $$\mathbb{R}$$ is numerically equivalent to $$\mathbb{R}^n$$ for all $$n\in\mathbb{N}$$, which can be proved through an elegant construction. Finally, we generalize the result to all finite dimensional vector spaces.
 
 _[Redimensioning of Euclidean Spaces ][lapaper]{:.pdf :}_. _Preprint_ at [Arxiv](http://arxiv.org/abs/1307.7010)
+
+[Greed and Altruism: Observations through the lens of Behavioral Economics]()
+:   We investigate departures from Von-Neumann-Morgenstern rationality in human behavior in certain economic transactions, and explained them in light of the recent literature in Behavioral Economics. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and devise experiments to demonstrate it. We also hypothesize that the psychological value of money depends on ownership, and devise experiments to test it. 
+
+_[Essays in Economics and Morality][rbn]{:.pdf :}_
+
 
 
 <!-- [Financial Theory and Functional Analysis]()
@@ -78,7 +76,6 @@ _[What's in a Name?][name]{:.pdf :}_. An essay in Philosophy of Language. -->
 
 </div>
 
-***
 
 <div class="section" markdown="1">
 <!-- 
