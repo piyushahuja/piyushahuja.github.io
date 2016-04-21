@@ -18,8 +18,6 @@ Thesis
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 
 
-Research
-=====
 
 [Congestion Based Financial Instruments for the Internet Economy]() 
 
@@ -27,6 +25,10 @@ Research
 
 
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
+
+
+Research
+=====
 
 [Greed and Altruism: Observations through the lens of Behavioral Economics]()
 :   We investigate departures from Von-Neumann-Morgenstern rationality in human behavior in certain economic transactions, and explained them in light of the recent literature in Behavioral Economics. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and devise experiments to demonstrate it. We also hypothesize that the psychological value of money depends on ownership, and devise experiments to test it. 
@@ -89,7 +91,7 @@ _[Othello and Omkara: Reading Shakespeare in Modern Times][othello]{:.pdf :}_. I
 _[The Problem of Consciousness][yields2]{:.pdf :}_. In _Mind, Machine and Language_. -->
 
 
-
+[ppethesis]: /files/research/ppethesis.pdf
 [thesis]: /files/research/thesis.pdf
 [rbn]: /files/research/economicsandmorality.pdf
 [nus]: /files/research/congestionoption.pdf
