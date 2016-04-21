@@ -62,13 +62,13 @@ _[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_.
 
 <div class="section" markdown="1">
 
-Others
+<!-- Others
 =====================
 
 
-<!-- _[Yields Falsehood When Preceded by its Own Quotation][yields]{:.pdf :}_. On The Problem of Consciousness -->
+ _[Yields Falsehood When Preceded by its Own Quotation][yields]{:.pdf :}_. On The Problem of Consciousness 
 
-_[Game Theory and The Dark Knight][knight]{:.pdf :}_. Published in _Infinite Epsilons_ (Maths Department Magazine)
+ _[Game Theory and The Dark Knight][knight]{:.pdf :}_. Published in _Infinite Epsilons_ (Maths Department Magazine) --> 
 
 <!-- _[A God's Workshop in an Idle Mind][god]{:.pdf :}_. Conversations with God
 
