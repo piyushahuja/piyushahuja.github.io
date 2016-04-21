@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 section: Home
 ---
-<img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='220px'  /> 
+<img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='150px'  /> 
 
 I am currently reading for a second BA in Philosophy, Politics and Economics  at the University of Oxford.
 
