@@ -40,15 +40,15 @@ Linear Algebra
 =====
 
 [Changing Dimensions: A look at Euclidean Spaces]()
-:   A vector space over a field $$\mathbb{F}$$ is a set $$V$$$ together with two binary operations, called vector addition and scalar multiplication. It is standard practice to think of a Euclidean space $$\mathbb{R}^n$$ as an $$n$$-dimensional real coordinate space i.e. the space of all $$n$$-tuples of real numbers $$R^n$$, with vector operations defined using real addition and multiplication coordinate-wise. A natural question which arises is if it is possible to redefine vector operations on the space in such a way that it acquires some other dimension, say $$k$$ (over the same field, i.e., $$\mathbb{R}$$). In this paper, we answer the question in the affirmative, for all $$k\in\mathbb{N}$$. We achieve the required dimension by `dragging' the structure of a standard $$k$$-dimensional Euclidean space $$\mathbb{R}^k$$ on the $n$-tuple of real numbers $$R^n$$. At the heart of the argument is Cantor's counterintuitive result that $$\mathbb{R}$$ is numerically equivalent to $$\mathbb{R}^n$$ for all $$n\in\mathbb{N}$$, which can be proved through an elegant construction. Finally, we generalize the result to all finite dimensional vector spaces.
+:   A vector space over a field $$\mathbb{F}$$ is a set $$V$$ together with two binary operations, called vector addition and scalar multiplication. It is standard practice to think of a Euclidean space $$\mathbb{R}^n$$ as an $$n$$-dimensional real coordinate space i.e. the space of all $$n$$-tuples of real numbers $$R^n$$, with vector operations defined using real addition and multiplication coordinate-wise. A natural question which arises is if it is possible to redefine vector operations on the space in such a way that it acquires some other dimension, say $$k$$ (over the same field, i.e., $$\mathbb{R}$$). In this paper, we answer the question in the affirmative, for all $$k\in\mathbb{N}$$. We achieve the required dimension by `dragging' the structure of a standard $$k$$-dimensional Euclidean space $$\mathbb{R}^k$$ on the $n$-tuple of real numbers $$R^n$$. At the heart of the argument is Cantor's counterintuitive result that $$\mathbb{R}$$ is numerically equivalent to $$\mathbb{R}^n$$ for all $$n\in\mathbb{N}$$, which can be proved through an elegant construction. Finally, we generalize the result to all finite dimensional vector spaces.
 
 _[Redimensioning of Euclidean Spaces ][lapaper]{:.pdf :}_. _Preprint_ at [Arxiv](http://arxiv.org/abs/1307.7010)
 
 Behavioral Economics
 =====
 
-[Greed and Altruism: Observations through the lens of Behavioral Economics]()
-:   We investigate departures from Von-Neumann-Morgenstern rationality in human behavior in certain economic transactions, and explained them in light of the recent literature in Behavioral Economics. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and devise experiments to demonstrate it. We also hypothesize that the psychological value of money depends on ownership, and devise experiments to test it. 
+<!-- [Greed and Altruism: Observations through the lens of Behavioral Economics]()
+:   We investigate departures from Von-Neumann-Morgenstern rationality in human behavior in certain economic transactions, and explained them in light of the recent literature in Behavioral Economics. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and devise experiments to demonstrate it. We also hypothesize that the psychological value of money depends on ownership, and devise experiments to test it. -->
 
 _[Essays in Economics and Morality][rbn]{:.pdf :}_
 
