@@ -13,7 +13,8 @@ CS/Maths (Thesis)
 =====
 
 [Approximation Algorithms in Network Design]()
-:   Linear Programming has been very powerful in obtaining good approximation algorithms for problems arising in network design. In this project, we study the modeling of these problems as integer programs. We survey the application of the primal dual method towards obtaining efficient approximation algorithms for the following NP-hard problems: Facility Location, Generalized Steiner tree, Prize Collecting Steiner Tree, Single-Sink Rent-or-Buy and Connected Facility Location. We devise a new primal dual algorithm for the Single-Sink Rent-or-Buy problem using a natural integer program. We identify the pathological cases where the algorithm fails. Elementary results about the working of the algorithm and the structure of the optimal solution are proved. We also investigate whether there is a scope of improvement in the 4.55 approximation algorithm by Swamy and Kumar. In doing this, we prove a lower bound of 3 on its performance guarantee.
+:   Problems combining facility location with connectivity requirements are fundamental in network design. In this thesis, we investigate the Connected Facility Location (CFL) problem through the non-trivial special case of Single-Sink Rent-or Buy (SRoB) problem. We develop two approaches for this problem, and illustrate the limitations and promises of both. Our first approach is based on a natural linear program for SRoB. Till date, no algorithm based on this linear program is known. We sketch an algorithm which performs well in many instances of the problem, but runs into trouble for certain pathological cases, which we illustrate. Our second approach borrows ideas from the dual
+fitting algorithm for metric uncapacitated facility location by Jain et al. (called JMS algorithm), and combines it with the Goemans-Williamson moat growing procedure. This approach aims to neutralize the slack in the Goemans-Williamson argument with the one associated with the JMS procedure, and thus holds a lot of promise for achieving an overall 2-approximation for CFL. Apart from these two approaches, we investigate the scope for improvement in the 4.55- approximation algorithm due to Swamy and Kumar, which gives the current best primal-dual based performance guarantee for SRoB. We illustrate a very simple instance where the algorithm produces a 3-approximation, thus giving a lower bound on the performance guarantee for that algorithm
 
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 
@@ -22,7 +23,7 @@ Economics (Thesis)
 
 [Congestion Based Financial Instruments for the Internet Economy]() 
 
-:   Could market mechanisms be employed to tackle or relieve Internet congestion? In particular, we look at three market mechanisms: consumer- side congestion pricing, content-side paid prioritization, and bilateral risk sharing agree- ments. While the former two have been heavily studied in economic literature, the risk sharing approach towards congestion is a novel addition of this thesis. We treat the un- certainty in broadband congestion levels as an economic risk that consumers and Inter- net businesses are forced to bear. The thesis investigates the possibility of introducing congestion-based financial instruments, similar to derivatives in a stock market, that efficiently allocate risk borne out of congestion.
+:   Could market mechanisms be employed to tackle or relieve Internet congestion? In particular, we look at three market mechanisms: consumer-side congestion pricing, content-side paid prioritization, and bilateral risk sharing agree- ments. While the former two have been heavily studied in economic literature, the risk sharing approach towards congestion is a novel addition of this thesis. We treat the uncertainty in broadband congestion levels as an economic risk that consumers and Internet businesses are forced to bear. The thesis investigates the possibility of introducing congestion-based financial instruments, similar to derivatives in a stock market, that efficiently allocate risk borne out of congestion.
 
 
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
@@ -32,7 +33,7 @@ AI and Society
 =====
 
 [Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Technology]()
-:   Artificial Intelligence began as a field probing some of the most fundamental questions of science - the nature of intelligence and the design of intelligent artifacts. But it has grown into a discipline that is deeply entwined with commerce and society. Today's AI technology, such as expert systems and intelligent assistants, pose some difficult questions of risk, trust and accountability. In this paper, we present these concerns, examining them in the context of historical developments that have shaped the nature and direction of AI research. We also suggest the exploration and further development of two paradigms, human intelligence-machine cooperation, and a sociological view of intelligence, which might help address some of these concerns.
+:   Artificial Intelligence began as a field probing some of the most fundamental questions of science - the nature of intelligence and the design of intelligent artifacts. But it has grown into a discipline that is deeply entwined with commerce and society. Today's AI technology, such as expert systems and intelligent assistants, raise difficult questions of risk, trust and accountability. In this paper, we present these concerns, examining them in the context of historical developments that have shaped the nature and direction of AI research. We also suggest the exploration and further development of two paradigms - human intelligence-machine cooperation and a sociological view of intelligence - which will help address these concerns.
 
 _[Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Technology][aipaper]{:.pdf :}_. _Preprint_ at [Arxiv](http://arxiv.org/abs/1307.7010)
 
@@ -47,8 +48,8 @@ _[Redimensioning of Euclidean Spaces ][lapaper]{:.pdf :}_. _Preprint_ at [Arxiv]
 Behavioral Economics
 =====
 
-<!-- [Greed and Altruism: Observations through the lens of Behavioral Economics]()
-:   We investigate departures from Von-Neumann-Morgenstern rationality in human behavior in certain economic transactions, and explained them in light of the recent literature in Behavioral Economics. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and devise experiments to demonstrate it. We also hypothesize that the psychological value of money depends on ownership, and devise experiments to test it. -->
+ [Greed and Altruism: Observations through the lens of Behavioral Economics]()
+:   Is our instinct for altruism pose a problem to economics view of rationality? The formulation of utility functions widely used in economics assumes that rationality (specifically Von Neumann­-Morgenstern rationality)requires completeness, transitivity, continuity, independences. These are quite reasonably requirements of rational behavior. However, we claim that human altruistic instinct leads to violations of transitivity and independence assumptions, and propose experiments to demonstrate it. We also explain these departures from VNM rationality in light of the recent literature on behavioral economics. Lastly, we hypothesize that the psychological value of money depends on ownership, and propose further experiments to test it. 
 
 _[Essays in Economics and Morality][rbn]{:.pdf :}_
 
