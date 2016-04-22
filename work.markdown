@@ -49,7 +49,7 @@ Behavioral Economics
 =====
 
  [Greed and Altruism: Observations through the lens of Behavioral Economics]()
-:   Is our instinct for altruism pose a problem to economics view of rationality? The formulation of utility functions widely used in economics assumes that rationality (specifically Von Neumann­-Morgenstern rationality)requires completeness, transitivity, continuity, independences. These are quite reasonably requirements of rational behavior. However, we claim that human altruistic instinct leads to violations of transitivity and independence assumptions, and propose experiments to demonstrate it. We also explain these departures from VNM rationality in light of the recent literature on behavioral economics. Lastly, we hypothesize that the psychological value of money depends on ownership, and propose further experiments to test it. 
+:   Is our instinct for altruism fatal to the assumptions of strict rationality in mainstream economics? Or is it flexible enough to accomodate it? Rationality in economics (specifically Von Neumann­-Morgenstern rationality) requires the satisfaction of four reasonable axioms: completeness, transitivity, continuity, independences. We claim that the human altruistic instinct leads to violations of transitivity and independence assumptions, and propose experiments to demonstrate it. We also explain these departures from VNM rationality in light of the recent literature on behavioral economics. Lastly, we hypothesize that the psychological value of money depends on ownership, and propose further experiments to test it. 
 
 _[Essays in Economics and Morality][rbn]{:.pdf :}_
 
