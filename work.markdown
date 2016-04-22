@@ -9,7 +9,7 @@ section: Home
 
 <div class="section" markdown="1">
 
-Maths/CS Thesis
+CS/Maths (Thesis)
 =====
 
 [Approximation Algorithms in Network Design]()
@@ -17,7 +17,7 @@ Maths/CS Thesis
 
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 
-Economics Thesis
+Economics (Thesis)
 =====
 
 [Congestion Based Financial Instruments for the Internet Economy]() 
