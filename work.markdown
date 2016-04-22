@@ -9,7 +9,7 @@ section: Home
 
 <div class="section" markdown="1">
 
-CS/Maths (Thesis)
+Theoretical CS (Thesis)
 =====
 
 [Approximation Algorithms in Network Design]()
