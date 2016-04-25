@@ -21,11 +21,11 @@ _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 
 Economics (Thesis)
 =====
-
+<!--
 [Congestion Based Financial Instruments for the Internet Economy]() 
 
 :   Could market mechanisms be employed to tackle or relieve Internet congestion? We look at three market mechanisms: consumer-side congestion pricing, content-side paid prioritization, and bilateral risk sharing agree- ments. While the former two have been heavily studied in economic literature, the risk sharing approach towards congestion is a novel addition of this thesis. We treat the uncertainty in broadband congestion levels as an economic risk that consumers and Internet businesses are forced to bear. The thesis investigates the possibility of introducing congestion-based financial instruments, similar to derivatives in a stock market, that efficiently allocate risk borne out of congestion.
-
+-->
 
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
 
@@ -53,7 +53,7 @@ Behavioral Economics
 
 [Greed and Altruism: Observations through the lens of Behavioral Economics]()
 
-:   Is our instinct for altruism fatal to the assumptions of strict rationality in mainstream economics? Is the utility function in expected utility theory flexibile enough to accomodate altruistic preferences? Rationality in expected utility theory (specifically Von Neumann­-Morgenstern rationality) requires the satisfaction of four axioms: completeness, transitivity, continuity, independences. These are quite reasonable requirements of rational behavior. However, we argue that the human altruistic instinct can lead to violations of transitivity and independence axioms, and propose experiments to demonstrate it. We also explain these departures from VNM rationality in light of the recent literature on behavioral economics. Lastly, we hypothesize that the psychological value of money depends on ownership, and propose further experiments to test it. 
+:   Is our instinct for altruism fatal to the assumptions of strict rationality in mainstream economics? Or is the utility function in expected utility theory flexible enough to accomodate altruistic preferences? Rationality in expected utility theory (specifically Von Neumann­-Morgenstern rationality) requires the satisfaction of four axioms: completeness, transitivity, continuity, independence. These can be considered to be quite reasonable requirements of rational behavior. We argue, however, that the human altruistic instinct can lead to violations of transitivity and independence axioms, and propose experiments to demonstrate it. We also explain these departures from VNM rationality in light of the recent literature on behavioral economics. Lastly, we hypothesize that the psychological value of money depends on ownership, and propose further experiments to test it. 
 
 _[Essays in Economics and Morality][rbn]{:.pdf :}_
 
