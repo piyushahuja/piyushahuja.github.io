@@ -25,10 +25,10 @@ Economics (Thesis)
 [Congestion Based Financial Instruments for the Internet Economy]() 
 
 :   Could market mechanisms be employed to tackle or relieve Internet congestion? We look at three market mechanisms: consumer-side congestion pricing, content-side paid prioritization, and bilateral risk sharing agree- ments. While the former two have been heavily studied in economic literature, the risk sharing approach towards congestion is a novel addition of this thesis. We treat the uncertainty in broadband congestion levels as an economic risk that consumers and Internet businesses are forced to bear. The thesis investigates the possibility of introducing congestion-based financial instruments, similar to derivatives in a stock market, that efficiently allocate risk borne out of congestion.
--->
+
 
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
-
+-->
 
 AI and Society
 =====
