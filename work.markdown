@@ -18,7 +18,9 @@ Theoretical CS (Thesis)
 fitting algorithm for metric uncapacitated facility location by Jain et al. (called JMS algorithm), and combines it with the Goemans-Williamson moat growing procedure. This approach aims to neutralize the slack in the Goemans-Williamson argument with the one associated with the JMS procedure, and thus holds a lot of promise for achieving an overall 2-approximation for CFL. Apart from these two approaches, we investigate the scope for improvement in the 4.55- approximation algorithm due to Swamy and Kumar, which gives the current best primal-dual based performance guarantee for SRoB. We illustrate a very simple instance where the algorithm produces a 3-approximation, thus giving a lower bound on the performance guarantee for that algorithm
 
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
+
 <!--
+
 Economics (Thesis)
 =====
 
@@ -28,6 +30,7 @@ Economics (Thesis)
 
 
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
+
 -->
 
 AI and Society
