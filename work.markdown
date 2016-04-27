@@ -18,10 +18,10 @@ Theoretical CS (Thesis)
 fitting algorithm for metric uncapacitated facility location by Jain et al. (called JMS algorithm), and combines it with the Goemans-Williamson moat growing procedure. This approach aims to neutralize the slack in the Goemans-Williamson argument with the one associated with the JMS procedure, and thus holds a lot of promise for achieving an overall 2-approximation for CFL. Apart from these two approaches, we investigate the scope for improvement in the 4.55- approximation algorithm due to Swamy and Kumar, which gives the current best primal-dual based performance guarantee for SRoB. We illustrate a very simple instance where the algorithm produces a 3-approximation, thus giving a lower bound on the performance guarantee for that algorithm
 
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
-
+<!--
 Economics (Thesis)
 =====
-<!--
+
 [Congestion Based Financial Instruments for the Internet Economy]() 
 
 :   Could market mechanisms be employed to tackle or relieve Internet congestion? We look at three market mechanisms: consumer-side congestion pricing, content-side paid prioritization, and bilateral risk sharing agree- ments. While the former two have been heavily studied in economic literature, the risk sharing approach towards congestion is a novel addition of this thesis. We treat the uncertainty in broadband congestion levels as an economic risk that consumers and Internet businesses are forced to bear. The thesis investigates the possibility of introducing congestion-based financial instruments, similar to derivatives in a stock market, that efficiently allocate risk borne out of congestion.
