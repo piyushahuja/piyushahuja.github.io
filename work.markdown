@@ -19,7 +19,7 @@ fitting algorithm for metric uncapacitated facility location by Jain et al. (cal
 
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 
-<!--
+
 
 Economics (Thesis)
 =====
@@ -31,7 +31,7 @@ Economics (Thesis)
 
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
 
--->
+
 
 AI and Society
 =====
