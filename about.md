@@ -9,7 +9,7 @@ section: Home
 -->
 I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and Oxford. 
 
-I think a lot about the authenticity, identity, the possibility of communication, the problem of consciousness, philosophy of mathematics, and artistic expression. 
+I think a lot about authenticity and identity, the possibility of communication, the problem of consciousness, philosophy of mathematics, and artistic expression. 
 
 Among the artists I like are Hayao Miyazaki, David Foster Wallace, Wes Anderson and Radiolab the podcast. 
 
