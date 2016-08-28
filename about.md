@@ -11,7 +11,7 @@ I was born and brought up in Chandigarh, India, and have been educated at IIT De
 
 I think a lot about mathematics, consciousness, learning,  authenticity, and artistic expression. 
 
-Artists whose works I admire include Wes Anderson, Hayao Miyazaki, and David Foster Wallace.
+Artists whose works I admire include Wes Anderson, Hayao Miyazaki, and David Foster Wallace. I also like listening to Radiolab, the podcast. 
 
 I am 26. 
 
