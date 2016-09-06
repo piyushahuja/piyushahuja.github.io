@@ -1,11 +1,11 @@
 ---
 layout: post-journal
-title: Desires
+title: Ambitions
 date:   2015-08-23 09:00:11
 tag: 
 categories: journal
 excerpt: 
-permalink: /desires
+permalink: /ambition
 
 ---
 
