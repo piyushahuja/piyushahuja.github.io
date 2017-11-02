@@ -13,14 +13,16 @@ First and foremost, and this is very long-term, I want to write a novel. A good 
 
 Second, I want to be strong and muscular. I want to flick rock-heavy suitcases on my arms as if they were pillows. I want to have  a well toned body so that I don’t have to worry about my (rather non-existent) dressing sense. I want to look like Vin Diesel or Bruce Willis, not like a short middle aged bald man with a potbelly. I want to workout, swim, bike and row.
 
-Third, I want to develop a wicked wit and a spontaneous sense of humour. A sense of humour which is intelligent, which neither deprecates the self nor offends the other. I want to tease my friends about all the little idiosyncracies and contradictions they have. I want to poke fun at the absurdities of being human. I want to be able to speak open and full heartedly when I speak to my tutors, workplace colleages and acquaintances. I want to be able to cheer up a gathering. I want to be able to hold court at dinner parties. I want to have a way with words. 
+Third, I want to develop a wicked wit and a spontaneous sense of humour. A sense of humour which is intelligent, which neither deprecates the self nor offends the other. I want to tease my friends about all the little idiosyncracies and contradictions they have. I want to poke fun at the absurdities of being human. I want to be able to speak open and full heartedly when I speak to my tutors, workplace colleages and acquaintances. I want to be able to cheer up a gathering. I want to be able to hold court at dinner parties, give memorable speeches and be a powerful storyteller.  I want to have a way with words. 
 
-Fourth, I want to be skilled in my craft. Specifically, I want to be proficient at writing good, clean, and useful code. More generally, I want to have elaborate views on economic policies, backed by data and history. I want to be able to persuasively debate and argue on any question within the ambit of ethics and politics (or maybe even beyond), and skilled at solving puzzles and brain teasers with neat solutions. 
-
+Fourth, I want to be skilled in my craft. Specifically, I want to be proficient at writing good, clean, and useful code. More generally, I want to have elaborate views on economic policies, backed by data and history. I want to be able to persuasively debate and argue on any question within the ambit of ethics and politics (or maybe even beyond), and skilled at solving puzzles and brain teasers with deft solutions. 
 
 Fifth, I want to be be on top of practical life-saving skills, a la Bear Grylls. None of the above skills, for example, are going to help me during a Zombie Apocalype, so to speak.[^DM] So for starters, I want to know how to drive well in unwelcoming terrains, fix cars and bicycles, start and sustain a fire, and cook a good meal. I want to be extremely good at administering emergency medical aid, or treating anyone who is sick. I would also like to have have a working knowledge of plants and herbs in the wild, and know how to treat animals well.
 
-[^DM]: I am going to name this the *DM Test*, as a tribute to my friend who first used it against me to argue that learning economics is useless and something like medical makes much more sense.  
+
+Sixth, I want to be able to recruit, motivate, mentor and lead a team towards finishing a mission.  No Man is an Island (at least till the Zombie Apocalypse). I want to be able to persuade with charm and negotiate with guile. I want to be a formidable community leader. Being Formidable means being the kind of person who will get what they want, or get the work they want done, despite obstacles. 
+
+[^DM]: I am going to name this the *DM Test*, as a tribute to my friend who first used it against me to argue that learning economics is useless, while something like medical makes much more sense.  
 
 
 
