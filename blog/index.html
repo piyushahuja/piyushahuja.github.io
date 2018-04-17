@@ -1,5 +1,5 @@
 ---
-layout: page-journal
+layout: page-home
 title: Startup Notes
 permalink: /blog/
 section: Home
@@ -8,7 +8,7 @@ section: Home
 
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
-{% for post in site.categories.journal %}
+{% for post in site.categories.blog %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>
   <p class="line">
