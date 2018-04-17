@@ -1,13 +1,18 @@
 ---
 layout: page-home
-title: About Me
+title: About Me - Piyush Ahuja
 permalink: /about/
 section: Home
 ---
 
-<img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='100px'  /> 
+<!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='100px'  />  -->
 
 Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and The University of Oxford. These are the places I consider home. 
+
+I can be reached at piyushahuja.in@gmail.com. 
+
+
+
 <!-- 
 This is a little corner of the Internet which I have claimed for myself. -->
 
