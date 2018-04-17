@@ -9,9 +9,7 @@ section: Home
 -->
 I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and The University of Oxford. 
 
-I am into rowing, wine, philosophy, maths, and programming. 
-
-
+This is a little corner of the Internet which I have claimed for myself. 
 
 
 
