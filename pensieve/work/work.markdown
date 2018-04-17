@@ -1,5 +1,5 @@
 ---
-layout: page-home
+layout: page-journal
 title: Work
 permalink: /pensieve/work/
 section: Home
