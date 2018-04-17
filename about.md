@@ -10,6 +10,8 @@ section: Home
 Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and The University of Oxford. These are the places I consider home. 
 
 I love helping, mentoring or supporting others in their quest to make a difference in the world, or in improving the human condition. If that sounds like you, feel free to reach out to me at piyushahuja.in@gmail.com. 
+
+
 <!-- 
 Some of causes that are close to my heart are: early stage interventions in education - especially philosophy and math, promoting philosophical and critical thinking in the general population, and improving the lives of the marginalised. 
 
