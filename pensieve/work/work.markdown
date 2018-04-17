@@ -1,7 +1,7 @@
 ---
 layout: page-home
 title: Work
-permalink: /work/
+permalink: /pensieve/work/
 section: Home
 ---
 
