@@ -1,14 +1,13 @@
 ---
 layout: page-home
 title: On Startups
-permalink: /
 section: Home
 ---
 
 
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
-{% for post in site.categories.blog %}
+{% for post in site.categories.startup_essays %}
 <div class="section list">
   <h1>{{ post.date | date_to_string }}</h1>
   <p class="line">
