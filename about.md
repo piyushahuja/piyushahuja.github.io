@@ -9,7 +9,7 @@ section: Home
 
 Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and The University of Oxford. These are the places I consider home. 
 
-I love helping, mentoring, or supporting others in their quest to improve the human condition. If that sounds like you, feel free to reach out to me at piyushahuja.in@gmail.com. 
+I love helping, mentoring, or supporting others in their noble quests. If that is what you are upto, I'd love to hear about it! I can be reached at piyushahuja.in@gmail.com. 
 
 
 <!-- 
