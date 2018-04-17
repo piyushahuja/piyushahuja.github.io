@@ -29,8 +29,8 @@ Essays
 | [Elizier Yudkowsky](http://yudkowsky.net/)
 | [Pico Iyer](http://picoiyerjourneys.com/index.php/theinnerworld/)
 | [Slate Star Codex](http://slatestarcodex.com/about/)
-| [Nick Baily] (http://www.nickbaily.com/)
-| [David Heinemeier Hansson] (http://david.heinemeierhansson.com/)
+| [Nick Baily](http://www.nickbaily.com/)
+| [David Heinemeier Hansson](http://david.heinemeierhansson.com/)
 
 Random
 =====
