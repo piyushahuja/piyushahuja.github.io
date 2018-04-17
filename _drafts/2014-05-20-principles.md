@@ -25,7 +25,7 @@ One might tell you that just because you've never scored an A in your English cl
 But what if I were to tell you that's not how it works? What if all that is needed for to produce a good poem is an outburst of emotions and a pen in hand? And maybe you don't even need an outburst, maybe all you need is a delicate translation of your sentiments from the domain of feeling to language, and anyone can do that with the right psychological pathway.
 Maybe you do need to train yourself and write a few bad poems before you write a good one. But while there's some truth in someone tellig a bald man tht he cant get his hair back or an aged man that he cant get rid of his wrinkles, on there's no one who can say that you cant train yourself to become a writer or programmer or artist.
 
-Who says success has to be incremental[^eg] - or what is the right mix. Maybe all the events in your life, all the habits you have and all the things you have done,  are brewing into just the ight potent mixture, maybe they have all lining up in just the perfect way that one day you'll, by luck or a spontaneous outburst of creativity or both, produce something extraordinary? 
+Who says success has to be incremental[^eg] - or what is the right mix. Maybe all the events in your life, all the habits you have and all the things you have done,  are brewing into just the right potent mixture, maybe they have all lining up in just the perfect way that one day you'll, by luck or a spontaneous outburst of creativity or both, produce something extraordinary? 
 
 Who says the secret of success lies in following your passion? Maybe following comes first and whatever you follow is termed passion? Maybe success lies in having a flexible passion, and bending it to suit the needs of the hour. Maybe you need to undergo painful tasks you hate as rites of passage.
 
@@ -95,7 +95,7 @@ First impressions are important, and the aura even more so. When someone has a g
 
 https://github.com/tjluoma/John-Cleese-on-Creativity/blob/master/Transcript.markdown#Bates
 
-When undertaking a new task, whether it is writing something to making a video or something, first do and then compare. Looking at other's work undermines your own creativity and aesthetic sensibility. Sure, do borrow good elements and styles from others, but the first draft has to be uniquely yours. Don't underestimate what your own mind can produce. If you do, then it won't, in a self-fullfilling prophetic way. Do not compromise on innovation.
+When undertaking a new task, whether it is writing something to making a video or something, first do and only then compare. Looking at other's work undermines your own creativity and aesthetic sensibility. Sure, do borrow good elements and styles from others, but the first draft has to be uniquely yours. Don't underestimate what your own mind can produce. If you do, then it won't, in a self-fullfilling prophetic way. Do not compromise on innovation.
 
 Stay in the present. 
 
