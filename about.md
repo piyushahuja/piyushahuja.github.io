@@ -13,7 +13,7 @@ Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been e
  
  -->
 
-Some of causes that are close to my heart are: early stage interventions in education, promoting philosophical and critical thinking in the general population, and improving the lives of the marginalised. I am currently building [Platonia.io](http://platonia.io) with the mission of turning every individual into a school-in-themselves. If any of these excite you, please drop me an email. 
+Some of causes that are close to my heart are: early stage interventions in education, promoting philosophical and critical thinking in the general population, and improving the lives of the marginalised. I am currently building [Platonia.io](http://platonia.io) with the mission of turning every individual into a school-in-themselves. If this strikes a chord, please drop me an email. 
 
 I love helping, mentoring, or supporting others in their quest to make a difference in the world. If you are upto something similar, I'd love to hear about it! 
 
