@@ -15,7 +15,7 @@ Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been e
 
 I am currently building [platonia.io](http://platonia.io) with the mission of turning every individual into a school-unto-themselves. If you'd like to contribute or know more, please drop me an email. 
 
-I also love helping, mentoring, or supporting others in their quest to make a difference in the world. If you are upto something similar, I'd love to hear about it!  I can be reached at piyushahuja.in@gmail.com.
+I also love helping, mentoring, or supporting others in their quest to make a difference in the world. If that sounds like you, I'd love to hear from you!  I can be reached at piyushahuja.in@gmail.com.
 
 
 
