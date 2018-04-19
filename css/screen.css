@@ -228,10 +228,10 @@ ul.compact li a {
 	color: silver;
 	font-size: 10pt;
 	line-height: 75%
+
 }
 #header:hover .byline a { color: silver; text-shadow: none; }
-#header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
-
+.byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
 /* @group Twitter */
 #twitter_update_list { display: inline; margin: 0; }
 #twitter_update_list li { display: inline; margin: 0;}
