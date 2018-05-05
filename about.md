@@ -7,7 +7,7 @@ section: Home
 
 <!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='100px'  />  -->
 
-Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and The University of Oxford. These are the places I consider home. 
+Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and The University of Oxford. These places are like home to me. 
 
 I am currently building [platonia.io](http://platonia.io) with the mission of turning every individual into a school-unto-themselves. If you'd like to contribute or know more, please drop me an email.  
 
