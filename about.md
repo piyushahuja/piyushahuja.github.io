@@ -9,10 +9,10 @@ section: Home
 
 Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and the University of Oxford. These places are like home to me. 
 
-I am currently building [platonia.io](http://platonia.io), a product which allows a learner to find students they can teach so they can better learn what they are learning themselves :)  If you'd like to contribute or pitch in, please drop me an email. 
+<!-- I am currently building [platonia.io](http://platonia.io), a product which allows a learner to find students they can teach so they can better learn what they are learning themselves :)  If you'd like to contribute or pitch in, please drop me an email. 
 
 I also love helping, mentoring, or supporting others - in whatever little way I can. I can be reached at piyushahuja.in@gmail.com.
-
+ -->
 
 
 
