@@ -9,9 +9,9 @@ section: Home
 
 Hi, I am Piyush. I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and the University of Oxford. 
 
-I enjoy learning, teaching, and entering into creative collaborations.  I am currently working on [Platonia](http://platonia.io/), with the mission of allowing every individual to be a school-unto-themselves.  If you'd like to contribute or know more, please drop me an email.  
+I enjoy learning, teaching, and creative collaborations.  I am currently working on [Platonia](http://platonia.io/), with the mission of allowing every individual to be a school-unto-themselves.  If you'd like to contribute or know more, please drop me an email.  
 
-I also love helping, mentoring, or supporting others - in whatever little way I can. I can be reached at piyushahuja.in@gmail.com.
+I also love helping, mentoring, or supporting others in their quests - in whatever little way I can. I can be reached at piyushahuja.in@gmail.com.
 
 
 
