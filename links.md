@@ -106,7 +106,6 @@ Productivity
 People I know
 =====
 
-[Samar Singla](http://samarsingla.com/)
 | [Manu Saxena](http://manusaxena.blogspot.in/)
 | [Prachi](http://whatshallwedowithasoberexplorer.wordpress.com)
 
