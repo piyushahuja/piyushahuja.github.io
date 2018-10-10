@@ -2,6 +2,9 @@ Opera
 
 What I learnt: How big data is being used to analyse analyse effects
 
+ as an analytics specialist at Opera Solutions, where I was tasked with quantifying the impact of Hurricane Sandy on the US Residential Mortgage Backed Securities (RMBS) Market in 2012. I used the flood survey map to identify zip codes which were most affected, and identified 45 RMBS deals which were most exposed under those zip codes. I then used Monte Carlo simulation with distribution parameters taken from the post Hurricane Katrina data to find the required future projections for the RMBS market. In both three of my professional stints, I gained invaluable experience and proficiency applying  statistical techniques on real world data, either for forecasting or to extract insights.
+ 
+
  At Opera I was on the product manager track in the global financial markets team. Our main product was a cloud-based application suite, Mobiuss, which enabled portfolio construction, valuation and risk Management for mortgage markets. I had many different responsibilities related to the product as well as the research:
 
 1.  I was responsible for managing its database and optimizing data loading. I learnt SQL and further developed my database management skills, which would invaluable for working with any Oxera project where maintaining a database is required.
