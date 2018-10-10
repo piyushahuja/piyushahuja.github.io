@@ -9,3 +9,29 @@ At Deloitte, I was on a data warehousing project in team of four. Specifically:
 2. I designed the architecture of a data warehouse prototype to be deployed for a client’s communication skills training programme. 
 
 3. Our team also made a report generation tool,  thus enabling strategic decision making for senior management. 
+
+Deloitte
+
+S: At Deloitte I  worked for a client to improve their inhouse employee communication training program. CE  program had a monthly test which was administered by Deloitte for more than 23 years across all its offices to monitor and improve the communication skills of its employees. This resulted in huge amounts of data across time, and it was difficult to manage and get strategically useful insights or patterns from them, difficult to determine and improve the efficiency of the program
+
+T: We were to build a data warehouse prototype using the propriett SAP Business Intelligence toolkit in a team of 4
+
+A: 
+ Requirement Gathering - Identifying requirements from end users, training requirements, hard way and software environments, data source identification, a concrete project plan
+
+ETL - Extraction Transform and Loading - longest to develop, end users will tolerate longer wait times  and less formatting, but not wrong info
+ We designed and implemented a prototype which took excel files as inputs, cleaned them (staging) (Data Problems: Change of Service lines, Designations, Divisions, Locations, Marital Last Names, Upper Case lower cad e and related formatting, misspellings)  
+
+ put them in a warehouse according to the scheme we had designed (integration) 
+
+Data Modelling - foundation should allow growth easily, sustainable and scalable - build logical data model, primary and foreign keys etc.
+
+
+ and then the manager could query reports from the warehouse in the the format he wanted (access - in a bar graph or pie chart. (which office was doing how well in english, were there gender based disparities etc.)
+
+Access: We also implement security features, so different levels of the organization would have different levels of access. Reports - should be easily retrieved from the web (and not only on systems), so that everyone can access it, through the standard browser - not desirable for IT department doing installations on end user desktop
+
+Report Development - only direct touchpoint for end user, so should be good. plays an important role in the success of the project, access privileges, user customisation, user interpretation can be erroneous - and should be corrected
+
+R: I learnt….Getting things done is more important than getting them done the way you want.
+
