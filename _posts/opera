@@ -5,23 +5,15 @@ What I learnt: How big data is being used to analyse analyse effects
  as an analytics specialist at Opera Solutions, where I was tasked with quantifying the impact of Hurricane Sandy on the US Residential Mortgage Backed Securities (RMBS) Market in 2012. I used the flood survey map to identify zip codes which were most affected, and identified 45 RMBS deals which were most exposed under those zip codes. I then used Monte Carlo simulation with distribution parameters taken from the post Hurricane Katrina data to find the required future projections for the RMBS market. In both three of my professional stints, I gained invaluable experience and proficiency applying  statistical techniques on real world data, either for forecasting or to extract insights.
  
 
- At Opera I was on the product manager track in the global financial markets team. Our main product was a cloud-based application suite, Mobiuss, which enabled portfolio construction, valuation and risk Management for mortgage markets. I had many different responsibilities related to the product as well as the research:
 
-1.  I was responsible for managing its database and optimizing data loading. I learnt SQL and further developed my database management skills, which would invaluable for working with any Oxera project where maintaining a database is required.
 
-2.  I prepared the user manual and oversaw UI design for one of the product offerings. User-friendliness and good presentation is one of the key requirements of any client-facing report, and thus would my experience would be useful at Oxera.
+1.  I was responsible for managing its database and optimizing data loading. I learnt SQL and further developed my database management skills. I prepared the user manual and oversaw UI design for one of the product offerings.
+
+2.   User-friendliness and good presentation is one of the key requirements of any client-facing report, and thus would my experience would be useful at Oxera.
 
 3. As part of the publicly available research published by the company,  I did a study on the impact of Hurricane Sandy on US Bond Markets using Monte Carlo simulations and data from Hurricane Katrina as benchmark. I learn how analysis can be conducted using simulation. Since many economic experiments cannot be carried out practically, simulation would be powerful tool in economic case studies at Oxera.
 
 
-
-Opera:
-
-S: At Opera I was in the Global Financial Markets team.  We had a product called Mobiuss which was a Cloud Based Software as a Sevice platform enabling Portfolio Construction, Valuation and Risk Management for mortgage markets. 
-
-[There were three different products for three customer segments (Mobiuss Resi for Residential Whole Loans, Mobiuss RMBS, CRE for Commercial Real Estate) (Basically clients would upload a portfolio of loans, or mbs, and they could see how they would perform in the future - under different scenarios, and see their valuation. For loans portfolios you could predict attributes defaults, delinquencies, loss severity, prepayment etc.]
-
- Besides, we also published monthly reports based on whatever signals we obtained from the data. 
 
 T:  I was on the product manager track which meant that I had many different responsibilities related to the product as well as the research. 
 
@@ -44,7 +36,6 @@ R:  60+ delinquency rates  increased as expected. However the! size of the incre
 
 
 I was offered a full time position based on my work. More importantly, I learnt how business intelligence capability within an organization is built, picked up useful database management and project management skills, potentially useful for data-driven projects at Oxera.
-
 
 
 
