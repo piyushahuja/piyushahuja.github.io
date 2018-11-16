@@ -7,7 +7,7 @@ section: Home
 
 <!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='100px'  />  -->
 
-I was born and brought up in Chandigarh, India, and have been educated at IIT Delhi and the University of Oxford.  I enjoy learning, teaching, and creative collaborations. 
+Born and brought up in Chandigarh, India; educated at IIT Delhi and the University of Oxford.  I enjoy learning, teaching, and creative collaborations. 
 
 
 
