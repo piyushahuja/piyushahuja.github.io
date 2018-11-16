@@ -1,7 +1,7 @@
 
 ---
 
-layout: post-journal
+layout: post-normal
 title: Employee fired from work for suffering from a chronic case of “the human condition"
 date:   2018-10-27 09:00:11
 tag: 
