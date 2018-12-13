@@ -1,11 +1,11 @@
 ---
-layout: page-journal
-title: Work
-permalink: /pensieve/work/
+layout: page-home
+title: Research Experience
+permalink: /research/
 section: Home
 ---
 
-
+<CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
 <div class="section" markdown="1">
 
@@ -102,19 +102,19 @@ _[Othello and Omkara: Reading Shakespeare in Modern Times][othello]{:.pdf :}_. I
 _[The Problem of Consciousness][yields2]{:.pdf :}_. In _Mind, Machine and Language_. -->
 
 
-[ppethesis]: /files/research/ppethesis.pdf
-[thesis]: /files/research/thesis.pdf
-[rbn]: /files/research/economicsandmorality.pdf
-[nus]: /files/research/congestionoption.pdf
-[aiims]: /files/research/aiims.pdf
-[aipaper]: /files/research/ais.pdf
-[lapaper]: /files/research/redimensioning.pdf
-[yields]: /files/essays/yields.pdf
-[name]: /files/essays/name.pdf
-[knight]: /files/writings/knight.pdf
-[god]: /files/writings/god.pdf
-[thesaurus]: /files/writings/jurrasicwhispers.pdf
-[othello]: /files/presentations/othello.pdf
-[yields2]: /files/presentations/yields.pdf
+[ppethesis]: ../files/research/ppethesis.pdf
+[thesis]: ../files/research/thesis.pdf
+[rbn]: ../files/research/economicsandmorality.pdf
+[nus]: ../files/research/congestionoption.pdf
+[aiims]: ../files/research/aiims.pdf
+[aipaper]: ../files/research/ais.pdf
+[lapaper]: ../files/research/redimensioning.pdf
+[yields]: ../files/essays/yields.pdf
+[name]: ../files/essays/name.pdf
+[knight]: ../files/writings/knight.pdf
+[god]: ../files/writings/god.pdf
+[thesaurus]: ../files/writings/jurrasicwhispers.pdf
+[othello]: ../files/presentations/othello.pdf
+[yields2]: ../files/presentations/yields.pdf
 
 
