@@ -7,7 +7,7 @@ section: Home
 
 <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />  
 
-Platonia ("Tinder for skills barter") will be on Google playstore by the end of this week. It has been my labour of love so please check it out when its launched and leave some feedback!
+Platonia ("Tinder for skills barter") will be on Google playstore by the end of this week. It has been my labour of love for the past one year, so do check it out when its launched and leave some feedback!
 
 
 I study data structures and algorithms in my free time. This [github repository](https://github.com/piyushahuja/data-structures-and-algorithms) contains some useful implementations in Java. I try to add comments which give an intuition behind  an algorithm, so you might find it useful for learning purposes. 
