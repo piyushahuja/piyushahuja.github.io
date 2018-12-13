@@ -10,7 +10,7 @@ section: Home
 Platonia ("Tinder for skills barter") will be on Google playstore by the end of this week. It has been my labour of love for the past one year, so do check it out when its launched and leave some feedback!
 
 
-I study data structures and algorithms in my free time. This [github repository](https://github.com/piyushahuja/data-structures-and-algorithms) contains some useful implementations in Java. I try to add comments which give an intuition behind the algorithm, so you might find it useful for learning purposes. 
+I study data structures and algorithms in my free time. This [github repository](https://github.com/piyushahuja/data-structures-and-algorithms) contains some implementations in Java. I try to add comments which give an intuition behind the algorithms, so you might find it useful for learning purposes. 
 
 
 I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Delhi) with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). Here's a [link to my thesis][thesis]. 
