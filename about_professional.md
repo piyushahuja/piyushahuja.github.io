@@ -7,7 +7,7 @@ section: Home
 
 <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />  
 
-*today.i.learnt* will be out on Google playstore by the end of this week. It has been my labour of love for the past one year, so do check it out when its launched and leave some feedback!
+[Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia) is out on Google playstore! It has been my labour of love for the past one year, so do check it out when its launched and leave some feedback.
 
 
 I study data structures and algorithms in my free time. This [github repository](https://github.com/piyushahuja/data-structures-and-algorithms) contains some implementations in Java. I add comments which give an intuition behind the algorithms, so you might find it useful for the purpose of learning. 
