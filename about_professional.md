@@ -7,10 +7,10 @@ section: Home
 
 <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />  
 
-My latest project, [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), is out on Google playstore!  It has been a year in the making, so do check it out and leave some feedback.
+My latest product, [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), is out on Google playstore!  It has been a year in the making, so do check it out and leave some feedback.
 
 
-I study data structures and algorithms in my free time. This [github repository](https://github.com/piyushahuja/data-structures-and-algorithms) contains some implementations in Java. I add comments which give an intuition behind the algorithms, so you might find it useful for the purpose of learning. 
+This [github repository](https://github.com/piyushahuja/data-structures-and-algorithms) contains some implementations of algorthims in Java.
 
 
 I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Delhi) with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). Here's a [link to my thesis][thesis]. 
