@@ -7,7 +7,7 @@ section: Home
 
 <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />  
 
-Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), is out on Google playstore!  It has been a year in the making, so do check it out and leave some feedback.
+[Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), my latest product, is out on Google playstore!  It has been a year in the making, so do check it out and leave some feedback.
 
 
 I enjoy solving algorthmic problems in my free time. This [github repository](https://github.com/piyushahuja/data-structures-and-algorithms) contains some implementations in Java.
