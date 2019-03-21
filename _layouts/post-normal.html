@@ -19,7 +19,7 @@ feed: atom.xml
 
 
   <address class="signature">
-   <!--  <a class="author" href="/about">{{ site.author }}</a>  -->
+    <a class="author" href="/about">{{ site.author }}</a> 
     <span class="date">{{ page.date | date_to_long_string }}</span>
     <span class="location">{{ page.location }}</span>
   </address>
@@ -31,8 +31,11 @@ feed: atom.xml
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ad839edfeb2308b"></script>
 
 </div>
-
+{% include sharing_plug.html %}
 </div><!-- End Page -->
+
+
+
 
 <!-- Discus Comments -->
 <div id="disqus_thread">

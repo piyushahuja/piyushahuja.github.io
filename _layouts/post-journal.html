@@ -15,15 +15,26 @@ top: The Pensieve
 
 {{ content }}
 
+
+
   <address class="signature">
-    <!-- <a class="author" href="/about">{{ site.author }}</a>  -->
+    <a class="author" href="/about"><!-- {{ site.author }} --></a> 
     <span class="date">{{ page.date | date_to_long_string }}</span>
     <span class="location">{{ page.location }}</span>
+    
   </address>
+
+
+  <div id="twitter_plug">
+	    
+  </div>
+  
 
 </div><!-- End Page -->
 
+
+
 <!-- Discus Comments -->
-<div id="disqus_thread"></div>
-  {% include comments.html %}
-<!-- Enable Disqus comments -->
+
+ {% include comments.html %}
+
