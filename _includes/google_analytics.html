@@ -10,5 +10,18 @@
   gtag('config', 'UA-136661613-1');
 </script>
 
+<!-- 
 
-//_gaq.push(['_setAccount', '{{ site.google_analytics_id }}']);
+
+
+_gaq.push(['_setAccount', '{{ site.google_analytics_id }}']);
+
+You could put your Google Analytics ID in the _config.yml, but it's best not to commit these kind of tokens inside the Git repository. Instead, I set it as an environment variable in the terminal that's running the Jekyll build. In order to do this, I created a simple environment_variables.rb plugin in which I add the line:
+
+site.config['google_analytics_id'] = ENV['GOOGLE_ANALYTICS_ID']
+That way I can run:
+
+$ export GOOGLE_ANALYTICS_ID='UA-XXXXX-Y'
+$ grunt build
+Which will make the environment variable's value available to the Liquid template through site.google_analytics_id.
+
