@@ -1,0 +1,6 @@
+
+User-agent: *
+Allow: /
+
+
+Read here: http://www.robotstxt.org/
