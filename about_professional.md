@@ -6,8 +6,8 @@ section: Home
 ---
 
 
-
-<img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />  
+<!-- 
+<img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   -->
 
 [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), my latest product, is out on Google playstore!  It has been a year in the making, so do check it out and leave some feedback.
 
