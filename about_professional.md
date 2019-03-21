@@ -5,7 +5,7 @@ permalink: /
 section: Home
 ---
 
-<!-- {% image 1.jpg "Image alt text" "Optional image caption" %} -->
+
 
 <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />  
 
