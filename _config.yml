@@ -1,7 +1,7 @@
 # Site settings
 title: Piyush's Notes
 email: piyushahuja.in@gmail.com
-description: "Some passably good ideas"
+description: "Some passably good ideas" #First, it is good to include a short meta description in the <head> tag of your page, as Google will display that under the link to your site in the search results
 baseurl: ""
 url: "http://piyushahuja.com"
 author: Piyush Ahuja
@@ -11,7 +11,8 @@ author: Piyush Ahuja
 markdown: kramdown
 permalink: pretty
 
-
+# disqus:
+#     shortname: 'piyushahuja'
 
 # pages_list:       
 #   About: '/about'
