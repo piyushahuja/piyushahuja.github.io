@@ -11,5 +11,9 @@ This is Piyush's personal website. It uses the static site generator Jekyll to r
 
 http://nicolashery.com/fast-mobile-friendly-website-with-jekyll/
 
+For Style inspiration:
+https://github.com/jekyll/minima
+http://mmistakes.github.io/hpstr-jekyll-theme/
+
 
  -->
