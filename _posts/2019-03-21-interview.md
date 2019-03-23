@@ -19,7 +19,7 @@ Excellence in all of these spheres of life depend on the same basic primitives, 
 
 
 
-##Before the interview 
+## Before the interview 
 
 **Prepare stories which highlight skills that the interviewer is looking for**
 
