@@ -15,6 +15,7 @@ Public Speaking:
 
 https://www.ted.com/playlists/226/before_public_speaking?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=playlist&utm_term=business
 http://www.gq-magazine.co.uk/article/president-barack-obama-best-speeches-jon-favreau-interview
+https://ubiquity.acm.org/article.cfm?id=3310318
 
 1. Anecdotes 
 2. Humour 
