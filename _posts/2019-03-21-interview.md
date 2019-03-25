@@ -80,6 +80,7 @@ If you have never jumped off an airplane before, the thought of skydiving will b
     -  Practicing with a friend. Whether on a whiteboard or on something like Codeshare, simulating an interview environment with someone over a period of time takes a lot of the scariness out of interviews. You get over the awkwardness of verbalizing something totally stupid to someone because your brain slipped. The best is if you can make sure someone understands a problem you haven’t seen before, as they can give you hints to push you toward a solution. Seriously, that kind of practice is invaluable.
     -  Especially with the pressure of an interview. Practice with a friend on a whiteboard with a 45–60 minute time constraint. Then ask for direct feedback. I’d even record it, watch it later and see how you discussed certain things. Then reverse the roles. Sometimes, you’ll learn more being the interviewer. Not to take it to extremes, but consider teaching it to a friend or two. This is often how you absorb information at a faster rate.
 
+----
 
 # At The Interview
 
