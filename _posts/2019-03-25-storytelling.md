@@ -28,46 +28,161 @@ Stories are gold.  Being a good storyteller is like strapping your personality 
 -----
 
 
-# The Mindset
+# The Philosophy
 
-- The artist only needs to worry about content if he is trying to fake up a personality he doesn’t have, or express views he really isn’t in accord with. An artist has to accept what his imagination gives him, or screw his talent. Do not feel responsible in any way for the material that emerges.
-
-
-- When we return home and “tell our day,” we are artfully shaping material into story form. (These stories are very often funny, incidentally.) Whether we know it or not, people always communicate through stories.  What happened today?  How did it go?  Anytime we talk about the past, we are essentially talking in story mode.   So in a way as word-users we all exist in a literary atmosphere, we live and breathe literature, we are all literary artists, we are constantly employing language to make interesting forms out of experience which perhaps originally seemed dull or incoherent. How far reshaping involves offences against truth is a problem any artist must face. A deep motive for making literature or art of any sort is the desire to defeat the formlessness of the world and cheer oneself up by constructing forms out of what might otherwise seem a mass of senseless rubble. Stories is how humans make sense of all the events in the world, how they retain memories. Stories are the data structures with which humans process the world” 
-
-- What is the substance of your story. What will you be talking about? What are the events that happened? You can get inspiration from your own life experiences. Have an observant eye and reflect upon things actively. For example, you saw a kid spilling her drinks all over the floor and her mum scolded her in public. If you let ideas slip by, you'd just think that this is just a random event in your life. But if you're observant and reflective, you'd be thinking about how will the little girl feel being reprimanded in public and why does the mum seem to lose control of her temper easily - what are the consequences? Then *boom*, you have an idea to tell a story.
-
-- Even if you feel that it's hard to create a story, don't worry, inspiration will come to you when you're constantly trying to make connections between various events. Let's say you don't know what to write about the little girl spilling her drinks, then some weeks later, you happen to see a similar incident just that this time round, the mum of another child handles it differently. Combining both together, you have something to say.
-By making the links between events, you will have a decent storyline.
-
--  You can make people laugh simply by finding the funny side in day-to-day life. Storytelling is about interrupting a normal routine, not about creating a new outlandish routine.
-    +  This is what observational comics, like Jerry Seinfeld, do: they put funny twists on mundane aspects of life. How can I talk about my kids without boring people? Here's how Seinfeld did it: "A two-year-old is kind of like having a blender, but you don't have a top for it." Notice he's not saying anything factually interesting. Kids are messy. We know that. What's funny is the way he says it -- the freshness of his metaphor and the imagery he brings to the minds eye. 
+- **Accept whatever your imagination conjures. Don't exert.** The artist only needs to worry about content if he is trying to fake up a personality he doesn’t have, or express views he really isn’t in accord with. An artist has to accept what his imagination gives him, or screw his talent. Do not feel responsible in any way for the material that emerges.
 
 
--  Tell stories now, while you're still bad at it.   Don’t hesitate, don’t second guess, just jump into telling stories.   Getting good at anything means trying, failing, learning from failure, and trying again. Go ahead and fail, but keep a journal of your failures, analyzing as best you can why you failed and what you can do better next time. Earn your successes. Realize that you'll never be good at storytelling. Not you in particular. Anybody! Updike, Fitzgerald, Shakespeare--our greatest storytellers--all knew that the only worthwhile method was to keep trying and failing, trying and failing. Tips will help, but please keep this paragraph always in the forefront of your mind. When you start telling stories, you may not be able to do everything. That's okay. Each ingredient will help. When you're composing the script, try making multiple passes. "Let's see if I've scripted a clear beginning, middle and end ... Okay, now let's see if I can make the story more sensual ... Okay, now let's see ..."
+- **We are natural storytellers. We use stories to make sense in a chaotic world**. When we return home and “tell our day,” we are artfully shaping material into story form. (These stories are very often funny, incidentally.) Whether we know it or not, people always communicate through stories.  What happened today?  How did it go?  Anytime we talk about the past, we are essentially talking in story mode.   So in a way as word-users we all exist in a literary atmosphere, we live and breathe literature, we are all literary artists, we are constantly employing language to make interesting forms out of experience which perhaps originally seemed dull or incoherent. How far reshaping involves offences against truth is a problem any artist must face. A deep motive for making literature or art of any sort is the desire to defeat the formlessness of the world and cheer oneself up by constructing forms out of what might otherwise seem a mass of senseless rubble. Stories is how humans make sense of all the events in the world, how they retain memories. Stories are the data structures with which humans process the world” 
+
+- **Your own life experiences are sufficient for inspiration** Have an observant eye and reflect upon things actively. 
+> You saw a kid spilling her drinks all over the floor and her mum scolded her in public. If you let ideas slip by, you'd just think that this is just a random event in your life. But if you're observant and reflective, you'd be thinking about how will the little girl feel being reprimanded in public and why does the mum seem to lose control of her temper easily - what are the consequences? Then *boom*, you have an idea to tell a story.
+
+- **Making connections between various events will eventually bring inspiration.**
+> Let's say you don't know what to write about the little girl spilling her drinks, then some weeks later, you happen to see a similar incident just that this time round, the mum of another child handles it differently. Combining both together, you have something to say.
+
+- **Tell stories now, while you're still bad at it**. Don’t hesitate, don’t second guess, just jump into telling stories. Getting good at anything means trying, failing, learning from failure, and trying again. Go ahead and fail, but keep a journal of your failures, analyzing as best you can why you failed and what you can do better next time.  When you start telling stories, you may not be able to do everything. That's okay. Each ingredient will help. When you're composing the script, try making multiple passes. "Let's see if I've scripted a clear beginning, middle and end ... Okay, now let's see if I can make the story more sensual ... Okay, now let's see ..." Let go.  Breathe.  Don’t get so technical.  Focus on one thing to improve on – maybe talking louder, maybe acting out characters more – and remember to do that for the next story you tell. 
+
+-  **You'll never be good at storytelling.** Not you in particular. Anybody! Updike, Fitzgerald, Shakespeare - our greatest storytellers - all knew that the only worthwhile method was to keep trying and failing, trying and failing. 
+
+
+  
+
+-  **Storytelling is about interrupting a normal routine, not about creating a new outlandish routine.** You can make people laugh simply by finding the funny side in day-to-day life.   This is what observational comics, like Jerry Seinfeld, do: they put funny twists on mundane aspects of life. How can I talk about my kids without boring people? Here's how Seinfeld did it:
+    > "A two-year-old is kind of like having a blender, but you don't have a top for it." 
+
+    Notice he's not saying anything factually interesting. Kids are messy. We know that. What's funny is the way he says it -- the freshness of his metaphor and the imagery he brings to the minds eye. 
+
+
+
  
 
 
-- Practice a simple question-delay-answer structure over and over, in all your communications. In emails, text-messages, Quora posts, and so on. You're not going to become a good storyteller by learning how to go into storytelling mode. Instead, turn yourself into someone who tells stories all the time. Make stories a natural part of the way you communicate.  I don't mean you should start emails with "Once upon a time..." I mean you should always be aware of posing a question, pausing, and then answering.
+- **Practice a simple question-delay-answer structure over and over, in all your communications.** In emails, text-messages, Quora posts, and so on. You're not going to become a good storyteller by learning how to go into storytelling mode. Instead, turn yourself into someone who tells stories all the time. Make stories a natural part of the way you communicate.  I don't mean you should start emails with "Once upon a time..." I mean you should always be aware of posing a question, pausing, and then answering.
 
-- Commit to the story.  Don’t back out halfway.  Don’t stop speaking is someone starts talking over you.  Continue talking as if you are telling the story to yourself.  If you stop, people won’t listen to you next time.  If you continue telling the story, even if other people are talking over you or interrupting you, they will eventually listen to your story.   Sometimes we are afraid that people will stop listening.  We doubt that our story is interesting to other people.  We overthink.  We’re quiet and don’t speak up.  This happened to me all of the time.  I used to be a terrible storyteller.  I would ramble and fizzle out.  I didn’t have the conviction in myself to finish a story even though I knew what I was saying was interesting.  Enough.  
 
-- When acting out characters it’s also important to act 100 percent.  Paradoxically, doing anything less than, say, 70 percent acting of a character makes you seem nervous.  It makes it seem like you aren’t sure of yourself.  Just commit and you will see results, I promise.
 
--  Let go.  Breathe.  Don’t get so technical.  Focus on one thing to improve on – maybe talking louder, maybe acting out characters more – and remember to do that for the next story you tell. 
-
-- Storytelling - Make sure you always have a few "go-to" stories that you can tell perfectly.
+- **Make sure you always have a few "go-to" stories that you can tell perfectly.**
     * Start with your “firsts.” If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house - is a great place to start. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says. 
+    * Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship. 
 
-* Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship. 
+* **Avoid: cliché, digression, saying too much, not saying enough, lack of attention to the audience and preachiness.**
 
-* Conversely, good stories avoid certain things: cliché, digression, saying too much, not saying enough, lack of attention to the audience and preachiness.
+- **Determine How the Sound of your Voice Makes you Feel and make improvements**. Listen to yourself talk in a recording and pay attention to how you feel when you hear yourself talk. Do you feel positive or negative? Pleasant or irritiated? Energizing or sleep-inducing? There may be a high chance that most people feel the same way when they hear your voice. Can you adjust the general tonality to something more pleasing and stick to that?
+
 
 ---------
 
 
 
------------
+
+# The performance
+
+- **Commit to the story.**  Don’t back out halfway.  Don’t stop speaking is someone starts talking over you.  Continue talking as if you are telling the story to yourself.  If you stop, people won’t listen to you next time.  If you continue telling the story, even if other people are talking over you or interrupting you, they will eventually listen to your story.   Sometimes we are afraid that people will stop listening.  We doubt that our story is interesting to other people.  We overthink.  We’re quiet and don’t speak up.  This happened to me all of the time.  I used to be a terrible storyteller.  I would ramble and fizzle out.  I didn’t have the conviction in myself to finish a story even though I knew what I was saying was interesting.  Enough.  
+**Derails**
+
+Beginning storytellers tend to get derailed, forgetting important information. When they realize they've goofed, they have to awkwardly insert the missing details later, sometimes after the story is over.
+
+> "... and so Bob stayed in his room for three days! (Pause.) Oh, shit! I forgot to tell you that his house was being fumigated. Damn! Guess I ruined that story! Jesus! I just can't tell stories!"
+
+We've all heard that happen or it's happened to us.
+
+Well, you're no longer allowed to let it happen to you. You can't stop yourself from forgetting details. But your assignment now is to recover as best you can and go right back into storytelling mode:
+
+> "... and so Bob stayed in his room for three days! (Pause.) Oh, shit! I forgot to tell you that his house was being fumigated. That's right! Workmen had covered his house with one of those giant tarps, and they'd warned him to stay out. His whole house was filled with toxic fumes, but Bob wedged a towel under his door..."
+
+Since you're learning (and you should always be learning), it's okay to start over if you have to. That may be embarrassing, but do it anyway.
+
+> "Sorry. I screwed up the story. But I really want to tell it. Can I start over?" Your friends will say yes.
+
+You are not allowed to fail.
+
+You are only allowed to fail and try again.
+
+Front-load your stories with key information
+
+> "This amazing thing happened to me, yesterday, when I was on my way to the bank -- you know, that one Eighth Avenue, by the Starbucks? Anyway, this was at about three o'clock or maybe three-thirty. What time did we meet for drinks? Four? It must have been earlier ..."
+
+Arg!
+
+Even if you can't help spluttering and digressing, try to give your listener some information upfront: who, what, and a question if possible. That way, the derails will build some tension:
+
+"You're not going to believe who I met, yesterday! Bob! He was carrying this huge, bulky package. I was on my way to the bank -- you know, that one on Eighth Avenue..."
+
+Tell it again and again and again
+
+Good storytellers refine their tales. Make sure you're not trying to tell new stories every time. Stories get better and better through retellings. I can't always remember who has sat through one of my stories in the past, so I ask: 
+> "This funny thing happened to me when I flew to Oregon. Have I told you this? No? Good..."
+
+Sometimes the listener says,
+> "Yes, but tell me again!"  
+
+-  **Commit to the characters.** When acting out characters it’s important to act 100 percent.  Paradoxically, doing anything less than, say, 70 percent acting of a character makes you seem nervous.  It makes it seem like you aren’t sure of yourself.  Just commit and you will see results, I promise.
+    -  **Make your the characters interesting.**
+    -  Before jumping into the action of the story, contextualize it for your characters.  
+    * How were they feeling?  
+    * What did they have for breakfast?  
+    *  What is their relationship with the setting? 
+    *  What do they want?  
+
+Of course, refine this to be appropriate with the story, but if I’m telling a story about my friend that meets a girl on a mountain, it helps if I add important details – things like “he’s a virgin”, or “he got out of a two year relationship a week earlier.” 
+
+Another way to make characters interesting is to act them out.  
+- If your character is hiking, get out of your seat and exaggerate a hiking walk.  
+- If your character is singing, get out of your seat and pretend to sing something dramatic.  
+
+The important physical element of acting your characters out is to get out of your seat and exaggerate.  Acting out voices is also incredibly funny.  I can understand that someone is joking in another language if they throw on a voice.  Pretend to be the actual character, and exaggerate the voice as well. Acting out characters is the easiest form of comedy, but the one that most people inherently “get” or understand.  And it’s always funny.  The most important part of acting out characters, though, is committing to the character.  If you half perform the character – you don’t greatly exaggerate the movements or voice – it feels forced.  100 percent or don’t do it. 
+
+
+    
+- **Project your voice.** You should be capable of talking with enough intensity so that anyone who's 15-20 feet away can clearly understand you. Practice talking at this intensity so that people can clearly understand you and follow what you're saying thereby drawing favorable attention to yourself.
+
+- **Vary your pitch**
+    * Vary the high and low frequencies of your voice to keep listeners engaged and interested in what you're saying.
+    * Lower your voice to a calming pitch, but not to the point of becoming distracting and jarring, i.e. un-natural sounding (as an example, Elizabeth Holmes deliberately lowers her voice to the point of being unnatural for me personally, whatever her rationale may be to cultivate vocal authority).
+    * If your voice tends to be low and you want to appear more approachable and friendly, slightly raise the pitch of your voice; imagine puppies or whatever adorable baby creatures that break your face into a big smile.   
+    * Talk with a Harmonious Rhythm: Make your phrases and sentences harmonize with each other like notes on a music sheet. Time your high, low, long, and short pitches with each other succinctly and you'll have a natural flow to your speech that is pleasing to the ear.
+
+    
+* **Vary your sentence lengths.**: Follow long sentences after short sentences and vice versa. If you say 3 or more long sentences in tandem, you may lose people due to the overload of information.
+
+* **Vary your speed.** Pay attention to the meter or pace of your speech. In conversations,  match the pace of the conversation, unless you want to deliberately slow down or speed up the pace of conversation to improve overall level of engagement. 
+    * Slow down your rate of speech when you want to emphasize certain words and phrases. Give people a chance to understand and follow what you're saying. In conversations,  if you slow down the speed of conversation, you will become the focal point in the conversation; thus slowling down is useful for changing the tone/depth or direction of a conversation.
+    *  Strategically pause before and after the words and phrases you want to emphasize.
+    * Speed up your speech when you know they already understand the concept you're talking about. Slow down if you tend to speak very quickly (visual thinkers tend to do this). 
+    * For judging pacing in presentations,  try performing for some friends before you perform it for the target audience. Ask if parts dragged.
+
+- **Speak at roughly the same vocabulary level as your audience.** Don't bring up concepts that are too far outside their perceptive experience and the context of the situation.
+
+
+----
+
+# The Content
+
+**At the beginning: Catch people's attention**
+
+There are multiple ways to do this.  
+
+- One option is to focus on volume.  Like it or not, people who talk loudly get listened to more.  You don’t have to be obnoxious about it, but usually – especially in group situations – we don’t talk loudly enough.  We sabotage ourselves.  
+
+- Another involves tone of voice.  “Guess what happened to me this weekend?” can sound completely different depending on what word you emphasize.  But it’s not monotone.  If you stress the word “guess”, the question becomes a lot more interesting and engaging.  
+
+- Third, pauses are incredibly important for drawing in the attention of an audience.  You know you have them engaged when there is silence during your pauses.  Take the first sentence “This weekend I went to the mountains and I met this girl”.  This can be said as “This weekend… I went to the mountains… and I met this girl…” Pauses are especially important at the beginning of telling stories.  Pauses hook listeners in to hearing more.  You literally leave them hanging on your words. 
+
+* Beginning Content: You can start with a quote or a teaser illustration, but it often works best to just say what you need to say. If the new topic is deforestation, there's nothing wrong simply saying, 
+    > "Now I'd like to tell you something about deforestation." 
+
+    You can spruce this up a bit by saying:
+
+    > "I'm going to tell you a secret about deforestation"        
+    > "Last year, I learned something interesting about deforestation"    
+    > "Here's something you may not know about deforestation."  
+    
+    You can also simply put up a slide that says DEFORESTATION, pause for a second for that topic to sink in, and then launch into your bullet points. 
+
+-----
+
+
 
 **Details**
 
@@ -95,25 +210,7 @@ By making the links between events, you will have a decent storyline.
 
 -----
 
-**Voice**
 
-
-* Pitch Variation 
-    * Vary the high and low frequencies of your voice to keep listeners engaged and interested in what you're saying. Lower your voice to a calming pitch, but not to the point of becoming distracting and jarring, i.e. un-natural sounding (as an example, Elizabeth Holmes deliberately lowers her voice to the point of being unnatural for me personally, whatever her rationale may be to cultivate vocal authority). If your voice tends to be low and you want to appear more approachable and friendly, slightly raise the pitch of your voice; imagine puppies or whatever adorable baby creatures that break your face into a big smile.
-* Voice Projection
-    * You should be capable of talking with enough intensity so that anyone who's 15-20 feet away can clearly understand you. Practice talking at this intensity so that people can clearly understand you and follow what you're saying thereby drawing favorable attention to yourself.
- * Determine How the Sound of your Voice Makes you Feel and Make Improvements
-        * Listen to yourself talk in a recording and pay attention to how you feel when you hear yourself talk. Do you feel positive or negative? Pleasant or irritiated? Energizing or sleep-inducing? There may be a high chance that most people feel the same way when they hear your voice. Can you adjust the general tonality to something more pleasing and stick to that?
- *  Talk with a Harmonious Rhythm: Make your phrases and sentences harmonize with each other like notes on a music sheet. Time your high, low, long, and short pitches with each other succinctly and you'll have a natural flow to your speech that is pleasing to the ear.
-    
----------
-
-
-* Use of Pauses - Strategically pause before and after the words and phrases you want to emphasize.
-* Sentence Length Variation: Follow long sentences after short sentences and vice versa. If you say 3 or more long sentences in tandem, you may lose people due to the overload of information.
-* Speed Variation: Slow down your rate of speech when you want to emphasize certain words and phrases. Give people a chance to understand and follow what you're saying. Speed up your speech when you know they already understand the concept you're talking about. Slow down if you tend to speak very quickly (visual thinkers tend to do this). Pay attention to the meter or pace of your speech. Match the pace of the conversation, unless you want to deliberately slow down or speed up the pace of conversation to improve overall level of engagement. Remember: If you slow down the speed of conversation, you will become the focal point in the conversation; thus slowling down is useful for changing the tone/depth or direction of a conversation.
-* Vocabulary Usage: In most cases, speak at roughly the same vocabulary level as your audience. Also, don't bring up concepts that are too far outside their perceptive experience and the context of the situation.
-* Pacing. This is hard for beginners, and most only learn how to pace a story through practice. In the meantime, try giving your presentation to some friends before you perform it for the target audience. Ask if parts dragged.
 
 * Script a story. Telling a story impromptu (and telling it well), without even an outline, is a ninja move for advanced raconteurs. The rest of us need scripts. the basic ingredients of a good story are:
     * A structure with a clear beginning, middle, and end. The beginning should hold out some sort of promise or mystery; the end should solve it, sometimes posing a follow-up question/mystery/thought for the audience to ponder.
@@ -184,10 +281,9 @@ As a storyteller, your job is to keep the sense of mystery afloat. There must be
 ----
 
 
-
 **Beginnings, middles, and ends**
 
-Many people have posted about this basic structure. In my original Meatloaf example, there was just a beginning and an end, which is fine for two-sentence stories.
+In my original Meatloaf example, there was just a beginning and an end, which is fine for two-sentence stories.
 
 There are all sorts of ways beginnings, middles and ends function. But a basic job they do is to pose a question (beginning), delay (middle), and give the answer (end). Middles create tension by forcing the listener to wait for the answer to the question.
 
@@ -213,7 +309,7 @@ Because I told a lengthy middle about Bob's friend, I knew there had to be quest
 
 Earn your sidetracks
 
-I've been exaggerating to make some points. The truth is, we've all heard and read great stories that contain descriptive passages without endless question. If you want to spend five minutes of your story time describing a mountain you saw in Japan, that's fine. But you have to earn the right. You earn it by--guess what--posing a question before your description. The more enticing the question, the more time you earn for your sidetrack.
+I've been exaggerating to make some points. The truth is, we've all heard and read great stories that contain descriptive passages without endless question. If you want to spend five minutes of your story time describing a mountain you saw in Japan, that's fine. But you have to earn the right. You earn it by - guess what - posing a question before your description. The more enticing the question, the more time you earn for your sidetrack.
 
 Bad:
 
@@ -272,12 +368,12 @@ Sensual descriptions awaken mirror neurons.  If you make me really feel how bori
     > "It sucks working in a grocery store. It's so boring! Sometimes I fantasize about pouring vegetable oil up and down the aisles and watching customers fall on their asses. Once, I thought about burying myself under all the apples, and then when a customer reaches for one, thrusting my hand up like a zombie."
 
 
-Be tangible. 
+Be tangible. Which one is easier to imagine? 
 > “I crawled to the shoreline.”    
 > 
 > “I dragged my knees through the blistering hot sand until my fingertips clipped the shoreline.” 
  
-Which one is easier to imagine?  
+ 
  
  
 It’s hard to describe a situation with emotional details that evoke your senses without having gone through similar situations yourself. That’s why we’re far better at telling our own stories than others. And everyone has a story. You can even turn a simple part of your routine into a beautiful story. Maybe it’s grocery shopping or something memorable your Mom said to you. Material is everywhere.
@@ -292,91 +388,15 @@ Sure you can focus on other aspects of storytelling such as the hero’s journey
 To help you expand your knowledge base of similes, metaphors, and emotional adjectives, I suggest reading many fiction books, chasing life experiences, and spending a significant amount of time Googling “similes or metaphors to X” and “synonyms of X.”
 
 
-**Derails**
-
-Beginning storytellers tend to get derailed, forgetting important information. When they realize they've goofed, they have to awkwardly insert the missing details later, sometimes after the story is over.
-
-> "... and so Bob stayed in his room for three days! (Pause.) Oh, shit! I forgot to tell you that his house was being fumigated. Damn! Guess I ruined that story! Jesus! I just can't tell stories!"
-
-We've all heard that happen or it's happened to us.
-
-Well, you're no longer allowed to let it happen to you. You can't stop yourself from forgetting details. But your assignment now is to recover as best you can and go right back into storytelling mode:
-
-> "... and so Bob stayed in his room for three days! (Pause.) Oh, shit! I forgot to tell you that his house was being fumigated. That's right! Workmen had covered his house with one of those giant tarps, and they'd warned him to stay out. His whole house was filled with toxic fumes, but Bob wedged a towel under his door..."
-
-Since you're learning (and you should always be learning), it's okay to start over if you have to. That may be embarrassing, but do it anyway.
-
-> "Sorry. I screwed up the story. But I really want to tell it. Can I start over?" Your friends will say yes.
-
-You are not allowed to fail.
-
-You are only allowed to fail and try again.
-
-Front-load your stories with key information
-
-> "This amazing thing happened to me, yesterday, when I was on my way to the bank -- you know, that one Eighth Avenue, by the Starbucks? Anyway, this was at about three o'clock or maybe three-thirty. What time did we meet for drinks? Four? It must have been earlier ..."
-
-Arg!
-
-Even if you can't help spluttering and digressing, try to give your listener some information upfront: who, what, and a question if possible. That way, the derails will build some tension:
-
-"You're not going to believe who I met, yesterday! Bob! He was carrying this huge, bulky package. I was on my way to the bank -- you know, that one on Eighth Avenue..."
-
-Tell it again and again and again
-
-Good storytellers refine their tales. Make sure you're not trying to tell new stories every time. Stories get better and better through retellings. I can't always remember who has sat through one of my stories in the past, so I ask: 
-> "This funny thing happened to me when I flew to Oregon. Have I told you this? No? Good..."
-
-Sometimes the listener says,
-> "Yes, but tell me again!"    
+  
 
 
 ——---
 
 
-**At the beginning: Catch people's attention**
-
-There are multiple ways to do this.  
-
-- One option is to focus on volume.  Like it or not, people who talk loudly get listened to more.  You don’t have to be obnoxious about it, but usually – especially in group situations – we don’t talk loudly enough.  We sabotage ourselves.  
-
-- Another involves tone of voice.  “Guess what happened to me this weekend?” can sound completely different depending on what word you emphasize.  But it’s not monotone.  If you stress the word “guess”, the question becomes a lot more interesting and engaging.  
-
-- Third, pauses are incredibly important for drawing in the attention of an audience.  You know you have them engaged when there is silence during your pauses.  Take the first sentence “This weekend I went to the mountains and I met this girl”.  This can be said as “This weekend… I went to the mountains… and I met this girl…” Pauses are especially important at the beginning of telling stories.  Pauses hook listeners in to hearing more.  You literally leave them hanging on your words. 
-
-* Beginning Content: You can start with a quote or a teaser illustration, but it often works best to just say what you need to say. If the new topic is deforestation, there's nothing wrong simply saying, 
-    > "Now I'd like to tell you something about deforestation." 
-
-    You can spruce this up a bit by saying:
-
-    > "I'm going to tell you a secret about deforestation"        
-    > "Last year, I learned something interesting about deforestation"    
-    > "Here's something you may not know about deforestation."  
-    
-    You can also simply put up a slide that says DEFORESTATION, pause for a second for that topic to sink in, and then launch into your bullet points. 
-
------
 
 
-**Make your the characters interesting.**
 
-The meat and bread of your story.  What makes people continue listening to and engaging with your story and not just ignoring or talking over you?  How do you keep people interested in your story?  I’ll feed you baby birds.  This one tip will drastically improve any story you tell and turn heads.
-
- 
-
-Before jumping into the action of the story, contextualize it for your characters.  
-- How were they feeling?  
-- What did they have for breakfast?  
-- What is their relationship with the setting? 
-- What do they want?  
-
-Of course, refine this to be appropriate with the story, but if I’m telling a story about my friend that meets a girl on a mountain, it helps if I add important details – things like “he’s a virgin”, or “he got out of a two year relationship a week earlier.” 
-
-Another way to make characters interesting is to act them out.  
-- If your character is hiking, get out of your seat and exaggerate a hiking walk.  
-- If your character is singing, get out of your seat and pretend to sing something dramatic.  
-
-The important physical element of acting your characters out is to get out of your seat and exaggerate.  Acting out voices is also incredibly funny.  I can understand that someone is joking in another language if they throw on a voice.  Pretend to be the actual character, and exaggerate the voice as well. Acting out characters is the easiest form of comedy, but the one that most people inherently “get” or understand.  And it’s always funny.  The most important part of acting out characters, though, is committing to the character.  If you half perform the character – you don’t greatly exaggerate the movements or voice – it feels forced.  100 percent or don’t do it. 
 
 ----
 
@@ -487,11 +507,47 @@ It's not the words right before the quotation or paraphrase—said, yelled, aske
 
 **How can you best communicate complex ideas simply?**
 
+
+> If you can't explain it simply, you don't understand it well enough.
+
+
+(a) Work really hard to first ensure that I myself understand the complex idea well enough to be able to discern its most critical components from just the necessary but minor details.
+
+(b) Think about what your desired outcome is: Is it to help someone just understand something, or go beyond that and take an action, or something else?
+
+Start with the Simplest Explanation
+Think about the KISS principle that has been used for decades or Occam’s razor that has been philosophized for centuries. Simplicity works. Start with something that can be covered, ideally, in a couple of sentences or within a minute or 2. If there is a critically important technical detail, mention it quickly. IF the audience wants more detail, they can, and will, ask.
+
+
 We'll start with six basic principles, then move to an applied example.
 
 - Give context. Always begin with a roadmap, moving from the satellite view down to the street-level. People need to understand where the details fit in the larger picture.
 - Tell a story. Narratives both stick and engage better than facts. They also allow you to ground the abstract in "real-life" application.
 - One analogy is worth five explanations. Our brains shut down easily when learning about unfamiliar concepts. Whenever possible, create a strong bridge between what your audience knows and what you're hoping to teach them.
+Come up with the simplest possible analogy in a domain the audience is familiar with to convey the idea.  
+
+    Example: WSJ article. The first paragraph summarizes the complex idea and the second one delivers to easy-to-understand analogy. 
+
+    > Software Firms Scramble to Jump Into Containers
+
+    > "What makes containers so compelling? The technology encloses a program (or a piece of one) in a layer of software that connects seamlessly to the operating system and other computing resources it depends on to run. Putting a program in a container has a number of benefits, but a crucial advantage is that it can be moved quickly and easily from one computer to another—say, from a programmer’s laptop to a test system to the cloud. Given the pace of Internet time, harried chief technology officers are desperate for anything that speeds up the process."
+
+    > “Think about a cake,” said Scott Johnston, senior vice president of product at Docker, likening the cake part to a server and the icing to a program. “You want to be able to change frosting from chocolate to vanilla. If there’s paper between the two, you can lift up the frosting and replace it.”
+
+    Example: 
+
+    > “Well, we had 2 VARCHAR, fields from the M2S legacy system that were being concatenated before the websphere interface batch job … bla bla bla … The SAP iDocs were correctly configured, so, bla bla bla… Eventually we noticed that the fields were being truncated … bla bla bla… so finally, we were able to fix it by …womp womp womp…  yeah, so now it works.”
+
+    > Director (to me): “Can you explain that in English, please?”    
+
+    > Me: “The errors were caused by a misalignment between the old system and SAP. We figured out the problem, aligned the fields and everything is working as expected now.”   
+
+    > Director: “That was easy.”   
+
+    Example:  When someone is pitching an innovative new idea
+
+    > “It’s like Facebook, but for dogs.”    
+    >  “It’s like Spotify but for independent artists.”
 - Use sound-bites. Your outline should hang on a limited number of "hinges". (For presentations and lectures, you should come up with a clear, visual, memorable line to describe each of them.)
 - Anticipate "drop-points".  Are you using terms or concepts that contain potential ambiguity? Are you predicating your argument on an assumption that might not be shared? Are you skipping steps? Don't.
 - Over-narrate the journey. The best advice I've ever received on public speaking was to "tell people where they're going, tell them where they are, and tell them where they've been". At each check-point, do a brief recap the help them re-orient.
@@ -611,56 +667,6 @@ With that framework in mind, you're now prepared to make informed decisions abou
 
 
 -----
-
-> If you can't explain it simply, you don't understand it well enough.
-
-This is the technique I use drawing inspiration from Einstein's famous quote:
-
-(a) Work really hard to first ensure that I myself understand the complex idea well enough to be able to discern its most critical components from just the necessary but minor details.
-
-(b) Think about what your desired outcome is: Is it to help someone just understand something, or go beyond that and take an action, or something else?
-
-(c) Try to understand what are the domain/s that whoever I am explaining the idea to is already likely to be familiar with, and then try to come up with the simplest possible analogy in that particular domain to convey the idea. 
-
-Here's an example of this from an article in today's WSJ where the first para quoted below summarizes the complex technical idea to be conveyed and the second para demonstrates conveying it with an easy-to-understand analogy. 
-
-Software Firms Scramble to Jump Into Containers
-[Note: Excerpt below is verbatim from the WSJ article referenced above]
-
-"What makes containers so compelling? The technology encloses a program (or a piece of one) in a layer of software that connects seamlessly to the operating system and other computing resources it depends on to run. Putting a program in a container has a number of benefits, but a crucial advantage is that it can be moved quickly and easily from one computer to another—say, from a programmer’s laptop to a test system to the cloud. Given the pace of Internet time, harried chief technology officers are desperate for anything that speeds up the process."
-
-“Think about a cake,” said Scott Johnston, senior vice president of product at Docker, likening the cake part to a server and the icing to a program. “You want to be able to change frosting from chocolate to vanilla. If there’s paper between the two, you can lift up the frosting and replace it.”
-TL;DR: Start with the simplest explanation, use familiar analogies and pay attention to the audience to ensure they are following your explanation.
-Techie: “Well, we had 2 VARCHAR, fields from the M2S legacy system that were being concatenated before the websphere interface batch job … bla bla bla … The SAP iDocs were correctly configured, so, bla bla bla… Eventually we noticed that the fields were being truncated … bla bla bla… so finally, we were able to fix it by …womp womp womp…  yeah, so now it works.”
-Director (to me): “Can you explain that in English, please?”
-Me: “The errors were caused by a misalignment between the old system and SAP. We figured out the problem, aligned the fields and everything is working as expected now.”
-Director: “That was easy.”
-We’ve all seen this scenario before: Someone gives an unnecessarily complicated, overly detailed, highly technical explanation. SO- how do you avoid being too detailed, when the explanation may, in fact, be something complex?
-Start with the Simplest Explanation
-Think about the KISS principle that has been used for decades or Occam’s razor that has been philosophized for centuries. Simplicity works. Start with something that can be covered, ideally, in a couple of sentences or within a minute or 2. If there is a critically important technical detail, mention it quickly. IF the audience wants more detail, they can, and will, ask.
-Start from simple and work your way up to more complex as required:
-1 – Simplest explanation – Directly to the point with no technical jargon.
-2 – Concise explanation – Summarized explanation with minimal technical jargon
-3 – Detailed explanation – Detailed technical explanation
-￼
-The trajectory from understanding to confusion…
-As you can see from the diagram above, the typical audience will understand more as you explain further details. However, you reach a point of diminishing returns when you start detailing to the point of confusion. In the very worst case, your explanation may be SO complex that your audience is even more confused than when they started!
-Use Analogies
-Several research studies have concluded that analogies facilitate learning new concepts. Our brains are wired to compare a new concept (target) with one we can already relate to (base).
-When someone is pitching an innovative new idea, there’s a reason they’ll compare it to something that most people already know: “It’s like Facebook, but for dogs.” (don’t ask.) or “It’s like Spotify but for independent artists.” etc.- it makes it easier to understand.
-Compare something highly technical to something you know your audience will be familiar with. If it’s a large crowd, pick a topic most people know something about like cooking, driving, household chores, going to school, etc.
-Know and Observe Your Audience
-￼
-This is THE most important point and cannot be stressed enough. A director typically needs far less detail than a developer. Don’t assume everyone cares about the nitty-gritty details in the same way you do. Solving technical challenges can be exciting, but, generally speaking, business people don’t share that excitement with us techies.
-Below are the typical signs and stages that you’re rambling and your audience may not need (or care) about the details you’re explaining:
-* Their facial expressions indicate confusion Make sure you’re answering the right question in language they can understand.
-* Their eyes start to wander They’re hoping you’ll notice they’ve tuned out…wrap it up!
-* They start checking their phones or doing something else Now they’re making it obvious they’re not listening…
-* They start interrupting you with a quick succession of “Yeah, yeah, uh-huh, yes, ok, mmhmm, yeah…” and/or doing that “move it along” hand motion Seriously. Wrap it up!!
-* They say “Let’s take this offline.” or a variation thereof Now you’ve done it. This actually means: “What you’re saying has no relevance to anyone in this meeting but you and MAYBE a couple of others, so please stop wasting everyone’s time.”
-Keep it simple, clear and concise. Use analogies and examples your audience will relate to. Finally, know your audience and pay attention to them. Follow these steps and you’ll already be way ahead of several of your peers!
-
----
 
 
 
