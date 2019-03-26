@@ -1,9 +1,9 @@
 ---
 layout: post-journal
-title:  
+title:  Storytelling
 date:   2019-03-21 09:00:11
 tag: 
-categories: journal
+categories: guide
 excerpt: 
 permalink: /storytelling
 comments: false

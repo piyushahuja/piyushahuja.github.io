@@ -3,7 +3,7 @@ layout: post-journal
 title: Interview Mindset 101
 date:   2019-03-21 09:00:11
 tag: 
-categories: journal
+categories: guide
 excerpt: 
 permalink: /interview
 comments: false
