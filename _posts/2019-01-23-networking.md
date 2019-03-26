@@ -3,8 +3,8 @@
 layout: post-journal
 title: Networking 
 date:   2019-01-23 09:00:11
-tag: 
-categories: journal
+tag: How to make friends
+categories: guide
 excerpt: 
 permalink: /networking
 

@@ -3,7 +3,7 @@ layout: post-journal
 title: Persuasion
 date:   2019-01-23 09:00:11
 tag: 
-categories: journal
+categories: guide
 excerpt: 
 permalink: /persuasion
 
@@ -34,12 +34,6 @@ Trust is broken when one of three things isn’t there:
 
 
 
-- A lot of the reason VCs are harsh when negotiating with startups is that they're embarrassed to go back to their partners looking like they got beaten. When they sign a termsheet, they want to be able to brag about the good terms they got. A lot of them don't care that much personally about whether founders keep board control. They just don't want to seem like they had to make concessions. Which means if letting the founders keep control stops being perceived as a concession, it will rapidly become much more common. You can spell this out, and say “don’t think of the battle. Think of the war. Think of your long term investment, i.e. the success of the company and what is best for it”
-
-
-
-
-
 
 - Reciprocation. Reciprocation  explains why free samples can be so effective. People who receive a free, unexpected gift are more likely to listen to a product’s features, donate to a cause, or tip a waitress more money. The gifts do not have to be expensive or even material; information and favors can work.
 
@@ -54,21 +48,21 @@ Trust is broken when one of three things isn’t there:
 • “Excuse me, I have five pages. May I use the Xerox machine?” – 60% said OK 
 • “Excuse me, I have five pages. May I use the Xerox machine because I’m in a rush?” – 94% said OK 
 
+- A lot of the reason VCs are harsh when negotiating with startups is that they're embarrassed to go back to their partners looking like they got beaten. When they sign a termsheet, they want to be able to brag about the good terms they got. A lot of them don't care that much personally about whether founders keep board control. They just don't want to seem like they had to make concessions. Which means if letting the founders keep control stops being perceived as a concession, it will rapidly become much more common. You can spell this out, and say “don’t think of the battle. Think of the war. Think of your long term investment, i.e. the success of the company and what is best for it”
+
 
 
 
 
 [Game of Thrones](https://www.youtube.com/watch?v=tMkfthsVc7s)
-[What are some rhetorical tricks used by people who may be overrated or powerful?](https://www.quora.com/What-are-some-rhetorical-tricks-used-by-people-who-may-be-overrated-or-powerful)
+
 
 > “You want to sell sugar water for the rest of your life, or do you want to come with me and change the world?”
 
-Sales:
 
-[How to ask powerful sales questions](http://blog.close.io/asking-sales-questions?utm_campaign=codrake&utm_medium=quora&utm_source=quora)
+- [How to ask powerful sales questions](http://blog.close.io/asking-sales-questions?utm_campaign=codrake&utm_medium=quora&utm_source=quora)
 
-- Record yourself
-- Show you care
+
 
 -  **In group reinforcement. Show you’re on the same team.**
 
@@ -136,6 +130,8 @@ THEY feel as though they are strengthening their position, but in fact, they are
 * Once their aggression has subsided (it always does), you can revisit the topic rationally and with rapport. Many arguments don't even warrant revisiting the main topic, but in our example, you would still need to decide who gets to keep the table. Once you've de-escalated the argument though, that's much easier to do.
 
 
+- [What are some rhetorical tricks used by people who may be overrated or powerful?](https://www.quora.com/What-are-some-rhetorical-tricks-used-by-people-who-may-be-overrated-or-powerful)
+
 ———
     
 Examples: 
@@ -155,26 +151,29 @@ Haggling with shopkeepers (e.g. Vyaapar Kenra mobile phone)
 > “I have come as a mediator to work out a compromise” Within an hour of Kurt Weildheim’s arrival in Tehran for the release of American hostages, his car was being pelted with stones by angry protesters. (compromise in Persian lacks the positive connotation as a solution midway between two positions, but only the negative one as in “our integrity was compromised”. similarly, mediator in persian means “meddler”
 
 
-MicroTactics
-
 Stock Phrases:
 
 > “Have you ever made an exception?”    
 > “How you know that you made a right choice?”    
 > What would you advice me in this situation?   
 
-Set the tone. Don’t make things that aren’t a big deal a huge deal. (Don’t be like “We need to talk” for something small and frivolous “hey just want to talk to you for a bit).
-“If you approach a negotiation thinking the other guy thinks like you, you are wrong. That's not empathy, that's a projection.” 
+- Set the tone. Don’t make things that aren’t a big deal a huge deal. (Don’t be like “We need to talk” for something small and frivolous “hey just want to talk to you for a bit).
 
-No doesn’t mean No. Yes means commitment, and no means protections. After the first no, people feel protected, and then they think and then might say yes. Give them a chance to focus on you - because otherwise there are 4-5 things going in their mind. 
+- “If you approach a negotiation thinking the other guy thinks like you, you are wrong. That's not empathy, that's a projection.” 
 
-Mirroring. Repeat the last three words.  (1) It gives you time (2) If they elaborate and explain, it gives you a good idea on their position: whether it is soft or stable.  “Ask someone, “What do you mean by that?” and you’re likely to incite irritation or defensiveness. A mirror, however, will get you the clarity you want while signaling respect and concern for what the other person is saying. “Yes”. 
+- No doesn’t mean No. Yes means commitment, and no means protections. After the first no, people feel protected, and then they think and then might say yes. Give them a chance to focus on you - because otherwise there are 4-5 things going in their mind. 
 
-Don’t ask “Is this a good time to talk?”. Ask “Is this a bad time to talk?”. Say a boss gives you an impossible task, and you want to negotiate him into giving an easier one. You can retort “You want me to succeed, don’t you?”, or you can say “Do you want me to fail?”. The form is pushing for a yes *getting a toe in”, while the latter is pushing for a no. The latter, however is better, because it leads to instance agreement and empathy.  
+- Mirroring. Repeat the last three words. 
+    * It gives you time 
+    * If they elaborate and explain, it gives you a good idea on their position: whether it is soft or stable.  
+    * “Ask someone, “What do you mean by that?” and you’re likely to incite irritation or defensiveness. A mirror, however, will get you the clarity you want while signaling respect and concern for what the other person is saying. “Yes”. 
+
+- Don’t ask “Is this a good time to talk?”. Ask “Is this a bad time to talk?”. Say a boss gives you an impossible task, and you want to negotiate him into giving an easier one. You can retort “You want me to succeed, don’t you?”, or you can say “Do you want me to fail?”. The form is pushing for a yes *getting a toe in”, while the latter is pushing for a no. The latter, however is better, because it leads to instance agreement and empathy.  
 
 
-Point at what all is going to be lost if this falls.  https://www.youtube.com/watch?v=8vW6gPjk5Sc. Making people hostage to the future. 
-https://www.youtube.com/watch?v=fKCfhWmsDeE Use Downward Inflection to signal there is room. “There is no other way”
+- Point at what all is going to be lost if this falls.[Understand Our Perceptions of Gains and Losses](https://www.youtube.com/watch?v=8vW6gPjk5Sc) Making people hostage to the future. 
+- [3 Tips on Negotiations, with FBI Negotiator Chris Voss](https://www.youtube.com/watch?v=fKCfhWmsDeE) 
+- Use Downward Inflection to signal there is room. “There is no other way”
 
 
 Summarise a situation from the other person’s point of view. Give them a space to say “That’s right”. That will move things forward tremendously. “Psychotherapy research shows that when individuals feel listened to, they tend to listen to themselves more carefully and to openly evaluate and clarify their own thoughts and feelings.” 
@@ -184,6 +183,10 @@ Forced Empathy. Way to say No: “How am I supposed to do that?” Established a
 
 
 - Hope is not a strategy. Before you head into the weeds of bargaining, you’ll need a plan of extreme anchor, calibrated questions, and well-defined offers. Remember: 65, 85, 95, 100 percent. Decreasing raises and ending on nonround numbers will get your counterpart to believe that he’s squeezing you for all you’re worth when you’re really getting to the number you want.”
+
+
+
+# Negotiation
 
 Good negotiation arrives at a wise decision efficiently and amicably.
 Bargaining from positions does not do that: it is inefficient (you hide true interests, start from extreme positions, and have  to make difficult and time-consuming decisions on how much to yield at every step. There is an incentive on both sides to drag your feet). It is not amicable: gets egos involved and becomes a contest of will. And it may not product wise outcomes. 
@@ -213,13 +216,16 @@ Four parts:
 - Invent options for mutual gain
 - Insist on objective criteria. 
 
-  Separate people from the problem. 
+----
 
-“He who has learned to disagree without being disagreeable has discovered the most valuable secret of negotiation.” 
+  ## Separate people from the problem. 
+
+- “He who has learned to disagree without being disagreeable has discovered the most valuable secret of negotiation.” 
 Our brains work better if you’re in a good mood. Because of mirror neutrons, you’re more likely to elicit collaborative behaviour if you’re positive yourself. Be positive, have a loving voice and smile. You turn someone positive frame of mind, with your tone, body language and facial expressions, it would make them smarter and positive. They are likely to say yes. They’d feel less attacked.  
-“Truly effective negotiators are conscious of the verbal, paraverbal (how it’s said), and nonverbal communications that pervade negotiations and group dynamics. And they know how to employ those subtleties to their benefit. Even changing a single word when you present options—like using “not lose” instead of “keep”—can unconsciously influence the conscious choices your counterpart makes.” 
 
-Negotiators are humans: this can be helpful or disastrous
+- “Truly effective negotiators are conscious of the verbal, paraverbal (how it’s said), and nonverbal communications that pervade negotiations and group dynamics. And they know how to employ those subtleties to their benefit. Even changing a single word when you present options—like using “not lose” instead of “keep”—can unconsciously influence the conscious choices your counterpart makes.” 
+
+Negotiators are humans: this can be helpful or disastrous.
 - Negotiators want to look good to others, to feel good about themselves. A working relationship built on trust, respect, friendship etc.  can make each negotiation smoother and efficient. 
 - But negotiatiors have problems of perceptions, emotions and communications. 
 
@@ -304,8 +310,9 @@ How to talk about interests?
 - Be soft on people, hard on problems. Be firm AND Open.  Emphasize your interests vividly, concretely and combine it with positive support for the other person. Be courteous, appreciate their time and effort, listen with respect and empathise your concern with meeting their basic needs.  This produces cognitive dissonance that then makes the person work with you (separates the problem from the people. “ Surely you’re not saying that my sons life is worth less than the price of a fence. You wouldn’t say that about your own so. I do not believe you are an insensitive person. Let’s figure out how to solve the problem). Be open to listening to other person’s interest - only then will they listen t you 
 
 
+---
 
-Invent Options for Mutual Gain
+## Invent Options for Mutual Gain
 
 
 
@@ -399,7 +406,7 @@ Test: Could you write a proposition that is realistic, operationable and would m
 
 
 
-Insist on objective criteria
+## Insist on objective criteria
 
 e.g. Market value, precedent, scientific judgement (e.g. MIT’s economic model of mining), professional standards, efficiency, cost, what a court would decide, moral standards, equal treatment, tradition, reciprocity.
 
@@ -420,7 +427,8 @@ Opposing view:
 - Ask calibrated questions to direct the conversation. Questions that start with the words “How” or “What.” By implicitly asking the other party for help, these questions will give your counterpart an illusion of control and will inspire them to speak at length, revealing important information.  Don’t ask questions that start with “Why” unless you want your counterpart to defend a goal that serves you. “Why” is always an accusation, in any language.
 
 
-When they are too powerful
+
+**When they are too powerful**
 
 Increase your BATNA
 “The firm across the street has offered me 20 percent above what I am now earning. I will rather stay here. But with the cost of living, unless I get a raise soon, I will have to consider moving soon. What do you think might be possible?
@@ -432,7 +440,7 @@ Worsen the other side’s BATNA
 
 
 
-When they refuse to play
+**When they refuse to play**
 
 the ideal option would be to circumvent the situation all together by setting  timetables and deadlines at the outset of the negotiation. Make sure the other party understands right off the bat what is expected of him as far as scheduling is concerned.
 
@@ -457,7 +465,11 @@ o if we agree ... and if we disagree...
 o We'd be happy to see if we can leave when it's most convenient for you
 o It's been a pleasure dealing with you 
 
-Dirty Tricks
+
+----
+
+
+## Facing Dirty Negotiating Tricks
 
 
 What you tend to do: 
@@ -470,34 +482,35 @@ Recognise the tactic
 Make it explicit
 Question the tactics legitimacy and desirability. This gives you chase to negotiate about the the negotiating process.
 
-Separate people from the problem:
+- Separate people from the problem:
 Instead of saying “You deliberately put me out in front of the sun”, say “I am finding the sun in my eyes quite distracting. Unless we can solve the problem, I may have to leave early and take some rest. Shall we revise the schedule?”
 
-Focus on interests behind a tactic, not the tactic:
+- Focus on interests behind a tactic, not the tactic:
 
 “Why are you committing yourself so extremely to the press? Is it to protect yourself from criticism, or to protect yourself from changing the position? Is it in our mutual interest to have both of us this tactic?” (Focus on reciprocity)
 
-Invent options on procedure for mutual gain:
+- Invent options on procedure for mutual gain:
 
 “How about our undertaking to make no statements to the press until we reach agreement or break off the talks? (Reciprocity
 
-Insist on objective criteria (Be hard on the procedure)
+- Insist on objective criteria (Be hard on the procedure)
 
 Is there a theory behind why I should sit low in the chair with my back to the door open? I assume you’d be willing to do the same? 
 Shall we alternative between spilling coffee on each other every other day? (Being Reciprocity into sharp relief by having the tactic as a rule of the game)
 
 Stock phrases:
- “I may be mistaken, but I am getting the feeling that you are playing the good guy/bad guy routine. If you two want a recess to straighten things out amongst yourselves, just ask”
+> “I may be mistaken, but I am getting the feeling that you are playing the good guy/bad guy routine. If you two want a recess to straighten things out amongst yourselves, just ask”
 
 
 Last resort:  BATNA
-“It’s my impression that you are not interested in negotiating in a way that would produce results. Here’s my phone number. If you’re interested, I am ready any time you are”
+> “It’s my impression that you are not interested in negotiating in a way that would produce results. Here’s my phone number. If you’re interested, I am ready any time you are”
 
 
 
+-----
 
 
-Deception
+**Deception**
 
 
 Examples of me using it:
@@ -510,10 +523,10 @@ Ask the other party probing questions to find out what they did for the other co
 Never trust. “If I told you I have money in my bank account and I’d pay you later”, would you sell me the item based on trust? It’s not about trust.”
 
 
+-----
 
 
-
-Dubious Intentions
+**Dubious Intentions**
 
 Examples of me using it:
 
@@ -532,9 +545,10 @@ Build compliance features in the agreement itself
 
 
 
-Hardhearted Partner/Missing Persons/Ambiguous Authority
+**Hardhearted Partner/Missing Persons/Ambiguous Authority**
 
-Generic Examples: “Its a perfectly reasonable request. But my wife refuses to go with it”
+Generic Examples: 
+> “Its a perfectly reasonable request. But my wife refuses to go with it”
 
 
 Examples of me using it: Saying “I will ask Dad” in property talks
@@ -547,7 +561,7 @@ Insist on reciprocity “Alright, we will treat this as a joint draft to which n
 
 
 
-Creating Stress (by Physical Environment, e.g.)
+**Creating Stress (by Physical Environment, e.g.)**
 
 Examples of me using it:
 
@@ -571,7 +585,7 @@ Recognise it and bring it up to prevent from recurring.
 When you’re attacked in a negotiation, pause and avoid angry emotional reactions. Instead, ask your counterpart a calibrated question.  Set boundaries, and learn to take a punch or punch back, without anger. The guy across the table is not the problem; the situation is.  There is always a team on the other side. If you are not influencing those behind the table, you are vulnerable.” 
 
 
-Good Guy/Bad Guy
+**Good Guy/Bad Guy**
 
 
 Examples of me using it:
@@ -609,7 +623,7 @@ https://www.youtube.com/watch?v=rArzMrhTxF8
 
 
 
-Refusal to Negotiate 
+**Refusal to Negotiate** 
 
 
 Examples: Iran during the hostage crisis, Palestinians, 
@@ -623,7 +637,7 @@ Involve third parties, or write letters. Insist on asking principles and recipro
 
 
 
-Extreme Demand
+**Extreme Demand**
 
 
 
@@ -631,7 +645,7 @@ What should be done:
 Bring it up, ask for the principle and make them look ridiculous to themselves.
 
 
-Escalating Demand
+**Escalating Demand**
 
 Raising a demand for every concession they make. Reopen issues which you thought were closed. 
 
@@ -652,7 +666,7 @@ Recognise this tactic, Take a break and evaluate the situation. Insist on princi
 
 
 
-Lockin Tactics
+**Lockin Tactics**
 
 Examples: The chicken game where one of the drivers throws out its break and steering wheel. 
 
@@ -661,7 +675,7 @@ Depends on communication. Intepret it as a weak signal.
 “Oh, so you went to the press and told them you’d not settle for less than X. We all have aspirations. Mine are…”
 “Alright Bob… I understand you went public with…But my practice is to never yield to pressure, only to reason”.
 
-Delaying Tactic
+**Delaying Tactic**
 
  It can be used to inspire uneasiness and doubt in the other party, or for buying time for additional research or  internal discussion
 
@@ -682,24 +696,26 @@ What should be done:  Ignore it. Change the subject, introduce other options. Or
 
 ————
 
-https://github.com/mgp/book-notes/blob/master/getting-to-yes-negotiating-agreement-without-giving-in.markdown
-https://richardstep.com/downloads/tools/Notes--Getting-to-Yes.pdf
-http://abinoda.com/book/getting-to-yes
+- [Notes from Getting to Yes 1](https://github.com/mgp/book-notes/blob/master/getting-to-yes-negotiating-agreement-without-giving-in.markdown)     
+- [Notes from Getting to Yes 2](https://richardstep.com/downloads/tools/Notes--Getting-to-Yes.pdf)    
+- [Notes from Getting to Yes 3](http://abinoda.com/book/getting-to-yes)   
+
 
 ——
 
 
-Salary Negotiation:
+**Salary Negotiation**
 
-https://www.kalzumeus.com/2012/01/23/salary-negotiation/
-https://medium.com/we-are-yammer/how-i-negotiated-for-an-additional-15-000-at-yammer-2d3c137623ec
+- [Salary Negotiation: Make More Money, Be More Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
+- [How I negotiated for an additional $15,000 at Yammer](https://medium.com/we-are-yammer/how-i-negotiated-for-an-additional-15-000-at-yammer-2d3c137623ec)
+- [Worst mistakes during salary negotiation](https://inc42.com/entrepreneurship/worst-mistakes-salary-negotiation/)
+
+- Using Round Numbers
+Assuming you’ve done your homework on what industry standards are and what value you bring and how much you think you should be making, it’s ok to start with a salary number. But don’t say $100,000. Say, $103,500. Something specific. This shows you’ve done the work. Make sure you can back it up to get to that number. Round numbers are negotiated. Specific numbers, backed up by evidence, are not negotiated.
 
 
-https://www.kalzumeus.com/2012/01/23/salary-negotiation/
-A few general principles: It is VERY hard to advocate for yourself or talk about money, especially if you don’t come from money.
-Please, please: Do it anyway.
-You are valuable to your employer. Anybody can be replaced, but doing so is expensive and disruptive. They want to keep you.
-If they’re offering to hire you, they probably had a long job search process and really want it to come to a satisfactory conclusion for all of you, YOU included.
+
+A few general principles: It is VERY hard to advocate for yourself or talk about money, especially if you don’t come from money. Please, please: Do it anyway. You are valuable to your employer. Anybody can be replaced, but doing so is expensive and disruptive. They want to keep you. If they’re offering to hire you, they probably had a long job search process and really want it to come to a satisfactory conclusion for all of you, YOU included.
 There is ALWAYS more money. If you get a job offer, thank them (profusely is fine), ask to get details of the offer in writing (it’s hard to think clearly about dental plans during a high-stakes conversation), and say you will get back to them soon.
 Do not accept any offer immediately, no matter how great it sounds.
 Talk to people about the offer. It’s awkward to talk about money, but ask people with experience in your industry if they would be willing to help you evaluate the offer. If you’re in science writing, ask me.
@@ -721,55 +737,49 @@ Even if you don't get a raise or promotion this time, it tells your boss that yo
 
 
 —————
+Done Tell What You Want
 
-
-
-Negotiation and Influence
 
 * Look at people while you're talking to them. If their faces change, consider what you just said and ask them what they think about it. Then remain silent while they answer. In a number of fields, especially negotiation, a common adage is “The one who speaks first loses.”
 * Only a silent observer can track the flow of topics and reactions reliably. If you really need to determine whether someone is lying, work with a partner: one person talks, the other just watches the subject.
-* Change Frame: Stick to your frame (Friends approaching in woods vs Hostile people)
-* The Goal is to work out commenting constructive: Concentrate on Mutual Benefit. See things as an opportunity, rather than as an adversarial situation
-* Show People that its in their interest (The price I am willing to sell it at would not be attractive to you)
-* Anchoring
-    * Examples: , I want to buy something, and a fair price is $2,000, the offer price is $2,400. I’ll go in and make a semi-joke that I want to buy it for $300 (not a typo), and mention that figure repeatedly, with a big smile to keep it friendly. Suddenly even $1,600 suddenly seems reasonable because it’s being compared to with the joke $300. And I’ll offer $1,400, and at least go for $1,600.
-    * if you’re on $5k per month, tell your boss, as a joke, that you should be on $20k for all the work you do - mention it a few times, with a smile every time. Now, ask for a $1k pay rise - sounds like peanuts.
-* Pretending to take the deal off
-    * e did this when selling life insurance. He would say something like, “Oh, I see that there is some history of heart disease in you family.” He would say this while closing his folder and sitting back in his chair as if done. He would then tell them that he may not be able to help them after all. That is when the customer would all of a sudden start proving their qualifications for the insurance and describing how healthy they are. They would almost be begging to be signed up.
-* Know your Reservation Price. Know your leverage.
-* Do not Flinch.
-* anchoring the negotiation with an extreme offer:  you will not only influence the negotiation, but also actually change the other side’s beliefs about the nature of an appropriate agreement (see also, anchoring effect in negotiations)
-* Second, you can try to influence the other side’s judgments through her susceptibility to the availability bias—the tendency to rely on readily available information (see also, information asymmetry in negotiations). By carefully choosing comparisons to the current situation, you can persuade the other party about the appropriate settlement. In a legal context, when defendants can cite similar cases where a judicial award was very small, they sometimes can influence the judge’s or jury’s assessment of the value of the case.
-* Fourth, the researchers highlight the use of contrast effects as a persuasion tool. For example, rather than making a flat offer of $30,000 to settle a case, a defendant could offer a choice among $30,000 immediately, $10,000 annually for the next three years, or a $30,000 payment to charity. When compared with the other two options, the $30,000 cash offer is likely to appear more attractive than when it is the only offer on the table. A negotiator may very well compare the options offered rather than comparing the $30,000 to the option of holding out for more money.
-* Mirroring: Pausing, and Repeating. Great in getting a cheap Bargain.  If they say, “We will offer $100,000 but can’t go a penny higher” repeat back to them, “you can’t go a penny higher.”  They will continue talking. If they don’t then…..
-* When the other person is in a hurry to close a deal then I will delay. When they’re not in a hurry then I’ll create a sense of urgency in them and then will delay a bit.
-* Hostile: Truly listen, Recognise the emotion, and reframe it in a way that gives you an opportunity to explain (I hear your concern/ there’s a lot of passion vs you’re angry - “no I’m frustrated!” etc.  and then answer it in your frame).
-* Reciprocation: The reciprocation principle explains why free samples can be so effective. People who receive a free, unexpected gift are more likely to listen to a product’s features, donate to a cause, or tip a waitress more money. The gifts do not have to be expensive or even material; information and favors can work
-* Social Proof Testimonials from satisfied customers show your target audience that people who are similar to them have enjoyed your product or service. They’ll be more likely to become customers themselves. A similar principle applies to television commercials that say: “If our lines are busy, please call again.” Instead of saying “Operators are standing by.” The first response implies that other people like your offer so much that the phone lines are busy, which may persuade others to act similarly.
-* Commitment and Consistency People want to be both consistent and true to their word. Getting customers or co-workers to publicly commit to something makes them more likely to follow through with an action or a purchase. Ask your team members if they’ll support your next initiative and say why. Getting people to answer ‘yes’ makes them more powerfully committed to an action, Cialdini says. For instance, don’t tell people: “Please call if you have to cancel.” Asking “Will you please call if you have to cancel?” gets customers to say yes, and measurably increases their response rates.
-* Liking
-* Authority When people are uncertain, they look outside themselves for information to guide their decisions. Given the incredible influence of authority figures, it would be wise to incorporate testimonials from legitimate, recognized authorities to help persuade prospects to respond or make purchases.
-* Scarcity In any case, if your product or service is genuinely unique, be sure to emphasize its unique qualities to increase the perception of its scarcity.
-* Use Power words. They amp up emotions and trigger curiosity.Basically you could be asking the same thing but the way you package it could make all the difference. Here is an example I found in Influence by Robert B. Cialdini that really backs this up. In a research experiment done by a social psychologist she received a different number of approvals depending on how she delivered her request:
-    * “Excuse me, I have five pages. May I use the Xerox machine?” – 60% said OK
-    * “Excuse me, I have five pages. May I use the Xerox machine because I’m in a rush?” – 94% said OK
-Using Round Numbers
-Assuming you’ve done your homework on what industry standards are and what value you bring and how much you think you should be making, it’s ok to start with a salary number.
-But don’t say $100,000.
-Say, $103,500.
-Something specific. This shows you’ve done the work. Make sure you can back it up to get to that number. Round numbers are negotiated. Specific numbers, backed up by evidence, are not negotiated.
-https://inc42.com/entrepreneurship/worst-mistakes-salary-negotiation/
 
-Say: you are the experts. ..what would you ask for if you were me? Get then to negotiate against themselves. 
- This is not just flattery but probably truth. I find in most negotiations I am in, the other side knows more than I know.
-https://www.quora.com/What-are-the-basics-of-the-art-of-negotiation
-
-Done Tell What You Want
 
 Https://Www.Youtube.Com/Watch?Time_Continue=107&V=V7Otklcpits
 Too Much Talking
 Be silent until they talk. Nobody likes an uncomfortable silence. Be silent for as long as it takes for them to talk again. Let it be uncomfortable. DO NOT TALK.
 https://www.youtube.com/watch?time_continue=107&v=V7OtklcPITs
+* Change Frame: Stick to your frame (Friends approaching in woods vs Hostile people)
+* The Goal is to work out commenting constructive: Concentrate on Mutual Benefit. See things as an opportunity, rather than as an adversarial situation
+* Show People that its in their interest (The price I am willing to sell it at would not be attractive to you)
+* **Anchoring**
+    > I want to buy something, and a fair price is $2,000, the offer price is $2,400. I’ll go in and make a semi-joke that I want to buy it for $300 (not a typo), and mention that figure repeatedly, with a big smile to keep it friendly. Suddenly even $1,600 suddenly seems reasonable because it’s being compared to with the joke $300. And I’ll offer $1,400, and at least go for $1,600.
+    > If you’re on $5k per month, tell your boss, as a joke, that you should be on $20k for all the work you do - mention it a few times, with a smile every time. Now, ask for a $1k pay rise - sounds like peanuts.
+* **Pretending to take the deal off**
+    * i did this when selling life insurance. He would say something like, “Oh, I see that there is some history of heart disease in you family.” He would say this while closing his folder and sitting back in his chair as if done. He would then tell them that he may not be able to help them after all. That is when the customer would all of a sudden start proving their qualifications for the insurance and describing how healthy they are. They would almost be begging to be signed up.
+* Know your Reservation Price. Know your leverage.
+* Do not Flinch.
+* Anchoring the negotiation with an extreme offer:  you will not only influence the negotiation, but also actually change the other side’s beliefs about the nature of an appropriate agreement (see also, anchoring effect in negotiations)
+* Second, you can try to influence the other side’s judgments through her susceptibility to the availability bias—the tendency to rely on readily available information (see also, information asymmetry in negotiations). By carefully choosing comparisons to the current situation, you can persuade the other party about the appropriate settlement. In a legal context, when defendants can cite similar cases where a judicial award was very small, they sometimes can influence the judge’s or jury’s assessment of the value of the case.
+* Fourth, the researchers highlight the use of contrast effects as a persuasion tool. For example, rather than making a flat offer of $30,000 to settle a case, a defendant could offer a choice among $30,000 immediately, $10,000 annually for the next three years, or a $30,000 payment to charity. When compared with the other two options, the $30,000 cash offer is likely to appear more attractive than when it is the only offer on the table. A negotiator may very well compare the options offered rather than comparing the $30,000 to the option of holding out for more money.
+* Mirroring: Pausing, and Repeating. Great in getting a cheap Bargain.  If they say, “We will offer $100,000 but can’t go a penny higher” repeat back to them, “you can’t go a penny higher.”  They will continue talking. If they don’t then…..
+* When the other person is in a hurry to close a deal then I will delay. When they’re not in a hurry then I’ll create a sense of urgency in them and then will delay a bit.
+* Hostile: Truly listen, Recognise the emotion, and reframe it in a way that gives you an opportunity to explain (I hear your concern/ there’s a lot of passion vs you’re angry - “no I’m frustrated!” etc.  and then answer it in your frame).
+- **Reciprocation**: The reciprocation principle explains why free samples can be so effective. People who receive a free, unexpected gift are more likely to listen to a product’s features, donate to a cause, or tip a waitress more money. The gifts do not have to be expensive or even material; information and favors can work
+* **Social Proof.** Testimonials from satisfied customers show your target audience that people who are similar to them have enjoyed your product or service. They’ll be more likely to become customers themselves. A similar principle applies to television commercials that say: “If our lines are busy, please call again.” Instead of saying “Operators are standing by.” The first response implies that other people like your offer so much that the phone lines are busy, which may persuade others to act similarly.
+* **Commitment and Consistency.** People want to be both consistent and true to their word. Getting customers or co-workers to publicly commit to something makes them more likely to follow through with an action or a purchase. Ask your team members if they’ll support your next initiative and say why. Getting people to answer ‘yes’ makes them more powerfully committed to an action, Cialdini says. For instance, don’t tell people: “Please call if you have to cancel.” Asking “Will you please call if you have to cancel?” gets customers to say yes, and measurably increases their response rates.
+* Liking
+* **Authority** When people are uncertain, they look outside themselves for information to guide their decisions. Given the incredible influence of authority figures, it would be wise to incorporate testimonials from legitimate, recognized authorities to help persuade prospects to respond or make purchases.
+* Scarcity In any case, if your product or service is genuinely unique, be sure to emphasize its unique qualities to increase the perception of its scarcity.
+* Use Power words. They amp up emotions and trigger curiosity.Basically you could be asking the same thing but the way you package it could make all the difference. Here is an example I found in Influence by Robert B. Cialdini that really backs this up. In a research experiment done by a social psychologist she received a different number of approvals depending on how she delivered her request:
+    * “Excuse me, I have five pages. May I use the Xerox machine?” – 60% said OK
+    * “Excuse me, I have five pages. May I use the Xerox machine because I’m in a rush?” – 94% said OK
+
+
+- Say: you are the experts. What would you ask for if you were me? Get then to negotiate against themselves. This is not just flattery but probably truth. I find in most negotiations I am in, the other side knows more than I know.
+[What are the basics of the art of negotiation?](https://www.quora.com/What-are-the-basics-of-the-art-of-negotiation)
+
+
+
 2. THE LONG LIST
 
 It's not just about money. Think of every aspect in a situation. Everything you would like. Then you can give up the nickels for the dimes if your list is longer . For instance, one side might just be negotiating salary. But the other side could be negotiating salary, title, insurance, vacation, promotion standards, outside work, etc. The longer list always wins.

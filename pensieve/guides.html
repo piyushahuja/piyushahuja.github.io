@@ -5,9 +5,7 @@ section: Journal
 
 ---
 
-There'd be a day when I sit down and reminisce all the amazing journeys I have been on. That would be the day when I fill this page up.   
-
-{% for post in site.categories.travels %}
+{% for post in site.categories.guide %}
       <div class = "postit">
         <a class="postit-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
         <span class="post-tag">{{ post.tag}}</span>
