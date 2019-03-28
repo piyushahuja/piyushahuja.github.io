@@ -1,6 +1,6 @@
 ---
 layout: post-journal
-title: Persuasion and Negotiation
+title: Persuade and negotiate
 date:   2019-01-23 09:00:11
 tag: 
 categories: guide
@@ -13,7 +13,7 @@ permalink: /persuasion
 
 > There is this Middle Eastern story of a man who willed to his three sons his 17 camels. To the first son 1/2 of the camels, to the second son 1/3, and to the third son 1/9. 17 doesn’t divide by any of those numbers. Conflict arose, and they decided to go to a wise old woman for assistance. After thinking about it for a while, she said, “Here. I’ll give you one of my camels.” Now with 18 camels, the first son took 1/2: (9), the second son took 1/3: (6), and the last son took 1/9: (2), and they had a camel left over and they gave it back to the woman.
  
-> “I have come as a mediator to work out a compromise” Within an hour of Kurt Weildheim’s arrival in Tehran for the release of American hostages, his car was being pelted with stones by angry protesters. (compromise in Persian lacks the positive connotation as a solution midway between two positions, but only the negative one as in “our integrity was compromised”. similarly, mediator in persian means “meddler”
+> “I have come as a mediator to work out a compromise”. Within an hour of Kurt Weildheim’s arrival in Tehran for the release of American hostages, his car was being pelted with stones by angry protesters. Compromise in Persian lacks the positive connotation as a solution midway between two positions, but only the negative one as in “our integrity was compromised”. Similarly, mediator in persian means “meddler”.
 
 
 > Some of the best negotiators are so empathetic that you feel like they feel like you. They agree with you on everything, or respectfully disagree with you. But they always, always validate you.
@@ -53,7 +53,8 @@ Both activities require common abilities:
 - active listening
 -  empathy
 -  making people feel good
--  getting people to see your point of view 
+-  getting people to see your point of view
+-  reframing or breaking frames 
 
 
 ----
@@ -158,7 +159,7 @@ Both activities require common abilities:
 
 * **Social Proof.** Testimonials from satisfied customers show your target audience that people who are similar to them have enjoyed your product or service. They’ll be more likely to become customers themselves. A similar principle applies to television commercials that say: “If our lines are busy, please call again.” Instead of saying “Operators are standing by.” The first response implies that other people like your offer so much that the phone lines are busy, which may persuade others to act similarly.
 
-* **Get the other side to commit** People want to be both consistent and true to their word. Getting customers or co-workers to publicly commit to something makes them more likely to follow through with an action or a purchase. Ask your team members if they’ll support your next initiative and say why. Getting people to answer ‘yes’ makes them more powerfully committed to an action. 
+* **Get the other side to commit.** People want to be both consistent and true to their word. Getting customers or co-workers to publicly commit to something makes them more likely to follow through with an action or a purchase. Ask your team members if they’ll support your next initiative and say why. Getting people to answer ‘yes’ makes them more powerfully committed to an action. 
 > For instance, don’t tell people: “Please call if you have to cancel.” Asking “Will you please call if you have to cancel?” gets customers to say yes, and measurably increases their response rates.
 
     * In negotiations, “The Rule of Three is simply getting the other guy to agree to the same thing three times in the same conversation. It’s tripling the strength of whatever dynamic you’re trying to drill into at the moment. In doing so, it uncovers problems before they happen. It’s really hard to repeatedly lie or fake conviction.”  
@@ -173,27 +174,29 @@ Both activities require common abilities:
 # Principled Negotiation
 
 Good negotiation arrives at a wise decision efficiently and amicably.
-Bargaining from positions does not do that: it is inefficient (you hide true interests, start from extreme positions, and have  to make difficult and time-consuming decisions on how much to yield at every step. There is an incentive on both sides to drag your feet). It is not amicable: gets egos involved and becomes a contest of will. And it may not product wise outcomes. 
-
+Bargaining from positions does not do that: 
+- It is inefficient: you hide true interests, start from extreme positions, and have  to make difficult and time-consuming decisions on how much to yield at every step. There is an incentive on both sides to drag your feet). 
+- It is not amicable: gets egos involved and becomes a contest of will. 
+- It may not product wise outcomes. 
 
 
 Pay more attention to the underlying concerns of the parties. 
 
-Hard bargaining                 | Soft bargaining           | Principled Bargaining
-
-participants as adversaries     | participants as friends       | participants as problem solvers
-goal as victory                 | goal as agreement         | goal as an amicable and wise decision
-insist on position              | insist on agreement       | insist on objective criteria
-make threats                    | make offers               | explore interests  
-apply pressure              | yield to pressure             | reason and be open to reasons
-demand concessions          | make concessions                  | invent options for mutual gain
-demand one-sided gains      | accept one-sided losses   | separate people from the problem
-distrust others                 | trust others              | proceed independent of trust 
-dig into your position          | change position easily        | focus on interests, not positions 
-mislead to your bottom line         | disclose your bottom line     | avoid having a bottom line
-search for what you will accept | whatever they will accept     | develop multiple options to choose from
-try to win a contest of will        | try to avoid a contest of will | try to reach a result independent of will
-be hard on the people be soft on the people be soft on the people, hard on the problem
+| Hard bargaining | Soft bargaining | Principled Bargaining |
+|-------|-------|-------|
+| participants as adversaries | participants as friends | participants as problem solvers
+| goal as victory | goal as agreement | goal as an amicable and wise decision
+| insist on position | insist on agreement | insist on objective criteria
+| make threats | make offers | explore interests  
+| apply pressure | yield to pressure | reason and be open to reasons
+| demand concessions | make concessions | invent options for mutual gain
+| demand one-sided gains      | accept one-sided losses   | separate people from the problem
+| distrust others                 | trust others              | proceed independent of trust 
+| dig into your position          | change position easily        | focus on interests, not positions 
+| mislead to your bottom line         | disclose your bottom line     | avoid having a bottom line
+| search for what you will accept | whatever they will accept     | develop multiple options to choose from
+| try to win a contest of will        | try to avoid a contest of will | try to reach a result independent of will
+| be hard on the people | be soft on the people | be soft on the people, hard on the problem
 
 Four parts:
 
@@ -851,14 +854,19 @@ A few general principles:
 - You don’t need to have a reason why you need a higher salary (you don’t have to say you’re paying off student loans, for instance). BUT, if you are changing jobs and this would be a salary cut, you can let them know that.
 In some cases a salary cut is the right thing to do – if you would have more autonomy or potential for career advancement or just plain more FUN at the new position, take the salary cut if you can afford it. (I did so once and it was the absolute right decision.)
 
+Make them see your point of view and give them the illusion of control:
+
 >  “If you were me being offered this job, what would you ask for?”
+
+> “You guys are the experts on how one can grow and flourish and bring the most value to your company. What should I ask for and how do you see me growing in the company? Can we outline that out?”
 
 > “Because I like this company a lot and want to accept this, I trust that you will help me figure out the right things to ask for here. Is there anything I’m missing?”
 
 People Don’t Ask “How?”
 
-If they offer too little or no moving expenses or no vacation or no path to promotion, simply ask: “How?”
-For instance:
+If they offer too little or no moving expenses or no vacation or no path to promotion, simply ask: “How?”. 
+
+Insist on objective criteria:
 > Other people in the industry are making $X. I know that I offer $Y in value. Can you walk me through how I can accept $Z that you are offering?”
 
 They will keep talking and the numbers will change. Trust me on this.
@@ -887,8 +895,8 @@ Even if you don't get a raise or promotion this time, it tells your boss that yo
 
 
 
-Or, “You guys are the experts on how one can grow and flourish and bring the most value to your company. What should I ask for and how do you see me growing in the company? Can we outline that out?”
-Always ask for advice first. 
+
+
 
 
 

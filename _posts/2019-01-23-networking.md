@@ -1,9 +1,9 @@
 ---
 
 layout: post-journal
-title: Networking 
+title: Befriend
 date:   2019-01-23 09:00:11
-tag: How to make friends
+tag: A guide to modern networking
 categories: guide
 excerpt: 
 permalink: /networking
@@ -309,6 +309,10 @@ Go nuts.  Pretend no one is looking when you dance.  They’ll look.  Pretend
 Spend time with friends.  When people go out, a lot of the emotionally draining time that they spend "out", they try to meet other people.  Meet other people during the day, doing activities you like to do besides drink and talk loud.  Spend time with your friends, with your loved ones.  Do things that you want to do.  Don’t eat ass.  I meant kiss ass.  Watch standup comedy.  You’ll be a funnier person 
 
 For Finding Women: Go to dance classes or traveller hostels
+
+----
+
+**References**
 
 - [Making friends as an adult](http://www.thehappytalent.com/blog/behold-the-number-one-best-way-to-make-new-friends-as-an-adult)
 - [How can I speak with more clarity?](https://www.quora.com/How-can-I-speak-with-more-clarity)

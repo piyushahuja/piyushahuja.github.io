@@ -1,6 +1,6 @@
 ---
 layout: post-journal
-title: Job Interviews
+title: Interview 
 date:   2019-03-21 09:00:11
 tag:  Mindset 101
 categories: guide
