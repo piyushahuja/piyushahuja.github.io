@@ -9,7 +9,15 @@ excerpt:
 permalink: /networking
 
 ---
+[Standing Invitation](https://www.kalzumeus.com/standing-invitation/ Standing Invitation)
 
+Success is all about people, communicating your value
+
+> I checked a lot of boxes, had great scientific output, managed underlings well, had an excellent pedigree (including top tier undergrad and grad schools and Nobel laureate as my immediate postdoc supervisor), but failed to obtain a tenure track position. 
+> Looking at the peers who made it and didn't (including ones that were slightly less deficient), I realized it's because you need to have one of those PIs go to bat for you. It was something as a leader I did for my underlings (I arranged for both of my interns to have one-on-one lunches with a Nobel laureate and a his buddy that didn't get to win a prize in spite of inventing site directed mutagenesis - an experience that I haven't even had myself). As soon as I realized that my high profile bosses had checked out and would never go to bat for me or anyone really (still love them though) I got out of dodge.
+
+
+---
 
 
 
@@ -103,6 +111,12 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 
 
 ---
+
+
+ Don’t gossip or bitch or complain. Do not pick up debates or arguments for the sake of intellectual discussion. To continue the conversation, install humour or stories or show don’t tell kind of thing, and if you disagree or have strong opinions, disagree in a polite way or again, with show/don’t tell kind of way by agreeably leading the person to the absurd conclusions (only with people you want to do this to, especially pretentious people who care about high status). Practice Satire. 
+
+ ----
+
 
 **Find a common connection: a hobby or achievement or common friend of your own.** 
 
@@ -265,6 +279,13 @@ You should be able to divide the people with whom you shake hands into three rou
 
 ---
 
+Great work requires teams. Developing a network of talented people to work with—sometimes closely, sometimes loosely—is an essential part of a great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
+
+- Help people as much as you can. Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago.
+
+- Develop a reputation for really taking care of the people who work with you. Be overly generous with sharing the upside; it will come back to you 10x. 
+
+- A particularly valuable part of building a network is to get good at discovering undiscovered talent. Quickly spotting intelligence, drive, and creativity gets much easier with practice. The easiest way to learn is just to meet a lot of people, and keep track of who goes on to impress you and who doesn’t. Remember that you are mostly looking for rate of improvement, and don’t overvalue experience or current accomplishment.
 
 ----
 
@@ -273,6 +294,18 @@ You should be able to divide the people with whom you shake hands into three rou
 **On Making Friends**
 
 
+> Sometimes I feel that it can be a lucrative trap to become invested in a single person, and then accumulate expectations that far outweigh the responsible obligations of any friendship.
+As I have gotten older, a pattern that is working much better for me is the campfire model - I just try to keep a metaphorical campfire going, for people traveling through this life to stop and warm themselves upon while I tend it. I cannot know which direction people are traveling from, or to, or how long their journey has been or will be. But all people need to warm their calloused hands and feet, and I can keep this fire with a bed of rosy coals.
+
+> Sometimes someone will stop at my fire and warm themselves without my ever having paid attention, but to them it may have meant all the difference in the world. By keeping this obligation in mind, to simply expect people to need a place to sit a spell, I can at least believe I am helping.
+
+> The campfire is a nice way for me to remember we're all suffering, that not a one of us is unique to loneliness. Because sometimes that person who sits down at your fire is the person you have been waiting for, and only by making a seat for them were you able to ever meet.
+
+---
+
+That lowly secretary knows everything. She looks like she’s minding her own business popping in and out of higher ups offices bringing coffee, but she’s listening to everything. She knows layoffs are coming, that Jack is getting a bonus, that Steve and Mary are having an affair. Her bosses know this, and value greatly her ability to keep things quiet. They often look to her when questioning which of the two salesmen to let go. Be nice to that lady, she’s got more power than you think. *Build deep, long-term relationships - with everyone - that give you insider knowledge.*
+
+----
 
 - Proximity (due to factors like convenience, the mere exposure effect, the odds of ever actually meeting each other, etc.)
 - Repeated, unplanned interactions (like at school, day care, play dates, extracurricular activities, church, parents' friends' kids, etc.)
