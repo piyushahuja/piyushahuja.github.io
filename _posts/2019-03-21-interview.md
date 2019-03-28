@@ -2,7 +2,7 @@
 layout: post-journal
 title: Interview 
 date:   2019-03-21 09:00:11
-tag:  Mindset 101
+tag:  
 categories: guide
 excerpt: 
 permalink: /interview
@@ -13,7 +13,17 @@ comments: false
 
 If you cannot persuade a person to hire you for the skills you are good at,  how do you even expect to win friends and influence people in any other enterprises of life?  How are you going to persuade investors to back your vision with their capital? How are you going to woo a person you want to spend the of your life with? How would you befriend a person you respect and admire? How would you command the loyalty of your tribe?
 
-Excellence in all of these spheres of life depend on the same basic primitives, and it is worth spend some time mindfully honing them. 
+---
+
+It's all about empathy: 
+
+Interviewers go through hundreds of resumes just like you, and have probably interviewed 10-12 people just like you in the current phase. You have to stand out and make it as easy as possible for them to say "Yes, this is what I want". Someone that eases their worries and makes them look good for be able to hire you. You have to project "I am your guy". You have to make them feel good about hiring you. 
+
+---
+
+
+- [The Pursuit of Happiness](https://www.youtube.com/watch?v=gHXKitKAT1E&list=PLdIS7dENF-nXuG_spHpqy05J0qat1sp6t&index=20&t=0s)
+
 
 ---
 

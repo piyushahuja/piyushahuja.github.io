@@ -165,7 +165,7 @@ Both activities require common abilities:
     * In negotiations, “The Rule of Three is simply getting the other guy to agree to the same thing three times in the same conversation. It’s tripling the strength of whatever dynamic you’re trying to drill into at the moment. In doing so, it uncovers problems before they happen. It’s really hard to repeatedly lie or fake conviction.”  
 
 
-
+* Show up in person whenever it’s important. When I was first starting out, I was always willing to get on a plane. It was frequently unnecessary, but three times it led to career-making turning points for me that otherwise would have gone the other way.
 
 
 -----
