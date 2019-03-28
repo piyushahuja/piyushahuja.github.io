@@ -3,7 +3,7 @@
 layout: post-journal
 title: Befriend
 date:   2019-01-23 09:00:11
-tag: A guide to modern networking
+tag: A guide to the modern practice of networking
 categories: guide
 excerpt: 
 permalink: /networking

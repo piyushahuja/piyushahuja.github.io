@@ -78,6 +78,24 @@ Stories are gold.  Being a good storyteller is like strapping your personality 
 
 # The performance
 
+
+* **Elocution**
+    *  Removing unncessary movements or twitching. Keep hands away from your face or head. Speak with a still head. 
+    *  Replace filler words (wit "um, uh, like, just") with pauses. Make friends with pauses in between sentences and learn to be comfortable in short moments of silence. I remember reading a research study that suggests filler words are a way for our brains to scan for the right words, thus I'm not arbitrarily saying that filler words are "bad". However, using the same line of thinking, reducing filler words suggests you have a good command of the vocabulary you want to best communicate your ideas.
+    *  Speak authoritatively, with certainty. 
+        *  Confidence is more important than consistency or correctness. Portray Confidence and Self-Assurance
+        *   Give people the impression that you're 100% sure of yourself, you're an authority in the subject matter you're talking about, and you believe wholeheartedly in what you're saying. Many people are disproportionately attracted to this quality even if it's specious. The impression of doubt and self-restraint tend to repel many people even when that's grounded on reasonable premises. 
+    *  Speak in complete sentences.  Don’t speak in halting, incomplete sentences. Trailing off, editing your sentences as you got.  
+ *   If others interrupt, keep talking. Demonstrate conviction. Boldly (don’t qualify) Other people don’t know of your own critique! 
+ - Pausing and emphasizing
+    - Some people never stop talking. They go on a spree once they engage someone, talking a lot and jumping from topic to topic without letting the actual person contribute. This denotes low value. Now imagine I say the following 2 sentences, which one do you think packs a bigger punch? 
+    > “Make sure you write everyday and that will make all the difference”       
+    > “Make sure you write everyday… (look in the eyes with 3 seconds silence) and that will make all the difference” 
+
+    * Place a pencil in between your teeth - right to the end of your mouth and tighten your jaw grip on it. And then for the next 15 minutes speak loudly, clearly and enunciate your words to the best of your ability. Or read from a book - really loudly and clearly.Keep doing this for 15 minutes non-stop. As you do this, your lips, your jaw, your tongue and your cheeks will be sore. Really sore. However, once you take it out - you will be shocked to see how well you articulate every single word.Try this everyday for 15 minutes and you will never be the same speaker ever again 
+
+
+
 - **Commit to the story.**  Don’t back out halfway.  Don’t stop speaking is someone starts talking over you.  Continue talking as if you are telling the story to yourself.  If you stop, people won’t listen to you next time.  If you continue telling the story, even if other people are talking over you or interrupting you, they will eventually listen to your story.   Sometimes we are afraid that people will stop listening.  We doubt that our story is interesting to other people.  We overthink.  We’re quiet and don’t speak up.  This happened to me all of the time.  I used to be a terrible storyteller.  I would ramble and fizzle out.  I didn’t have the conviction in myself to finish a story even though I knew what I was saying was interesting.  Enough.  
 **Derails**
 
@@ -681,7 +699,6 @@ With that framework in mind, you're now prepared to make informed decisions abou
 - [How to tell a story from a master of improv](https://www.fastcompany.com/1681562/how-to-tell-a-story-right-now-from-a-master-of-improv)
 - [Storytelling that moves people](https://hbr.org/2003/06/storytelling-that-moves-people)
 - [How do you make boring stories more interesting?](https://www.quora.com/Conversations-How-do-you-make-boring-stories-more-interesting)
-- [Change your voice](http://www.wikihow.com/Change-Your-Voice)
 - [How does one become a good storyteller? ](https://www.quora.com/How-does-one-become-a-good-storyteller-What-are-small-nuances-you-would-recommend-to-take-into-consideration-What-are-must-have-standards-What-extremely-positive-examples-must-be-taken-as-inspiration)
 - [What are some steps that one can take to become a great storyteller?](https://www.quora.com/What-are-some-steps-that-one-can-take-to-become-a-great-storyteller)
 - [What can I do within a month to become more charismatic?](https://www.quora.com/What-can-I-do-within-a-month-to-become-more-charismatic-Would-improv-or-acting-classes-help-Perhaps-something-that-helps-me-as-a-speaker) 
