@@ -1,6 +1,6 @@
 ---
 layout: post-journal
-title:  Storytelling
+title:  Tell stories
 date:   2019-03-21 09:00:11
 tag: 
 categories: guide
