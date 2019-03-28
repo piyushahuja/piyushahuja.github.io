@@ -175,10 +175,6 @@ Both activities require common abilities:
 Good negotiation arrives at a wise decision efficiently and amicably.
 Bargaining from positions does not do that: it is inefficient (you hide true interests, start from extreme positions, and have  to make difficult and time-consuming decisions on how much to yield at every step. There is an incentive on both sides to drag your feet). It is not amicable: gets egos involved and becomes a contest of will. And it may not product wise outcomes. 
 
-| h1     | h2     | h3     |
-|--------|--------|--------|
-| data-1 | data-2 | data-3 |
-
 
 
 Pay more attention to the underlying concerns of the parties. 
