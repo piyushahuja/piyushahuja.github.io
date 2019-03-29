@@ -25,7 +25,8 @@ Stories are gold.  Being a good storyteller is like strapping your personality 
 
 > Everyone loved my Dad. He got free invites to the most exclusive dinners and events. I didn’t realize why until high school. He told the best stories. “You’ll never believe this. Back when I was Minnesota, I owned this underground nightclub. We use to…” It would start with three people leaning in to listen. Three would turn to five, then five to ten. Sometimes we’d be at a fancy dinner party of thirty people. They’d all be listening to him. You couldn’t hang out with my Dad and not meet people. IMPOSSIBLE.
 
-> Selling is about story telling. I don’t care what culture what country you come from, as human beings, we all share one trait, that is we enjoy stories. Great salespeople and effective leaders know this all too well. We don’t buy products or services, we buy from people. Ultimately we want to be able to relate to one another. There is no better way than to tell stories to reveal the personality of you, your product or services. I am not suggesting you make up some BS story or some canned pitch. It has to be authentic. 
+> Selling is about story telling. I don’t care what culture what country you come from, as human beings, we all share one trait, that is we enjoy stories. Great salespeople and effective leaders know this all too well. We don’t buy products or services, we buy from people. Ultimately we want to be able to relate to one another. There is no better way than to tell stories to reveal the personality of you, your product or services. I am not suggesting you make up some BS story or some canned pitch. It has to be authentic.  
+
 -----
 
 
