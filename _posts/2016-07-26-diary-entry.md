@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Wish I had kept a diary
+title: I wish I had kept a diary 
 date:   2016-07-26 09:00:11
 tag: 
 categories: journal
@@ -17,7 +17,7 @@ comments: false
 
 I haven’t written a diary entry in five years. During this time, I have written essays. I have written long form semi-autobiographical fiction. I have written notes and to-do lists and Facebook statuses and daily updates. I have even penned down bucket lists, long term goals and life ambitions, and listicles of favourite movies, books, food and people. But not a single diary entry. 
 
-Diary entries do something which other forms of writing don’t. They chronicle your life. And in real time (well, not exactly. But then, what is 'real time' anyway?  If you were to measure your life in days, or your unit of time resolution is one day, then it is as good as real time.). You could zoom in, go back and have a look inside the mind of your previous self, see how they thought, felt. Or you could zoom out, and see recurring patterns of thought.  You could possibly get answers for why your life turned out the way it did.  Diary entries act like a mirror which shows how your separate day-to-day selves tie into one coherent whole. Diary entries hold the secret key to your identity. Even more so than memories, which are fallible
+Diary entries do something which other forms of writing don’t. They chronicle your life.[^realTime] You could zoom in, go back and have a look inside the mind of your previous self, see how they thought, felt. Or you could zoom out, and see recurring patterns of thought.  You could possibly get answers for why your life turned out the way it did.  Diary entries act like a mirror which shows how your separate day-to-day selves tie into one coherent whole. Diary entries hold the secret key to your identity. Even more so than memories, which are fallible
 
 The second important thing diary entries do is reinforce your memory. Things which are penned down become permanent. Each time you revisit them, some decaying synapse of your brain is revitalised, reconnected and welcomed back into the community of your memories. 
 
@@ -30,4 +30,5 @@ But did I, really? It feels I have instead regressed. Had I figured out all the 
 In the absence of a diary, I find that I am no longer able to answer these questions. 
 
 [^Didion]: [Joan Didion on keeping a notebook](https://www.brainpickings.org/2012/11/19/joan-didion-on-keeping-a-notebook/)
+[^realTime]: In real time. Well, not exactly. But then, what is 'real time' anyway?  If you were to measure your life in days, or your unit of time resolution is one day, then it is as good as real time.
 

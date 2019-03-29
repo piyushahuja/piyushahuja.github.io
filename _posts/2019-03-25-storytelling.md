@@ -25,6 +25,7 @@ Stories are gold.  Being a good storyteller is like strapping your personality 
 
 > Everyone loved my Dad. He got free invites to the most exclusive dinners and events. I didn’t realize why until high school. He told the best stories. “You’ll never believe this. Back when I was Minnesota, I owned this underground nightclub. We use to…” It would start with three people leaning in to listen. Three would turn to five, then five to ten. Sometimes we’d be at a fancy dinner party of thirty people. They’d all be listening to him. You couldn’t hang out with my Dad and not meet people. IMPOSSIBLE.
 
+> Selling is about story telling. I don’t care what culture what country you come from, as human beings, we all share one trait, that is we enjoy stories. Great salespeople and effective leaders know this all too well. We don’t buy products or services, we buy from people. Ultimately we want to be able to relate to one another. There is no better way than to tell stories to reveal the personality of you, your product or services. I am not suggesting you make up some BS story or some canned pitch. It has to be authentic. 
 -----
 
 
@@ -65,6 +66,7 @@ Stories are gold.  Being a good storyteller is like strapping your personality 
 - **Make sure you always have a few "go-to" stories that you can tell perfectly.**
     * Start with your “firsts.” If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house - is a great place to start. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says. 
     * Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship. 
+    * You need to learn what's too long and what's too short, which depends on your audience and their moods (you need to learn how to read people); you need to learn to make your experiences visceral, which means describing the cheesecake you ate in a way that makes your listeners taste it; you need to learn how to to tease by withholding information until people are itching for a payoff; you need to learn about story structure: beginnings, middles, and ends. You don't just dump whatever is on your mind into the conversation; you purposefully shape it to make it interesting
 
 * **Avoid: cliché, digression, saying too much, not saying enough, lack of attention to the audience and preachiness.**
 
