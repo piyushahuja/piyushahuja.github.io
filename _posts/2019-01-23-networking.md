@@ -9,7 +9,7 @@ excerpt:
 permalink: /networking
 
 ---
-[Standing Invitation](https://www.kalzumeus.com/standing-invitation/ Standing Invitation)
+[Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
 
 Success is all about people, communicating your value
 
