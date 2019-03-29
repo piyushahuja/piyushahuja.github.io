@@ -16,7 +16,81 @@ Success is all about people, communicating your value
 > I checked a lot of boxes, had great scientific output, managed underlings well, had an excellent pedigree (including top tier undergrad and grad schools and Nobel laureate as my immediate postdoc supervisor), but failed to obtain a tenure track position. 
 > Looking at the peers who made it and didn't (including ones that were slightly less deficient), I realized it's because you need to have one of those PIs go to bat for you. It was something as a leader I did for my underlings (I arranged for both of my interns to have one-on-one lunches with a Nobel laureate and a his buddy that didn't get to win a prize in spite of inventing site directed mutagenesis - an experience that I haven't even had myself). As soon as I realized that my high profile bosses had checked out and would never go to bat for me or anyone really (still love them though) I got out of dodge.
 
+---
 
+Cultivate Your Tribe
+
+Your true educators and cultivators will reveal to you the original sense and basic stuff of your being, something that is not ultimately amenable to education or cultivation by anyone else, but that is always difficult to access, something bound and immobilized; your educators cannot go beyond being your liberators. (For me, these have been my true educators:  RBN, Isabel Ruiz, Florian, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am)
+
+* How to get mentors:
+    * Make yourself not-a-stranger
+    * To research and find commonalities
+    * Find out ways you can help them
+
+Get a Coach (different from Mentor). https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D
+    * The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
+
+Have an idealist on your team.  An upbeat, positive, communicative person who always focuses on the bright spot and the light at the end of the tunnel helps. It’s not about having fake rose-tinted glasses, but an open, curious and optimistic attitude. Always look for the small wins and successes and acknowledge them, keep the spirit of encouragement going.
+
+When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
+
+Deal with Toxic influences. If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. (Mandvi e.g.)
+
+Most people thrive when they are part of a good tribe – a place they can go to contribute and receive help when needed, a place of mutual enjoyment, mutual respect, and mutual purpose.  Just try to find some people you enjoy, whether it’s one other person, or a new group. And then find ways to spend more time with people who energize you, and less time with people who drag you down. And if you’re drawn to a tribal utopia, like the fantasy version of tribal life described in the beginning of this essay, use that as an ideal that you nudge your social life toward a little at a time.
+
+For the longest time, I thought I’d feel better about myself when I finally fell in love. When fuck yes or no became the default filter through which I made decisions about my dating life, I started to have a much higher opinion of myself.
+
+My Tribe:  
+
+RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
+Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
+Chandigarh: Yatik, Dhruv.
+MCA people: Tarun, Gainda, Shubham, Bhalu.  
+QC people: Mayank, Nikhil Mahajan, Salik Warsi, Fotedar
+Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini
+IITD: Kush, GD
+IITB People: Khandu, Nadu, Sachin
+Mentors: Florian, Alistair Beecher
+
+PGM, Prachi,  Duja,  Dhruv
+
+
+Now you have to STRIVE. There is no good in just sitting around pretending everything is good. So start figuring out what you like and where others who like what you like might hang out. The world is filled with lonely people searching for others like themselves. They think they are too weird or awkward or their desires are too disgusting or revolting for anyone to be like them or like them. Guess what? They are wrong. No matter what you think of yourself or your habits there are legions of people just like you, who would like you, who want to be your friend. All you have to do is find each other. I'm not saying its easy but nothing good happens by itself -- you have to make it happen. No matter what you like, make a goal, write it on paper -- then go do the work to make it happen. It won't happen over night. But it WILL happen. It's the nature of humanity. We are social and seek others to be with and we will move heaven and earth to find that person who is like us and who will like us. And once it starts it starts a chain reaction of finding more and more until you have a group of like minded people. Don't know where to start? Look at the group Meetup.org. They have branches in most cities and have literally 1000s of areas of interest. No Meetup near you? Look at the Adult Education classes in your community -- their focus is social, learning how to knit or cook or make birdhouses is secondary. Find something you like or  MIGHT like and then find an organization that does it. Friendships will then form - IF YOU LET THEM.
+
+And to have a friend you have to be a friend. You have to extend yourself. Offer your hospitality. Help someone out who needs a hand. And note -- that doesn't mean money. Money almost NEVER comes into play with real friendship so people who are all about the money are usually NOT your friend. Take your time and observe how people behave and see if they are worthy of your trust - and your friendship because your friendship is an incredibly valuable and precious thing, so precious that you couldn't possibly manage to have more than say, seven REALLY CLOSE friends. I count myself lucky that I have two or three friends I could risk my life on. Having seven would be cornucopia of benificence. You have to NURTURE and maintain friendships. You can't just call them once a year and expect the relationship to survive. You have to be there, partiicipate, commisserate, enjoy, laugh and be together. That takes time. After a certain number, the people you know are just acquaintances, maybe possible friends, but you won't have the time to nurture and build deep lasting frienships with all of them. So observe and choose -- and you will have the choice. There will be lots and lots of choices if you get out there and be where they are -- because they are looking for you too!
+
+You want to find your tribe – the types of people like you that you can imagine working with for the rest of your career. Within that, you want to find a small group of people whom you trust, and whose opinions you really respect. You should probably be willing to move. For whatever you’re interested in, there will be pockets of people around the world who are doing the best work, and it’s worth getting as close to them as possible. Help others for no reason at all. When you’re young, you tend to have a small network, and that limits your options. When you help people without any intention of ever getting benefit back, doors and new connections will open – this has been super important for me.
+
+* As you prepare your pitch, whichever variety you choose, clarify your purpose and strategy by making sure you can answer these three questions:
+    After someone hears your pitch...
+    * What do you want them to *know*?
+    * What do you want them to *feel*?
+    * What do you want them to *do*?
+* If you’ve got strong answers to these three questions, the pitch will come together more easily. I apply same to my verbal and written communication now (be it emails, a proposal, website copy, client conversation, webinar etc etc). - Am I clearly making my audience know, feel and do what I want them to? If not, I refine it. I practice it until it is serving the purpose I want it to.
+* Examples-
+    * *Reminding a prospect who hasn’t enrolled yet*-
+        Earlier- “Please let me know if you are enrolling”
+        Better yet- “I hope you have all the information you need about our services. If you have any concerns, you can reach out to me personally. Since we work with limited clients and seats are filling fast (and I don’t want you to miss any deadlines), please inform me if you want me to hold a seat for you.”
+    * *Writing an informational article*-
+        Earlier- “What I think of XYZ issue”
+        Now- “XYZ issue is _____ (facts). It is impacting ___ in this way (what it means for the reader). I think of it as a ______ (opinion). It is becoming more critical as we do not ____. If we want to change our ___, we need to act upon _____ (call to act).”
+    * *Asking for a favor* **[This is combining Dan Pink’s wisdom with Dale Carnegie’s wisdom -
+        Earlier- “I am ____ and I want ____.”
+        Now- “I read your __ and found ___ pertinent to blah blah. I am a ____ and can help you improve_____ by ____. If this interests you, I would love to work together as _____. Can we get on a call this week anytime between 1-3pm to discuss this?”
+    * *Rejecting something*-
+        Earlier- “I am sorry but this does not work.”
+        Now- “I admire your ____. You have helped me by ______. Since you appreciate my ___, it is important for me to point out the problems in this proposal. I do not think it works because ___. We may do __<an alternative if relevant>___. Let me know what you think about it.”
+    * The key is that every form of communication is not about* ***me*** *but about you. Including this post. If the information I share here cannot help you improve and is not implementable, it is useless. You can apply this little shift of mindset to improve any form of communication.
+* You may not be the best writer, best vocabularist or best grammarist - but you can care and make it all about your reader and that is all that matters truly in the end.
+* P.S. An extension of this that I practice - if anything I am saying/writing is not going to make the reader feel better or helping her improve, it is better to scratch it out. I know negative thoughts, darkness have a place but that is in fiction. In real life and non-fiction, look at what is beautiful and if something is not, think of how it can be improved.
+
+- Build Sales Skills. If you don't ask, you won't receive. Sell themselves, they sell their ideas, they sell and motivate others to do their bidding (this is scaling). Be competent. Know your stuff, know your product or services that you are trying to sell. Know your competitors, know your customer’s alternatives well. There is no quicker way to lose credibility when you aren’t prepared and exposed to be a know-nothing bullshitter. This is perhaps the biggest reason a lot of salespeople fail. They don’t put in the work in the first place and somehow expect to wing it. Know the difference between being enthusiastic and pushy. Enthusiasm can be quite infectious, but being pushy simply means you are trying to impose your own interests, your own agenda onto others. No one likes being told, harassed, or tricked into doing anything, even if it might be in their best interests. Think of it this way, would you rather go to a party or a school assembly? 
+
+
+- What is going to motivate anyone to do something for others? For money? For vanity? For altruism? If you can’t answer that question regarding whoever you are trying to target or sell to, then you haven’t done your homework. The least you can do is to do some digging and come up with a decent pitch. So instead of can you do this and that for me, you really should be putting a bit effort, tell a compelling story when you have nothing material to offer. offer something of value before you ask for anything. sales isn't about selling a product. It is about creating value-generating relationships that enrich the lives and businesses of both parties. 
+
+- To Sell is Human by Dan Pink. In the Chapter on Pitch (which is worth more than the weight of it in gold), he talks about different kind of pitches and then says, 
+- 
 ---
 
 
@@ -96,6 +170,8 @@ Be genuinely interested in a person: What was your background? The most interest
 
 Be genuinely interested. Get their story out. Be a patient listener (it is this, not fast talking, that gets a con man his coups). Learn to master questions - One of the best ways to show you're a great listener is to ask great questions that are really relevant to the topic someone's talking about. Have a genuine curiosity to get to know people. The second key to being well spoken is by asking questions you genuinely care or are curious about, versus ones you think will make you sound smart or clever. People palpate authenticity from the way a question is used: whether it is a genuine question, or just a way to make the asker show cleverness or superiority. Of course, questions can be genuine AND clever, as long as your questions are truthful to your interest and engagement. Have something to talk about: pay attention to timely topics and pay attention to what other people are paying attention to. It doesn't all have to come from "you" -- I have few original ideas and even fewer insightful ones -- but I can share insight I have observed or read about from others, and I can be a bridge or connector in a conversation. You may want to start by becoming a connector or bridge in a conversation, versus a "driver" of conversations.
 
+------
+
 > I knew a girl in college who everyone wanted to be around. Whenever she was around, the gathering was filled with laughter and meaning. She was one person everyone wanted to talk to. Some of my old college friends still talk about our “good old days”—which included that mystical college girl who led our gatherings into realms of purpose, healing, spirituality, friendship and meaning.  
 > 
 > This is what I discovered about her: No one really knew much about her.
@@ -112,7 +188,61 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 
 ---
 
+[Marcus Geduld on Smartness](https://qr.ae/TW8PEP)
 
+
+> My grandmother was a kind of genius. She was generally acknowledged to be a great cook. This was remarkable, because she had no sense of smell and, for dietary reasons, rarely tasted her own food. And she didn't use recipes. 
+
+> She seemed to have an intuitive grasp of how to mix ingredients together to forge something yummy. Her talent came from decades of experimentation, lots of acquired wisdom, and a brain that was, apparently, rigged in such a way to give her easy access to this wisdom. She had all sorts of algorithms at her fingertips (do this, then do this, and do this ... if this, do that, else...) and an uncanny ability to improvise (I'm out of milk, so I'll use...).
+
+> She only had a high-school education and had little to say (at least to me) about politics, history, philosophy, literature or science. No one would have pegged her as "the smartest person in the room" and some people wouldn't have thought of her as smart at all.
+
+> People usually think I'm smart. I have two degrees. I am a computer programmer. I am a published author. I am a theatre director who specializes in Shakespeare.
+
+> What is the main difference between my grandmother and me? I happen to be interested in the "official" smart-set topics. My grandmother wasn't. She was interested (and highly knowledgable) in topics that aren't sanctioned by academics. (Yet most academics couldn't cook like her in a million years.)
+
+> If you happen to be more interested in philosophy than cooking or football or auto-mechanics, that's fine. But if you think your pet subjects are "better" or "higher" than other subjects, you don't have a logical leg to stand on.
+
+> As I said, above, people often think I'm smart. I've even been accused of being a genius, which I'm definitely not. But there's one situation in which people have had the opposite opinion of me, and I find it really fascinating: I have no interest in contemporary politics. (I have some interest in the politics of other eras in history, but I don't talk about that very much, so most people don't know.)
+
+> In a lot of social groups, "talking politics" is a signifier of intelligence. "Smart people" are supposed "have opinions" about Obama's fiscal policy; "smart people" are supposed to "read the New York Times"; "Smart people" are supposed to be able to discuss world affairs seriously. I often can't, because I don't know enough about them to say anything. I haven't read a newspaper in months.
+
+> We can argue about my social responsibility. Maybe I'm a bad person, because I'm not doing my civic duty and staying informed. But that's a different issue than whether or not I'm smart. 
+
+> Yesterday, I spent hours building a complex computer program that my friends would need years of training to even begin to understand. Then I ran a rehearsal for "Midsummer Night's Dream." But I have no opinion (or interest in) the situation in the Middle East, so in many situations, I'm one of the stupidest people in the room.
+
+> My point is that our metrics for what makes a smart person tend to be arbitrary and based on fashion -- most often on whether or not a person drops academic terms into casual conversation. If there are more accurate measures of intelligence (one's ability to perform abstract reasoning or whatever), we rarely use those metrics when "we're in a room with other people." So -- other than via crude, fashion-based signifiers -- we have no idea who the smartest person in the room is.
+
+> Is it the person who can talk about Schopenhauer? Is it the person who can fix a problem with any car? Is it the person who is a master of social situations (those poor folks are almost never credited with being smart, but as an nerdy, shy, introvert I am stunned by their skills!)?
+
+> So I think this is an ill-formed question. If I take the "be" in "What's it like to be the smartest person in the room?" literally, I can only say "I don't know," because "smartest person" is such a nebulous concept that no one can know if he's the smartest person in the room. 
+
+> Here's something (possibly related) that I can talk about: I am often the best person in the room at logical (as in syllogisms) reasoning and I'm also often the person in the room with the most "life experience." 
+
+> There are many people who are better logicians than I am (I'm sure there are many people here at Quora who are better), but I happen to be the best one in my social group. And the only reason why I have the most life experience is that I'm often around people who are younger than I am. When they're my age, they'll have just as much experience as I do now. Still, I often am the most "logical" person in the room and I often am the most experienced.  
+
+> The biggest frustration this causes me is that it often renders me totally unable to talk. Sometimes, based on, say, my 15-years of marriage, I know the guy next to me is wrong when he waxes about "relationships" after only ever having one girlfriend in his life -- and for only two weeks. But there's often not much I can say. (Or if I do speak up, it won't mean anything or change anything.) You can't force experience on people. They will get that experience when they get it. They have to go live for themselves.
+
+> I am quite often stymied because conversations are "illogical" and I'm the only one who notices or cares. I realize early on that an entire conversation doesn't make sense, and that it can't make sense, until everyone stops and examines the root assumptions behind the conversation. 
+
+> When I'm asked my opinion of the subject-at-hand, I freeze, because as far as I'm concerned, the subject is gibberish. On the other hand, I'll rightly be branded a freak if I say what's in my mind -- usually something like "If we want talk meaningfully about what the 'best' science-fiction movie is, we need to first define 'science-fiction' and 'best.' We need to clarify what our metric is for best, and we need to decide whether aesthetic judgements are subjective or objective." 
+
+> What's really going on here is that I'm getting stymied by my own skill. Yes, I can think logically and foundationally, and that helps me in my work. It also helps me have interesting thoughts about some topics I'm into. But it's not grounded in the reality of most human discourse.
+
+> I am aware, of course, that most conversations are not working in a framework of formal logic. Rather, they are more like stream-of-consciousness, call-and-response systems. "What's the best sci-fi movie?" doesn't literally mean "What's the best sci-fi movie?" In most conversations it means "I'm opening up the topic of sci-fi movies. Discuss it in any way that you'd like. Riff on my opening salvo..."
+
+> I know this, and I can sometimes flip into that framework, but my "intelligence" makes it harder for me than it is for "stupider" people. I hear a statement that's superficially in the form of a formal-logic statement, and my brain goes into formal-logic mode. I can't stop myself from thinking -- and dwelling on -- "you just said X but that contradicts your earlier claim that Y..."
+
+> So in those situations, who is really the smartest person in the room? The guy acting like (or at least thinking like) Mr. Spock -- the guy having trouble relating to the others in a casual, interesting way -- Or the guy who knows how to have a conversation without getting bogged down in literalism and inappropriate frameworks?
+
+
+
+
+
+
+
+
+-----
  Don’t gossip or bitch or complain. Do not pick up debates or arguments for the sake of intellectual discussion. To continue the conversation, install humour or stories or show don’t tell kind of thing, and if you disagree or have strong opinions, disagree in a polite way or again, with show/don’t tell kind of way by agreeably leading the person to the absurd conclusions (only with people you want to do this to, especially pretentious people who care about high status). Practice Satire. 
 
  ----
