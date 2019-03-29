@@ -61,6 +61,8 @@ And to have a friend you have to be a friend. You have to extend yourself. Offer
 
 You want to find your tribe – the types of people like you that you can imagine working with for the rest of your career. Within that, you want to find a small group of people whom you trust, and whose opinions you really respect. You should probably be willing to move. For whatever you’re interested in, there will be pockets of people around the world who are doing the best work, and it’s worth getting as close to them as possible. Help others for no reason at all. When you’re young, you tend to have a small network, and that limits your options. When you help people without any intention of ever getting benefit back, doors and new connections will open – this has been super important for me.
 
+-------
+
 * As you prepare your pitch, whichever variety you choose, clarify your purpose and strategy by making sure you can answer these three questions:
     After someone hears your pitch...
     * What do you want them to *know*?
