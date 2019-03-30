@@ -190,38 +190,10 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 
 ---
 
-[Marcus Geduld on Smartness](https://qr.ae/TW8PEP)
-
-
-> My grandmother was a kind of genius. She was generally acknowledged to be a great cook. This was remarkable, because she had no sense of smell and, for dietary reasons, rarely tasted her own food. And she didn't use recipes. 
-
-> She seemed to have an intuitive grasp of how to mix ingredients together to forge something yummy. Her talent came from decades of experimentation, lots of acquired wisdom, and a brain that was, apparently, rigged in such a way to give her easy access to this wisdom. She had all sorts of algorithms at her fingertips (do this, then do this, and do this ... if this, do that, else...) and an uncanny ability to improvise (I'm out of milk, so I'll use...).
-
-> She only had a high-school education and had little to say (at least to me) about politics, history, philosophy, literature or science. No one would have pegged her as "the smartest person in the room" and some people wouldn't have thought of her as smart at all.
-
-> People usually think I'm smart. I have two degrees. I am a computer programmer. I am a published author. I am a theatre director who specializes in Shakespeare.
-
-> What is the main difference between my grandmother and me? I happen to be interested in the "official" smart-set topics. My grandmother wasn't. She was interested (and highly knowledgable) in topics that aren't sanctioned by academics. (Yet most academics couldn't cook like her in a million years.)
-
-> If you happen to be more interested in philosophy than cooking or football or auto-mechanics, that's fine. But if you think your pet subjects are "better" or "higher" than other subjects, you don't have a logical leg to stand on.
-
-> As I said, above, people often think I'm smart. I've even been accused of being a genius, which I'm definitely not. But there's one situation in which people have had the opposite opinion of me, and I find it really fascinating: I have no interest in contemporary politics. (I have some interest in the politics of other eras in history, but I don't talk about that very much, so most people don't know.)
-
-> In a lot of social groups, "talking politics" is a signifier of intelligence. "Smart people" are supposed "have opinions" about Obama's fiscal policy; "smart people" are supposed to "read the New York Times"; "Smart people" are supposed to be able to discuss world affairs seriously. I often can't, because I don't know enough about them to say anything. I haven't read a newspaper in months.
-
-> We can argue about my social responsibility. Maybe I'm a bad person, because I'm not doing my civic duty and staying informed. But that's a different issue than whether or not I'm smart. 
-
-> Yesterday, I spent hours building a complex computer program that my friends would need years of training to even begin to understand. Then I ran a rehearsal for "Midsummer Night's Dream." But I have no opinion (or interest in) the situation in the Middle East, so in many situations, I'm one of the stupidest people in the room.
-
-> My point is that our metrics for what makes a smart person tend to be arbitrary and based on fashion -- most often on whether or not a person drops academic terms into casual conversation. If there are more accurate measures of intelligence (one's ability to perform abstract reasoning or whatever), we rarely use those metrics when "we're in a room with other people." So -- other than via crude, fashion-based signifiers -- we have no idea who the smartest person in the room is.
-
-> Is it the person who can talk about Schopenhauer? Is it the person who can fix a problem with any car? Is it the person who is a master of social situations (those poor folks are almost never credited with being smart, but as an nerdy, shy, introvert I am stunned by their skills!)?
-
-> So I think this is an ill-formed question. If I take the "be" in "What's it like to be the smartest person in the room?" literally, I can only say "I don't know," because "smartest person" is such a nebulous concept that no one can know if he's the smartest person in the room. 
 
 > Here's something (possibly related) that I can talk about: I am often the best person in the room at logical (as in syllogisms) reasoning and I'm also often the person in the room with the most "life experience." 
 
-> There are many people who are better logicians than I am (I'm sure there are many people here at Quora who are better), but I happen to be the best one in my social group. And the only reason why I have the most life experience is that I'm often around people who are younger than I am. When they're my age, they'll have just as much experience as I do now. Still, I often am the most "logical" person in the room and I often am the most experienced.  
+> ....  
 
 > The biggest frustration this causes me is that it often renders me totally unable to talk. Sometimes, based on, say, my 15-years of marriage, I know the guy next to me is wrong when he waxes about "relationships" after only ever having one girlfriend in his life -- and for only two weeks. But there's often not much I can say. (Or if I do speak up, it won't mean anything or change anything.) You can't force experience on people. They will get that experience when they get it. They have to go live for themselves.
 
@@ -245,6 +217,7 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 
 
 -----
+
  Don’t gossip or bitch or complain. Do not pick up debates or arguments for the sake of intellectual discussion. To continue the conversation, install humour or stories or show don’t tell kind of thing, and if you disagree or have strong opinions, disagree in a polite way or again, with show/don’t tell kind of way by agreeably leading the person to the absurd conclusions (only with people you want to do this to, especially pretentious people who care about high status). Practice Satire. 
 
  ----
