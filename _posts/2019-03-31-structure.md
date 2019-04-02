@@ -268,6 +268,11 @@ Possible sources of bugs:
 
     Always remember to thank your interviewer via email preferably by the end of the same business day that you interviewed with them. Even if the company isn’t your top choice, someone took time out of their busy schedule to interview you, so it’s important to thank them. And, if you learned something new, a quick thank you email is a great way to reiterate that.
 
-- [How to interview by Pramp](https://blog.pramp.com/how-to-interview-well-as-a-software-engineer-f64c2631158c)
+
 
 --------
+
+**References**
+
+- [How to interview by Pramp](https://blog.pramp.com/how-to-interview-well-as-a-software-engineer-f64c2631158c)
+
