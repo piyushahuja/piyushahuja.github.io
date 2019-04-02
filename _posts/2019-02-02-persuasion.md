@@ -903,7 +903,8 @@ Even if you don't get a raise or promotion this time, it tells your boss that yo
 
 
 
-
+https://news.ycombinator.com/item?id=19542087
+https://news.ycombinator.com/item?id=19542163
 
 
 
