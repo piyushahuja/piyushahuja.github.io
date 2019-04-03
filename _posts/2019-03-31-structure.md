@@ -16,7 +16,15 @@ comments: false
 # General Do's 
 
 
-*  Interviewing is like a show business performance. Not only the final code matters, but also how you produce it: what clarification questions you ask (instead of going on with implicit assumptions), how many test cases you write, how quickly you produce the first correct code, how many mistakes (bugs) you make, and how easily you notice and fix them, how accurately and logically you can reason about the memory usage and speed of your code, how quickly you incorporate feedback and hints from the interviewer, how you consider and reject suboptimal solutions, how you communicate your confidence. 
+*  Interviewing is like a show business performance. Not only the final code matters, but also how you produce it: 
+    *  what clarification questions you ask (instead of going on with implicit assumptions)
+    *  how many test cases you write
+    *  how quickly you produce the first correct code
+    *  how many mistakes (bugs) you make
+    *  how easily you notice and fix them
+    *  how accurately and logically you can reason about the memory usage and speed of your code
+    *  how quickly you incorporate feedback and hints from the interviewer, how you consider and reject suboptimal solutions
+    *  how you communicate your confidence. 
 
 * It's better to answer fewer questions in more thorough detail than to get through every question the interviewer may have had on his list to ask you. And it's much more important to be neat, cogent and presentable than to be superfast when writing code. And which again, all gets down to basic psychology -- showing the interviewer that you are capable of seeing things from their perspective -- which in essence is what these "tests" are really about, anyway.
 
@@ -35,12 +43,14 @@ comments: false
 -----
 
 
-# Make the three columns 
-* Approach
-* Implementation
-* Assumptions. 
-    * After listing assumptions, discuss the approach, graphically and in pseudocode 
-    * Highlight and point to each step in the pseudocode as you write the code. 
+# Assumptions, Approach, Implementation 
+
+* Assumptions.
+* Approach. Discuss the approach, graphically and in pseudocode 
+* Implementation. Highlight and point to each step in the pseudocode as you write the code.
+
+<img src='/algo_pic' title='algo_pic' width='600px' />  
+
 
 ------------
 

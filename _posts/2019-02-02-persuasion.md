@@ -66,6 +66,28 @@ Both activities require common abilities:
 ----
 
 
+* Talk around the idea, only indirectly suggesting it [How to plant an idea in someone's mind](https://lifehacker.com/how-to-plant-ideas-in-someones-mind-5715912)
+    >  "It is not good manners or clever to deprive one's readers of the most obvious objections. It is very good manners and very clever to leave it to one's readers alone to prononce the ultimate quintessence of our wisdom." - Nietzche's writing advice
+
+    > You can't just say "oh, I read today that fried chicken is killing 10 million children in Arkansas every year" because that's a load of crap and comes with an incredibly obvious motivation for saying it.
+    > If chicken is the target, you need to make chicken seem really unappealing. Next time you sneeze, make a joke about coming down with the avian flu. When you're ordering at a restaurant together, verbally convey your decision to order something other than chicken because you just learned how most chicken is processed by restaurants. When you've done enough of these things—and, again, with enough space between them so that it doesn't seem like odd behavior—you can start being a little more aggressive and stop going with your friend to get fried chicken. You can also take proactive steps to improve your own health and tell your friend 1) what you're doing, and 2) how well it's working for you. After a few weeks, if your friend hasn't decided to reconsider his or her position on frequent fried chicken, you can casually mention it and they should be much more open to having a real discussion.
+
+* Use logic reversals. Let's say you want your roommate to do the dishes because it's his or her turn. 
+
+> "Hey, would you mind doing the dishes? It's your turn."
+
+> "Hey, I've decided I don't want to do the dishes anymore and am just going to start buying disposable stuff. Is that cool with you? If you want to give me some money, I can pick up extras for you, too."
+
+* Undersell
+    > Buyer: Can you tell me about this 250GB hard drive? I want to make sure it will work for me.
+
+    > You: What kind of computer do you have and what do you want to use it for?
+
+    > Buyer: I have a 2-year old Windows laptop and I need it to store my photos. I have about 30GB of photos.
+
+    > You: 250GB is definitely more than enough for just storing your photos, so as long as you don't have many more files you might want to put onto the drive it should be just fine for your needs.
+
+
 -  **In group reinforcement: show people you're on the same team, while gently ridiculing the extremes of those whose ideas are against yours.** 
     
     > “You want to sell sugar water for the rest of your life, or do you want to come with me and change the world?” 
@@ -903,10 +925,6 @@ Even if you don't get a raise or promotion this time, it tells your boss that yo
 
 
 
-https://news.ycombinator.com/item?id=19542087
-https://news.ycombinator.com/item?id=19542163
-
-
 
 
 ----
@@ -928,3 +946,5 @@ https://news.ycombinator.com/item?id=19542163
 - [Salary Negotiation: Make More Money, Be More Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
 - [How I negotiated for an additional $15,000 at Yammer](https://medium.com/we-are-yammer/how-i-negotiated-for-an-additional-15-000-at-yammer-2d3c137623ec)
 - [Worst mistakes during salary negotiation](https://inc42.com/entrepreneurship/worst-mistakes-salary-negotiation/)
+- [Hacker News: How to ask for a raise? 1](https://news.ycombinator.com/item?id=19542087)
+- [Hacker News: How to ask for a raise? 2](https://news.ycombinator.com/item?id=19542163)
