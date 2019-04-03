@@ -123,13 +123,7 @@ Recursion can lead to stack overflow errors. downside of recursion is that it ma
             
 * **Solving a reframed problem**
 
-* Once you've selected a subproblem decomposition, write down what the function computes. 
-    * Most of DP problems can be divided into two types: optimization problems and combinatoric problems.  Write down a sentence about what they are computing as a way to verify that "what's in the head" actually makes sense. 
-
-        * The optimization problems require you to choose some feasible solution so that the value of goal function is minimized (or maximized). You are often trying to either minimize or maximize a decision. You are given two (or more) options at any given point and you have to decide which is more optimal for the problem you're trying to solve. These decisions, however, are based on previous choices you made. . In case of minimization problem the neutral value is positive infinity: since it is greater than any number, all the recurrent formulas would prefer a case with finite value to such a neutral element. In other words, the state with neutral value result can be thought of as an impossible state. Note that for maximization problem negative infinity is a neutral element.
-
-        * Combinatoric problems request the number of ways to do something or the probability of some event.  There is also a neutral value for combinatoric problem. Since combinatoric problem uses summation, the neutral element is zero. The DP results in combinatoric case usually represents number of ways to do smth, so if the result is zero than there is no way to do it. The neutral result value means that the case is impossible. It may be useful to fill DP results array with zero values, though it is usually done automatically. In case of combinatorics it is important that each possible way is counted and that no way is counted more than once. The second condition is sometimes difficult to satisfy. Sometimes it help to keep the base case of counting as 1 (e.g. In coin combinations, this numbers the number of ways to make amount 0 using all the coins is 1, while in minCoins, the minimum coins needed to make zero would be 0.).  
-
+* Once you've selected a subproblem decomposition, write down what the function computes. Write down a sentence about what you are computing as a way to verify that "what's in the head" actually makes sense. 
     * Example: Zackendorf numbers 
         - z(n,k) is the complete representation of n in fibonacci base excluding the first k-1 fibonacci numbers. 
         - z(n, k) representes whether 1 or 0 is the kth index in the unique fibonacci representation, i.e. whether the kth fibonacci number is used. 
@@ -138,14 +132,17 @@ Recursion can lead to stack overflow errors. downside of recursion is that it ma
 * Could we compute the solution to the problem from the subproblems? Figure out the recursion formula. What would need to be done post recursion, or pre-recursion?
 
 * Can you get rid of some parameters? 
-    * Would brute force be exponential?
-    *  (Optimal Substructure). Consider if the problem has optimal substructure: an optimal solution uses the optimal solution to a subproblem. 
-        * A problem might not have optimal substructure. 
-            * This can happen when subproblems are not independent - the use of resources in the solution to one subproblem renders them unavailable for the other subproblem e.g. longest path problem. 
-            * The classical travelling salesman problem. Let the DP state domain be (k,l)->D where D is the minimal length of the simple path going through exactly k cities with 0-th city being the first one and l-th city being the last one. The optimal substructure property in such a DP does not hold: given the shortest tour its subpath with fixed last city and overall number of cities is not always the shortest. Therefore the proposed DP would be wrong anyway.
-        * The optimal subscructure constraints the problem space. How many subproblems need to be solved now?
+* Would brute force be exponential?
 
-* Consider the problem space. How many different subproblems there are?  (combinatorial insight). Do we have overlapping subproblems? 
+*  (Optimal Substructure). Consider if the problem has optimal substructure: an optimal solution uses the optimal solution to a subproblem. 
+    * A problem might not have optimal substructure. 
+        * This can happen when subproblems are not independent - the use of resources in the solution to one subproblem renders them unavailable for the other subproblem e.g. longest path problem. 
+        * The classical travelling salesman problem. Let the DP state domain be (k,l)->D where D is the minimal length of the simple path going through exactly k cities with 0-th city being the first one and l-th city being the last one. The optimal substructure property in such a DP does not hold: given the shortest tour its subpath with fixed last city and overall number of cities is not always the shortest. Therefore the proposed DP would be wrong anyway.
+    * The optimal subscructure constraints the problem space. How many subproblems need to be solved now?
+
+* Consider the problem space. How many different subproblems there are?  
+* (combinatorial insight). Do we have overlapping subproblems? 
+    * [Solve via DP](/dp) 
 
 
 
@@ -236,7 +233,7 @@ Tail recursion is different  from iteration. They're the same in terms of what t
 But that's not the same as being "the same" - they present a very different abstraction to the programmer. In a sane language, you expect an error to give you a stack trace of functions that have been called. If you treat recursion as iteration, then either you'll have to omit some function calls from the stack, or your algorithm won't work in constant space anymore. Either violates some expectations of the programmer.
 
 
-
+<img src='/recur_iter' title='recur_iter' width='600px' />  
 
 References:
 - [How does compiler optimize tail recursion?](https://www.quora.com/How-does-compiler-know-whether-the-recursion-is-a-tail-recursion-or-not-and-how-does-it-optimize-tail-recursion)
