@@ -200,6 +200,7 @@ Both activities require common abilities:
 
 -----
 
+> “A good plan isn't one where someone wins, it's where nobody thinks they've lost.”
 
 # Principled Negotiation
 
