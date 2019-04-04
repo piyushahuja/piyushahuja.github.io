@@ -231,6 +231,10 @@ It gives you a minute to collect your thoughts before you need to start solving 
             * Makes the code more secure. 
                 *  Final variables are "safer" than non-final variables, because once they are bound there is never a question about what their current state is.
         * Mention you’d Prefer interface to implementations: if we want to change implementations later, it won’t break the functionality.
+        *  I could define new abstractions (work on a higher level vs low level)
+            *  Pro: would make the code more readable, safer form bugs and easier to debug
+            *  Con: Overhead e.g. Overiding equals and hashCode if they are to be used in a collection. More memory usage in the heap space allocated to objects (as opposed to pointers to existing concepts). Possibly more computation in creating those objects.
+
     * For extra points, ask your interviewer if they would like you to write tests.
 
 ------
