@@ -220,20 +220,8 @@ It gives you a minute to collect your thoughts before you need to start solving 
 
         The interviewer might say that you can assume that the parameters you’re getting already passed a validation. However, it is still important to bring this up to show that you are aware of error cases and quality.  or the interviwer might say, “That’s a good point. How would you handle it? Would you throw an exception? Or return a specific value?” This can make for a good short discussion about code quality. Mention a few error cases.
 
-    * Point out SOLID prinncples and OOD best practices
-        * Making classes and objects immutable, field variables private etc.
-        * Mention you’d use final liberally if you were designing an actual software 
-            * e.g. classes should be designed for extension (how?) or made final. [Declaring a class final](https://softwareengineering.stackexchange.com/questions/284156/declaring-a-class-final)
-        * [When to declare classes final](https://ocramius.github.io/blog/when-to-declare-classes-final/)
-        * It communicates intent to other coders  or self-documenting code. 
-            * (1) One wouldn’t have to go through code to see if variable changes. 
-            * (2) Helps catch bugs.  
-            * Makes the code more secure. 
-                *  Final variables are "safer" than non-final variables, because once they are bound there is never a question about what their current state is.
-        * Mention you’d Prefer interface to implementations: if we want to change implementations later, it won’t break the functionality.
-        *  I could define new abstractions (work on a higher level vs low level)
-            *  Pro: would make the code more readable, safer form bugs and easier to debug
-            *  Con: Overhead e.g. Overiding equals and hashCode if they are to be used in a collection. More memory usage in the heap space allocated to objects (as opposed to pointers to existing concepts). Possibly more computation in creating those objects.
+    * [Point out SOLID prinnciples and OOD best practices](/ood-practices). 
+        
 
     * For extra points, ask your interviewer if they would like you to write tests.
 
