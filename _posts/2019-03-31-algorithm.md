@@ -1,9 +1,9 @@
 ---
 layout: post-journal
-title: Design an algorithm
-date:   2019-03-31 09:00:11
+title: Algorithm Design
+date:   2019-03-29 09:00:11
 tag:
-categories: guide
+categories: interview
 excerpt:
 permalink: /algorithm
 comments: false
