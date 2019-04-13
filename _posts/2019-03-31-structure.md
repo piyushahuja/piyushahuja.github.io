@@ -3,7 +3,7 @@ layout: post-journal
 title: Structure a technical interview 
 date:   2019-03-31 09:00:11
 tag:
-categories: guide
+categories: interview
 excerpt:
 permalink: /structure
 comments: false

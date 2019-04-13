@@ -1,9 +1,9 @@
 ---
 layout: post-journal
-title: Interview 
-date:   2019-03-21 09:00:11
+title: General Mindset
+date:   2019-04-10 09:00:11
 tag:  
-categories: guide
+categories: interview
 excerpt: 
 permalink: /interview
 comments: false

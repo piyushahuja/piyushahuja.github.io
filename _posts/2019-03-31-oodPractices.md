@@ -1,9 +1,9 @@
 ---
 layout: post-journal
-title: Best Practices for Designing Objects
+title: Design Patterns
 date:   2019-03-21 09:00:11
 tag: 
-categories: guide
+categories: interview
 excerpt: 
 permalink: /ood-practices
 comments: false
@@ -487,7 +487,34 @@ Methods of a class can be:
 - [Composition over Inheritence Reddit](https://www.reddit.com/r/programming/comments/5dxq6i/composition_over_inheritance/da8bplv/)
 
 
+-----
 
+# Common Source of Bugs
+
+- Using equals method to compare StringBuilders. StringBuilders is a mutable object which inherits equals from Object, and thus compares for observational equality(memory references) and not behavior equality.
+
+- Not treating primitive wrapper classes like Boolean, Integer etc. as immutable. (e.g. it would be a mistake to pass them as a parameter and expect to be modified in a function, like an accumulator variable is)
+
+- Equals() and HashCode() must be overriden for immutable custom classes, otherwise they inherit these methods from Object class. 
+
+- TreeSet and TreeMap uses compareTo method to differentiate elements, whereas HashSet and HashMap uses equals. By default, compareTo uses equals. This can result in subtle bugs: if you expect two custom different objects to return true on equals but count as different in a TreeSet, you must override compareTo. e.g comparing Poker Hands: you might want the value of same numberd cards of different suits to return true on compareTo, but should return false on equals and counted as different. If you don't override compareTo, this can result in a bug.
+
+-  For mutable objects, it is okay - better not to override the object equals (e.g. StriingBuilder). When equals() and hashCode() can be affected by mutation, we can break the rep invariant of a hash table that uses that object as a key.
+
+- Before we pass a mutable collection to another part of our program, we can wrap it in an unmodifiable wrapper. We should be careful at that point to forget our reference to the mutable collection, lest we accidentally mutate it. (One way to do that is to let it go out of scope.) Just as a mutable object behind a final reference can be mutated, the mutable collection inside an unmodifiable wrapper can still be modified by someone with a reference to it, defeating the wrapper.
+
+- HashMap keys and values have to be casted propely before being used as primitive types.
+
+- Missing Semicolons.
+
+- int overflow.
+    - especially in functions where n grows largely, like fibonacci or any combinatorial explosion.  
+    - Also in general, doing stuff like int mid = (low + high) / 2 and not taking into account integer overflow can lead to a bug. Fix the bug by this: int mid = low + ((high - low) / 2); (. It is not sufficient merely to prove a program correct; you have to test it too.
+    * [Bug in Java BST](https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html
+    * [Reverse an integer](https://stackoverflow.com/questions/21070506/reverse-integer-leetcode-how-to-handle-overflow)
+
+- Violation of preconditions that the compiler cannot check. 
+    - (e.g. an interface is supposed to be immutable, but some iimplementatiin adds a mutator method. Or merge method: inputs are supposed to be sorted, but a recursive call doesnt do it.) compiler cannot check that we haven’t weakened the specification in other ways: strengthening the precondition on some inputs to a method, weakening a postcondition, weakening a guarantee that the interface abstract type advertises to clients.  If you declare a subtype in Java — implementing an interface is our current focus — then you must ensure that the subtype’s spec is at least as strong as the supertype’s. Classic example: no correct way for MutableSquare to implement MutableRectangle.setSize(..)and mutable square is not a subtype of mutable rectangle.
 
 
 
@@ -501,6 +528,8 @@ Methods of a class can be:
 
 # Design Patterns
 
+
+[MIT Notes](https://www.cs.uct.ac.za/mit_notes/software/htmls/ch08s03.html)   
 [Stanford Handout](http://web.stanford.edu/class/archive/cs/cs108/cs108.1092/handouts/19PatternsDelegate.pdf)
 
 **Factory Method**  
@@ -530,18 +559,27 @@ Allow some to iterate over the elements in a collection (start, access each elem
 
 **Adaptor pattern** 
 
-Start with an object that implements interface X. The "Adapter" wraps the X object, and translates between it and the rest of the world to make it look like interface Y. This is a form of delegation, implementing a different interface from the delegate. • e.g. HashMap supports a values() method that returns a Collection of all the values in the HashMap. In reality, it does not construct an actual Collection of all the values. Instead, it builds a thin adapter object that implements the Collection interface and has a pointer to the original HashMap. When this adapter gets a message like size(), it passes it through to the underlying HashMa
+Start with an object that implements interface X. The "Adapter" wraps the X object, and translates between it and the rest of the world to make it look like interface Y. This is a form of delegation, implementing a different interface from the delegate.
+
+> HashMap supports a values() method that returns a Collection of all the values in the HashMap. In reality, it does not construct an actual Collection of all the values. Instead, it builds a thin adapter object that implements the Collection interface and has a pointer to the original HashMap. When this adapter gets a message like size(), it passes it through to the underlying HashMap
 
 -----
 
-**Builder** [How to make an object immutable in java](https://stackoverflow.com/questions/24545239/how-to-make-object-immutable-in-java)
+**Builder** 
 
-* Bloch’s builder pattern:  avoid the problem of too many constructor parameters. To make classes for objects which are both immutable and have named parameters (parameters which may or mayn’t be present, and whose order is not important).
-- [Why do we need a builder class?](https://softwareengineering.stackexchange.com/questions/380397/why-do-we-need-a-builder-class-when-implementing-a-builder-pattern) clearly separateS constructed objects from objects under construction.  This approach requires a clear transition from under-construction to constructed.  For the consumer, there is no way to confuse an under-construction object with a constructed object: the type system will enforce this.  That means sometimes we can use this approach to "fall into the pit of success", as it were, and, when making abstraction for others (or ourselves) to use (like an API or a layer), this can be a very good thing.
+* Bloch’s builder pattern:  Avoid the problem of too many constructor parameters. To make classes for objects which are both immutable and have named parameters (parameters which may or maynot be present, and whose order is not important).
+    * [Why do we need a builder class?](https://softwareengineering.stackexchange.com/questions/380397/why-do-we-need-a-builder-class-when-implementing-a-builder-pattern) clearly separates constructed objects from objects under construction.  This approach requires a clear transition from under-construction to constructed.  For the consumer, there is no way to confuse an under-construction object with a constructed object: the type system will enforce this.  That means sometimes we can use this approach to "fall into the pit of success", as it were, and, when making abstraction for others (or ourselves) to use (like an API or a layer), this can be a very good thing.
 
 
-* GoF Pattern: If the runtime representation of the final (possibly immutable) object is optimized for reading and/or space usage, but not for update.  String and StringBuilder are good examples here.  Repeatedly concatenating strings is not very efficient, so the StringBuilder uses a different internal representation that is good for appending — but not as good on space usage, and not as good for reading and using as the regular String class. (Possible comparison: HandBuilderClass and Hand which builds a hand of Best five hands)
-Singleton: [](http://www.drdobbs.com/jvm/creating-and-destroying-java-objects-par/208403883?pgno=3)
+* GoF Pattern: If the runtime representation of the final (possibly immutable) object is optimized for reading and/or space usage, but not for update.  
+
+> String and StringBuilder are good examples here.  Repeatedly concatenating strings is not very efficient, so the StringBuilder uses a different internal representation that is good for appending — but not as good on space usage, and not as good for reading and using as the regular String class.
+
+> Possible comparison: HandBuilderClass and Hand which builds a hand of Best five hands. Can change HandBuilderClass based on rules. Or Maybe it should just be a function?
+
+-----
+
+**Singleton** [Creating and destroying java objects](http://www.drdobbs.com/jvm/creating-and-destroying-java-objects-par/208403883?pgno=3)
 
 ----
 
