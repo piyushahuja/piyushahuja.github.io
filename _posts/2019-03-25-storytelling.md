@@ -536,7 +536,7 @@ It's not the words right before the quotation or paraphrase—said, yelled, aske
 
 ------
 
-Kurt Vonnegut’s 8 no bullshit rules for writing a good story
+**Kurt Vonnegut’s 8 no bullshit rules for writing a good story**
 
 * Use the time of a total stranger in such a way that he or she will not feel the time was wasted.
 * Give the reader at least one character he or she can root for.
@@ -549,20 +549,16 @@ Kurt Vonnegut’s 8 no bullshit rules for writing a good story
 
 ---
 
-Making your audience the hero of the story.
+**Making your audience the hero of the story.**
 
-Paul Zak, a neuroeconomist at Claremont, has done significant research showing that narratives where the audience is appropriately invested stimulate release of a chemical receptor in the brain designed to engender trust and affinity. Triggering that release drives enthusiasm and passion for great narratives.
-
+> Paul Zak, a neuroeconomist at Claremont, has done significant research showing that narratives where the audience is appropriately invested stimulate release of a chemical receptor in the brain designed to engender trust and affinity. Triggering that release drives enthusiasm and passion for great narratives.
 Another researcher, comparative mythologist Joseph Campbell, outlined the most effective structure to do this in his book The Hero with a Thousand Faces. The Hero’s Journey narrative arc helps the audience see the stories protagonist as an avatar for themselves. It’s the storytelling structure used in everything from Star Wars to The Wizard of Oz to Harry Potter to every Marvel film. Disney codified the use of this arc in a memo that was sent to writers within their organization.
-
 That memo was expanded upon by its writer, Chris Voegler, and became The Writer’s Journey: Mythic Structures for Writers. Dan Harmon, creator of shows like Rick and Morty and Community, created a series of blog posts called “Story Structure” as guidelines for effective television writing, that were based on Campbell and Voegler’s writings. The impact on Star Wars is even more direct: George Lucas consulted on the story of the first film with Campbell directly.
-
 Anyone can tell a great story if they have the right tools. Using the powerful template laid out by Campbell, and expanded upon by others, is fundamental in creating great stories and great storytellers. There is no “secret” to great storytelling. The template for great storytelling has been circulating around for decades, used for decades, and waiting to be discovered by great storytellers. If you want to tell your most powerful story, use Campbell’s framework in your next story.
 
 
 **References**
 
-- 
 - [What Standup Comedy taught me about public speaking](https://medium.com/the-mission/what-standup-comedy-taught-me-about-public-speaking-and-life-7b251d768d4)
 - [How to get power](https://ideas.ted.com/how-to-get-power/?utm_campaign=social&utm_medium=referral&utm_source=facebook.com&utm_content=ideas-blog&utm_term=global-social%20issues)
 - [Knowing How to Tell a Good Story Is Like Having Mind Control, Alan Alda](https://www.youtube.com/watch?v=r4k6Gm4tlXw)
