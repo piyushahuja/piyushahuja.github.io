@@ -230,12 +230,19 @@ Piyush
 -  Since last year, I’ve been the **tech lead of Platonia.** Apart from mentoring junior team members, I've been **pretty hands-on with the server side development of the stack of the stack in Node.js**  It is currently live on Google Playstore.  Our team of four  shipped the product in six months. 
 > The product didn't take off with the growth rate needed to justify further time and investment.
 
- **Skill: I get things done. Shipping someithng gets me going**
+
  
 
 ----
 
 **Why did you go for PPE?**
+
+I graduated from University of Oxford, where I read for a second bachelors in Philosophy, Politics and Economics. Previously, I was an undergraduate at IIT Delhi, from where I pursued an Integrated Masters in Mathematics for five years.  So I’ve had these two incredibly diverse educational experience, quite different, actually - not just in form and content. While IIT Delhi was heavy on science and engineering, my course at Oxford was centred around social science and humanities. IIT Delhi was mathematical problem solving and programming,  Oxford was argumentation, communication and essay writing.  And as a result I’ve become very well rounded, both academically and professionally. 
+
+Interested with my university education, I have had three brief stints in the corporate world: in data-driven projects in consulting (analytic) companies. Five years ago I spent a summer with Deloitte. I worked full time with Opera Solutions, which was a product based big data analytics provider. I worked as an analytics specialist  in their global markets division. More recently, I spent a summer with Aurora Energy research, which was consulting company focused on the energy sector. At the time i joined them, they were expanding to Germany, and I helped them prepare a report on the future of german renewable energy prices for their launch presentation with top German energy leaders.
+
+Deep down I am a very curious and inquisitive with a passion for learning. As I move further in my career,  I am looking for companies where such values are respected and nurtured,  and so here I am :)
+
 
 --------
 
@@ -249,10 +256,42 @@ Piyush
 **Why should we select you?** (Tell, not suggest)
 
 
+I believe <x> as a company, is faced with client problems which are new, in a diverse range of fields, and which are to be solved under time and information constraints. You need  personel who can thrive in such an environment, and I believe I, more than any other candidate you are to encounter, have demonstrating these qualities.
+
+ I have a stellar track record, in India, UK and Singapore. I’ve excelled in two of the best universities in their respective areas, in incredibly diverse fields. 
+
+But that is not the reason you should take me. The reason you should take me is that i embody an ethos of self improvement. I take feedback very seriously, and I learn, adapt and grow with it
+
+
+- To put it simply, I get work done. 
+
+-  I believe in delivery software which is difficult to read, test,  maintain or extend.  But I also understand well trade-offs between perfection and time, with an eye towards iterative delivery of product features, and utilizes this capacity to plan and deliver on product requirements
+- I am right at home articulating complex technical content to peers and partners, as well as enthusing a non-tech audience about why our software will solve their problem.
+i embody an ethos of self improvement. I take feedback very seriously, and I learn, adapt and grow with it.
+
+I can talk about how I excel in each of the job requirements....
+- I am proficient in Java, from a previous job I have experience handling a large scale high volume app used, I am a team player with an eye for detail. 
+-  I believe in writing software which is easy to read, test,  maintain or extend.  
+But I also understand well trade-offs between perfection and time. Often you have to just delivery. Often its not about your code being perfect, but about iterative fast on product features. 
+- At Jugnoo, we had weekly sprints, my team delivered one impactful feature every week. 
+- At Oxford, I had two submit two essays week-in-week out.
+- I am right at home articulating complex technical content to peers and partners, as well as enthusing a non-tech audience about why our software will solve their problem.
+
 ----
 
 **What are your strengths?**
 
+Strengths
+
+I am inquisitive and persistent. 
+* I persevere. 
+    * Most things we think of as hard are not hard per se, only unfamiliar. If anything does feel hard, then I work at it till I am able to crack it. 
+    * Two quotes which I have found to be particularly true:
+        * Success is 1% Inspiration and 99% Perspiration.
+        * Luck is when Opportunity meets Preparation
+* I am good at thinking in abstract terms - mathematics and philosophy. 
+
+[Concrete Examples: Opera Data Cleaning Task, JEE Math Problems]
 
 
 -----
@@ -263,6 +302,7 @@ Piyush
 - I am passionate about learning new things. This is what drove me to major in major in both and engineering. I did PPE at Oxford and CS in IIT Delhi, and this is what drove me to software engineering. There is so much to learn! I feel the experience of learning something fresh is what keeps you alive and kicking. Otherwise the world is a little boring. 
 - The pursuit of excellence in what I do. I believe in doing a job well, in coming to work every day, and thinking how can I contribute 
 - Simplifying complex things
+
 
 -----
 
@@ -281,6 +321,19 @@ Piyush
 
 
 **What's something you've worked on that you've been proud of?**
+
+What has been your greatest achievement?
+
+* The thing that I am most proud of was the I was able to fulfill one of my childhood dreams
+* Situation: When I was young
+hich project are you most proud of?
+- Since last year, I’ve been the tech lead of Platonia, a startup I founded. 
+- Apart from mentoring junior team members, I've been **pretty hands-on with the server side development of the stack of the stack in Node.js** 
+-  It is currently live on Google Playstore.  Our team of four shipped the product in six months. I designed, implemented, tested and monitor new functionalities to the platform.
+- The product didn't take off with the growth rate needed to justify further time and investment. *
+
+ How do you work in teams?
+- Collaborate across teams and time zones to make things happen, review code and be open to feedback
 
 
 -----
@@ -345,3 +398,490 @@ What I liked best about my latest role was that it gave me a lot of autonomy, wh
 
 
 -----
+
+
+
+
+ANALYSIS 
+
+
+“Describe the most sophisticated analysis you have conducted in your work to reach a decision”
+They are looking for the processes you follow to reach a decision, to determine if you have a logical approach. They also want to see the level of technical skill you have in analysis.
+- Use a project at university or an example that required you to do statistical modelling.
+- Explain what made it sophisticated (was it the data source, the method of analysis, etc).
+- Discuss the process involved in reaching a decision, the rationale you followed.
+“How did you know how to proceed?”
+“What brought you to the recommendation that you made?”
+“Was your manager pleased with your recommendation?”
+
+
+
+
+
+ATTENTION TO DETAIL
+
+“Tell me about a time you made errors in your work.”
+
+They are looking for learnings, what steps you are now following to ensure a high level of accuracy in your work. They also want to see you have taken responsibility for your actions.
+- Brief the background of the situation, alongside the error you made.
+- Take responsibility for the error.
+- Discuss how you fixed the problem, highlighting the speed you made the corrections.
+- Talk about what you learnt, and the process you now follow to ensure it doesn’t reoccur.
+“What was your bosses reaction when the errors were found?”
+“Tell me more about the obstacles this created for you in your work (after the mistakes).”
+
+
+FB Account Kit in Login/Signup revamp caused the referrals to drop from 18% to 10%
+
+
+
+
+COLLABORATION
+
+“Describe to me a time where you have been in a team that was divided in their opinion.”
+
+They are looking for how easily you can ease tensions within a team. Demonstrate leadership, your ability to bring together people with differing opinions.
+
+- Talk about the reasons for the two opinions in the team.
+- Describe the process you followed to get all team members on board.
+- Highlight the successful result as a consequence of your actions in aligning the team.
+“How did you breach the gap?”
+“Lead me through your thought process in approaching this resolution.”
+
+
+
+
+
+CHANGE MANAGEMENT
+
+
+“Tell me about a time where you had to explain a new concept to a colleague.”
+
+They are looking for examples of your verbal communication ability, and skills in influencing. They want to grasp your understanding of the change process, as well as confirm you know that different people need to learn new concepts differently.
+
+- Talk about the process you took in preparing for the conversation.
+- Discuss the pivotal point in getting understanding and acceptance from your colleague.
+- Reflect on why you were successful in explaining this to your colleague.
+“What did you do differently that was successful in bringing them on board?”
+“What did your colleague say throughout the process?”
+“How did they react to your explanation?”
+
+
+Aurora German work
+Explaining stuff to Harshal Sanghvi
+
+
+
+COMMUNICATION
+
+
+“Tell me about a time where you failed to communicate effectively.”
+They are looking for insights into a failure. Demonstrate you have the maturity to admit where you did not succeed, and your learnings. They want to see you did not repeat the mistakes.
+- Talk about why you thought you were adequately prepared.
+- Explain how you communicated and why it was not effective.
+- Give a second example to demonstrate you did not repeat this mistake a second time.
+“What was it about your communication that failed?”
+“What would you do differently today?”
+
+NUS Work
+
+
+
+
+CONFLICT MANAGEMENT
+
+“Tell us about a time you saw a conflict coming.”
+
+They want to see you can recognize and manage confrontations. They want to know you can handle difficult situations in a constructive manner.
+
+- Describe how you recognized the conflict, and how you immediately began to resolve it.
+- Talk about how effective your technique was in constructively dissolving the tension.
+- Comment on how going through this conflict made the team stronger.
+“What steps did you take pre-emptively to resolve the conflict?”
+“Did anyone else see it coming?”
+“How did you manage the resolution following the conflict?”
+“What impact did this have on team morale?”
+
+Urvashi and Nitika: The rival Was
+* One would leave early 
+* Or take the testing equipment home
+* Not cover for the other
+* The other would complain about her behind her back
+* 
+
+CREATIVITY
+
+“Explain to me the most innovative solution you have created for a customer.”
+
+They are looking for new ways of doing business, demonstrating you think outside of the box. They want to know that this can be repeated, and you can implement and take action on an idea.
+
+- Outline the process you followed to come up with the solution.
+- Talk about why it was innovative and demonstrate your expertise on the subject.
+- Describe the steps you took to ensure the idea was implemented successfully.
+“What was the most challenging part of the implementation?”
+“What did you enjoy most in the creative process?”
+
+* Slider Button
+* QC Women Quizmasters
+* 
+
+
+
+
+DECISION MAKING 
+
+Describe a Hard Decision you had to make
+“Tell me about a time where you took a course of action your team did not agree with.”
+“How did you handle the process, and what was the reaction from your team?”
+“How did you react to the negativity from the team?”
+“What did you learn from this situation?”
+“What would you change if you could redo this task from scratch?”
+
+Awarding the best representative prize to a not-so-good quizzer Anurag Tiwari (QC) 
+
+DECISIVENESS
+
+“What is a decision you have needed to make that you ‘put-off’ the longest?”
+
+They want to determine your ability to use available information to make decisions. They want to know that you can perceive future impacts and implications of your chosen course of action.
+
+- Discuss the situation, and rationale that caused you to delay the decision.
+- Detail the outcome you expected while you were delaying the decision.
+- Explain if there is anything you would do differently today, in hindsight.
+“Why?’
+“When did that occur?”
+“Who else was involved?”
+“Would you make the same decision today?”
+
+
+
+
+Firing Jugnoo employee
+Leaving Jugnoo for entrepreneurship
+
+Sometimes delaying the decision helps: when the time allows more of relevant information to come in. But often we only delay out of fear, confusion, laziness or anxiety. In these cases, there might be a cost of delay, and delaying wouldn’t allay all those emotions or clear the confusion, but only worsen them.
+If you feel like delaying, you must introspect and be clear about Why you are delaying.
+
+
+
+DELEGATION
+
+
+“Tell me about a time you delegated to the wrong person.”
+
+They want to see you can demonstrate flexibility, and have the ability to make the best use of your subordinates. Also they want to see how well you support your team as a leader.
+
+- Explain your rationale for delegating to this individual at the beginning.
+- Discuss what led you to realise that this was the wrong person for the job.
+- Talk about how you made immediate changes to fix the situation, whilst being considerate towards the feelings of your staff.
+“Lead me through your thought process, and explain what you have learned.”
+“Did you make any other adjustments in your team as you realised this was not working?”
+“How did staff in your team react?”
+“Did this have any negative impact on the individual you delegated to?”
+
+….???
+
+
+Delegating Menu planner to Shivam
+
+
+
+
+EFFICIENCY
+
+
+“Describe a time you were caught in an inefficient process.”
+
+They are looking for adaptability, and your drive in creating solutions to everyday problems. They are looking for someone willing to challenge the status quo.
+
+- Explain your rationale in building a solution to fix the process.
+- Demonstrate you took guidance and suggestions from experienced team members.
+- Highlight your ability to implement the new process.
+“How long did it take you to find a new/different approach to the task?”
+“What steps did you take to implement the new procedure?”
+
+While launching AskLocal, I was stuck with following the whims of the founder in deciding product direction. 
+* Week 1: Copy Zomato Feed. Why are you thinking? First copy then differentiate.
+* Week 2: No one uses Tomato Feed! Why are you not following YikYak?
+
+Working with a remote designer from Europe
+* She had a data-oriented approach but we did not have the data she needed, was not familiar with our design language: (there was no documentation, it used to change so frequently), and had a different sense of aesthetics from ours. The processes for remote calls were not set in place. 
+* Took guidance from Saurabh Wadhawan
+
+
+
+FLEXIBILITY
+
+
+“Describe the biggest change you have had to overcome in your work.”
+
+They are testing to see if you are adaptable to achieving your goals, and can rapidly change in response to new information, conditions or obstacles.
+
+- Discuss the situation that led to the change.
+- Talk about how it was challenging for you, but you recognized this as an opportunity.
+- Elaborate on your understanding of the change cycle.
+- Conclude with how this change has had a positive effect, and you are now more content.
+“How did you react to different stages throughout the transition?”
+“What process did you follow to get through the changes?”
+
+
+GOAL SETTING
+
+
+
+“Tell me the most important goal you have set, and how you successfully achieved it.”
+
+They want to determine if you have structure to your tasks and methods for tackling big targets. They are looking for a process that you followed for success.
+
+- Describe a very important goal in your life, and what made it important.
+- Talk about the necessity of having a plan to achieve a goal
+- Go into detail regarding the steps you took to reach your goal.
+- Discuss the outcome, and your feelings having been successful.
+“What challenges did you have to overcome?”
+“At the beginning, did you expect to achieve your goal?”
+
+
+Rowing team
+IIT Jee
+Oxford
+6 Pack Abs
+Launching Platonia
+
+
+INDEPENDENCE
+
+
+“Tell me about a time where you were given authority over a high priority task.”
+h priority task.”
+
+They are looking for examples where your performance was better than normal staff. They want to know what makes you an ideal candidate, rather than another employee.
+
+- Discuss the skills you have that made you ideal for this task.
+- Describe how you approached the task, and how successful you were.
+- Talk about the decisions you made, and the decision making process you followed throughout the task.
+“Why were you specifically chosen to work on this task? Please go into more detail.”
+“What obstacles did you face, and how did you overcome them?”
+
+INITIATIVE
+
+“Tell me about a time you raised your hand to tackle a new assignment which you had no experience with.”
+They are looking at your information gathering process, and ability to make effective decisions with limited data. Also judging your willingness to learn, and go above and beyond in your work.
+- Explain why you wanted the project. Highlight the chance to learn, willingness to do more.
+- Discuss how you got the information you needed for the task.
+- Go into detail about how your skill in (communication/programming etc.) made it possible for this task to be a success.
+- Confirm that you would put your hand up again.
+“What steps did you take to approach the task?”
+“What were you thinking at this point?”
+
+
+
+Aurora Data Loading Task
+Referrals in Jugnoo
+
+
+
+INTEGRITY
+
+
+“Give me an example when you were asked to do something that went against your core beliefs”
+
+They are looking for how solid your belief system is, and if it aligns to their corporate values. They want to know what you would do in a situation that challenged your personal values.
+
+- Talk about a situation that was ethically wrong, and you chose to upkeep your values.
+- Research the specifics of their company values, and align your wording with theirs.
+- Discuss any repercussions that came from you upholding your beliefs.
+- Close by saying that you are happy you chose to maintain your values.
+“What was your gut reaction, and how did you handle this?”
+“When did this occur?”
+
+
+
+AskLocal content: not family friendly and potentially offensive to women vs local knowledge-based
+Jugnoo Star dogfeeding: force company employees to pay and use the new product
+
+
+INTERPERSONAL SKILLS
+
+“Describe a time you had to make a connection with a person, but it was difficult because of pre-existing conflict.”
+
+They want to see a demonstrated ability to connect through difficult situations. They want to know you can maintain professionalism and a cool head through a conflict.
+
+- Talk about the conflict you had with the person, and how you prepared for the meeting.
+- Discuss how you approached the person, and what interpersonal skills you used to help.
+- Describe how you reached an agreement, and resolved the conflict.
+“How did you approach this task?”
+“Were you happy with the results?”
+
+
+LEADERSHIP
+
+
+“Tell me about a time you had an underperforming team.”
+
+They want to know if you can act as a role model, and communicate a vision to the team. They want to see results, and examples where your actions influenced team behaviour.
+
+- Discuss the background of the team, and how you approached the performance issue.
+- Describe the specific actions you took to add structure to the team in reaching their goal.
+- Talk about how you appealed to each individuals personal motivators.
+- Outline the results you achieved through your team with numbers, facts and figures.
+“What steps did you take to improve performance?”
+“How did the team react, and how successful were you?”
+
+
+Jugnoo Star: I actually ended up offending the developers
+NEGOTIATION
+
+“Describe the most challenging negotiation you have been involved with.”
+
+They want to see your ability to handle complex negotiations, your thought process and outlook (short/long term). They want to know how you work with clients, and the types of relationships you build.
+
+- Talk about the specifics of why it was a challenging negotiation.
+- Detail the approach you took in preparation, and the deal you were after in the negotiation.
+- Reflect on the process you followed, and any learnings you have made.
+- Describe the win-win approach you took, and how both sides were happy with the outcome.
+
+“What steps did you take to prepare?”
+“Describe why it was so difficult.”
+“What was the outcome?”
+“What was the outcome for the other party?”
+
+* Out of court settlement for property infringement. Rs. 1.7 Lakhs eventually (just  market rates) 
+* BATNA: Long court battle - we were not even in the same city. 
+* Approach: Contacted local politicians, tehsildar, instructed Kanugo to reach site on the same day as negotiation etc.
+* Use: Police was on our side and stopped from proceeding construction
+* 
+PLANNING AND ORGANISING
+
+“We’ve all had situations where it was impossible to meet a deadline. Give me an example from your experience.”
+They want to know how you approached the task of delivering bad news to your superior. Your ability to communicate, manage expectations and take responsibility.
+
+- Describe your exact actions once you realised you could not meet your deadline.
+
+     Hint: Immediately talk to your boss!
+
+- Talk about how you made a plan, with timelines and targets to complete the project.
+- Discuss what it took to get the project finished asap. Overtime? More staff?
+- Reflect on what you learnt, and how you would approach this situation differently today.
+“How did you manage expectations once you realised you would miss the deadline?”
+“How did your manager react to the bad news?”
+“What was the final outcome?”
+
+PRESENTATION
+
+Describe an effective presentation you have delivered to a large audience.
+
+They are after examples where you have demonstrated the technical skills of effective verbal communication.
+
+- Describe the topic and the method of delivery (tone of the script, accompanying presentation etc.)
+- Talk about why you chose these particular methods.
+- Detail what you did to prepare before you got on stage.
+- Reflect on why you believed it was effective, and support this with comments and feedback from the audience.
+“Did you feel prepared?”
+“What did you do differently that made it a success?”
+
+
+
+
+PRIORITIZATION
+
+“We’ve all had multiple projects at one point or another. Tell me about a time you had to juggle multiple responsibilities”
+
+They want to see your ability to deal with pressure, stress, and perform under difficult circumstances.
+
+- Explain why you were leading multiple projects, highlight skills you have over other candidates.
+- Talk about the method you used to keep track of deadlines and tasks.
+- Discuss the success that you had in each project.
+- End on how much you enjoyed working under these conditions.
+“What was the biggest challenge throughout this period?”
+“Was it difficult for you?”
+
+Jugnoo Product Management
+* Always think of ROI. What metrics are you going to effect? Who is being affected?
+* Maintained an excel sheet where the different teams would input the tasks and what priority it had for them. We would highlight taks we were performing and update the expected dates.
+* 
+Productivity
+
+“Tell me about a time when you were the most productive member of a team.”
+
+They want to know if you have what it takes to be the best. If you are willing to go above and beyond the expectations of your team to produce fantastic results.
+
+- Discuss why you felt it was important to work so hard.
+- Talk about the challenges you faced in reaching the team’s goal.
+- Briefly touch on the team’s reaction to your enthusiasm, and clarify how happy you were performing at this level.
+- Describe how high productivity comes naturally to you, and give additional examples where this has been the case in your experience.
+“What did you do differently to your colleagues?”
+“How did your colleagues react to the situation?”
+“What impact did this have in your bosses eyes?”
+
+
+Project Management
+
+“Describe a process you have used to manage a project.”
+
+They are looking at your ability to use logic and methods to achieve positive outcomes. They want to see you can lead a team, and have success.
+
+- Detail the steps you followed in managing a project from idea to implementation.
+- Talk about challenges you faced, and how you overcame them.
+- Discuss how your results were also influenced by your ability to get the team motivated.
+- Talk about how you engaged the team, and motivated them.
+“Were you happy with the result?”
+“What did you do next?”
+
+RISK TAKING
+
+“What is the riskiest decision you have made in the last six months?”
+
+They want to know the process you follow to evaluate risk, and how you make a decision. They want to see examples where you weighed up the pro’s and con’s to make an effective decision.
+
+- Describe what it was about the situation that made it a risky decision.
+- Talk about how you evaluated the benefits for every choice, alongside the negatives.
+- Discuss any repercussions that came to you unawares after you took action.
+- Reflect on how you could have made a better judgement.
+“What information did you have prior to making the decision?”
+“What was the reaction from your colleagues or friends to your decision?”
+
+“In hindsight, would you still make the same decision?”
+
+SENSITIVITY TO OTHERS
+
+“What problems have your staff brought to you recently, and how did you help?”
+
+They are looking to see if you are sensitive to the needs of other people, and are aware of your surroundings and environment. They want to know if you have strong interpersonal skills.
+
+- Listening here is key. Give examples where your staff have come to you with their concerns, you have listened, and helped find a solution.
+- Talk about your empathy, and how you have the ability to connect with your staff on both a personal and professional level. Reinforce with examples that show your staff trust you.
+- Explain that you have always found it easy to connect with people.
+“Do you wish you had done something differently? Please explain”
+“Do you enjoy discussing other people’s problems?”
+
+* Going home late night for Urvashi
+STAFF DEVELOPMENT
+
+“Describe a time you had to coach a subordinate to improved success.”
+
+They want to see you can do more than simply lead, but are creating leaders and success through your subordinates.
+
+- Use an example that is in line with one of the competencies for the job you are interviewing for. It shows that you have the skill, and you can teach it to others.
+- Demonstrate the coaching methods used, and how this had a positive effect.
+- Talk about the long term development, and that you enjoy coaching and raising the calibre of your team.
+“Give me more examples.”
+“How did it turn out?”
+
+
+TEAMWORK
+
+“Tell me about a time you were leading a team, but they did not agree with you.”
+
+They want to find out about your ability to perform under adverse conditions. They would also like to see how you rectified the situation.
+
+- Discuss why the team was at odds, and how you approached the issue.
+- Run through the process you used to get the team in alignment.
+- Describe the problems you had in getting agreement, and how you overcame them.
+
+“How did you manage this situation?”
+“What approach did you take to remain productive?”
+“Tell me more about the obstacles that you faced.”
+
+
+——————————————————————————————————————
+
