@@ -35,9 +35,7 @@ Specifically, the interviewer is trying to answer:
 
 ------
 
-Research the company to discover specific traits they look for in staff.  Think of your stories in light of the skills the interviewer is looking for. 
-
-
+**Research the company to discover specific traits they look for in staff.**  
 
 > These are intended to measure whether you fit with McKinsey culture (or what your interviewer thinks the culture is). That culture is compassionate, humble, curious, creative, intelligent, eager and confident. It honors leadership, integrity and hard work.
 
@@ -55,7 +53,8 @@ Examples of Skills:
 - [x] Team Work 
     - Enjoy collaborating and making teammates better by teaching and mentoring.
     - Pair with teammates, review PRs, help others with technical questions & share your learnings.
-    -  working collaboratively with various stakeholders within and outside the company
+    -  working collaboratively with various stakeholders within and outside the company 
+    - Collaborate across teams and time zones to make things happen, review code and be open to feedback
 - [x] Communication: 
     - Capacity to articulate technical problems and projects to all teams
 - [x] Eagle eye for detail.
@@ -74,42 +73,17 @@ Examples of Skills:
 
 **Prepare Stories**
 
-To prepare to interview for this position, you’ll need examples where you demonstrated each of the competencies needed. Make sure you're really sharp on your stories. Each interviewer will probably only ask you 1 experience question, but will probe very deep on that experience (e.g. "what was your initial response?", "how did they react?", "how did you overcome those biases?", "how could you have approached the situation differently?”)
-
-To prepare, I imagined the questions they might ask (it’s not hard, most are variations), wrote them out, and prepared stories. I had about a dozen stories, I really practiced half of them, but all were available. One interviewer told me he didn’t like my example and wanted another one.
-
-I found it helpful to have a narrative structure to my stories:
-
-1.  Time, setting, position, organization, characters
-2.  Conflict, what was it and what caused it.
-3.  Moment of awareness - what did you realize or have to change about yourself
-4.  Resolution - what did you do, specifically in actions.
-5.   Result - how did people react, think, fell? Other outcomes?
 
 
-* Situation: Background of the situation, setting the scene for the interviewer.
-* Task: The specifics of what you were required to do/achieve, when, where, and who.
-* Action: The steps you actually took, behaviours, characteristics and skills you used.
-* Result: Final outcome. What happened, and what you learnt.
-
-Every time you answer, ask yourself, HOW did I do this, explain it in detail. WHY you took certain actions, and WHAT results were achieved. Think also what you learnt, and come up with another time where you used the learnings to do even better. Did you use a process? What process? How did you get the information to make the decision? How did you bring your team on board with your line of sight? What happened? How did your customers react?
-
-- Action. How you approached the task. Describe specific steps you took.
-- Thinking. Why choose this course of action. Describe your rationale.`
-- Results. What impact did your actions have. Describe the outcomes.
-- Learning. Describe what this experience has helped you discover.
-- Application. Demonstrate you have grown by using these learnings in a new situation.
+Narrative Structure:
 
 
-Skill Based Stories:
+* **Situation**: Background of the situation, setting the scene for the interviewer.  Time, setting, position, organization, characters. Conflict, what was it and what caused it.
+* **Task**: The specifics of what you were required to do/achieve, when, where, and who. Obstacles  Overcoming lack of resources be they time, money,  innate talent, or people magnifies your accomplishment many fold. Since  we rarely have enough of everything for plans to go smoothly, make sure  you tell the story of the difficulties you faced. what did you realize or have to change about yourself
+* **Action**: The steps you actually took, behaviours, characteristics and skills you used.HOW did I do this, explain it in detail. WHY you took certain actions. Did you use a process? What process? How did you get the information to make the decision? How did you bring your team on board with your line of sight? Your accomplishment could be a purely individual and personal one.  And that dish would satisfy, but for most fields, an accomplishment  involving others where you influence, motivate, persuade, cajole, and lead will turn your bread and butter into a delectable delicacy. "what was your initial response?" "how did you overcome those biases?")
+* **Result**: Final outcome. What happened, and what you learnt. how did people react, think, fell? Other outcomes?  What happened? How did your customers react? Impact. Your accomplishment must show you as a contributor who has had a significant  impact on a person, organization, or entity. Your accomplishment could be that you increased membership, led a team to victory, built a  coalition in student government that did something fantastic, increased  sales, cut costs, or found a solution to a problem that enabled a  critical deal to go forward.
+* (Optional) **Application**. Demonstrate you have grown by using these learnings in a new situation. "how could you have approached the situation differently?”
 
-The bread: Impact. Your accomplishment must show you as a contributor who has had a significant  impact on a person, organization, or entity. Your accomplishment could be that you increased membership, led a team to victory, built a  coalition in student government that did something fantastic, increased  sales, cut costs, or found a solution to a problem that enabled a  critical deal to go forward.
-
-The butter: Obstacles overcome. Overcoming lack of resources be they time, money,  innate talent, or people magnifies your accomplishment many fold. Since  we rarely have enough of everything for plans to go smoothly, make sure  you tell the story of the difficulties you faced.
-
-And what if you like jam with it? What would sweeten the dish?
-
-The jam: Leadership. Yes, your accomplishment could be a purely individual and personal one.  And that dish would satisfy, but for most fields, an accomplishment  involving others where you influence, motivate, persuade, cajole, and lead will turn your bread and butter into a delectable delicacy
 
 Some tips:
     
@@ -121,37 +95,96 @@ Some tips:
 
 ---
 
-**My Actual Skills**
+Stories
+
+- Hurricane Sandy
+    - The most challenging work I faced was in my first job. I was fresh out of college, and I was tasked with finding the impact of Hurricane Sandy on the US bond market. This was a non-trivial task, requiring both creativity, some hypothesis-making, AS well as technical skills to clean, analyse and train models on large swaths of data. Since I was fresh out of college, I had little experience of the ambiguity and practical challenges of working on a real project. This gave me a first taste of it, I learnt a lot, and by the end of it, I was able to produce a report which was quite respectable. It as even published. 
+- Jugnoo Onboarding
+- Jugnoo Checkout
+- FB Account Kit in Login/Signup revamp caused the referrals to drop from 18% to 10%
+- Aurora German work
+- Explaining stuff to Harshal Sanghvi
+- NUS Work
+- Urvashi and Nitika: The rival Was
+    * One would leave early 
+    * Or take the testing equipment home
+    * Not cover for the other
+    * The other would complain about her behind her back
+* QC Women Quizmasters
+* Awarding the best representative prize to a not-so-good quizzer Anurag Tiwari (QC) 
+* Firing Jugnoo employee
+* Leaving Jugnoo for entrepreneurship
+* Delegating Menu planner to Shivam
+* While launching AskLocal, I was stuck with following the whims of the founder in deciding product direction. 
+    * Week 1: Copy Zomato Feed. Why are you thinking? First copy then differentiate.
+    * Week 2: No one uses Tomato Feed! Why are you not following YikYak?
+* Working with a remote designer from Europe
+    * She had a data-oriented approach but we did not have the data she needed, was not familiar with our design language: (there was no documentation, it used to change so frequently), and had a different sense of aesthetics from ours. The processes for remote calls were not set in place. 
+    * Took guidance from Saurabh Wadhawan
+* Rowing team
+* IIT Jee
+* Oxford
+* 6 Pack Abs
+* Launching Platonia
+* Aurora Data Loading Task
+* Referrals in Jugnoo
+* AskLocal content: not family friendly and potentially offensive to women vs local knowledge-based
+* Jugnoo Star dogfeeding: force company employees to pay and use the new product
+* Jugnoo Star First experience management: I actually ended up offending the developers
+* Out of court settlement for property infringement. Rs. 1.7 Lakhs eventually (just  market rates) 
+    * BATNA: Long court battle - we were not even in the same city. 
+    * Approach: Contacted local politicians, tehsildar, instructed Kanugo to reach site on the same day as negotiation etc.
+    * Use: Police was on our side and stopped from proceeding construction
+* Jugnoo Product Management
+    * Always think of ROI. What metrics are you going to effect? Who is being affected?
+    * Maintained an excel sheet where the different teams would input the tasks and what priority it had for them. We would highlight taks we were performing and update the expected dates.
+* Going home late night for Urvashi
+
+    Sometimes delaying the decision helps: when the time allows more of relevant information to come in. But often we only delay out of fear, confusion, laziness or anxiety. In these cases, there might be a cost of delay, and delaying wouldn’t allay all those emotions or clear the confusion, but only worsen them. If you feel like delaying, you must introspect and be clear about Why you are delaying.
+* I recently developed a mobile app from scratch, which about 100+ people used and loved. The app allowed people to connect in-person over skill sharing, and the visition is something I had wanted to execute on since a long time.
+    - Since last year, I’ve been the tech lead of Platonia, a startup I founded. 
+    - Apart from mentoring junior team members, I've been pretty hands-on with the server side development of the stack of the stack in Node.js
+    -  It is currently live on Google Playstore.  Our team of four shipped the product in six months. I designed, implemented, tested and monitor new functionalities to the platform.
+    - The product didn't take off with the growth rate needed to justify further time and investment. 
 
 
-- [x] Bachelor + Masters degree in Computer Science.
-- [x] I am strong on CS fundamentals, algorithms and data structure,  OO design practices, UML diagrams, design patterns
+------
+
+**My Skills**
+
+
+- [x] Bachelor + Masters **degree in Computer Science**.
+- [x] I am **strong on CS fundamentals, algorithms and data structures**,  OO design practices, UML diagrams, design patterns
 - [x] I deliver clean, well-crafted, well-tested, well-documented software which is easy to maintan and extend to new use cases. Scalable, reliable and reusable
-- [x]  Experience with testing a big system, understand the concept of unit, component, and system level testing
+- [x] Have 2.5 years of experience developing applications and **programming with Java and Node.js**, and 1 year of experience as a product manager. 
+- [x] **Back-end development**
+    - In my last role, I worked with the backend based on the stack: Express, Node.js, Mongodb, AWS. The experience gave me an opportunty to learn about architectural decisions and designing schemas. 
+    -  I have  experience with web technologies and desiginng and deploying JSON-based RESTful APIs.  
+ 
+- [x] **Testing** Experience with testing a big system, understand the concept of unit, component, and system level testing
     * I am familiar with TDD practices. My prior experience with Node.js testing frameworks: Mocha, Chai, Sinon and Java testing framework JUnit.
     * I designed the test suite for platonia.
-- [x] I have an understanding of Scrum and Agile development. I understand well trade-offs between perfection and time, with an eye towards iterative delivery of product features. I am good at managing individual project priorities, deadlines, and deliverables
-    * At Jugnoo, we had weekly sprints, my team delivered one impactful feature every week. Sometimes we translateing business requirements into high-performing scalable solutions. 
-- [x] Have 2.5 years of experience developing applications and programmng with Java and Node.js, and 1 year of experience as a product manager. 
-- [x] Profound understanding of back-end development 
-    - In my last role, I worked with the backend based on the stack: Express, Node.js, Mongodb, AWS. The experience gave me an opportunty to learn about architectural decisions and designing schemas.  
-    - **Java, Spring MVC, Elastic, PostgreSQL**
-
-- [x] Having designed, developed and tested consumer-facing products since 3 years, I obsess about user experience. Empathy drives my decisions. 
-- [x] I am right at home articulating complex technical content to peers and partners, as well as enthusing a non-tech audience about why our software will solve their problem.  I have the ability articulate technical problems and projects to all teams
-- [x] From Platonia, I have  experience with web technologies and desiginng and deploying JSON-based RESTful APIs. 
-- [x] I am at home working in a startup environment. This means taking ownership, responsibility and working autonomously while being flexible to the need of the business. Hands-on, nothing-is-impossible mindset. Understand all other functions to build software to meet the needs of our growing business.
-- [x] I get work done
+- [x] I have an understanding of Scrum and Agile development. I understand well trade-offs between perfection and time, with an eye towards **iterative delivery of product features**. I am good at managing individual project priorities, deadlines, and deliverables
+    * At Jugnoo, we had weekly sprints, my team delivered one impactful feature every week. Sometimes we translateing business requirements into high-performing scalable solutions.
+- [x] Building robust and scalable production grade systems with TDD, continuous integration/delivery and automated testing. Experience working with development tools and concepts such as Version Control/Git.
+    - Jugnoo used by about 3 million consumers across 28 cities in India. I have experence working on a large-scale, high-volume services.
+- [x] I am at home working in a **startup environment**. This means taking ownership, responsibility and working autonomously while being flexible to the need of the business. Hands-on, nothing-is-impossible mindset. Understand all other functions to build software to meet the needs of our growing business.
+- [x] **I get work done**
     - At Jugnoo, week-in-week out translate business requirements into high-performing scalable solutions. 
     - At Oxford, I had two submit two essays week-in-week out. 
-- [x] With my background in math and philosophy, I am highlytical thinker and comfortable with abstraction. 
+- [x] Having designed, developed and tested consumer-facing products since 3 years, I **obsess about user experience**. Empathy drives my decisions. 
+- [x] **Comunication** I am right at home articulating complex technical content to peers and partners, as well as enthusing a non-tech audience about why our software will solve their problem.  I have the ability articulate technical problems and projects to all teams
+- [x] With my background in math and philosophy, I am highly **analytical and abstract thinker** 
 
+----
 
-- [ ] **Building robust and scalable producton grade systems with TDD, continuous integration/delivery** and automated testing. Experience working with development tools and concepts such as Version Control/Git.
-    - Jugnoo used by about 3 million consumers across 28 cities in India. I have experence working on a large-scale, high-volume services. 
-- [ ] **Understanding of Microservices Pros and Cons, and alternatives.**
-- [ ]  **Development of a GraphQL service that serves these stats and other data over websockets.**
-- [ ] **Knowledge of relational databases. Have worked with SQL databases, writing custom queries and designing schemas  Experience with online data stores; offline data stores is a plus.**
+**Skills to develop**
+
+- [ ] Continuous Integration/Deployment and Automation Testing
+- [ ] Understanding of Microservices Pros and Cons, and alternatives.
+- [ ]  Development of a GraphQL service that serves these stats and other data over websockets.
+- [ ] Knowledge of relational databases. Have worked with SQL databases, writing custom queries and designing schemas  Experience with online data stores; offline data stores is a plus.
+- [ ] Stack: Java, Spring MVC, Elastic, PostgreSQL
 
 -------
 
@@ -183,7 +216,7 @@ Piyush
 
 ------
 
-**My Intro/Tell me about yourself/Why I am the perfect fit for this specific opportunity?**
+**My Intro/Tell me about yourself/Why I am the perfect fit for this specific opportunity? (Suggest, not tell)**
 
 -  My first degree was in **Computer Science**  **After that, I went to Oxford** for a two years degree in humanities. PPE. I was one of the few places where you could get that in two years, and it is also one of the best, I went there to read for a second undergrad degree
     *  One thing which I have picked from all these different fields is the "The ability to learn super fast". While they look different, common princiles underpin all fields of knowledge.
@@ -199,31 +232,33 @@ Piyush
 
  **Skill: I get things done. Shipping someithng gets me going**
  
-- **looking for more server side development and system architecture** experience. 
+
+----
+
+**Why did you go for PPE?**
 
 --------
 
-**Why should we select you?**
-
-
-
-----
-
-**Which project are you most proud of?**
-- Since last year, I’ve been the tech lead of Platonia, a startup I founded. 
-- Apart from mentoring junior team members, I've been **pretty hands-on with the server side development of the stack of the stack in Node.js** 
--  It is currently live on Google Playstore.  Our team of four shipped the product in six months. I designed, implemented, tested and monitor new functionalities to the platform.
-- The product didn't take off with the growth rate needed to justify further time and investment. **Skill: I get things done. Shipping someithng gets me going**
+**What are you looking for?**
 
 
 ----
 
-**What motivates you?**
+
+
+**Why should we select you?** (Tell, not suggest)
 
 
 ----
 
-**What are you passionate about?**
+**What are your strengths?**
+
+
+
+-----
+
+
+**What motivates you?** **What are you passionate about?**
 
 - I am passionate about learning new things. This is what drove me to major in major in both and engineering. I did PPE at Oxford and CS in IIT Delhi, and this is what drove me to software engineering. There is so much to learn! I feel the experience of learning something fresh is what keeps you alive and kicking. Otherwise the world is a little boring. 
 - The pursuit of excellence in what I do. I believe in doing a job well, in coming to work every day, and thinking how can I contribute 
@@ -231,34 +266,22 @@ Piyush
 
 -----
 
-**Skill:Passion for tech and metacognition about coding well**
+**Passion for tech and metacognition about coding well**
 
 -  I am proficient in Java - which is strongly typed, object oriented, class-based. Transferring that knowleedge to <X>  would be trivial. 
     -  I prefer statically typed and compiled languages (rather than interpreted ones). They tell me about errors in my code before I run any tests altogether, and once you get used to the boilerplate, you stop even noticing it. It is like dental hygiene, except for code.
 
+----
 
-
-**Skill: Experience making system architecture decisions (which stack to use, choice of storage enginers, whether to use microservices)**
-
-**Situation:** During the shipping of Platonia, we made quite a few architectural choices
-
-**Task:** Choose a database for the application. SQL based like PostGreSQL (Relational) vs Mongo (NoSql) or Graph(Neo4J)
-
-**Action:**
-    - Made a list of properties we needed from our database
-    - Increase speed of writing code and deploying. Presence of an online community and f libraries we can take off-the-shel and wire together  (Ruled out Graph databases)
-     - Something well known: Ease of hiring developers (Ruled out Graph databases)
-     - Schema flexibiliy in light of evolving data model (Ruled out SQL databases)
-    - Something thats Scalable, since if it takes off it should be able to handle loads of millons (Ruled out SQL databases)
-- Chose MongoDb based on the above propertes
-    - Mongo has many features that you think about relational database: support for joins, indexing and searching on nested data.
-
+**What are your weaknesses**
 
 -----
 
-**What's something you've worked on that you've been proud of?**s
 
-I recently developed a mobile app from scratch, which about 100+ people used and loved. The app allowed people to connect in-person over skill sharing, and the visition is something I had wanted to execute on since a long time.
+
+
+**What's something you've worked on that you've been proud of?**
+
 
 -----
 
@@ -269,9 +292,9 @@ What I liked best about my latest role was that it gave me a lot of autonomy, wh
 
 ------
 
-**What's the most challenging work you've faced?** (the strangest bug you had to debug on production, the most awful legacy system you needed to interface with, etc... this doesn't need to be a success story)
+**What's the most challenging work you've faced?** (the strangest bug you had to debug on production, the most awful legacy system you needed to interface with, etc... this doesn't need to be a success story) **Tell me an experience where you have <fill in a challenge> in your job, and what  have you done to overcome the challenge?**
 
-The most challenging work I faced was in my first job. I was fresh out of college, and I was tasked with finding the impact of Hurricane Sandy on the US bond market. This was a non-trivial task, requiring both creativity, some hypothesis-making, AS well as technical skills to clean, analyse and train models on large swaths of data. Since I was fresh out of college, I had little experience of the ambiguity and practical challenges of working on a real project. This gave me a first taste of it, I learnt a lot, and by the end of it, I was able to produce a report which was quite respectable. It as even published.
+
 
 
 ----
@@ -297,25 +320,28 @@ The most challenging work I faced was in my first job. I was fresh out of colleg
 
 
 
-**What are your strengths?**
-
------
-
-**What are your weaknesses? Why should I hire you?**
-
------
-
-
-
-**How do you work in teams?**
-
-
-- Collaborate across teams and time zones to make things happen, review code and be open to feedback
-
 
 
 
 
 -------
 
-**Tell me an experience where you have <fill in a challenge> in your job, and what  have you done to overcome the challenge?**
+
+**Experience making system architecture decisions (which stack to use, choice of storage enginers, whether to use microservices)**
+
+**Situation:** During the shipping of Platonia, we made quite a few architectural choices
+
+**Task:** Choose a database for the application. SQL based like PostGreSQL (Relational) vs Mongo (NoSql) or Graph(Neo4J)
+
+**Action:**
+
+- Made a list of properties we needed from our database
+- Increase speed of writing code and deploying. Presence of an online community and f libraries we can take off-the-shel and wire together  (Ruled out Graph databases)
+    - Something well known: Ease of hiring developers (Ruled out Graph databases)
+    - Schema flexibiliy in light of evolving data model (Ruled out SQL databases)
+- Something thats Scalable, since if it takes off it should be able to handle loads of millons (Ruled out SQL databases)
+- Chose MongoDb based on the above propertes
+    - Mongo has many features that you think about relational database: support for joins, indexing and searching on nested data.
+
+
+-----
