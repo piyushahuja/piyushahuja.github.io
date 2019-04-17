@@ -12,9 +12,18 @@ comments: false
 
 
 
-The essential idea is that an abstract data type is defined by its operations. The set of operations for a type T, along with their specifications, fully characterize what we mean by T. when we talk about the List type, what we mean is not a linked list or an array or any other specific data structure for representing a list. Instead we mean a set of opaque values – the possible objects that can have List type – that satisfy the specifications of all the operations of List: get(), size(), etc.
+The essential idea is that an abstract data type is defined by its operations. The set of operations for a type T, along with their specifications, fully characterize what we mean by T. when we talk about the List type, what we mean is not a linked list or an array or any other specific data structure for representing a list. Instead we mean a set of opaque values – the possible objects that can have List type – that satisfy the specifications of all the operations of List: get(), size(), etc. (maps to interfaces in Java?)
 
 The key idea of data abstraction is that a type is characterized by the operations you can perform on it. A number is something you can add and multiply; a string is something you can concatenate and take substrings of; a boolean is something you can negate, and so on. In a sense, users could already define their own types in early programming languages: you could create a record type date, for example, with integer fields for day, month, and year. But what made abstract types new and different was the focus on operations: the user of the type would not need to worry about how its values were actually stored, in the same way that a programmer can ignore how the compiler actually stores integers. All that matters is the operations.
+
+A second view is this: An abstract data type is a set of values (or the range of the AF of its representations). This way of thinking about datatypes — as a recursive definition of an abstract datatype with concrete variants — is appealing not only because it can handle recursive and unbounded structures like lists and trees, but also because it provides a convenient way to describe operations over the datatype, as functions with one case per variant. the datatype definition maps to the abstract interface, concrete variants, and constructors.
+
+> This is a recursive definition of ImList as a set of values. Here’s the high-level meaning: the set ImList consists of values formed in two ways: either by the Empty constructor, or by applying the Cons constructor to an element elt and an ImList rest.    
+> A more detailed reading: ImList<E> is a generic type where for any E, the set ImList<E> consists of the values formed: either by the Empty constructor, or by applying the Cons constructor to a value called elt of type E and a value called rest of type ImList<E>.
+
+
+
+
 
 [What are the design principles that promote testable code?](https://softwareengineering.stackexchange.com/questions/153410/what-are-the-design-principles-that-promote-testable-code-designing-testable-c?PrinciplesOfObjectOrientedDesign)
 
@@ -282,15 +291,28 @@ Enums should be separated out in their ownlass, unless they follow a recurrent p
     * Singleton class  has a single instance. Enums have few, fixed multiple instances. These classes have private constructor. share the instances as static member variables. 
 
 * When to use a class which has all members static and a public constructor?  This would be strange, as all instances would look the same. But such a class can be extended and new methods added. 
+* [Why can't I define a static method in a Java interface?](https://stackoverflow.com/questions/512877/why-cant-i-define-a-static-method-in-a-java-interface)
+    *  One way to implement empty is to have clients call the Empty class constructor to obtain empty lists. This sacrifices representation independence — clients have to know about the Empty class!
+
+    As we saw in Interfaces, a better way to do it is as a static factory method that takes no arguments and produces an instance of Empty. We can put this static method in the ImList interface along with the other operations. This choice was not possible in previous versions of Java, which is why we still write code like:
+
+    List<String> z = new ArrayList<>();
+    Perhaps someday Java will offer a List.empty() method to obtain a new empty all-purpose List, but not yet. (List.of() and Collections.emptyList() provide immutable empty lists.)
+* There are two worlds in type checking: compile time before the program runs, and run time when the program is executing.At compile time, every variable has a declared type, stated in its declaration. 
+    * The compiler uses the declared types of variables (and method return values) to deduce declared types for every expression in the program.
+    * At run time, every object has an actual type, imbued in it by the constructor that created the object. For example, new String() makes an object whose actual type is String. new Empty() makes an object whose actual type is Empty. new ImList() is forbidden by Java, because ImList is an interface — it has no object values of its own, and no constructors. * What is method overloading? What is method overriding? Methods are overriden during compile time, but overloaded only on runtime.
+* Why can't static methods be overrdiden?
+    - Pretend that each class has a hash table that maps method signatures (name and parameter types) to an actual chunk of code to implement the method. When the virtual machine attempts to invoke a method on an instance, it queries the object for its class and looks up the requested signature in the class's table. If a method body is found, it is invoked. Otherwise, the parent class of the class is obtained, and the lookup is repeated there. This proceeds until the method is found, or there are no more parent classes—which results in a NoSuchMethodError.
+    - If a superclass and a subclass both have an entry in their tables for the same method signature, the sub class's version is encountered first, and the superclass's version is never used—this is an "override".
+    - Now, suppose we skip the object instance and just start with a subclass. The resolution could proceed as above, giving you a sort of "overridable" static method. The resolution can all happen at compile-time, however, since the compiler is starting from a known class, rather than waiting until runtime to query an object of an unspecified type for its class. There is no point in "overriding" a static method since one can always specify the class that contains the desired version
 
 
-* What is method overloading? What is method overriding?
-    * Methods are overriden during compile time, but overloaded only on runtime.
+
 
 * [What is the point of getters and setters?](https://stackoverflow.com/questions/1461598/what-is-the-point-of-setters-and-getters-in-java/1462424#1462424 )
 * [Why use getters and setters?](https://stackoverflow.com/questions/1568091/why-use-getters-and-setters-accessors)
 
-* All private methods are implicitly final. All methods of a final class are final. A field that is both static and final has only one piece of storage that cannot be changed. When using final with object handles rather than primitives the meaning gets a bit confusing. With a primitive, final makes the value a constant, but with an object handle, final makes the handle a constant. The handle must be initialized to an object at the point of declaration, and the handle can never be changed to point to another object. However, the object can be modified; Java does not provide a way to make any arbitrary object a constant.  This restriction includes arrays, which are also objects. Just because something is final doesn’t mean that its value is known at compile-time. This is demonstrated by initializing final variables at run-time using randomly generated numbers. Making object handles final seems less useful than making primitives final.[]( https://www.codeguru.com/java/tij/tij0071.shtml )
+* All private methods are implicitly final. All methods of a final class are final. A field that is both static and final has only one piece of storage that cannot be changed. When using final with object handles rather than primitives the meaning gets a bit confusing. With a primitive, final makes the value a constant, but with an object handle, final makes the handle a constant. The handle must be initialized to an object at the point of declaration, and the handle can never be changed to point to another object. However, the object can be modified; Java does not provide a way to make any arbitrary object a constant.  This restriction includes arrays, which are also objects. Just because something is final doesn’t mean that its value is known at compile-time. This is demonstrated by initializing final variables at run-time using randomly generated numbers. Making object handles final seems less useful than making primitives final.[Link]( https://www.codeguru.com/java/tij/tij0071.shtml )
 
 * Check rep invariants after every method. You should certainly call checkRep() to assert the rep invariant at the end of every operation that creates or mutates the rep – in other words, creators, producers, and mutators. Look back at the RatNum code above, and you’ll see that it calls checkRep() at the end of both constructors. Observer methods don’t normally need to call checkRep(), but it’s good defensive practice to do so anyway. Why? Calling checkRep() in every method, including observers, means you’ll be more likely to catch rep invariant violations caused by rep exposure.
 
@@ -601,3 +623,20 @@ Start with an object that implements interface X. The "Adapter" wraps the X obje
 
 **Visitor Pattern**
 [Understanding the need for Visitor Pattern](https://softwareengineering.stackexchange.com/questions/333692/understanding-the-need-of-visitor-pattern)
+
+
+----
+
+**Composite Pattern**
+
+Music = Note(duration:double, pitch:Pitch, instrument:Instrument)
+        + Rest(duration:double)
+        + Concat(m1:Music, m2:Music)
+Composite
+Music is an example of the composite pattern, in which we treat both single objects (primitives, e.g. Note and Rest) and groups of objects (composites, e.g. Concat) the same way.
+
+Formula is also an example of the composite pattern.
+
+The graphical user interface (GUI) view tree relies heavily on the composite pattern: there are primitive views like JLabel and JTextField that don’t have children, and composite views like JPanel and JScrollPane that do contain other views as children. Both implement the common JComponent interface.
+
+The composite pattern gives rise to a tree data structure, with primitives at the leaves and composites at the internal nodes.
