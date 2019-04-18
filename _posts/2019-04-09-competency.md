@@ -225,15 +225,14 @@ Piyush
 **My Intro/Tell me about yourself/Why I am the perfect fit for this specific opportunity? (Suggest, not tell)**
 
 -  My first degree was in **Computer Science**  **After that, I went to Oxford** for a two years degree in humanities. PPE. I was one of the few places where you could get that in two years, and it is also one of the best, I went there to read for a second undergrad degree
-    *  One thing which I have picked from all these different fields is the "The ability to learn super fast". While they look different, common princiles underpin all fields of knowledge.
-    *  A diverse background in  also affords me a distinct ability to approach a case from different perspectives and assimilate knowledge from different fields.  
-    * Reading under the rigors of the tutorial system at Oxford has helped me develop  time management skills and an ability to get work done under pressure. 
-    * Analytical rigour and eye for detail: from my earier drgee
+    *  **"The ability to quickly pick stuff up or learn new things"**. For example, reading under the rigors of the tutorial system at Oxford has helped me develop time management skills and an ability to get work done under pressure. In software there are always new frameworks coming up, or you have to understand the API documentation quickly and quickly integrate it. 
+    *  A diverse background in also gives me ability to approach a problem from different perspectives and assimilate knowledge from different fields.
 
-- **My first job out of Oxford was in a  startup in the on-demand sector** as a product manager, Jugnoo.  It was **consumer facing app** used by about **3 million consumers across 28 cities** in India. One thing I got out of that role was a  complete obsession with user experience and **experience handling large-scale, high-volume services.**
-    * I can come up with clever ways to improve usage including behavioural economics and design improvements
+- **My first job out of Oxford was in a  startup in the on-demand sector** as a product manager, Jugnoo.  It was **consumer facing app** used by about **3 million consumers across 28 cities** in India. 
+    - One thing I got out of that role was a  complete obsession with user experience and **experience handling large-scale, high-volume services.**- Having seen both sides, I have a focus on customer experience
+    * I can come up with clever ways to improve usage including behavioural economics and design improvements. 
 
--  Since last year, I’ve been the **tech lead of Platonia.** Apart from mentoring junior team members, I've been **pretty hands-on with the server side development of the stack of the stack in Node.js**  It is currently live on Google Playstore.  Our team of four  shipped the product in six months. 
+-  Since last year, I’ve been working on a product called Platonia. Apart from mentoring junior team members, I've been **pretty hands-on with the server side development of the stack of the stack in Node.js**  It is currently live on Google Playstore.  Our team of four  shipped the product in six months. 
 > The product didn't take off with the growth rate needed to justify further time and investment.
 
 
@@ -254,6 +253,35 @@ Deep down I am a very curious and inquisitive with a passion for learning. As I 
 
 **What are you looking for?**
 
+- Experience in a stack different from what I have been workng on producton grade Java applcaton
+
+- At this stage of my career, I am looking for a role which gives me a significant amount of ownership. This would great for learning, growth, and taking on real responsibility. 
+
+- As a person who wants to move fast make an impact, it would probablyy not suit me to work in a company with complex hierarchies or bureacracy. 
+Speed is the foundation of Ayden. We think, work and ship fast. 
+
+- there's a lot of new, interesting challenges that I'd expect come up in day to day. Interesting problems:
+    - new local payment method (Brazil has cash based, )
+    - changing legal requirements in a country
+    - New merchant needs
+    - New product launches
+
+- I am looking for specialize further in the backend. 
+
+
+
+-----
+**Why company X?**
+
+- **Mission**:
+>  Tech used for a meaninful purpose. 
+
+- **Personable People**I talked to X <Rik Nijesson/Suleyman Orazgulyyev> and Y <Burak Yildrim>, and both were very personable and encouraging.  
+- **Work Culture** 
+ >  There’s always something happening, from fiercely competitive quiz nights*
+
+- **Good Tech Team**
+
 
 ----
 
@@ -262,26 +290,14 @@ Deep down I am a very curious and inquisitive with a passion for learning. As I 
 **Why should we select you?** (Tell, not suggest)
 
 
-I believe <x> as a company, is faced with client problems which are new, in a diverse range of fields, and which are to be solved under time and information constraints. You need  personel who can thrive in such an environment, and I believe I, more than any other candidate you are to encounter, have demonstrating these qualities.
-
- I have a stellar track record, in India, UK and Singapore. I’ve excelled in two of the best universities in their respective areas, in incredibly diverse fields. 
-
-But that is not the reason you should take me. The reason you should take me is that i embody an ethos of self improvement. I take feedback very seriously, and I learn, adapt and grow with it
-
-
+- Having seen both sides, I have a focus on customer experience
 - To put it simply, I get work done. 
+    - At Jugnoo, we had weekly sprints, my team delivered one impactful feature every week.  
 
--  I believe in delivery software which is difficult to read, test,  maintain or extend.  But I also understand well trade-offs between perfection and time, with an eye towards iterative delivery of product features, and utilizes this capacity to plan and deliver on product requirements
-- I am right at home articulating complex technical content to peers and partners, as well as enthusing a non-tech audience about why our software will solve their problem.
-i embody an ethos of self improvement. I take feedback very seriously, and I learn, adapt and grow with it.
+-  I believe in writing software which is easy to read, test,  maintain or extend. But I also understand well trade-offs between perfection and time. Often you have to just delivery. Often its not about your code being perfect, but about iterative fast on product features. 
 
-I can talk about how I excel in each of the job requirements....
-- I am proficient in Java, from a previous job I have experience handling a large scale high volume app used, I am a team player with an eye for detail. 
--  I believe in writing software which is easy to read, test,  maintain or extend.  
-But I also understand well trade-offs between perfection and time. Often you have to just delivery. Often its not about your code being perfect, but about iterative fast on product features. 
-- At Jugnoo, we had weekly sprints, my team delivered one impactful feature every week. 
 - At Oxford, I had two submit two essays week-in-week out.
-- I am right at home articulating complex technical content to peers and partners, as well as enthusing a non-tech audience about why our software will solve their problem.
+
 
 ----
 
@@ -289,15 +305,10 @@ But I also understand well trade-offs between perfection and time. Often you hav
 
 Strengths
 
-I am inquisitive and persistent. 
-* I persevere. 
-    * Most things we think of as hard are not hard per se, only unfamiliar. If anything does feel hard, then I work at it till I am able to crack it. 
-    * Two quotes which I have found to be particularly true:
-        * Success is 1% Inspiration and 99% Perspiration.
-        * Luck is when Opportunity meets Preparation
+* I get work done
 * I am good at thinking in abstract terms - mathematics and philosophy. 
 
-[Concrete Examples: Opera Data Cleaning Task, JEE Math Problems]
+
 
 
 -----
