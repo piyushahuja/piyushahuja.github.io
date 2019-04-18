@@ -254,17 +254,14 @@ Deep down I am a very curious and inquisitive with a passion for learning. As I 
 **What are you looking for?**
 
 - I am looking for specialize further in the backend. Experience in high quality, production grade application with established tech practices, without the scrappyness of a startup.
-- At the same time, it should not have complex hierarchies.  At this stage of my career, I am looking for a role which gives me a significant amount of ownership. This would great for learning, growth, and taking on real responsibility. 
-
-- there's a lot of new, interesting challenges that I'd expect come up in day to day. Interesting problems:
+    - there's a lot of new, interesting challenges that I'd expect come up in day to day. Interesting problems:
     - new local method (Brazil has cash based, )
     - Challenges of securty and scale. 
-    - Improving P.O.S. software using protocols standards, websockets
+    - Improving P.O.S. software using protocols standards, websocket 
+- At the same time, it should not have complex hierarchies.  At this stage of my career, I am looking for a role which gives me a significant amount of ownership. This would great for learning, growth, and taking on real responsibility. 
 
+s
 
-
-
--
 
 - As a person who wants to move fast make an impact, it would probablyy not suit me to work in a company with complex hierarchies or bureacracy. 
 Speed is the foundation of Ayden. We think, work and ship fast. 
