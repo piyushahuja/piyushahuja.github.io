@@ -253,12 +253,8 @@ Deep down I am a very curious and inquisitive with a passion for learning. As I 
 
 **What are you looking for?**
 
-- Experience in a stack different from what I have been workng on producton grade Java applcaton
-
-- At this stage of my career, I am looking for a role which gives me a significant amount of ownership. This would great for learning, growth, and taking on real responsibility. 
-
-- As a person who wants to move fast make an impact, it would probablyy not suit me to work in a company with complex hierarchies or bureacracy. 
-Speed is the foundation of Ayden. We think, work and ship fast. 
+- I am looking for specialize further in the backend. Experience in high quality, production grade application with established tech practices, without the scrappyness of a startup.
+- At the same time, it should not have complex hierarchies. 
 
 - there's a lot of new, interesting challenges that I'd expect come up in day to day. Interesting problems:
     - new local payment method (Brazil has cash based, )
@@ -266,22 +262,37 @@ Speed is the foundation of Ayden. We think, work and ship fast.
     - New merchant needs
     - New product launches
 
-- I am looking for specialize further in the backend. 
+
+- At this stage of my career, I am looking for a role which gives me a significant amount of ownership. This would great for learning, growth, and taking on real responsibility. 
+
+
+
+-
+
+- As a person who wants to move fast make an impact, it would probablyy not suit me to work in a company with complex hierarchies or bureacracy. 
+Speed is the foundation of Ayden. We think, work and ship fast. 
 
 
 
 -----
 **Why company X?**
 
-- **Mission**:
->  Tech used for a meaninful purpose. 
-
-- **Personable People**I talked to X <Rik Nijesson/Suleyman Orazgulyyev> and Y <Burak Yildrim>, and both were very personable and encouraging.  
-- **Work Culture** 
- >  There’s always something happening, from fiercely competitive quiz nights*
 
 - **Good Tech Team**
+    - Great tech practices. I have been following your blog.
+- **Personable People**
+> I talked to Rik Nijesson and Burak Yildrim, and both were very personable and encouraging.  
 
+
+<!-- - **Work Culture** 
+ >  There’s always something happening, from fiercely competitive quiz nights*
+
+ -->
+
+<!-- 
+- **Mission**:
+>  Tech used for a meaninful purpose. 
+ -->
 
 ----
 
