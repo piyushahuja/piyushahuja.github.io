@@ -254,16 +254,13 @@ Deep down I am a very curious and inquisitive with a passion for learning. As I 
 **What are you looking for?**
 
 - I am looking for specialize further in the backend. Experience in high quality, production grade application with established tech practices, without the scrappyness of a startup.
-- At the same time, it should not have complex hierarchies. 
+- At the same time, it should not have complex hierarchies.  At this stage of my career, I am looking for a role which gives me a significant amount of ownership. This would great for learning, growth, and taking on real responsibility. 
 
 - there's a lot of new, interesting challenges that I'd expect come up in day to day. Interesting problems:
-    - new local payment method (Brazil has cash based, )
-    - changing legal requirements in a country
-    - New merchant needs
-    - New product launches
+    - new local method (Brazil has cash based, )
+    - Challenges of securty and scale. 
+    - Improving P.O.S. software using protocols standards, websockets
 
-
-- At this stage of my career, I am looking for a role which gives me a significant amount of ownership. This would great for learning, growth, and taking on real responsibility. 
 
 
 
