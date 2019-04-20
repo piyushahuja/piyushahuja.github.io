@@ -272,7 +272,7 @@ Speed is the foundation of Ayden. We think, work and ship fast.
 **Why company X?**
 
 
-- **Good Tech Team**
+- **Takes Tech Very Seriously**
     - Great tech practices. I have been following your blog.
 - **Personable People**
 > I talked to Rik Nijesson and Burak Yildrim, and both were very personable and encouraging.  
