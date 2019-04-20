@@ -21,7 +21,8 @@ A second view is this: An abstract data type is a set of values (or the range of
 > This is a recursive definition of ImList as a set of values. Here’s the high-level meaning: the set ImList consists of values formed in two ways: either by the Empty constructor, or by applying the Cons constructor to an element elt and an ImList rest.    
 > A more detailed reading: ImList<E> is a generic type where for any E, the set ImList<E> consists of the values formed: either by the Empty constructor, or by applying the Cons constructor to a value called elt of type E and a value called rest of type ImList<E>.
 
-
+> Using callbacks requires a programming language in which functions are first-class, which means they can be treated like any other value in the language: passed as parameters, returned as return values, and stored in variables and data structures. In old programming languages, only data was first-class: built-in types (like numbers) and user-defined types. But in modern programming languages, like Python and JavaScript, both data and functions are first-class. First-class functions are a very powerful programming idea. The first practical programming language that used them was Lisp, invented by John McCarthy at MIT. But the idea of programming with functions as first-class values actually predates computers, tracing back to Alonzo Church’s lambda calculus. The lambda calculus used the Greek letter λ to define new functions; this term stuck, and you’ll see it as a keyword not only in Lisp and its descendants, but also in Python. 
+> In Java, the only first-class values are primitive values (ints, booleans, characters, etc.) and object references. But objects can carry functions with them, in the form of methods. So it turns out that the way to implement a first-class function, in an object-oriented programming language like Java that doesn’t support first-class functions directly, is to use an object with a method representing the function
 
 
 
@@ -532,19 +533,11 @@ Methods of a class can be:
 - int overflow.
     - especially in functions where n grows largely, like fibonacci or any combinatorial explosion.  
     - Also in general, doing stuff like int mid = (low + high) / 2 and not taking into account integer overflow can lead to a bug. Fix the bug by this: int mid = low + ((high - low) / 2); (. It is not sufficient merely to prove a program correct; you have to test it too.
-    * [Bug in Java BST](https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html
+    * [Bug in Java BST](https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html)
     * [Reverse an integer](https://stackoverflow.com/questions/21070506/reverse-integer-leetcode-how-to-handle-overflow)
 
 - Violation of preconditions that the compiler cannot check. 
-    - (e.g. an interface is supposed to be immutable, but some iimplementatiin adds a mutator method. Or merge method: inputs are supposed to be sorted, but a recursive call doesnt do it.) compiler cannot check that we haven’t weakened the specification in other ways: strengthening the precondition on some inputs to a method, weakening a postcondition, weakening a guarantee that the interface abstract type advertises to clients.  If you declare a subtype in Java — implementing an interface is our current focus — then you must ensure that the subtype’s spec is at least as strong as the supertype’s. Classic example: no correct way for MutableSquare to implement MutableRectangle.setSize(..)and mutable square is not a subtype of mutable rectangle.
-
-
-
-
-
-
-
-        
+    - (e.g. an interface is supposed to be immutable, but some iimplementatiin adds a mutator method. Or merge method: inputs are supposed to be sorted, but a recursive call doesnt do it.) compiler cannot check that we haven’t weakened the specification in other ways: strengthening the precondition on some inputs to a method, weakening a postcondition, weakening a guarantee that the interface abstract type advertises to clients.  If you declare a subtype in Java — implementing an interface is our current focus — then you must ensure that the subtype’s spec is at least as strong as the supertype’s. Classic example: no correct way for MutableSquare to implement MutableRectangle.setSize(..)and mutable square is not a subtype of mutable rectangle.        
 
 ----------
 
@@ -553,6 +546,7 @@ Methods of a class can be:
 
 [MIT Notes](https://www.cs.uct.ac.za/mit_notes/software/htmls/ch08s03.html)   
 [Stanford Handout](http://web.stanford.edu/class/archive/cs/cs108/cs108.1092/handouts/19PatternsDelegate.pdf)
+[Design Patterns implemented in Java](https://github.com/iluwatar/java-design-patterns)
 
 **Factory Method**  
 
@@ -573,10 +567,26 @@ Keep null values out of your data structures, and your life will be happier.
 
 ----
 
-**Iterator pattern** 
+**Iterator pattern**  abstracts away from the details of iterating over a data structure
 
 Allow some to iterate over the elements in a collection (start, access each element, detect when at end) without knowing the collection implementation. In Java, this is done with the Iterator interface, which defines methods hasNext() and next().
 
+Iterator gives you a sequence of elements from a data structure, without you having to worry about whether the data structure is a set or a hash table or a list or an array — the Iterator looks the same no matter what the data structure is.
+
+For example, given a List<File> files, we can iterate using indices:
+```java
+for (int ii = 0; ii < files.size(); ii++) {
+    File f = files.get(ii);
+    // ...
+```
+
+But this code depends on the size and get methods of List, which might be different in another data structure. Using an iterator abstracts away the details:
+```java
+Iterator<File> iter = files.iterator();
+while (iter.hasNext()) {
+    File f = iter.next();
+     // ..
+```
 -----
 
 **Adaptor pattern** 
@@ -609,21 +619,37 @@ Start with an object that implements interface X. The "Adapter" wraps the X obje
 
 ---
 
-**Strategy Pattern**: [Use of enums to implement Strategy Pattern](https://stackoverflow.com/questions/4709175/what-are-enums-and-why-are-they-useful)
+**Strategy Pattern**  (Also *Inversion of Control*)
+
+[Use of enums to implement Strategy Pattern](https://stackoverflow.com/questions/4709175/what-are-enums-and-why-are-they-useful)
 
 ----
 
 **Interpretor Pattern**: [Interpretor Pattern in Recursion](http://web.mit.edu/6.031/www/fa18/classes/16-recursive-data-types/1-recursive/)
 
+Let’s consider two disadvantages of the Interpreter pattern:
+
+For a complicated operation on a datatype with many variants, the code to implement the operation will be distributed across all the different variant classes. If we want to inspect all the code, refactor it, or fix a bug, we must find it in all those different places: the code is harder to understand. Bugs in our recursive implementations are easier to introduce and harder to find.
+
+If we wish to add a new operation to our type, we must modify the interface and every implementing class. If there are many concrete variants that already have substantial code, perhaps written and maintained by other programmers, this change will be more difficult to make than if we could keep the code for the new operation in its own separate location.  
+
+
 ----
 
-**Template Pattern**: Tree Traversals
+**Template Pattern** (Also *Inversion of Control*)
+
+Tree Traversals
 
 ----
 
-**Visitor Pattern**
+**Visitor Pattern** (Also *Treating Functions as First Class Values*)
 [Understanding the need for Visitor Pattern](https://softwareengineering.stackexchange.com/questions/333692/understanding-the-need-of-visitor-pattern)
 
+The Interpreter pattern makes it easier to add new variants, because we don’t have to change any of our existing code: we just need to implement all the various operations as methods in the new variant class.
+
+The Visitor pattern makes it easier to add new operations. Instead of having to modify both the interface and every variant class, we just need to create a new, e.g., Formula.Visitor implementation with all the code for our new operation. There is no change to existing classes or interfaces
+
+We will also use the Visitor pattern when we intend clients of our type to know and understand its underlying structure and implement their own operations — and we’ve already seen a common and important use case for this: parse trees!
 
 ----
 
@@ -640,3 +666,79 @@ Formula is also an example of the composite pattern.
 The graphical user interface (GUI) view tree relies heavily on the composite pattern: there are primitive views like JLabel and JTextField that don’t have children, and composite views like JPanel and JScrollPane that do contain other views as children. Both implement the common JComponent interface.
 
 The composite pattern gives rise to a tree data structure, with primitives at the leaves and composites at the internal nodes.
+
+----
+
+**Functional Objects** (Also *Treating Functions as First Class Values*)
+
+Design pattern when a language doesn't have first-class functions.
+
+Paul Graham says design patterns are about deficencies in a language. If you're using a design pattern, it means you're not using abstractions which are good enough.  See e.g. Python while supporting functions as first class citizens, didn't have support for methods as first class citizens. See how Guido Van Rossum designed an abstraction/design pattern in the python language, so that we programmers dont have to do this: [First Class Everything](http://python-history.blogspot.com/2009/02/first-class-everything.html).
+
+----
+**Listener Pattern or Pub-Sub** (Also *Inversion of Control*)
+
+
+
+The problem:
+
+Input is handled in console user interfaces and servers ths way: a single input loop that reads commands typed by the user or messages sent by the client, parses them, and decides how to direct them to different modules of the program.
+
+If a GUI email client were written that way, it might look like this (in pseudocode):
+
+```java
+while (true) {
+    read mouse click
+    if (clicked on Check Mail button) doRefreshInbox();
+    else if (clicked on Compose button) doStartNewEmailMessage();
+    else if (clicked on an email in the inbox) doOpenEmail(...);
+    ...
+}
+
+```
+
+This is, for example, how the Node.js event loop works. 
+
+But in a GUI, we don’t directly write this kind of method, because **it’s not modular.** GUIs are put together from a variety of library components – buttons, scrollbars, textboxes, menus – that need to be self-contained and handle their own input.  Ideally we would make the clients (GUI elelemts) ready for change by allowing them to provide their own code to run when an event occurs, so that the behavior doesn’t have to be hard-coded into the implementation beforehand. Writing a single giant input loop to handle every possible event in a large system is neither safe from bugs nor easy to understand: that single piece of code becomes an all-knowing all-controlling behemoth. Callbacks allow each module in the system to be responsible for their own events.
+
+So the control flow through a graphical user interface proceeds like this:
+
+* A top-level event loop reads input from mouse and keyboard and calles listeners: note: all listenerss provide the same interface.  
+* Each listener does its thing (which might involve e.g. modifying objects in the view tree), and then returns immediately to the event loop. The last part – listeners return to the event loop as fast as possible – is very important, because it preserves the responsiveness of the user interface.
+
+GUI event handling is an instance of the Listener pattern, also known as Publish-Subscribe. Another Example would be [Promises](https://javascript.info/promise-basics).
+
+In the Listener pattern:
+
+* An event source generates (or publishes) a stream of discrete events, which correspond to state transitions in the source.
+* One or more listeners register interest (subscribe) to the stream of events, providing a function to be called when a new event occurs.
+
+
+
+A callback is a function that a client provides to a module for the module to call. The actionPerformed listener function is a callback. This is in contrast to normal control flow, in which the client is doing all the calling: calling down into functions that the module provides. With a callback, the client is providing a piece of code for the implementer to call.
+
+The kind of callback used in the Listener pattern is not an answer to a one-time request like your account balance. It’s more like a regular service that the bank is promising to provide, using your callback number as needed to reach you. A better analogy for the Listener pattern is account fraud protection, where the bank calls you on the phone whenever a suspicious transaction occurs on your account.
+
+Oone of the challenges of using callbacks from within the implementation of an abstract data type. The implementer can’t control what the callback might do. The callback might call another operation of the same object, as happened here, forcing us to deal with reentrancy from within the same thread, which lock synchronization doesn’t prevent.
+
+Handing control to a callback function is similar to returning to a caller. An implementer has to be careful to put the rep in a clean state before calling any callbacks – in this case, meaning that no iterations over the rep are underway, but in general, also ensuring that the rep invariant is already satisfied. (see Counter)
+Reference: [Callbacks](http://web.mit.edu/6.031/www/fa18/classes/24-callbacks/#first-class_functions)
+
+
+------
+**MapReduce Abstraction** (Also *Treating Functions as First Class Values*)
+
+map/filter/reduce patterns in this reading do something similar to Iterator, but at an even higher level: they treat the entire sequence of elements as a unit, so that the programmer doesn’t have to name and work with the elements individually. the control statements disappear: specifically, the for statements, the if statements, and the return statements in the code
+
+Map/filter/reduce can often make code shorter and simpler, and allow the programmer to focus on the heart of the computation rather than on the details of loops, branches, and control flow.
+
+By arranging our program in terms of map, filter, and reduce, and in particular using immutable datatypes and pure functions (functions that do not mutate data) as much as possible, we’ve created more opportunities for safe concurrency. Maps and filters using pure functions over immutable datatypes are instantly parallelizable — invocations of the function on different elements of the sequence can be run in different threads, on different processors, even on different machines, and the result will still be the same.
+
+Java’s map/filter/reduce implementation supports this concurrency automatically. We can take any Stream and create a parallelized version of it by calling parallel():
+
+Stream<Path> paths = files.parallel().map(File::toPath);
+Or on a collection, we can call parallelStream().
+
+Subsequent map/filter/reduce operations on the parallel stream may be executed in separate threads created automatically by Java. So this simple change allows the file loading and word splitting to happen in parallel.
+
+MapReduce is a pattern for parallelizing very large computations in this way, that require a cluster of machines to compute.
