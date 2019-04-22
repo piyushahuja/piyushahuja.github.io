@@ -318,7 +318,7 @@ Enums should be separated out in their ownlass, unless they follow a recurrent p
 * Check rep invariants after every method. You should certainly call checkRep() to assert the rep invariant at the end of every operation that creates or mutates the rep – in other words, creators, producers, and mutators. Look back at the RatNum code above, and you’ll see that it calls checkRep() at the end of both constructors. Observer methods don’t normally need to call checkRep(), but it’s good defensive practice to do so anyway. Why? Calling checkRep() in every method, including observers, means you’ll be more likely to catch rep invariant violations caused by rep exposure.
 
 
-* Use final liberally. 
+* Use final liberally. Final gives you static checking for unreassignable references.
     * Classes should be designed for extension or forbidden to extend. One way to forbid extension is [declaring a class final](https://softwareengineering.stackexchange.com/questions/284156/declaring-a-class-final)
         * [When to declare classes final](https://ocramius.github.io/blog/when-to-declare-classes-final/)
     * It communicates intent to other coders and leads self-documenting code. 

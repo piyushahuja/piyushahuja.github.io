@@ -186,6 +186,7 @@ Stories
     - https://news.ycombinator.com/item?id=19239247
     - https://news.ycombinator.com/item?id=19321070
     - https://www.dblooman.com/aws/2016/11/10/Go-microservices-without-Docker....say-whaaaaaat.html
+    - https://news.ycombinator.com/item?id=19708997
 - [ ] **GraphQL** Development of a GraphQL service that serves these stats and other data over websockets.
 - [ ] **SQL**. Knowledge of relational databases. Have worked with SQL databases, writing custom queries and designing schemas  Experience with online data stores; offline data stores is a plus.
 - [ ] Stack: Java, Spring MVC, Elastic, PostgreSQL
