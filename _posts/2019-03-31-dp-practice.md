@@ -137,9 +137,12 @@ We can represent this in the DP table:
 
 ------
 
-**Fifth Approach** *A greedy combinatorial insight*
+**Fifth Approach** *A combinatorial insight based on trying various greedy choices*
+
 
 Observation: There exist an optimal solution that will have an activity with the earliest finishing time.
+
+
 Intuition: Choosing this activity leavus us the maximum room to bucket other activities in, with the least disturbance to other activities. 
 Not that this intuition isn't enough: you still need to prove it. For example: choosing the activity with least duration doesn't give us the right solution (counter example), and choosing the activity with least disurbance doesn't either.
 
