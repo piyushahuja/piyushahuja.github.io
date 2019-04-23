@@ -14,6 +14,68 @@ comments: false
 
 ----
 
+Make them say "yes. This is my guy".
+Composure is key. Speak slowly, mindfully. It’s better to answer fewer questions in more thorough detail
+Am I making sense?
+
+-----
+
+
+**Response to the code test.** 
+
+
+----
+
+**The map/reduce via Hadoop involves a lot of boilerplate, so you could take us through that as well.**
+
+
+----
+
+**The work they do Welcome Sanger?**
+
+- Absorb and extend our use of an on-prem cloud:the code is terraform / ansible. The use is quite focused (standing up & tearing down spark clusters) but as none of us are devops people, we need someone to shoulder that responsibility. 
+- Quota-management and budget-management tasks which need a mix of front-end and back-end work (the front-end is mainly for people like me, who cannot stay on top of the administration).
+
+----
+
+**What specifically about working at Sanger interests you?**
+
+- Devops is good for learning. 
+- Being around smart people
+
+
+
+**What I have?
+
+Experience with relational and non-relational databases
+----
+
+**How you’d like to develop?**
+
+
+- Oppoturtunities to learning  functional languages (Haskell/Erlang) and frotend frameworks like React?
+- Cloud technologies (e.g. Terraform, Ansible, Kubernetes, GitHub CI)
+- high performance computing environments (e.g. LSF or Slurm)
+- Principle software developer
+
+-----
+
+**Any questions you have?**
+
+* How can I get up to speed with before joining?
+    + Docker,  Unix/Shell Scripting, Ansible/Terraform, Apache Spark
+* What does your ideal candidate look like?
+* How do you typically unwind from work? What do you do in your spare time?
+    * Shows personal interest & allows the interviewer to talk about his/her favorite subject - oneself. Creates psychological association with something enjoyable (vacation, hobby etc.). Levels you together.
+* How did you get the position you’re at (what skills, achievements etc.)
+    * Prompts the interviewer to talk about him/herself, esp. one’s successes. Suggests interest in career at the company/industry & how the firm works on the “people” level. Seeds opportunity to compliment
+* How is the work life balance? 
+
+
+
+
+----
+
 **How to do Mock Interviews?**
 
 Write down a list of things that your interviewers should observe you on:
@@ -45,28 +107,28 @@ Do a quick  brainstorm on what you think a successful Google employee looks like
 
 Examples of Skills:
 
-- [x] Initiative
-- [x] Prioritizaton
+- Initiative
+- Prioritizaton
     - Manage individual project priorities, deadlines, and deliverables. 
     - focussed on delivering high quality output in a timely manner
-- [x] Passion for building great consumer products
-- [x] Team Work 
+- Passion for building great consumer products
+- Team Work 
     - Enjoy collaborating and making teammates better by teaching and mentoring.
     - Pair with teammates, review PRs, help others with technical questions & share your learnings.
     -  working collaboratively with various stakeholders within and outside the company 
     - Collaborate across teams and time zones to make things happen, review code and be open to feedback
-- [x] Communication: 
+- Communication: 
     - Capacity to articulate technical problems and projects to all teams
-- [x] Eagle eye for detail.
-- [x] Curiosity and Mental athleticism. 
+- Eagle eye for detail.
+- Curiosity and Mental athleticism. 
     - A wish to jump at the opportunity to dive into new technology and territory. 
     - You’ll be someone who enjoys working on challenges, solving problems and continuously learning
-- [x] Optimism, a glass-half-full take on things, enthusiasm
-- [x] Comfortable in a fast-paced environment with lots of moving pieces.
-- [x] Problem Solvng 
+- Optimism, a glass-half-full take on things, enthusiasm
+- Comfortable in a fast-paced environment with lots of moving pieces.
+- Problem Solvng 
     - You’ll love to problem solve (so probably had a Rubik’s cube at some point in your life) and are happy to constantly challenge to ensure we are continuously improving.
-- [x] Analytical, critical and abstract thinking. 
-- [x] Out-of-the-box thinking
+- Analytical, critical and abstract thinking. 
+- Out-of-the-box thinking
 
 ----
 
@@ -100,9 +162,18 @@ Stories
 - Hurricane Sandy
     - The most challenging work I faced was in my first job. I was fresh out of college, and I was tasked with finding the impact of Hurricane Sandy on the US bond market. This was a non-trivial task, requiring both creativity, some hypothesis-making, AS well as technical skills to clean, analyse and train models on large swaths of data. Since I was fresh out of college, I had little experience of the ambiguity and practical challenges of working on a real project. This gave me a first taste of it, I learnt a lot, and by the end of it, I was able to produce a report which was quite respectable. It as even published. 
 - Jugnoo Onboarding
-- Jugnoo Checkout
+- Jugnoo Checkout. Slider forced the user into a more delberative mode of acton
+- People:  QC Women Quizmasters
 - FB Account Kit in Login/Signup revamp caused the referrals to drop from 18% to 10%
 - Aurora German work
+- 
+- Challenge: Jugnoo Hit the ground running (I was afraid to say  I don't know, and I found it difficult to gain the respect. Learning: it si okay to just listn and learn. respect doesnt come from being a know it all, but from authenticity and giving respect)
+- Urvashi (empathy was the key)
+- Management of priorities Conflict with Samar over AskLocal vision (Learning: communication was the key; only then I realized He would forget what he told me. )
+- Let go of someone (you have to give adequate warning, you have to give reasons which are acceptable to the person, and you have to be compassionate and empathetic yet tough)
+
+Stuff that did not work:
+Enrollment and Training of New Drivers (Trust)
 - Explaining stuff to Harshal Sanghvi
 - NUS Work
 - Urvashi and Nitika: The rival Was
@@ -198,27 +269,32 @@ Stories
 
 **Cover Letter**
 
+
 Dear Team,
 
-I am an Oxford and IIT Delhi grad, interested in software engineering roles at your company, as mentioned in your [hacker news post](https://news.ycombinator.com/). 
+I am an Oxford and IIT Delhi grad, interested in software engineering roles at your company, as mentioned in your [hacker news post](https://news.ycombinator.com/.)
+ 
+Since last year, I’ve been the tech lead of a startup I founded.  Our backend is based on JSON-based RESTful APIs, and utilizes the following stack:  Express, Node.js, Mongodb, AWS. From a previous job at Opera Solutions (which was my first job out of college), I have experience of working on data delivery and storage pipelines for a big data analytics. I am proficient in Java, Javascript frameworks (Node.js, Mocha, Chai, Sinon), RESTful API design, data modelling, using version controls systems like Git, and implementing authentificiaton frameworks (including Oauth and Oauth 2.0)
 
-Since last year, I’ve been the tech lead of a startup I founded. Our tech stack is based on the following technologies: Android, Express, Node.js, Mongodb, AWS, and the product is currently live on Google playstore.  Before that, I was a product manager of a consumer-facing on-demand services app used by about 3 million users across 28 cities in India. I am proficient in Java, strong in CS fundamentals, and believe in delivering well-tested, well-documented software which is maintain and extend to unanticipated use cases.
+In between those two stints, I have been product manager of a consumer-facing on-demand services app used by about 3 million users across 28 cities in India. As a product manager, I led a team of 15, made product roadmaps, conducted user research and wrote detailed user journeys for the developers to implement. Before that, I read PPE at Oxford. Both these experiences instilled in me good interpersonal and communication skills which I have found to be very valuable in my career.
 
-I am currently based in India, seeking new opportunities, and I'd be happy to relocate. I’d love to chat about whether my background might be a good fit.
+I am currently based in India, seeking new opportunities, and looking to relocate.  
 
 Summary: 
 
-- Graduated from IIT Delhi with a five-year integrated masters (bachelors + masters) in computer science  in 2013
-- Graduated from Oxford in PPE (Philosophy, Politics and Economics) as a second undergrad degree in 2016
-- Worked as a product manager in a consumer-facing tech startup for one year (2016-17)
-- Founded a startup and led a team of four to ship the flagship product, currently live on Google Playstore  (2017-18)
+* Graduated from IIT Delhi with a five-year integrated masters (bachelors + masters) in computer science  in 2013
+* Worked at a big data analytics company as an an analytics specialist (13-14) 
+* Graduated from Oxford in PPE (Philosophy, Politics and Economics) as a second undergrad degree in 2016 Worked as a product manager in a consumer-facing tech startup (16-17)
+* Founded a startup and led a team of four to ship the flagship product, currently live on Google Playstore  (2017- present)
 
-Please find attached my CV. More details at my website: http://piyushahuja.github.io.
+Please find attached my CV.  I also maintain a professional website, where you could find more details about my background: http://piyushahuja.github.io. 
 
-Looking forward to hearing from you!
+Looking forward to hearing from you! 
 
-Regards,
+Regards,   
 Piyush 
+
+
 
 
 ------
@@ -243,11 +319,11 @@ Piyush
 
 **Why did you go for PPE?**
 
-I graduated from University of Oxford, where I read for a second bachelors in Philosophy, Politics and Economics. Previously, I was an undergraduate at IIT Delhi, from where I pursued an Integrated Masters in Mathematics for five years.  So I’ve had these two incredibly diverse educational experience, quite different, actually - not just in form and content. While IIT Delhi was heavy on science and engineering, my course at Oxford was centred around social science and humanities. IIT Delhi was mathematical problem solving and programming,  Oxford was argumentation, communication and essay writing.  And as a result I’ve become very well rounded, both academically and professionally. 
-
-Interested with my university education, I have had three brief stints in the corporate world: in data-driven projects in consulting (analytic) companies. Five years ago I spent a summer with Deloitte. I worked full time with Opera Solutions, which was a product based big data analytics provider. I worked as an analytics specialist  in their global markets division. More recently, I spent a summer with Aurora Energy research, which was consulting company focused on the energy sector. At the time i joined them, they were expanding to Germany, and I helped them prepare a report on the future of german renewable energy prices for their launch presentation with top German energy leaders.
-
-Deep down I am a very curious and inquisitive with a passion for learning. As I move further in my career,  I am looking for companies where such values are respected and nurtured,  and so here I am :)
+* I wanted a more well rounded educaton. I went for a two years degree in humanities. Oxford was one of the few places where you could get that in two years, and it is also one of the best, I went there to read for a second undergrad degree 
+    * A diverse background in also gives me ability to approach a problem from different perspectives and assimilate knowledge from different fields.
+    *  **"The ability to quickly pick stuff up or learn new things"**.
+        * For example, reading under the rigors of the tutorial system at Oxford has helped me develop time management skills and an ability to get work done under pressure. In software there are always new frameworks coming up, or you have to understand the API documentation quickly and quickly integrate it. 
+   
 
 
 --------
@@ -295,14 +371,14 @@ Speed is the foundation of Ayden. We think, work and ship fast.
 
 **Why should we select you?** (Tell, not suggest)
 
-
-- Having seen both sides, I have a focus on customer experience
+ 
 - To put it simply, I get work done. 
+    - I have worked in any environment where this ability was
     - At Jugnoo, we had weekly sprints, my team delivered one impactful feature every week.  
+    - At Oxford, I had two submit two essays week-in-week out.
+    - I believe in writing software which is easy to read, test,  maintain or extend. But I also understand well trade-offs between perfection and time. Often you have to just delivery. Often its not about your code being perfect, but about iterative fast on product features. 
 
--  I believe in writing software which is easy to read, test,  maintain or extend. But I also understand well trade-offs between perfection and time. Often you have to just delivery. Often its not about your code being perfect, but about iterative fast on product features. 
-
-- At Oxford, I had two submit two essays week-in-week out.
+-  I can see both perspectives: product managers and developers, I have a focus on customer experience
 
 
 ----
@@ -315,15 +391,13 @@ Strengths
 * I am good at thinking in abstract terms - mathematics and philosophy. 
 
 
-
-
 -----
 
 
 **What motivates you?** **What are you passionate about?**
 
-- I am passionate about learning new things. This is what drove me to major in major in both and engineering. I did PPE at Oxford and CS in IIT Delhi, and this is what drove me to software engineering. There is so much to learn! I feel the experience of learning something fresh is what keeps you alive and kicking. Otherwise the world is a little boring. 
-- The pursuit of excellence in what I do. I believe in doing a job well, in coming to work every day, and thinking how can I contribute 
+- I am passionate about learning new things. 
+    - This is what drove me to major in major in both and engineering. I did PPE at Oxford and CS in IIT Delhi, and this is what drove me to software engineering. There is so much to learn! I feel the experience of learning something fresh is what keeps you alive and kicking. Otherwise the world is a little boring.  
 - Simplifying complex things
 
 
