@@ -12,64 +12,84 @@ comments: false
 
 [Best advice on interviewing](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
 
-----
-
-Make them say "yes. This is my guy".
-Composure is key. Speak slowly, mindfully. It’s better to answer fewer questions in more thorough detail
-Am I making sense?
-
 -----
 
 
-**Response to the code test.** 
+**Response to the code test. Architectural decisions made** 
+
+- Scope for improvement: do parallel async queries when loading maps as they are independent
+- Modular: The function which parses each line, sent to processor can be  changed, though if something other than map has to be returned we would need to change processFile a bit.
+
+
 
 
 ----
 
 **The map/reduce via Hadoop involves a lot of boilerplate, so you could take us through that as well.**
 
+MapReduce has special datatypes for serialization, because data needs to travel across the network from the Mapper node to the Reducer node ( converting object data into byte stream data for transmission over a network across different nodes in a cluster or for persistent data storage.)
+
+Hadoop data types used in Mapreduce for key or value fields must satisfy two constraints.
+
+LongWritable: Default is TextInputFormat which gives byte offset of the line as the key, as in your case. byte offset of the key
+
+Reporter: reports job progress for mappers and reporters. Important for the orchestraton framework handling it, as it might otherwise assume time out and kill a job.
+
+
+
+- Any data type used for a Value field in mapper or reducer input/output must implement Writable Interface.
+- Any data type used for a Key field in mapper or reducer input/output must implement WritableComparable interface along with Writable interface to compare the keys of this type with each other for sorting purposes.
+
+What is Map Reduce?
+
+> Within a computer program, it is a design pattern for implementing functions that operate on sequences of elements, which uses the powerful idea of treating functions as first-class values that we can pass around and manipulate in our programs.
+
+> In a distributed system context, it is a programming model for executing batch jobs with parallel, distributed, algorithm on a cluster (e.g. processing and generating big data sets)
+
+> As an open source implementation (e.g. Hadoop), it is a system that orchestrates the processing of data by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance.
+
+> The use of this model is beneficial only when the optimized distributed shuffle operation (which reduces network communication cost) and fault tolerance features of the MapReduce framework come into play. Optimizing the communication cost is essential to a good MapReduce algorithm. The scalability and fault-tolerance achieved for a variety of applications by optimizing the execution engine.
 
 ----
 
 **The work they do Welcome Sanger?**
 
-- Absorb and extend our use of an on-prem cloud:the code is terraform / ansible. The use is quite focused (standing up & tearing down spark clusters) but as none of us are devops people, we need someone to shoulder that responsibility. 
-- Quota-management and budget-management tasks which need a mix of front-end and back-end work (the front-end is mainly for people like me, who cannot stay on top of the administration).
+> Absorb and extend our use of an on-prem cloud:the code is terraform / ansible. The use is quite focused (standing up & tearing down spark clusters) but as none of us are devops people, we need someone to shoulder that responsibility. 
+> Quota-management and budget-management tasks which need a mix of front-end and back-end work (the front-end is mainly for people like me, who cannot stay on top of the administration).
 
 ----
 
 **What specifically about working at Sanger interests you?**
 
-- Devops is good for learning. 
-- Being around smart people
+- It's a great opportunity to learn latest cloud cloud tech at one of the best resourced places that utilized. Hoping to learn some biology as well! It's not just legacy software: Ansible! Terraform! Docker!
+- Being around smart people, campus like environment
 
 
 
-**What I have?
+**My experience?**
 
-Experience with relational and non-relational databases
+- Experience with relational and non-relational databases
+- Data Storage and Delivery pipelines in Opera 6 years ago.
+- JSON based REST APIs
+
+
 ----
 
 **How you’d like to develop?**
 
-
-- Oppoturtunities to learning  functional languages (Haskell/Erlang) and frotend frameworks like React?
 - Cloud technologies (e.g. Terraform, Ansible, Kubernetes, GitHub CI)
-- high performance computing environments (e.g. LSF or Slurm)
+- Oppoturtunities to learning functional languages (Haskell/Erlang) and frotend frameworks like React.
 - Principle software developer
 
+> Linux Workload management tools (e.g. LSF or Slurm)
 -----
 
 **Any questions you have?**
 
 * How can I get up to speed with before joining?
     + Docker,  Unix/Shell Scripting, Ansible/Terraform, Apache Spark
-* What does your ideal candidate look like?
-* How do you typically unwind from work? What do you do in your spare time?
-    * Shows personal interest & allows the interviewer to talk about his/her favorite subject - oneself. Creates psychological association with something enjoyable (vacation, hobby etc.). Levels you together.
-* How did you get the position you’re at (what skills, achievements etc.)
+* What's the best part of your job?
     * Prompts the interviewer to talk about him/herself, esp. one’s successes. Suggests interest in career at the company/industry & how the firm works on the “people” level. Seeds opportunity to compliment
-* How is the work life balance? 
 
 
 
@@ -327,6 +347,11 @@ Piyush
 
 
 --------
+**Where did you hear about us?**
+
+- Hacker news post by Imran Ghori
+- Then I read the medium post BY Anil and connected with Suleyman
+- 
 
 **What are you looking for?**
 
@@ -411,6 +436,7 @@ Strengths
 ----
 
 **What are your weaknesses**
+
 
 -----
 

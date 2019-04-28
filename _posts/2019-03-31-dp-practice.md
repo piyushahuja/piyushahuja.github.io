@@ -11,8 +11,11 @@ comments: false
 
 ---
 
+Tips: For an algorithm that just needs min or max value to work at eachs step, and node the whole sorted order, one can reduce time complexity from O(nlogn) to (O(n)) by working with the kth smallest (or largest) element instead of min or max. Here k should be a linear function of n. For example, k can be the median (k = n/2). Median can be found in O(n) times
 
+It is frequently the case that preprocessing the data or using a priority queue, one can make the greedy choice quickly (O(1)), making the algorithm efficient. 
 
+------
 
 >  Given a set of activities A with start and end times, find a maximum subset of mutually compatible activities.
 
@@ -36,8 +39,9 @@ Time to solve each subproblem : \\( O(n) \\)
 
 
 Strategy: Solve an easier problem (aka subproblem).      
-Why? Maybe the problem has an optimal substructure: an optimal solution cae constructed from optimal solutions to its subproblems.     
+Why? Maybe the problem has an optimal substructure: an optimal solution cae constructed from optimal solutions to its subproblems. 
 Which easier problem should we try? Let's try decrease-by-one and conquer.
+Given an optimal substucture, if we knew which \\(a_k \\) to choose, we could construct an optimal solution by selecting  \\(a_k \\) alongwitht he all actvities in optimal soluton to subproblems. 
 
 
 * Assume a particular activity \\(a_k \\) is part of the optimal solution
@@ -131,27 +135,43 @@ From the recursion,
 
 Not all indices \\( k \\)  between \\( i \\)  and \\( j \\)  correspond to such activities: some of them might start before \\( i \\)  finish, or finish after \\( j \\)  starts, but we can be certain that hose which do satisfy the constraint are a subset of those whosee indices lie. So all we need to do is loop over these values and check. 
 
-We can represent this in the DP table:
+We can represent this in the DP table.
 
 
+Running Time: O(n^3)
+
+Note: We can easily motify this approach to solve the generalization "max total value of activities selected where each activity has a value". This special case has each activity valued equally (or equal to 1.)
 
 ------
 
 **Fifth Approach** *A combinatorial insight based on trying various greedy choices*
 
 
-Observation: There exist an optimal solution that will have an activity with the earliest finishing time.
+Observation: There exist an optimal solution that will have an activity with the earliest finishing time. So this simplifies our choice: Instead of assuming the choice, seeing which subproblems result, finding ther opt, and then making the choice by comparing their results, we can make the choice first. 
+
+The optimal substructure varies in how many subproblems we have and how many choices we have in determining which subproblems which subprobems to use. With the insight that greedy choice would work, we could just make that choice! This reducces our subproblems to use from 2 to just 1, and the choice from j-i-1  to just 1 as well.  
+
+In the dp approach, we needed to solve the subproblems to help us make the choice. So we proceeded in a bottom up manner. But once we get the greedy insight, we need not solve the subproblem before making the choice. 
 
 
 Intuition: Choosing this activity leavus us the maximum room to bucket other activities in, with the least disturbance to other activities. 
 Not that this intuition isn't enough: you still need to prove it. For example: choosing the activity with least duration doesn't give us the right solution (counter example), and choosing the activity with least disurbance doesn't either.
 
-Not that any optimal solutions is not guaranteed to contain this activity: which means it is useless to search for an intuition for why "it is true that optimal solution contains the activity with ear*lies finishing time", because that statement is false. 
+Not that *any* optimal solutions is not guaranteed to contain this activity: which means it is useless to search for an intuition for why "it is true that optimal solution contains the activity with ear*lies finishing time", because that statement is false. 
 
+Running Time: O(n)
 
+----
 
 **Sixth Approach** *Inspired by LIS*
 
+Which easier problem? The maximum number of compatible activities from start to a particular activity which includes the particular activity.
+Once we know the solutions to these, we can choose the maximum over all such subproblems. Running Time: O(n^2)
+
+
+-------
+
+0 - 1 Knapsack
 
 
 
@@ -159,6 +179,23 @@ Not that any optimal solutions is not guaranteed to contain this activity: which
 ----
 
 # Coin Change
+
+Strategy: Solve an easier problem (aka subproblem).      
+Why? Maybe the problem has an optimal substructure: an optimal solution cae constructed from optimal solutions to its subproblems. 
+
+
+**Which easier problem should we try?**
+
+There can be multiple ways to answer this, and sometimes more than one approaches might be correct.
+
+For example, in Coin change, we can frame our choice or decision as either of these:
+
+* For a particular coin, choose whether this is part of optimal or not. This gives us two choices and two subproblems
+* Which coin should we choose as the last one? We have n choices, and n subproblems. 
+* How many of the first coin should we have? 
+
+
+
 
 
 
