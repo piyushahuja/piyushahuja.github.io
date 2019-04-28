@@ -644,12 +644,15 @@ Tree Traversals
 
 **Visitor Pattern** (Also *Treating Functions as First Class Values*)
 [Understanding the need for Visitor Pattern](https://softwareengineering.stackexchange.com/questions/333692/understanding-the-need-of-visitor-pattern)
+[Visitor class as input to DFS, BFS ](https://stackoverflow.com/questions/40810454/how-to-implement-graph-search-dfs-with-object-oriented-design/40810666#40810666)
 
 The Interpreter pattern makes it easier to add new variants, because we don’t have to change any of our existing code: we just need to implement all the various operations as methods in the new variant class.
 
 The Visitor pattern makes it easier to add new operations. Instead of having to modify both the interface and every variant class, we just need to create a new, e.g., Formula.Visitor implementation with all the code for our new operation. There is no change to existing classes or interfaces
 
 We will also use the Visitor pattern when we intend clients of our type to know and understand its underlying structure and implement their own operations — and we’ve already seen a common and important use case for this: parse trees!
+
+>  If a Visitor pattern emerges it's probably because I've refactored out duplication, not because I thought ahead of time about the similarities of rendering a tree versus adding up its values.
 
 ----
 
@@ -678,7 +681,7 @@ Paul Graham says design patterns are about deficencies in a language. If you're 
 ----
 **Listener Pattern or Pub-Sub** (Also *Inversion of Control*)
 
-
+- [MIT on Listener](http://courses.csail.mit.edu/iap/interview/Hacking_a_Google_Interview_Handout_3.pdf)
 
 The problem:
 
