@@ -214,6 +214,9 @@ FrenchPlayingCard implements Suitable<Card>, Rankable<Card>{
 Concretions and abstractions should never depend on other concretions, but on abstractions. This principle directly enforces the tenet of loose coupling. An object should never have to know what an object IS; it should instead care what an object DOES. So, the use of interfaces and/or abstract base classes is always to be preferred over the use of concrete implementations when defining properties and parameters of an object or method. That allows you to swap one implementation for another without having to change the usage (if you also follow LSP, which goes hand in hand with DIP).
 Again, this is huge for testability, as it allows you, once again, to inject a mock implementation of a dependency instead of a "production" implementation into your object being tested, while still testing the object in the exact form it will have while in production. This is key to unit testing "in isolation".
 
+You can test User with a simple mock implementation of doSomething later and verify the correctness of your code
+The dependencies of a user are explicit and not implicit, which makes it obvious what a user needs.
+
 
 Prefer interface to implementations: if we want to change implementations later, it won’t break the functionality.
 
