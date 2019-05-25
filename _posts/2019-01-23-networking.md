@@ -9,6 +9,7 @@ excerpt:
 permalink: /networking
 
 ---
+https://vlsicad.ucsd.edu/Research/Advice/network.html
 [Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
 https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1
 http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0
