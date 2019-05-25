@@ -12,7 +12,7 @@ comments: false
 
 **My Family**
 
-An amazingly liberal family who’ve supported me financially, even though they themselves grew up in circumstances of unprivilege and hardship. Even when very young,  my father used to help his family make ends meet by sell ice creams and paper bags in  village Gurgaon. My mother used to balance house work, working as a science teacher (Grades 6th-10th) in Bhurthala Mander and her own MA in Economics from Maler Kotla college. My parents both worked ensure me and my sister up  receive a stellar education, good health and nutrition and a household where ideas and debates flourish. 
+An amazingly liberal family who’ve supported me financially, even though they themselves grew up in circumstances of unprivilege and hardship. Even when very young,  my father used to help his family make ends meet by ing ice creams and paper bags in what was then the village Gurgaon. My mother used to balance house work: working as a science teacher (Grades 6th-10th) during the day (Bhurthala Mander) and attending evening classes towawrds an MA in Economics from Maler Kotla college. My parents both worked extremely hard ensure me and my sister up  receive a stellar education, good health and nutrition and a household where ideas and debates flourish. 
 
 **My sister**
 
