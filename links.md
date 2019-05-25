@@ -8,8 +8,8 @@ section: Home
 <div class="section" markdown="1">
 
 
-[Nowness](http://www.nowness.com/)
-| [Futility Closet](http://www.futilitycloset.com/)
+- [Nowness](http://www.nowness.com/)
+- [Futility Closet](http://www.futilitycloset.com/)
 | [Letters of Note](http://www.lettersofnote.com/)
 | [Zen Pencils](http://zenpencils.com/)
 | [Critical Theory](http://www.critical-theory.com/)
