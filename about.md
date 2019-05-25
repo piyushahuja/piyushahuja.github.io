@@ -1,7 +1,7 @@
 ---
 layout: page-home
 title: About Me - Piyush Ahuja
-permalink: /
+permalink: /about
 section: Home
 ---
 
