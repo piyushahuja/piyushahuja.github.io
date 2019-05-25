@@ -20,14 +20,13 @@ A mature, sensible sister who was sort of a visionary without knowing it. She pl
 
 **My Friends**
 
-Friends with strong bonds of trust and emotional support. (Gagandeep, Prachi).   Some of my best friends would describe me as their best friend.
-A wide network of talented, trusted individuals with high E.Q. from Oxford and IIT. 
+Friends with strong bonds of trust and emotional support (Gagandeep, Prachi). Some of my best friends would describe me as their best friend. A wide network of talented, trusted individuals with high E.Q. from Oxford and IIT. 
 
-**An Education**
+**My Education**
 
-A stellar education, which included Convent and Sanskrit schooling, and traditional mathematics and computer science, humanities and social science, an an exposure to different cultures, extensive travel, sports, politics, economics and art (movies, music, writing)
+A stellar education, which included convent and sanskrit schooling, the sciences and the humanities, and an exposure to different cultures, extensive travel, competitive and recreational sports, the art of politics and an exposure to art in various media (movies, books, music, theatre).
 
 **My Country**
 
-An Indian upbringing: at the crossroads of east and west, between individualism and communitarianism, between religious and scientific, multilingual, between hardship and convenience, between the rich and the poor, between upper class and lower class. 
+An Indian upbringing: at the crossroads of east and west, with a healthy mix of individualism and communitarianism,  of religious and scientific ideeas, of traditional and modern values, of hardship and luxury. 
 
