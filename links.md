@@ -1,6 +1,6 @@
 ---
 layout: page-home
-title: Links
+title: Stuff I am reading
 permalink: /
 section: Home
 ---
