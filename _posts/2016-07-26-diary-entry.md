@@ -13,7 +13,7 @@ comments: false
 
 
 
-> “We are well advised to keep on nodding terms with the people we used to be, whether we find them attractive company or not.” - Joan Didion]
+> “We are well advised to keep on nodding terms with the people we used to be, whether we find them attractive company or not.” - Joan Didion
 
 I haven’t written a diary entry in five years. During this time, I have written essays. I have written long form semi-autobiographical fiction. I have written notes and to-do lists and Facebook statuses and daily updates. I have even penned down bucket lists, long term goals and life ambitions, and listicles of favourite movies, books, food and people. But not a single diary entry. 
 
