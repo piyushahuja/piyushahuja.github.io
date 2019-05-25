@@ -1,7 +1,7 @@
 ---
 layout: page-home
 title: Links
-permalink: /links/
+permalink: /
 section: Home
 ---
 
