@@ -28,4 +28,4 @@ A stellar education, which included convent and sanskrit schooling, the sciences
 
 **My Country**
 
-An Indian upbringing: at the crossroads of east and west, with a healthy mix of individualism and communitarianism,  of religious and scientific ideeas, of traditional and modern values, of hardship and luxury. As I have grown up, almost all the people I have known hav become better off - materially and in terms of opportunities. This is remarkable.  We take democratic freedom and economic progress for granted - but they are not a given, and the collective of social and economic coorperation that is India has made them possible.  
+An Indian upbringing: at the crossroads of east and west, with a healthy mix of individualism and communitarianism,  of religious and scientific ideas, of traditional and modern values, of hardship and luxury. As I have grown up, almost all the people I have known have become better off - materially and in terms of opportunities. This is remarkable.  We take democratic freedom and economic progress for granted - but they are not a given, and the collective of social and economic coorperation that is India has made them possible.  
