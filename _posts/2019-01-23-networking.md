@@ -69,15 +69,15 @@ My Tribe:
 
 -------
 
-* As you prepare your pitch, clarify your purpose and strategy by making sure you can answer these three questions:
+* What is going to motivate anyone to do something for others? For money? For vanity? For altruism? If you can’t answer that question regarding whoever you are trying to target or sell to, then you haven’t done your homework. The least you can do is to do some digging and come up with a decent pitch. So instead of can you do this and that for me, you really should be putting a bit effort, tell a compelling story when you have nothing material to offer. offer something of value before you ask for anything. sales isn't about selling a product. It is about creating value-generating relationships that enrich the lives and businesses of both parties.  As you prepare your pitch, clarify your purpose and strategy by making sure you can answer these three questions:
     After someone hears your pitch...
     * What do you want them to *know*?
     * What do you want them to *feel*?
     * What do you want them to *do*?
 
     If you’ve got strong answers to these three questions, the pitch will come together more easily. I apply same to my verbal and written communication now (be it emails, a proposal, website copy, client conversation, webinar etc etc). - Am I clearly making my audience know, feel and do what I want them to? If not, I refine it. I practice it until it is serving the purpose I want it to.
-    
-    What is going to motivate anyone to do something for others? For money? For vanity? For altruism? If you can’t answer that question regarding whoever you are trying to target or sell to, then you haven’t done your homework. The least you can do is to do some digging and come up with a decent pitch. So instead of can you do this and that for me, you really should be putting a bit effort, tell a compelling story when you have nothing material to offer. offer something of value before you ask for anything. sales isn't about selling a product. It is about creating value-generating relationships that enrich the lives and businesses of both parties. 
+
+
 
 * Examples-
     * *Reminding a prospect who hasn’t enrolled yet*
