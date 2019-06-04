@@ -40,7 +40,7 @@ Your true educators and cultivators will reveal to you the original sense and ba
 
 * When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
 
-* Deal with Toxic influences. If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. (Mandvi e.g.)
+* **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. (Dad, Mandvi)
 
 Most people thrive when they are part of a good tribe – a place they can go to contribute and receive help when needed, a place of mutual enjoyment, mutual respect, and mutual purpose.  Just try to find some people you enjoy, whether it’s one other person, or a new group. And then find ways to spend more time with people who energize you, and less time with people who drag you down. And if you’re drawn to a tribal utopia, like the fantasy version of tribal life described in the beginning of this essay, use that as an ideal that you nudge your social life toward a little at a time.
 
