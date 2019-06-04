@@ -36,7 +36,8 @@ Your true educators and cultivators will reveal to you the original sense and ba
     * To research and find commonalities
     * Find out ways you can help them
 
-Get a Coach (different from Mentor). https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D
+Get a Coach (different from Mentor)
+- https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D
     * The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
 
 Have an idealist on your team.  An upbeat, positive, communicative person who always focuses on the bright spot and the light at the end of the tunnel helps. It’s not about having fake rose-tinted glasses, but an open, curious and optimistic attitude. Always look for the small wins and successes and acknowledge them, keep the spirit of encouragement going.
