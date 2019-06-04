@@ -9,7 +9,6 @@ excerpt:
 permalink: /networking
 
 ---
-Success is all about people, communicating your value
 
 - https://vlsicad.ucsd.edu/Research/Advice/network.html
 
@@ -31,12 +30,12 @@ Cultivate Your Tribe
 
 Your true educators and cultivators will reveal to you the original sense and basic stuff of your being, something that is not ultimately amenable to education or cultivation by anyone else, but that is always difficult to access, something bound and immobilized; your educators cannot go beyond being your liberators. (For me, these have been my true educators:  Prachi, RBN, Isabel Ruiz, Florian, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am, Lekha Ma'am )
 
-* How to get mentors:
+* **How to get mentors**:
     * Make yourself not-a-stranger
     * To research and find commonalities
     * Find out ways you can help them
 
-Get a Coach (different from Mentor)
+* Get a Coach (different from Mentor)
 - [Link](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D)
     * The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
 
