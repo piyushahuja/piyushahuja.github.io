@@ -111,8 +111,7 @@ My Tribe:
 
 - What is going to motivate anyone to do something for others? For money? For vanity? For altruism? If you can’t answer that question regarding whoever you are trying to target or sell to, then you haven’t done your homework. The least you can do is to do some digging and come up with a decent pitch. So instead of can you do this and that for me, you really should be putting a bit effort, tell a compelling story when you have nothing material to offer. offer something of value before you ask for anything. sales isn't about selling a product. It is about creating value-generating relationships that enrich the lives and businesses of both parties. 
 
-- To Sell is Human by Dan Pink. In the Chapter on Pitch (which is worth more than the weight of it in gold), he talks about different kind of pitches and then says, 
-- 
+
 ---
 
 
