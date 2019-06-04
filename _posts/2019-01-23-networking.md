@@ -43,10 +43,7 @@ Your true educators and cultivators will reveal to you the original sense and ba
 
 * When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
 
-* **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. (Dad, Mandvi)
-
-
-
+* **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. 
 
 My Tribe:  
 
@@ -60,7 +57,7 @@ My Tribe:
 - IITB People: Khandu, Nadu, Sachin
 - Mentors: Florian, Alistair Beecher
 
-PGM, Prachi,  Duja,  Dhruv
+PGM, Prachi,  Duja,  Dhruv, Dad, Mandvi
 
 
 Now you have to STRIVE. There is no good in just sitting around pretending everything is good. So start figuring out what you like and where others who like what you like might hang out. The world is filled with lonely people searching for others like themselves. They think they are too weird or awkward or their desires are too disgusting or revolting for anyone to be like them or like them. Guess what? They are wrong. No matter what you think of yourself or your habits there are legions of people just like you, who would like you, who want to be your friend. All you have to do is find each other. I'm not saying its easy but nothing good happens by itself -- you have to make it happen. No matter what you like, make a goal, write it on paper -- then go do the work to make it happen. It won't happen over night. But it WILL happen. It's the nature of humanity. We are social and seek others to be with and we will move heaven and earth to find that person who is like us and who will like us. And once it starts it starts a chain reaction of finding more and more until you have a group of like minded people. Don't know where to start? Look at the group Meetup.org. They have branches in most cities and have literally 1000s of areas of interest. No Meetup near you? Look at the Adult Education classes in your community -- their focus is social, learning how to knit or cook or make birdhouses is secondary. Find something you like or  MIGHT like and then find an organization that does it. Friendships will then form - IF YOU LET THEM.
