@@ -67,16 +67,16 @@ My Tribe:
 - Mentors: Florian, Alistair Beecher
 - PGM, Prachi,  Duja,  Dhruv, Dad, Mandvi
 
-
-
 -------
 
-* As you prepare your pitch, whichever variety you choose, clarify your purpose and strategy by making sure you can answer these three questions:
+* As you prepare your pitch, clarify your purpose and strategy by making sure you can answer these three questions:
     After someone hears your pitch...
     * What do you want them to *know*?
     * What do you want them to *feel*?
     * What do you want them to *do*?
-* If you’ve got strong answers to these three questions, the pitch will come together more easily. I apply same to my verbal and written communication now (be it emails, a proposal, website copy, client conversation, webinar etc etc). - Am I clearly making my audience know, feel and do what I want them to? If not, I refine it. I practice it until it is serving the purpose I want it to.
+
+    If you’ve got strong answers to these three questions, the pitch will come together more easily. I apply same to my verbal and written communication now (be it emails, a proposal, website copy, client conversation, webinar etc etc). - Am I clearly making my audience know, feel and do what I want them to? If not, I refine it. I practice it until it is serving the purpose I want it to.
+    
 * Examples-
     * *Reminding a prospect who hasn’t enrolled yet*-
         Earlier- “Please let me know if you are enrolling”
