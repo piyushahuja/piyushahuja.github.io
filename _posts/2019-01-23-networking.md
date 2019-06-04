@@ -26,7 +26,7 @@ permalink: /networking
 
 ---
 
-Cultivate Your Tribe
+**Cultivate Your Tribe**
 
 Your true educators and cultivators will reveal to you the original sense and basic stuff of your being, something that is not ultimately amenable to education or cultivation by anyone else, but that is always difficult to access, something bound and immobilized; your educators cannot go beyond being your liberators. (For me, these have been my true educators:  Prachi, RBN, Isabel Ruiz, Florian, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am, Lekha Ma'am )
 
