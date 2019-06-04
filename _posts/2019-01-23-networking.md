@@ -30,18 +30,17 @@ permalink: /networking
 
 Your true educators and cultivators will reveal to you the original sense and basic stuff of your being, something that is not ultimately amenable to education or cultivation by anyone else, but that is always difficult to access, something bound and immobilized; your educators cannot go beyond being your liberators. (For me, these have been my true educators:  Prachi, RBN, Isabel Ruiz, Florian, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am, Lekha Ma'am )
 
-* **How to get mentors**:
+* **Get mentors**:
     * Make yourself not-a-stranger
     * To research and find commonalities
     * Find out ways you can help them
 
-* Get a Coach (different from Mentor)
-- [Link](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D)
+* **Get a Coach (different from Mentor)** [Example](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D)
     * The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
 
-When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
+* When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
 
-Deal with Toxic influences. If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. (Mandvi e.g.)
+* Deal with Toxic influences. If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. (Mandvi e.g.)
 
 Most people thrive when they are part of a good tribe – a place they can go to contribute and receive help when needed, a place of mutual enjoyment, mutual respect, and mutual purpose.  Just try to find some people you enjoy, whether it’s one other person, or a new group. And then find ways to spend more time with people who energize you, and less time with people who drag you down. And if you’re drawn to a tribal utopia, like the fantasy version of tribal life described in the beginning of this essay, use that as an ideal that you nudge your social life toward a little at a time.
 
