@@ -78,22 +78,26 @@ My Tribe:
     If you’ve got strong answers to these three questions, the pitch will come together more easily. I apply same to my verbal and written communication now (be it emails, a proposal, website copy, client conversation, webinar etc etc). - Am I clearly making my audience know, feel and do what I want them to? If not, I refine it. I practice it until it is serving the purpose I want it to.
 
 * Examples-
-    * *Reminding a prospect who hasn’t enrolled yet*-
+    * *Reminding a prospect who hasn’t enrolled yet*
+
         Earlier- “Please let me know if you are enrolling”
         
         Better yet- “I hope you have all the information you need about our services. If you have any concerns, you can reach out to me personally. Since we work with limited clients and seats are filling fast (and I don’t want you to miss any deadlines), please inform me if you want me to hold a seat for you.”
 
-    * *Writing an informational article*-
+    * *Writing an informational article*
+    
         Earlier- “What I think of XYZ issue”
 
         Now- “XYZ issue is _____ (facts). It is impacting ___ in this way (what it means for the reader). I think of it as a ______ (opinion). It is becoming more critical as we do not ____. If we want to change our ___, we need to act upon _____ (call to act).”
 
-    * *Asking for a favor* **[This is combining Dan Pink’s wisdom with Dale Carnegie’s wisdom -
+    * *Asking for a favor* 
+        
         Earlier- “I am ____ and I want ____.”
 
         Now- “I read your __ and found ___ pertinent to blah blah. I am a ____ and can help you improve_____ by ____. If this interests you, I would love to work together as _____. Can we get on a call this week anytime between 1-3pm to discuss this?”
 
-    * *Rejecting something*-
+    * *Rejecting something*
+    
         Earlier- “I am sorry but this does not work.”
 
         Now- “I admire your ____. You have helped me by ______. Since you appreciate my ___, it is important for me to point out the problems in this proposal. I do not think it works because ___. We may do __<an alternative if relevant>___. Let me know what you think about it.”
