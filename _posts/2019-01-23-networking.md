@@ -40,8 +40,6 @@ Get a Coach (different from Mentor)
 - [Link](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D)
     * The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
 
-Have an idealist on your team.  An upbeat, positive, communicative person who always focuses on the bright spot and the light at the end of the tunnel helps. It’s not about having fake rose-tinted glasses, but an open, curious and optimistic attitude. Always look for the small wins and successes and acknowledge them, keep the spirit of encouragement going.
-
 When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
 
 Deal with Toxic influences. If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. (Mandvi e.g.)
@@ -52,15 +50,15 @@ For the longest time, I thought I’d feel better about myself when I finally fe
 
 My Tribe:  
 
-RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
-Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
-Chandigarh: Yatik, Dhruv.
-MCA people: Tarun, Gainda, Shubham, Bhalu.  
-QC people: Mayank, Nikhil Mahajan, Salik Warsi, Fotedar
-Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini
-IITD: Kush, GD
-IITB People: Khandu, Nadu, Sachin
-Mentors: Florian, Alistair Beecher
+- RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
+- Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
+- Chandigarh: Yatik, Dhruv.
+- MCA people: Tarun, Gainda, Shubham, Bhalu.  
+- QC people: Mayank, Nikhil Mahajan, Salik Warsi, Fotedar
+- Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini
+- IITD: Kush, GD
+- IITB People: Khandu, Nadu, Sachin
+- Mentors: Florian, Alistair Beecher
 
 PGM, Prachi,  Duja,  Dhruv
 
