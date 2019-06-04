@@ -9,14 +9,17 @@ excerpt:
 permalink: /networking
 
 ---
-https://vlsicad.ucsd.edu/Research/Advice/network.html
-[Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
-https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1
-http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0
-https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html
+- https://vlsicad.ucsd.edu/Research/Advice/network.html
+
+- [Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
+
+- https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1
+- http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0
+- https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html
+
 Success is all about people, communicating your value
-https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/
-https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation
+- https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/
+- https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation
 
 > I checked a lot of boxes, had great scientific output, managed underlings well, had an excellent pedigree (including top tier undergrad and grad schools and Nobel laureate as my immediate postdoc supervisor), but failed to obtain a tenure track position. 
 > Looking at the peers who made it and didn't (including ones that were slightly less deficient), I realized it's because you need to have one of those PIs go to bat for you. It was something as a leader I did for my underlings (I arranged for both of my interns to have one-on-one lunches with a Nobel laureate and a his buddy that didn't get to win a prize in spite of inventing site directed mutagenesis - an experience that I haven't even had myself). As soon as I realized that my high profile bosses had checked out and would never go to bat for me or anyone really (still love them though) I got out of dodge.
