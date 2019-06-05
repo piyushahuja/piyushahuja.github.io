@@ -117,10 +117,13 @@ My Tribe:
 
 ---
 
+
 - Paraphrasing is the swiss army knife of communication: allows you to reframe, or pause, or think about the answer.
 
 - Get Pre event practice and momentum by talking to Baristas, Co-workers etc. for 1-3 minutes. 
+
 - Wrong question “How do I start a conversation with [Specific Magic Snowflake Person]?”
+
     - Right question: “How many people have you ALREADY started conversations with today?
         + With each small conversation you start, you’re actually doing two things at once:
             + You’re building the skill of starting conversations. Skills are something that you can improve over time, and they become a core part of who you are and how you see the world.
@@ -167,7 +170,7 @@ Sit where you will be noticed.
 ----
 
 
-Walk in with a smile. Remember, other people are shy and anxious as well!   Introduce yourself.  Have a good elevator pitch - who you are and what you bring to the table  tell your story well and concisely. you want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career. Get a conversation going.  
+Walk in with a smile. Remember, other people are shy and anxious as well!   Introduce yourself.  Have a good elevator pitch - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career. Get a conversation going.  
  
 
 ---
