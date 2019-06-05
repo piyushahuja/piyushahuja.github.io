@@ -306,9 +306,6 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 
 
-
-* [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
-
 -----
 
 
@@ -494,6 +491,7 @@ Or offer a compliment, he suggested. “As experienced solo travelers know, oppo
 - [Building guanxi](https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html)
 - [To My Ex-Best Friend on her wedding day](https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/)
 - [Consulting Networking](https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation)
+* [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
 
 -----
 
