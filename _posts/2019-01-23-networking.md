@@ -47,6 +47,7 @@ There's a common misconception - I think across industries, not just in consulti
 
 My Tribe:  
 
+- Rock Friendships: 
 - Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
 - Chandigarh: Yatik, Dhruv, Saurabh 
 - MCA people: Tarun, Gainda, Shubham, Bhalu, Billi, Vipul.   
@@ -60,7 +61,7 @@ My Tribe:
 
 * **Get a Coach (different from Mentor)** [Example](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D) The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
 
-* **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. 
+* **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. [Awkward Friendships we all have](https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1)
 
 
 * **Get mentors**
@@ -70,6 +71,16 @@ My Tribe:
 
 * When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
 
+
+Great work requires teams. Developing a network of talented people to work with—sometimes closely, sometimes loosely—is an essential part of a great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
+
+- Help people as much as you can. Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago.
+
+- Develop a reputation for really taking care of the people who work with you. Be overly generous with sharing the upside; it will come back to you 10x. 
+
+- A particularly valuable part of building a network is to get good at discovering undiscovered talent. Quickly spotting intelligence, drive, and creativity gets much easier with practice. The easiest way to learn is just to meet a lot of people, and keep track of who goes on to impress you and who doesn’t. Remember that you are mostly looking for rate of improvement, and don’t overvalue experience or current accomplishment.
+
+----
 
 -------
 
@@ -279,7 +290,7 @@ Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn�
 
 -----
      
-**Cold Approaching**
+**Situation: Cold Approach A Stranger**
 
 Find a not-creepy way to be near her, close enough that two normal people might actually talk to each other without, you know, an ulterior motive. Talk to her about the kinds of things you might have in common with *any human* in that place and time. It can be virtually ANYTHING. Literally I'd rather have a total stranger say "Nice weather we're having" then walk over and say, in essence, they have judged this book by its cover and they want it for themselves. You don't even know if this is a textbook or a graphic novel, foo'!  Here are some other ideas to get you started (note that questions have higher response rates than non-questions): 
 - In a coffee shop: "Hey, do you see any outlets over there?"
@@ -399,15 +410,6 @@ You should be able to divide the people with whom you shake hands into three rou
 
 ---
 
-Great work requires teams. Developing a network of talented people to work with—sometimes closely, sometimes loosely—is an essential part of a great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
-
-- Help people as much as you can. Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago.
-
-- Develop a reputation for really taking care of the people who work with you. Be overly generous with sharing the upside; it will come back to you 10x. 
-
-- A particularly valuable part of building a network is to get good at discovering undiscovered talent. Quickly spotting intelligence, drive, and creativity gets much easier with practice. The easiest way to learn is just to meet a lot of people, and keep track of who goes on to impress you and who doesn’t. Remember that you are mostly looking for rate of improvement, and don’t overvalue experience or current accomplishment.
-
-----
 
 
 
@@ -477,13 +479,12 @@ For Finding Women: Go to dance classes or traveller hostels
 - [How do I develop strong presence and personality?](https://www.quora.com/How-do-I-develop-a-strong-presence-and-personality)
 - [How to speak for yourself](https://www.ted.com/talks/adam_galinsky_how_to_speak_up_for_yourself)
 - [Beyond formal conversations](https://yourstory.com/2017/10/conversations-beyond-formal-communication/?utm_source=FB&utm_medium=Bst)
+- [Building guanxi](https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html)
+- [To My Ex-Best Friend on her wedding day](https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/)
+- [Consulting Networking](https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation)
 
 -----
 
 - [Academia Networking](https://vlsicad.ucsd.edu/Research/Advice/network.html)
 - [Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
-- [Awkward Friendships we all have](https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1)
 - [The end of small talk](http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0)
-- [Building guanxi](https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html)
-- [To My Ex-Best Friend on her wedding day](https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/)
-- [Consulting Networking](https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation)
