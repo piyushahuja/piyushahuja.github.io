@@ -168,24 +168,6 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
             + You’re building the skill of starting conversations. Skills are something that you can improve over time, and they become a core part of who you are and how you see the world.
             +  Newton’s first law: An object in motion stays in motion. You’re building momentum so that you can start more conversations throughout your day. It’s a virtuous cycle.
 
-* **Conversation Exit Strategy?** No one wants to feel stuck in a conversation. Having an exit plan will make you feel more comfortable jumping into those conversations. An easy script to politely end the conversation is: 
-    * "I've got to run, it was nice meeting you [Name]."    
-    * "I’m in a rush." “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. 
-        *  This is especially good when meeting new people and you notice they are extra introverted, shy or in a hurry. Some people feel trapped and surrounded when someone pushes themselves onto them. By setting a deadline for the interaction they are more at ease and open. 
-    - How to end:: 
-    - End Gracefuly. With a compliment and summary. I really appreciate the advice on. Well, thanks for ...
-    -  Be Honest and Courteous
-    * I would love to talk but i have to hurry… would you like to meet up sometime later..”
-    * Well/So…its been great catching up with you.
-    * “Just wanted to ensure..”
-    * If they approached: “Is there anything else i can help you with”
-    * Lets go checkout the X. Have you met my friend. 
-    * Can you introduce me to?/ Do you know anyone here.."
-    * Have a purpose and be honest. “I wanted to talk to the host”
-    * "I don’t want to monopolise your time."
-    * Carry two drinks.
-    * "Lets go say hi!/ lets checkout the buffet"
-    * "Ah, but don't let me keep you."
 
 
 
@@ -369,6 +351,21 @@ At least stand around two/three person when you eat even if you don't talk to th
 
 ---
 
+---
+
+
+**Situation: How to shake hands**
+
+Someone else said something to the effect of "Turn your hand over so your palm is facing down. That shows dominance." Okay sure, but do you always want to show dominance? Is it ALL ALPHA ALL THE TIME with you? If so, you might be a jerk.
+You should be able to divide the people with whom you shake hands into three rough categories:
+
+- Shy people should be offered the hand palm-up. You're showing them that you're not threatening, and you aren't going to impose your ego on them the whole time you're together. There's no squeeze here-- Just a gentle cup, like you're holding a palmful of water. You're also extending your arm far away from your body, somewhat unbalancing yourself for their sake-- If this was judo, you would be pretty much opening yourself up for a big throw. You're saying, "Here, let me leave my comfort zone so you don't have to." I have a friend who brings dates to group events alot. His dates don't know anyone else there, so they're almost always uncomfortable and shy. This is how I shake their hands.
+- Moderate people should be given what I call the car key maneuver. You start with a slight palm-up tilt and turn to a vertical-to-slight palm down tilt. You're pretty much just meeting them in the middle here. Most handshakes fall into this category. Don't overthink it. 
+- Truly aggressive, arm-wrenching, hand-crushing people should be dealt with in one of two ways: 
+    - Show that brute that you aren't to be bullied! As you clasp the hand, focus on reaching your fingers as deeply toward the wrist as you firmly hook the thumb with yours. This prevents your fingers from getting crushed. Keep your elbow close to your body to maintain strength and force him to step in. You ready? Cause it's GO TIME! Twist his wrist until your palm is FLAT or his wrist pops off, pull your arm in closer to your body so he loses his balance, and STARE HIM STRAIGHT IN THE EYES UNTIL HE LOOKS AWAY! He will respect you more if you literally judo throw him. 
+    -  Avoid the alpha-dog contest altogether and go for a fist bump. The greatest general is the one who never engages in open combat. 
+
+---
 
 **Situation: I don't remember/know their name but it's too late to ask**
 
@@ -390,24 +387,28 @@ Use the parrot technique if you want to keep them going. Pick a keyword/phrase a
 - Them: "Cause they're all different, right? So like I like a fuller-body so I use a coarse grind with a moka pot but you can use whatever."
 - You: [Okay, now I have something to say] "I mostly drink lattes. The milk is rich in protein."
 
-
 ---
 
+**Situation: Want to end the conversation** 
 
-**Situation: How to shake hands**
-
-Someone else said something to the effect of "Turn your hand over so your palm is facing down. That shows dominance." Okay sure, but do you always want to show dominance? Is it ALL ALPHA ALL THE TIME with you? If so, you might be a jerk.
-You should be able to divide the people with whom you shake hands into three rough categories:
-
-- Shy people should be offered the hand palm-up. You're showing them that you're not threatening, and you aren't going to impose your ego on them the whole time you're together. There's no squeeze here-- Just a gentle cup, like you're holding a palmful of water. You're also extending your arm far away from your body, somewhat unbalancing yourself for their sake-- If this was judo, you would be pretty much opening yourself up for a big throw. You're saying, "Here, let me leave my comfort zone so you don't have to." I have a friend who brings dates to group events alot. His dates don't know anyone else there, so they're almost always uncomfortable and shy. This is how I shake their hands.
-- Moderate people should be given what I call the car key maneuver. You start with a slight palm-up tilt and turn to a vertical-to-slight palm down tilt. You're pretty much just meeting them in the middle here. Most handshakes fall into this category. Don't overthink it. 
-- Truly aggressive, arm-wrenching, hand-crushing people should be dealt with in one of two ways: 
-    - Show that brute that you aren't to be bullied! As you clasp the hand, focus on reaching your fingers as deeply toward the wrist as you firmly hook the thumb with yours. This prevents your fingers from getting crushed. Keep your elbow close to your body to maintain strength and force him to step in. You ready? Cause it's GO TIME! Twist his wrist until your palm is FLAT or his wrist pops off, pull your arm in closer to your body so he loses his balance, and STARE HIM STRAIGHT IN THE EYES UNTIL HE LOOKS AWAY! He will respect you more if you literally judo throw him. 
-    -  Avoid the alpha-dog contest altogether and go for a fist bump. The greatest general is the one who never engages in open combat. 
-
----
-
-
+No one wants to feel stuck in a conversation. Having an exit plan will make you feel more comfortable jumping into those conversations. An easy script to politely end the conversation is: 
+    * "I've got to run, it was nice meeting you [Name]."    
+    * "I’m in a rush." “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. 
+        *  This is especially good when meeting new people and you notice they are extra introverted, shy or in a hurry. Some people feel trapped and surrounded when someone pushes themselves onto them. By setting a deadline for the interaction they are more at ease and open. 
+    - How to end:: 
+    - End Gracefuly. With a compliment and summary. I really appreciate the advice on. Well, thanks for ...
+    -  Be Honest and Courteous
+    * I would love to talk but i have to hurry… would you like to meet up sometime later..”
+    * Well/So…its been great catching up with you.
+    * “Just wanted to ensure..”
+    * If they approached: “Is there anything else i can help you with”
+    * Lets go checkout the X. Have you met my friend. 
+    * Can you introduce me to?/ Do you know anyone here.."
+    * Have a purpose and be honest. “I wanted to talk to the host”
+    * "I don’t want to monopolise your time."
+    * Carry two drinks.
+    * "Lets go say hi!/ lets checkout the buffet"
+    * "Ah, but don't let me keep you."
 
 
 **On Making Friends**
