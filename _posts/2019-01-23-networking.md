@@ -81,7 +81,6 @@ I love movies.  I love standup comedy.  I love friends.  Actually, I would ne
 * **Call someone you haven’t talked to in a long time and say thank you** 
 Catching up with people makes us feel good.  If you feel lonely, call someone you haven’t called in a long time.  Someone you haven’t talked to.  They may think you’re crazy for having called them, but that doesn’t matter.  They probably won’t.  They’ll probably be flattered.  If they can’t talk then, schedule another time to talk to them.  Or you can write someone a letter or long email.  I love sending letters and long emails.  I’m about to do one right now.
 
-For Finding Women: Go to dance classes or traveller hostels
 
 
 -------
@@ -110,7 +109,7 @@ For Finding Women: Go to dance classes or traveller hostels
     * To research and find commonalities
     * Find out ways you can help them
 
-
+*  **Build deep, long-term relationships - with everyone who gives you insider knowledge.** That lowly secretary knows everything. She looks like she’s minding her own business popping in and out of higher ups offices bringing coffee, but she’s listening to everything. She knows layoffs are coming, that Jack is getting a bonus, that Steve and Mary are having an affair. Her bosses know this, and value greatly her ability to keep things quiet. They often look to her when questioning which of the two salesmen to let go. Be nice to that lady, she’s got more power than you think.
 
 ----
 
@@ -169,7 +168,7 @@ For Finding Women: Go to dance classes or traveller hostels
             + You’re building the skill of starting conversations. Skills are something that you can improve over time, and they become a core part of who you are and how you see the world.
             +  Newton’s first law: An object in motion stays in motion. You’re building momentum so that you can start more conversations throughout your day. It’s a virtuous cycle.
 
-* **Conversation Exit Strategy?***: No one wants to feel stuck in a conversation. Having an exit plan will make you feel more comfortable jumping into those conversations. An easy script to politely end the conversation is: 
+* **Conversation Exit Strategy?** No one wants to feel stuck in a conversation. Having an exit plan will make you feel more comfortable jumping into those conversations. An easy script to politely end the conversation is: 
     * "I've got to run, it was nice meeting you [Name]."    
     * "I’m in a rush." “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. 
         *  This is especially good when meeting new people and you notice they are extra introverted, shy or in a hurry. Some people feel trapped and surrounded when someone pushes themselves onto them. By setting a deadline for the interaction they are more at ease and open. 
@@ -301,11 +300,17 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 > “We go way back”   
 > “We were separated when we were young”
 > “We planned all this”
+
 - Start with your “firsts.” If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says.
+
 - Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
+
 * Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions: what is something I don’t know about you?  What is something not many people know about you?  You said something about X the other (day/week/month), how is it?  Remember, this is a conversation.  You have to share too.
-* For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest.
+
+* For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. For Finding Dates: Go to dance classes or traveller hostels
+
 * Conversational Sparks. At the end of each topic or blurb, throw out a conversational spark. The purpose of the conversational spark is to...you guessed it, spark a further conversation. “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?” “... I can't believe they did that, what would you guys do in that situation?” …or you could just go in with the “Would you rather…?” game. Use with caution.  Would you rather : Have a good holiday which you remember, or a great holiday which you forget Artist or Happy Rich and Ugly, or Poor and Good looking
+
 * Match their energy, then add 10%.
 1 ) Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
 “Wow Greg. You look pretty dapper. Hot date tonight?”
@@ -320,45 +325,7 @@ Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn�
 
 -----
      
-**Situation: Cold Approach A Stranger**
 
-Find a not-creepy way to be near her, close enough that two normal people might actually talk to each other without, you know, an ulterior motive. Talk to her about the kinds of things you might have in common with *any human* in that place and time. It can be virtually ANYTHING. Literally I'd rather have a total stranger say "Nice weather we're having" then walk over and say, in essence, they have judged this book by its cover and they want it for themselves. You don't even know if this is a textbook or a graphic novel, foo'!  Here are some other ideas to get you started (note that questions have higher response rates than non-questions): 
-- In a coffee shop: "Hey, do you see any outlets over there?"
-- In a music store: "Wow, I can't believe places like this still exist! I feel like I should buy something just so I can tell my children about the experience someday. Any recommendations in [genre she is perusing]?"
-- Anywhere in New York City: "Wow, by the time they finally take this scaffolding down, nobody's going to be able to recognize this block."
-
-Asking for directions, the time, or whether she thinks it might rain are all acceptable. When she answers you can follow up with relatable commentary ("Wow, I hope I find that place in time for my meeting!" "Oh, man, my boss is not going to love it when I show up looking ready for a wet t-shirt contest thanks to this busted umbrella.")
-
-Just remember, relatability is essential. A wee bit of vulnerability is often very relatable (note the nervousness conveyed in the above examples) Interestingly, it is often the confident who are willing to talk about the things that make them a bit nervous--and confidence is a very attractive trait.  (But arrogance or self-aggrandizement is a huge turnoff so I'm emphasizing relatability here.) 
-
-Bonus points for humor, of course. Often things are funny because they are relatable.
-
-Then follow up with more words when she responds--this is a thing called "conversation" and it's how humans connect. Then after a few lines, put out your hand for a handshake and say, "I'm Todd, by the way" or whatever your name is. In other words, be normal. 
-
-Then keep talking and try to make the conversation awesomer, to a sufficient level of awesome that you can plausibly say (and she might plausibly agree) something about how awesome and fun it is to talk to her and that you should continue talking later. Humor in this phase is really helpful.  
-
-Note: If it's a really great conversation, she may be interested in meeting you again **even if she's not romantically available to you.** So IF, later in the conversation when you ask her to meet you and talk more, you want her to say no if she's not interested in you as a potential romantic partner, now is a good time to compliment a single aspect of her appearance. This will convey in a non-creepy way some level of romantic interest from you. Here's how:
-
-Complimenting her coat, a statement necklace, or her great shoes--anything it looks like she deliberately chose and maybe expresses her style--is a good and subtle choice. (Complimenting ratty sweatpants will come across as either sarcastic or trying too hard.)  That might be a line of conversation--where she found the item or whether those shoes are comfortable. Note that "statement pieces" like a really note-worthy or eye-catching or unusual jacket or accessory are called "statement" for a reason: they are worthy of conversation and she will likely be open to talking about them. You will get to know if she loves vintage or got it from her grandmother or wears this jacket to all her interviews or bought this scarf because it doubles as a picnic blanket in a pinch.
-
-Complimenting her hair or eyes is a very clear communication of romantic intent but you have to give her time to say thanks and then move on quickly; it's not a comfortable line of conversation. ("I love your eyes, where did you get them?" "Umm, God/my mom/I made them myself"... NO. Awkward. Don't make her feel awkward.)
-
-Eventually, you wanna wrap things up. If it starts to get awkward, wrap it up quickly! It's better to have a very brief conversation that is great than a longer conversation that is 20% awkward (any amount of awkward expands to fill the space--unless it's you personally feeling awkward and you can turn it around to be funny and relatable.)
-
-It's often helpful and shows that you didn't have an ultimatum but you *do* have a life if you "have to run."  And then you can say, for example, "I'd love to keep talking but I have to run. Maybe you can meet for lunch?" And her answer will tell you how much she is interested or able to meet up with you again.  "Later" can even be "now" if the situation is such that you could say, for example, "I was just on my way to grab a coffee--care to join me?"  
-
-Many times, especially with a beautiful woman who gets chatted up all the time, the answer will still be no. She's taken, or she's busy, or she's just not that into you. BUT. If you have a chance at all of getting with her, this is the best way of getting from "two complete strangers who happen to be in the same place at the same time" to "two complete strangers who are getting to know each other more and from that point anything could happen."
-
-While Travelling:
-
-How to break the ice then? Dr. Epley suggests simply saying to that stranger on the bus or in the cafe: “Hi, I’m visiting. Can you tell me what I ought to see in town?” 
-
-“Everybody loves to brag about their city,” he said.
-Or offer a compliment, he suggested. “As experienced solo travelers know, opportunities for pleasurable connections are everywhere: trains, planes, parks, bars, museums, walking tours, group hikes. Yet should all that fail, technology provides seemingly innumerable ways to increase the odds. 
-
-
-
----
 
 
 **Good Practice: Introduce other people**
@@ -453,11 +420,46 @@ As I have gotten older, a pattern that is working much better for me is the camp
 
 > The campfire is a nice way for me to remember we're all suffering, that not a one of us is unique to loneliness. Because sometimes that person who sits down at your fire is the person you have been waiting for, and only by making a seat for them were you able to ever meet.
 
----
-
-That lowly secretary knows everything. She looks like she’s minding her own business popping in and out of higher ups offices bringing coffee, but she’s listening to everything. She knows layoffs are coming, that Jack is getting a bonus, that Steve and Mary are having an affair. Her bosses know this, and value greatly her ability to keep things quiet. They often look to her when questioning which of the two salesmen to let go. Be nice to that lady, she’s got more power than you think. *Build deep, long-term relationships - with everyone - that give you insider knowledge.*
 
 ----
+
+**Situation: Ran into someone you want to get to know more. What to do?**
+
+
+Find a not-creepy way to be near her, close enough that two normal people might actually talk to each other without, you know, an ulterior motive. Talk to her about the kinds of things you might have in common with *any human* in that place and time. It can be virtually ANYTHING. Literally I'd rather have a total stranger say "Nice weather we're having" then walk over and say, in essence, they have judged this book by its cover and they want it for themselves. You don't even know if this is a textbook or a graphic novel, foo'!  Here are some other ideas to get you started (note that questions have higher response rates than non-questions): 
+- In a coffee shop: "Hey, do you see any outlets over there?"
+- In a music store: "Wow, I can't believe places like this still exist! I feel like I should buy something just so I can tell my children about the experience someday. Any recommendations in [genre she is perusing]?"
+- Anywhere in New York City: "Wow, by the time they finally take this scaffolding down, nobody's going to be able to recognize this block."
+
+Asking for directions, the time, or whether she thinks it might rain are all acceptable. When she answers you can follow up with relatable commentary ("Wow, I hope I find that place in time for my meeting!" "Oh, man, my boss is not going to love it when I show up looking ready for a wet t-shirt contest thanks to this busted umbrella.")
+
+Just remember, relatability is essential. A wee bit of vulnerability is often very relatable (note the nervousness conveyed in the above examples) Interestingly, it is often the confident who are willing to talk about the things that make them a bit nervous--and confidence is a very attractive trait.  (But arrogance or self-aggrandizement is a huge turnoff so I'm emphasizing relatability here.) 
+
+Bonus points for humor, of course. Often things are funny because they are relatable.
+
+Then follow up with more words when she responds--this is a thing called "conversation" and it's how humans connect. Then after a few lines, put out your hand for a handshake and say, "I'm Todd, by the way" or whatever your name is. In other words, be normal. 
+
+Then keep talking and try to make the conversation awesomer, to a sufficient level of awesome that you can plausibly say (and she might plausibly agree) something about how awesome and fun it is to talk to her and that you should continue talking later. Humor in this phase is really helpful.  
+
+Note: If it's a really great conversation, she may be interested in meeting you again **even if she's not romantically available to you.** So IF, later in the conversation when you ask her to meet you and talk more, you want her to say no if she's not interested in you as a potential romantic partner, now is a good time to compliment a single aspect of her appearance. This will convey in a non-creepy way some level of romantic interest from you. Here's how:
+
+Complimenting her coat, a statement necklace, or her great shoes--anything it looks like she deliberately chose and maybe expresses her style--is a good and subtle choice. (Complimenting ratty sweatpants will come across as either sarcastic or trying too hard.)  That might be a line of conversation--where she found the item or whether those shoes are comfortable. Note that "statement pieces" like a really note-worthy or eye-catching or unusual jacket or accessory are called "statement" for a reason: they are worthy of conversation and she will likely be open to talking about them. You will get to know if she loves vintage or got it from her grandmother or wears this jacket to all her interviews or bought this scarf because it doubles as a picnic blanket in a pinch.
+
+Complimenting her hair or eyes is a very clear communication of romantic intent but you have to give her time to say thanks and then move on quickly; it's not a comfortable line of conversation. ("I love your eyes, where did you get them?" "Umm, God/my mom/I made them myself"... NO. Awkward. Don't make her feel awkward.)
+
+Eventually, you wanna wrap things up. If it starts to get awkward, wrap it up quickly! It's better to have a very brief conversation that is great than a longer conversation that is 20% awkward (any amount of awkward expands to fill the space--unless it's you personally feeling awkward and you can turn it around to be funny and relatable.)
+
+It's often helpful and shows that you didn't have an ultimatum but you *do* have a life if you "have to run."  And then you can say, for example, "I'd love to keep talking but I have to run. Maybe you can meet for lunch?" And her answer will tell you how much she is interested or able to meet up with you again.  "Later" can even be "now" if the situation is such that you could say, for example, "I was just on my way to grab a coffee--care to join me?"  
+
+Many times, especially with a beautiful woman who gets chatted up all the time, the answer will still be no. She's taken, or she's busy, or she's just not that into you. BUT. If you have a chance at all of getting with her, this is the best way of getting from "two complete strangers who happen to be in the same place at the same time" to "two complete strangers who are getting to know each other more and from that point anything could happen."
+
+While Travelling:
+
+How to break the ice then? Dr. Epley suggests simply saying to that stranger on the bus or in the cafe: “Hi, I’m visiting. Can you tell me what I ought to see in town?” 
+
+“Everybody loves to brag about their city,” he said.
+Or offer a compliment, he suggested. “As experienced solo travelers know, opportunities for pleasurable connections are everywhere: trains, planes, parks, bars, museums, walking tours, group hikes. Yet should all that fail, technology provides seemingly innumerable ways to increase the odds. 
+
 
 
 ----
