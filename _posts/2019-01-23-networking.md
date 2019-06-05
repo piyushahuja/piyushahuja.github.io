@@ -156,9 +156,7 @@ My Tribe:
 ----
 
 
-Exude calm and sense of security, that is "I do not care  about what other people think."
-
-Be at home, instead of being like an intruder. Play the host: Approach and Be approachable.  Moving comfortably and gracefully. Spreading out your body to full comfort. Taking up a lot of space with your body. Move with courage and confidence.  Keep your body language open, tall, and engaging. Lean back, relax, smile, people watch, and make eye contact. You, nicely dressed, peppy, walk with charisma into the room, and act like you own the damn place.  Imagine yourself as the man, and everybody else like an inanimate object.  Feel as if you've built the building, like you've invited everyone to the party, like the people are yours to own.  This may turn some folks off, but you don't care about those.  
+Exude calm and sense of security, that is "I do not care  about what other people think." Be at home, instead of being like an intruder. Play the host: Approach and Be approachable.  Moving comfortably and gracefully. Spreading out your body to full comfort. Taking up a lot of space with your body. Sit where you will be noticed. Move with courage and confidence.  Keep your body language open, tall, and engaging. Lean back, relax, smile, people watch, and make eye contact. You, nicely dressed, peppy, walk with charisma into the room, and act like you own the damn place.  Imagine yourself as the man, and everybody else like an inanimate object.  Feel as if you've built the building, like you've invited everyone to the party, like the people are yours to own.  This may turn some folks off, but you don't care about those.  
 
 ----
 
@@ -166,10 +164,6 @@ Be at home, instead of being like an intruder. Play the host: Approach and Be ap
 
 
 ---
-
-Sit where you will be noticed.
-
-----
 
 
 Walk in with a smile. Remember, other people are shy and anxious as well!   Introduce yourself.  Have a good elevator pitch - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career. Get a conversation going.  
@@ -201,15 +195,15 @@ Be genuinely interested. Get their story out. Be a patient listener (it is this,
 ------
 
 > I knew a girl in college who everyone wanted to be around. Whenever she was around, the gathering was filled with laughter and meaning. She was one person everyone wanted to talk to. Some of my old college friends still talk about our “good old days”—which included that mystical college girl who led our gatherings into realms of purpose, healing, spirituality, friendship and meaning.  
-> 
+ 
 > This is what I discovered about her: No one really knew much about her.
 She wasn’t particularly “special” in anything—her wealth, looks, or smarts. One outstanding thing about her was that was quite pleasant, pleasant to the point that nothing out of the ordinary about her distracted us, and then, again, nothing really interesting, either. Yet she was the center of our gatherings, and everyone who was in the know, knew that she was the “life” of our gatherings. But, in retrospect, we really didn’t know much about her. Not surprising—because she never said much about herself. 
->
+
 > She would stare at you, and as I recall, she had “delighted” eyes, as if you were a celebrity, a star that was interviewed by her. And she’d ask you anything: “I saw you reading Plato’s Republic; Isn’t it hard? I always wondered what it was all about.” “When did you come to Canada; Isn’t English crazy?” “Wow, love your shoes! Where did you get them?”
 And, it really didn’t matter what she asked, the conversation could go on for hours. No one ever yawned when she was around.  
->
+
 > I think her “secret” may have been in her undivided attention to her audience, and not herself. She was the sort of investigative journalist who was obsessed with finding everything about whoever was in front of her —excepting that she was “digging” only for the most positive and the glorious. You’d always walk away with a new and deeper enlightening self-discovery that unifies your whole being.  
-> 
+ 
 > Perhaps the greatest conversationalists can tune-in to other people, and are genuinely and “supportively” interested in them. For the time of being while she was around, all of us felt like stars.
 > [Reference](https://www.quora.com/How-should-I-talk-to-people-when-I-have-nothing-to-say-People-think-I-am-an-introvert-and-that%E2%80%99s-why-I-stay-quiet-and-withdrawn-However-I-think-I-just-have-nothing-to-talk-about-I-am-really-embarrassed-about-that-How-do-I-have-a-conversation)
 
@@ -234,10 +228,6 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 > I know this, and I can sometimes flip into that framework, but my "intelligence" makes it harder for me than it is for "stupider" people. I hear a statement that's superficially in the form of a formal-logic statement, and my brain goes into formal-logic mode. I can't stop myself from thinking -- and dwelling on -- "you just said X but that contradicts your earlier claim that Y..."
 
 > So in those situations, who is really the smartest person in the room? The guy acting like (or at least thinking like) Mr. Spock -- the guy having trouble relating to the others in a casual, interesting way -- Or the guy who knows how to have a conversation without getting bogged down in literalism and inappropriate frameworks?
-
-
-
-
 
 
 
