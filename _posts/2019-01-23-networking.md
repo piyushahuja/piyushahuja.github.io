@@ -11,6 +11,7 @@ permalink: /networking
 ---
 
 
+
 > I tried to secure her a specialist appointment at Huashan Hospital, one of the best public hospitals in Shanghai, only to discover that they were full till the end of August. You could still make an appointment, but only if you knew somebody on the inside — only if you had enough “guanxi,” the network of connections and relationships that make China function
 
 > The previous principal liked to boast about the guanxi he had via those parents. “When my father needed heart surgery,” he said once in a faculty meeting, “I asked my secretary to locate a parent who worked at the president’s office in Huashan Hospital. And I soon found one.”
@@ -22,6 +23,9 @@ permalink: /networking
 
 
 > I checked a lot of boxes, had great scientific output, managed underlings well, had an excellent pedigree (including top tier undergrad and grad schools and Nobel laureate as my immediate postdoc supervisor), but failed to obtain a tenure track position.  Looking at the peers who made it and didn't (including ones that were slightly less deficient), I realized it's because you need to have one of those PIs go to bat for you. It was something as a leader I did for my underlings (I arranged for both of my interns to have one-on-one lunches with a Nobel laureate and  his buddy that didn't get to win a prize in spite of inventing site directed mutagenesis - an experience that I haven't even had myself). As soon as I realized that my high profile bosses had checked out and would never go to bat for me or anyone really (still love them though) I got out of dodge.
+
+> For the longest time, I thought I’d feel better about myself when I finally fell in love. When fuck yes or no became the default filter through which I made decisions about my dating life, I started to have a much higher opinion of myself.
+
 
 ---
 
@@ -40,7 +44,25 @@ To have a friend you have to be a friend. You have to extend yourself. Offer you
 
 There's a common misconception - I think across industries, not just in consulting - that you will be rewarded commensurately to how hard you work and how good your output is. In my view, this is false. Good networking will never compensate for poor performance, but doing a good job only takes you 80% of the way. The remaining 20% is contingent on what otherpeople think and say about you. It is absolutely your responsibility to manage your brand and to build positive relationships with your colleagues. There's a common misconception - I think across industries, not just in consulting - that you will be rewarded commensurately to how hard you work and how good your output is. In my view, this is false. Good networking will never compensate for poor performance, but doing a good job only takes you 80% of the way. The remaining 20% is contingent on what otherpeople think and say about you. It is absolutely your responsibility to manage your brand and to build positive relationships with your colleagues. There's a common misconception - I think across industries, not just in consulting - that you will be rewarded commensurately to how hard you work and how good your output is. In my view, this is false. Good networking will never compensate for poor performance, but doing a good job only takes you 80% of the way. The remaining 20% is contingent on what otherpeople think and say about you. It is absolutely your responsibility to manage your brand and to build positive relationships with your colleagues.
 
-> For the longest time, I thought I’d feel better about myself when I finally fell in love. When fuck yes or no became the default filter through which I made decisions about my dating life, I started to have a much higher opinion of myself.
+
+My Tribe:  
+
+- RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
+- Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
+- Chandigarh: Yatik, Dhruv, Saurabh 
+- MCA people: Tarun, Gainda, Shubham, Bhalu, Billi, Vipul.   
+- QC people: Mayank, Nikhil Mahajan, Salik Warsi, Fotedar
+- Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini
+- IITD: Kush, GD
+- IITB People: Khandu, Nadu, Sachin
+- Mentors: Florian, Alistair Beecher
+- PGM, Prachi,  Duja,  Dhruv, Dad, Mandvi
+
+---------
+
+* **Get a Coach (different from Mentor)** [Example](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D) The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
+
+* **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. 
 
 
 * **Get mentors**:
@@ -48,24 +70,8 @@ There's a common misconception - I think across industries, not just in consulti
     * To research and find commonalities
     * Find out ways you can help them
 
-* **Get a Coach (different from Mentor)** [Example](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D) The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
-
 * When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
 
-* **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. 
-
-My Tribe:  
-
-- RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
-- Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
-- Chandigarh: Yatik, Dhruv.
-- MCA people: Tarun, Gainda, Shubham, Bhalu.  
-- QC people: Mayank, Nikhil Mahajan, Salik Warsi, Fotedar
-- Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini
-- IITD: Kush, GD
-- IITB People: Khandu, Nadu, Sachin
-- Mentors: Florian, Alistair Beecher
-- PGM, Prachi,  Duja,  Dhruv, Dad, Mandvi
 
 -------
 
