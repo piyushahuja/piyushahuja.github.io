@@ -258,7 +258,7 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 * **Love life** Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
     * “Wow Greg. You look pretty dapper. Hot date tonight?”
     * “Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
-    *  For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. For Finding Dates: Go to dance classes or traveller hostels
+    *  For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. 
 
 * **Ask for their advice.**  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
     * “You know Greg, I’m supposed to plan a first date with this girl I really like but I’m afraid of screwing it up. Where do you like to take your dates?”
@@ -394,7 +394,7 @@ You should be able to divide the people with whom you shake hands into three rou
 
 
 
-Use the parrot technique if you want to keep them going. Pick a keyword/phrase and simply repeat it back with kind of an inquisitive tone. Sounds far too simple to work, but it totally works:
+* **Parrot** Pick a keyword/phrase and simply repeat it back with kind of an inquisitive tone. Sounds far too simple to work, but it totally works:
 
 - [You, thinking... "What are we talking about again?"]
 - Them: "...so what nobody told her was that you need to turn the knob to change the size of the grind."
@@ -406,7 +406,7 @@ Use the parrot technique if you want to keep them going. Pick a keyword/phrase a
 - Them: "Cause they're all different, right? So like I like a fuller-body so I use a coarse grind with a moka pot but you can use whatever."
 - You: [Okay, now I have something to say] "I mostly drink lattes. The milk is rich in protein."
 
-Do Word association. Person talking about their trip to Costa Rica? What do you think of when you think of Costa Rica? Beach? Tan? Surfing? Beer? Palm trees? That one time your friend went and something crazy happened. The more you do this, the better you’ll get at it. You’ll be able to talk and think of witty things to say on the spot for any situation. It takes practice in the beginning, but is a useful way to never have an awkward silence again. 
+* **Do Word association**. Person talking about their trip to Costa Rica? What do you think of when you think of Costa Rica? Beach? Tan? Surfing? Beer? Palm trees? That one time your friend went and something crazy happened. The more you do this, the better you’ll get at it. You’ll be able to talk and think of witty things to say on the spot for any situation. It takes practice in the beginning, but is a useful way to never have an awkward silence again. 
 
 ---
 
