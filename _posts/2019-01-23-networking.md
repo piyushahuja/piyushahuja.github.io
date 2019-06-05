@@ -68,11 +68,6 @@ I love movies.  I love standup comedy.  I love friends.  Actually, I would ne
 * **Call someone you haven’t talked to in a long time and say thank you*** 
 Catching up with people makes us feel good.  If you feel lonely, call someone you haven’t called in a long time.  Someone you haven’t talked to.  They may think you’re crazy for having called them, but that doesn’t matter.  They probably won’t.  They’ll probably be flattered.  If they can’t talk then, schedule another time to talk to them.  Or you can write someone a letter or long email.  I love sending letters and long emails.  I’m about to do one right now.
 
-* 
-   
-
-
-
 For Finding Women: Go to dance classes or traveller hostels
 
 
