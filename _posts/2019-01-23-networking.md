@@ -246,7 +246,8 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
             *  Artist or Happy 
             *  Rich and Ugly, or Poor and Good looking
 
-*  **Ask open ended questions**:
+*  **Ask open ended questions**
+
 > "What are you interested in these days?
 
 > Tell me what fascinates you!
@@ -263,9 +264,10 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 > Where all have you travelled? What place inspired you the most and why?
 
-> 36 Questions! http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0
+> [36 Questions](http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0)
 
 * Infuse Humour. 
+
 > “We go way back”   
 
 > “We were separated when we were young”
