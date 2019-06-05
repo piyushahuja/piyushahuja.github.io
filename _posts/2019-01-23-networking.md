@@ -63,7 +63,7 @@ My Tribe:
 * **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. 
 
 
-* **Get mentors**:
+* **Get mentors**
     * Make yourself not-a-stranger
     * To research and find commonalities
     * Find out ways you can help them
