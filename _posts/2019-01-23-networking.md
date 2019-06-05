@@ -118,20 +118,22 @@ My Tribe:
 
 ---
 
+**Cold Approach Practice**
 
 - Get Pre event practice and momentum by talking to Baristas, Co-workers etc. for 1-3 minutes. 
 
 - Wrong question “How do I start a conversation with [Specific Magic Snowflake Person]?”
-
     - Right question: “How many people have you ALREADY started conversations with today?
         + With each small conversation you start, you’re actually doing two things at once:
             + You’re building the skill of starting conversations. Skills are something that you can improve over time, and they become a core part of who you are and how you see the world.
             +  Newton’s first law: An object in motion stays in motion. You’re building momentum so that you can start more conversations throughout your day. It’s a virtuous cycle.
 
-- Have an exit strategy: No one wants to feel stuck in a conversation, an easy script to politely end the conversation is: "I've got to run, it was nice meeting you [Name]." 
-    - Bonus: Having an exit plan will make you feel more comfortable jumping into those conversations.
+* **Conversation Exit Strategy?***: No one wants to feel stuck in a conversation. Having an exit plan will make you feel more comfortable jumping into those conversations. An easy script to politely end the conversation is: 
+    * "I've got to run, it was nice meeting you [Name]."    
+    * "I’m in a rush." “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. 
+        *  This is especially good when meeting new people and you notice they are extra introverted, shy or in a hurry. Some people feel trapped and surrounded when someone pushes themselves onto them. By setting a deadline for the interaction they are more at ease and open. 
     - How to end:: 
-    -  End Gracefuly. With a compliment and summary. I really appreciate the advice on. Well, thanks for ...
+    - End Gracefuly. With a compliment and summary. I really appreciate the advice on. Well, thanks for ...
     -  Be Honest and Courteous
     * I would love to talk but i have to hurry… would you like to meet up sometime later..”
     * Well/So…its been great catching up with you.
@@ -145,7 +147,7 @@ My Tribe:
     * "Lets go say hi!/ lets checkout the buffet"
     * "Ah, but don't let me keep you."
 
-I’m in a rush. This is especially good when meeting new people and you notice they are extra introverted, shy or in a hurry. “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. Some people feel trapped and surrounded when someone pushes themselves onto them. By setting a deadline for the interaction they are more at ease and open. 
+
 
 ----
 
