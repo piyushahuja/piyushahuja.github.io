@@ -24,6 +24,8 @@ permalink: /networking
 > For the longest time, I thought I’d feel better about myself when I finally fell in love. When fuck yes or no became the default filter through which I made decisions about my dating life, I started to have a much higher opinion of myself.
 
 
+> Sometimes I feel that it can be a lucrative trap to become invested in a single person, and then accumulate expectations that far outweigh the responsible obligations of any friendship. As I have gotten older, a pattern that is working much better for me is the campfire model - I just try to keep a metaphorical campfire going, for people traveling through this life to stop and warm themselves upon while I tend it. I cannot know which direction people are traveling from, or to, or how long their journey has been or will be. But all people need to warm their calloused hands and feet, and I can keep this fire with a bed of rosy coals. Sometimes someone will stop at my fire and warm themselves without my ever having paid attention, but to them it may have meant all the difference in the world. By keeping this obligation in mind, to simply expect people to need a place to sit a spell, I can at least believe I am helping. The campfire is a nice way for me to remember we're all suffering, that not a one of us is unique to loneliness. Because sometimes that person who sits down at your fire is the person you have been waiting for, and only by making a seat for them were you able to ever meet.
+
 ---
 
 **Cultivate Your Tribe**
@@ -160,6 +162,46 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 
 **A Guide to Small Talk (Networking Events, Dates, Meeting New People etc.)**
 
+
+> I knew a girl in college who everyone wanted to be around. Whenever she was around, the gathering was filled with laughter and meaning. She was one person everyone wanted to talk to. Some of my old college friends still talk about our “good old days”—which included that mystical college girl who led our gatherings into realms of purpose, healing, spirituality, friendship and meaning.  
+ 
+> This is what I discovered about her: No one really knew much about her.
+She wasn’t particularly “special” in anything—her wealth, looks, or smarts. One outstanding thing about her was that was quite pleasant, pleasant to the point that nothing out of the ordinary about her distracted us, and then, again, nothing really interesting, either. Yet she was the center of our gatherings, and everyone who was in the know, knew that she was the “life” of our gatherings. But, in retrospect, we really didn’t know much about her. Not surprising—because she never said much about herself. 
+
+> She would stare at you, and as I recall, she had “delighted” eyes, as if you were a celebrity, a star that was interviewed by her. And she’d ask you anything: “I saw you reading Plato’s Republic; Isn’t it hard? I always wondered what it was all about.” “When did you come to Canada; Isn’t English crazy?” “Wow, love your shoes! Where did you get them?”
+And, it really didn’t matter what she asked, the conversation could go on for hours. No one ever yawned when she was around.  
+
+> I think her “secret” may have been in her undivided attention to her audience, and not herself. She was the sort of investigative journalist who was obsessed with finding everything about whoever was in front of her —excepting that she was “digging” only for the most positive and the glorious. You’d always walk away with a new and deeper enlightening self-discovery that unifies your whole being.  
+ 
+> Perhaps the greatest conversationalists can tune-in to other people, and are genuinely and “supportively” interested in them. For the time of being while she was around, all of us felt like stars.
+> [Reference](https://www.quora.com/How-should-I-talk-to-people-when-I-have-nothing-to-say-People-think-I-am-an-introvert-and-that%E2%80%99s-why-I-stay-quiet-and-withdrawn-However-I-think-I-just-have-nothing-to-talk-about-I-am-really-embarrassed-about-that-How-do-I-have-a-conversation)
+
+
+---
+
+
+> Here's something (possibly related) that I can talk about: I am often the best person in the room at logical (as in syllogisms) reasoning and I'm also often the person in the room with the most "life experience." 
+
+> ....  
+
+> The biggest frustration this causes me is that it often renders me totally unable to talk. Sometimes, based on, say, my 15-years of marriage, I know the guy next to me is wrong when he waxes about "relationships" after only ever having one girlfriend in his life -- and for only two weeks. But there's often not much I can say. (Or if I do speak up, it won't mean anything or change anything.) You can't force experience on people. They will get that experience when they get it. They have to go live for themselves.
+
+> I am quite often stymied because conversations are "illogical" and I'm the only one who notices or cares. I realize early on that an entire conversation doesn't make sense, and that it can't make sense, until everyone stops and examines the root assumptions behind the conversation. 
+
+> When I'm asked my opinion of the subject-at-hand, I freeze, because as far as I'm concerned, the subject is gibberish. On the other hand, I'll rightly be branded a freak if I say what's in my mind -- usually something like "If we want talk meaningfully about what the 'best' science-fiction movie is, we need to first define 'science-fiction' and 'best.' We need to clarify what our metric is for best, and we need to decide whether aesthetic judgements are subjective or objective." 
+
+> What's really going on here is that I'm getting stymied by my own skill. Yes, I can think logically and foundationally, and that helps me in my work. It also helps me have interesting thoughts about some topics I'm into. But it's not grounded in the reality of most human discourse.
+
+> I am aware, of course, that most conversations are not working in a framework of formal logic. Rather, they are more like stream-of-consciousness, call-and-response systems. "What's the best sci-fi movie?" doesn't literally mean "What's the best sci-fi movie?" In most conversations it means "I'm opening up the topic of sci-fi movies. Discuss it in any way that you'd like. Riff on my opening salvo..."
+
+> I know this, and I can sometimes flip into that framework, but my "intelligence" makes it harder for me than it is for "stupider" people. I hear a statement that's superficially in the form of a formal-logic statement, and my brain goes into formal-logic mode. I can't stop myself from thinking -- and dwelling on -- "you just said X but that contradicts your earlier claim that Y..."
+
+> So in those situations, who is really the smartest person in the room? The guy acting like (or at least thinking like) Mr. Spock -- the guy having trouble relating to the others in a casual, interesting way -- Or the guy who knows how to have a conversation without getting bogged down in literalism and inappropriate frameworks?
+
+----
+
+
+
 - Get Pre event practice and momentum by talking to Baristas, Co-workers etc. for 1-3 minutes. 
 
 - Wrong question “How do I start a conversation with [Specific Magic Snowflake Person]?”
@@ -211,44 +253,6 @@ Future: “Oh you like doing long road trips? Have you ever been on a Eurotrip? 
 ---
 
 Be genuinely interested in a person: What was your background? The most interesting project they worked on? Ask open ended questions. Can spring from observing your surroundings.  Be genuinely interested. Get their story out. Be a patient listener (it is this, not fast talking, that gets a con man his coups). Learn to master questions - One of the best ways to show you're a great listener is to ask great questions that are really relevant to the topic someone's talking about. Have a genuine curiosity to get to know people. The second key to being well spoken is by asking questions you genuinely care or are curious about, versus ones you think will make you sound smart or clever. People palpate authenticity from the way a question is used: whether it is a genuine question, or just a way to make the asker show cleverness or superiority. Of course, questions can be genuine AND clever, as long as your questions are truthful to your interest and engagement. Have something to talk about: pay attention to timely topics and pay attention to what other people are paying attention to. It doesn't all have to come from "you" -- I have few original ideas and even fewer insightful ones -- but I can share insight I have observed or read about from others, and I can be a bridge or connector in a conversation. You may want to start by becoming a connector or bridge in a conversation, versus a "driver" of conversations.
-
-------
-
-> I knew a girl in college who everyone wanted to be around. Whenever she was around, the gathering was filled with laughter and meaning. She was one person everyone wanted to talk to. Some of my old college friends still talk about our “good old days”—which included that mystical college girl who led our gatherings into realms of purpose, healing, spirituality, friendship and meaning.  
- 
-> This is what I discovered about her: No one really knew much about her.
-She wasn’t particularly “special” in anything—her wealth, looks, or smarts. One outstanding thing about her was that was quite pleasant, pleasant to the point that nothing out of the ordinary about her distracted us, and then, again, nothing really interesting, either. Yet she was the center of our gatherings, and everyone who was in the know, knew that she was the “life” of our gatherings. But, in retrospect, we really didn’t know much about her. Not surprising—because she never said much about herself. 
-
-> She would stare at you, and as I recall, she had “delighted” eyes, as if you were a celebrity, a star that was interviewed by her. And she’d ask you anything: “I saw you reading Plato’s Republic; Isn’t it hard? I always wondered what it was all about.” “When did you come to Canada; Isn’t English crazy?” “Wow, love your shoes! Where did you get them?”
-And, it really didn’t matter what she asked, the conversation could go on for hours. No one ever yawned when she was around.  
-
-> I think her “secret” may have been in her undivided attention to her audience, and not herself. She was the sort of investigative journalist who was obsessed with finding everything about whoever was in front of her —excepting that she was “digging” only for the most positive and the glorious. You’d always walk away with a new and deeper enlightening self-discovery that unifies your whole being.  
- 
-> Perhaps the greatest conversationalists can tune-in to other people, and are genuinely and “supportively” interested in them. For the time of being while she was around, all of us felt like stars.
-> [Reference](https://www.quora.com/How-should-I-talk-to-people-when-I-have-nothing-to-say-People-think-I-am-an-introvert-and-that%E2%80%99s-why-I-stay-quiet-and-withdrawn-However-I-think-I-just-have-nothing-to-talk-about-I-am-really-embarrassed-about-that-How-do-I-have-a-conversation)
-
-
----
-
-
-> Here's something (possibly related) that I can talk about: I am often the best person in the room at logical (as in syllogisms) reasoning and I'm also often the person in the room with the most "life experience." 
-
-> ....  
-
-> The biggest frustration this causes me is that it often renders me totally unable to talk. Sometimes, based on, say, my 15-years of marriage, I know the guy next to me is wrong when he waxes about "relationships" after only ever having one girlfriend in his life -- and for only two weeks. But there's often not much I can say. (Or if I do speak up, it won't mean anything or change anything.) You can't force experience on people. They will get that experience when they get it. They have to go live for themselves.
-
-> I am quite often stymied because conversations are "illogical" and I'm the only one who notices or cares. I realize early on that an entire conversation doesn't make sense, and that it can't make sense, until everyone stops and examines the root assumptions behind the conversation. 
-
-> When I'm asked my opinion of the subject-at-hand, I freeze, because as far as I'm concerned, the subject is gibberish. On the other hand, I'll rightly be branded a freak if I say what's in my mind -- usually something like "If we want talk meaningfully about what the 'best' science-fiction movie is, we need to first define 'science-fiction' and 'best.' We need to clarify what our metric is for best, and we need to decide whether aesthetic judgements are subjective or objective." 
-
-> What's really going on here is that I'm getting stymied by my own skill. Yes, I can think logically and foundationally, and that helps me in my work. It also helps me have interesting thoughts about some topics I'm into. But it's not grounded in the reality of most human discourse.
-
-> I am aware, of course, that most conversations are not working in a framework of formal logic. Rather, they are more like stream-of-consciousness, call-and-response systems. "What's the best sci-fi movie?" doesn't literally mean "What's the best sci-fi movie?" In most conversations it means "I'm opening up the topic of sci-fi movies. Discuss it in any way that you'd like. Riff on my opening salvo..."
-
-> I know this, and I can sometimes flip into that framework, but my "intelligence" makes it harder for me than it is for "stupider" people. I hear a statement that's superficially in the form of a formal-logic statement, and my brain goes into formal-logic mode. I can't stop myself from thinking -- and dwelling on -- "you just said X but that contradicts your earlier claim that Y..."
-
-> So in those situations, who is really the smartest person in the room? The guy acting like (or at least thinking like) Mr. Spock -- the guy having trouble relating to the others in a casual, interesting way -- Or the guy who knows how to have a conversation without getting bogged down in literalism and inappropriate frameworks?
-
 
 
 
@@ -410,16 +414,6 @@ No one wants to feel stuck in a conversation. Having an exit plan will make you 
     * "Lets go say hi!/ lets checkout the buffet"
     * "Ah, but don't let me keep you."
 
-
-**On Making Friends**
-
-
-> Sometimes I feel that it can be a lucrative trap to become invested in a single person, and then accumulate expectations that far outweigh the responsible obligations of any friendship.
-As I have gotten older, a pattern that is working much better for me is the campfire model - I just try to keep a metaphorical campfire going, for people traveling through this life to stop and warm themselves upon while I tend it. I cannot know which direction people are traveling from, or to, or how long their journey has been or will be. But all people need to warm their calloused hands and feet, and I can keep this fire with a bed of rosy coals.
-
-> Sometimes someone will stop at my fire and warm themselves without my ever having paid attention, but to them it may have meant all the difference in the world. By keeping this obligation in mind, to simply expect people to need a place to sit a spell, I can at least believe I am helping.
-
-> The campfire is a nice way for me to remember we're all suffering, that not a one of us is unique to loneliness. Because sometimes that person who sits down at your fire is the person you have been waiting for, and only by making a seat for them were you able to ever meet.
 
 
 ----
