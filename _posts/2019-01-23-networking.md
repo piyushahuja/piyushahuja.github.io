@@ -98,7 +98,7 @@ For Finding Women: Go to dance classes or traveller hostels
 
 * **Get a Coach (different from Mentor)** [Example](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D) The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
 
-* **Deal with Toxic influences.** If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. [Awkward Friendships we all have](https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1)
+* **Surround yourself with people whose presence is nourishiing** When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can. Deal with Toxic influences.If you have people in your life who stress you out, mooch off you, are mean to you, angry at you, or try to make you feel guilty all the time, set some boundaries. If that fails, get them out of your life if you can. Make a list of these people, and make this one of your top goals this year. Unfortunately, you might not be able to get rid of every toxic person. Don't do business with dodgy people. Have friendships which are heelthy and enjoyable. Rock Friendships: People you can be off with, people who ask questions, people you are comfortable to be alone with, no weird unrequited love dynamic, not opposing life paths, no harboured resentment, no obsessive fb crush, no lopsided[Awkward Friendships we all have](https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1)
 
 
 * **Get mentors**
@@ -106,7 +106,7 @@ For Finding Women: Go to dance classes or traveller hostels
     * To research and find commonalities
     * Find out ways you can help them
 
-* When the world says No No No No No, and you hear a Yes, go towards that Yes as hard as you can.
+
 
 
 Great work requires teams. Developing a network of talented people to work with—sometimes closely, sometimes loosely—is an essential part of a great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
