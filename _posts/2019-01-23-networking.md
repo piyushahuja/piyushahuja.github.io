@@ -38,11 +38,18 @@ Your true educators and cultivators will reveal to you the original sense and ba
 
 There's a common misconception that you will be rewarded commensurately to how hard you work and how good your output is. In my view, this is false. Good networking will never compensate for poor performance, but doing a good job only takes you 80% of the way. The remaining 20% is contingent on what other people think and say about you. It is absolutely your responsibility to manage your brand and to build positive relationships with your colleagues. There's a common misconception - I think across industries, not just in consulting - that you will be rewarded commensurately to how hard you work and how good your output is. In my view, this is false. Good networking will never compensate for poor performance, but doing a good job only takes you 80% of the way. The remaining 20% is contingent on what otherpeople think and say about you. It is absolutely your responsibility to manage your brand and to build positive relationships with your colleagues. There's a common misconception - I think across industries, not just in consulting - that you will be rewarded commensurately to how hard you work and how good your output is. In my view, this is false. Good networking will never compensate for poor performance, but doing a good job only takes you 80% of the way. The remaining 20% is contingent on what otherpeople think and say about you. It is absolutely your responsibility to manage your brand and to build positive relationships with your colleagues.
 
+
+Great work requires teams. Developing a network of talented people to work with—sometimes closely, sometimes loosely—is an essential part of a great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
+
+
 **How to cultivate your tribe**?
 
-- Proximity (due to factors like convenience, the mere exposure effect, the odds of ever actually meeting each other, etc.)
-- Repeated, unplanned interactions (like at school, day care, play dates, extracurricular activities, church, parents' friends' kids, etc.)
-- A setting that allows or encourages people to open up and confide in each other.
+- Help people as much as you can. Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago.
+
+- Develop a reputation for really taking care of the people who work with you. Be overly generous with sharing the upside; it will come back to you 10x. 
+
+- A particularly valuable part of building a network is to get good at discovering undiscovered talent. Quickly spotting intelligence, drive, and creativity gets much easier with practice. The easiest way to learn is just to meet a lot of people, and keep track of who goes on to impress you and who doesn’t. Remember that you are mostly looking for rate of improvement, and don’t overvalue experience or current accomplishment.
+
 
 
 * You have to STRIVE. There is no good in just sitting around pretending everything is good. So start figuring out what you like and where others who like what you like might hang out. The world is filled with lonely people searching for others like themselves. They think they are too weird or awkward or their desires are too disgusting or revolting for anyone to be like them or like them. Guess what? They are wrong. No matter what you think of yourself or your habits there are legions of people just like you, who would like you, who want to be your friend. All you have to do is find each other. I'm not saying its easy but nothing good happens by itself -- you have to make it happen. No matter what you like, make a goal, write it on paper -- then go do the work to make it happen. It won't happen over night. But it WILL happen. It's the nature of humanity. We are social and seek others to be with and we will move heaven and earth to find that person who is like us and who will like us. And once it starts it starts a chain reaction of finding more and more until you have a group of like minded people. Don't know where to start? Look at the group Meetup.org. They have branches in most cities and have literally 1000s of areas of interest. No Meetup near you? Look at the Adult Education classes in your community -- their focus is social, learning how to knit or cook or make birdhouses is secondary. Find something you like or  MIGHT like and then find an organization that does it. Friendships will then form - IF YOU LET THEM.
@@ -53,6 +60,12 @@ There's a common misconception that you will be rewarded commensurately to how h
 
 * Doing things to fit in, doing things to seem cool, eats at your self-esteem. This happens slowly and gradually over the normal days of your lives, not just on one or two crazy nights. (Learn to say no. Most of us want to be loved, approved of, fit in, popular and so on. Unfortunately this also means saying a lot of yes when you really don't want to for fear of offending others. I am not a baseball fan, but there is this expression in baseball called the "fat pitch". It basically means as a batter you don't swing at every pitch that is coming at you, you patiently wait for the statistically high probability pitch because you only have limited chances at swinging. You need to think life and business the same way. There are too many distractions and low quality encounters, you cannot partake in all of them, otherwise you will be dragged down. Constantly ask yourself if what you are about to spend your time on actually help you advance your cause, if not, why are you doing it? I have trained my sales staff to fire customers, yes, fire customers. If the customer isn't economically viable for us to service, we are doing them a disservice by hanging on. We would certainly not able to run a business in a sustainable manner either. With people it is the same, you want to get ahead, then **spend time with quality individuals, do not tolerate mediocrity.** If you find yourself the lowest caliber person in the group, that would be fantastic!) 
 Spend time with friends.  When people go out, a lot of the emotionally draining time that they spend "out", they try to meet other people.  Meet other people during the day, doing activities you like to do besides drink and talk loud.  Spend time with your friends, with your loved ones.  Do things that you want to do.  Don’t eat ass.  I meant kiss ass.  Watch standup comedy.  You’ll be a funnier person 
+
+* Three Ingredients of Friendships
+    * Proximity (due to factors like convenience, the mere exposure effect, the odds of ever actually meeting each other, etc.)
+    *  Repeated, unplanned interactions (like at school, day care, play dates, extracurricular activities, church, parents' friends' kids, etc.)
+    *   A setting that allows or encourages people to open up and confide in each other.
+
 
 * **Small Dinner Parties** Instead of going out to drink with people you want to impress, whatever you do, choose one person you are close with, get some wine or chocolate, or blunts, whatever, and go at it.  Or cook a dinner for close friends (with wine)Small dinner parties give are 80% of the things I look forward to in life (especially, or should I say even, as a 22 year old).  Again, spending quality time with people you care about, for me, is much more fun than going to try and meet a lot of people in a loud dark place where are the girls are getting hit on and all the guys are blank-faced and no one actually wants to talk to you.  In fact, everyone is looking around the room all of the time to see what else is more interesting.  Small dinner parties essentially affirm your humanity.  It is a reunion of people that you care about (hopefully), or want to know more about, and provides for a much more fun night than trying to meet new people. Have a medium sized party with only people you like. I mean 25-40 people.  Hopefully you have a backyard or something.  Over this number things get crazy, and if you like crazy, more power to you.  I like things at this level.  I like being able to socialize with everyone completely comfortably.  I like introducing people to each other.  I like gathering up in a big circle around a fire with some beer with old and new friends, and friends of friends.  This beats crazy parties for me.  
 
@@ -65,7 +78,7 @@ I love movies.  I love standup comedy.  I love friends.  Actually, I would ne
  
 * **Down Memory Lane with a bunch of old friends**. Get together a bunch of people and play poker. Preferably a bunch of townie high school friends that you haven’t talked to in five years.  You know what I mean.  Catch up with people that you kind of used to hang around or even your old good friends.  Shoot the shit.  How are your lives going now? What are you all trying to do?  Remember the time that we almost went to jail?  Yeah that was crazy.  And Bucky had us all smoking black and milds for a few months before we realized it was really stupid.  Yeah.  Wow.  We were young.  Four years ago
 
-* **Call someone you haven’t talked to in a long time and say thank you*** 
+* **Call someone you haven’t talked to in a long time and say thank you** 
 Catching up with people makes us feel good.  If you feel lonely, call someone you haven’t called in a long time.  Someone you haven’t talked to.  They may think you’re crazy for having called them, but that doesn’t matter.  They probably won’t.  They’ll probably be flattered.  If they can’t talk then, schedule another time to talk to them.  Or you can write someone a letter or long email.  I love sending letters and long emails.  I’m about to do one right now.
 
 For Finding Women: Go to dance classes or traveller hostels
@@ -98,15 +111,6 @@ For Finding Women: Go to dance classes or traveller hostels
     * Find out ways you can help them
 
 
-
-
-Great work requires teams. Developing a network of talented people to work with—sometimes closely, sometimes loosely—is an essential part of a great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
-
-- Help people as much as you can. Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago.
-
-- Develop a reputation for really taking care of the people who work with you. Be overly generous with sharing the upside; it will come back to you 10x. 
-
-- A particularly valuable part of building a network is to get good at discovering undiscovered talent. Quickly spotting intelligence, drive, and creativity gets much easier with practice. The easiest way to learn is just to meet a lot of people, and keep track of who goes on to impress you and who doesn’t. Remember that you are mostly looking for rate of improvement, and don’t overvalue experience or current accomplishment.
 
 ----
 
