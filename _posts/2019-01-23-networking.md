@@ -492,9 +492,9 @@ Or offer a compliment, he suggested. “As experienced solo travelers know, oppo
 - [To My Ex-Best Friend on her wedding day](https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/)
 - [Consulting Networking](https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation)
 * [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
-
------
-
 - [Academia Networking](https://vlsicad.ucsd.edu/Research/Advice/network.html)
 - [Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
 - [The end of small talk](http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0)
+
+
+
