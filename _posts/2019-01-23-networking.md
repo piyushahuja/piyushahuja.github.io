@@ -51,7 +51,7 @@ My Tribe:
 - Chandigarh: Yatik, Dhruv, Saurabh 
 - MCA people: Tarun, Gainda, Shubham, Bhalu, Billi, Vipul.   
 - QC people: Mayank, Nikhil Mahajan, Salik Warsi, Fotedar
-- Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini
+- Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini, Alex
 - IITD: Kush, GD
 - IITB People: Khandu, Nadu, Sachin
 - Mentors: Florian, Alistair Beecher, RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
@@ -112,10 +112,9 @@ My Tribe:
         Now- “I admire your ____. You have helped me by ______. Since you appreciate my ___, it is important for me to point out the problems in this proposal. I do not think it works because ___. We may do __<an alternative if relevant>___. Let me know what you think about it.”
 
 
-* You may not be the best writer, best vocabularist or best grammarist - but you can care and make it all about your reader and that is all that matters truly in the end.
-* P.S. An extension of this that I practice - if anything I am saying/writing is not going to make the reader feel better or helping her improve, it is better to scratch it out. I know negative thoughts, darkness have a place but that is in fiction. In real life and non-fiction, look at what is beautiful and if something is not, think of how it can be improved.
+* You may not be the best writer, best vocabularist or best grammarist - but you can care and make it all about your reader and that is all that matters truly in the end. An extension of this that I practice - if anything I am saying/writing is not going to make the reader feel better or helping her improve, it is better to scratch it out. I know negative thoughts, darkness have a place but that is in fiction. In real life and non-fiction, look at what is beautiful and if something is not, think of how it can be improved.
 
-- If you don't ask, you won't receive. now the difference between being enthusiastic and pushy. Enthusiasm can be quite infectious, but being pushy simply means you are trying to impose your own interests, your own agenda onto others. No one likes being told, harassed, or tricked into doing anything, even if it might be in their best interests. Think of it this way, would you rather go to a party or a school assembly?  
+* If you don't ask, you won't receive. Know the difference between being enthusiastic and pushy. Enthusiasm can be quite infectious, but being pushy simply means you are trying to impose your own interests, your own agenda onto others. No one likes being told, harassed, or tricked into doing anything, even if it might be in their best interests. Think of it this way, would you rather go to a party or a school assembly?  
 
 -  Be competent. Know your stuff, know your product or services that you are trying to sell. Know your competitors, know your customer’s alternatives well. There is no quicker way to lose credibility when you aren’t prepared and exposed to be a know-nothing bullshitter. This is perhaps the biggest reason a lot of salespeople fail. They don’t put in the work in the first place and somehow expect to wing it.
 
