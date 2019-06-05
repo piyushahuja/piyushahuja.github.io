@@ -421,7 +421,7 @@ No one wants to feel stuck in a conversation. Having an exit plan will make you 
 > "I’m in a rush." “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. 
         *  This is especially good when meeting new people and you notice they are extra introverted, shy or in a hurry. Some people feel trapped and surrounded when someone pushes themselves onto them. By setting a deadline for the interaction they are more at ease and open. 
 
-> Be Honest and Courteous
+Be Honest and Courteous
 
 >  I would love to talk but i have to hurry… would you like to meet up sometime later..”
 
@@ -429,17 +429,19 @@ No one wants to feel stuck in a conversation. Having an exit plan will make you 
 
 >  “Just wanted to ensure..”
 
->  If they approached: “Is there anything else i can help you with”
+If they approached:
+
+>  : “Is there anything else i can help you with”
 
 >  Lets go checkout the X. Have you met my friend. 
 
 >  Can you introduce me to?/ Do you know anyone here.."
 
->  Have a purpose and be honest. “I wanted to talk to the host”
+Have a purpose and be honest.
+
+>  “I wanted to talk to the host”
 
 >  "I don’t want to monopolise your time."
-
->  Carry two drinks.
 
 >  "Lets go say hi!/ lets checkout the buffet"
 
