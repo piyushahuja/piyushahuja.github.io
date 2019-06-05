@@ -181,7 +181,6 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 
 
 
-
 > I knew a girl in college who everyone wanted to be around. Whenever she was around, the gathering was filled with laughter and meaning. She was one person everyone wanted to talk to. Some of my old college friends still talk about our “good old days”—which included that mystical college girl who led our gatherings into realms of purpose, healing, spirituality, friendship and meaning.  
  
 > This is what I discovered about her: No one really knew much about her.
@@ -217,26 +216,21 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 
 > So in those situations, who is really the smartest person in the room? The guy acting like (or at least thinking like) Mr. Spock -- the guy having trouble relating to the others in a casual, interesting way -- Or the guy who knows how to have a conversation without getting bogged down in literalism and inappropriate frameworks?
 
-----
-
-
-
-
-
+Be genuinely interested in a person: What was your background? The most interesting project they worked on? Ask open ended questions. Can spring from observing your surroundings.  Be genuinely interested. Get their story out. Be a patient listener (it is this, not fast talking, that gets a con man his coups). Learn to master questions - One of the best ways to show you're a great listener is to ask great questions that are really relevant to the topic someone's talking about. Have a genuine curiosity to get to know people. The second key to being well spoken is by asking questions you genuinely care or are curious about, versus ones you think will make you sound smart or clever. People palpate authenticity from the way a question is used: whether it is a genuine question, or just a way to make the asker show cleverness or superiority. Of course, questions can be genuine AND clever, as long as your questions are truthful to your interest and engagement. Have something to talk about: pay attention to timely topics and pay attention to what other people are paying attention to. It doesn't all have to come from "you" -- I have few original ideas and even fewer insightful ones -- but I can share insight I have observed or read about from others, and I can be a bridge or connector in a conversation. You may want to start by becoming a connector or bridge in a conversation, versus a "driver" of conversations.
 
 ----
 
 **Paraphrase** Paraphrasing is the swiss army knife of communication: allows you to reframe, or pause, or think about the answer.
 
-----
-
-
-
- 
-
 ---
 
-**Bad Practice: Don't try to argue with people 'just for the sake of it' or to 'test if they come up with good counter-points'.** It's disrespectful. If you really want to talk about an issue in a debate format, express your desire and see whether the other person agrees or not.
+**Bad Practice: Don't try to argue with people 'just for the sake of it' or to 'test if they come up with good counter-points'.** It's disrespectful. If you really want to talk about an issue in a debate format, express your desire and see whether the other person agrees or not.  Do not pick up debates or arguments for the sake of intellectual discussion. 
+
+**Good Practice: If you disagree or have strong opinions, disagree in a polite way** Show/don’t tell kind of way by agreeably leading the person to the absurd conclusions (only with people you want to do this to, especially pretentious people who care about high status). Practice Satire.
+
+----
+
+**Bad Practice: Don’t gossip or bitch or complain.**
 
 
 ---
@@ -246,6 +240,11 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 
 It's not easy being charismatic, funny, witty and sharp all the time in conversation in your own. One great way to make conversations easier is to pair up with a good friend when you chat with others. This way you have someone there that you can always lean on in case the new conversation doesn't flow that well. 
 
+-----
+
+
+**Good practice: Tell stories with an Us Mentality** 
+
 Creating togetherness through storytelling aka “Us mentality”. Basically when talking with a person you create a story around yourselves, a bubble for your own reality. This can be applied to an individual person but it’s also used as a common technique by public speakers when trying to pull the audience into their own reality. Us mentality can be projected in any tense:
 Past: “Oh, I didn’t know you went to Jamaica last year. Imagine if we both met there how much fun we would’ve had doing this and that etc… I have a friend who knows this place etc…”
 Present: “Why are you here at this event? Oh networking for your startups? How about the two us team up together and help each other find the right people for our business, I have some friends that might help you and you can also introduce me to your niche because I’m interested. It will be our own little internal conspiration, they won’t know what hit them”
@@ -253,21 +252,7 @@ Future: “Oh you like doing long road trips? Have you ever been on a Eurotrip? 
 
 ---
 
-Be genuinely interested in a person: What was your background? The most interesting project they worked on? Ask open ended questions. Can spring from observing your surroundings.  Be genuinely interested. Get their story out. Be a patient listener (it is this, not fast talking, that gets a con man his coups). Learn to master questions - One of the best ways to show you're a great listener is to ask great questions that are really relevant to the topic someone's talking about. Have a genuine curiosity to get to know people. The second key to being well spoken is by asking questions you genuinely care or are curious about, versus ones you think will make you sound smart or clever. People palpate authenticity from the way a question is used: whether it is a genuine question, or just a way to make the asker show cleverness or superiority. Of course, questions can be genuine AND clever, as long as your questions are truthful to your interest and engagement. Have something to talk about: pay attention to timely topics and pay attention to what other people are paying attention to. It doesn't all have to come from "you" -- I have few original ideas and even fewer insightful ones -- but I can share insight I have observed or read about from others, and I can be a bridge or connector in a conversation. You may want to start by becoming a connector or bridge in a conversation, versus a "driver" of conversations.
-
-
-
------
-
- Don’t gossip or bitch or complain. Do not pick up debates or arguments for the sake of intellectual discussion. To continue the conversation, install humour or stories or show don’t tell kind of thing, and if you disagree or have strong opinions, disagree in a polite way or again, with show/don’t tell kind of way by agreeably leading the person to the absurd conclusions (only with people you want to do this to, especially pretentious people who care about high status). Practice Satire. 
-
- ----
-
-
-
 **Find a common connection: a hobby or achievement or common friend of your own.** 
-
-
 
 
 * https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/
@@ -299,16 +284,16 @@ Be genuinely interested in a person: What was your background? The most interest
 * Conversational Sparks. At the end of each topic or blurb, throw out a conversational spark. The purpose of the conversational spark is to...you guessed it, spark a further conversation. “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?” “... I can't believe they did that, what would you guys do in that situation?” …or you could just go in with the “Would you rather…?” game. Use with caution.  Would you rather : Have a good holiday which you remember, or a great holiday which you forget Artist or Happy Rich and Ugly, or Poor and Good looking
 
 * Match their energy, then add 10%.
-1 ) Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
+    * Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
 “Wow Greg. You look pretty dapper. Hot date tonight?”
 “Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
-2 ) Ask for their advice.  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
+    * Ask for their advice.  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
 “You know Greg, I’m supposed to plan a first date with this girl I really like but I’m afraid of screwing it up. Where do you like to take your dates?”
 “Susan! That reminds me, do you have any nephews around the age of 7? It’s my nephews birthday next week and I haven’t a clue what to get him.”
-3 ) Food. You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals.
-“I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
-“Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?”
-Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
+    * Food.  You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals. 
+        * “I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
+        * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
+        * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
 
 -----
      
