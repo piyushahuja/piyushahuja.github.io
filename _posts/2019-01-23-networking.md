@@ -320,18 +320,7 @@ Awesome introductions - When you introduce someone, don't just introduce them by
 **Situation:  Run out of things to say? Awkward conversation.**
 Do Word association. Person talking about their trip to Costa Rica? What do you think of when you think of Costa Rica? Beach? Tan? Surfing? Beer? Palm trees? That one time your friend went and something crazy happened. The more you do this, the better you’ll get at it. You’ll be able to talk and think of witty things to say on the spot for any situation. It takes practice in the beginning, but is a useful way to never have an awkward silence again. 
 
----
 
-
-**Good practice: Care about names**
-
-- People will connect with you much better if you show that they're important to you. One of the best ways to do this is to remember their names. How? 
-    - Repeat someone's name right after they introduce themselves to me. 
-    - Think of a celebrity that has the same name so that it helps my memory by association. 
-- But You don’t care about someone’s name, you care about how the interaction goes and how they make you feel.
-    -  I’ve had so many sales people trying to build comfort with me by mentioning my name every 10 seconds after I introduced myself it actually becomes unpleasant, I know where this is going. A close friend would not say my name 10 times per minute. 
-    -  What I do instead if I really see I actually click with a person and realize I totally forgot their name, I just ask them to say my name again. 
-    -  “Do you remember my name? You will notice that 3/4 times they would have also forgotten and then you just polarize and laugh, “Haha It’s fine I also forgot, let’s introduce ourselves again”. It takes the pressure of your shoulders and makes you more relaxed. If they actually remember, just say ”I totally forgot your name, I didn’t think we would be talking such interesting things, what was it again?” while smiling 
 
 ---
 
@@ -348,10 +337,8 @@ At least stand around two/three person when you eat even if you don't talk to th
 
 ---
 
----
 
-
-**Situation: How to shake hands**
+**Situation: How to shake hands?**
 
 Someone else said something to the effect of "Turn your hand over so your palm is facing down. That shows dominance." Okay sure, but do you always want to show dominance? Is it ALL ALPHA ALL THE TIME with you? If so, you might be a jerk.
 You should be able to divide the people with whom you shake hands into three rough categories:
@@ -364,9 +351,18 @@ You should be able to divide the people with whom you shake hands into three rou
 
 ---
 
-**Situation: I don't remember/know their name but it's too late to ask**
 
-Introduce them to someone else. Call over your friend Steve, turn back to the person you were speaking to and say, "This is my friend Steve." Pause. The other person will reveal his/her name to Steve and you will hear it. If you don't have a friend named Steve, a friend with another name can also work. In a pinch, you can use a waitress with a nametag.
+**Good practice: Care about names. Situation: I don't remember/know their name but it's too late to ask**
+
+- People will connect with you much better if you show that they're important to you. One of the best ways to do this is to remember their names. How? 
+    - Repeat someone's name right after they introduce themselves to me. 
+    - Think of a celebrity that has the same name so that it helps my memory by association. 
+- But You don’t care about someone’s name, you care about how the interaction goes and how they make you feel.
+    -  I’ve had so many sales people trying to build comfort with me by mentioning my name every 10 seconds after I introduced myself it actually becomes unpleasant, I know where this is going. A close friend would not say my name 10 times per minute. 
+    -  What I do instead if I really see I actually click with a person and realize I totally forgot their name, I just ask them to say my name again. 
+    -  “Do you remember my name? You will notice that 3/4 times they would have also forgotten and then you just polarize and laugh, “Haha It’s fine I also forgot, let’s introduce ourselves again”. It takes the pressure of your shoulders and makes you more relaxed. If they actually remember, just say ”I totally forgot your name, I didn’t think we would be talking such interesting things, what was it again?” while smiling 
+    -  Introduce them to someone else. Call over your friend Steve, turn back to the person you were speaking to and say, "This is my friend Steve." Pause. The other person will reveal his/her name to Steve and you will hear it. If you don't have a friend named Steve, a friend with another name can also work. In a pinch, you can use a waitress with a nametag.
+
 
 ---
 
@@ -429,7 +425,7 @@ Then follow up with more words when she responds--this is a thing called "conver
 
 Then keep talking and try to make the conversation awesomer, to a sufficient level of awesome that you can plausibly say (and she might plausibly agree) something about how awesome and fun it is to talk to her and that you should continue talking later. Humor in this phase is really helpful.  
 
-Note: If it's a really great conversation, she may be interested in meeting you again **even if she's not romantically available to you.** So IF, later in the conversation when you ask her to meet you and talk more, you want her to say no if she's not interested in you as a potential romantic partner, now is a good time to compliment a single aspect of her appearance. This will convey in a non-creepy way some level of romantic interest from you. Here's how:
+Note: If it's a really great conversation, she may be interested in meeting you again even if she's not romantically available to you. So IF, later in the conversation when you ask her to meet you and talk more, you want her to say no if she's not interested in you as a potential romantic partner, now is a good time to compliment a single aspect of her appearance. This will convey in a non-creepy way some level of romantic interest from you. Here's how:
 
 Complimenting her coat, a statement necklace, or her great shoes--anything it looks like she deliberately chose and maybe expresses her style--is a good and subtle choice. (Complimenting ratty sweatpants will come across as either sarcastic or trying too hard.)  That might be a line of conversation--where she found the item or whether those shoes are comfortable. Note that "statement pieces" like a really note-worthy or eye-catching or unusual jacket or accessory are called "statement" for a reason: they are worthy of conversation and she will likely be open to talking about them. You will get to know if she loves vintage or got it from her grandmother or wears this jacket to all her interviews or bought this scarf because it doubles as a picnic blanket in a pinch.
 
