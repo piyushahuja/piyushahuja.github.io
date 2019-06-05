@@ -149,20 +149,18 @@ I’m in a rush. This is especially good when meeting new people and you notice 
 
 ----
 
-Paraphrasing is the swiss army knife of communication: allows you to reframe, or pause, or think about the answer.
+**Paraphrase** Paraphrasing is the swiss army knife of communication: allows you to reframe, or pause, or think about the answer.
 
 ----
 
 
 Exude calm and sense of security, that is "I do not care  about what other people think."
 
-----
-
-
 Be at home, instead of being like an intruder. Play the host: Approach and Be approachable.  Moving comfortably and gracefully. Spreading out your body to full comfort. Taking up a lot of space with your body. Move with courage and confidence.  Keep your body language open, tall, and engaging. Lean back, relax, smile, people watch, and make eye contact. You, nicely dressed, peppy, walk with charisma into the room, and act like you own the damn place.  Imagine yourself as the man, and everybody else like an inanimate object.  Feel as if you've built the building, like you've invited everyone to the party, like the people are yours to own.  This may turn some folks off, but you don't care about those.  
 
+----
 
-Assume Everyone is Your Friend - When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
+**Assume Everyone is Your Friend** - When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
 
 
 ---
@@ -179,7 +177,8 @@ Walk in with a smile. Remember, other people are shy and anxious as well!   
 
 **Bad Practice: Don't try to argue with people 'just for the sake of it' or to 'test if they come up with good counter-points'.** It's disrespectful. If you really want to talk about an issue in a debate format, express your desire and see whether the other person agrees or not.
 
---
+
+---
 
 
 **Good practice: Buddy up** 
