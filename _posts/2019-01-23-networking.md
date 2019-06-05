@@ -75,7 +75,7 @@ My Tribe:
 
 **Pitching to Strangers**
 
-* The key is that every form of communication is not about *me* but about you. Including this post. If the information I share here cannot help you improve and is not implementable, it is useless. You can apply this little shift of mindset to improve any form of communication. What is going to motivate anyone to do something for others? For money? For vanity? For altruism? If you can’t answer that question regarding whoever you are trying to target or sell to, then you haven’t done your homework. The least you can do is to do some digging and come up with a decent pitch. So instead of can you do this and that for me, you really should be putting a bit effort, tell a compelling story when you have nothing material to offer. offer something of value before you ask for anything. sales isn't about selling a product. It is about creating value-generating relationships that enrich the lives and businesses of both parties.  As you prepare your pitch, clarify your purpose and strategy by making sure you can answer these three questions:
+* The key is that every form of communication is not about *me* but about you. Including this post. If the information I share here cannot help you improve and is not implementable, it is useless. You can apply this little shift of mindset to improve any form of communication. What is going to motivate anyone to do something for others? For money? For vanity? For altruism? If you can’t answer that question regarding whoever you are trying to target or sell to, then you haven’t done your homework. The least you can do is to do some digging and come up with a decent pitch. So instead of can you do this and that for me, you really should be putting a bit effort, tell a compelling story when you have nothing material to offer. offer something of value before you ask for anything. sales isn't about selling a product. It is about creating value-generating relationships that enrich the lives and businesses of both parties.  You may not be the best writer, best vocabularist or best grammarist - but you can care and make it all about your reader and that is all that matters truly in the end. An extension of this that I practice - if anything I am saying/writing is not going to make the reader feel better or helping her improve, it is better to scratch it out. I know negative thoughts, darkness have a place but that is in fiction. In real life and non-fiction, look at what is beautiful and if something is not, think of how it can be improved. As you prepare your pitch, clarify your purpose and strategy by making sure you can answer these three questions:
     After someone hears your pitch...
     * What do you want them to *know*?
     * What do you want them to *feel*?
@@ -112,16 +112,12 @@ My Tribe:
         Now- “I admire your ____. You have helped me by ______. Since you appreciate my ___, it is important for me to point out the problems in this proposal. I do not think it works because ___. We may do __<an alternative if relevant>___. Let me know what you think about it.”
 
 
-* You may not be the best writer, best vocabularist or best grammarist - but you can care and make it all about your reader and that is all that matters truly in the end. An extension of this that I practice - if anything I am saying/writing is not going to make the reader feel better or helping her improve, it is better to scratch it out. I know negative thoughts, darkness have a place but that is in fiction. In real life and non-fiction, look at what is beautiful and if something is not, think of how it can be improved.
-
-* If you don't ask, you won't receive. Know the difference between being enthusiastic and pushy. Enthusiasm can be quite infectious, but being pushy simply means you are trying to impose your own interests, your own agenda onto others. No one likes being told, harassed, or tricked into doing anything, even if it might be in their best interests. Think of it this way, would you rather go to a party or a school assembly?  
+* If you don't ask, you won't receive. Know the difference between being enthusiastic and pushy. Enthusiasm can be quite infectious, but being pushy simply means you are trying to impose your own interests, your own agenda onto others. No one likes being told, harassed, or tricked into doing anything, even if it might be in their best interests.
 
 -  Be competent. Know your stuff, know your product or services that you are trying to sell. Know your competitors, know your customer’s alternatives well. There is no quicker way to lose credibility when you aren’t prepared and exposed to be a know-nothing bullshitter. This is perhaps the biggest reason a lot of salespeople fail. They don’t put in the work in the first place and somehow expect to wing it.
 
 ---
 
-
-- Paraphrasing is the swiss army knife of communication: allows you to reframe, or pause, or think about the answer.
 
 - Get Pre event practice and momentum by talking to Baristas, Co-workers etc. for 1-3 minutes. 
 
@@ -151,11 +147,14 @@ My Tribe:
 
 I’m in a rush. This is especially good when meeting new people and you notice they are extra introverted, shy or in a hurry. “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. Some people feel trapped and surrounded when someone pushes themselves onto them. By setting a deadline for the interaction they are more at ease and open. 
 
+----
+
+Paraphrasing is the swiss army knife of communication: allows you to reframe, or pause, or think about the answer.
 
 ----
 
 
-Exude calm and sense of security, that is "I do not about other people think."
+Exude calm and sense of security, that is "I do not care  about what other people think."
 
 ----
 
