@@ -12,15 +12,12 @@ permalink: /networking
 
 
 
-> I tried to secure her a specialist appointment at Huashan Hospital, one of the best public hospitals in Shanghai, only to discover that they were full till the end of August. You could still make an appointment, but only if you knew somebody on the inside — only if you had enough “guanxi,” the network of connections and relationships that make China function
-
-> The previous principal liked to boast about the guanxi he had via those parents. “When my father needed heart surgery,” he said once in a faculty meeting, “I asked my secretary to locate a parent who worked at the president’s office in Huashan Hospital. And I soon found one.”
+> I tried to secure her a specialist appointment at Huashan Hospital, one of the best public hospitals in Shanghai, only to discover that they were full till the end of August. You could still make an appointment, but only if you knew somebody on the inside — only if you had enough “guanxi,” the network of connections and relationships that make China function... The previous principal liked to boast about the guanxi he had via those parents. “When my father needed heart surgery,” he said once in a faculty meeting, “I asked my secretary to locate a parent who worked at the president’s office in Huashan Hospital. And I soon found one.”
 
 
-> Let me give you a personal example of how spending time getting to know your colleagues is important. Early in my career, I got staffed on a project because I passed by an Associate's desk before thinking "hey, I really should go and say hello". We chatted for a few minutes and I mentioned that I had just rolled off a case. She said "Great! We actually need a consultant for a couple of weeks! Are you interested?" And within about thirty minutes, I was staffed. It was that simple, and the project ultimately ended up being one of my best at the firm.
+>  Early in my career, I got staffed on a project because I passed by an Associate's desk before thinking "hey, I really should go and say hello". We chatted for a few minutes and I mentioned that I had just rolled off a case. She said "Great! We actually need a consultant for a couple of weeks! Are you interested?" And within about thirty minutes, I was staffed. It was that simple, and the project ultimately ended up being one of my best at the firm.
 
 > Personally, in the 6+ months leading up to my promotion, I made sure that I had frequent check-ins with my career advisor - to let him know new responsibilities I had taken on, new content knowledge I had developed, or any concerns I had about my project.
-
 
 > I checked a lot of boxes, had great scientific output, managed underlings well, had an excellent pedigree (including top tier undergrad and grad schools and Nobel laureate as my immediate postdoc supervisor), but failed to obtain a tenure track position.  Looking at the peers who made it and didn't (including ones that were slightly less deficient), I realized it's because you need to have one of those PIs go to bat for you. It was something as a leader I did for my underlings (I arranged for both of my interns to have one-on-one lunches with a Nobel laureate and  his buddy that didn't get to win a prize in spite of inventing site directed mutagenesis - an experience that I haven't even had myself). As soon as I realized that my high profile bosses had checked out and would never go to bat for me or anyone really (still love them though) I got out of dodge.
 
