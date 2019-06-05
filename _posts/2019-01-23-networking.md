@@ -429,23 +429,26 @@ Be Honest and Courteous
 
 >  “Just wanted to ensure..”
 
+>  "I don’t want to monopolise your time."
+
+>  "Ah, but don't let me keep you."
+
 If they approached:
 
 >  : “Is there anything else i can help you with”
 
 >  Lets go checkout the X. Have you met my friend. 
-
->  Can you introduce me to?/ Do you know anyone here.."
+  
 
 Have a purpose and be honest.
 
+
+
+>  Can you introduce me to?/ Do you know anyone here.."
+
 >  “I wanted to talk to the host”
 
->  "I don’t want to monopolise your time."
-
 >  "Lets go say hi!/ lets checkout the buffet"
-
->  "Ah, but don't let me keep you."
 
 
 
