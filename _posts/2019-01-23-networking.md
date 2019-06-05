@@ -281,7 +281,13 @@ Future: “Oh you like doing long road trips? Have you ever been on a Eurotrip? 
 
 * For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. For Finding Dates: Go to dance classes or traveller hostels
 
-* Conversational Sparks. At the end of each topic or blurb, throw out a conversational spark. The purpose of the conversational spark is to...you guessed it, spark a further conversation. “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?” “... I can't believe they did that, what would you guys do in that situation?” …or you could just go in with the “Would you rather…?” game. Use with caution.  Would you rather : Have a good holiday which you remember, or a great holiday which you forget Artist or Happy Rich and Ugly, or Poor and Good looking
+* Conversational Sparks. At the end of each topic or blurb, throw out a conversational spark. The purpose of the conversational spark is to...you guessed it, spark a further conversation.
+    *  “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?”
+    *   “... I can't believe they did that, what would you guys do in that situation?”
+    *  You could just go in with the “Would you rather…?” game. Use with caution.  
+        *  Would you rather : Have a good holiday which you remember, or a great holiday which you forget ? 
+        *  Artist or Happy 
+        *  Rich and Ugly, or Poor and Good looking
 
 * Match their energy, then add 10%.
     * Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
