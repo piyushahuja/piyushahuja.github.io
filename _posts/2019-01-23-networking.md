@@ -412,24 +412,38 @@ Do Word association. Person talking about their trip to Costa Rica? What do you 
 
 **Situation: Want to end the conversation** 
 
-No one wants to feel stuck in a conversation. Having an exit plan will make you feel more comfortable jumping into those conversations. An easy script to politely end the conversation is: 
-    * "I've got to run, it was nice meeting you [Name]."    
-    * "I’m in a rush." “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. 
+No one wants to feel stuck in a conversation. Having an exit plan will make you feel more comfortable jumping into those conversations. End Gracefuly. With a compliment and summary.
+
+>  I really appreciate the advice on. Well, thanks for ...
+
+>  "I've got to run, it was nice meeting you [Name]."    
+
+> "I’m in a rush." “Hi, I have 5 minutes before I need to run and do this errand but I just wanted to ask you if…”. 
         *  This is especially good when meeting new people and you notice they are extra introverted, shy or in a hurry. Some people feel trapped and surrounded when someone pushes themselves onto them. By setting a deadline for the interaction they are more at ease and open. 
-    - How to end:: 
-    - End Gracefuly. With a compliment and summary. I really appreciate the advice on. Well, thanks for ...
-    -  Be Honest and Courteous
-    * I would love to talk but i have to hurry… would you like to meet up sometime later..”
-    * Well/So…its been great catching up with you.
-    * “Just wanted to ensure..”
-    * If they approached: “Is there anything else i can help you with”
-    * Lets go checkout the X. Have you met my friend. 
-    * Can you introduce me to?/ Do you know anyone here.."
-    * Have a purpose and be honest. “I wanted to talk to the host”
-    * "I don’t want to monopolise your time."
-    * Carry two drinks.
-    * "Lets go say hi!/ lets checkout the buffet"
-    * "Ah, but don't let me keep you."
+
+> Be Honest and Courteous
+
+>  I would love to talk but i have to hurry… would you like to meet up sometime later..”
+
+>  Well/So…its been great catching up with you.
+
+>  “Just wanted to ensure..”
+
+>  If they approached: “Is there anything else i can help you with”
+
+>  Lets go checkout the X. Have you met my friend. 
+
+>  Can you introduce me to?/ Do you know anyone here.."
+
+>  Have a purpose and be honest. “I wanted to talk to the host”
+
+>  "I don’t want to monopolise your time."
+
+>  Carry two drinks.
+
+>  "Lets go say hi!/ lets checkout the buffet"
+
+>  "Ah, but don't let me keep you."
 
 
 
