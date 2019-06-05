@@ -229,11 +229,12 @@ Be genuinely interested in a person: What was your background? The most interest
 
 Sometimes small talk is good. E.g. elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
 
-
+> My first chance to put this new strategy into practice came with a woman I met at a party a few weeks later. She laughed when I explained my theory on big talk versus small talk and agreed to be the guinea pig. She was moving away the next week, so we both knew we’d have only this one date, but we pledged to do all we could to avoid small talk. That night, we talked big and we talked deep. I learned about her brother’s drug problem, about the ex she had left years before and about the feelings she still had for him. But we also joked about things both silly and shallow, managing to convince strangers that we had met in a fairground bumper-car accident, and recoiling in mock fright from a meal that was still wiggling on our plates. We laughed and we cried, and we learned nothing that would go on a résumé. Later, we kissed.
 
 * **Anchor on something common, reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others. 
      
     * **Find a common connection: a hobby or achievement or common friend of your own.** 
+    * But eliminate the dull droning on about facts and figures — whether it’s snowing or raining, how cold it is, what we do for work, how long it takes to get to work, where we went to school — all those things that we think we have to talk about with someone new but that tell us little about who the person really is. Replace mindless chatter about commuting times with a conversation about our weightiest beliefs and most potent fears. Questions that reveal who we are and where we want to go
 
     *  **Something common can be  memory you experienced together.** Memories create an instant connection. When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start with a memory.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction.   The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Highlighting great memories or successes that you had together in the past helps you reconnect. 
     *  **Reveal yourself. This can include stories about your “firsts.”** If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house, is a great place to start.  Tell stories of the past, present and future. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
@@ -268,7 +269,11 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
         * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
         * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
 
-*  **Open ended questions**
+*  **Open ended questions** 
+    *  One of the common questions I find myself asking a woman on a first date is where she has traveled. The response can quickly become a list of places, and once again we’re in résumé territory. So instead I’d ask, “What place most inspired you and why?”
+    *  Rather than ask about her job, I would ask, “What work are you passionate about?”
+    *  I wouldn’t ask about her longest relationship, as if length equals depth. Instead, I’d ask, “What’s the most in love you’ve ever felt?”
+
 
 > "What are you interested in these days?
 
@@ -511,9 +516,9 @@ Or offer a compliment, he suggested. “As experienced solo travelers know, oppo
 - [To My Ex-Best Friend on her wedding day](https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/)
 - [Consulting Networking](https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation)
 * [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
+- [The end of small talk](http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0)
 - [Academia Networking](https://vlsicad.ucsd.edu/Research/Advice/network.html)
 - [Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
-- [The end of small talk](http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0)
 
 
 
