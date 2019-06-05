@@ -118,7 +118,7 @@ My Tribe:
 
 ---
 
-**Cold Approach Practice**
+**A Guide to Small Talk (Networking Events, Dates, Meeting New People etc.)**
 
 - Get Pre event practice and momentum by talking to Baristas, Co-workers etc. for 1-3 minutes. 
 
@@ -188,9 +188,7 @@ Future: “Oh you like doing long road trips? Have you ever been on a Eurotrip? 
 
 ---
 
-Be genuinely interested in a person: What was your background? The most interesting project they worked on? Ask open ended questions. Can spring from observing your surroundings. 
-
-Be genuinely interested. Get their story out. Be a patient listener (it is this, not fast talking, that gets a con man his coups). Learn to master questions - One of the best ways to show you're a great listener is to ask great questions that are really relevant to the topic someone's talking about. Have a genuine curiosity to get to know people. The second key to being well spoken is by asking questions you genuinely care or are curious about, versus ones you think will make you sound smart or clever. People palpate authenticity from the way a question is used: whether it is a genuine question, or just a way to make the asker show cleverness or superiority. Of course, questions can be genuine AND clever, as long as your questions are truthful to your interest and engagement. Have something to talk about: pay attention to timely topics and pay attention to what other people are paying attention to. It doesn't all have to come from "you" -- I have few original ideas and even fewer insightful ones -- but I can share insight I have observed or read about from others, and I can be a bridge or connector in a conversation. You may want to start by becoming a connector or bridge in a conversation, versus a "driver" of conversations.
+Be genuinely interested in a person: What was your background? The most interesting project they worked on? Ask open ended questions. Can spring from observing your surroundings.  Be genuinely interested. Get their story out. Be a patient listener (it is this, not fast talking, that gets a con man his coups). Learn to master questions - One of the best ways to show you're a great listener is to ask great questions that are really relevant to the topic someone's talking about. Have a genuine curiosity to get to know people. The second key to being well spoken is by asking questions you genuinely care or are curious about, versus ones you think will make you sound smart or clever. People palpate authenticity from the way a question is used: whether it is a genuine question, or just a way to make the asker show cleverness or superiority. Of course, questions can be genuine AND clever, as long as your questions are truthful to your interest and engagement. Have something to talk about: pay attention to timely topics and pay attention to what other people are paying attention to. It doesn't all have to come from "you" -- I have few original ideas and even fewer insightful ones -- but I can share insight I have observed or read about from others, and I can be a bridge or connector in a conversation. You may want to start by becoming a connector or bridge in a conversation, versus a "driver" of conversations.
 
 ------
 
@@ -239,11 +237,10 @@ And, it really didn’t matter what she asked, the conversation could go on for 
  ----
 
 
+
 **Find a common connection: a hobby or achievement or common friend of your own.** 
 
 
-
-Breaking Small Talk (Networking Events, Dates, Meeting New People etc.) 
 
 
 * https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/
