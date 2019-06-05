@@ -475,12 +475,13 @@ For Finding Women: Go to dance classes or traveller hostels
 - [How do I develop strong presence and personality?](https://www.quora.com/How-do-I-develop-a-strong-presence-and-personality)
 - [How to speak for yourself](https://www.ted.com/talks/adam_galinsky_how_to_speak_up_for_yourself)
 - [Beyond formal conversations](https://yourstory.com/2017/10/conversations-beyond-formal-communication/?utm_source=FB&utm_medium=Bst)
+
 -----
 
-- https://vlsicad.ucsd.edu/Research/Advice/network.html
+- [Academia Networking](https://vlsicad.ucsd.edu/Research/Advice/network.html)
 - [Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
-- https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1
-- http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0
-- https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html
-- https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/
-- https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation
+- [Awkward Friendships we all have](https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1)
+- [The end of small talk](http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0)
+- [Chine](https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html)
+- [To My Ex-Best Friend on her wedding day](https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/)
+- [Consulting Networking](https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation)
