@@ -119,8 +119,6 @@ Great work requires teams. Developing a network of talented people to work with�
 
 ----
 
--------
-
 **Pitching to Strangers**
 
 * The key is that every form of communication is not about *me* but about you. Including this post. If the information I share here cannot help you improve and is not implementable, it is useless. You can apply this little shift of mindset to improve any form of communication. What is going to motivate anyone to do something for others? For money? For vanity? For altruism? If you can’t answer that question regarding whoever you are trying to target or sell to, then you haven’t done your homework. The least you can do is to do some digging and come up with a decent pitch. So instead of can you do this and that for me, you really should be putting a bit effort, tell a compelling story when you have nothing material to offer. offer something of value before you ask for anything. sales isn't about selling a product. It is about creating value-generating relationships that enrich the lives and businesses of both parties.  You may not be the best writer, best vocabularist or best grammarist - but you can care and make it all about your reader and that is all that matters truly in the end. An extension of this that I practice - if anything I am saying/writing is not going to make the reader feel better or helping her improve, it is better to scratch it out. I know negative thoughts, darkness have a place but that is in fiction. In real life and non-fiction, look at what is beautiful and if something is not, think of how it can be improved. As you prepare your pitch, clarify your purpose and strategy by making sure you can answer these three questions:
