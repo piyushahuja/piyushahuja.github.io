@@ -11,7 +11,7 @@ section: Home
 
 Update: I am moving to Cambridge (UK) in July 2019. 
 
-Download [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia) on Google playstore.  
+My long-term project, [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia) can now be downloaded on Google playstore.  
 
 
 I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Delhi) with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). Here's a [link to my thesis][thesis]. 
