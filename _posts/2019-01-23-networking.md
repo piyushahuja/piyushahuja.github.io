@@ -40,10 +40,44 @@ There's a common misconception that you will be rewarded commensurately to how h
 
 **How to cultivate your tribe**?
 
+- Proximity (due to factors like convenience, the mere exposure effect, the odds of ever actually meeting each other, etc.)
+- Repeated, unplanned interactions (like at school, day care, play dates, extracurricular activities, church, parents' friends' kids, etc.)
+- A setting that allows or encourages people to open up and confide in each other.
+
+
 You have to STRIVE. There is no good in just sitting around pretending everything is good. So start figuring out what you like and where others who like what you like might hang out. The world is filled with lonely people searching for others like themselves. They think they are too weird or awkward or their desires are too disgusting or revolting for anyone to be like them or like them. Guess what? They are wrong. No matter what you think of yourself or your habits there are legions of people just like you, who would like you, who want to be your friend. All you have to do is find each other. I'm not saying its easy but nothing good happens by itself -- you have to make it happen. No matter what you like, make a goal, write it on paper -- then go do the work to make it happen. It won't happen over night. But it WILL happen. It's the nature of humanity. We are social and seek others to be with and we will move heaven and earth to find that person who is like us and who will like us. And once it starts it starts a chain reaction of finding more and more until you have a group of like minded people. Don't know where to start? Look at the group Meetup.org. They have branches in most cities and have literally 1000s of areas of interest. No Meetup near you? Look at the Adult Education classes in your community -- their focus is social, learning how to knit or cook or make birdhouses is secondary. Find something you like or  MIGHT like and then find an organization that does it. Friendships will then form - IF YOU LET THEM.
 
 To have a friend you have to be a friend. You have to extend yourself. Offer your hospitality. Help someone out who needs a hand. And note -- that doesn't mean money. Money almost NEVER comes into play with real friendship so people who are all about the money are usually NOT your friend. Take your time and observe how people behave and see if they are worthy of your trust - and your friendship because your friendship is an incredibly valuable and precious thing, so precious that you couldn't possibly manage to have more than say, seven REALLY CLOSE friends. I count myself lucky that I have two or three friends I could risk my life on. Having seven would be cornucopia of benificence. You have to NURTURE and maintain friendships. You can't just call them once a year and expect the relationship to survive. You have to be there, partiicipate, commisserate, enjoy, laugh and be together. That takes time. After a certain number, the people you know are just acquaintances, maybe possible friends, but you won't have the time to nurture and build deep lasting frienships with all of them. So observe and choose -- and you will have the choice. There will be lots and lots of choices if you get out there and be where they are -- because they are looking for you too!
 
+
+
+* Doing things to fit in, doing things to seem cool, eats at your self-esteem. This happens slowly and gradually over the normal days of your lives, not just on one or two crazy nights. (Learn to say no. Most of us want to be loved, approved of, fit in, popular and so on. Unfortunately this also means saying a lot of yes when you really don't want to for fear of offending others. I am not a baseball fan, but there is this expression in baseball called the "fat pitch". It basically means as a batter you don't swing at every pitch that is coming at you, you patiently wait for the statistically high probability pitch because you only have limited chances at swinging. You need to think life and business the same way. There are too many distractions and low quality encounters, you cannot partake in all of them, otherwise you will be dragged down. Constantly ask yourself if what you are about to spend your time on actually help you advance your cause, if not, why are you doing it? I have trained my sales staff to fire customers, yes, fire customers. If the customer isn't economically viable for us to service, we are doing them a disservice by hanging on. We would certainly not able to run a business in a sustainable manner either. With people it is the same, you want to get ahead, then spend time with quality individuals, do not tolerate mediocrity. If you find yourself the lowest caliber person in the group, that would be fantastic!) 
+
+
+* Instead of going out to drink with people you want to impress, Whatever you do, choose one person you are close with, get some wine or chocolate, or blunts, whatever, and go at it.  Or  Cook a dinner for close friends (with wine) Small dinner parties give are 80% of the things I look forward to in life (especially, or should I say even, as a 22 year old).  Again, spending quality time with people you care about, for me, is much more fun than going to try and meet a lot of people in a loud dark place where are the girls are getting hit on and all the guys are blank-faced andno one actually wants to talk to you.  In fact, everyone is looking around the room all of the time to see what else is more interesting.  Small dinner parties essentially affirm your humanity.  It is a reunion of people that you care about (hopefully), or want to know more about, and provides for a much more fun night than trying to meet new people.
+
+* Go out, drink a lot if you want, and have as much fun as possible with friends (without caring what others think) Essentially, go out.  But go out with the mentality that you are going to have as much fun as possible tonight.  Make sure your friends are on board.  If you are having more fun than anyone in a given place, people will try to meet you.  Your night will be a lot more fun because your homework assignment is literally to have fun.  Things will be funnier.  You will smile more.  You will dance, hopefully.  You might play whatever game there is at the bar, joke with the bartender, be that really fun/funny new person that someone else gets to meet. 
+
+* Have a mind-blowing conversation with a friend
+Ideally this is the friend from idea number one.  Someone you are close with.  Make this person your best friend for the night.  Spill your guts.  Get them involved.  Emotions.  Crazy emotions.  What scares you.  What used to scare you.  What do you want that no one else knows?  Play the question game.  Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions: what is something I don’t know about you?  What is something not many people know about you?  You said something about X the other (day/week/month), how is it?  Remember, this is a conversation.  You have to share too.
+
+* Watch a good movie (or standup comedy) with someone you care about
+I love movies.  I love standup comedy.  I love friends.  Actually, I would never watch a movie by myself.  I save it to watch with someone else.  I hate watching movies by myself.  I’d rather read a book.  Sharing an experience this way both allows you to appreciate the movie more and build your relationship with the other person.  In fact, if you spend any time of high emotion with a person, even if that emotion isn’t related to your relationship together, you are likely to grow even closer.
+ 
+* Get together a bunch of people and play poker
+Preferably a bunch of townie high school friends that you haven’t talked to in five years.  You know what I mean.  Catch up with people that you kind of used to hang around or even your old good friends.  Shoot the shit.  How are your lives going now? What are you all trying to do?  Remember the time that we almost went to jail?  Yeah that was crazy.  And Bucky had us all smoking black and milds for a few months before we realized it was really stupid.  Yeah.  Wow.  We were young.  Four years ago
+
+* Call someone you haven’t talked to in a long time and say thank you 
+Catching up with people makes us feel good.  If you feel lonely, call someone you haven’t called in a long time.  Someone you haven’t talked to.  They may think you’re crazy for having called them, but that doesn’t matter.  They probably won’t.  They’ll probably be flattered.  If they can’t talk then, schedule another time to talk to them.  Or you can write someone a letter or long email.  I love sending letters and long emails.  I’m about to do one right now.
+
+* Have a medium sized party with only people you like
+I mean 25-40 people.  Hopefully you have a backyard or something.  Over this number things get crazy, and if you like crazy, more power to you.  I like things at this level.  I like being able to socialize with everyone completely comfortably.  I like introducing people to each other.  I like gathering up in a big circle around a fire with some beer with old and new friends, and friends of friends.  This beats crazy parties for me.  
+
+* Go Dancing/Kareoke-ing with friends Go nuts.  Pretend no one is looking when you dance.  They’ll look.  Pretend no one is looking when you sing.  They’ll look.  You’ll meet people very easily.  You’ll feel really, really good and you won’t know why.  Maybe it is all that time that you spent smiling.    
+
+* Spend time with friends.  When people go out, a lot of the emotionally draining time that they spend "out", they try to meet other people.  Meet other people during the day, doing activities you like to do besides drink and talk loud.  Spend time with your friends, with your loved ones.  Do things that you want to do.  Don’t eat ass.  I meant kiss ass.  Watch standup comedy.  You’ll be a funnier person 
+
+For Finding Women: Go to dance classes or traveller hostels
 
 
 
@@ -431,41 +465,6 @@ That lowly secretary knows everything. She looks like she’s minding her own bu
 
 ----
 
-- Proximity (due to factors like convenience, the mere exposure effect, the odds of ever actually meeting each other, etc.)
-- Repeated, unplanned interactions (like at school, day care, play dates, extracurricular activities, church, parents' friends' kids, etc.)
-- A setting that allows or encourages people to open up and confide in each other.
-
-Doing things to fit in, doing things to seem cool, eats at your self-esteem. (Learn to say no. Most of us want to be loved, approved of, fit in, popular and so on. Unfortunately this also means saying a lot of yes when you really don't want to for fear of offending others. I am not a baseball fan, but there is this expression in baseball called the "fat pitch". It basically means as a batter you don't swing at every pitch that is coming at you, you patiently wait for the statistically high probability pitch because you only have limited chances at swinging. You need to think life and business the same way. There are too many distractions and low quality encounters, you cannot partake in all of them, otherwise you will be dragged down. Constantly ask yourself if what you are about to spend your time on actually help you advance your cause, if not, why are you doing it? I have trained my sales staff to fire customers, yes, fire customers. If the customer isn't economically viable for us to service, we are doing them a disservice by hanging on. We would certainly not able to run a business in a sustainable manner either. With people it is the same, you want to get ahead, then spend time with quality individuals, do not tolerate mediocrity. If you find yourself the lowest caliber person in the group, that would be fantastic!)
- 
-This happens slowly and gradually over the normal days of your lives, not just on one or two crazy nights.
-
-
-- Instead of going out to drink with people you want to impress, Whatever you do, choose one person you are close with, get some wine or chocolate, or blunts, whatever, and go at it.  Or  Cook a dinner for close friends (with wine) Small dinner parties give are 80% of the things I look forward to in life (especially, or should I say even, as a 22 year old).  Again, spending quality time with people you care about, for me, is much more fun than going to try and meet a lot of people in a loud dark place where are the girls are getting hit on and all the guys are blank-faced andno one actually wants to talk to you.  In fact, everyone is looking around the room all of the time to see what else is more interesting.  Small dinner parties essentially affirm your humanity.  It is a reunion of people that you care about (hopefully), or want to know more about, and provides for a much more fun night than trying to meet new people.
-
-- Go out, drink a lot if you want, and have as much fun as possible with friends (without caring what others think)
-Essentially, go out.  But go out with the mentality that you are going to have as much fun as possible tonight.  Make sure your friends are on board.  If you are having more fun than anyone in a given place, people will try to meet you.  Your night will be a lot more fun because your homework assignment is literally to have fun.  Things will be funnier.  You will smile more.  You will dance, hopefully.  You might play whatever game there is at the bar, joke with the bartender, be that really fun/funny new person that someone else gets to meet. 
-
-- Have a mind-blowing conversation with a friend
-Ideally this is the friend from idea number one.  Someone you are close with.  Make this person your best friend for the night.  Spill your guts.  Get them involved.  Emotions.  Crazy emotions.  What scares you.  What used to scare you.  What do you want that no one else knows?  Play the question game.  Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions: what is something I don’t know about you?  What is something not many people know about you?  You said something about X the other (day/week/month), how is it?  Remember, this is a conversation.  You have to share too.
-
-- Watch a good movie (or standup comedy) with someone you care about
-I love movies.  I love standup comedy.  I love friends.  Actually, I would never watch a movie by myself.  I save it to watch with someone else.  I hate watching movies by myself.  I’d rather read a book.  Sharing an experience this way both allows you to appreciate the movie more and build your relationship with the other person.  In fact, if you spend any time of high emotion with a person, even if that emotion isn’t related to your relationship together, you are likely to grow even closer.
- 
-- Get together a bunch of people and play poker
-Preferably a bunch of townie high school friends that you haven’t talked to in five years.  You know what I mean.  Catch up with people that you kind of used to hang around or even your old good friends.  Shoot the shit.  How are your lives going now? What are you all trying to do?  Remember the time that we almost went to jail?  Yeah that was crazy.  And Bucky had us all smoking black and milds for a few months before we realized it was really stupid.  Yeah.  Wow.  We were young.  Four years ago
-
-- Call someone you haven’t talked to in a long time and say thank you 
-Catching up with people makes us feel good.  If you feel lonely, call someone you haven’t called in a long time.  Someone you haven’t talked to.  They may think you’re crazy for having called them, but that doesn’t matter.  They probably won’t.  They’ll probably be flattered.  If they can’t talk then, schedule another time to talk to them.  Or you can write someone a letter or long email.  I love sending letters and long emails.  I’m about to do one right now.
-
-Have a medium sized party with only people you like
-I mean 25-40 people.  Hopefully you have a backyard or something.  Over this number things get crazy, and if you like crazy, more power to you.  I like things at this level.  I like being able to socialize with everyone completely comfortably.  I like introducing people to each other.  I like gathering up in a big circle around a fire with some beer with old and new friends, and friends of friends.  This beats crazy parties for me.  
-
-Go Dancing/Kareoke-ing with friends
-Go nuts.  Pretend no one is looking when you dance.  They’ll look.  Pretend no one is looking when you sing.  They’ll look.  You’ll meet people very easily.  You’ll feel really, really good and you won’t know why.  Maybe it is all that time that you spent smiling.    
-
-Spend time with friends.  When people go out, a lot of the emotionally draining time that they spend "out", they try to meet other people.  Meet other people during the day, doing activities you like to do besides drink and talk loud.  Spend time with your friends, with your loved ones.  Do things that you want to do.  Don’t eat ass.  I meant kiss ass.  Watch standup comedy.  You’ll be a funnier person 
-
-For Finding Women: Go to dance classes or traveller hostels
 
 ----
 
