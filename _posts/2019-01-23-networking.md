@@ -160,7 +160,28 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 
 ---
 
-**A Guide to Small Talk (Networking Events, Dates, Meeting New People etc.)**
+**Approaching an event (Networking Events, Dates, Meeting New People etc.)**
+
+
+* Get Pre event practice and momentum by talking to Baristas, Co-workers etc. for 1-3 minutes. 
+    * Wrong question “How do I start a conversation with [Specific Magic Snowflake Person]?”
+    * Right question: “How many people have you ALREADY started conversations with today?
+        + With each small conversation you start, you’re actually doing two things at once:
+            + You’re building the skill of starting conversations. Skills are something that you can improve over time, and they become a core part of who you are and how you see the world.
+            +  Newton’s first law: An object in motion stays in motion. You’re building momentum so that you can start more conversations throughout your day. It’s a virtuous cycle.
+
+* **Play the host** Approach and Be approachable. Exude calm and sense of security, that is "I do not care  about what other people think." Be at home, instead of being like an intruder.   Moving comfortably and gracefully. Spreading out your body to full comfort. Taking up a lot of space with your body. Sit where you will be noticed. Move with courage and confidence.  Keep your body language open, tall, and engaging. Lean back, relax, smile, people watch, and make eye contact. You, nicely dressed, peppy, walk with charisma into the room, and act like you own the damn place.  Imagine yourself as the man, and everybody else like an inanimate object.  Feel as if you've built the building, like you've invited everyone to the party, like the people are yours to own.  This may turn some folks off, but you don't care about those.  
+
+----
+
+**Assume Everyone is Your Friend** - When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
+
+
+---
+
+
+Walk in with a smile. Remember, other people are shy and anxious as well!   Introduce yourself.  Have a good elevator pitch - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career. Get a conversation going.  
+
 
 
 > I knew a girl in college who everyone wanted to be around. Whenever she was around, the gathering was filled with laughter and meaning. She was one person everyone wanted to talk to. Some of my old college friends still talk about our “good old days”—which included that mystical college girl who led our gatherings into realms of purpose, healing, spirituality, friendship and meaning.  
@@ -202,14 +223,6 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 
 
 
-- Get Pre event practice and momentum by talking to Baristas, Co-workers etc. for 1-3 minutes. 
-
-- Wrong question “How do I start a conversation with [Specific Magic Snowflake Person]?”
-    - Right question: “How many people have you ALREADY started conversations with today?
-        + With each small conversation you start, you’re actually doing two things at once:
-            + You’re building the skill of starting conversations. Skills are something that you can improve over time, and they become a core part of who you are and how you see the world.
-            +  Newton’s first law: An object in motion stays in motion. You’re building momentum so that you can start more conversations throughout your day. It’s a virtuous cycle.
-
 
 
 
@@ -220,17 +233,7 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 ----
 
 
-Exude calm and sense of security, that is "I do not care  about what other people think." Be at home, instead of being like an intruder. Play the host: Approach and Be approachable.  Moving comfortably and gracefully. Spreading out your body to full comfort. Taking up a lot of space with your body. Sit where you will be noticed. Move with courage and confidence.  Keep your body language open, tall, and engaging. Lean back, relax, smile, people watch, and make eye contact. You, nicely dressed, peppy, walk with charisma into the room, and act like you own the damn place.  Imagine yourself as the man, and everybody else like an inanimate object.  Feel as if you've built the building, like you've invited everyone to the party, like the people are yours to own.  This may turn some folks off, but you don't care about those.  
 
-----
-
-**Assume Everyone is Your Friend** - When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
-
-
----
-
-
-Walk in with a smile. Remember, other people are shy and anxious as well!   Introduce yourself.  Have a good elevator pitch - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career. Get a conversation going.  
  
 
 ---
