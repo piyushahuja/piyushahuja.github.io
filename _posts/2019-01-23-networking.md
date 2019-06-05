@@ -277,8 +277,9 @@ And, it really didn’t matter what she asked, the conversation could go on for 
 “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?”
 Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
 
+-----
      
-Cold Approaching
+**Cold Approaching**
 
 Find a not-creepy way to be near her, close enough that two normal people might actually talk to each other without, you know, an ulterior motive. Talk to her about the kinds of things you might have in common with *any human* in that place and time. It can be virtually ANYTHING. Literally I'd rather have a total stranger say "Nice weather we're having" than walk over and say, in essence, they have judged this book by its cover and they want it for themselves. You don't even know if this is a textbook or a graphic novel, foo'!  Here are some other ideas to get you started (note that questions have higher response rates than non-questions): 
 - In a coffee shop: "Hey, do you see any outlets over there?"
