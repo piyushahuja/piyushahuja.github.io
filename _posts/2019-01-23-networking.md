@@ -237,7 +237,10 @@ Sometimes small talk is good. E.g. Elevator Pitches for networking events, or wh
 * [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
 
 * Memories create an instant connection - When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start off the conversation with a memory you experienced together.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction. 
-- To start, ask an open ended question. “How is your day going?” “Are you having a good day?” What’s happening today? (Instead of What’s up?)
+* To start, ask an open ended question. 
+    * “How is your day going?” 
+    * “Are you having a good day?”
+    *  What’s happening today? (Instead of What’s up?)
 - Or Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas *as* you speak. What is ordinary to you is often a revelation to others. (ARE - Anchor on something Common, Reveal about you, encourage with a question. 
 - Ask other open ended questions:
     > "What are you interested in these days?
