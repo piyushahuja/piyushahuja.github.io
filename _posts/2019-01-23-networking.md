@@ -482,6 +482,6 @@ For Finding Women: Go to dance classes or traveller hostels
 - [Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
 - [Awkward Friendships we all have](https://www.upworthy.com/10-awkward-friendships-you-probably-have-we-all-have-a-9?c=ufb1)
 - [The end of small talk](http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0)
-- [Chine](https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html)
+- [Building guanxi](https://www.nytimes.com/2018/08/23/opinion/international-world/the-bitter-regrets-of-a-useless-chinese-daughter.html)
 - [To My Ex-Best Friend on her wedding day](https://thoughtcatalog.com/taylor-george/2014/07/to-my-ex-best-friend-on-her-wedding-day/)
 - [Consulting Networking](https://themcn.quora.com/How-to-Succeed-as-a-Consultant-Part-4-of-5-Networking-Reputation)
