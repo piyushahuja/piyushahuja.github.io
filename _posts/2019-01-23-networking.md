@@ -239,16 +239,23 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
     *  **Something common can be  memory you experienced together.**  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction.  Memories create an instant connection. When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start with a memory. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says.
     *  **Start with your “firsts.”** If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start. 
     *  **Ask open ended questions**:
-    
-    > "What are you interested in these days?
-    > Tell me what fascinates you!
-    > “How is your day going?” 
-    > “Are you having a good day?”
-    >  What’s happening today? (Instead of What’s up?)
-    > What's the funniest thing that's ever happened to you?" 
-    > "What's a stupid thing that always makes you laugh?
-    > Where all have you travelled? What place inspired you the most and why?
-    > 36 Questions! http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0
+> "What are you interested in these days?
+
+> Tell me what fascinates you!
+
+> “How is your day going?” 
+
+> “Are you having a good day?”
+
+>  What’s happening today? (Instead of What’s up?)
+
+> What's the funniest thing that's ever happened to you?" 
+
+> "What's a stupid thing that always makes you laugh?
+
+> Where all have you travelled? What place inspired you the most and why?
+
+> 36 Questions! http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0
 
 * Infuse Humour. 
 > “We go way back”   
