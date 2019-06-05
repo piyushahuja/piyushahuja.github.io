@@ -225,9 +225,6 @@ Be genuinely interested in a person: What was your background? The most interest
 
 ---
 
-
-----
-
 **How to have a memorable conversation?**
 
 Sometimes small talk is good. E.g. elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
@@ -244,9 +241,18 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
         *  “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?”
         *   “... I can't believe they did that, what would you guys do in that situation?”
         *  You could just go in with the “Would you rather…?” game. Use with caution.  
-         *  Would you rather : Have a good holiday which you remember, or a great holiday which you forget ? 
+             *  Would you rather : Have a good holiday which you remember, or a great holiday which you forget ? 
             *  Artist or Happy 
             *  Rich and Ugly, or Poor and Good looking
+            * “If you had to choose between a roof over your head and your right to vote, which would you choose?”
+        * “Did you ever wonder why humans cook our food, and other animals don’t?”
+        * “Do you think you are smarter than your parents?”
+        * “Are you optimistic about the world, or pessimistic — and what makes you feel that way?”
+        * “Do you think you can tell when someone is telling you a lie?”
+        * “If you could choose a sixth sense, what would it be?”
+        * “So, what’s your favorite word?”
+
+    
 
 
 * **Love life** Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
