@@ -19,7 +19,7 @@ I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_Institute_of_T
 After IIT Delhi, I read for a second BA in Philosophy, Politics and Economics at the University of Oxford. The [research section](/research)  gives a summary of my research projects.
 
 
-I've worked at these places: Jugnoom, Aurora Energy Research, Opera Solutions, and Deloitte Consulting. <!-- The [work section](/work)  spells out my professional experience in greater detail.   -->
+I've worked at these places: Jugnoo, Aurora Energy Research, Opera Solutions, and Deloitte Consulting. <!-- The [work section](/work)  spells out my professional experience in greater detail.   -->
 
 Resume and references available on request.
 
