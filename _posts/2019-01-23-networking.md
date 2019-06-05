@@ -234,7 +234,7 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 
 
-* **Anchor on something Common, Reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others. 
+* **Anchor on something common, reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others. 
      
     * **Find a common connection: a hobby or achievement or common friend of your own.** 
 
