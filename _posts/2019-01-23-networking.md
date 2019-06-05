@@ -236,8 +236,8 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 
 * **Anchor on something Common, Reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others. 
-    *  **Something common can be  memory you experienced together.**  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction.  Memories create an instant connection. When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start with a memory. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says.
-    *  **Start with your “firsts.”** If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start. 
+    *  **Something common can be  memory you experienced together.**  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction.  Memories create an instant connection. When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start with a memory. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says. Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. 
+    *  **Start with your “firsts.”** If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start.  Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
     *  **Ask open ended questions**:
 > "What are you interested in these days?
 
@@ -259,11 +259,13 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 * Infuse Humour. 
 > “We go way back”   
+
 > “We were separated when we were young”
+
 > “We planned all this”
 
 
-* Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
+
 
 * Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions
     * What is something I don’t know about you?  
