@@ -231,30 +231,30 @@ Be genuinely interested in a person: What was your background? The most interest
 
 **How to have a memorable conversation?**
 
-Sometimes small talk is good. E.g. Elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
+Sometimes small talk is good. E.g. elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
 
 
-* [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
 
-* Memories create an instant connection - When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start off the conversation with a memory you experienced together.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction. 
-* To start, ask an open ended question. 
-    * “How is your day going?” 
-    * “Are you having a good day?”
-    *  What’s happening today? (Instead of What’s up?)
-- Or Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas *as* you speak. What is ordinary to you is often a revelation to others. (ARE - Anchor on something Common, Reveal about you, encourage with a question. 
-- Ask other open ended questions:
+* **Anchor on something Common, Reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others. 
+    *  **Something common can be  memory you experienced together.**  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction.  Memories create an instant connection. When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start with a memory. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says.
+    *  **Start with your “firsts.”** If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start. 
+    *  **Ask open ended questions**:
+    
     > "What are you interested in these days?
     > Tell me what fascinates you!
+    > “How is your day going?” 
+    > “Are you having a good day?”
+    >  What’s happening today? (Instead of What’s up?)
     > What's the funniest thing that's ever happened to you?" 
     > "What's a stupid thing that always makes you laugh?
     > Where all have you travelled? What place inspired you the most and why?
     > 36 Questions! http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0
-- Infuse Humour. 
+
+* Infuse Humour. 
 > “We go way back”   
 > “We were separated when we were young”
 > “We planned all this”
 
-- Start with your “firsts.” If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says.
 
 * Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
 
@@ -286,6 +286,7 @@ Sometimes small talk is good. E.g. Elevator Pitches for networking events, or wh
         * “I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
         * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
         * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
+* [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
 
 -----
 
