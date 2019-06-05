@@ -281,14 +281,14 @@ Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn�
      
 **Cold Approaching**
 
-Find a not-creepy way to be near her, close enough that two normal people might actually talk to each other without, you know, an ulterior motive. Talk to her about the kinds of things you might have in common with *any human* in that place and time. It can be virtually ANYTHING. Literally I'd rather have a total stranger say "Nice weather we're having" than walk over and say, in essence, they have judged this book by its cover and they want it for themselves. You don't even know if this is a textbook or a graphic novel, foo'!  Here are some other ideas to get you started (note that questions have higher response rates than non-questions): 
+Find a not-creepy way to be near her, close enough that two normal people might actually talk to each other without, you know, an ulterior motive. Talk to her about the kinds of things you might have in common with *any human* in that place and time. It can be virtually ANYTHING. Literally I'd rather have a total stranger say "Nice weather we're having" then walk over and say, in essence, they have judged this book by its cover and they want it for themselves. You don't even know if this is a textbook or a graphic novel, foo'!  Here are some other ideas to get you started (note that questions have higher response rates than non-questions): 
 - In a coffee shop: "Hey, do you see any outlets over there?"
 - In a music store: "Wow, I can't believe places like this still exist! I feel like I should buy something just so I can tell my children about the experience someday. Any recommendations in [genre she is perusing]?"
 - Anywhere in New York City: "Wow, by the time they finally take this scaffolding down, nobody's going to be able to recognize this block."
 
 Asking for directions, the time, or whether she thinks it might rain are all acceptable. When she answers you can follow up with relatable commentary ("Wow, I hope I find that place in time for my meeting!" "Oh, man, my boss is not going to love it when I show up looking ready for a wet t-shirt contest thanks to this busted umbrella.")
 
-Just remember, relatability is essential. A wee bit of vulnerability is often very relatable (note the nervousness conveyed in the above examples)--maybe watch Brene Brown's famous TED talk for more on that. (Also, if you're in the market for smart women, many of them will like that you know Brene Brown and her work.) Interestingly, it is often the confident who are willing to talk about the things that make them a bit nervous--and confidence is a very attractive trait.  (But arrogance or self-aggrandizement is a huge turnoff so I'm emphasizing relatability here.) 
+Just remember, relatability is essential. A wee bit of vulnerability is often very relatable (note the nervousness conveyed in the above examples) Interestingly, it is often the confident who are willing to talk about the things that make them a bit nervous--and confidence is a very attractive trait.  (But arrogance or self-aggrandizement is a huge turnoff so I'm emphasizing relatability here.) 
 
 Bonus points for humor, of course. Often things are funny because they are relatable.
 
@@ -311,6 +311,7 @@ Many times, especially with a beautiful woman who gets chatted up all the time, 
 While Travelling:
 
 How to break the ice then? Dr. Epley suggests simply saying to that stranger on the bus or in the cafe: “Hi, I’m visiting. Can you tell me what I ought to see in town?” 
+
 “Everybody loves to brag about their city,” he said.
 Or offer a compliment, he suggested. “As experienced solo travelers know, opportunities for pleasurable connections are everywhere: trains, planes, parks, bars, museums, walking tours, group hikes. Yet should all that fail, technology provides seemingly innumerable ways to increase the odds. 
 
