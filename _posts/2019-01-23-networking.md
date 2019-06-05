@@ -172,10 +172,9 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 
 * **Play the host** Approach and Be approachable. Exude calm and sense of security, that is "I do not care  about what other people think." Be at home, instead of being like an intruder.   Moving comfortably and gracefully. Spreading out your body to full comfort. Taking up a lot of space with your body. Sit where you will be noticed. Move with courage and confidence.  Keep your body language open, tall, and engaging. Lean back, relax, smile, people watch, and make eye contact. You, nicely dressed, peppy, walk with charisma into the room, and act like you own the damn place.  Imagine yourself as the man, and everybody else like an inanimate object.  Feel as if you've built the building, like you've invited everyone to the party, like the people are yours to own.  This may turn some folks off, but you don't care about those.   Walk in with a smile. Remember, other people are shy and anxious as well!    Introduce yourself.  
 
-**Have a good elevator pitch** - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career.
-
-
 * **Assume Everyone is Your Friend** When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
+
+**Have a good elevator pitch** - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career.
 
 
 ---
