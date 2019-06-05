@@ -46,7 +46,7 @@ Great work requires teams. Developing a network of talented people to work with�
 
 **How to cultivate your tribe**?
 
-- Help people as much as you can. Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago.
+- Help people as much as you can. Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago. Keep coming up with simple ways to be useful to the people in your network. A few times a year is plenty. Pass things along to them. Mention their work to other people. Plug them in your talks. Include them in things. Get your department or laboratory to invite them to speak. Put them up when they come to town. Write reviews of their books. And invent other helpful things to do. None of this is mandatory, of course, but it helps. And I can't repeat this often enough: keep it low-key. Never, ever pressure anybody into anything. Don't say "please" or "I know you must be very busy", which can sound like emotional manipulation. Don't heap so much unsolicited help on someone that they feel crowded or obligated. Don't complain. Don't approach the whole business as a matter of supplication and begging, but rather as ordinary cooperation among equals. Likewise, make sure you're exchanging these favors out of courtesy and respect, and not as phony politicking -- everyone hates that stuff. Build relationships with personal friends outside of work so you won't be unconsciously trying to get professional contacts to play roles in your personal life (for example, the role of sounding board for your troubles). If you don't hear from someone for a while, let it ride. If you feel yourself getting obsessive about the process, go talk it out with someone you regard as wise.
 
 - Develop a reputation for really taking care of the people who work with you. Be overly generous with sharing the upside; it will come back to you 10x. 
 
@@ -90,7 +90,8 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 
 **My Tribe** 
 
-- Rock Friendships: 
+- Rock Friendships: Isabel,  GD, Prachi,  Richa Kumar, RBN
+
 - Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
 - Chandigarh: Yatik, Dhruv, Saurabh 
 - MCA people: Tarun, Gainda, Shubham, Bhalu, Billi, Vipul.   
@@ -158,6 +159,10 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 * If you don't ask, you won't receive. Know the difference between being enthusiastic and pushy. Enthusiasm can be quite infectious, but being pushy simply means you are trying to impose your own interests, your own agenda onto others. No one likes being told, harassed, or tricked into doing anything, even if it might be in their best interests.
 
 -  Be competent. Know your stuff, know your product or services that you are trying to sell. Know your competitors, know your customer’s alternatives well. There is no quicker way to lose credibility when you aren’t prepared and exposed to be a know-nothing bullshitter. This is perhaps the biggest reason a lot of salespeople fail. They don’t put in the work in the first place and somehow expect to wing it.
+
+- The tone of this letter counts. Project ordinary, calm self-confidence. Refrain from praising or fawning or self-deprecation or cuteness or making a big deal out of it -- you're not subordinating yourself to this person; you're just passing along your paper. Don't sound like you're presupposing or demanding that you'll get a response. Try a formula such as, "If you should happen to have any comments, I would be most interested to hear them". A good final sentiment for your letter is, "Will you be at such-and-such conference?".
+
+-  Here is the procedure: (a) choose someone you wish to approach and read their work with some care; (b) make sure that your article cites their work in some substantial way (in addition to all your other citations); (c) mail the person a copy of your article; and (d) include a low-key, one-page cover letter that says something intelligent about their work. If your work and theirs could be seen to overlap, include a concise statement of the relationship you see between them. 
 
 ---
 
@@ -231,10 +236,14 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 > My first chance to put this new strategy into practice came with a woman I met at a party a few weeks later. She laughed when I explained my theory on big talk versus small talk and agreed to be the guinea pig. She was moving away the next week, so we both knew we’d have only this one date, but we pledged to do all we could to avoid small talk. That night, we talked big and we talked deep. I learned about her brother’s drug problem, about the ex she had left years before and about the feelings she still had for him. But we also joked about things both silly and shallow, managing to convince strangers that we had met in a fairground bumper-car accident, and recoiling in mock fright from a meal that was still wiggling on our plates. We laughed and we cried, and we learned nothing that would go on a résumé. Later, we kissed.
 
+
+
 * **Anchor on something common, reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others. 
      
     * **Find a common connection: a hobby or achievement or common friend of your own.** 
     * But eliminate the dull droning on about facts and figures — whether it’s snowing or raining, how cold it is, what we do for work, how long it takes to get to work, where we went to school — all those things that we think we have to talk about with someone new but that tell us little about who the person really is. Replace mindless chatter about commuting times with a conversation about our weightiest beliefs and most potent fears. Questions that reveal who we are and where we want to go
+    
+    *  Unless you really know what you're doing, you should keep the conversation to safe, professional topics. Ask questions about their work that you genuinely want answered. Ask them about the people they work with. Figure out who you know (that is, professionally) in common. Say things like, "I hear that your school has started a new such-and-such program; is that something you were involved in?", or "So-and-so from your group joined our faculty recently; nice person, interesting work". If other people, projects, or laboratories come up in the conversation, say whatever positive things you honestly have to say about them -- avoid criticism and negativity.
 
     *  **Something common can be  memory you experienced together.** Memories create an instant connection. When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start with a memory.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction.   The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Highlighting great memories or successes that you had together in the past helps you reconnect. 
     *  **Reveal yourself. This can include stories about your “firsts.”** If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house, is a great place to start.  Tell stories of the past, present and future. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
@@ -253,7 +262,7 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
         * “If you could choose a sixth sense, what would it be?”
         * “So, what’s your favorite word?”
 
-    
+    * 
 
 
 * **Love life** Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
@@ -309,7 +318,7 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 > “We planned all this”
 
-
+* If the conversation doesn't seem to be going anywhere, that's not your fault. Don't force it. Don't set enormous expectations for a single conversation. It's a long-term process. Just say "nice chatting with you" in a pleasant way and let it go. If the interaction went well, you can end the conversation by saying, "do you have a business card?" in a mildly enthusiastic way (assuming you have one yourself); if they don't have a card then shrug and let it go. If the interaction leaves you feeling bad, go get some fresh air, acknowledge the feelings, and be nice to yourself. Talk it out with someone if you need to. Then carry on.
 
 -----
 
