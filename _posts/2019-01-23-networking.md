@@ -225,6 +225,67 @@ Be genuinely interested in a person: What was your background? The most interest
 
 ---
 
+**Find a common connection: a hobby or achievement or common friend of your own.** 
+
+----
+
+**How to have a memorable conversation?**
+
+
+* https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/
+- Sometimes small talk is good. E.g. Elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
+- Throw out social scripts. (How are you? Your elevator pitch etc.) 
+- Memories create an instant connection - When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start off the conversation with a memory you experienced together.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction. 
+- To start, ask an open ended question. “How is your day going?” “Are you having a good day?” What’s happening today? (Instead of What’s up?)
+- Or Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas *as* you speak. What is ordinary to you is often a revelation to others. (ARE - Anchor on something Common, Reveal about you, encourage with a question. 
+- Ask other open ended questions:
+    > "What are you interested in these days?
+    > Tell me what fascinates you!
+    > What's the funniest thing that's ever happened to you?" 
+    > "What's a stupid thing that always makes you laugh?
+    > Where all have you travelled? What place inspired you the most and why?
+    > 36 Questions! http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0
+- Infuse Humour. 
+> “We go way back”   
+> “We were separated when we were young”
+> “We planned all this”
+
+- Start with your “firsts.” If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says.
+
+* Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
+
+* Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions
+    * What is something I don’t know about you?  
+    * What is something not many people know about you?  You said something about X the other (day/week/month), how is it?  Remember, this is a conversation.  You have to share too.
+
+* For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. For Finding Dates: Go to dance classes or traveller hostels
+
+* Match their energy, then add 10%.
+
+
+* Conversational Sparks. At the end of each topic or blurb, throw out a conversational spark. The purpose of the conversational spark is to...you guessed it, spark a further conversation.
+    *  “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?”
+    *   “... I can't believe they did that, what would you guys do in that situation?”
+    *  You could just go in with the “Would you rather…?” game. Use with caution.  
+        *  Would you rather : Have a good holiday which you remember, or a great holiday which you forget ? 
+        *  Artist or Happy 
+        *  Rich and Ugly, or Poor and Good looking
+
+
+* Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
+    * “Wow Greg. You look pretty dapper. Hot date tonight?”
+    * “Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
+* Ask for their advice.  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
+    * “You know Greg, I’m supposed to plan a first date with this girl I really like but I’m afraid of screwing it up. Where do you like to take your dates?”
+    * “Susan! That reminds me, do you have any nephews around the age of 7? It’s my nephews birthday next week and I haven’t a clue what to get him.”
+* Food.  You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals. 
+        * “I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
+        * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
+        * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
+
+-----
+
+
 **Bad Practice: Don't try to argue with people 'just for the sake of it' or to 'test if they come up with good counter-points'.** It's disrespectful. If you really want to talk about an issue in a debate format, express your desire and see whether the other person agrees or not.  Do not pick up debates or arguments for the sake of intellectual discussion. 
 
 **Good Practice: If you disagree or have strong opinions, disagree in a polite way** Show/don’t tell kind of way by agreeably leading the person to the absurd conclusions (only with people you want to do this to, especially pretentious people who care about high status). Practice Satire.
@@ -251,74 +312,14 @@ Past: “Oh, I didn’t know you went to Jamaica last year. Imagine if we both m
 Present: “Why are you here at this event? Oh networking for your startups? How about the two us team up together and help each other find the right people for our business, I have some friends that might help you and you can also introduce me to your niche because I’m interested. It will be our own little internal conspiration, they won’t know what hit them”
 Future: “Oh you like doing long road trips? Have you ever been on a Eurotrip? Imagine how cool it would be if we went exploring together. I can be the driver, you can hold the map and direct me, I’m really bad at directions”This builds comfort and also makes people feel that they are onto something that no one else knows.
 
----
-
-**Find a common connection: a hobby or achievement or common friend of your own.** 
-
-
-* https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/
-- Sometimes small talk is good. E.g. Elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
-- Throw out social scripts. (How are you? Your elevator pitch etc.) 
-- Memories create an instant connection - When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start off the conversation with a memory you experienced together.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction. 
-- To start, ask an open ended question. “How is your day going?” “Are you having a good day?” What’s happening today? (Instead of What’s up?)
-- Or Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas *as* you speak. What is ordinary to you is often a revelation to others. (ARE - Anchor on something Common, Reveal about you, encourage with a question. 
-- Ask other open ended questions:
-    > "What are you interested in these days?
-    > Tell me what fascinates you!
-    > What's the funniest thing that's ever happened to you?" 
-    > "What's a stupid thing that always makes you laugh?
-    > Where all have you travelled? What place inspired you the most and why?
-    > 36 Questions! http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0
-- Infuse Humour. 
-> “We go way back”   
-> “We were separated when we were young”
-> “We planned all this”
-
-- Start with your “firsts.” If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says.
-
-- Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
-
-* Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions: what is something I don’t know about you?  What is something not many people know about you?  You said something about X the other (day/week/month), how is it?  Remember, this is a conversation.  You have to share too.
-
-* For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. For Finding Dates: Go to dance classes or traveller hostels
-
-* Conversational Sparks. At the end of each topic or blurb, throw out a conversational spark. The purpose of the conversational spark is to...you guessed it, spark a further conversation.
-    *  “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?”
-    *   “... I can't believe they did that, what would you guys do in that situation?”
-    *  You could just go in with the “Would you rather…?” game. Use with caution.  
-        *  Would you rather : Have a good holiday which you remember, or a great holiday which you forget ? 
-        *  Artist or Happy 
-        *  Rich and Ugly, or Poor and Good looking
-
-* Match their energy, then add 10%.
-    * Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
-“Wow Greg. You look pretty dapper. Hot date tonight?”
-“Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
-    * Ask for their advice.  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
-“You know Greg, I’m supposed to plan a first date with this girl I really like but I’m afraid of screwing it up. Where do you like to take your dates?”
-“Susan! That reminds me, do you have any nephews around the age of 7? It’s my nephews birthday next week and I haven’t a clue what to get him.”
-    * Food.  You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals. 
-        * “I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
-        * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
-        * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
 
 -----
-     
-
-
 
 **Good Practice: Introduce other people**
-
-
 
 Soon as you meet one person, introduce that person to the next person—and add in a playful, "Hey, have you met so-and-so?  We go way back.” 
 
 Awesome introductions - When you introduce someone, don't just introduce them by name. Tell a story about them and praise them. People will love you for this and it creates a natural flow into a longer conversation. 
-
-----
-
-**Situation:  Run out of things to say? Awkward conversation.**
-Do Word association. Person talking about their trip to Costa Rica? What do you think of when you think of Costa Rica? Beach? Tan? Surfing? Beer? Palm trees? That one time your friend went and something crazy happened. The more you do this, the better you’ll get at it. You’ll be able to talk and think of witty things to say on the spot for any situation. It takes practice in the beginning, but is a useful way to never have an awkward silence again. 
 
 
 
@@ -366,7 +367,9 @@ You should be able to divide the people with whom you shake hands into three rou
 
 ---
 
-**Situation: I don't want to kill the conversation's momentum but I don't really have anything to contribute**
+**Situation: I don't want to kill the conversation's momentum but I don't really have anything to contribute/ Run out of things to say? Awkward conversation.***
+
+
 
 Use the parrot technique if you want to keep them going. Pick a keyword/phrase and simply repeat it back with kind of an inquisitive tone. Sounds far too simple to work, but it totally works:
 
@@ -379,6 +382,8 @@ Use the parrot technique if you want to keep them going. Pick a keyword/phrase a
 - You: [OHH We're talking about coffee!] "So... Moka pot, French press, filter coffee..."
 - Them: "Cause they're all different, right? So like I like a fuller-body so I use a coarse grind with a moka pot but you can use whatever."
 - You: [Okay, now I have something to say] "I mostly drink lattes. The milk is rich in protein."
+
+Do Word association. Person talking about their trip to Costa Rica? What do you think of when you think of Costa Rica? Beach? Tan? Surfing? Beer? Palm trees? That one time your friend went and something crazy happened. The more you do this, the better you’ll get at it. You’ll be able to talk and think of witty things to say on the spot for any situation. It takes practice in the beginning, but is a useful way to never have an awkward silence again. 
 
 ---
 
