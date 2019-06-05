@@ -79,7 +79,8 @@ My Tribe:
 
 
 
-* Examples-
+* Examples:
+
     * *Reminding a prospect who hasn’t enrolled yet*
 
         Earlier- “Please let me know if you are enrolling”
@@ -108,8 +109,9 @@ My Tribe:
 * You may not be the best writer, best vocabularist or best grammarist - but you can care and make it all about your reader and that is all that matters truly in the end.
 * P.S. An extension of this that I practice - if anything I am saying/writing is not going to make the reader feel better or helping her improve, it is better to scratch it out. I know negative thoughts, darkness have a place but that is in fiction. In real life and non-fiction, look at what is beautiful and if something is not, think of how it can be improved.
 
-- If you don't ask, you won't receive. Sell themselves, they sell their ideas, they sell and motivate others to do their bidding (this is scaling). Be competent. Know your stuff, know your product or services that you are trying to sell. Know your competitors, know your customer’s alternatives well. There is no quicker way to lose credibility when you aren’t prepared and exposed to be a know-nothing bullshitter. This is perhaps the biggest reason a lot of salespeople fail. They don’t put in the work in the first place and somehow expect to wing it. Know the difference between being enthusiastic and pushy. Enthusiasm can be quite infectious, but being pushy simply means you are trying to impose your own interests, your own agenda onto others. No one likes being told, harassed, or tricked into doing anything, even if it might be in their best interests. Think of it this way, would you rather go to a party or a school assembly? 
+- If you don't ask, you won't receive. now the difference between being enthusiastic and pushy. Enthusiasm can be quite infectious, but being pushy simply means you are trying to impose your own interests, your own agenda onto others. No one likes being told, harassed, or tricked into doing anything, even if it might be in their best interests. Think of it this way, would you rather go to a party or a school assembly?  
 
+-  Be competent. Know your stuff, know your product or services that you are trying to sell. Know your competitors, know your customer’s alternatives well. There is no quicker way to lose credibility when you aren’t prepared and exposed to be a know-nothing bullshitter. This is perhaps the biggest reason a lot of salespeople fail. They don’t put in the work in the first place and somehow expect to wing it.
 
 ---
 
