@@ -236,9 +236,17 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 
 * **Anchor on something Common, Reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others. 
-    *  **Something common can be  memory you experienced together.**  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction.  Memories create an instant connection. When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start with a memory. The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Ms. Osborn says. Tell stories of the past, present and future. Highlighting great memories or successes that you had together in the past helps you reconnect. 
-    *  **Start with your “firsts.”** If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house—is a great place to start.  Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
-    *  **Ask open ended questions**:
+    *  **Something common can be  memory you experienced together.** Memories create an instant connection. When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start with a memory.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction.   The story of how you met can be particularly powerful and connecting, because it is, essentially, your origin story. And it’s always a happy memory. “Everything was pure then, nothing hurt yet,” Highlighting great memories or successes that you had together in the past helps you reconnect. 
+    *  **Start with your “firsts.”** If you aren’t used to telling each other stories, it’s useful to have a few topics ready. Your first anything—date, kiss, dance, car, child, house, is a great place to start.  Tell stories of the past, present and future. Narrating recent events that have happened to you, or telling a story about a challenge you are facing, helps illuminate what matters to you. Weaving a story of a future event as you’d like it to happen—a vacation, a child’s wedding, the dance at your 60th anniversary party—can help you visualize what you want for your relationship
+    * Conversational Sparks. At the end of each topic or blurb, throw out a conversational spark. The purpose of the conversational spark is to...you guessed it, spark a further conversation.
+        *  “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?”
+        *   “... I can't believe they did that, what would you guys do in that situation?”
+        *  You could just go in with the “Would you rather…?” game. Use with caution.  
+         *  Would you rather : Have a good holiday which you remember, or a great holiday which you forget ? 
+            *  Artist or Happy 
+            *  Rich and Ugly, or Poor and Good looking
+
+*  **Ask open ended questions**:
 > "What are you interested in these days?
 
 > Tell me what fascinates you!
@@ -276,22 +284,15 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 * Match their energy, then add 10%.
 
 
-* Conversational Sparks. At the end of each topic or blurb, throw out a conversational spark. The purpose of the conversational spark is to...you guessed it, spark a further conversation.
-    *  “...what do you guys think? Would you rather A or B?” “...If you got paid $1,000 would you do XYZ?”
-    *   “... I can't believe they did that, what would you guys do in that situation?”
-    *  You could just go in with the “Would you rather…?” game. Use with caution.  
-        *  Would you rather : Have a good holiday which you remember, or a great holiday which you forget ? 
-        *  Artist or Happy 
-        *  Rich and Ugly, or Poor and Good looking
 
-
-* Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
+* **Love life**Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
     * “Wow Greg. You look pretty dapper. Hot date tonight?”
     * “Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
-* Ask for their advice.  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
+
+* **Ask for their advice.**  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
     * “You know Greg, I’m supposed to plan a first date with this girl I really like but I’m afraid of screwing it up. Where do you like to take your dates?”
     * “Susan! That reminds me, do you have any nephews around the age of 7? It’s my nephews birthday next week and I haven’t a clue what to get him.”
-* Food.  You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals. 
+* **Food**.  You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals. 
         * “I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
         * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
         * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
