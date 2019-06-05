@@ -9,7 +9,7 @@ section: Home
 <!-- 
 <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   -->
 
-Update: I am moving to Cambridge (UK) in July 2019. 
+Update: I am relocating to Cambridge (UK) in July 2019. 
 
 My long-term project, [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia) can now be downloaded on Google playstore.  
 
