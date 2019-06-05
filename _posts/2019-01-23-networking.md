@@ -234,7 +234,7 @@ Be genuinely interested in a person: What was your background? The most interest
 Sometimes small talk is good. E.g. Elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
 
 
-* https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/
+* [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
 
 * Memories create an instant connection - When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start off the conversation with a memory you experienced together.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction. 
 - To start, ask an open ended question. “How is your day going?” “Are you having a good day?” What’s happening today? (Instead of What’s up?)
