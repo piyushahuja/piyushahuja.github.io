@@ -47,7 +47,6 @@ There's a common misconception - I think across industries, not just in consulti
 
 My Tribe:  
 
-- RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
 - Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
 - Chandigarh: Yatik, Dhruv, Saurabh 
 - MCA people: Tarun, Gainda, Shubham, Bhalu, Billi, Vipul.   
@@ -55,8 +54,7 @@ My Tribe:
 - Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini
 - IITD: Kush, GD
 - IITB People: Khandu, Nadu, Sachin
-- Mentors: Florian, Alistair Beecher
-- PGM, Prachi,  Duja,  Dhruv, Dad, Mandvi
+- Mentors: Florian, Alistair Beecher, RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
 
 ---------
 
