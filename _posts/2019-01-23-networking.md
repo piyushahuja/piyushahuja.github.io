@@ -175,7 +175,7 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 
 * **Assume Everyone is Your Friend** When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
 
-**Have a good elevator pitch** - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career.
+**Have a good elevator pitch but throww it out along with other social scripts (How are you?) for a memorable conversation** - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career.
 
 
 ---
@@ -231,11 +231,12 @@ Be genuinely interested in a person: What was your background? The most interest
 
 **How to have a memorable conversation?**
 
+Sometimes small talk is good. E.g. Elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
+
 
 * https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/
-- Sometimes small talk is good. E.g. Elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
-- Throw out social scripts. (How are you? Your elevator pitch etc.) 
-- Memories create an instant connection - When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start off the conversation with a memory you experienced together.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction. 
+
+* Memories create an instant connection - When you see someone you know, instead of just saying, "Hey, how are you doing?" (which is pretty much what every single person will say to them), start off the conversation with a memory you experienced together.  For example, "Hey, remember that time when we all went out in Hollywood and ended up singing 'Hey Jude' at that dueling piano bar?  That was so fun!" I can almost guarantee you'll get a better reaction. 
 - To start, ask an open ended question. “How is your day going?” “Are you having a good day?” What’s happening today? (Instead of What’s up?)
 - Or Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas *as* you speak. What is ordinary to you is often a revelation to others. (ARE - Anchor on something Common, Reveal about you, encourage with a question. 
 - Ask other open ended questions:
