@@ -246,7 +246,21 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
             *  Artist or Happy 
             *  Rich and Ugly, or Poor and Good looking
 
-*  **Ask open ended questions**
+
+* **Love life** Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
+    * “Wow Greg. You look pretty dapper. Hot date tonight?”
+    * “Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
+    *  For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. For Finding Dates: Go to dance classes or traveller hostels
+
+* **Ask for their advice.**  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
+    * “You know Greg, I’m supposed to plan a first date with this girl I really like but I’m afraid of screwing it up. Where do you like to take your dates?”
+    * “Susan! That reminds me, do you have any nephews around the age of 7? It’s my nephews birthday next week and I haven’t a clue what to get him.”
+* **Food**.  You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals. 
+        * “I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
+        * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
+        * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
+
+*  **Open ended questions**
 
 > "What are you interested in these days?
 
@@ -266,6 +280,14 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 > [36 Questions](http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0)
 
+
+* Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions
+    * What is something I don’t know about you?  
+    * What is something not many people know about you?  You said something about X the other (day/week/month), how is it?  Remember, this is a conversation.  You have to share too.
+
+
+* Match their energy, then add 10%.
+
 * Infuse Humour. 
 
 > “We go way back”   
@@ -277,27 +299,6 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 
 
-* Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions
-    * What is something I don’t know about you?  
-    * What is something not many people know about you?  You said something about X the other (day/week/month), how is it?  Remember, this is a conversation.  You have to share too.
-
-* For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. For Finding Dates: Go to dance classes or traveller hostels
-
-* Match their energy, then add 10%.
-
-
-
-* **Love life**Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
-    * “Wow Greg. You look pretty dapper. Hot date tonight?”
-    * “Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
-
-* **Ask for their advice.**  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
-    * “You know Greg, I’m supposed to plan a first date with this girl I really like but I’m afraid of screwing it up. Where do you like to take your dates?”
-    * “Susan! That reminds me, do you have any nephews around the age of 7? It’s my nephews birthday next week and I haven’t a clue what to get him.”
-* **Food**.  You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals. 
-        * “I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
-        * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
-        * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
 * [Inspire smart conversation](https://blog.ted.com/9-ted-talks-to-inspire-smart-conversation/)
 
 -----
