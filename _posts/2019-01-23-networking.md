@@ -80,8 +80,9 @@ I mean 25-40 people.  Hopefully you have a backyard or something.  Over this n
 For Finding Women: Go to dance classes or traveller hostels
 
 
+-------
 
-My Tribe:  
+**My Tribe** 
 
 - Rock Friendships: 
 - Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
