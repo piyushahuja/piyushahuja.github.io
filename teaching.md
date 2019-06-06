@@ -15,7 +15,7 @@ I can teach:
 - cooking Indian cuisine
 - improvisational theatre
 - philosophy
-- 
+- quizzing
 
 In addition, I can help review and refine your application to colleges, grad school and jobs - including consulting and the tech sector. 
 
