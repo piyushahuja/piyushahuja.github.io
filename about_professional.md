@@ -5,8 +5,8 @@ permalink: /about/
 section: Home
 ---
 
-<!-- 
-<img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   -->
+
+<img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
 
 Update: I am relocating to Cambridge (UK) in July 2019. 
 
