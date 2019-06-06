@@ -14,6 +14,7 @@ I can teach:
 - system design
 - cooking Indian cuisine
 - improvisational theatre
+- philosophy
 - 
 
 In addition, I can help review and refine your application to colleges, grad school and jobs - including consulting and the tech sector. 
