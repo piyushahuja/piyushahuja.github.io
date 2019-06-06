@@ -8,8 +8,7 @@ section: Home
 
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
-
-If you are looking for a tutor in algorithms, maths or philosophy, please get in touch. 
+Coming Soon.
 
 
 
