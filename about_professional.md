@@ -10,7 +10,7 @@ section: Home
 
 Update: I am relocating to Cambridge (UK) in July 2019. 
 
-[Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia) can now be downloaded on Google playstore.  
+[Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia) can now be downloaded on Google playstore. Platonia allows you to meet people near you and trade skills.
 
 I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College.
 
