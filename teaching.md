@@ -8,16 +8,9 @@ section: Home
 
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
-I can teach:
-- design and analysis of algorithms
-- data structures and object oriented design
-- system design
-- cooking Indian cuisine
-- improvisational theatre
-- philosophy
-- quizzing
+I can open to teaching algorithms, maths and philosophy. 
 
-In addition, I can help review and refine your application to colleges, grad school and jobs - including consulting and the tech sector. 
+
 
 
   
