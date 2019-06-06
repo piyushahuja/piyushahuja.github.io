@@ -18,7 +18,7 @@ I read for a second BA in Philosophy, Politics and Economics at the University o
 
 Previously, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Delhi) with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). Here's a [link to my thesis][thesis].  
 
-The [research section](/research)  gives a summary of my research projects.
+<!-- The [research section](/research)  gives a summary of my research projects. -->
 
 <!-- The [work section](/work)  spells out my professional experience in greater detail.   -->
 
