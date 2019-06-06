@@ -288,6 +288,7 @@ The by-product of focusing on helping others is this - if you are not the right 
 
 [mock]: https://howtovideointerview.cammio.me/public/apply/74w5mhpykj9z847wu6z)
 
+[Advice from Academia](https://vlsicad.ucsd.edu/Research/Advice/network.html)
 
 
 
