@@ -18,7 +18,7 @@ Previously, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_In
 
 <!-- The [work section](/work)  spells out my professional experience in greater detail.   -->
 
-Resume and references available on request.
+Resume and references available on request. You can write to me at piyushahuja.in@gmail.com.
 
 
 
