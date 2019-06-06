@@ -180,8 +180,37 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 
 * **Assume Everyone is Your Friend** When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
 
-**Have a good elevator pitch but throww it out along with other social scripts (How are you?) for a memorable conversation** - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career.
+**Have a good elevator pitch but throww it out along with other social scripts (How are you?) for a memorable conversation** - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career. How do some people seem to wind up with advocates everywhere? They create a little mental model of themselves that makes it easy for everybody they meet.Everybody has a “projection” - a small representation - of each person they know living in their heads. You know that friend who’s “the badass interface designer who is looking to get into machine learning and consults?” She has an amazing projection and makes it easy for opportunities to find her.. In order to maximize the effectiveness of your projections, figure out which things you want to be associated with in people’s heads and be excited about them. Nothing is more memorable than distinct excitement. Similarly, try to figure out the things that drive the whomever you’re talking to and incorporate them into your mental representation of that person. The best way to encourage people to keep you in mind is to keep them in mind. (NOTE: Many people take this to the extreme and straight up ask the question: “how can I help?” This is exactly the sentiment you should have, but it makes your counterpart feel like you weren’t actually listening How do you build a strong projection? A strong story. Stories stick in people’s heads better than anything else. Make sure you have a good one. All you need is a short narrative with at least one compelling character (you), a captivating theme, and some kind of narrative arc. Think about your life as a series of towns connected by a road, where the towns are the relevant parts of your background connected by your theme. Frankly, most people won’t remember the towns at all. They’ll just viscerally remember whether the theme was compellingly supported.
 
+Honing your Ask
+Reality check: people are going to remember at most three things about you. Make sure one of them is your ask- the most impactful thing they can do to help you. To maximize your ask, make it short, clear, and a single step. Otherwise, it will be harder to remember and execute. Making asks is often uncomfortable for smart successful people - you want to get by on your own and be so awesome that people will figure out how to help you on your own. This is not going to happen. On the other hand, if you have a clear actionable ask, people are eager to jump on it.
+Years ago, whenever I would travel somewhere, I would passively post “I’m going to be in town, who wants to hang out?” Maybe one or two people would respond if I was lucky. Now I actively ask friends who have lived there “who are the best people you know there? Can you put me in touch with them?” The result? Friendships and adventures.
+Some good examples of asks:
+
+“I’m looking to get in touch with people who are director level or above in the elder care industry”
+
+“I need a new apartment in San Francisco under $2200, preferably in the mission.”
+
+“I’m looking for customer-facing jobs in robotics that take advantage of my unique combination of technical skills and people skills”
+
+Why are they good?
+
+Single Action to Execute - connect with people, or a link on the internet.
+
+Detailed - they don’t force you to ask clarifying questions.
+Some good examples of asks:
+
+“I’m looking to get in touch with people who are director level or above in the elder care industry”
+
+“I need a new apartment in San Francisco under $2200, preferably in the mission.”
+
+“I’m looking for customer-facing jobs in robotics that take advantage of my unique combination of technical skills and people skills”
+
+Why are they good?
+
+Single Action to Execute - connect with people, or a link on the internet.
+
+Detailed - they don’t force you to ask clarifying questions.
 
 ---
 
@@ -528,6 +557,5 @@ Or offer a compliment, he suggested. “As experienced solo travelers know, oppo
 - [The end of small talk](http://www.nytimes.com/2016/01/17/fashion/dating-the-end-of-small-talk.html?_r=0)
 - [Academia Networking](https://vlsicad.ucsd.edu/Research/Advice/network.html)
 - [Standing Invitation](https://www.kalzumeus.com/standing-invitation/)
-
-
+- [Networking for Nerds](http://benjaminreinhardt.com/networking-for-nerds/)
 
