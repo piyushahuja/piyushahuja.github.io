@@ -10,7 +10,7 @@ section: Home
  -->
 Update: I am relocating to Cambridge (UK) in July 2019. 
 
-I am interested in alternative economic and social arrangements to academia that encourage the pursuit of research, higher learning and teaching.
+I enjoy learning, teaching, and creative collaborations. I am particularly interested in alternative economic and social arrangements to academia that encourage the pursuit of research, higher learning and teaching.
 
 My long-term project, [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), can now be downloaded on Google playstore. One of the best way to learn is to teach it to someone. Platonia allows you to organize one-on-one meetups with people near you for learning-and-teaching.
 
