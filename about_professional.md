@@ -6,11 +6,11 @@ section: Home
 ---
 
 
-<img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
-
+<!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
+ -->
 Update: I am relocating to Cambridge (UK) in July 2019. 
 
-[Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia) can now be downloaded on Google playstore. Platonia allows you to meet people near you and trade skills.
+[Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia) can now be downloaded on Google playstore.  Platonia allows you to skill-based one-on-one meetups 
 
 I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College.
 
