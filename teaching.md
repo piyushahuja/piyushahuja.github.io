@@ -8,7 +8,6 @@ section: Home
 
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
-I love teaching and would 
 
 If you are looking for a tutor in learning algorithms, maths and philosophy, please get in touch. 
 
