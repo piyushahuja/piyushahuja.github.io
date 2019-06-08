@@ -10,10 +10,7 @@ permalink: /persuasion
 ---
 
 > A New Precaution.  Let us no longer think so much about punishing, blaming, and improving!  We shall seldom be able to alter an individual, and if we should succeed in doing so, something else may also succeed, perhaps unawares: we may have been altered by him!  Let us rather see to it that our own influence on all that is to come outweighs and overweighs his influence!  Let us not struggle in direct conflict!  All blaming, punishing, and desire to improve comes under this category.  But let us elevate ourselves all the higher!  Let us ever give to our pattern more shining colours!  Let our brilliance make them look dark.  No, we do not mean to become darker ourselves on their account, like those who punish and are discontented!  Let us rather go aside!  Let us look away!  
-> 
-> 
-> 
-> 
+
 > Tact is the ability to tell someone to go to hell in such a way that they look forward to the trip.
 
 > There is this Middle Eastern story of a man who willed to his three sons his 17 camels. To the first son 1/2 of the camels, to the second son 1/3, and to the third son 1/9. 17 doesn’t divide by any of those numbers. Conflict arose, and they decided to go to a wise old woman for assistance. After thinking about it for a while, she said, “Here. I’ll give you one of my camels.” Now with 18 camels, the first son took 1/2: (9), the second son took 1/3: (6), and the last son took 1/9: (2), and they had a camel left over and they gave it back to the woman.
