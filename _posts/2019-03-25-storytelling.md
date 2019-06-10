@@ -35,7 +35,7 @@ Stories are gold.  Being a good storyteller is like strapping your personality 
 - **Accept whatever your imagination conjures. Don't exert.** The artist only needs to worry about content if he is trying to fake up a personality he doesn’t have, or express views he really isn’t in accord with. An artist has to accept what his imagination gives him, or screw his talent. Do not feel responsible in any way for the material that emerges.
 
 
-- **We are natural storytellers. We use stories to make sense in a chaotic world**. When we return home and “tell our day,” we are artfully shaping material into story form. (These stories are very often funny, incidentally.) Whether we know it or not, people always communicate through stories.  What happened today?  How did it go?  Anytime we talk about the past, we are essentially talking in story mode.   So in a way as word-users we all exist in a literary atmosphere, we live and breathe literature, we are all literary artists, we are constantly employing language to make interesting forms out of experience which perhaps originally seemed dull or incoherent. How far reshaping involves offences against truth is a problem any artist must face. A deep motive for making literature or art of any sort is the desire to defeat the formlessness of the world and cheer oneself up by constructing forms out of what might otherwise seem a mass of senseless rubble. Stories is how humans make sense of all the events in the world, how they retain memories. Stories are the data structures with which humans process the world” 
+- **We are natural storytellers. We use stories to make sense in a chaotic world**. When we return home and “tell our day,” we are artfully shaping material into story form. (These stories are very often funny, incidentally.) Whether we know it or not, people always communicate through stories.  What happened today?  How did it go?  Anytime we talk about the past, we are essentially talking in story mode.   So in a way as word-users we all exist in a literary atmosphere, we live and breathe literature, we are all literary artists, we are constantly employing language to make interesting forms out of experience which perhaps originally seemed dull or incoherent. How far reshaping involves offences against truth is a problem any artist must face. A deep motive for making literature or art of any sort is the desire to defeat the formlessness of the world and cheer oneself up by constructing forms out of what might otherwise seem a mass of senseless rubble. Stories is how humans make sense of all the events in the world, how they retain memories. "Stories are the data structures with which humans process the world” 
 
 - **Your own life experiences are sufficient for inspiration** Have an observant eye and reflect upon things actively. 
 > You saw a kid spilling her drinks all over the floor and her mum scolded her in public. If you let ideas slip by, you'd just think that this is just a random event in your life. But if you're observant and reflective, you'd be thinking about how will the little girl feel being reprimanded in public and why does the mum seem to lose control of her temper easily - what are the consequences? Then *boom*, you have an idea to tell a story.
@@ -309,6 +309,41 @@ Ah! A new question!
 As a storyteller, your job is to keep the sense of mystery afloat. There must be unanswered questions right up until the end, and when all questions are answered--or you've left us with a big, exciting, never-to-be-answered question* --the story is over.
 
 * loose ends are for storytelling ninjas. There's a razor edge between satisfying and unsatisfying loose ends. As a beginner, you might want to avoid ambiguous endings until you master simpler forms.
+
+----
+
+**Make the plot hot (escalate e.g. with "but")**
+
+One of the biggest mistakes new writers (and professionals) make is not knowing how to properly use plot. 
+
+Let’s start with a banal desire: the hero of our story wants a pizza.
+
+How new writers do it:
+
+> The hero wants a pizza. His fiancee too. And…
+He calls his favorite pizza place and orders his favorite pepperoni pizza. And…
+The pizza guy delivers it to his house. And…
+The hero and his fiancee eat the pizza. And…
+End of story… if you consider that thing a story.
+
+How plot should work:
+
+> The hero wants a pizza.
+But his fiancee is not ok with him eating mostly junk food, therefore they have an argument over that. She leaves the house.
+He calls his favorite pizza place - but the place is under health inspection so they’re temporarily closed.
+Therefore, The hero then calls his second favorite pizza place - orders a pepperoni pizza.
+The delivery guy comes to his house, but, before handing him over the pizza, he suffers a heart attack and collapses to the ground, as the pizza falls to the dirty hallway floor.
+Therefore, The hero rushes to call the ambulance.
+They go to the hospital. After the doctors begin to take care of the delivery guy, The Hero goes out to eat, in another pizza place, near the hospital.
+He finally eats the pepperoni pizza, while waiting for an update on the delivery guy’s condition, hoping for some good news.
+But, the doctor tells our Hero that the delivery guy didn’t make it. “His arteries walls were so thick from eating junk food and fast food and pizza that he had no chance to recover from the fatal heart attack.”
+The Hero is shocked. He realizes his eating habit is not healthy, he stops eating pizza.
+The End.
+
+
+
+
+
 
 ----
 
