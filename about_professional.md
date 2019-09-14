@@ -8,7 +8,7 @@ section: Home
 
 <!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
  -->
-Update: I am relocating to Cambridge (UK) in July 2019. 
+I am a software engineer based in Cambridge. 
 
 I enjoy learning, teaching, and creative collaborations. I am particularly interested in alternative economic and social arrangements to academia that encourage the pursuit of research, higher learning and teaching.
 
