@@ -9,6 +9,7 @@ section: Home
 <!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
  -->
  
+I am currenty working full time as a software engineer in Cambridge (UK).
 
 I enjoy learning, teaching, and creative collaborations. I am particularly interested in alternative economic and social arrangements to academia that encourage the pursuit of research, higher learning and teaching.
 
@@ -18,7 +19,7 @@ I read for a second BA in Philosophy, Politics and Economics at the University o
 
 Previously, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Delhi) with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). Here's a [link to my thesis][thesis].  
 
-I am currenty a software engineer based in Cambridge.
+
 <!-- The [research section](/research)  gives a summary of my research projects. -->
 
 <!-- The [work section](/work)  spells out my professional experience in greater detail.   -->
