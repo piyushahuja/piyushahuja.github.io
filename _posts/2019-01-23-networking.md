@@ -183,7 +183,7 @@ Catching up with people makes us feel good.  If you feel lonely, call someone y
 
 * **Play the host** Approach and Be approachable. Exude calm and sense of security, that is "I do not care  about what other people think." Be at home, instead of being like an intruder.   Moving comfortably and gracefully. Spreading out your body to full comfort. Taking up a lot of space with your body. Sit where you will be noticed. Move with courage and confidence.  Keep your body language open, tall, and engaging. Lean back, relax, smile, people watch, and make eye contact. You, nicely dressed, peppy, walk with charisma into the room, and act like you own the damn place.  Imagine yourself as the man, and everybody else like an inanimate object.  Feel as if you've built the building, like you've invited everyone to the party, like the people are yours to own.  This may turn some folks off, but you don't care about those.   Walk in with a smile. Remember, other people are shy and anxious as well!    Introduce yourself.  
 
-* **Assume Everyone is Your Friend** When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
+* **Assume Everyone is Your Friend And You're likeable** When I go into the room, I act like everyone is already my friend. I will talk with them about what I talk to friends about, once we have a bit of rapport, I’ll tease them a bit, like I would a friend. Even if they are cold to me upfront, I don’t let that change how I act towards them. Eventually, most people eventually warm up, because it’s exhausting trying to be mean to someone who’s treating you like their friend.
 
 **Have a good elevator pitch but throww it out along with other social scripts (How are you?) for a memorable conversation** - who you are and what you bring to the table  tell your story well and concisely. You want to give the other person a good idea of your skills, qualifications, and where you’re looking to go in your career. How do some people seem to wind up with advocates everywhere? They create a little mental model of themselves that makes it easy for everybody they meet.Everybody has a “projection” - a small representation - of each person they know living in their heads. You know that friend who’s “the badass interface designer who is looking to get into machine learning and consults?” She has an amazing projection and makes it easy for opportunities to find her.. In order to maximize the effectiveness of your projections, figure out which things you want to be associated with in people’s heads and be excited about them. Nothing is more memorable than distinct excitement. Similarly, try to figure out the things that drive the whomever you’re talking to and incorporate them into your mental representation of that person. The best way to encourage people to keep you in mind is to keep them in mind. (NOTE: Many people take this to the extreme and straight up ask the question: “how can I help?” This is exactly the sentiment you should have, but it makes your counterpart feel like you weren’t actually listening How do you build a strong projection? A strong story. Stories stick in people’s heads better than anything else. Make sure you have a good one. All you need is a short narrative with at least one compelling character (you), a captivating theme, and some kind of narrative arc. Think about your life as a series of towns connected by a road, where the towns are the relevant parts of your background connected by your theme. Frankly, most people won’t remember the towns at all. They’ll just viscerally remember whether the theme was compellingly supported.
 
@@ -265,15 +265,33 @@ Be genuinely interested in a person: What was your background? The most interest
 ---
 
 **How to have a memorable conversation?**
+ 
 
-Sometimes small talk is good. E.g. elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to. 
+> Smalltalk a request to engage only in this non-verbal connection for a fleeting moment. You don't need to be "good" at it. It really doesn't matter what you say. Say anything and the ball keeps rolling for a few moments longer. You can find compassion towards the person who initiates it instead of contempt: They are actually asking to warm by your fire for a little bit. They are not testing/dueling you.
+
+
+> Smalltalk is improv. It's yes... and. You take turns with the hot potato. You take your turn and then pass it. It's creating a story. Take whatever what was passed to you, add something quirky and then pass it back. It's fun to add something off the wall, a bit ridiculous. Doing this takes courage. You WILL make mistakes. At times, you may cringe at yourself. Putting yourself out there, taking small risks is the spice of life. When you fail, embrace it and move on. Don't look back. If you smile and keep a bright attitude, then that becomes infectious. If showing up is 90%, then the right attitude is showing up. The quickest way to screw this up is to be toxic. 
+
+**Keep a positive attitude (don't forget the smile) even when you're feeling attacked.** If you can't bear it, then keep a number of exit strategies in your bag of tricks and pull one of them. You have to get going. Someone is expecting you. You need to take a call, etc. If you choose to stay, then you have to stay deft and keep the air light. Don't let someone pin you down into a corner where you have to defend yourself. Continue keeping things light and a bit ridiculous and the air will change. You might even gain some respect.
+
+
+
+
+
+
+
+
+Sometimes small talk is good. E.g. elevator Pitches for networking events, or where the engagement is formal. Break small talk only when you want to.
+
 
 > My first chance to put this new strategy into practice came with a woman I met at a party a few weeks later. She laughed when I explained my theory on big talk versus small talk and agreed to be the guinea pig. She was moving away the next week, so we both knew we’d have only this one date, but we pledged to do all we could to avoid small talk. That night, we talked big and we talked deep. I learned about her brother’s drug problem, about the ex she had left years before and about the feelings she still had for him. But we also joked about things both silly and shallow, managing to convince strangers that we had met in a fairground bumper-car accident, and recoiling in mock fright from a meal that was still wiggling on our plates. We laughed and we cried, and we learned nothing that would go on a résumé. Later, we kissed.
 
 
 
-* **Anchor on something common, reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious. Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others. 
-     
+* **Anchor on something common, reveal about you, encourage with a question**. Start anywhere. All starting points are equally valid. (‘Nice weather we’re having). Begin with what seems obvious or  your inner Rolodex of topics.   Once it is under way any task seems smaller. Trust your mind.  Edit and develop ideas as you speak. What is ordinary to you is often a revelation to others.  
+
+* > "How are you?" Move the short conversation forward by replying why you’re “good.” “I’m good. I just started a book/podcast/TV show and I’m really enjoying it. Have you heard of it?” Or mention something office-related, where there’s a shared common experience: “I’m good. They restocked the cold brew in the kitchen and it’s so strong. Have you tried it?”
+    
     * **Find a common connection: a hobby or achievement or common friend of your own.** 
     * But eliminate the dull droning on about facts and figures — whether it’s snowing or raining, how cold it is, what we do for work, how long it takes to get to work, where we went to school — all those things that we think we have to talk about with someone new but that tell us little about who the person really is. Replace mindless chatter about commuting times with a conversation about our weightiest beliefs and most potent fears. Questions that reveal who we are and where we want to go
     
@@ -296,21 +314,24 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
         * “If you could choose a sixth sense, what would it be?”
         * “So, what’s your favorite word?”
 
-    * 
 
 
-* **Love life** Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
-    * “Wow Greg. You look pretty dapper. Hot date tonight?”
-    * “Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
-    *  For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. 
 
 * **Ask for their advice.**  People want to help others and feel like they’re making a difference. Asking for their input will make them feel more valuable in the conversation while simultaneously stroking their ego.
     * “You know Greg, I’m supposed to plan a first date with this girl I really like but I’m afraid of screwing it up. Where do you like to take your dates?”
     * “Susan! That reminds me, do you have any nephews around the age of 7? It’s my nephews birthday next week and I haven’t a clue what to get him.”
+
+* **Ask questions.** We’re all ultimately pretty narcissistic at heart.
+
+
 * **Food**.  You’ll rarely find someone who can’t spout a Shakespearean-esque monologue about their favorite meals. 
         * “I’m so hungry Greg. If I was being executed tonight, my last meal would be a full rack of BBQ ribs and a bucket of onion rings. What would you have?”
         * “Susan, I had the most fantabulous gelato the other day. Guava strawberry with a wafer on top. You lean more towards ice cream or yogurt?” 
         * Note: I purposefully exaggerated the sensibilities of Susan and Greg. This isn’t indicative of how I think men vs women operate in the world. They’re just familiar archetypes I think many have experience with before.
+
+* **Discuss things you care about** Topics relating to your professional field, for example, an article you saw or book you read, is a great place to start.
+
+* **Something weird or interesting happen to you recently.** Workshop (in your mind, at least) that story ahead of time to unveil at your next office outing.
 
 *  **Open ended questions** 
     *  One of the common questions I find myself asking a woman on a first date is where she has traveled. The response can quickly become a list of places, and once again we’re in résumé territory. So instead I’d ask, “What place most inspired you and why?”
@@ -336,6 +357,11 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 > [36 Questions](http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0)
 
+
+* **Tease about love-life** Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
+    * “Wow Greg. You look pretty dapper. Hot date tonight?”
+    * “Dang Susan. Showing off the knees are ya? Who’s the lucky fella?”
+    *  For Dates: Hint at sex talk, but don't follow it up unless the other person shows a strong interest. 
 
 * Literally say “let’s play the question game” where you get to ask each other any question and they have to respond (hint, this is a great and memorable thing to do on a first date).  Examples of good questions
     * What is something I don’t know about you?  
@@ -545,6 +571,7 @@ Or offer a compliment, he suggested. “As experienced solo travelers know, oppo
 
 **References**
 
+- [SmallTalk Experience by Hackernews readers](https://news.ycombinator.com/item?id=21045461)
 - [Making friends as an adult](http://www.thehappytalent.com/blog/behold-the-number-one-best-way-to-make-new-friends-as-an-adult)
 - [How can I speak with more clarity?](https://www.quora.com/How-can-I-speak-with-more-clarity)
 - [Mirroring, Jargon, Hifalutin Words by Alan Alda](https://www.youtube.com/watch?v=6ZzWArYi5Yc)
