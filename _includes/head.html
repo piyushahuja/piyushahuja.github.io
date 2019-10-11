@@ -16,9 +16,17 @@
     {% endif %} -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">  
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.baseurl }}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+    <link rel="stylesheet" href="{{ "/css/mobile.css" | prepend: site.baseurl }}" media="screen and (max-device-width: 480px)">
+    <link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.baseurl }}" media="screen and (min-device-width: 481px)">
+
+
    <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
+
+
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
    
 </head>
