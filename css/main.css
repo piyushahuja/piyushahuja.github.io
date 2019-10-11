@@ -1,4 +1,4 @@
- Base */
+/* Base */
 /* ----------------------------------------------------------*/
 
 /** {
@@ -6,13 +6,11 @@
   padding: 0;
 }*/
 
-@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
-/*@import url(http://fonts.googleapis.com/css?family=EB+Garamond);*/
 
 html, body { height: 100%; }
 
 
-body {font-family: 'Sorts Mill Goudy', Palantino, 'times new roman', serif;
+body {font-family: Palantino, 'times new roman', serif;
   font-size: 16px;
   font-weight: 300;
   background: #f4f4f4;
