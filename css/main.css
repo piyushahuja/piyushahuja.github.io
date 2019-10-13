@@ -1,4 +1,4 @@
-/* Base */
+/*Base */
 /* ----------------------------------------------------------*/
 
 /** {
@@ -7,8 +7,8 @@
 }*/
 
 
-html, body { height: 100%; }
-
+/*html, body { height: 100%; }
+*/
 
 body {font-family: Palantino, 'times new roman', serif;
   font-size: 16px;
