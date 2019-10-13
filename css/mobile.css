@@ -4,7 +4,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-size: 18px;
+	font-size: 30px;
 	background-position: center;
 	background-repeat: repeat-x;
 	text-rendering: optimizeLegibility;
@@ -206,7 +206,7 @@ ul.compact li a {
 	line-height: 1em;
 	display: inline;
 	margin: 0;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 	
 /*	margin-top: 1em;*/
 	margin-bottom: 1px;
