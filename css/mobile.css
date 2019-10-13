@@ -4,7 +4,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-size: 60px;
+	font-size: 18px;
 	background-position: center;
 	background-repeat: repeat-x;
 }
@@ -56,7 +56,7 @@ sup { line-height: 1ex; }
 #page, #disqus_thread {
 	background: white;
 /*	background-image: url(grid.png); */
-	padding: 3em 3em 1.5em 3em;
+	padding: 1em 1em 1em 1em;
 	border: 1px solid #ccc;
 	overflow: auto
 }
