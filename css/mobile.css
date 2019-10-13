@@ -4,7 +4,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-size: 30px;
+	font-size: 20px;
 	background-position: center;
 	background-repeat: repeat-x;
 }
@@ -147,10 +147,10 @@ caption {
 
 /* @group Lists */
 ul {
-/*	margin-top: 1.5em;
+	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	line-height: 1.5em;
-	padding-left: 1.5em;*/
+	padding-left: 1.5em;
 }
 ul li {
 	list-style-type: square;
@@ -202,13 +202,14 @@ ul.compact li a {
 	position: absolute;
 	top: 0;
 	right: 0;
-	line-height: 1.2em;
+	line-height: 1em;
 	display: inline;
 	margin: 0;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-block-start: 0em;
     margin-block-end: 0em;
 /*	margin-top: 1em;*/
+	margin-bottom: 0px;
 	/*width: 50%;*/
 	text-align: right;
 }
