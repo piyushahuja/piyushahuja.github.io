@@ -6,12 +6,12 @@ permalink: /essays/
 
 ---
 
-    {% for post in site.categories.essays %}
-      <div class = "postit">
-        <a class="postit-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
+{% for post in site.categories.essays %}
+    <div class = "postit">
+    	<a class="postit-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
         <span class="post-tag">{{ post.tag}}</span>
-      </div>
-    {% endfor %}
+    </div>
+{% endfor %}  
 
 
    
