@@ -1,4 +1,4 @@
-# Site settings
+# Site settings: These are available as site variables (e.g. site.baseurl)
 title: Piyush's Notes
 email: piyushahuja.in@gmail.com
 description: "Some passably good ideas" #First, it is good to include a short meta description in the <head> tag of your page, as Google will display that under the link to your site in the search results
@@ -7,10 +7,15 @@ url: "http://piyushahuja.com"
 author: Piyush Ahuja
 
 
+
+
 # Build settings
 markdown: kramdown
 permalink: pretty
 
+# collections:
+#   - staff_members
+include: ["_pages"]
 # disqus:
 #     shortname: 'piyushahuja'
 
