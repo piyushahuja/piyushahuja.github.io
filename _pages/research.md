@@ -1,5 +1,5 @@
 ---
-layout: page-home
+layout: page-journal
 title: Research Experience
 permalink: /research/
 section: Home
