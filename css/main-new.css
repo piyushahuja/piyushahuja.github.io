@@ -21,7 +21,7 @@ html, body {
   background-color: white;
   background-position: center;
   background-repeat: repeat-x;
- 
+  
   
  /* margin:3em auto;*/
 
@@ -168,7 +168,7 @@ blockquote {
 	/*line-height: 1.5em;*/ 
 	margin-bottom: 1.43em;
 	margin-top: 1.43em;
-	padding-right: 3em;
+	padding-right: 3em;	
 
 }
 .section h1 {
@@ -183,6 +183,8 @@ blockquote {
 	float: left;
 	margin-block-start: 0;
     margin-block-end: 0;
+    font-size: 100%;
+
    
 }
 /*.section p { margin-bottom: 1.43em; }*/
@@ -191,6 +193,9 @@ blockquote {
 
 .list .title { font-weight: bold;}
 
+.section a {
+	font-size: inherit;
+}
 
 p.line { 
 	position: relative; 
