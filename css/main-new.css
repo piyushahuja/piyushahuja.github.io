@@ -21,15 +21,14 @@ html, body {
   background-color: white;
   background-position: center;
   background-repeat: repeat-x;
-  
-  
+  line-height: 1.5em
  /* margin:3em auto;*/
 
 }
 
 
 
-p {margin: 1em 0 1em 0; text-align: justify;}
+p {margin: 1em 0 1em 0; text-align: justify;  }
 a { text-decoration: none; color:#1118A4; } 
 a:hover { text-decoration: underline; color: #33f; }
 a.pdf:before { 
@@ -47,11 +46,14 @@ ul {
 ul li {
 	list-style-type: square;
 	list-style-position: outside;
+
 }
 ol li {
 	list-style-type: decimal;
 	list-style-position: inside;
 }
+
+
 /* @group Header */
 
 /* @group Header */
@@ -155,11 +157,15 @@ blockquote {
 
 
 
-
 #page {
 	box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
+}
+
+#page li {
+	margin: 1em 0 1em 0;
+	line-height: 3em
 }
 
 
@@ -184,8 +190,6 @@ blockquote {
 	margin-block-start: 0;
     margin-block-end: 0;
     font-size: 100%;
-
-   
 }
 /*.section p { margin-bottom: 1.43em; }*/
 
@@ -194,7 +198,6 @@ blockquote {
 .list .title { font-weight: bold;}
 
 .section a {
-	font-size: inherit;
 }
 
 p.line { 
