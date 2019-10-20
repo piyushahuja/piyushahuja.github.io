@@ -9,7 +9,7 @@ section: Home
 <!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
  -->
  
-I am currenty working full time as a software engineer in Cambridge (UK).
+I am currenty working as a software engineer in Cambridge (UK).
 
 I enjoy learning, teaching, and creative collaborations. I am particularly interested in alternative economic and social arrangements to academia that encourage the pursuit of research, higher learning and teaching.
 
