@@ -1,4 +1,12 @@
 
+
+#site {
+
+	max-width: 43em
+}
+.site-header {
+	max-width: 43em
+}
 #page {
  padding: 3em 3em 1.5em 3em;
  font-size: 100%;
