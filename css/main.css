@@ -7,8 +7,26 @@
 }*/
 
 
-/*html, body { height: 100%; }
-*/
+
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing:border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+/*  height: 100%;
+  font-family: 'Open Sans'*/ }
+
+site {
+
+  width:100%;
+  max-width:40em;
+  margin:3em auto;
+
+}
 
 body {font-family: Palantino, 'times new roman', serif;
   font-size: 16px;
@@ -18,8 +36,8 @@ body {font-family: Palantino, 'times new roman', serif;
 
 
 
-a{text-decoration: none; color:#333399; font-size: }
-a:hover{color:blue; text-decoration:underline; }
+a {text-decoration: none; color:#333399; font-size: }
+a:hover {color:blue; text-decoration:underline; }
 
 
 
@@ -27,7 +45,7 @@ a:hover{color:blue; text-decoration:underline; }
 
 /* Site header */
 
-.site-header {
+/*.site-header {
   margin-left: 20%; margin-right: 20%; width: 60%; margin-bottom: 0px; position: relative; overflow: hidden; border-style: dashed;}
 .site-header a{ }
 .site-header:hover a{color:black;text-shadow: 2px 2px 4px #888888 ; }
@@ -55,7 +73,7 @@ a:hover{color:blue; text-decoration:underline; }
 }
 
 
-
+*/
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
