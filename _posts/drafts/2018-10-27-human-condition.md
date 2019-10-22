@@ -1,7 +1,7 @@
 ---
 
 layout: post-normal
-title: Employee fired from work for suffering from a chronic case of “the human condition"
+title: A chronic case of “the human condition"
 date:   2018-10-27 09:00:11
 tag: 
 categories: essays
@@ -10,6 +10,7 @@ permalink: /human-condition
 
 ---
 
+**Employee fired from work for suffering from a chronic case of “the human condition"**
 
 In an email correspondence,  Brian James, 32, disclosed that the illness had been congenital.  “I’ve had it since birth, and it was really fine, at least initially.  I never felt unfit for the job. But rising expectations at work started making me look increasingly uncompetitive. My performance appraisals started indicating I wasn’t as productive as the machines employed for the same task”.
 
