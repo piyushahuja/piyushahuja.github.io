@@ -24,8 +24,7 @@ Previously, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_In
 
 <!-- The [work section](/work)  spells out my professional experience in greater detail.   -->
 
-Email:  piyushahuja.in@gmail.com.
-
+{% include email-subscribe.html %}
 
 
 [resumeFile]: ../files/piyush_resume.pdf 
