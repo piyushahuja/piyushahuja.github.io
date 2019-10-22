@@ -28,21 +28,20 @@ permalink: /:title
  
 
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
-<div class="addthis_inline_share_toolbox" align ="right">
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ad839edfeb2308b"></script>
 
-</div>
+{% if page.sharing %}
 {% include sharing-plug.html %}
+{% endif %}
 </div><!-- End Page -->
 
 
 
-
+{% if page.comments %}
 <!-- Discus Comments -->
 <div id="disqus_thread">
   {% include comments.html %}
  </div>
 <!-- Enable Disqus comments -->
-
+{% endif %}
 
 
