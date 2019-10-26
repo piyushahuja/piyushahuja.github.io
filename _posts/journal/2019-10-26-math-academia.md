@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Why did not go for a PhD in Maths
+title: Why I Decided Against A Maths PhD
 date:   2019-10-26 10:45:11
 tag: 
 categories: journal
