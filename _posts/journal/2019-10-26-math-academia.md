@@ -106,6 +106,14 @@ So I treat the lure and fantasies of academia as a siren song, seductive and tem
 
 > "I did my PhD in physics, and worked as a SWE right after graduation. Halfway through grad school, I started to feel academia is not my thing, but I cannot quit for all sorts of reasons (at least if thought so at the time). I used Matlab/FORTRAN/python for data analysis in my research work and intentionally looked into CS stuff along the way. I loved it, took a lot of MOOC and managed to eventually get a job in the industry. I loved it in the beginning, spent a lot of personal time doing work and had no complaints. The industry has amazing stride of coming up new technology/ideas, there is always something I can learn which never makes me bored. Most of the people seem generally smart and love their job. Over time I start to realize work is work and there are many factors in the play. I have to find a balance among interesting work, nice colleagues and good pay, but it is not too hard given the amount of opportunities the industry offers. Overall I am happy I made the move. My academia background wasn’t in the CS field, so I am not sure how relevant my experience is. I did often need to look up and read CS papers to help with my job, obviously not the same way as in research. I hated paper reading in grad school but start to enjoy it now, one of the reasons is the interest and motivation are stronger and also the for-fun mindset. Strangely it came to me that maybe things would work out as well had I stayed in academia.
 
+----
+
+People in my network who have done a PhD:
+
+S Anand, Shayak Sen, Abhishek Bannerjee, Gaurav Mahajan, Jatin Batra, Dakshita Khurana, Deepak Vasisht, Anuj Kalia, Abhimanyu Dubey, Sherjil Ozair, Shashwat Garg, Jyotesh Singh, Karan Goel, Prasoon Goyal  
+
+----
+
 **References**
 
 I found the account of these three accounts of the PhD experience to be illuminating:
