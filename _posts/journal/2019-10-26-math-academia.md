@@ -30,7 +30,7 @@ So I treat the lure and fantasies of academia as a siren song, seductive and tem
 
 
 
-**Here's a compilation of the reasons you should NOT to a PhD:**
+**Here's a compilation of reasons you should NOT go for a PhD:**
 
 * **It's an escape from the responsbilities of adulthood**
 
