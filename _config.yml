@@ -33,5 +33,3 @@ include: ["_pages"]
 #   <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
 # {% endfor %}
 # </h3>
-
-theme: jekyll-theme-minimal
