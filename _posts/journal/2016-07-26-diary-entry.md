@@ -4,7 +4,7 @@ layout: post-journal
 title: I wish I had kept a diary 
 date:   2016-07-26 09:00:11
 tag: 
-categories: work-journal
+categories: journal
 excerpt: 
 permalink: /diary
 comments: false
