@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Why I Resist The Temptations Of A Maths PhD
+title: Why I Resist The Temptations Of A PhD in Maths
 date:   2019-10-26 10:45:11
 tag: 
 categories: journal
