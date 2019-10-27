@@ -58,8 +58,6 @@ So I treat the lure and fantasies of academia as a siren song, seductive and tem
 
 >  "46% of papers will never be looked at outside of the authors, reviewers, and the editors. The articles are not only never downloaded, but the pages are never even loaded. ~half of all papers are effectively lecturing into the void."
 
-> "There is a huge degree of specialization within academia, making it difficult to communicate insights to colleagues outside your specialty."
-
 
 * **It’s a sales game**
 
