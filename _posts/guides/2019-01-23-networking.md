@@ -12,6 +12,10 @@ permalink: /networking
 
 
 
+---
+
+
+
 > "I tried to secure her a specialist appointment at Huashan Hospital, one of the best public hospitals in Shanghai, only to discover that they were full till the end of August. You could still make an appointment, but only if you knew somebody on the inside — only if you had enough “guanxi,” the network of connections and relationships that make China function... The previous principal liked to boast about the guanxi he had via those parents. “When my father needed heart surgery,” he said once in a faculty meeting, “I asked my secretary to locate a parent who worked at the president’s office in Huashan Hospital. And I soon found one.”
 
 
@@ -28,17 +32,94 @@ permalink: /networking
 
 ---
 
-**Cultivate Your Tribe**
+**My Tribe**
 
-**Why a Tribe?**
+* Florian, RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir, Mandeep Ma’am, Shivani Ma’am, Alistair Beecher Stowe, Saurabh Wadhawan (Mentors)
+* Nikhil Mahajan, Uddesh Kattayan, Dhruv, Mayank (Mentees)
+* GD, Prachi, PGM (3 AM Friends)
+* To be in the intellectual community of people I admire: comedians, quizzers, writers, philosophers, artists, all soul fellows (Interest Based): 
+
+**To Cultivate Tribe**
+
+* Fotedar, Dhruv, Aayush Goel, Salik, Barbara, Gavin, Billy Walker, Manan, Shubham, Leonie Smith, Hoser, Nakul Krishna, Dot (artist), Amrai (artist) Arudra Burra (philosopher), Ewan Maccaulay (quizzer), Sue Killoran (librarian!), Nina Sud (writer), Karan Nagpal (economist), NTiriwa
+
+
+1.  No question asking: Archit, Shankhayan, Shriram
+2.  Cannot be alone together: Ida, Rodolfo 
+3.  Always on: Shankhayan, Rahul 
+4.  The double-obligated friendship: Anish, Zarka, Aman, Arjun 
+5.  The half-marriage Shohini, Ankita, Sudarshana, Charu, Shuvi
+6.  The historical friend Deepika, Yaman, Kunal 
+7.  The non-parallel life paths friendship Kashyap 
+8.  The frenemy  Stuti, Duja
+9.  The Facebook celebrity friend 
+10. The lopsided friendship Bhalu
+
+
+
+**Good People but not tribe**
+
+* Yatik, Gayatri, Amitabh,  Deepika, Sarah Nehrling
+* Johnians: Sumedh, Pranav,
+* IIT: Shankhayan, Nishit, Aritra, Chetan
+* Oxford: Allison, Segolene, Annie Gregoire, Olivia Regan, Seth, Helene, Leonie Davidson, S Winkler, Luca, Brian Adams, Dan Bowen, Leevi, Zelter 
+
+
+
+
+**Communities Connectors**
+
+* **Sector 6**: Bharat, Aasaf
+* **Little Angels**: Saurabh, Deepika
+* **Johnians**:  Ishaan Vadhera, Jivitesh, Kashyap
+* **Chandigarh**: Yatik, Sahil Singla
+* **MaC Jwala**: PGM, Gainda, Tarun, KT, Raghu, Shubham, Vipul, Bhalu, Billi
+* **QC**: Mayank, Fotedar, Dhruv, Nikhil, Abhishek Bansal
+* **Humanities**: Richa Kumar, Ambuj Sagar, RBN, Arudra Burra, Prachi
+* **Maths**: Kundu, Anima Nagar
+* **Eton Hall**: Jia Xhin, Mas, Lampinen, Billy
+* **Opera**: B202: Khandu, Nadu
+* **Mystery Machine**: Manan, Shohini
+* **HMC**: Isabel Ruiz, Zhue Jie, Zelter, Valentina, Zuzana, Alex Lee, Helena, Gavin
+* **Jugnoo**: Saurabh Wadhawan, Prishit...
+* **Cambridge**: Freya
+* Others: Rahul Subramaniam, Poushak, Fizza, Andrew Clark, Laura, Prateek Raj, Kush, ...
+
+
+People who I have mentored:
+* Atreya, Angarika, S Vohra, Abhishek Garg, S Tandon
+
+------
+
+Contrast with people who de-energize:
+
+* Mandvi 
+* Johnians: Almost all 
+* IIT: SS, Murari, Shriram, Tulsyan, Vaanar, Bhatta
+* Oxford: Emily Atkinson, Jan Phillip, Mandie, Nufar Galin, Per, Ross, Rosa, Tatiana,  Leslie Smith, Bill Mander
+
+----
+
+
+
+
+**What is a Tribe?**
 
 
 
 Most people thrive when they are part of a good tribe – a place they can go to contribute and receive help when needed, a place of mutual enjoyment, mutual respect, and mutual purpose.  Just try to find some people you enjoy, whether it’s one other person, or a new group. And then find ways to spend more time with people who energize you, and less time with people who drag you down. And if you’re drawn to a tribal utopia, use that as an ideal that you nudge your social life toward a little at a time.
 
-You want to find your tribe – the types of people like you that you can imagine working with for the rest of your career. Within that, you want to find a small group of people whom you trust, and whose opinions you really respect. You should probably be willing to move. For whatever you’re interested in, there will be pockets of people around the world who are doing the best work, and it’s worth getting as close to them as possible. Help others for no reason at all. When you’re young, you tend to have a small network, and that limits your options. When you help people without any intention of ever getting benefit back, doors and new connections will open – this has been super important for me.
+Tim Urban's criteria: People you can be off with, people who ask questions, people you are comfortable to be alone with, no weird unrequited love dynamic, not opposing life paths, no harboured resentment, no obsessive fb crush, no lopsided. 
+
+You want to find your tribe – the types of people like you that you can imagine working with for the rest of your career. Within that, you want to find a small group of people whom you trust, and whose opinions you really respect. You should probably be willing to move. For whatever you’re interested in, there will be pockets of people around the world who are doing the best work, and it’s worth getting as close to them as possible. Help others for no reason at all. When you’re young, you tend to have a small network, and that limits your options. When you help people without any intention of ever getting benefit back, doors and new connections will open – this has been super important for me. 
+
+People who bring out the best in you, around whom you are jolly, content, energised, and at are creative best. People who make you feel secure. People who inspire you and who lift your spirits. People who make you want to be a better you. 
 
 Your true educators and cultivators will reveal to you the original sense and basic stuff of your being, something that is not ultimately amenable to education or cultivation by anyone else, but that is always difficult to access, something bound and immobilized; your educators cannot go beyond being your liberators. 
+
+
+
+**Why a Tribe?**
 
 There's a common misconception - I think across industries, not just in consulting - that you will be rewarded commensurately to how hard you work and how good your output is. In my view, this is false. Good networking will never compensate for poor performance, but doing a good job only takes you 80% of the way. The remaining 20% is contingent on what otherpeople think and say about you. It is absolutely your responsibility to manage your brand and to build positive relationships with your colleagues.
 
@@ -51,18 +132,21 @@ You build networks around the issues you care about, you grow and change through
 
 **How to cultivate your tribe**?
 
-- Help people as much as you can. Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago. Keep coming up with simple ways to be useful to the people in your network. A few times a year is plenty. Pass things along to them. Mention their work to other people. Plug them in your talks. Include them in things. Get your department or laboratory to invite them to speak. Put them up when they come to town. Write reviews of their books. And invent other helpful things to do. None of this is mandatory, of course, but it helps. And I can't repeat this often enough: keep it low-key. Never, ever pressure anybody into anything. Don't say "please" or "I know you must be very busy", which can sound like emotional manipulation. Don't heap so much unsolicited help on someone that they feel crowded or obligated. Don't complain. Don't approach the whole business as a matter of supplication and begging, but rather as ordinary cooperation among equals. Likewise, make sure you're exchanging these favors out of courtesy and respect, and not as phony politicking -- everyone hates that stuff. Build relationships with personal friends outside of work so you won't be unconsciously trying to get professional contacts to play roles in your personal life (for example, the role of sounding board for your troubles). If you don't hear from someone for a while, let it ride. If you feel yourself getting obsessive about the process, go talk it out with someone you regard as wise.
 
-- Develop a reputation for really taking care of the people who work with you. Be overly generous with sharing the upside; it will come back to you 10x. 
+
+- **Help people as much as you can.** Doing this, over a long period of time, is what lead to most of my best career opportunities and three of my four best investments. I’m continually surprised how often something good happens to me because of something I did to help a founder ten years ago. Keep coming up with simple ways to be useful to the people in your network. A few times a year is plenty. Pass things along to them. Mention their work to other people. Plug them in your talks. Include them in things. Get your department or laboratory to invite them to speak. Put them up when they come to town. Write reviews of their books. And invent other helpful things to do. None of this is mandatory, of course, but it helps. And I can't repeat this often enough: keep it low-key. Never, ever pressure anybody into anything. Don't say "please" or "I know you must be very busy", which can sound like emotional manipulation. Don't heap so much unsolicited help on someone that they feel crowded or obligated. Don't complain. Don't approach the whole business as a matter of supplication and begging, but rather as ordinary cooperation among equals. Likewise, make sure you're exchanging these favors out of courtesy and respect, and not as phony politicking -- everyone hates that stuff. Build relationships with personal friends outside of work so you won't be unconsciously trying to get professional contacts to play roles in your personal life (for example, the role of sounding board for your troubles). If you don't hear from someone for a while, let it ride. If you feel yourself getting obsessive about the process, go talk it out with someone you regard as wise. Develop a reputation for really taking care of the people who work with you. Be overly generous with sharing the upside; it will come back to you 10x. Friendships are sacred, and deserve your utmost integrity, attention and honesty. 
+
+
 
 - A particularly valuable part of building a network is to get good at discovering undiscovered talent. Quickly spotting intelligence, drive, and creativity gets much easier with practice. The easiest way to learn is just to meet a lot of people, and keep track of who goes on to impress you and who doesn’t. Remember that you are mostly looking for rate of improvement, and don’t overvalue experience or current accomplishment.
 
-- If you're shy about asking people to do things for you, instead tell them what you're trying to accomplish and ask them for advice about how to do it yourself and for suggestions about who might be able to help you.)
+- If you're shy about asking people to do things for you, instead tell them what you're trying to accomplish and ask them for advice about how to do it yourself and for suggestions about who might be able to help you.) “Who are the best people you know here?" 
 
 * You have to STRIVE. There is no good in just sitting around pretending everything is good. So start figuring out what you like and where others who like what you like might hang out. The world is filled with lonely people searching for others like themselves. They think they are too weird or awkward or their desires are too disgusting or revolting for anyone to be like them or like them. Guess what? They are wrong. No matter what you think of yourself or your habits there are legions of people just like you, who would like you, who want to be your friend. All you have to do is find each other. I'm not saying its easy but nothing good happens by itself -- you have to make it happen. No matter what you like, make a goal, write it on paper -- then go do the work to make it happen. It won't happen over night. But it WILL happen. It's the nature of humanity. We are social and seek others to be with and we will move heaven and earth to find that person who is like us and who will like us. And once it starts it starts a chain reaction of finding more and more until you have a group of like minded people. Don't know where to start? Look at the group Meetup.org. They have branches in most cities and have literally 1000s of areas of interest. No Meetup near you? Look at the Adult Education classes in your community -- their focus is social, learning how to knit or cook or make birdhouses is secondary. Find something you like or  MIGHT like and then find an organization that does it. Friendships will then form - IF YOU LET THEM.
 
 * To have a friend you have to be a friend. You have to extend yourself. Offer your hospitality. Help someone out who needs a hand. And note -- that doesn't mean money. Money almost NEVER comes into play with real friendship so people who are all about the money are usually NOT your friend. Take your time and observe how people behave and see if they are worthy of your trust - and your friendship because your friendship is an incredibly valuable and precious thing, so precious that you couldn't possibly manage to have more than say, seven REALLY CLOSE friends. I count myself lucky that I have two or three friends I could risk my life on. Having seven would be cornucopia of benificence. You have to NURTURE and maintain friendships. You can't just call them once a year and expect the relationship to survive. You have to be there, partiicipate, commisserate, enjoy, laugh and be together. That takes time. After a certain number, the people you know are just acquaintances, maybe possible friends, but you won't have the time to nurture and build deep lasting frienships with all of them. So observe and choose -- and you will have the choice. There will be lots and lots of choices if you get out there and be where they are -- because they are looking for you too!
 
+* There are many, many awesome people living in integrity, creating with open hearts and rich imagination. You can be one of them; the easiest way is to join their communities and friendships. 
 
 
 * Doing things to fit in, doing things to seem cool, eats at your self-esteem. This happens slowly and gradually over the normal days of your lives, not just on one or two crazy nights. (Learn to say no. Most of us want to be loved, approved of, fit in, popular and so on. Unfortunately this also means saying a lot of yes when you really don't want to for fear of offending others. I am not a baseball fan, but there is this expression in baseball called the "fat pitch". It basically means as a batter you don't swing at every pitch that is coming at you, you patiently wait for the statistically high probability pitch because you only have limited chances at swinging. You need to think life and business the same way. There are too many distractions and low quality encounters, you cannot partake in all of them, otherwise you will be dragged down. Constantly ask yourself if what you are about to spend your time on actually help you advance your cause, if not, why are you doing it? I have trained my sales staff to fire customers, yes, fire customers. If the customer isn't economically viable for us to service, we are doing them a disservice by hanging on. We would certainly not able to run a business in a sustainable manner either. With people it is the same, you want to get ahead, then **spend time with quality individuals, do not tolerate mediocrity.** If you find yourself the lowest caliber person in the group, that would be fantastic!) 
@@ -89,22 +173,6 @@ I love movies.  I love standup comedy.  I love friends.  Actually, I would ne
 * **Call someone you haven’t talked to in a long time and say thank you** 
 Catching up with people makes us feel good.  If you feel lonely, call someone you haven’t called in a long time.  Someone you haven’t talked to.  They may think you’re crazy for having called them, but that doesn’t matter.  They probably won’t.  They’ll probably be flattered.  If they can’t talk then, schedule another time to talk to them.  Or you can write someone a letter or long email.  I love sending letters and long emails.  I’m about to do one right now.
 
-
-
--------
-
-**My Tribe** 
-
-- Rock Friendships: Isabel,  GD, Prachi,  Richa Kumar, RBN
-
-- Johnians: Ishaan Vadhera, Jivitesh, Kashyap, Pranav.
-- Chandigarh: Yatik, Dhruv, Saurabh 
-- MCA people: Tarun, Gainda, Shubham, Bhalu, Billi, Vipul.   
-- QC people: Mayank, Nikhil Mahajan, Salik Warsi, Fotedar
-- Oxford People:  Isabel, Gavin, William, ZuZi, Phillip, Leonie Smith, Leonie Davidson, Brian Adams, Manan, Shohini, Alex
-- IITD: Kush, GD
-- IITB People: Khandu, Nadu, Sachin
-- Mentors: Florian, Alistair Beecher, RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir,  Mandeep Ma’am,  Shivani Ma’am
 
 ---------
 
