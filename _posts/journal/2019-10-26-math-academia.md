@@ -120,9 +120,10 @@ I found the account of these three accounts of the PhD experience to be illumina
 * [Phillip Guo, PhD in CS](http://pgbovine.net/PhD-memoir.htm)
 * [Jeremy Kun, PhD in Maths](https://medium.com/@jeremyjkun/my-graduate-career-in-math-85fd4efb0fa9)
 * [Vipul Naik, PhD in Group Theory](https://www.quora.com/Why-do-people-leave-academia-What-are-the-pros-and-cons-of-leaving-the-field/answer/Vipul-Naik)
+* [What Does Any of This Have To Do with Physics?](http://nautil.us/issue/43/heroes/what-does-any-of-this-have-to-do-with-physics)
 
 
-Most of the above quotes are taken from these articles:
+Most of the quotes are taken from these articles:
 
 - [The joy of research](https://www.cs.purdue.edu/homes/dec/essay.phd.html)
 - [Academics who switched to industry, what's your experience been like?](https://news.ycombinator.com/item?id=18798498)
