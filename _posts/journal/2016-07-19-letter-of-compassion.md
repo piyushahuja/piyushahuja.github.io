@@ -19,7 +19,7 @@ You’ve achieved a lot. You’ve graduated from IIT Delhi with a major in Maths
 
 But you are still not happy. You’re repeatedly frustrated by your own ambitions. Your writing hasn’t taken off to match your expectations (It has! It is much much better than what it was before, and definitely better than those of others).  Your sense of humour has dipped. You are still not able to delight a crowd or be the centre of attraction among a group of friends. All this brings distress to you (quite apart from the fact that you’ve never been all this). It seems (to you) that you've lost one friend after the other since graduating from IIT Delhi. You’re missing a sense of community, and you want to feel loved, and respected (you do not need it!) .
 
-And there are other, more serious problems to solve. You sister is to be married and her life sorted. Dad has to rehabilitated somehow - despite himself. And something has to be done about your sad, tired, and old-looking countenance (baldness is permanent - sorry!).
+And there are other, more serious matters to take care of. You sister is to be married and her life sorted. Dad has to rehabilitated somehow - despite himself. And something has to be done about your sad, tired, and old-looking countenance (baldness is permanent - sorry!).
 
 Two ingredients are essential to solve all your problems: self-love and presence.
 
