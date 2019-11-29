@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: How I Resist The Lure Of Academia
+title: Academia? Thank You, But No
 date:   2019-10-26 10:45:11
 tag: 
 categories: journal
