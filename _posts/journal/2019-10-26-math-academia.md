@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Academia? Thank You, But No
+title: Academia? Thank You, but No
 date:   2019-10-26 10:45:11
 tag: 
 categories: journal
