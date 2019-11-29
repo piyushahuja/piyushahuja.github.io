@@ -1,6 +1,6 @@
 ---
 layout: post-journal
-title: What I am grateful for
+title: What I Am Grateful For
 date:   2019-03-21 09:00:11
 tag: 
 categories: journal
@@ -20,7 +20,7 @@ A mature, sensible sister who was sort of a visionary without knowing it. She pl
 
 **My Friends**
 
-Friends with strong bonds of trust and emotional support (Gagandeep, Prachi). Some of my best friends would describe me as their best friend. A wide network of talented, trusted individuals with high E.Q. from Oxford and IIT. 
+Friends with strong bonds of trust and emotional support. Some of my best friends would describe me as their best friend. A wide network of talented, trusted individuals with high E.Q. from Oxford and IIT. 
 
 **My Education**
 
