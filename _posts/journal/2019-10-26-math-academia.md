@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Academia? I Must Resist...
+title: Academia? I Must Resist
 date:   2019-10-26 10:45:11
 tag: 
 categories: journal
