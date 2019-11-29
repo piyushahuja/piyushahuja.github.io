@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Letter To Self On Graduation 
+title: Letter To Self On Graduation From Oxford 
 date:   2016-07-19 09:00:11
 tag: 
 categories: journal
