@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Why I Did Not Go For A PhD in Maths
+title: How I Resist The Lure Of Academia
 date:   2019-10-26 10:45:11
 tag: 
 categories: journal
