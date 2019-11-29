@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Letter Of Compassion To Self On Graduating From Oxford
+title: Letter Of Compassion To Self On My Graduation
 date:   2016-07-19 09:00:11
 tag: 
 categories: journal
