@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Academia? I Must Resist
+title: Academia? How I Resist
 date:   2019-10-26 10:45:11
 tag: 
 categories: journal
@@ -24,13 +24,13 @@ For a brief while a year ago, while preparing for job interviews,  I took up mat
 
 So maybe, just maybe I would be fine with the math struggle. But that is only one of the concerns you face when you decide questions of career and how to lead your life.  What about the rest? If I go for academia, would I even get to do much maths, or would most of it spent applying for funding, correcting papers, supervising undergrads, and so on? Would I be able to provide for others and my family? Could I find similar fulfilment in some other activity: for example, private math tutoring or R&D work in a company? What are the opportunity costs? 
 
-So I looked around the Internet for other people’s experiences with this, very much like a public consultation,  and it painted a gloomy picture: going for a PhD in Maths would would more likely be an anxiety-laden experience, spent in poverty, in an atmosphere where sucess would partly depand on sales and politics and a lot of admin work; would not lead to much impact on the outside world at large and get little validation or recognition, and at the end of it all I would be less employable that I would probably be less employable than if I went into industry. 
+So I looked around the Internet for other people’s experiences with this, very much like a public consultation,  and it painted a gloomy picture: going for a PhD in Maths would be an anxiety-laden experience, spent in poverty, in an atmosphere where success would partly depend on how well you sell yourself and politics and a lot of admin work; would  get little validation or recognitio and not lead to much impact on the outside world at large in any case, and at the end of it all I would be less employable than I otherwise would be. 
 
 So I treat the lure and fantasies of academia as a siren song, seductive and tempting, but dangerous and something to stay away from.
 
 
 
-**Here's a compilation of reasons you should NOT go for a PhD:**
+**Here's a compilation of reasons why one should NOT go for a PhD:**
 
 * **It's an escape from the responsbilities of adulthood**
 
@@ -105,25 +105,20 @@ But maybe math's not about impact, and only about [finding out what might be pos
 
 > "I did my PhD in physics, and worked as a SWE right after graduation. Halfway through grad school, I started to feel academia is not my thing, but I cannot quit for all sorts of reasons (at least if thought so at the time). I used Matlab/FORTRAN/python for data analysis in my research work and intentionally looked into CS stuff along the way. I loved it, took a lot of MOOC and managed to eventually get a job in the industry. I loved it in the beginning, spent a lot of personal time doing work and had no complaints. The industry has amazing stride of coming up new technology/ideas, there is always something I can learn which never makes me bored. Most of the people seem generally smart and love their job. Over time I start to realize work is work and there are many factors in the play. I have to find a balance among interesting work, nice colleagues and good pay, but it is not too hard given the amount of opportunities the industry offers. Overall I am happy I made the move. My academia background wasn’t in the CS field, so I am not sure how relevant my experience is. I did often need to look up and read CS papers to help with my job, obviously not the same way as in research. I hated paper reading in grad school but start to enjoy it now, one of the reasons is the interest and motivation are stronger and also the for-fun mindset. Strangely it came to me that maybe things would work out as well had I stayed in academia.
 
-----
-
-People in my network who have done a PhD:
-
-S Anand, Shayak Sen, Abhishek Bannerjee, Gaurav Mahajan, Jatin Batra, Dakshita Khurana, Deepak Vasisht, Anuj Kalia, Abhimanyu Dubey, Sherjil Ozair, Shashwat Garg, Jyotesh Singh, Karan Goel, Prasoon Goyal  
 
 ----
 
 **References**
 
-I found the account of these three accounts of the PhD experience to be illuminating:
+Some good accounts of the "lived experience":
 
 * [Phillip Guo, PhD in CS](http://pgbovine.net/PhD-memoir.htm)
 * [Jeremy Kun, PhD in Maths](https://medium.com/@jeremyjkun/my-graduate-career-in-math-85fd4efb0fa9)
 * [Vipul Naik, PhD in Group Theory](https://www.quora.com/Why-do-people-leave-academia-What-are-the-pros-and-cons-of-leaving-the-field/answer/Vipul-Naik)
-* [What Does Any of This Have To Do with Physics?](http://nautil.us/issue/43/heroes/what-does-any-of-this-have-to-do-with-physics)
+* [Physics PhD: What Does Any of This Have To Do with Physics?](http://nautil.us/issue/43/heroes/what-does-any-of-this-have-to-do-with-physics)
 
 
-Most of the quotes are taken from these articles:
+Quotes taken from:
 
 - [The joy of research](https://www.cs.purdue.edu/homes/dec/essay.phd.html)
 - [Academics who switched to industry, what's your experience been like?](https://news.ycombinator.com/item?id=18798498)
