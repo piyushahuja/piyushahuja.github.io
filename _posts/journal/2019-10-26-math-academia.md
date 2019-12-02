@@ -51,7 +51,7 @@ So I treat the lure and fantasies of academia as a siren song, seductive and tem
 
 >  "The very best possible outcome for your research is that someone at Google or Microsoft or Facebook reads one of your papers, gets inspired by it, and implements something like it internally. Chances are they will have to change your idea drastically to get it to actually work, and you'll never hear about it. And of course the amount of overhead and red tape (grant proposals, teaching, committee work, etc.) you have to do apart from the interesting technical work severely limits your ability to actually get to that point. At Google, I have a much more direct route from idea to execution to impact. I get to hack all day, working on problems that are orders of magnitude larger and more interesting than I can work on at any university. That is really hard to beat, and is worth more to me than having "Prof." in front of my name, or a big office, or even permanent employment. In many ways, working at Google is realizing the dream I've had of building big systems my entire career. "
 
-But maybe math's not about impact, and only about [finding out what might be possible](https://qr.ae/T9fSzE) 
+But maybe research is not about impact at all - only about [finding out what might be possible](https://qr.ae/T9fSzE)?
 
 * **There's not much in the way of appreciation, recognition or external validation**
 
