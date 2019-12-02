@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Academia? How I Resist
+title: Academia? I Must Resist
 date:   2019-10-26 10:45:11
 tag: 
 categories: journal
@@ -110,7 +110,7 @@ But maybe math's not about impact, and only about [finding out what might be pos
 
 **References**
 
-Some good accounts of the "lived experience":
+Some good accounts of the "lived experience" of a PhD:
 
 * [Phillip Guo, PhD in CS](http://pgbovine.net/PhD-memoir.htm)
 * [Jeremy Kun, PhD in Maths](https://medium.com/@jeremyjkun/my-graduate-career-in-math-85fd4efb0fa9)
