@@ -405,6 +405,7 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
     *  One of the common questions I find myself asking a woman on a first date is where she has traveled. The response can quickly become a list of places, and once again we’re in résumé territory. So instead I’d ask, “What place most inspired you and why?”
     *  Rather than ask about her job, I would ask, “What work are you passionate about?”
     *  I wouldn’t ask about her longest relationship, as if length equals depth. Instead, I’d ask, “What’s the most in love you’ve ever felt?”
+    *   Aim for questions that invite people to tell stories, rather than give bland, one-word answers.
 
 
 > "What are you interested in these days?
@@ -425,6 +426,66 @@ Sometimes small talk is good. E.g. elevator Pitches for networking events, or wh
 
 > [36 Questions](http://www.nytimes.com/2015/01/11/fashion/no-37-big-wedding-or-small.html?_r=0)
 
+
+
+
+Instead of . . .
+“How are you?”
+“How was your day?”
+“Where are you from?”
+“What do you do?”
+“What line of work are you in?”
+“What’s your name?”
+“How was your weekend?”
+“What’s up?”
+“Would you like some wine?”
+“How long have you been living here?”
+
+Try . . .
+“What’s your story?”
+“What did you do today?”
+“What’s the strangest thing about where you grew up?”
+“What’s the most interesting thing that happened at work today?”
+“How’d you end up in your line of work?”
+“What does your name mean? What would you like it to mean?”
+“What was the best part of your weekend?”
+“What are you looking forward to this week?”
+“Who do you think is the luckiest person in this room?”
+“What does this house remind you of?”
+“If you could teleport by blinking your eyes, where would you go right now?”
+
+Mirrored example:
+James: It’s a beautiful day!
+John: Yes, it is a beautiful day!
+
+See? By mirroring James’s opinion and language, John has followed the social norm, but he’s also paralyzed the discussion and missed a moment of fun. Instead, John needs to practice the art of disruption and move the dialogue forward:
+
+Non-mirrored example:
+James: It’s a beautiful day!
+John: They say that the weather was just like this when the Japanese bombed Pearl Harbor. If that actually happened.
+
+Leapfrog over the expected response
+An even better way to break the boring-conversation mirror is to skip over the expected response, and go somewhere next-level:
+
+Instead of :
+Ron: How was your flight?
+Carlos: My flight was good!
+
+Beverly: It’s hot today.
+Gino: Yeah, it sure is hot.
+
+Riz: What’s up?
+Keil: Hey, what’s up?
+
+Try:
+Ron: How was your flight?
+Carlos: I’d be more intrigued by an airline where your ticket price was based on your body weight and IQ.
+
+Beverly: It’s hot today.
+Gino: In this dimension, yes.
+
+Riz: What’s up?
+Keil: Washing your chicken just splatters the bacteria everywhere.
 
 * **Tease about love-life** Inquire about their love life in a harmless way.  It lets their guard down and shows you’re willing to add humor into the conversation.
     * “Wow Greg. You look pretty dapper. Hot date tonight?”
