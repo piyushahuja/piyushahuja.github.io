@@ -30,6 +30,13 @@ permalink: /networking
 
 > "Sometimes I feel that it can be a lucrative trap to become invested in a single person, and then accumulate expectations that far outweigh the responsible obligations of any friendship. As I have gotten older, a pattern that is working much better for me is the campfire model - I just try to keep a metaphorical campfire going, for people traveling through this life to stop and warm themselves upon while I tend it. I cannot know which direction people are traveling from, or to, or how long their journey has been or will be. But all people need to warm their calloused hands and feet, and I can keep this fire with a bed of rosy coals. Sometimes someone will stop at my fire and warm themselves without my ever having paid attention, but to them it may have meant all the difference in the world. By keeping this obligation in mind, to simply expect people to need a place to sit a spell, I can at least believe I am helping. The campfire is a nice way for me to remember we're all suffering, that not a one of us is unique to loneliness. Because sometimes that person who sits down at your fire is the person you have been waiting for, and only by making a seat for them were you able to ever meet."
 
+
+
+> I had a good friend who just had open "hang out" time every day after work in his garage. There was a group of about 30 friends who might stop by any time between 5 and 8 PM, have a beer, hang out and BS. Sometimes it was just Paul and 1 or 2 others, sometimes 15 people showed up, sometimes Paul wasn't even there, but the garage was always open (if you had the code). I used to go almost every day between work and home, it's how i made about half the friends I have now. It was also where weekend plans got made and many a hunting/fishing/camping trip got planned there.
+
+Become Main Character in Other People’s Movies by voicing opinions, storytelling, helping, keep a metaphorical campfire going. Avoiding hanging out with people who drain energy from you: charisma isn’t about being at ease with all,  the costs of developing familiarity for later advantage are too high (self-esteem), and the second-degree acquantainces are likely not great either because their vibe attracts their tribe.  If you’re over-committed or scattered, fall back to “Hell Yes or No”. 
+
+
 ---
 
 **My Tribe**
