@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Dangers of A Self-Improvement Mindset
+title: Dangers of Trying Self-Transformation 
 date:   2020-03-23 00:45:11
 tag: 
 categories: journal
@@ -16,7 +16,7 @@ permalink: /against
 > ‘’He painted a very feeble picture when he spoke of himself, a practice that was humorously meant, but that bellied, nevertheless, an excessively vulnerable self-conception. For he measured all his actions by a private standard of perfection, and laboured in service of this standard; as a consequence he was never really satisfied with any of his efforts, or with their results, and tended, in general, towards defeatism.” - The Luminaries
 
 3. Self-rejection can ultimately lead to an alienation from the self. In the worst case, it **can lead to building a false-self image or turning into a sociopath** filled with persistent inner shame: such as Ted Bundy or Donald Trump.
-If, for example, you are learning hacks to be good at selling, or being charismatic, the hidden cost of manipulative behaviour would slow decline of respect for people, yourself and a distinct lack of empathy. Psychopaths are very good at reading people whereas despite being well read in human behaviour. Hacks are hacks, but ultimately if you are unable to respect people, you will inevitably lose respect. A true leader doesn’t need hacks. Never use strategies for manipulation. If you are really good with it it might work, but what is the damn point? And most of us aren’t really good if the reason is not genuine and authentic. We can all spot from a mile away when someone is trying to take something from us or sell us something. Even if we can’t put our finger on it exactly, we sense something is up. And then we are just waiting for the confirmation moment. “Aha! I knew it!”
+For example, if you are learning hacks to be good at selling, or being charismatic, the hidden cost of manipulative behaviour would be the slow decline of respect for people, yourself and a distinct lack of empathy. psychopaths are very good at reading people.  Ultimately if you are unable to respect people, you will inevitably lose respect. If you are really good with it it might work, but what is the damn point? We can all spot from a mile away when someone is trying to take something from us or sell us something. Even if we can’t put our finger on it exactly, we sense something is up. And then we are just waiting for the confirmation moment. “Aha! I knew it!”
 
 
 4. If improving in one thing is incongruous with improving in another, **one can lose integrity.** If you mimic the mannerisms of your role models, you can end up as a bizarre pastiche of different people, including yourself. For lack of a better example, to be good writing cynical satire, one has to ridicule those who believe in something, whereas to be good at connecting with other people, you one has to empathise. You cannot practice doing both simulatenously. 
@@ -26,5 +26,3 @@ If, for example, you are learning hacks to be good at selling, or being charisma
 
 6. Lastly, is it even possible to self improve? Any personality created by you is artificial and limited.  To make a conscious choice “I’d do this,  then I’d be that”.  **Whatever you little mind comes up with, will be too bare-bones, skeletal, analytical and limited. The world is expansive, abundant, changing, flowing, spontaneous.** You can never capture it your little self-aware consciousness thoughts in your little minds. So [forget self-improvement](https://news.ycombinator.com/item?id=3605242) Instead confront your insecurities, accept them, be yourself, and pursue some love, passion or purpose. Improvement can come indirectly.
 
-
-- 
