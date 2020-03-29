@@ -1,5 +1,3 @@
-
-
 ---
 
 layout: post-journal
@@ -11,7 +9,6 @@ excerpt:
 permalink: /against
 
 ---
-
 
 Why not to self improve? 
 * Rooted in escapism and delusion (collapse of “the practice of living consciously”), “if I do this I will be happy” thinking, where you you sacrifice the present for some illusory, elusive future. 
