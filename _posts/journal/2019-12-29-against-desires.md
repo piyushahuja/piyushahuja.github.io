@@ -12,6 +12,7 @@ permalink: /against
 
 1.  The desire for improvement is often **rooted in escapism and delusion** - where one thinks that “If I pursue this, I will become happy”, where you you sacrifice the present moment for some illusory elusive future. 
 
+
 2. It is also **rooted in rejection of the self**, especially if one is pursuing self-improvement because they think of themselves as inadequate or not "good enough". That self-assessment might be justifiable, but it also tends to plant an insecurity based on a focus on weaknesses rather than your strengths, and a mentality of scarcity rather than of abundance. If left unchecked the insecurities coulld lead to comparison, envy, jealousy, and anxiety from chasing unrealistic ideals and perfectionism. 
 > ‘’He painted a very feeble picture when he spoke of himself, a practice that was humorously meant, but that bellied, nevertheless, an excessively vulnerable self-conception. For he measured all his actions by a private standard of perfection, and laboured in service of this standard; as a consequence he was never really satisfied with any of his efforts, or with their results, and tended, in general, towards defeatism.” - The Luminaries
 
@@ -23,6 +24,7 @@ For example, if you are learning hacks to be good at selling, or being charismat
 
 5. For certain aspects of life, and arguably the only worthy ones, pursuing them as a conscious goal is the very thing that ensures that you do not reach there. These include, for example: authenticiy, "being yourself", happiness, wichanging someone's feelings about you, spontaneity etc. **Many desirable states are best pursued indirectly**, and conscious thought and effortful striving can actually interfere with their attainment.  
 [Trying Not To Try](https://www.brainpickings.org/2014/04/21/trying-not-to-try-slingerland/)
+
 
 6. Lastly, is it even possible to self improve? Any personality created by you is artificial and limited.  To make a conscious choice “I’d do this,  then I’d be that”.  **Whatever you little mind comes up with, will be too bare-bones, skeletal, analytical and limited. The world is expansive, abundant, changing, flowing, spontaneous.** You can never capture it your little self-aware consciousness thoughts in your little minds. So [forget self-improvement](https://news.ycombinator.com/item?id=3605242) Instead confront your insecurities, accept them, be yourself, and pursue some love, passion or purpose. Improvement can come indirectly.
 
