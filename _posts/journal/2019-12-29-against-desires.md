@@ -1,7 +1,7 @@
 ---
 
 layout: post-journal
-title: Against Self-Improvement
+title: Dangers of A Self-Improvement Mindset
 date:   2020-03-23 00:45:11
 tag: 
 categories: journal
@@ -10,9 +10,8 @@ permalink: /against
 
 ---
 
-Over the course of my life, I have f
 
-- **Rooted in escapism and delusion, where you escape the present for an illusory future.**
+- **It could be rooted escapism and delusion, where you escape the present for an illusory future.**
 
 Often “If I do this I will be happy”, where you you sacrifice the present for some elusive future. 
 
