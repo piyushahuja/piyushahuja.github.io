@@ -2,7 +2,7 @@
 
 layout: post-journal
 title: Against Self-Improvement
-date:   2019-03-23 00:45:11
+date:   2020-03-23 00:45:11
 tag: 
 categories: journal
 excerpt: 
