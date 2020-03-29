@@ -41,11 +41,11 @@ Become Main Character in Other People’s Movies by voicing opinions, storytelli
 
 **My Tribe**
 
-* Florian, RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir, Mandeep Ma’am, Shivani Ma’am, Alistair Beecher Stowe, Saurabh Wadhawan (Mentors)
-* Nikhil Mahajan, Uddesh Kattayan, Dhruv, Mayank (Mentees)
-* GD, Prachi, PGM (3 AM Friends)
-* To be in the intellectual community of people I admire: comedians, quizzers, writers, philosophers, artists, all soul fellows (Interest Based): 
-
+* Florian, RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir, Mandeep Ma’am, Shivani Ma’am, Alistair Beecher Stowe, Samar, Saurabh Wadhawan (Mentors)
+* Aayush, Nikhil Mahajan, Uddesh Kattayan, Dhruv, Mayank (Mentees)
+* GD, Prachi, PGM, Manan, Shubham, Tarun 
+* To be in the intellectual community of people I admire: comedians, quizzers, writers, philosophers, artists, all soul fellows (Interest Based)
+* 
 **To Cultivate Tribe**
 
 * Fotedar, Dhruv, Aayush Goel, Salik, Barbara, Gavin, Billy Walker, Manan, Shubham, Leonie Smith, Hoser, Nakul Krishna, Dot (artist), Amrai (artist) Arudra Burra (philosopher), Ewan Maccaulay (quizzer), Sue Killoran (librarian!), Nina Sud (writer), Karan Nagpal (economist), NTiriwa
@@ -700,6 +700,8 @@ How to break the ice then? Dr. Epley suggests simply saying to that stranger on 
 
 “Everybody loves to brag about their city,” he said.
 Or offer a compliment, he suggested. “As experienced solo travelers know, opportunities for pleasurable connections are everywhere: trains, planes, parks, bars, museums, walking tours, group hikes. Yet should all that fail, technology provides seemingly innumerable ways to increase the odds. 
+
+“Hey, I’d totally regret it if I didn’t introduce myself to you. May I?” You might get one “yes” for every ten “nos” but I promise those “nos” will be immediately forgotten and if you learn to laugh it off as a natural, clumsy, endearing attempt at finding a sticky collision with someone who piques your interest for whatever the reason ~ the fear you feel will evolve into excitement"
 
 
 
