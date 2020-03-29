@@ -111,7 +111,7 @@ But it is reasonable to hold that research is not about impact at all - only abo
 
 **References**
 
-Some good accounts of the "lived experience" of a PhD:
+Some good accounts of *the lived experience* of a PhD:
 
 * [Phillip Guo, PhD in CS](http://pgbovine.net/PhD-memoir.htm)
 * [Jeremy Kun, PhD in Maths](https://medium.com/@jeremyjkun/my-graduate-career-in-math-85fd4efb0fa9)
