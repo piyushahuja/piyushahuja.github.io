@@ -1,0 +1,104 @@
+I"A&<hr />
+
+<ul>
+  <li>Any program’s output should be able to act as input to another program, so programs can be composed together.</li>
+  <li>The uniform interface in Unix is a “file”: an ordered sequence of bytes. Many unix programs by convention treat ths sequence of bytes as ASCII text.
+    <ul>
+      <li>Files in a filesytem</li>
+      <li>Communication channels ()</li>
+    </ul>
+  </li>
+  <li>URLs and HTTP are also unform interface. A URL iidentifies a resource on a website, and iit can be linked to from other website. A user can thus jump seamlessly netween website, owned by different organizations through these links.
+    <ul>
+      <li>These was a key inisght. Before the world wide web, there were bulleting board systems, each had its own phone number and baud rate config. A reference from one BBS to another was not a “link that identifies a resource”, but in the form of a phone number and modem settings: the user would have to hang up, dial the other BBS, and then manually find the information they were looking for</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<p><strong>What is Map Reduce?</strong></p>
+
+<p>Within a computer program, it is a design pattern for implementing functions that operate on sequences of elements, which uses the powerful idea of treating functions as first-class values that we can pass around and manipulate in our programs.</p>
+
+<p>In a distributed system context, it is a programming model for executing batch jobs with parallel, distributed, algorithm on a cluster (e.g. processing and generating big data sets)</p>
+
+<p>As an open source implementation (e.g. Hadoop), it is a system that orchestrates the processing of data by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance.</p>
+
+<p>The use of this model is beneficial only when the optimized distributed shuffle operation (which reduces network communication cost) and fault tolerance features of the MapReduce framework come into play. Optimizing the communication cost is essential to a good MapReduce algorithm. The scalability and fault-tolerance achieved for a variety of applications by optimizing the execution engine.</p>
+
+<hr />
+
+<p>File is the most powerful abstraction. What is a file? Anything you can read()
+or write() or open(). Thus, all these devices can be treated as a file: CDs, printers, monitors etc.</p>
+
+<p>We can think of each process as a bundle of elements kept by the kernel to keep track of all these running tasks.</p>
+
+<p>MMaping: Map a file on disk to memory. Instead of having to open the file and use commands such as read() and write(), the file looks as if it were any other type of RAM. It is the job of the operating system to maintain security and stability, so it needs to check if a process tries to write to a read only area and return an error.</p>
+
+<p>A process can be further divided into code and data sections. Program code and data should be kept separately since they require different permissions from the operating system and separation facilitates sharing of code (as you see later). The operating system needs to give program code permission to be read and executed, but generally not written to. On the other hand data (variables) require read and write permissions but should not be executable.</p>
+
+<p>The Stack: important area of memory. The Part of the data section of a process; intimately involved in the execution of any programl fundamental to function calls. Each time a function is called it gets a new stack frame (which contains: the address to return to when complete, the input arguments to the function and space for local variables).</p>
+
+<p>How having a stack brings about many of the features of functions:</p>
+
+<p>Each function has its own copy of its input arguments. This is because each function is allocated a new stack frame with its arguments in a fresh area of memory.</p>
+
+<p>This is the reason why a variable defined inside a function can not be seen by other functions. Global variables (which can be seen by any function) are kept in a separate area of data memory.</p>
+
+<p>This facilitates recursive calls. This means a function is free to call itself again, because a new stack frame will be created for all its local variables.</p>
+
+<p>Each frame contains the address to return to. C only allows a single value to be returned from a function, so by convention this value is returned to the calling function in a specified register, rather than on the stack.</p>
+
+<p>Because each frame has a reference to the one before it, a debugger can “walk” backwards, following the pointers up the stack. From this it can produce a stack trace which shows you all functions that were called leading into this function. This is extremely useful for debugging.</p>
+
+<p>You can see how the way functions works fits exactly into the nature of a stack. Any function can call any other function, which then becomes the up most function (put on top of the stack). Eventually that function will return to the function that called it (takes itself off the stack).</p>
+
+<p>Stacks do make calling functions slower, because values must be moved out of registers and into memory. Some architectures allow arguments to be passed in registers directly; however to keep the semantics that each function gets a unique copy of each argument the registers must rotate.</p>
+
+<p>You may have heard of the term a stack overflow. This is a common way of hacking a system by passing bogus values. If you as a programmer accept arbitrary input into a stack variable (say, reading from the keyboard or over the network) you need to explicitly say how big that data is going to be.</p>
+
+<p>Stacks are ultimately managed by the compiler, as it is responsible for generating the program code. To the operating system the stack just looks like any other area of memory for the process.</p>
+
+<p>The heap is an area of memory that is managed by the process for on the fly memory allocation. This is for variables whose memory requirements are not known at compile time.</p>
+
+<p>Threads:</p>
+
+<p>While fork copies all of the attributes we mentioned above, imagine if everything was copied for the new process except for the memory. This means the parent and child share the same memory, which includes program code and data.</p>
+
+<p>his hybrid child is called a thread. Threads have a number of advantages over where you might use fork</p>
+
+<p>Separate processes can not see each others memory. They can only communicate with each other via other system calls.</p>
+
+<p>Threads however, share the same memory. So you have the advantage of multiple processes, with the expense of having to use system calls to communicate between them.</p>
+
+<p>The problem that this raises is that threads can very easily step on each others toes. One thread might increment a variable, and another may decrease it without informing the first thread. These type of problems are called concurrency problems and they are many and varied.</p>
+
+<p>To help with this, there are userspace libraries that help programmers work with threads properly. The most common one is called POSIX threads or, as it more commonly referred to pthreads</p>
+
+<p>Switching processes is quite expensive, and one of the major expenses is keeping track of what memory each process is using. By sharing the memory this overhead is avoided and performance can be significantly increased.</p>
+
+<p>There are many different ways to implement threads. On the one hand, a userspace implementation could implement threads within a process without the kernel having any idea about it. The threads all look like they are running in a single process to the kernel.</p>
+
+<p>This is suboptimal mainly because the kernel is being withheld information about what is running in the system. It is the kernels job to make sure that the system resources are utilised in the best way possible, and if what the kernel thinks is a single process is actually running multiple threads it may make suboptimal decisions.</p>
+
+<p>As we mentioned, copying the entire memory of one process to another when fork is called is an expensive operation.</p>
+
+<p>One optimisation is called copy on write. This means that similar to threads above, the memory is actually shared, rather than copied, between the two processes when fork is called. If the processes are only going to be reading the memory, then actually copying the data is unnecessary.</p>
+
+<p>However, when a process writes to its memory, it needs to be a private copy that is not shared. As the name suggests, copy on write optimises this by only doing the actual copy of the memory at the point when it is written to.</p>
+
+<h2 id="copy-on-write-also-has-a-big-advantage-for-exec-since-exec-will-simply-be-overwriting-all-the-memory-with-the-new-program-actually-copying-the-memory-would-waste-a-lot-of-time-copy-on-write-saves-us-actually-doing-the-copy">Copy on write also has a big advantage for exec. Since exec will simply be overwriting all the memory with the new program, actually copying the memory would waste a lot of time. Copy on write saves us actually doing the copy.</h2>
+
+<p>References:</p>
+
+<ul>
+  <li>Designing Data Intensive Applications</li>
+  <li><a href="http://web.mit.edu/6.031/www/fa18/classes/25-map-filter-reduce/">Map, Filter Reduce MIT Lecture</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/MapReduce">MapReduce on Wikipidia</a></li>
+  <li><a href="https://www.bottomupcs.com">Bottom Up CS</a></li>
+  <li>
+    <h2 id="unix-philosophy"><a href="https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html">Unix Philosophy</a></h2>
+  </li>
+</ul>
+
+:ET

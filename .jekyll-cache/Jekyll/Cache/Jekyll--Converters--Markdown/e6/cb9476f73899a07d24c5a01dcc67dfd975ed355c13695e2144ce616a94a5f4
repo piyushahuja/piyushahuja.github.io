@@ -1,0 +1,522 @@
+I"��<ul>
+  <li>https://www.youtube.com/watch?v=vB2pl1QbY3I)</li>
+  <li>http://muratbuffalo.blogspot.com/2020/01/how-to-speak-by-patrick-winston.html</li>
+  <li>https://ocw.mit.edu/resources/res-tll-005-how-to-speak-january-iap-2018/how-to-speak/index.htm</li>
+</ul>
+
+<p><strong>Scenarios</strong></p>
+
+<ul>
+  <li>Pitching to VCs</li>
+  <li>Interview to reporters</li>
+  <li>Talk at a conference</li>
+</ul>
+
+<hr />
+
+<p>Wherever your company lands on this sliding scale, one thing will always remain true: you have to be able to sell your product or service. If you don’t sell it, no one else will. You team is relying on you to explain the benefits of the company and how it’s changing the world. It’s your job as the founder to communicate that vision. And realistically, you may not have a company for long if you can’t sell. Because it’s not just about doing interviews with journalists or sitting on panels. You have to pitch your idea to VCs if you really want a shot at building your startup into a lasting business.</p>
+
+<p><strong>What should I know before preparing the talk?</strong></p>
+
+<p>The idea here is that it’s good to get as much background info as you can, because whether you’re aware of it or not, it will influence your talk as you put it together.</p>
+
+<ul>
+  <li>How long do you have to speak?</li>
+  <li>Do they expect a Q &amp; A period?</li>
+  <li>Where is the venue? What is its layout?  A theater?  A classroom?  A conference room? (If you can visit the venue beforehand, or see pictures of it, do that. It really helps to be able to visualize the room when you’re rehearsing. Things that might work in one type of room will fail completely in another.)</li>
+  <li>Can you have a deck?</li>
+  <li>How many people are in attendance?</li>
+  <li>What events are before and after your talk?  Another talk?  Which one?  Food?  Going home?</li>
+  <li>What is the audience members’ relationship to the topic?  How knowledgeable are they?  Are they seasoned conference attendees, or is this rare for them?</li>
+  <li>Have they paid money to be there?</li>
+  <li>What is their expectation of learning?  What do they hope to come away with?</li>
+  <li>How is your talk being advertised or promoted?  What is the organizer promising – implicitly or explicitly – to attendees?</li>
+  <li>What is the tone of the talk?
+    <ul>
+      <li>Tutorial: insert tab X into slot Y</li>
+      <li>Informational: this is information about topic X you might not know</li>
+      <li>Conceptual: this is a new way of looking at or thinking about X</li>
+      <li>Narrative/case study: this is something we did in situation X</li>
+    </ul>
+  </li>
+  <li>What is the scope of what you want them to learn?  Are you trying to teach them something incremental, or something revolutionary?  Do you want then to nod their heads and say “that’s some useful information I can use,” or are you shooting for “wow, that was mind-blowing!”  The latter is riskier – it’s awesome when it works, a disaster when it doesn’t.</li>
+  <li>What is the point of your deck?  Is it the focus of your talk — screencaps or something you will be talking about directly, or is it decoration and mood-setting?</li>
+  <li>What are the technical parameters?  Will you be able to use your own laptop?  How big is the screen?  Will you have a monitor where you can see your deck as you’re giving it? Will you have a remote mouse (hint: bring your own).</li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>
+    <p><strong>How to structure your talk?</strong></p>
+  </li>
+  <li><strong>Start early.</strong> I know you don’t want to – it’s so much easier to avoid doing it because it can be scary and actually doing it brings you face-to-face with that fear. But the fear isn’t going to go away, it’s just going to get worse with time, so face up to it early. Give yourself enough prep time. The rule of thumb is that you need one hour of prep for every minute of presentation time.  So a 50-minute talk will take over a full-time week of work to put together. This, of course, varies greatly, and you may have a full-fleshed out talk in your head, ready-to-go.  But, in general, understand that it’s going to take more time than you think it will.</li>
+  <li>
+    <p><strong>For Tech Demonstrations</strong> Prepare your machine AHEAD OF TIME.  Nothing disrespects an audience like making them wait while you ask “Can you see this 8 point font? No? Oh, let me change it while you wait.”  Setup every program you could possibly use, including all Command Prompt shortcuts, before you begin your presentation.  That includes VS.NET, Notepad, XMLSpy, and any others, including any small utilities.he most readable, mono-spaced font out there. Prepare your machine AHEAD OF TIME.  Nothing disrespects an audience like making them wait while you ask “Can you see this 8 point font? No? Oh, let me change it while you wait.”  Setup every program you could possibly use, including all Command Prompt shortcuts, before you begin your presentation.  That includes VS.NET, Notepad, XMLSpy, and any others, including any small utilities. For simplicities’ sake, I like to keep a separate user around call “BigFonty” (choose your own name).  He’s an Administrator on the local machine and he exists ONLY for the purposes of demonstrations.  All the fonts are large for all programs, large icons, great colors, etc.  It’s the easiest way to set all these settings once and always have them easily available. For simplicities’ sake, I like to keep a separate user around call “BigFonty” (choose your own name).  He’s an Administrator on the local machine and he exists ONLY for the purposes of demonstrations.  All the fonts are large for all programs, large icons, great colors, etc.  It’s the easiest way to set all these settings once and always have them easily available. HAVE A RESET STRATEGY (ONE-CLICK)If you’re going to give a talk, you’ll probably have to give it more than once. If you have demonstrations of any kind, have a “one-click” way to reset them. This might be a batch file or Powershell script that drops a modified database and reattaches a fresh one, or copies template files over ones you modify during your demo. Personally, I’m sold on Virtual Machines. I have seven VMs on a small, fast portable USB drive that will let me do roughly 12 different presentations at the drop of a hat. You never know when you’ll be called upon to give a demo. With a Virtual Machine I can turn on “Undo Disks” after I’ve prepared the talk, and my reset strategy is to just turn off the VM and select “Delete Changes.” A little up-front preparation means one less thing for you to panic about the day of the talk.</p>
+  </li>
+  <li>
+    <p><strong>Single Idea in one crystal clear sentence (supported by three points).</strong>
+  I learned this the hard way. When we launched ThirdLove in 2013, our executive team was three people: my co-founder Dave, our Chief Creative Officer, Ra’el, and me. We drove around San Francisco, meeting with different reporters to do interviews about our seed round and launch. 
+  None of us had done these types of interviews before. And we quickly realized we had too many people in the room. The three of us were speaking in different styles and presenting an overwhelming amount of information. Each article reflected a different angle because we were inundating the reporters with too many talking points.  That experience taught me an important lesson: When announcing news to the press, you should always make it about one thing. Pick one point you want to get across and stick to that core story. Usesupporting points, but keep the focus on the idea. <strong>What am I trying to accomplish? And what is the single idea I want the audience to come away with?  What will people feel as a result of hearing my presentation?</strong> In a perfect world, this is what they learned – this is the future state you want them to get to. These points will guide you while putting together the entire thing. You can “test” your talk against these points.</p>
+  </li>
+  <li>
+    <p><strong>Write are the major talking points to support those learning points?</strong> put them in order – “to tell this story, I need to talk about X, then Y, then Z.” This divides your talk up into sections, which is important. Talks need to progress like a story – there needs to be a build-up, a center section, then a conclusion. A movie separates these with “plot points.”  You don’t have plot points; you have section transitions.</p>
+  </li>
+  <li>
+    <p>Do your title slide and your transitional slides right away, so you have a framework of the talk to work with. You have your sections set now, so you can concentrate on supporting them individually and telling the story around the transitions between sections.  Also do the last slide — it should always be your contact information. So you should have the beginning, section headings, and final slide done first, which gives you a framework to embellish.</p>
+  </li>
+  <li>
+    <p>Incrementally embellish each section. Treat it as a mini-talk by itself – “to tell this story (section), I need to talk about X, then Y, then Z.” Don’t edit too much when putting this together.  Go nuts. Pretend you have all the time in the world and make it as long as you want. Each point should open with stories, metaphors, analogies, numbers, and statistics that your audience can relate to. Close with a clear point or a transition to the step you want the audience to take. Use Metaphors, Imagery, Repetition. PGP: with every subtopic, move from the Particular to the General and back to the Particular. Even though the purpose of a subtopic is to convey the general information, bracing it with particulars is a good way to draw attention and promote retention.  Rehearsal is when you start cutting the thing down, and it’s better to start with too much information than too little. Don’t be surprised if the content of your talk changes considerably through this process.  Not only the specifics, but the entire nature and message. This sounds weird, but as you say things out loud and create slides to illustrate it, this has a way of catalyzing things in your own head. You don’t truly understand something until you have to explain it, and the process of explaining it will often make you think differently about it. (See “Rubber Duck Debugging.”)  There have been several times when I was mid-way through rehearsals and suddenly realized, “I’ve been thinking about this all wrong…” or “My main point is not that important after all. Rather, this smaller point is really want I should be teaching them…” If this happens, don’t be scared – it’s a gift.</p>
+  </li>
+  <li><strong>Know the audience and speak their language</strong> If you’re speaking to a room full of IT guys who work in the Automotive field, or the Banking industry, the fact that we are all programmers only gives you a small degree of shared experience.  Remember no matter the technical topic, try to get into the mind of the audience and ask yourself, why are they here and what can I tell them that will not be a waste of their time.  What would YOU want to hear (and HOW would you like to hear it) if you were sitting there?</li>
+</ul>
+
+<blockquote>
+  <p>When I was in Malaysia for TechEd, I spent 3 full days exclusively with locals before the talk, I learned snippets of each of the languages, tried to understand their jokes and get an idea about what was important to people in Malaysia.  American analogies, much humor, and certain “U.S. specific” English colloquialisms just didn’t make any sense to them.  When it came time to give the presentations, I better understood the Malaysian sense of timing, of tone and timbre, and I began each of my presentations by speaking in Bahasa Malaysia.  I changed aspects of my slides to remove inappropriate content and add specific details that would be important to them.</p>
+</blockquote>
+
+<p>To be able to explain something - which you have understood - eloquently and succinctly to someone, one just needs to start with a strategic framework in the mind, and a working understanding of how information can best be organised and structured in an explanation path. From my own experience in coaching people, information can be best organised and structured as follows, from the explanatory standpoint:</p>
+
+<ul>
+  <li>listing or enumeration;
+    <ul>
+      <li>For example, when explaining something that is a listing or enumeration, the strategic framework one holds in the head is to use a numerical sequence to explain the information.</li>
+    </ul>
+  </li>
+  <li>topical;</li>
+  <li>definition;</li>
+  <li>classification</li>
+  <li>process;</li>
+  <li>chronological;</li>
+  <li>compare and contrast;
+    <ul>
+      <li>What is ( a sad state of affairs), What could be (A vision), What is (show how horrible the current state is) , What could be (Marvel at what all could be). End with A call to action.</li>
+      <li>What is vs What should be/dream/going to be - vacillate</li>
+    </ul>
+  </li>
+  <li>order of importance;</li>
+  <li>sequence;
+    <ul>
+      <li>If it’s a process that you are explaining, you know very well that a process always involves stages or steps, in a sequence. That’s to say, there’s a start-point, an end-point, and a developmental path of transition points in between. With such a strategic framework in the mind, your explanatory path just follows the sequence.</li>
+    </ul>
+  </li>
+  <li>spatial;</li>
+  <li>cause and effect;</li>
+  <li>problem:solution
+    <ul>
+      <li>What’s the problem? Who cares? What’s your solution? 
+ </li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>Synthesize and Present Top-Down: Product managers sometimes get lost in a ton of data. I recently watched a product manager presenting a proposal using many dense data charts – pulled from various analysts segmenting the market in different ways and presenting numerous possible features and functions. At the end of the long presentation, I asked him, “Where should we focus?” His answer was, “They are all attractive, and if we have the resources we should do them all.” Something a good management consultant would never say!</li>
+    </ul>
+  </li>
+  <li>
+    <p>In consulting, the ability to structure the message using the Pyramid Principle is extremely important. The goal is to communicate top-down with the most important message first (‘tip of the pyramid’). The supporting conclusions are presented at the next level (following ‘MECE’), resembling a pyramid. This makes it easier for the reader (and especially for busy executives) to grasp the gist of the message instead of being bombarded with a lot of rambling details.  While telling the story, most use a variation of an approach called Situation, Complication, &amp; Resolution to drive to a clear course of action. All of these are equally important for product managers while communicating a product vision &amp; strategy. (Good presentation on applying Pyramid Principle for structured communication).    </p>
+  </li>
+  <li><a href="https://www.quora.com/What-are-some-excellent-answers-you-received-during-product-managers-interviews/answer/Alon-Amit?ch=10&amp;share=c926cfbb&amp;srid=3HW0   ">Product Manager Interview Answer by First Principles</a></li>
+</ul>
+
+<p><strong>Mini-Tactics</strong></p>
+
+<ul>
+  <li><strong>Introduction.</strong> Start your talk with motivation and examples — and have lots of motivation and examples throughout. For the very beginning of your talk, you need to convince the audience that this talk is worth paying attention to: it is solving an important and comprehensible problem. Your first slide should be an example of the problem you are solving, or some other motivation.Most useful in technical talks: Be sure to provide motivation for your work, provide background about the problem, and supply sufficient technical details and experimental results (e.g. the problem is worthwhile (it is a real problem, and a solution would be useful), AND the problem is hard (not already solved, and there are not other ways to achieve equally good results) AND you have solved it- or made progress,  often intuitions and an explanation of the approach are more valuable than the gory details of a proof. Identitfy your system. The features that differentiate from other systems. As you will know from the subject… insert additional material for the purpose of others who might be present.</li>
+  <li><strong>State your theme and message at the beginning.</strong> Tell the purpose and plan, what I expect of them to do during and after. Must audience know of the structure from the start - they cannot go back and forth like the reader of a text. But Never start your talk with an outline slide. (That’s boring, and it’s too early for the audience to understand the talk structure yet.) Outline slides can be useful, especially in a talk that runs longer than 30 minutes, because they helps the audience to regain its bearings and to keep in mind your argument structure. Present an outline slide (with the current current section indicated via color, font, and/or an arrow) at the beginning of each major section of the talk, other than the introductory, motivational section.</li>
+  <li><strong>Q/A spread throughout</strong> Audiences remember beginnings and endings, so don’t end with a Q&amp;A. Let the audience ask questions during the presentation; this increases their participation and energy level.</li>
+  <li>
+    <p><strong>Repeat the question when asked</strong> When an audience member asks a question, it is a good idea to repeat the question, asking the questioner whether you have understood it, before answering the question. This has three benefits. You ensure that you have understood the question. When thinking under pressure, it can be far too easy to jump to conclusions, and it is bad to answer a question different than the one that was asked. A related benefit is that you get to frame the question in your own words or from your own viewpoint.You give yourself a few moments to think about your answer.
+If the audience member does not have a microphone, the rest of the audience may not have been able to hear the question clearly.
+Be willing to answer a question with “no” or “I don’t know”. You will get into more trouble if you try to blather on or to make up an answer on the fly.</p>
+  </li>
+  <li><strong>Be explicit about the section transitions.</strong>  “Okay, so I’ve just explained what X was, now I’m going to talk about why X is important.”  The audience wants this – they want to know that they’re moving steadily through the talk. They want to mentally organize the content: “What did I learn in that last section? I need to store that away, because this is a new section with a new thing to learn.”</li>
+  <li>
+    <p><strong>Repetition</strong> Simple reiteration is important.Steve Jobs did this often. Before moving onto the next product announcement, he’d spend thirty seconds and go over the same information he just presented. It’s a very simple way of keeping things memorable for your audience. I make this explicit by giving recap sections big green stamps in the upper corner saying “RECAP”. I also giving the start of each section of my talk bright orange backgrounds with colorful, bold text. Simple reiteration is important.</p>
+  </li>
+  <li><strong>Last slide.</strong> Conclusion. The last slide should be a contributions or conclusions slide, reminding the audience of the take-home message of the talk. Do not end the talk with future work, or with a slide that says “questions” or “thank you” or “the end” or merely gives your email address. And, leave your contributions slide up after you finish the talk (while you are answering questions). One way to think about this rule is: What do you want to be the last thing that the audience sees (or that it sees while you field questions)?  vs  contact information. Invite people to contact you with questions, or if they want to talk about anything you presented. It has practical value, and it’s a nice, clear way to signal that the talk is done. The audience wants to know when to clap, and they’ll feel comfortable with an explicit cue.
+    <blockquote>
+      <p>More drama! Example: “I’m no longer just a candidate. I’m the president. I know what it means to send young Americans into battle, for I have held in my arms the mothers and fathers of those who didn’t return.” Obama, Democratic National Convention speech, 2012 
+Favreau: “These lines were going to be at the top of the speech, but we moved them to the end because it was worth having a dramatic moment before speeding up and getting people going again. To do that - to get the best applause - say things like, ‘Make your voice heard’, ‘Are you with me’. That’s how Bobby Kennedy would end his speeches.</p>
+    </blockquote>
+  </li>
+  <li><strong>Build around your listener’s interests.</strong> Make a speech all about your audience. This takes the focus off yourself, lifts your self-consciousness, and puts you into a state of goodwill. When crafting your sentences, use the word you as often as possible, create sensory-rich graphics, beware negations, and keep them short.</li>
+  <li>
+    <p>Just as you should not read text verbatim, you should not read diagrams verbatim. <strong>When discussing the architecture of a system, don’t just read the names of the components or give low-level details about the interfaces between them. Rather, explain whatever is important, interesting, or novel about your decomposition; or discuss how the parts work together to achieve some goal that clients of the system care about; or use other techniques to give high-level understanding of the system rather than merely presenting a mass of low-level details.</strong></p>
+  </li>
+  <li>Humour
+    <blockquote>
+      <p>Example: “You know, they said this day would never come.” Obama, opening to the Iowa caucuses victory speech, 2008
+Favreau: “I tell the president to start speeches in the most organic way possible. You wouldn’t start a conversation by saying ‘As John F. Kennedy once said…’, so you shouldn’t start a speech that way either. When he won the Iowa caucuses a lot of people said he should start with a bunch of acknowledgements. I said no, the whole world’s going to be watching so he needs a big opening, but it can’t be too cheesy. What we came up with was a natural thing to say, but also has a lot of meaning.”</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Example: “You [Mitt Romney] might not be ready for diplomacy with Beijing if you can’t visit the Olympics without insulting our closest ally.” Obama, Democratic National Convention speech, 2012 
+Favreau: “What might seem like a good needling of the opposition on paper sounds a bit harsher in reality and you won’t get the applause. So a little goes a long way - the press will always pick up on it when you try to ‘draw a contrast’ as we call it. Humour is a great approach. Or look at what we did when we ran against Hillary [Clinton] in the primary: the president rarely used Hillary’s name but everyone knew he was talking about her.”</p>
+</blockquote>
+
+<ul>
+  <li>Anecdotes: Get personal
+    <blockquote>
+      <p>Example: “You know, they said this day would never come.” Obama, opening to the Iowa caucuses victory speech, 2008 
+Favreau: “I tell the president to start speeches in the most organic way possible. You wouldn’t start a conversation by saying ‘As John F. Kennedy once said…’, so you shouldn’t start a speech that way either. When he won the Iowa caucuses a lot of people said he should start with a bunch of acknowledgements. I said no, the whole world’s going to be watching so he needs a big opening, but it can’t be too cheesy. What we came up with was a natural thing to say, but also has a lot of meaning.”</p>
+    </blockquote>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>Presentation Style Tips</strong></p>
+
+<p>design for people three rooms away from you.</p>
+
+<ul>
+  <li><strong>Font: Lucida Console, 14 to 18pt, Bold.</strong>
+    <ul>
+      <li>Consider this my gift to you.  This is the most readable, mono-spaced font out there. Lucida Console, 14 to 18pt, Bold.  Consider this my gift to you. Keep fonts large and easy to read from the back of the room. If something isn’t important enough for your audience to be able to read, then it probably does not belong on your slides.</li>
+      <li>Use a sans-serif font for your slides. (Serifed fonts are best for reading on paper, but sans-serif fonts are easier to read on a screen.) PowerPoint’s “Courier New” font is very light (its strokes are very thin). If you use it, always make it bold, then use color or underlining for emphasis where necessary.</li>
+      <li>Make your text huge. And then get rid of half of the words and make it huger.  Most of my text in my entire deck is at least 90pt. Usually I like to sit around 150pt, with spikes up to 300pt or more. You cannot get large enough.
+For the curious, I use Yanone Kaffeesatz as the typeface for both my slide deck and the headings on my blog.Letters themselves can be part of the design. Slides give you the same opportunity. The easiest way to make your slides visually interesting is to play around with the physical shape of the letters that constitute the word. Line things up. Don’t line things up. Shift things around. Worry about pixels. Almost every single slide in my talk is a different font size, since I want things to work off of previous words, lines, and so on. Text sizes of 94.5 points are not uncommon in my deck. They create a much more interesting visual than throwing a random bullet point on-screen.</li>
+    </ul>
+  </li>
+  <li><strong>Use masking to direct attention in images.</strong> If you want to point something out in a photo, you could use a big arrow. Or you could do what I call a dupe-and-mask. I do this a lot when showing new page designs, particularly when I don’t want the audience to see the whole design until I’m finished talking about individual components of it.</li>
+  <li><strong>Make simple charts and graphs natively</strong>. Dropping an image of a chart into a presentation is fine, but it almost always disrupts the feel of a deck in unsightly fashion. If the graph data is simple enough (and you have some extra time) there’s a way to make it much more easy on the eyes. You could redraw it in the native presentation application. That sounds like needless work, and it might be for your purposes, but it can really make your presentation feel consistent and thought-through, of one flavor from soup to nuts. You’ll have control over colors, typography, and more.</li>
+  <li>When a subsequent slide adds material to a previous one (or in some other way just slightly changes the previous slide; this is sometimes called a “build”), all common elements must remain in exactly the same position. A good way to check this is to quickly transition back and forth between the two slides several times. If you see any jitter, then correct the slide layout to remove it. You may need to leave extra space on an early slide to accommodate text or figures to be inserted later; even though that space may look a little unnatural, it is better than the alternative. If there is any jitter, the audience will know that something is different, but will be uneasy about exactly what has changed (the human eye is good at detecting the change but only good at localizing changes when those changes are small and the changes are smooth). You want the audience to have confidence that most parts of the slide have not changed, and the only effective way to do that is not to change those parts whatsoever. You should also consider emphasizing (say, with color or highlighting) what has been added on each slide.</li>
+</ul>
+
+<p>References:</p>
+
+<ul>
+  <li><a href="https://zachholman.com/posts/slide-design-for-developers/">Slide Design for developers</a></li>
+  <li><a href="http://blog.ted.com/2014/07/15/10-tips-for-better-slide-decks/">10 Tips for better slide decks</a></li>
+  <li><a href="https://zachholman.com/talk/how-github-uses-github-to-build-github/">How GitHub Uses GitHub to Build GitHub</a></li>
+</ul>
+
+<p><strong>Rehearsals</strong></p>
+
+<ul>
+  <li>
+    <p>Practice. Utterly Prepared.  Know your topic well!. Short of an unexpected BSOD (and even then, be ready) you should be prepared for ANYTHING.  You should know EVERY inch of your demos and EXACTLY what can go wrong.  Nothing kills your credibility more than an error that you DON’T understand.  Errors and screw-ups happen ALL the time in Presentations.  They can even INCREASE your credibility if you recover gracefully and EXPLAIN what happened.  “Ah, this is a common mistake that I’ve made, and here’s what you should watch for.”  Be prepared with phrases that will turn the unfortunate incident around and provide them useful information.</p>
+  </li>
+  <li><strong>Practice with people you feel comfortable with.</strong>
+  It’s much easier to start practicing in front of people you know. They’ll be more forgiving when you make a mistake. And hopefully, you can solicit real feedback from them about what you need to work on. You can even do this internally at your company by giving updates or announcements to a small group of people. As you get more comfortable, increase the size of the group. If you want to practice pitching a potential investor, use your network to find another founder or an unrelated investor who’s willing to listen. The goal is to find someone who can give you candid feedback about your pitch and help you improve. For me, the most difficult part of selling my vision in the beginning was the fact that it was just a concept. I didn’t have something tangible to really help me capture that vision and communicate it the way I wanted to. But once your idea becomes a reality and you have a real product, talking about your company becomes much easier.  Always give a practice talk before you present in front of an audience. Even if you have read over your slides and think you know how the talk will go, when you speak out loud your ideas are likely to come out in a different or less clear way. (This is true about writing, too: even if you know what you want to say, it takes several revisions to figure out the best way to say it.) In fact, you should practice the talk to yourself — speaking out loud in front of a mirror, for example — before you give your first practice talk. In such a practice session, you must say every word you intend to in the actual talk, not skipping over any parts. It can be a good idea to keep your practice talk audience relatively small — certainly fewer than 10 people. In a large group, many people won’t bother to speak up. If the pool of potential attendees is larger than 10, you can give multiple practice talks, since the best feedback is given by someone who has not seen the talk (or even the material) before. Giving multiple practice talks is essential for high-profile talks such as conference talks and interview talks. Avoid a small audience of people you don’t trust, who might be unanimous in a wrong opinion; getting a balance of opinions will help you avoid making too many mistakes in any one direction.</li>
+  <li><strong>Make copies of your slides as handouts.</strong> It’s much easier to make notes on the handouts than to try to scribble notes on pieces of paper. If you use PowerPoint, print them 6-up (6 slides per page) and preferably duplex. Bring enough copies to go around. When giving a practice talk, it is very helpful to distribute hardcopy slides (remember to include slide numbers) so that others can easily annotate them and return them to you at the end of the talk. (Also, the audience will spend less time trying to describe what slide their comment applies to, and more time writing the comment and paying attention to you.) For non-practice talks, you generally shouldn’t give out hardcopy slides, as they will tempt the audience to pay attention to the piece of paper instead of to you.</li>
+  <li>
+    <p>Go to other people’s practice talks. This is good citizenship, and cultivating these obligations is a good way to ensure that you have an audience at your practice talk. Furthermore, attending others’ talks can teach you a lot about good and bad talks — both from observing the speaker and thinking about how the talk can be better (or is already excellent), and from comparing the the feedback of audience members to your own opinions and observations. This does not just apply to practice talks: you should continually perform such introspective self-assessment.</p>
+  </li>
+  <li><strong>Rehearse with yourself</strong> Rehearse out loud, by yourself, to an empty room.  Yes, you’ll feel stupid.  Tough — better to feel stupid by yourself than in front of a group. Rehearse the entire talk at least 10 times. Yes, that is a lot. Get a remote clicker. Take a look at Al Gore’s excellent presentation in “An Inconvenient Truth.” It’s seamless and flows. Now imagine him running over to his laptop to hit the spacebar each time he wanted to advance a slide. Walk around.  Gesture.  If your dog doesn’t look at you funny at least once every rehearsal, you’re not moving enough.</li>
+  <li>Rehearsals have two different flavors:
+    <ul>
+      <li>Exploratory: this is a loose run through, when you stop and adjust slides, change things, etc.  You can stop in the middle and edit.</li>
+      <li>For Time: keep going through, no matter what.  This is how you’re going to determine if you’re within the time boundaries.</li>
+    </ul>
+  </li>
+  <li>Consider videotaping yourself to see how you come across to others. This information can be a bit traumatic, but it is invaluable in helping you to improve.</li>
+  <li>Don’t always rehearse from the beginning.  The goal is to be able to pick up at at any point in the talk and carry through to the finish.  So, in addition to doing the entire thing, start ¼ of the way through, ½ of the way through, right at the end, pick a random slide and start from there, etc.  If you start from the beginning all the time, then the beginning gets a lot of focus, and the latter part of the talk doesn’t get your full rehearsal attention.</li>
+  <li>Try to get Presenter View (a PowerPoint thing; Keynote probably has something similar) — you should be able to see the upcoming slide on a separate monitor at all times, with your notes if possible.  If not, print the presentation notes out before hand. (Though, honestly, if you have to refer to your notes at all, you probably didn’t rehearse enough.)</li>
+  <li>If a slide doesn’t feel right, it probably isn’t.  If you’re tripping over a slide, and it just doesn’t sound right, get rid of it — either drop it, or combine it with something else.  So long as you have enough time before you have to talk, don’t be afraid to do major surgery.  Slides that sound wrong, probably are wrong.</li>
+  <li>Practice multi-tasking.  It seems silly to say, but although we can all multitask to a certain degree, when we hit a real snag in a presentation, many of us tend to freeze.  Silence is deadly.  Remember, since all eyes are on you, complete silence and apparent introspection says “I don’t know know what I’m doing.”  When you need to get to a particular file, don’t make the audience wait for you while you putter through explorer.  Have shortcuts ready (and explain when you use them).  Move fast and efficiently, but annotate your actions.  You should continue to “color-commentate” your actions like a sports announcer.  Don’t allow “dead-air,” unless it’s silence for effect.</li>
+  <li>Concentrate on your last section. This is the payoff, and too many times, people rehearse solely from the beginning so by the last section, they’re just trying to get done. Rehearse the last section by itself multiple times.</li>
+  <li>Answering questions from the audience is very hard! Even after you become very proficient at giving a talk, it will probably take you quite a bit longer to become good at answering questions. So, don’t feel bad if that part does not go perfectly, but do work on improving it. Just as you practice your talk, practice answering questions — both the ones that you can predict, and also unpredictable ones. Giving practice talks to people who are willing to ask such questions can be very helpful.</li>
+</ul>
+
+<p><strong>Giving The Actual Talk</strong></p>
+
+<ul>
+  <li>The goal is to have the talk <strong>feel conversational</strong>, not formal.  Meet as many people as you can before the talk.  <strong>As the room fills up, go introduce yourself and talk to people.</strong>  Your goal is to make them feel that they’re in this talk with you, not that you’re giving it and they’re receiving it (even though that’s exactly what’s happening). * Use conversational language (not defensive or high status!)
+    <blockquote>
+      <p>Example: “You know, they said this day would never come.” Obama, opening to the Iowa caucuses victory speech, 2008</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Favreau: “I tell the president to start speeches in the most organic way possible. You wouldn’t start a conversation by saying ‘As John F. Kennedy once said…’, so you shouldn’t start a speech that way either. When he won the Iowa caucuses a lot of people said he should start with a bunch of acknowledgements. I said no, the whole world’s going to be watching so he needs a big opening, but it can’t be too cheesy. What we came up with was a natural thing to say, but also has a lot of meaning.”</p>
+  <ul>
+    <li>If you can, start with some comment about the event or something that just occurred: “I was just talking to Mark in the hall” This sets people at ease and takes you immediately off-script, so it sets expectations on the conversational tone of what follows.</li>
+    <li>Replace uh, um, er, ah, like, you know, and other distracting sounds by silences. Any good piece of oratory has silences naturally built into it, as indicated by commas, periods, semi-colons, colons, and other forms of punctuation. We do not normally notice them. And if we do, we usually call them “pauses” rather than silences. However, they amount to the same thing.</li>
+    <li>If you think of an anecdote, tell it. Remember, you’re not on a strict script here. Feel free to weave in and out of your rehearsed outline. I don’t think I’ve gotten through a single talk where I didn’t extemporaneously say something that I never rehearsed.</li>
+    <li>Care. There’s nothing more important that truly caring about your topic. If you care, it’ll show. Avoid presenting on topics that you don’t care about. Avoid it like the Plague.</li>
+    <li>Listen, Empathize,</li>
+    <li>“Volume and Diction,” my High School Drama teacher said to me.  Speak clearly, authoritatively, project your voice to the back of the room.  The best speakers don’t even need microphones.  If you have a speaking affectation (I had a lisp growing up) or you tend to say, um, etc, or find yourself overusing a specific phrase (“a priori”, “fantastic”, “powerful”, etc) take it upon yourself to NOTICE this mannerism and avoid it.</li>
+  </ul>
+</blockquote>
+
+<ul>
+  <li>Gesture at the screen.  Point at stuff, if appropriate.  Look at the screen yourself.  You want the audience to feel like this is something you’re looking at together, not that it’s just background information. One of the most powerful tips I ever received was this: “When you move, they look at you. When you stop, they look at the screen.” Use this to your advantage. Don’t pace randomly, idley or unconsciously. Don’t rock back and forth on your heels. Also, empty your pockets if you tend to fiddle with lose change or your keys.</li>
+  <li>Try not to be nervous.  I know this sounds like a ridiculous platitude, but here’s why it’s important: if you’re nervous, the audience will be nervous too. They’ll be scared for you, and they’ll subconsciously resent you for it.  If you’re relaxed and having a good time, the audience will be too.  Remember this: they want to like you. They do not want to see you fail. If you make them feel awkward, it’s harder for them to like you. Pause frequently and deliberately. Have the confidence to make your listeners wait for your words. Also pause for three seconds after you first walk on stage, while sweeping your eyes across the audience. If you make a mistake, tell yourself that moguls and entertainers do this to make themselves more relatable. De-stigmatize and de-dramatize.Relaxed, Confident, Open Arms. Eye Contact.  Manage Anxiety by recognising it.   Remember, you’re the expert on this subject.  You started this company for a reason, and you know how you’re delivering value. Don’t lose sight of the fact that you know your business better than anyone. Keep that in mind, and you’ll have all the confidence you need stepping into the spotlight.  Avoid irritants, or sounds or movements that do not add to your message. Every one of them is a form of communication that demands a portion of your audience’s attention. To project power and own the stage, adopt a wide stance, practice without a podium or lectern, and find the right volume to project confidence. To project warmth, speak as if you were sharing a secret, and give one or two seconds of eye contact per person as you roam the stage. Be Authoritative, Loud, Continued Annotation/Commentary</li>
+</ul>
+
+<p>If you want some more good tips, take a look at this: . In particular, read the comments there – lots of great stuff submitted in the comments. It’s also worth noting that Scott Hanselman is the presenting style that I really try to emulate: he’s so wonderfully relaxed when he talks that you feel like you’re in it with him, rather than being lectured to.
+If I could replicate one talk (in vibe and style, not so much content), it would be this one: It’s not what you read, it’s what you ignore. That’s Scott at WebStock 2012 in New Zealand. It’s fantastic.
+It helps that Scott has spoken at my company, sitting at my breakroom table. It’s easy to like someone when they do that for you.</p>
+
+<hr />
+
+<p><strong>How to handle unknowns?</strong></p>
+
+<p>See things as an opportunity, rather than as an adversarial situation!</p>
+
+<p>You won’t be able to plan for everything that happens in an interview or a conference room. So that means you have to get used to dealing with the unknown.  If you’re asked a question you’re not prepared for, don’t scramble just to come up with a quick answer. It doesn’t matter whether you’re sitting across from a journalist or a VC—just tell them you don’t know.  You can say, “That’s a great question. Let me have my team pull that data and get back to you.”  Easy as that. Now you have time to make sure your answer is correct, as well as to reflect on how you want to answer the question later on.</p>
+
+<p><strong>When something wrong happens</strong></p>
+
+<blockquote>
+  <p>“I am going to pretend that didnt happen….”</p>
+</blockquote>
+
+<blockquote>
+  <p>“Ok. Go ahead.break my day….”</p>
+</blockquote>
+
+<blockquote>
+  <p>“If you that thats bad, wait before i start singing….”</p>
+</blockquote>
+
+<p>No response from joke? Don’t apologise, carry on, don’t bring attention to the fact</p>
+
+<blockquote>
+  <p>“ok’ name’ thats the last time I’ve used one of your jokes.”</p>
+</blockquote>
+
+<hr />
+
+<p><strong>How to end</strong></p>
+
+<blockquote>
+  <p>“You’ve heard the saying ‘alls well that ends well. Where speeches are concerned, I believe alls well that ends, and now is my time to end.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“my talks usually have a happy ending. Its because everyone is happy that it ended”.</p>
+</blockquote>
+
+<blockquote>
+  <p>“When a speaker says ‘To make a long story short’, its usually too late. I dont want you all to feel that way about me. Goodnight.</p>
+</blockquote>
+
+<blockquote>
+  <p>“I dont want any applause, not that I was going to get any, but Id like everyone to stand up”</p>
+</blockquote>
+
+<blockquote>
+  <p>“Now lets open for question and answers. if I KNOW THE ANSWER, i’ll give it to you. else I’ll just make something up.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>How can you best communicate complex ideas simply?</strong></p>
+
+<blockquote>
+  <p>If you can’t explain it simply, you don’t understand it well enough.</p>
+</blockquote>
+
+<p>(a) Work really hard to first ensure that I myself understand the complex idea well enough to be able to discern its most critical components from just the necessary but minor details.</p>
+
+<p>(b) Think about what your desired outcome is: Is it to help someone just understand something, or go beyond that and take an action, or something else?</p>
+
+<p>Start with the Simplest Explanation
+Think about the KISS principle that has been used for decades or Occam’s razor that has been philosophized for centuries. Simplicity works. Start with something that can be covered, ideally, in a couple of sentences or within a minute or 2. If there is a critically important technical detail, mention it quickly. IF the audience wants more detail, they can, and will, ask.</p>
+
+<p>We’ll start with six basic principles, then move to an applied example.</p>
+
+<ul>
+  <li>Give context. Always begin with a roadmap, moving from the satellite view down to the street-level. People need to understand where the details fit in the larger picture.</li>
+  <li>Tell a story. Narratives both stick and engage better than facts. They also allow you to ground the abstract in “real-life” application.</li>
+  <li>
+    <p>One analogy is worth five explanations. Our brains shut down easily when learning about unfamiliar concepts. Whenever possible, create a strong bridge between what your audience knows and what you’re hoping to teach them.
+Come up with the simplest possible analogy in a domain the audience is familiar with to convey the idea.</p>
+
+    <p>Example: WSJ article. The first paragraph summarizes the complex idea and the second one delivers to easy-to-understand analogy.</p>
+
+    <blockquote>
+      <p>Software Firms Scramble to Jump Into Containers</p>
+    </blockquote>
+
+    <blockquote>
+      <p>“What makes containers so compelling? The technology encloses a program (or a piece of one) in a layer of software that connects seamlessly to the operating system and other computing resources it depends on to run. Putting a program in a container has a number of benefits, but a crucial advantage is that it can be moved quickly and easily from one computer to another—say, from a programmer’s laptop to a test system to the cloud. Given the pace of Internet time, harried chief technology officers are desperate for anything that speeds up the process.”</p>
+    </blockquote>
+
+    <blockquote>
+      <p>“Think about a cake,” said Scott Johnston, senior vice president of product at Docker, likening the cake part to a server and the icing to a program. “You want to be able to change frosting from chocolate to vanilla. If there’s paper between the two, you can lift up the frosting and replace it.”</p>
+    </blockquote>
+
+    <p>Example:</p>
+
+    <blockquote>
+      <p> “Well, we had 2 VARCHAR, fields from the M2S legacy system that were being concatenated before the websphere interface batch job … bla bla bla … The SAP iDocs were correctly configured, so, bla bla bla… Eventually we noticed that the fields were being truncated … bla bla bla… so finally, we were able to fix it by …womp womp womp…  yeah, so now it works.”</p>
+    </blockquote>
+
+    <blockquote>
+      <p>Director (to me): “Can you explain that in English, please?”</p>
+    </blockquote>
+
+    <blockquote>
+      <p>Me: “The errors were caused by a misalignment between the old system and SAP. We figured out the problem, aligned the fields and everything is working as expected now.”</p>
+    </blockquote>
+
+    <blockquote>
+      <p>Director: “That was easy.”</p>
+    </blockquote>
+
+    <p>Example:  When someone is pitching an innovative new idea</p>
+
+    <blockquote>
+      <p>“It’s like Facebook, but for dogs.”  <br />
+ “It’s like Spotify but for independent artists.”</p>
+    </blockquote>
+  </li>
+  <li>Use sound-bites. Your outline should hang on a limited number of “hinges”. (For presentations and lectures, you should come up with a clear, visual, memorable line to describe each of them.)</li>
+  <li>Anticipate “drop-points”.  Are you using terms or concepts that contain potential ambiguity? Are you predicating your argument on an assumption that might not be shared? Are you skipping steps? Don’t.</li>
+  <li>Over-narrate the journey. The best advice I’ve ever received on public speaking was to “tell people where they’re going, tell them where they are, and tell them where they’ve been”. At each check-point, do a brief recap the help them re-orient.</li>
+</ul>
+
+<p>Ok, now a practical example. Let’s say your mission was to explain search engine optimization to a crowd of non-technical business owners. </p>
+
+<p>A good approach might be:</p>
+
+<ol>
+  <li>
+    <p>Our goal today is to give each of you a practical understanding of what SEO is, what SEO isn’t, and what you should and shouldn’t do when you leave here.</p>
+  </li>
+  <li>
+    <p>The purpose of good SEO is to make sure that search engines promote your website or content when searchers demonstrate a specifically relevant interest.</p>
+  </li>
+  <li>
+    <p>The purpose of good SEO is NOT to make sure your website ranks well for a large dictionary of generic or vaguely-relevant keywords.</p>
+  </li>
+  <li>
+    <p>Here’s our roadmap. We’re going to discuss four points this morning: (a) Google’s perspective; (b) the searcher’s perspective; (c) tactics to avoid; and (d) tactics to use.</p>
+  </li>
+  <li>
+    <p>Our first topic is Google’s perspective. Understanding this is the key to understanding everything else. I’m going to give you a soundbite that I want you to remember: “Searchers are Google’s customers first.” </p>
+
+    <ul>
+      <li>Did you know that Google hires rocket-scientists away from groups like NASA? You’re probably wondering why. Two reasons. First, they want to deliver the highest quality search results. Second, they want to outsmart con-men.
+  </li>
+      <li>
+        <p> In the first case, delivering the best results means more folks using Google.This results in more ad revenue for them. If I search for a local plumber and end up on a spammy site owned by a shady company, that influences my trust in Google. In the long run, this means decreased ad revenue. </p>
+      </li>
+      <li>In the second case, most website owners covet top rankings, yet few are willing to make the long investment to get there. Historically, this led many to hire so-called “SEO experts” to produce results for them. Instead of playing by the spirit of the rules, most of them focused on exploiting weakness in Google’s search algorithms. This led to decreased search quality, which angered Almighty Google greatly.</li>
+    </ul>
+
+    <p><em>5.4</em> So, to recap, Google hires rocket scientists because high-quality search results mean increased revenues for them. They’re happy if it means revenues for you, too, but searchers are their customers first. They’re willing to protect them vigorously, at great expense.</p>
+  </li>
+  <li>
+    <p> Ok, so now that we understand Google’s perspective, let’s see it from the perspective of the searcher. Our soundbite for this point is: “If I ask for a burger, don’t give me a menu; if I ask for a recommendation, don’t lead me wrong.”</p>
+
+    <p>6a. Let’s use a thought experiment. Say you’re hungry, in a rush, and you know exactly what you want: a bacon cheeseburger. You go to a food court to feed that appetite. When you arrive, you find ten vendors, all of which advertise their “delicious food”. You go to the first one, browse the menu, but don’t see a burger on it. You go to the second, third, fourth one – same thing. You go to the fifth one, and this time the person behind the counter actually acknowledges your presence.</p>
+
+    <p>The dialogue goes something like this:</p>
+
+    <blockquote>
+      <p>“Are you hungry?   <br />
+“YES!”   <br />
+“Would you like something to eat?”   <br />
+“YESS!”   <br />
+“Do you know exactly what you want?”   <br />
+“YESSSSSSSSS!!!!!!”   <br />
+“Cool. Here’s a menu.”</p>
+    </blockquote>
+
+    <p><em>grown man exits, sobbing; vows to never return</em></p>
+
+    <p>Now let’s repeat that same scenario, imagining that the food court provided a host who greeted visitors on their way in. </p>
+
+    <blockquote>
+      <p>“You’re here because you’re hungry. What are you in the mood for?”  <br />
+“The best bacon cheeseburger here.”  <br />
+“No problem. Here’s the top three options, ranked in order of known quality. Bon appetite.”</p>
+    </blockquote>
+
+    <p>Which experience is better?</p>
+
+    <p>6b. Let’s now do a second thought experiment, this time imagining that you were hungry, but had an unidentifiable craving. How would you hope the conversation to go?</p>
+
+    <p>“You’re here because you’re hungry. What are you in the mood for?”
+ “Umm. Mexican food + no gluten + take out.”
+ “No problem. We have a range of quality options I think should fit. Let me  tell you the top recommendations, using just one or two sentences to describe each.”</p>
+
+    <p>Sounds ideal, right? </p>
+
+    <p>This is basically all that Google is trying to do: determine the problem you’re trying to solve, then match you with the highest-quality solution for that specific problem. </p>
+
+    <p>6c. So, to recap, searchers are Google’s customers first, and Google keeps them happy by determining and fulfilling their needs. The customer doesn’t care about them or you – they just want a burger or a recommendation; either a specific thing or a specific direction.</p>
+  </li>
+  <li>
+    <p>Alright, now we’re getting to the meat of it: the tactics you shouldn’t use. Our soundbite here is: “Never offer a cheeseburger to a vegan.” </p>
+
+    <p>7a. As we discussed earlier, some people have tried to “trick” Google into ranking their sites and content higher than deserved. Without getting too technical, how did they do that?</p>
+
+    <p>One of the more popular methods was called “keyword cramming”. Think of it like one of those food-court restaurants having a forest of banner-stands in front of their counter, packed with large-text phrases like “best burger”, “best burger foodcourt”, “best burger ever”, “foodcourt burger”, “burger, burger”, etc.</p>
+
+    <p>Their theory is that by being incredibly, overbearingly aggressive in declaring what they offer, you’ll pick them first.</p>
+
+    <p>Unfortunately, they’re overlooking three key things: (i) some people want a recommendation, not a specific food item; (ii) those that want a burger would prefer to see a qualified statement like “#1 rated burger 2015; local choice” to something unqualified and generic like “best burger ever”; and (iii) some people don’t want meat burgers.</p>
+
+    <p>Ultimately, “bad” tactics are any that fail to integrate specific solutions on all those points. If the pitch an SEO firm gives you doesn’t include contextualized approaches on all three fronts, run.</p>
+
+    <p>7b.  When people keyword-cram (or use similarly lazy and/or devious tactics), they risk being penalized by Google. This can be incredibly costly, often resulting in the equivalent of a black-list. In those cases, you’ll be worse off than if you never did any SEO at all.</p>
+
+    <p>7c.  So, to recap, searchers belong to Google, whose sole interest is identifying what they want and giving it to them – as specifically as possible. Trying to game the system with generic content and gimmicky strategies will result in them putting incredible distance between you and their customers.</p>
+  </li>
+  <li>
+    <p>So, now we arrive at what you’ve all come for today – the good stuff: the tactics you should use. Our context here is simple: “To catch a customer, think like a customer.”</p>
+
+    <p>a. This is simple concept that’s difficult to execute. Most owners think they understand their customers, while in reality they really just understand their industry. Sadly, the two things are not the same. </p>
+
+    <p>It’s important to note that I don’t mean we should try to divine the inner being of our customers in some philosophical way. This is about basic psychology. Nothing more.</p>
+
+    <p>Before a customer makes a search, they formulate a question. Before they formulate that question, they fall prey to a desire. </p>
+
+    <p>The desire can be for many things – prestige, peace-of-mind, pleasure, etc. – and you’ll consistently fail to sell anything to them until you figure out what it is.</p>
+
+    <p>Think back to the food court scenario. Before someone walks into one, they have to decide they want food. This is rarely an analytic decision. It begins with a feeling. The decision tree roots itself in a primal desire.</p>
+
+    <p>That said, not every form of hunger is equal. Some just want to feel full. Some want specific nourishment. Some want to scratch a specific itch. </p>
+
+    <p>Until you identify that – until you identify your primary customers and the desire-to-action process that they undergo, how can you possibly know what signs to post and what greetings to offer? </p>
+
+    <p>More meaningfully, if you can’t answer those questions today, what did you tell your SEO team to optimize for yesterday?</p>
+
+    <p>In most cases, companies with limited budgets pay money they can’t afford and all they get for it is a collection of “best burger” banner-stands.</p>
+
+    <p>8b. We have just one practical consideration left. Once we’ve identified exactly what our customers want, and once we’ve reverse-engineered how they break down the translation of desire into action, what do we do in response?</p>
+
+    <p>The heart of real SEO is building solid content around those specific desire-paths, creating posts and pages and videos that speak to each of them individually. (Well, not all – focusing on just the top 5 scenarios is usually enough.)</p>
+
+    <p>Learning how to format and promote that content is where you’ll need the help of a quality SEO firm. If worth their salt, they’ll know the best practices to appease Google. Just remember that their expertise is taking what you give them and optimizing it, not figuring out what you should give them in the first place.</p>
+
+    <p>(Yes, some firms can walk you through that, too. But it’s pretty rare that it makes sense for you to pay them for that. These are questions you should already be asking yourself. You should be the expert on your own business.)</p>
+
+    <p>8c. So, there we have it. You now know the basics of what every business owner needs to understand about SEO. </p>
+  </li>
+</ol>
+
+<p>To ensure it sticks, let’s recap it one final time.</p>
+
+<ul>
+  <li>Searchers are Google’s customers.</li>
+  <li>Customers have specific desires.</li>
+  <li>Good SEO never involves generalizations or spam.</li>
+  <li>Good SEO is about identifying root desires and meeting them with specific and relevant content, well-optimized to industry best practices.
+With that framework in mind, you’re now prepared to make informed decisions about what sort of consultants are worth hiring, which are worth avoiding, and what sort of answers you need to come up with internally before hiring anyone can be worth your while.</li>
+</ul>
+
+<hr />
+
+<p><strong>References</strong></p>
+
+<ul>
+  <li><a href="https://www.sparkol.com/en/Blog/8-Classic-storytelling-techniques-for-engaging-presentations">Storytelling templates</a>
+-<a href="https://awesomelists.top/#repos/matteofigus/awesome-speaking">Awesome Templates</a>
+-<a href="https://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work">The happy secret to better work</a></li>
+  <li><a href="https://www.ted.com/playlists/226/before_public_speaking?utm_campaign=social&amp;utm_medium=referral&amp;utm_source=facebook.com&amp;utm_content=playlist&amp;utm_term=business">Ted Video on before public speaking</a></li>
+  <li><a href="http://www.gq-magazine.co.uk/article/president-barack-obama-best-speeches-jon-favreau-interview">Obama Speeches</a></li>
+  <li><a href="https://ubiquity.acm.org/article.cfm?id=3310318">ACM article</a></li>
+  <li><a href="http://homes.cs.washington.edu/~mernst/advice/giving-talk.html">Giving talk</a></li>
+  <li><a href="https://www.hanselman.com/blog/11TopTipsForASuccessfulTechnicalPresentation.aspx">11 Top Tips for a Successful Technical Presentation</a></li>
+</ul>
+:ET
