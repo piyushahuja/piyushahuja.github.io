@@ -50,6 +50,14 @@ Become Main Character in Other People’s Movies by voicing opinions, storytelli
 
 * Fotedar, Dhruv, Aayush Goel, Salik, Barbara, Gavin, Billy Walker, Manan, Shubham, Leonie Smith, Hoser, Nakul Krishna, Dot (artist), Amrai (artist) Arudra Burra (philosopher), Ewan Maccaulay (quizzer), Sue Killoran (librarian!), Nina Sud (writer), Karan Nagpal (economist), NTiriwa
 
+UK Tribe
+
+
+Cambridge Helen, Caroline, Antonio, Divyam, Shruti, Ankit, Aakriti, Greg
+Cambridge To Meet Ariel, Nakul Krishna, Handel,  Billy, Matt Hoser, Ewan McCaulay
+Oxford  (College: Sue, Annette and Staff) Isabel, Svetlana, Kerrie, Mette and Promit, Leah, Aiden, Jordan, Thierry, Priyanka Raj, Aditi Agarwal, Bhagya Casaba Somashekar (through Adil Husain).
+Life: Tarun, Barbara Orth, Duja, Manan, Gagandeep, PGM, Jia Xhin (Malaysia)
+
 
 1.  No question asking: Archit, Shankhayan, Shriram
 2.  Cannot be alone together: Ida, Rodolfo 
