@@ -1,0 +1,428 @@
+I"&E<p><strong>Relationship Types</strong></p>
+
+<p>There are three types of relationships between entities:</p>
+<ul>
+  <li>1 to N
+    <ul>
+      <li><code class="highlighter-rouge">Status</code> and <code class="highlighter-rouge">Comments</code> on that status (Facebook)</li>
+      <li><code class="highlighter-rouge">Resume</code> and the <code class="highlighter-rouge">Organizations</code> on that resume (LinkedIn)</li>
+      <li><code class="highlighter-rouge">Question</code> and <code class="highlighter-rouge">Answers</code> on that question (Quora)</li>
+      <li><code class="highlighter-rouge">User</code> and <code class="highlighter-rouge">Answers</code> (Quora)</li>
+    </ul>
+  </li>
+  <li>N to 1
+    <ul>
+      <li><code class="highlighter-rouge">Status</code> and <code class="highlighter-rouge">Author</code> (Facebook)</li>
+      <li><code class="highlighter-rouge">Employee</code> and <code class="highlighter-rouge">Organization</code></li>
+      <li><code class="highlighter-rouge">Question</code> and <code class="highlighter-rouge">User</code> (Quora)</li>
+    </ul>
+
+    <p>or reverse of 1 to N</p>
+
+    <ul>
+      <li><code class="highlighter-rouge">Comments</code> and <code class="highlighter-rouge">Status</code> that it belongs to (Facebook)</li>
+      <li><code class="highlighter-rouge">Organizations</code> and <code class="highlighter-rouge">Resume</code> that refer it (LinkedIn)</li>
+      <li><code class="highlighter-rouge">Answer</code> and <code class="highlighter-rouge">Question</code> that it belongs to (Quora)</li>
+      <li><code class="highlighter-rouge">Answer</code> and <code class="highlighter-rouge">User</code>  (Quora)</li>
+    </ul>
+  </li>
+  <li>N to N
+    <ul>
+      <li><code class="highlighter-rouge">Status</code> and <code class="highlighter-rouge">Tags</code> (Instagram)</li>
+      <li><code class="highlighter-rouge">Users</code> and <code class="highlighter-rouge">Organizations</code> (Linkedin)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The data always tends to become more interconnected (move towards N-to-N) as application complexity increases. For example, if Linkedin originally did not have recognize an entity for <code class="highlighter-rouge">Organization</code> which different users could map to, then it would be 1-to-N, but over time, it might decide to include that, in which case the relationship would become N-to-N.</p>
+
+<p>The 1-to-N relationshop is a tree-like structure. Typically the entire tree is loaded as part of the queries</p>
+
+<p>Example Queries for 1-to-N:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">Get all comments corresponding to a given status</code> (“get all status corresponding to a particular comment” doesn’t even make sense)</li>
+  <li><code class="highlighter-rouge">Get all answers corresponding to a question</code> (“get all questions corresponding to an answer” doesn’t make sense either)</li>
+</ul>
+
+<hr />
+
+<p><strong>Embedded vs Foreign Keys vs Mapping Table</strong></p>
+
+<ul>
+  <li><strong>What is the relationship: 1-N, N-1, N-N?</strong>
+    <ul>
+      <li>
+        <p>1-N relationships are well represented as embedded</p>
+
+        <blockquote>
+          <p>status and its comments (what about users and their statuses?)</p>
+        </blockquote>
+
+        <blockquote>
+          <p>question and its answers (what about users and their questions?)</p>
+        </blockquote>
+      </li>
+      <li>
+        <p>N-1 and N-N relationships, if embedded would result in duplicacy (denormalised).</p>
+        <blockquote>
+          <p>status and their authors</p>
+        </blockquote>
+
+        <blockquote>
+          <p>question and their authors</p>
+        </blockquote>
+
+        <ul>
+          <li>We would need to do extra work in ensuring consistency on every write (e.g. we would need to ensure that the added question/status has the same author name as the name in the <code class="highlighter-rouge">User</code> field and as other questions by them)</li>
+          <li>There would be no single source of truth (e.g the name of the author might be present in both a <code class="highlighter-rouge">Question</code> table and the <code class="highlighter-rouge">User</code> table )</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Do we need to analyze the data of the fields in isolation of it’s main document?</strong> then we should make it in a separate entity. 
+    <blockquote>
+      <p>“get all statuses posted today” (for feed): so extract Status from User
+“get all comments posted today”: doesn’t make sense so keep comments as part of Status</p>
+    </blockquote>
+  </li>
+  <li>Does the user interface has free text fields?</li>
+  <li>Do you need the data to be evolvable and make sense as a standalone (orphaned tags e.c.) entity?</li>
+  <li>
+    <p>Branch out static vs dynamic entries</p>
+  </li>
+  <li>Removing duplication is the key to normalisation 
+Foreign Keys in one table (one knows about another). Many to one and many to many relationship are well represented. Arrays of foreign id in the case of many to many.Two Table: Normalize with a second table and store the foreign key (e.g store author name) in one of the tables.
+Benefits of normalization</li>
+  <li>Efficient user of space</li>
+  <li>Less Mistakes</li>
+  <li>Easy to change entries without going through all records</li>
+  <li>
+    <p>Difficult to query: have to see all records for finding all titles (tag cloud e.g.)</p>
+  </li>
+  <li>
+    <p>Foreign keys in both table  (both know about each other).</p>
+  </li>
+  <li>No Reference but a separate mappingg table (Both dont know about each other).Three Table: Normalize further and store the relationship in a mapping table. In this case, the entities do not “know” about each other, except for the relationship in the mapping table. To populate queries, “give all tags of a particular status” or “give all statuses of a particular tag”, we would need to emulate two joins.</li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>Emulate the joins in application code</li>
+  <li>Multiple roundtrip queries to the db</li>
+</ul>
+
+<hr />
+
+<h1 id="case-study-implementing-tags">Case Study: Implementing Tags</h1>
+
+<blockquote>
+  <p>A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question.</p>
+</blockquote>
+
+<p>There are three major database queries which you will do:</p>
+<ul>
+  <li>Output all Tags for one Item</li>
+  <li>Draw a Tag-Cloud</li>
+  <li>Select all items for one Tag Title.</li>
+</ul>
+
+<p>Hierarchal “tags” or categories in the TagTable: This is commonly needed on sites that have categories and subcategories but need the flexibility of tagging. For example, recipe sites, auto parts sites, business directories, etc. These types of data don’t usually fit into only one single category so tagging is the answer but you need to use something like the Nested Set Model or the Adjacency List Model in your Tag table.</p>
+
+<p>Possible Rules triggered by the tagging API:</p>
+
+<ul>
+  <li>“use the formal company name that appears on their annual SEC filings”</li>
+  <li>“search the tags database before creating a new tag”</li>
+</ul>
+
+<hr />
+
+<p><strong>1-Table Implementation</strong></p>
+
+<p><strong>PostTable</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Id
+Content
+Tags: [tag1, tag2, tag2]
+</code></pre></div></div>
+
+<p>Example Query: <em>Select all posts with a particular union of tags</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT - 
+FROM `PostTable` 
+WHERE tags LIKE "%search%" 
+OR tags LIKE "%webservice%" 
+OR tags LIKE "%semweb%"
+</code></pre></div></div>
+
+<p><strong>Drawbacks</strong></p>
+
+<ul>
+  <li>Partial Text search in EVERY document harder?</li>
+  <li>Cannot store many tags as limit on Tags field</li>
+  <li>Cannot store Tag metadata, description, hierarchy</li>
+  <li>The document size will become very large.
+    <ul>
+      <li>If I load this user object via REST service in my mobile app it could take a while.  </li>
+      <li>Furthermore in worst case the user document could exceed the MongoDb 16MB document limit.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>2-Table Implementation: PostTable and TagTable. Relationship Embedded as Foreign Keys.</strong></p>
+
+<p><strong>PostTable</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+Content
+Tags: [tagId1, tagId2, tagId3]
+</code></pre></div></div>
+
+<p><strong>TagTable</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TagId
+TagName
+</code></pre></div></div>
+
+<p><strong>The Good</strong></p>
+
+<p>More normalised, as repeated tags have one document
+Can Store tag metadata, hierarchy etc.</p>
+
+<p><strong>The Bad</strong></p>
+
+<ul>
+  <li>Cannot store relationship metadata</li>
+  <li>Search?: queries of type show all posts with tagName = xxxx require iterating through the array and joining?</li>
+</ul>
+
+<hr />
+
+<p><strong>2-Table Implementation: PostTable +  Mapping Table</strong></p>
+
+<p><strong>PostTable</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+Content
+</code></pre></div></div>
+
+<p><strong>PostTagTable</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+TagName
+</code></pre></div></div>
+
+<p><strong>The Bad</strong></p>
+
+<ul>
+  <li>Not Normalised (Duplicate Tag Names), so takes more Space in DB</li>
+  <li>Slower queries: the query for the tag title is much faster in a small table which contains each tag only once and this certainly is true.
+    <ul>
+      <li>But taking in regard the savings for not having to join and the fact that you can build a good index on them could easily compensate for this.</li>
+    </ul>
+  </li>
+  <li>Not normalised, so extra work needed to remain consistent
+    <ul>
+      <li>The inconsistency argument is a little moot Tags are free text fields and there is no expected operation like ‘rename all tags “foo” to “bar”</li>
+    </ul>
+  </li>
+  <li>You cannot create “unused”/orphan tags so an “add tag” feature has to be performed on an Item. (On the other implementations, the “add tag” feature can be performed independently </li>
+</ul>
+
+<p><em>Example Query: Select all posts with a particular tag</em> (Only 2-table join if we have tagName)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
+FROM PostTable
+JOIN PostTagTable ON PostId
+WHERE TagName = 
+</code></pre></div></div>
+<p>or<sup id="fnref:difference"><a href="#fn:difference" class="footnote">1</a></sup></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
+FROM PostTable, PostTagTable
+WHERE PostTable.Id =  PostTagTable.postID
+and tagName = :tag
+</code></pre></div></div>
+
+<p>Example Query: <em>Select all posts with a particular union of tags</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT b.*
+FROM scBookmarks b, scCategories c
+WHERE c.bId = b.bId
+AND (c.category IN ('bookmark', 'webservice', 'semweb'))
+GROUP BY b.bId
+</code></pre></div></div>
+
+<hr />
+
+<p><strong>3-Table Implementation: Post Table +  Mapping Table</strong></p>
+
+<p><strong>PostTable</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+Content
+</code></pre></div></div>
+
+<p><strong>TagTable</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TagId
+TagName
+</code></pre></div></div>
+
+<p><strong>PostTagTable</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+TagId
+</code></pre></div></div>
+
+<p>Example Query: <em>Items for one tag</em>(3 table joing if we have tag name)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT Item.* 
+  FROM Item
+  JOIN ItemTag ON Item.ItemID = ItemTag.ItemID
+  JOIN Tag ON ItemTag.TagID = Tag.TagID
+ WHERE Tag.Title = :title
+</code></pre></div></div>
+
+<p>Example Query: <em>Tag-Cloud</em> (2 table join)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT Tag.Title, count(*)
+  FROM Tag
+  JOIN ItemTag ON Tag.TagID = ItemTag.TagID
+ GROUP BY Tag.Title
+</code></pre></div></div>
+
+<p>Example Query: <em>All Tags for one ite</em>m (2 table join if we have id):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Select tagName
+FROM Tag
+JOIN ItemTag on Tag.tagID = ItemTag.TagID
+Where ItemTag.ItemID = :id
+</code></pre></div></div>
+
+<p><strong>The Bad</strong></p>
+
+<ul>
+  <li>Complex Queries. In the three-table solution for insert and update of item you have to lookup the Tag table to see if there are already entries. Then you have to join them with new ones. This is no trivial task.</li>
+</ul>
+
+<hr />
+
+<p><strong>1-Table Implementation</strong></p>
+
+<p>If you are using a database that supports map-reduce, like couchdb, storing tags in a plain text field or list field is indeed the best way. Example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tagcloud: {
+  map: function(doc){ 
+    for(tag in doc.tags){ 
+      emit(doc.tags[tag],1) 
+    }
+  }
+  reduce: function(keys,values){
+    return values.length
+  }
+}
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/20856/recommended-sql-database-design-for-tags-or-tagging">Recommended Tag Schema Design</a></li>
+  <li><a href="http://howto.philippkeller.com/2005/04/24/Tags-Database-schemas/">Tags DB Schema</a></li>
+</ul>
+
+<hr />
+
+<h1 id="case-study-stack-oveflow">Case Study: Stack Oveflow</h1>
+
+<p><strong>Post</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Text
+- Tags: [Tag]
+- Post by: User
+- Upvotes: [User_Ids]
+- Total Count of upvotes?
+- Type: Question/Answer/Comment
+- Views
+- If Type Question, Answers: [], If Type Answer, Question: [], if Type Comment, Question/Answer[]
+- Edits:
+</code></pre></div></div>
+
+<p><strong>Users</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- id
+- name
+- Photo
+- screen_name or username
+- AuthCredentials: password?
+- Reputation/Badgets etc.
+</code></pre></div></div>
+
+<p><strong>TagTable</strong> (29488 rows)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tagId
+Tagname
+</code></pre></div></div>
+
+<p><strong>TagSynonymTable</strong> (1916 rows)</p>
+
+<p>A synonym tag can only be a synonym for one master tag. A master tag can have multiple synonym tags:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sourceTag: tag1
+masterTag: tag3
+
+sourceTag: tag2
+masterTag: tag3
+
+sourceTag: tag4
+masterTag: tag3 
+</code></pre></div></div>
+
+<p>A master tag also be a synonym tag.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sourceTag: tag3
+masterTag: tag5
+</code></pre></div></div>
+
+<p>Q: Why no foreign key on master tag?</p>
+
+<p>A: Foreign keys help by quickly searching based on id, but here we only search or make joins based on tag names. Only if you have an information requirement that can’t be achieved due to the current technical implementation there would be reason to change or add foreign-keys and possible indexes.</p>
+
+<p>Hierarchy (Directional Graph without circular dependencies.  technical processes in place to prevent circular references from happening).</p>
+
+<p>Big Master Tag</p>
+
+<p>Master Tag … Master tag 2</p>
+
+<p>synonym1 …synonym 2.</p>
+
+<ul>
+  <li><a href="https://i.stack.imgur.com/AyIkW.png">Stack Overflow Scheme</a></li>
+  <li><a href="https://stackoverflow.com/questions/7245165/what-is-the-data-model-used-for-tags-and-tag-synonyms">Tags and Tag Synonyms</a></li>
+</ul>
+
+<hr />
+
+<p><strong>References</strong></p>
+
+<ul>
+  <li><a href="https://dba.stackexchange.com/questions/216796/creating-a-normalised-twitter-database-and-foreign-keys">Twitter Normalised DB</a></li>
+  <li><a href="https://geekgirls.com/2011/09/databases-from-scratch-iii-relational-design-process/">Geek Girl Example</a></li>
+  <li><a href="https://news.ycombinator.com/item?id=1566027">Guide to Normal Forms</a></li>
+  <li><a href="https://news.ycombinator.com/item?id=22806142">A humble guide to database schema design</a></li>
+  <li><a href="https://news.ycombinator.com/item?id=22324691">examples of good database schema designs?</a></li>
+  <li><a href="https://news.ycombinator.com/item?id=3932062">Understanding database normalisation: a very short tutorial</a></li>
+  <li><a href="https://softwareengineering.stackexchange.com/questions/158790/best-practices-for-nosql-database-design">best practices for NoSQL database design</a></li>
+  <li><a href="https://stackoverflow.com/questions/7258504/nosql-normalizing-help">NoSQL normalizing help</a></li>
+</ul>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:difference">
+      <p>There is no difference between the two.For larger queries the first way is more readable. If you have a mix left joins and some inner joins, then it is far more consistent to have the joins condition on the join clause, rather than some in the joins and some in the where clause.  Second representation makes query more readable and makes it look very clear as to which join corresponds to which condition. <a href="#fnref:difference" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
