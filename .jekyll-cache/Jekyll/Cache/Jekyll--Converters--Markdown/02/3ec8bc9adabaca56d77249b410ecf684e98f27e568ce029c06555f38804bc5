@@ -1,0 +1,208 @@
+I"�5<h1 id="what-is-docker">What is Docker?</h1>
+
+<p>Docker is a form of OS-level virtualisation whose purpose is, to quote:</p>
+<blockquote>
+  <p>Package up code and all its dependencies so the application runs quickly and reliably from one computing environment to another</p>
+</blockquote>
+
+<hr />
+
+<h1 id="why-docker">Why Docker?</h1>
+
+<ul>
+  <li>
+    <p><strong>Speed</strong>: isolated, consistent and repeatable environments
+for your developers to fire up a new version of the application that a collogue may have written requires muddling around in Git and using branches – this interrupts work flows and can lead to lose of work if “git stash” isn’t used right. With a container: they just run it.</p>
+  </li>
+  <li>
+    <p><strong>Portability</strong>: Docker images define abstract and immutable run time environment independent of the underlying hardware platform and packages it into a well defined and efficient image specification. With Dockerhub, we have a global distribution network
+First up: portability and allowing anyone, on any hardware, and any OS to run the application with a single command. All they need to do is install Docker and “docker run” will do the rest. With a TAR file based deployment, they need TAR, they need to know how-to deploy the application and manage the files; they may need some runtime on their system like Ruby, Python or NodeJS; and they cannot restrict the resources the application is using…</p>
+  </li>
+  <li>
+    <p><strong>Simplifies your infrastructure requirements</strong>
+you can restrict the resources the application is using inside of a container much easier than you can with one that is not.</p>
+  </li>
+  <li>
+    <p><strong>Automation</strong> is first class citizen: Dockerfile, DockerCompose
+one final point here: Docker Compose. You’re missing out on a lot of free stuff here. It’s so easy to write a Docker Compose file that brings up everything needed by the application - databases, caches, mocked APIs - allowing anyone in your organisation to bring up the application on their laptop and play with it, including the CEO, DBAs, QA, the receptionist. </p>
+  </li>
+</ul>
+
+<p>Example: You don’t have to do these things (installing build tools, dependencies to build an application) on every new deployment! Instead you can build the applicationone and distribute it as an “executable” (without the build tools and dependencies)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Source Openrc-hgi.sh
+Install python3
+Install pip
+Install setuptools wheel 
+Pip install -r requirements.txt (openstack, dateutil, json,….)
+Npm install (vue, bootstrapvue, …)
+</code></pre></div></div>
+<hr />
+
+<h1 id="cheatsheet">Cheatsheet</h1>
+
+<p><strong>For deployment of code</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker build <span class="nt">-t</span> mercury/openstack_report_backend:prod <span class="nb">.</span>
+docker login <span class="nt">--username</span><span class="o">=</span>mercury <span class="nt">--password</span><span class="o">=</span>jIJ43peAINdU
+docker push  mercury/openstack_report_backend:prod
+
+<span class="c"># You need to tag your image correctly first with your registryhost:</span>
+docker tag <span class="o">[</span>OPTIONS] IMAGE[:TAG] <span class="o">[</span>REGISTRYHOST/][USERNAME/]NAME[:TAG]
+<span class="c">#Then docker push using that same tag.</span>
+docker push NAME[:TAG]
+
+docker tag 518a41981a6a myRegistry.com/myImage
+docker push myRegistry.com/myImage
+</code></pre></div></div>
+
+<p><strong>For debugging</strong></p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c"># You can see a list of your running containers with the command, docker ps, just as you would in Linux.</span>
+docker ps
+
+docker ps <span class="nt">-a</span> <span class="nt">-q</span> 
+<span class="c"># -q prints just the container ids (without column headers)</span>
+<span class="c"># -f allows you to filter your list of printed containers (in this case we are filtering to only show exited containers) </span>
+<span class="c"># -v to avoid dangling volumes</span>
+
+
+journalctl <span class="nt">-u</span> docker.service | <span class="nb">tail</span> <span class="nt">-n</span> 50 
+
+<span class="c"># to get a bash shell in a container </span>
+docker exec <span class="nt">-it</span> &lt;container name&gt; /bin/bash 
+
+
+<span class="c"># Example:  to get environmental variables</span>
+docker <span class="nb">exec </span>container bash <span class="nt">-c</span> <span class="s1">'echo "$ENV_VAR"'</span>
+docker <span class="nb">exec </span>container <span class="nb">printenv </span>VARIABLE
+
+docker inspect &lt;container name&gt;
+
+<span class="c"># You can display the long-form Id for a container with the command:</span>
+docker inspect <span class="nt">--format</span> <span class="s1">'{{ .Id }}&gt;'</span> &lt;container name&gt;
+
+<span class="c"># in a swarm </span>
+docker service logs —details <span class="nt">--tail</span> 10 &lt;service name&gt;
+docker service ps <span class="nt">--no-trunc</span> <span class="c"># to find out which node the service is running on</span>
+docker service ps my-ngx <span class="c"># returns a task id</span>
+
+docker service inspect <span class="nt">--pretty</span> &lt;SERVICE-ID&gt;
+<span class="c"># to get the container id</span>
+docker inspect <span class="nt">-f</span> <span class="s2">"{{.Status.ContainerStatus.ContainerID}}"</span> &lt;task_id&gt; 
+
+
+
+<span class="c"># exec inside a swarm service</span>
+
+docker <span class="nb">exec</span> <span class="nt">-it</span> <span class="si">$(</span>docker ps <span class="nt">--filter</span> <span class="s2">"name=my-service."</span> <span class="nt">-q</span><span class="si">)</span> <span class="nb">cat</span> /run/secrets/my-service-secret
+
+
+</code></pre></div></div>
+
+<p><strong>For Cleanup</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># This will remove all stopped containers and should work on all platforms the same way.</span>
+docker container prune
+
+<span class="c"># To  clean up all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes, in one command.will delete ALL unused data (i.e., in order: containers stopped, volumes without containers and images with no containers).</span>
+docker system prune 
+
+docker <span class="nb">rm</span> <span class="sb">`</span>docker ps <span class="nt">--no-trunc</span> <span class="nt">-aq</span><span class="sb">`</span>
+docker <span class="nb">rm</span> <span class="si">$(</span>docker ps <span class="nt">-a</span> <span class="nt">-q</span> <span class="nt">--no-trunc</span><span class="si">)</span> <span class="c"># to avoid id clashes </span>
+docker ps <span class="nt">-a</span> <span class="nt">-q</span> | xargs docker <span class="nb">rm  
+</span>docker <span class="nb">rm</span> <span class="nt">-v</span> <span class="si">$(</span>docker ps <span class="nt">-q</span> <span class="nt">-f</span> <span class="nv">status</span><span class="o">=</span>exited<span class="si">)</span>
+docker <span class="nb">rm</span> <span class="si">$(</span>docker ps <span class="nt">-v</span> <span class="nt">-q</span> <span class="nt">-f</span>  <span class="nv">status</span><span class="o">=</span>exited<span class="si">)</span>  
+
+</code></pre></div></div>
+<hr />
+
+<h1 id="the-language-of-docker">The language of Docker</h1>
+
+<p>Image
+Container: a running image
+Service: a group of containers representing the same function (e.g. container replicas in a swarm)
+Stack: a group of services + networks  + volumes
+Node: a networking address: could be a container, a host etc.
+Swarm: a group of nodes acting as one
+Task
+Config 
+￼</p>
+
+<p>Service vs Container vs Task</p>
+
+<p>Services and container are related but both are different things.
+A service can be run by one or multiple containers. With docker you can handle containers and with docker-compose you can handle services.
+For example:
+Let’s say that we have this docker-compose.yml file:
+web:
+  image: example/my_web_app:latest
+  expose:
+    - 80
+  links:
+    - db</p>
+
+<p>db:
+  image: postgres:latest
+This compose file defines two services, web and db.
+When you run docker-compose up, Asuming that the project directory is test1 then compose will start 2 containers named myapp_db_1 and myapp_web_1.
+$ docker ps -a
+CONTAINER ID   IMAGE        COMMAND          …      NAMES
+1c1683e871dc   test1_web    “nginx -g”       …      test1_web_1
+a41360558f96   test1_db     “postgres -d”    …      test1_db_1
+So, in this point you have 2 services and 1 container for each.
+But you could scale the service named web to use 5 containers.
+$ docker-compose scale web=5
+Creating and starting 2 … done
+Creating and starting 3 … done
+Creating and starting 4 … done
+Creating and starting 5 … done
+In this point you have 2 services and 6 containers</p>
+
+<p><strong>An image</strong> is an executable package that includes everything needed to run an application–the code, a runtime, libraries, environment variables, and configuration files.</p>
+
+<p><strong>A container</strong> is a runtime instance of an image–what the image becomes in memory when executed (that is, an image with state, or a user process).  A container is launched by running an image.</p>
+
+<p>Docker images are stored as series of read-only layers. When we start a container, Docker takes the read-only image and adds a read-write layer on top.  Images are frozen immutable snapshots of live containers. Containers are running (or stopped) instances of some image. <a href="https://stackoverflow.com/questions/21498832/in-docker-whats-the-difference-between-a-container-and-an-image">Image vs Container</a></p>
+
+<p><strong>A Task definition</strong> is a collection of 1 or more container configurations. Some Tasks may need only one container, while other Tasks may need 2 or more potentially linked containers running concurrently. The Task definition allows you to specify which Docker image to use, which ports to expose, how much CPU and memory to allot, how to collect logs, and define environment variables.</p>
+
+<p><strong>A Task</strong> is created when you run a Task directly, which launches container(s) (defined in the task definition) until they are stopped or exit on their own, at which point they are not replaced automatically. Running Tasks directly is ideal for short running jobs, perhaps as an example things that were accomplished via CRON.</p>
+
+<p><strong>A service</strong> is used to guarantee that you always have some number of Tasks running at all times. If a Task’s container exits due to error, or the underlying EC2 instance fails and is replaced, the ECS Service will replace the failed Task. This is why we create Clusters so that the Service has plenty of resources in terms of CPU, Memory and Network ports to use. To us it doesn’t really matter which instance Tasks run on so long as they run. A Service configuration references a Task definition. A Service is responsible for creating Tasks.</p>
+
+<p>Services are typically used for long running applications like web servers. For example, if I deployed my website powered by Node.JS in Oregon (us-west-2) I would want say at least three Tasks running across the three Availability Zones (AZ) for the sake of High-Availability; if one fails I have another two and the failed one will be replaced (read that as self-healing!). Creating a Service is the way to do this. If I had 6 EC2 instances in my cluster, 2 per AZ, the Service will automatically balance Tasks across zones as best it can while also considering cpu, memory, and network resources.</p>
+
+<p>UPDATE:
+I’m not sure it helps to think of these things hierarchically.
+Another very important point is that a Service can be configured to use a load balancer, so that as it creates the Tasks—that is it launches containers defined in the Task Defintion—the Service will automatically register the container’s EC2 instance with the load balancer. Tasks cannot be configured to use a load balancer, only Services can.</p>
+
+<hr />
+
+<p><strong>Useful Reads</strong></p>
+
+<p>itd: <a href="https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty">Docker -it flags</a></p>
+
+<ul>
+  <li>
+    <p>-i (interactive) is about whether to keep stdin open (some programs, like bash, use stdin and other programs don’t). </p>
+  </li>
+  <li>-d (detached) is about whether the docker run command waits for the process being run to exit. Thus, they are orthogornal and not inherently contradictory. A program like bash exits when stdin in closed, so without -i, it exits immediately.</li>
+  <li></li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>-t allocates a pseudo-tty. You can see the difference from running bash with -it vs with just -i. For example, without -t, you don’t get any prompt and ls shows results in one column. This difference is like the difference between running ls and running ls</td>
+          <td>cat, where cat does not have a pseudo-tty.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>When you docker run bash in a container, -it and -itd behave differently as follows:</li>
+  <li>With -it, docker run gives you the bash prompt immediately.</li>
+  <li>With -itd, docker run exits immediately, but you can docker attach after that and get the bash prompt just as if you had just done docker run -it.</li>
+</ul>
+
+:ET

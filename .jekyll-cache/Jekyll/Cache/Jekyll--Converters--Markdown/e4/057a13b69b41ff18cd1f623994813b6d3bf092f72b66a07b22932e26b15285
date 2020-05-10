@@ -1,0 +1,34 @@
+I"�<h1 id="what-is-docker">What is docker?</h1>
+
+<h1 id="why-docker">Why Docker?</h1>
+
+<ul>
+  <li>
+    <p><strong>Speed</strong>: isolated, consistent and repeatable environments
+for your developers to fire up a new version of the application that a collogue may have written requires muddling around in Git and using branches – this interrupts work flows and can lead to lose of work if “git stash” isn’t used right. With a container: they just run it.</p>
+  </li>
+  <li><strong>Portability</strong>: Docker images define abstract and immutable run time environment independent of the underlying hardware platform and packages it into a well defined and efficient image specification. With Dockerhub, we have a global distribution network
+First up: portability and allowing anyone, on any hardware, and any OS to run the application with a single command. All they need to do is install Docker and “docker run” will do the rest. With a TAR file based deployment, they need TAR, they need to know how-to deploy the application and manage the files; they may need some runtime on their system like Ruby, Python or NodeJS; and they cannot restrict the resources the application is using…</li>
+  <li>
+    <p><strong>Simplifies your infrastructure requirements</strong>
+you can restrict the resources the application is using inside of a container much easier than you can with one that is not.</p>
+  </li>
+  <li><strong>Automation</strong> is first class citizen: Dockerfile, DockerCompose
+one final point here: Docker Compose. You’re missing out on a lot of free stuff here. It’s so easy to write a Docker Compose file that brings up everything needed by the application - databases, caches, mocked APIs - allowing anyone in your organisation to bring up the application on their laptop and play with it, including the CEO, DBAs, QA, the receptionist. </li>
+</ul>
+
+<hr />
+
+<h1 id="frequently-used-commands">Frequently Used Commands</h1>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nginx -t test your settings 
+nginx -t -c
+nginx -s reload
+service nginx restart
+</code></pre></div></div>
+
+<hr />
+
+<p><strong>Useful Reads</strong></p>
+
+:ET
