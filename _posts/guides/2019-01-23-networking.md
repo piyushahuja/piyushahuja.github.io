@@ -189,6 +189,7 @@ I love movies.  I love standup comedy.  I love friends.  Actually, I would ne
 Catching up with people makes us feel good.  If you feel lonely, call someone you haven’t called in a long time.  Someone you haven’t talked to.  They may think you’re crazy for having called them, but that doesn’t matter.  They probably won’t.  They’ll probably be flattered.  If they can’t talk then, schedule another time to talk to them.  Or you can write someone a letter or long email.  I love sending letters and long emails.  I’m about to do one right now.
 
 **Treating a person to a meal never fails**, and is so easy to do. It’s powerful with old friends and a great way to make new friends.
+
 ---------
 
 * **Get a Coach (different from Mentor)** [Example](https://www.linkedin.com/pulse/how-hold-people-accountable-coaching-conversation-89-fred-kofman/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0gfedSKyTi6WFVp2ORmVNQ%3D%3D) The strength of great advisers is in their ability to think about new and complex ideas with a clear sense of their own subjectivity. These people admit what they don’t know, avoid giving overly prescriptive advice, listen, and are hungry to learn. Perhaps most importantly, the best startup advisers have a near invincible optimism about your potential and that of your business. 
