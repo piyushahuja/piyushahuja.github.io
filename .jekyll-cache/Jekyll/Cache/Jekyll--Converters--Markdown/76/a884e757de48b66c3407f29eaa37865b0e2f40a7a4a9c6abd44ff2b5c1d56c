@@ -1,4 +1,4 @@
-I"DZ<p><strong>Relationship Types</strong></p>
+I"†[<p><strong>Relationship Types</strong></p>
 
 <p>There are three types of relationships between entities:</p>
 <ul>
@@ -81,7 +81,7 @@
     </blockquote>
   </li>
   <li>
-    <p>Is the data likely to become more interconnected? The data always tends to become more interconnected (move towards N-to-N) as application complexity increases. For example, if Linkedin originally did not have recognize an entity for <code class="highlighter-rouge">Organization</code> which different users could map to, then it would be 1-to-N, but over time, it might decide to include that, in which case the relationship would become N-to-N.</p>
+    <p>Is the data likely to become more interconnected? The data always tends to become more interconnected (move towards N-to-N) as application complexity increases. For example, if Linkedin originally did not have recognize an entity for <code class="highlighter-rouge">Organization</code> which different users could map to, then it would be 1-to-N, but over time, it might decide to include that, in which case the relationship would become N-to-N. We can still store the relationship in a denormalized form (e.g. store author name in every status, or array of tags within status), as in the case of a 1-to-N relationship. This would avoid joins. However, this causes duplication and will require extra work at the time of writing to ensure that data is consistent.</p>
   </li>
   <li>
     <p><strong>User interface: free text input or options?</strong>  Free text suggests keeping it embedded/denormalized.  Functional dependencies only exist when the things involved have unique and singular identifiers (representations) (not having them lead to data maintenance problems of their own.) functional dependencies and the various normal forms are really only defined for situations in which there are unique and singular identifiers. If two representations of address: 123 Main St., New York or 123 Main Street, NYC, then address does not have a functional dependency.</p>
@@ -439,11 +439,13 @@ masterTag: tag5
   <li><a href="https://www.mongodb.com/blog/post/the-mean-stack-mistakes-youre-probably-making">Mean Stack Mistakes</a></li>
   <li><a href="https://www.mongodb.com/presentations/webinar-working-with-graph-data-in-mongodb">Graph Data in MongoDB</a></li>
   <li><a href="https://www.compose.com/articles/graph-data-with-mongodb/">Graph Data in MongoDB</a></li>
-  <li>
-    <p><a href="https://medium.com/labcodes/graph-databases-talking-about-your-data-relationships-with-python-b438c689dc89
-https://news.ycombinator.com/item?id=18795498">Graph DBs</a>
-<strong>Useful Reads</strong></p>
-  </li>
+  <li><a href="https://medium.com/labcodes/graph-databases-talking-about-your-data-relationships-with-python-b438c689dc89
+https://news.ycombinator.com/item?id=18795498">Graph DBs</a></li>
+</ul>
+
+<p><strong>Useful Reads</strong></p>
+
+<ul>
   <li><a href="https://www.informit.com/articles/article.aspx?p=2339664">Designing for Document Databases</a></li>
   <li><a href="https://stackoverflow.com/questions/7258504/nosql-normalizing-help">NoSQL normalizing help</a></li>
   <li><a href="https://softwareengineering.stackexchange.com/questions/158790/best-practices-for-nosql-database-design">Best practices for NoSQL database design</a></li>
