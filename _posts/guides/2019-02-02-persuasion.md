@@ -15,11 +15,6 @@ permalink: /persuasion
 
 > There is this Middle Eastern story of a man who willed to his three sons his 17 camels. To the first son 1/2 of the camels, to the second son 1/3, and to the third son 1/9. 17 doesn’t divide by any of those numbers. Conflict arose, and they decided to go to a wise old woman for assistance. After thinking about it for a while, she said, “Here. I’ll give you one of my camels.” Now with 18 camels, the first son took 1/2: (9), the second son took 1/3: (6), and the last son took 1/9: (2), and they had a camel left over and they gave it back to the woman.
  
-> “I have come as a mediator to work out a compromise”. Within an hour of Kurt Weildheim’s arrival in Tehran for the release of American hostages, his car was being pelted with stones by angry protesters. Compromise in Persian lacks the positive connotation as a solution midway between two positions, but only the negative one as in “our integrity was compromised”. Similarly, mediator in persian means “meddler”.
-
-
-
-
 
 ----
 
@@ -62,12 +57,27 @@ Both activities require common abilities:
 
 ----
 
-
 * Talk around the idea, only indirectly suggesting it [How to plant an idea in someone's mind](https://lifehacker.com/how-to-plant-ideas-in-someones-mind-5715912)
-    >  "It is not good manners or clever to deprive one's readers of the most obvious objections. It is very good manners and very clever to leave it to one's readers alone to prononce the ultimate quintessence of our wisdom." - Nietzche's writing advice
 
-    > You can't just say "oh, I read today that fried chicken is killing 10 million children in Arkansas every year" because that's a load of crap and comes with an incredibly obvious motivation for saying it.
-    > If chicken is the target, you need to make chicken seem really unappealing. Next time you sneeze, make a joke about coming down with the avian flu. When you're ordering at a restaurant together, verbally convey your decision to order something other than chicken because you just learned how most chicken is processed by restaurants. When you've done enough of these things—and, again, with enough space between them so that it doesn't seem like odd behavior—you can start being a little more aggressive and stop going with your friend to get fried chicken. You can also take proactive steps to improve your own health and tell your friend 1) what you're doing, and 2) how well it's working for you. After a few weeks, if your friend hasn't decided to reconsider his or her position on frequent fried chicken, you can casually mention it and they should be much more open to having a real discussion.
+Underlying every idea someone has lies a more subtle, hidden fantasy of what is actually driving them. An emotional narrative the person built around what they want to do. They’re often not aware of it. If you need to convince someone to do something, don’t pitch your idea. Instead, pitch the underlying idea fantasy to someone who would enjoy it. Similarly, if you want to convince someone not to do something, you need to understand their true motivation. Don’t debate at the surface. 
+
+Suppose someone wants to get a new job. They’ll tell friends “they want to grow” or “don’t feel like they’re learning in their current job”. Debating the points they bring up with you won’t help because that isn’t what is really motivating them to leave. True motivation is often simpler: they heard a friend is making much more money than them. They met someone at the new job they really like. They haven’t been sleeping well, and they’re just tired. The fantasy that’s stuck in their mind is a mental image of themselves making more money, being near a person they admire or being more well-rested. You need to determine what that is.
+
+Counter-position. Don’t try to compete with their fantasy. Like Kellyanne Conway answering a question, just pitch a different one. If you suspect someone the fantasy in the future job is “I will make more money”, don’t immediately offer a raise. Pitch another something else, e.g: “there will be real opportunity for public recognition in this role”. Don’t make your idea comparable to another idea.
+
+Listen. Try to ascertain what the person really wants. This requires listening at a whole new level. When they talk, notice what causes their eyes their eyes to light up. Pay attention to their posture. Once you start paying attention to the details, you’ll realize other humans are the most interesting thing in the world.
+
+Direct a movie. Suppose you want someone to quit smoking. The fantasy you want to plant is how youthful they’ll feel when they stop. The most effective way to incept a person isn’t to say those words. Instead, say something like: “it must feel wonderful to run 3 miles in the wilderness, take a breath of fresh air and really live life.” Conduct a movie in the mind with words that evoke vivid imagery. It makes for a much more engaging conversation.
+
+Don’t pre-suppose solutions. Instead of thinking of what you want (“you should build this thing”), think of why you want it (“this thing could be really successful, if someone built it”). Try to formulate a narrative around the underlying motivations for the idea, and let them think of the actual concept themselves. Give context, not commands.
+
+Pitch theoretically. When you’re in a biased position, don’t make any direct suggestions (“you should”). Your idea may get auto-rejected because of its origin. Instead, use yourself or a theoretical stranger (“I would…”, “boy somebody ought to…”).
+
+>  "It is not good manners or clever to deprive one's readers of the most obvious objections. It is very good manners and very clever to leave it to one's readers alone to prononce the ultimate quintessence of our wisdom." - Nietzche's writing advice
+
+> You can't just say "oh, I read today that fried chicken is killing 10 million children in Arkansas every year" because that's a load of crap and comes with an incredibly obvious motivation for saying it.
+
+> If chicken is the target, you need to make chicken seem really unappealing. Next time you sneeze, make a joke about coming down with the avian flu. When you're ordering at a restaurant together, verbally convey your decision to order something other than chicken because you just learned how most chicken is processed by restaurants. When you've done enough of these things—and, again, with enough space between them so that it doesn't seem like odd behavior—you can start being a little more aggressive and stop going with your friend to get fried chicken. You can also take proactive steps to improve your own health and tell your friend 1) what you're doing, and 2) how well it's working for you. After a few weeks, if your friend hasn't decided to reconsider his or her position on frequent fried chicken, you can casually mention it and they should be much more open to having a real discussion.
 
 * Use logic reversals. Let's say you want your roommate to do the dishes because it's his or her turn. 
 
@@ -106,28 +116,35 @@ Both activities require common abilities:
 
 ----
 
-- **Make them feel good about themselves.** Validate their positive attributes which they think they possess**
+- **Make them feel good about themselves.** Validate their positive attributes which they think they possess
  
     * Tell an insecure person that they’re good or important and you’ll get persecuted or ignored. But as every dictator and demagogue in history has relied upon as a law, tell the right man that he’s brilliant and he’ll put a crown on your head.  I’ve never met a conman who didn’t open with some variant “well you look like a bright young fellow”. It doesn’t work on everyone, but it does work on those susceptible to it with astounding success rates. Trump’s CPAC speech is such a good example. It’s also a good example of the sort of tactics employed by Pick Up Artists - the negging, the disorientation, followed by the ‘but you’re so smart that you agree with everything I say.
+
 > “You’re smart enough to see what the others can’t.”      
+
 > “Everyone else is a sheep. But you’re a wolf — aren’t you?”
+
 > “You’re absolutely right — excellent use of common sense!”
+
 > “We were brought together because we alone see through the BS.”     
+
 > “This book will only make sense to smart and open-minded people.”
+
 > “I get a strong feeling that you’re the kind of man who..<something positive>
 
-    *Benjamin Frankling effect vs Reciprocation*
+*Benjamin Frankling effect vs Reciprocation*
 
-    * Get them to do you small favours. Let them impress you and they'd love you for it. 
-    > We all admire the wisdom of people who come to us for advice.
+* Get them to do you small favours. Let them impress you and they'd love you for it. 
 
-    - Reciprocation. Reciprocation  explains why free samples can be so effective. People who receive a free, unexpected gift are more likely to listen to a product’s features, donate to a cause, or tip a waitress more money. The gifts do not have to be expensive or even material; information and favors can work.
+> We all admire the wisdom of people who come to us for advice.
+
+Reciprocation. Reciprocation  explains why free samples can be so effective. People who receive a free, unexpected gift are more likely to listen to a product’s features, donate to a cause, or tip a waitress more money. The gifts do not have to be expensive or even material; information and favors can work.
     
 
 ----
 
 - **Validate the other person’s point of view**. 
-    * Psychotherapy research shows that when individuals feel listened to, they tend to listen to themselves more carefully and to openly evaluate and clarify their own thoughts and feelings.
+    * Psychotherapy research shows that when individuals feel listened to, they tend to listen to themselves more carefully and to openly evaluate and clarify their own thoughts and feelings. Lastly, forget about yourself. People frequently make the mistake of pitching ideas that will help them, not the other party. This doesn’t work. Smart people have a very strong firewall for truly embracing an idea. To pass it you must really afford the other party something that they deeply want. Not what you want. That is a secondary goal.
     
     * This can only be done by good listening, giving safe space, radical acceptance, and putting yourself in the others' shoes.  It can be demonstrated by using their names, summarizing and paraphrasing their point of view, and by remembering little details about them. 
     
@@ -140,7 +157,9 @@ Both activities require common abilities:
     * Validate and then give an insight. "You are not wrong, you are just not seeing another perspective."
     > [Ser Davos to Lady Mormont](https://www.youtube.com/watch?v=EkeA6JMxPkQ)  I’d feel the same way” 
 
-    Some of the best negotiators are so empathetic that you feel like they feel like you. They agree with you on everything, or respectfully disagree with you. But they always, always validate you.
+Some of the best negotiators are so empathetic that you feel like they feel like you. They agree with you on everything, or respectfully disagree with you. But they always, always validate you.
+
+Run a simulation. Think to yourself: “what would I be thinking if I was in that position?” To do this well, you must disentangle your own motivations. Take your hat off. Put theirs on. Argue against yourself with them. This helps convey that you’re really trying to see the problem from their side.
 
 - **Reframe the interaction without invalidating their point of view**
     * Diffuse with Humour. Create joy around you by making gestures with jokes. 
@@ -149,13 +168,16 @@ Both activities require common abilities:
 - **Give them an illusion of control to invite them to see your point of view** 
      
    Don't say no. Instead, 
-> “How am I supposed to do that?”  
-> “Because if you want this deal, you’d have to” signals the limits
->  What would you advice me in this situation? 
-  
-    Ask questions that start with the words “How” or “What.” By implicitly asking the other party for help, these questions will give your counterpart an illusion of control and will inspire them to speak at length, revealing important information.  Don’t ask questions that start with “Why” unless you want your counterpart to defend a goal that serves you. “Why” is always an accusation, in any language.
 
-    Get then to negotiate against themselves. This is not just flattery but probably truth. I find in most negotiations I am in, the other side knows more than I know.
+> “How am I supposed to do that?”  
+
+> “Because if you want this deal, you’d have to” signals the limits
+
+>  What would you advice me in this situation? 
+
+Ask questions that start with the words “How” or “What.” By implicitly asking the other party for help, these questions will give your counterpart an illusion of control and will inspire them to speak at length, revealing important information.  Don’t ask questions that start with “Why” unless you want your counterpart to defend a goal that serves you. “Why” is always an accusation, in any language.
+
+Get then to negotiate against themselves. This is not just flattery but probably truth. I find in most negotiations I am in, the other side knows more than I know.
 
 > You are the experts. What would you ask for if you were me? 
 
