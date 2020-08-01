@@ -1,9 +1,9 @@
 ---
-layout: post-journal
+layout: post-normal
 title: Algorithm Design
 date:   2019-03-29 09:00:11
 tag:
-categories: interview
+categories: tech
 excerpt:
 permalink: /algorithm
 comments: false

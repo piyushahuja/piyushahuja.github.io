@@ -1,5 +1,5 @@
 ---
-layout: page-journal
+layout: page-home
 title: Work Experience
 permalink: /work
 section: Home
