@@ -1,9 +1,9 @@
 ---
-layout: post-journal
+layout: post-normal
 title: Activity Selection
 date:   2019-03-28 09:00:11
 tag:
-categories: interview
+categories: tech
 excerpt:
 permalink: /dp-practice
 comments: false
