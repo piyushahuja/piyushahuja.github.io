@@ -19,12 +19,15 @@ Creative insights are not as rare as one thinks; what is rare is for people to h
 
 To not act on your product insights is as big risk for entrepreneurs as not listening to their feelings is for artists or not to listen to their moral convictions for political reformers. 
 
+What do product insights look like? 
+
+
 
 
 > Early on, there was a San Francisco Giants playoff game taking place at AT&T Park, near the company’s offices. As Systrom recalls, this led to another aha moment: “We were hearing the roars of home runs, not feeling like we were actually there,” he recalls. “We did an ad hoc [search] within the database to see if anyone was using Instagram in the area, and there were 140 photos in the last two hours taken in the stadium, so we could see the game [through the app]. . . . And that was the moment we realized Instagram could be far more than photo sharing.”
 
 
-On a beach walk one day, Nicole told him she would be reluctant to use the app he was working on because her pictures would never be as good as the ones a mutual friend took. “I said, ‘Well, you know what he does to those photos, right?’ She’s like, ‘No, he just takes good photos.’ I’m like, ‘No, no, he puts them through filter apps.’ She’s like, ‘Well, you guys should probably have filters too, right, then?’ I was like, ‘Huh.’ ” “Like,” indeed.Systrom went back to his hotel room and scoured the Internet, trying to figure out how to make a filter. That day, he created the first, which he called X-Pro II, after the “cross-processing where you take the wrong chemicals for the wrong film and you put them together.” He and Nicole started taking pictures using the filter and posted the first Instagram photo in this unusual style of a little Mexican dog lying next to Nicole’s foot. Once they had the filters, they aimed to launch the new service in just eight weeks.
+> On a beach walk one day, Nicole told him she would be reluctant to use the app he was working on because her pictures would never be as good as the ones a mutual friend took. “I said, ‘Well, you know what he does to those photos, right?’ She’s like, ‘No, he just takes good photos.’ I’m like, ‘No, no, he puts them through filter apps.’ She’s like, ‘Well, you guys should probably have filters too, right, then?’ I was like, ‘Huh.’ ” “Like,” indeed.Systrom went back to his hotel room and scoured the Internet, trying to figure out how to make a filter. That day, he created the first, which he called X-Pro II, after the “cross-processing where you take the wrong chemicals for the wrong film and you put them together.” He and Nicole started taking pictures using the filter and posted the first Instagram photo in this unusual style of a little Mexican dog lying next to Nicole’s foot. Once they had the filters, they aimed to launch the new service in just eight weeks.
 
 
 
