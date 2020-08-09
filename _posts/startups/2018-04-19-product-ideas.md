@@ -38,7 +38,7 @@ What do product insights look like?
 
 ----
 
-First-Time User Experience
+**First-Time User Experience**
 
 The goal of your first time user experience is to:
 
@@ -57,5 +57,8 @@ The answer is (4). (3) is necessary for (4), but not sufficient. So (4) encapsul
 
 
 A set of clearly outlined steps to completion/registration is key for a successful FTUE.
-“uncertain, unexplained waits feel longer than known, finite waits.” The more structured and clear the remaining time and number of steps remaining are, the more likely a user will be patient enough to go through and complete all of the steps required to get through the FTUE.
+
+“uncertain, unexplained waits feel longer than known, finite waits.” 
+
+The more structured and clear the remaining time and number of steps remaining are, the more likely a user will be patient enough to go through and complete all of the steps required to get through the FTUE.
 
