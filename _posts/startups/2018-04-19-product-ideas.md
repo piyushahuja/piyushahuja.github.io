@@ -19,7 +19,7 @@ To not act on your product insights is as big risk for entrepreneurs as not list
 
 What do product insights look like? 
 
-One is reminded of this iconic scene from [TheSocial Network](https://www.youtube.com/watch?v=UdjGiIn9HMM), but I am sure it is not always thus.  Here are a couple of examples from Instagram...
+One is reminded of this iconic scene from [The Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM). Here are a couple of examples from Instagram...
 
 
 > Early on, there was a San Francisco Giants playoff game taking place at AT&T Park, near the company’s offices. As Systrom recalls, this led to another aha moment: “We were hearing the roars of home runs, not feeling like we were actually there,” he recalls. “We did an ad hoc [search] within the database to see if anyone was using Instagram in the area, and there were 140 photos in the last two hours taken in the stadium, so we could see the game [through the app]. . . . And that was the moment we realized Instagram could be far more than photo sharing.”
