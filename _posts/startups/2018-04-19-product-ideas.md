@@ -44,21 +44,16 @@ The goal of your first time user experience is to:
 
 * Prevent them from abandoning the app
 * Communicating your key value proposition in their heads
-* Teaching them how to use the app
-* Making them go “wow” . WOW is achieved when a user recognizes, either quite actively or subconsciously, that your product or service is a must have experience that will improve her life. It’s something powerful enough to make users say, “Wow, this is awesome.”
-
-Some things to keep in mind about WOW factors: 
-* They’re often not a feature. But rather, what that feature makes possible.
-* They convey much more value than effort required - (i.e. they are Low Effort, High Value, or LEHV, activities)
-* They are powerful when communicated with examples or analogies, but even more powerful when the result of real user interaction. Always remember, Do>Show>Tell.
-
-
-The answer is (4). (3) is necessary for (4), but not sufficient. So (4) encapsulates (2). (2) encapsulates (3). and (4) entails (1) is satisfied. 
+* Teaching them how to use the app. 
+* A set of clearly outlined steps to completion/registration is key for a successful FTUE. “uncertain, unexplained waits feel longer than known, finite waits.”  The more structured and clear the remaining time and number of steps remaining are, the more likely a user will be patient enough to go through and complete all of the steps required to get through the FTUE.
+* Making them go “wow” . WOW is achieved when a user recognizes, either quite actively or subconsciously, that your product or service is a must have experience that will improve her life. It’s something powerful enough to make users say, “Wow, this is awesome.” Some things to keep in mind about WOW factors: 
+    * They’re often not a feature. But rather, what that feature makes possible.
+    * They convey much more value than effort required - (i.e. they are Low Effort, High Value, or LEHV, activities)
+    * They are powerful when communicated with examples or analogies, but even more powerful when the result of real user interaction. Always remember, Do>Show>Tell.
 
 
-A set of clearly outlined steps to completion/registration is key for a successful FTUE.
 
-“uncertain, unexplained waits feel longer than known, finite waits.” 
 
-The more structured and clear the remaining time and number of steps remaining are, the more likely a user will be patient enough to go through and complete all of the steps required to get through the FTUE.
+
+
 
