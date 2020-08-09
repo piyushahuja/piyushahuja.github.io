@@ -19,7 +19,8 @@ To not act on your product insights is as big risk for entrepreneurs as not list
 
 What do product insights look like? 
 
-One is reminded of this iconic scene from [The Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM). More veridically, Mark Zuckerberg talks about observing that people frequently changing their profile picture, and his takeaway that there's a strong demand for a service that people could share more photos. That became a key part and differentiator of Facebook.
+One is reminded of this iconic scene from [The Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM). More veridically, Mark Zuckerberg talks about his takeaway from people frequently changing their profile picture that strong demand for a service that people could share more photos, which became a key differentiator and frquenly used feature. [Reference: From 13:45](https://www.youtube.com/watch?v=5bJi7k-y1Lo)
+
 
 
 
