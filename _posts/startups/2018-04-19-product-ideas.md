@@ -19,7 +19,9 @@ To not act on your product insights is as big risk for entrepreneurs as not list
 
 What do product insights look like? 
 
-One is reminded of this iconic scene from [The Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM). Mark Zuckerberg also talks about people using photos as being 
+One is reminded of this iconic scene from [The Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM). More verifically, Mark Zuckerberg talks about observing that people changing their profile picture very frequently, and his takeaway that there's a strong demand for a service that people could share more photoes. 
+
+
 
 
 Here are a couple of examples from Instagram...
@@ -31,7 +33,7 @@ Here are a couple of examples from Instagram...
 > On a beach walk one day, Nicole told him she would be reluctant to use the app he was working on because her pictures would never be as good as the ones a mutual friend took. “I said, ‘Well, you know what he does to those photos, right?’ She’s like, ‘No, he just takes good photos.’ I’m like, ‘No, no, he puts them through filter apps.’ She’s like, ‘Well, you guys should probably have filters too, right, then?’ I was like, ‘Huh.’ ” “Like,” indeed. Systrom went back to his hotel room and scoured the Internet, trying to figure out how to make a filter. That day, he created the first, which he called X-Pro II, after the “cross-processing where you take the wrong chemicals for the wrong film and you put them together.” He and Nicole started taking pictures using the filter and posted the first Instagram photo in this unusual style of a little Mexican dog lying next to Nicole’s foot. Once they had the filters, they aimed to launch the new service in just eight weeks.
 
 
-However, it doesn't have to be as dramatic as that. Insights can come from recording user behavior and data. Here's a cute anecdote often told didactively in business school classes: 
+However, it doesn't have to be as qualitative as that. Insights could be quantitative and come from recording user behavior and data. Here's a cute anecdote often told didactively in business school classes: 
 
 > “When they first built the University of California at Irvine they just put the buildings in. They did not put any sidewalks, they just planted grass. The next year, they came back and put the sidewalks where the trails were in the grass.”
 
