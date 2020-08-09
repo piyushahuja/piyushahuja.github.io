@@ -15,9 +15,9 @@ comments: true
 [Social Network Scene](https://www.youtube.com/watch?v=UdjGiIn9HMM)
 
 
-I have a hypothesis that creative insights are not as rare as one thinks; what is rare is for people to have the conviction, and courage to act on them. Most people, infact, do not listen to their insights, when faced with something original and real, they shy away, instead embracing the comfort and security of the tried-and-tested. Listening to your insight, or intution, is a practiced skill, and if not practiced it is dulled to the extent that one is not able to tell their own thoughts from others. Mimicry and other people's ideas start feeling as if they are your own; compare, for example, the emotional-laden writings of an artist to the dull, cliched conventional vocabulary of a suit. 
+Creative insights are not as rare as one thinks; what is rare is for people to have the conviction, and courage to act on them. Most people have insights. However, it is common for peopel to not listen to their insights, when faced with something original and real, they shy away, instead embracing the comfort and security of the tried-and-tested. Listening to your insight, or intution, is a practiced skill, and if not practiced it is dulled to the extent that one is not able to tell their own thoughts from others. Mimicry and other people's ideas start feeling as if they are your own; compare, for example, the authentic writing of an artist to the cliched, conventional vocabulary of a suit.
 
-
+To not act on your product insights is as big risk for entrepreneurs as not listening to their feelings is for artists or not to listen to their moral convictions for political reformers. 
 
 
 
