@@ -12,16 +12,14 @@ comments: true
 ---
 
 
-[Social Network Scene](https://www.youtube.com/watch?v=UdjGiIn9HMM)
+[Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM)
 
 
 Creative insights are not as rare as one thinks; what is rare is for people to have the conviction, and courage to act on them. Most people have insights. However, it is common for peopel to not listen to their insights, when faced with something original and real, they shy away, instead embracing the comfort and security of the tried-and-tested. Listening to your insight, or intution, is a practiced skill, and if not practiced it is dulled to the extent that one is not able to tell their own thoughts from others. Mimicry and other people's ideas start feeling as if they are your own; compare, for example, the authentic writing of an artist to the cliched, conventional vocabulary of a suit.
 
 To not act on your product insights is as big risk for entrepreneurs as not listening to their feelings is for artists or not to listen to their moral convictions for political reformers. 
 
-What do product insights look like? 
-
-
+What do product insights look like? Here are a couple of examples from Instagram...
 
 
 > Early on, there was a San Francisco Giants playoff game taking place at AT&T Park, near the company’s offices. As Systrom recalls, this led to another aha moment: “We were hearing the roars of home runs, not feeling like we were actually there,” he recalls. “We did an ad hoc [search] within the database to see if anyone was using Instagram in the area, and there were 140 photos in the last two hours taken in the stadium, so we could see the game [through the app]. . . . And that was the moment we realized Instagram could be far more than photo sharing.”
@@ -49,7 +47,7 @@ The goal of your first time user experience is to:
 * Making them go “wow” . WOW is achieved when a user recognizes, either quite actively or subconsciously, that your product or service is a must have experience that will improve her life. It’s something powerful enough to make users say, “Wow, this is awesome.” Some things to keep in mind about WOW factors: 
     * They’re often not a feature. But rather, what that feature makes possible.
     * They convey much more value than effort required - (i.e. they are Low Effort, High Value, or LEHV, activities)
-    * They are powerful when communicated with examples or analogies, but even more powerful when the result of real user interaction. Always remember, Do>Show>Tell.
+    * They are powerful when communicated with examples or analogies, but even more powerful when the result of real user interaction. Do > Show > Tell.
 
 
 
