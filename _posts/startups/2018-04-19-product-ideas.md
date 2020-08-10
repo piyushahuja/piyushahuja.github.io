@@ -19,7 +19,7 @@ To not act on your product insights is as big risk for entrepreneurs as not list
 
 What do product insights look like? 
 
-One is reminded of this iconic scene from [The Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM). More veridically, Mark Zuckerberg talks about his takeaway from people frequently changing their profile picture that strong demand for a service that people could share more photos, which became a key differentiator and frquenly used feature. [Starting at 13:45](https://www.youtube.com/watch?v=5bJi7k-y1Lo)
+One is reminded of this iconic scene from [The Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM). However, it doesn't have to be as dramatic as that. More veridically, Mark Zuckerberg talks about how people frequently changing their profile picture led to the insight that strong demand for a service that people could share more photos, which became a key differentiator and frquenly used feature. [Starting at 13:45](https://www.youtube.com/watch?v=5bJi7k-y1Lo). Sharing photos on the social network might seem ubiquitious now, but it wasn't back in the early days.
 
 
 
@@ -34,7 +34,7 @@ Here are a couple of examples from Instagram...
 > On a beach walk one day, Nicole told him she would be reluctant to use the app he was working on because her pictures would never be as good as the ones a mutual friend took. “I said, ‘Well, you know what he does to those photos, right?’ She’s like, ‘No, he just takes good photos.’ I’m like, ‘No, no, he puts them through filter apps.’ She’s like, ‘Well, you guys should probably have filters too, right, then?’ I was like, ‘Huh.’ ” “Like,” indeed. Systrom went back to his hotel room and scoured the Internet, trying to figure out how to make a filter. That day, he created the first, which he called X-Pro II, after the “cross-processing where you take the wrong chemicals for the wrong film and you put them together.” He and Nicole started taking pictures using the filter and posted the first Instagram photo in this unusual style of a little Mexican dog lying next to Nicole’s foot. Once they had the filters, they aimed to launch the new service in just eight weeks.
 
 
-However, it doesn't have to be as qualitative as that. Insights could be quantitative and come from recording user behavior and data. Here's a cute anecdote often told didactively in business school classes: 
+Insights could be quantitative and come from recording user behavior and data. Here's a cute anecdote often told didactively in business school classes: 
 
 > “When they first built the University of California at Irvine they just put the buildings in. They did not put any sidewalks, they just planted grass. The next year, they came back and put the sidewalks where the trails were in the grass.”
 
