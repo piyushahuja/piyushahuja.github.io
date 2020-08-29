@@ -161,6 +161,8 @@ Some of the best negotiators are so empathetic that you feel like they feel lik
 
 Run a simulation. Think to yourself: “what would I be thinking if I was in that position?” To do this well, you must disentangle your own motivations. Take your hat off. Put theirs on. Argue against yourself with them. This helps convey that you’re really trying to see the problem from their side.
 
+[My boss just texted me implying that I will be fired if I go on vacation for four days, even though I gave two months’ advance notice. My family already purchased the tickets and everything. Is there anything I can do?](https://www.quora.com/My-boss-just-texted-me-implying-that-I-will-be-fired-if-I-go-on-vacation-for-four-days-even-though-I-gave-two-months-advance-notice-My-family-already-purchased-the-tickets-and-everything-Is-there-anything-I-can-do/answer/Dushka-Zapata?ch=10&share=14022d92&srid=3HW0)
+
 - **Reframe the interaction without invalidating their point of view**
     * Diffuse with Humour. Create joy around you by making gestures with jokes. 
     * Resolving Interpersonal Conflicts: Sit Back to Back and Talk
