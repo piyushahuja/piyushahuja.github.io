@@ -39,7 +39,7 @@ Become Main Character in Other People’s Movies by voicing opinions, storytelli
 
 ---
 
-**My Tribe**
+<!-- **My Tribe**
 
 * Florian, RBN, Isabel Ruiz, Rohan Paul, Richa Kumar, RN Sir, Mandeep Ma’am, Shivani Ma’am, Alistair Beecher Stowe, Samar, Saurabh Wadhawan (Mentors)
 * Aayush, Nikhil Mahajan, Uddesh Kattayan, Dhruv, Mayank (Mentees)
@@ -69,9 +69,9 @@ Life: Tarun, Barbara Orth, Duja, Manan, Gagandeep, PGM, Jia Xhin (Malaysia)
 8.  The frenemy  Stuti, Duja
 9.  The Facebook celebrity friend 
 10. The lopsided friendship Bhalu
+ -->
 
-
-
+<!-- 
 **Good People but not tribe**
 
 * Yatik, Gayatri, Amitabh,  Deepika, Sarah Nehrling
@@ -79,9 +79,9 @@ Life: Tarun, Barbara Orth, Duja, Manan, Gagandeep, PGM, Jia Xhin (Malaysia)
 * IIT: Shankhayan, Nishit, Aritra, Chetan
 * Oxford: Allison, Segolene, Annie Gregoire, Olivia Regan, Seth, Helene, Leonie Davidson, S Winkler, Luca, Brian Adams, Dan Bowen, Leevi, Zelter 
 
+ -->
 
-
-
+<!-- 
 **Communities Connectors**
 
 * **Sector 6**: Bharat, Aasaf
@@ -99,20 +99,20 @@ Life: Tarun, Barbara Orth, Duja, Manan, Gagandeep, PGM, Jia Xhin (Malaysia)
 * **Jugnoo**: Saurabh Wadhawan, Prishit...
 * **Cambridge**: Freya
 * Others: Rahul Subramaniam, Poushak, Fizza, Andrew Clark, Laura, Prateek Raj, Kush, ...
-
+ -->
 
 People who I have mentored:
 * Atreya, Angarika, S Vohra, Abhishek Garg, S Tandon
 
 ------
 
-Contrast with people who de-energize:
+<!-- Contrast with people who de-energize:
 
 * Mandvi 
 * Johnians: Almost all 
 * IIT: SS, Murari, Shriram, Tulsyan, Vaanar, Bhatta
 * Oxford: Emily Atkinson, Jan Phillip, Mandie, Nufar Galin, Per, Ross, Rosa, Tatiana,  Leslie Smith, Bill Mander
-
+ -->
 ----
 
 
