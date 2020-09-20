@@ -13,11 +13,11 @@ comments: true
 
 
 
-Creative insights are not as rare as one thinks; what is rare is for people to have the conviction, and courage to act on them. Most people have insights. However, it is common for peopel to not listen to their insights, when faced with something original and real, they shy away, instead embracing the comfort and security of the tried-and-tested. Listening to your insight, or intution, is a practiced skill, and if not practiced it is dulled to the extent that one is not able to tell their own thoughts from others. Mimicry and other people's ideas start feeling as if they are your own; compare, for example, the authentic writing of an artist to the cliched, conventional vocabulary of a suit.
+Creative insights are not as rare; what is rare is the conviction and courage to act on them. Everyone has moments of insight. However, it is common for one to not listen to them; when faced with something original and real, the human instinct is to shy away, embracing the comfort and security of the tried-and-tested. Listening to your insight or intution is a practiced skill. If not practice, it is dulled - to the extent that one is not able to tell their own thoughts from those of others. Other people's ideas start feeling as if they are your own; compare, for example, the authentic metaphors of a poet to the cliched and conventional vocabulary of a suit.
 
-To not act on your product insights is as big risk for entrepreneurs as not listening to their feelings is for artists or not to listen to their moral convictions for political reformers. 
+To not act on your insights is as big a risk for entrepreneurs as not listening to their feelings is for artists or not to listen to their moral convictions for political reformers. 
 
-What do product insights look like? 
+But within the domain of digital products, what do insights look like? 
 
 One is reminded of this iconic scene from [The Social Network](https://www.youtube.com/watch?v=UdjGiIn9HMM). However, it doesn't have to be as dramatic as that. More veridically, Mark Zuckerberg talks about how people frequently changing their profile picture led to the insight that strong demand for a service that people could share more photos, which became a key differentiator and frquenly used feature. [Starting at 13:45](https://www.youtube.com/watch?v=5bJi7k-y1Lo). Sharing photos on the social network might seem ubiquitious now, but it wasn't back in the early days.
 
