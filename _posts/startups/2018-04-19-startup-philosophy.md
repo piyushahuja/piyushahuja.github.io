@@ -1,7 +1,7 @@
 ---
 
 layout: post-normal
-title: Startup Lessons
+title: Startup Philosophy
 date:   2018-04-19 09:00:12
 tag: 
 categories: startups
