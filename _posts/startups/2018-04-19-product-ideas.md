@@ -34,6 +34,9 @@ Insights could be quantitative and come from recording user behavior and data. H
 
 > “When they first built the University of California at Irvine they just put the buildings in. They did not put any sidewalks, they just planted grass. The next year, they came back and put the sidewalks where the trails were in the grass.”
 
+Or they could be analytical, based on research:
+
+> “Shaw put Bezos in charge of exploring new business opportunities in the burgeoning world of the Internet. It was while brainstorming ideas in the then-unfamiliar area of electronic commerce that Bezos came to his deceptively simple conclusion: The most logical thing to sell over the Internet was books, largely because two of the country’s largest book distributors already had exhaustive electronic lists.”
 
 
 ----
