@@ -30,7 +30,7 @@ So I treat the lure and fantasies of academia as a siren song, seductive and tem
 
 
 
-**Here's what people had to say...**
+**Here's the case against academia...**
 
 * **It's an escape from the responsbilities of adulthood**
 
@@ -51,8 +51,7 @@ So I treat the lure and fantasies of academia as a siren song, seductive and tem
 
 >  "The very best possible outcome for your research is that someone at Google or Microsoft or Facebook reads one of your papers, gets inspired by it, and implements something like it internally. Chances are they will have to change your idea drastically to get it to actually work, and you'll never hear about it. And of course the amount of overhead and red tape (grant proposals, teaching, committee work, etc.) you have to do apart from the interesting technical work severely limits your ability to actually get to that point. At Google, I have a much more direct route from idea to execution to impact. I get to hack all day, working on problems that are orders of magnitude larger and more interesting than I can work on at any university. That is really hard to beat, and is worth more to me than having "Prof." in front of my name, or a big office, or even permanent employment. In many ways, working at Google is realizing the dream I've had of building big systems my entire career. "
 
-Even David Karger, who has had remarkable and ground-breaking accomplishments in Algorithms, decided to leave Academia for [this very reason](https://qr.ae/TSi27s). 
-But it is reasonable to hold that research is not about impact at all - only about [finding out what might be possible](https://qr.ae/T9fSzE)?
+Even David Karger, who has had remarkable and ground-breaking accomplishments in Algorithms, decided to leave Academia for [this very reason](https://qr.ae/TSi27s).[^impact]
 
 * **There's not much in the way of appreciation, recognition or external validation**
 
@@ -111,7 +110,7 @@ But it is reasonable to hold that research is not about impact at all - only abo
 
 **References**
 
-Some good accounts of *the lived experience* of a PhD:
+Some accounts of *the lived experience* of a PhD:
 
 * [Phillip Guo, PhD in CS](http://pgbovine.net/PhD-memoir.htm)
 * [Jeremy Kun, PhD in Maths](https://medium.com/@jeremyjkun/my-graduate-career-in-math-85fd4efb0fa9)
@@ -119,7 +118,7 @@ Some good accounts of *the lived experience* of a PhD:
 * [Physics PhD: What Does Any of This Have To Do with Physics?](http://nautil.us/issue/43/heroes/what-does-any-of-this-have-to-do-with-physics)
 
 
-Quotes taken from:
+Quotes from:
 
 - [The joy of research](https://www.cs.purdue.edu/homes/dec/essay.phd.html)
 - [Academics who switched to industry, what's your experience been like?](https://news.ycombinator.com/item?id=18798498)
