@@ -970,3 +970,5 @@ Even if you don't get a raise or promotion this time, it tells your boss that yo
 - [Worst mistakes during salary negotiation](https://inc42.com/entrepreneurship/worst-mistakes-salary-negotiation/)
 - [Hacker News: How to ask for a raise? 1](https://news.ycombinator.com/item?id=19542087)
 - [Hacker News: How to ask for a raise? 2](https://news.ycombinator.com/item?id=19542163)
+- [Haseeb's Guide To Negotiating](https://haseebq.com/how-not-to-bomb-your-offer-negotiation/)
+- [10 Rules For Negotiating Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
