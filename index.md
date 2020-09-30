@@ -9,7 +9,7 @@ section: Home
 <!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
  -->
  
-I am currenty working as a software engineer in Cambridge (UK). I enjoy learning, teaching, and creative collaborations. 
+I am currenty a senior software engineer based in Cambridge (UK). I enjoy learning, teaching, and creative collaborations. 
 
 <!-- My long-term project, [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), can now be downloaded on Google playstore. One of the best way to learn is to teach it to someone. Platonia allows you to organize one-on-one meetups with people near you for learning-and-teaching. -->
 
@@ -27,6 +27,4 @@ The [work section](/work)  spells out my professional experience in greater deta
 [resumeFile]: ../files/piyush_resume.pdf 
 [thesis]: ../files/research/thesis.pdf
 
-
- 
-
+I am big on mentorship. 
