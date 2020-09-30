@@ -27,3 +27,4 @@ The [work section](/work)  spells out my professional experience in greater deta
 [resumeFile]: ../files/piyush_resume.pdf 
 [thesis]: ../files/research/thesis.pdf
 
+ 
