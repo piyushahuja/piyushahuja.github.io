@@ -2,9 +2,11 @@
 
 layout: post-journal
 title:  Is there such a thing as the public interest?
-date:   2015-03-26 09:00:11
+date:   2016-01-27 09:00:11
 tag: 
-categories: philosophy
+categories: 
+    - philosophy
+    - political-theory
 excerpt: 
 permalink: /public-interest
 comments: true
