@@ -39,7 +39,7 @@ I am looking for partners or groups with whom I can practice the following skill
 
 **Creative Collaborations**
 
-If you'd like to collaborate on something for fun, don't hesitate to reach out! Don't worry about ideas - my notebooks are overflowing with them, and it would be great to riff-off each other. Primarily, I am interested in podcasts, sketch comedy and mobile apps. 
+If you'd like to collaborate on something for fun, don't hesitate to reach out! My notebooks are always overflowing with ideas, and it would be great to riff-off each other. The mediums I am interested in is podcasts, sketch comedy and mobile apps. 
 
 {% include email-subscribe.html %}
 
