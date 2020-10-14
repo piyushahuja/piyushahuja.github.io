@@ -8,8 +8,9 @@ section: Home
 
 <!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
  -->
- 
-I am currenty a senior software engineer based in Cambridge (UK). I enjoy learning, teaching, and creative collaborations. 
+**Currently**
+
+I am a senior software engineer based in Cambridge (UK). 
 
 <!-- My long-term project, [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), can now be downloaded on Google playstore. One of the best way to learn is to teach it to someone. Platonia allows you to organize one-on-one meetups with people near you for learning-and-teaching. -->
 **Educational Background**
@@ -22,24 +23,13 @@ Before Oxford, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian
 <!-- The [work section](/work)  spells out my professional experience in greater detail.  
  -->
 
-**Teaching and Mentoring** 
+I enjoy learning, teaching, and creative collaborations. 
 
-These are areas I am interested in teaching or mentoring.
+- **Teaching:**  Interested in teaching or mentoring opportunies in philosophy, algorithms, and creative writing.
 
-- Philosophy
-- Creative Writing
-- Algorithms
+- **Learning:** Looking for people with whom I can practice Improv, First Aid, or Wilderness survival skills
 
-**Learning**
-
-I am looking for partners or groups with whom I can practice the following skills. 
-- Improv
-- First Aid 
-- Wilderness Survival.
-
-**Creative Collaborations**
-
-If you'd like to collaborate on something for fun, don't hesitate to reach out! My notebooks are always overflowing with ideas, and it would be great to riff-off each other. The mediums I am interested in is podcasts, sketch comedy and mobile apps. 
+- **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. My notebooks are always overflowing with ideas; it would be great to riff-off each other. The mediums I am specifically interested in are podcasts, sketch comedy and mobile apps. 
 
 {% include email-subscribe.html %}
 

@@ -4,7 +4,9 @@ layout: post-journal
 title: The Siren Song of Academia
 date:   2019-10-26 10:45:11
 tag: 
-categories: journal, public-journal
+categories: 
+    - journal
+    - public-journal
 excerpt: 
 permalink: /academia
 
