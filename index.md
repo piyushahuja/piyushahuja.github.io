@@ -16,7 +16,7 @@ I am currenty a senior software engineer based in Cambridge (UK). I enjoy learni
 
 I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College.
 
-Previously, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Delhi) with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). Here's a [link to my thesis][thesis].  
+Before Oxford, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Delhi) with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). Here's a [link to my thesis][thesis].  
 
 <!-- The [research section](/research)  gives a summary of my research projects.
  -->
