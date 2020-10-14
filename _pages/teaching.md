@@ -8,8 +8,13 @@ section: Home
 
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
-Coming Soon.
+If you are interested in learning any of these, please reach out to me:
 
+- Philosophy
+- Creative Writing
+- Algorithms
+
+I am also interested in learning Improvisational theatre, administering first-aid, and wilderness suvival Skills.
 
 
 
