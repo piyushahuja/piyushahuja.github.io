@@ -29,7 +29,7 @@ I enjoy learning, teaching, and creative collaborations.
 
 - **Learning:** Looking for practice partners for practice Improv, First Aid, or Wilderness survival skills
 
-- **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. My notebooks are always overflowing with ideas; it would be great to riff-off each other. The mediums I am specifically interested in are podcasts, sketch comedy and mobile apps. 
+- **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. My notebooks are positively overflowing with ideas; it would be great to riff-off each other. The mediums I am specifically interested in are podcasts, sketch comedy and mobile apps. 
 
 {% include email-subscribe.html %}
 
