@@ -2,9 +2,11 @@
 
 layout: post-journal
 title:  Is there a distinctive liberal conception of the good life?
-date:   2015-03-26 09:00:11
+date:   2016-02-17 09:00:11
 tag: 
-categories: philosophy
+categories: 
+    - philosophy
+    - political-theory
 excerpt: 
 permalink: /liberalism
 comments: true

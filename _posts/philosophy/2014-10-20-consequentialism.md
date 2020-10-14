@@ -2,9 +2,11 @@
 
 layout: post-journal
 title:  Is consequentialism too demanding?
-date:   2015-03-26 09:00:11
+date:   2014-10-20 09:00:11
 tag: 
-categories: philosophy
+categories: 
+    - philosophy
+    - ethics
 excerpt: 
 permalink: /consequentialism
 comments: true

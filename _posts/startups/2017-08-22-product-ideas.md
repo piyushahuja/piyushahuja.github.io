@@ -2,7 +2,7 @@
 
 layout: post-normal
 title: How To Catch Product Insights?
-date:   2018-04-19 09:00:12
+date:   2017-08-22 09:00:12
 tag: 
 categories: startups
 excerpt: 

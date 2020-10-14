@@ -2,9 +2,11 @@
 
 layout: post-journal
 title:  What counts as a nation?
-date:   2015-03-26 09:00:11
+date:   2016-03-03 09:00:11
 tag: 
-categories: philosophy
+categories: 
+    - philosophy
+    - political-thery
 excerpt: 
 permalink: /nation
 comments: true
