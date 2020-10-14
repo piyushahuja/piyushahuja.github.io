@@ -4,7 +4,8 @@ layout: post-journal
 title: Against Self Transformation
 date:   2020-03-23 00:45:11
 tag: 
-categories: journal, public-journal
+categories: 
+    - journal
 excerpt: 
 permalink: /against
 
