@@ -4,7 +4,9 @@ layout: post-journal
 title: The Steamboat
 date:   2012-07-16 23:46:11
 tag: My Secret Recipe for Disaster
-categories: journal
+categories: 
+    - journal
+    - public-journal
 excerpt: 
 permalink: /steamboat
 
