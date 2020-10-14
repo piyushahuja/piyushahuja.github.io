@@ -1,2 +1,0 @@
-I"Ï<p>TLDR: use clusters, use caching, sharding and replication, use redundancy, use parallelisation (multi-threading, load balancing etc.),  use async workflows, avoid points of contention and sync issue.</p>
-:ET
