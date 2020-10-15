@@ -1,6 +1,6 @@
 ---
 layout: page-home
-title:  
+title:  Essays
 permalink: /philosophy
 section: Home
 ---
