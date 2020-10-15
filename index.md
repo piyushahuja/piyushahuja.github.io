@@ -16,7 +16,7 @@ I am a senior software engineer based in Cambridge (UK).
 <center>
 <figure>
     <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="600" height= "400" /> 
-    <figcaption>I live 10 mins walk away from here</figcaption> 
+    <figcaption>10 mins walk away from my place</figcaption> 
 </figure>
 </center>
 
