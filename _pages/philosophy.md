@@ -5,16 +5,6 @@ permalink: /philosophy
 section: Home
 ---
 
-<center> 
-  <figure>
-    <img src="files/images/oxford/spires.jpg" alt="Oxford" width="600" height= "800" /> 
-     <figcaption>From Duke Humfrey's library (2016)</figcaption>
-  </figure>
-</center> 
-
-
-
-
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
 {% for post in site.categories.philosophy %}
@@ -43,6 +33,12 @@ section: Home
 //]]>
 </script>
 
+<center> 
+  <figure>
+    <img src="files/images/oxford/spires.jpg" alt="Oxford" width="600" height= "800" /> 
+     <figcaption>From Duke Humfrey's library, Oxford (2016)</figcaption>
+  </figure>
+</center> 
 
  
 
