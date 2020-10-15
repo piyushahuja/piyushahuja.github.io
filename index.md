@@ -25,9 +25,9 @@ Before Oxford, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian
 
 I enjoy learning, teaching, and creative collaborations. 
 
-- **Teaching:**  Interested in teaching or mentoring opportunies in philosophy, algorithms, and creative writing.
+- **Teaching:**  I am interested in teaching or mentoring opportunies in philosophy, algorithms, and creative writing.
 
-- **Learning:** Looking for practice partners for practice Improv, First Aid, or Wilderness survival skills
+- **Learning:** I am looking for people interested in forming a group around Improv, First Aid, or Wilderness survival skills.
 
 - **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. My notebooks are positively overflowing with ideas; it would be great to riff-off each other. The mediums I am specifically interested in are podcasts, sketch comedy and mobile apps. 
 
