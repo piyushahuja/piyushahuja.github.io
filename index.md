@@ -16,7 +16,7 @@ I am a senior software engineer based in Cambridge (UK).
 <center>
 <figure>
     <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="600" height= "400" /> 
-    <figcaption>10 mins walk away from my place</figcaption> 
+    <figcaption>I live 10 mins walk away from here</figcaption> 
 </figure>
 </center>
 
@@ -38,9 +38,9 @@ Before Oxford, I graduated from [IIT Delhi](https://en.wikipedia.org/wiki/Indian
 
 - **Teaching:**  I am interested in teaching or mentoring opportunies in philosophy, algorithms, and creative writing.
 
-- **Learning:** I am looking for people interested in forming a group around practicing Improv, First Aid, or Wilderness survival skills.  
+- **Learning:** I am looking for people interested in practicing Improv, First Aid, or Wilderness survival skills.  
 
-- **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. My notebooks are positively overflowing with ideas; it would be great to riff-off each other. The mediums I am specifically interested in are podcasts, sketch comedy and mobile apps. 
+- **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. My notebooks are positively overflowing with ideas; it would be great to riff-off each other. Specifically, the mediums I am interested in are podcasts, sketch comedy and software (including mobile apps). 
 
 {% include email-subscribe.html %}
 
