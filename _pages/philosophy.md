@@ -5,7 +5,7 @@ permalink: /philosophy
 section: Home
 ---
 
-These are some of the essays I submitted as part of my philosophy degree. 
+These are some of the essays I wrote as part of my philosophy degree. 
 
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
