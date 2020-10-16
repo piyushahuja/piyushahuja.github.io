@@ -26,7 +26,7 @@ For a brief while a year ago, while preparing for job interviews,  I took up mat
 
 So maybe, just maybe I would be fine with the math struggle. But that is only one of the concerns you face when you decide questions of career and how to lead your life.  What about the rest? If I go for academia, would I even get to do much maths, or would most of it spent applying for funding, correcting papers, supervising undergrads, and so on? Would I be able to provide for others and my family? Could I find similar fulfilment in some other activity: for example, private math tutoring or R&D work in a company? What are the opportunity costs? 
 
-So I looked around the Internet for other people’s experiences with this, very much like a public consultation,  and it painted a gloomy picture: going for a PhD in Maths would be an anxiety-laden experience, spent in poverty, in an atmosphere where success would partly depend on how well you sell yourself and politics and a lot of admin work; would  get little validation or recognitio and not lead to much impact on the outside world at large in any case, and at the end of it all I would be less employable than I otherwise would be. 
+So I looked around the Internet for other people’s experiences with this, very much like a public consultation,  and it painted a gloomy picture: going for a PhD in Maths would be an anxiety-laden experience, spent in poverty, in an atmosphere where success would partly depend on how well you sell yourself and politics and a lot of admin work; would  get little validation or recognition and not lead to much impact on the outside world at large in any case, and at the end of it all I would be less employable than I otherwise would be. 
 
 So I treat the lure and fantasies of academia as a siren song, seductive and tempting, but dangerous and something to stay away from.
 
@@ -53,7 +53,7 @@ So I treat the lure and fantasies of academia as a siren song, seductive and tem
 
 >  "The very best possible outcome for your research is that someone at Google or Microsoft or Facebook reads one of your papers, gets inspired by it, and implements something like it internally. Chances are they will have to change your idea drastically to get it to actually work, and you'll never hear about it. And of course the amount of overhead and red tape (grant proposals, teaching, committee work, etc.) you have to do apart from the interesting technical work severely limits your ability to actually get to that point. At Google, I have a much more direct route from idea to execution to impact. I get to hack all day, working on problems that are orders of magnitude larger and more interesting than I can work on at any university. That is really hard to beat, and is worth more to me than having "Prof." in front of my name, or a big office, or even permanent employment. In many ways, working at Google is realizing the dream I've had of building big systems my entire career. "
 
-Even David Karger, who has had remarkable and ground-breaking accomplishments in Algorithms, decided to leave Academia for [this very reason](https://qr.ae/TSi27s).[^impact]
+Even David Karger, who has had remarkable and ground-breaking accomplishments in Algorithms, decided to leave Academia for [this very reason](https://qr.ae/TSi27s).
 
 * **There's not much in the way of appreciation, recognition or external validation**
 
@@ -112,7 +112,7 @@ Even David Karger, who has had remarkable and ground-breaking accomplishments in
 
 **References**
 
-Some accounts of *the lived experience* of a PhD:
+Some accounts of *the lived experience* of a PhD
 
 * [Phillip Guo, PhD in CS](http://pgbovine.net/PhD-memoir.htm)
 * [Jeremy Kun, PhD in Maths](https://medium.com/@jeremyjkun/my-graduate-career-in-math-85fd4efb0fa9)
@@ -120,7 +120,7 @@ Some accounts of *the lived experience* of a PhD:
 * [Physics PhD: What Does Any of This Have To Do with Physics?](http://nautil.us/issue/43/heroes/what-does-any-of-this-have-to-do-with-physics)
 
 
-Quotes from:
+Quotes from the following articles
 
 - [The joy of research](https://www.cs.purdue.edu/homes/dec/essay.phd.html)
 - [Academics who switched to industry, what's your experience been like?](https://news.ycombinator.com/item?id=18798498)
