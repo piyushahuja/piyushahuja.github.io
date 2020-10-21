@@ -4,7 +4,7 @@ layout: post-normal
 title: Startup Philosophy
 date:   2018-04-19 09:00:12
 tag: 
-categories: startups
+categories: draft
 excerpt: 
 permalink: /advice
 comments: true
@@ -109,7 +109,7 @@ What is a good aesthetic? A good aesthetic evokes a feeling of perfect *harmony*
  
  > Luck is like Tour De France. You wait, and it flashes by you. You have to catch it while you can. - Amelie (the movie) 
 
-**Prioritize high value activities** Skills needed at the top are different from skills needed at the bottom. You can skip the skills at the bottom altogether.  Concentrate on networking with top guys or Sports Competitions or Leadership Positions a la Zuzana, and not on petty things like Couchsurfing meets or cooking or bike repair or insecurities or past  etc. 
+**Prioritize high value activities** Skills needed at the top are different from skills needed at the bottom. You can skip the skills at the bottom altogether.  Concentrate on networking with top guys or Sports Competitions or Leadership Positions, and not on petty things like Couchsurfing meets or cooking or bike repair or insecurities or past  etc. 
 
 **Build: Ownership is essential to building wealth.**  It doesn’t matter what you own whether it’s intellectual property (i.e., books, creative work, etc.), equity in a company, or real estate. Let’s say that you have a job. While you’re at the job, you build a body of work outside of your day job (books, podcast, etc.). When you leave that job, you can take your body of work with you because you own it. “Earn with your mind, not time". There is pleasure in producing something that lasts, and in teaching (and understanding). Money will follow expertise. Don’t worry. Do not define your decisions by others (neither rebel nor conform)  
 Abundance and Limitless Ambition:  To have a daring imagination. Multiple all your ideas by 10000x and see it looks lik All founders face obstacles. However, only those founders who envision a future where those challenges have been resolved have a high probability of successfully addressing them. Where others see potential I want to see potential, where others see obstacles I want to see opportunities, and instead of challenges I want to see a chance to create breakthrough solutions.  To become formidable, you need to have conviction in your own beliefs. To get conviction by knowing why your ideas are right while those of others’ are wrong. This can be done by reasoning and data. This will make you decisive.  

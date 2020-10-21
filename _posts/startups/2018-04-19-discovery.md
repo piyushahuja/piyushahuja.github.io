@@ -2,7 +2,7 @@
 
 layout: post-normal
 title: Challenges in Ambient Social Networking
-date:   2018-04-19 09:00:11
+date:   2019-06-10 09:00:11
 tag: 
 categories: startups
 excerpt: 
