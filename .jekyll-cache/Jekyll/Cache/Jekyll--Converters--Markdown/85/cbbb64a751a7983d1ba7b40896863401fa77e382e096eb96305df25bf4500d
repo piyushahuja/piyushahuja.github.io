@@ -1,0 +1,31 @@
+I"7<!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
+ -->
+
+<p>I am currenty a senior software engineer based in Cambridge (UK). I enjoy learning, teaching, and creative collaborations.</p>
+
+<!-- My long-term project, [Platonia](https://play.google.com/store/apps/details?id=com.platonialabs.platonia), can now be downloaded on Google playstore. One of the best way to learn is to teach it to someone. Platonia allows you to organize one-on-one meetups with people near you for learning-and-teaching. -->
+
+<p>I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, <a href="https://www.tiarafoundation.com/copy-of-tiara-special-grant">Tiara Special Grant</a>, and a second undergraduate degree scholarship by Harris Manchester College.</p>
+
+<p>Previously, I graduated from <a href="https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Delhi">IIT Delhi</a> with a five-year Integrated Masters in Mathematics and Computing in 2013. My master’s thesis was in the design of approximation algorithms for networks under <a href="https://en.wikipedia.org/wiki/Naveen_Garg">Naveen Garg</a>. Here’s a <a href="../files/research/thesis.pdf">link to my thesis</a>.</p>
+
+<p>The <a href="/research">research section</a>  gives a summary of my research projects.</p>
+
+<p>The <a href="/work">work section</a>  spells out my professional experience in greater detail.</p>
+
+<form style="#ccc;padding:3px;text-align:center;" action="https://tinyletter.com/piyushahuja" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/piyushahuja', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+ 	<p>
+ 	<label for="tlemail">Email: piyushahuja.in@gmail.com.</label>
+ 	<br />
+ 	To join my email list, fill in your email address:
+ 		<input type="email" style="width:140px; text-align:center;" name="email" id="email" value="" placeholder="example@example.com" />	
+ 		<button>Submit</button>
+ 	</p>
+
+ 	<input type="hidden" value="1" name="embed" />
+ 
+
+ </form>
+
+:ET

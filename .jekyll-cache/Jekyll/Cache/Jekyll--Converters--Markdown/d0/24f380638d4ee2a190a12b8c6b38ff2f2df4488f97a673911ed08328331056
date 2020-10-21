@@ -1,0 +1,151 @@
+I"�K<p>In the summer of 2016, I interned with Aurora Energy Research, an energy analytics company with a strong presence in the UK. When I joined their modelling division<sup id="fnref:energyModelling"><a href="#fn:energyModelling" class="footnote">1</a></sup>, they were preparing to enter the German market. Because the company still operated in a startup-like environment, this presented a very exciting learning opportunity. The team responsible for the German launch had only three other people, and there was a lot of work to be done. I was given a lot of responsibility and full ownership of my work.</p>
+
+<hr />
+
+<p><strong>Forecasting EEG Surcharge</strong></p>
+
+<p>The German launch event was to be attended by senior industry leaders of the German energy sector. An important ingredient of the presentation was our forecast of the cost of Germany’s renewable energy subsidy policy (EEG) for the next twenty years. My task was preparing an excel model - termed the RES Support model - which generated an accurate forecast utilizing our expertise in the energy sector.</p>
+
+<p>We divided the model into different subproblems:</p>
+<ul>
+  <li>(1) forecasting capacities for different renewable energy sources in Germany</li>
+  <li>(2) calculating subsidies that flowed into all plants based on the forecasted energy generation,<sup id="fnref:generation"><a href="#fn:generation" class="footnote">2</a></sup></li>
+  <li>(3) calculating the burden of subsidies on German consumers, which is levied as EEG surcharge by the German government.<sup id="fnref:Energiwiende"><a href="#fn:Energiwiende" class="footnote">3</a></sup></li>
+</ul>
+
+<p>This proved to be a real challenge. The <a href="https://en.wikipedia.org/wiki/German_Renewable_Energy_Sources_Act#EEG_surcharge">German energy policy</a> (EEG) had been amended every year since 2000, and different policy versions applied to different energy power plants depending on when they were commissioned.  To create a model with sufficient accuracy we needed extensive data on power plant type, their year of commission, which plants had opted for which marketing plan, estimates on refurbishment, life cycle and expiry - data which wasn’t always easily available. (My unfamiliarity with German language  didn’t make the task any easier. It would have certainly helped - in reading policy documents written in German, understand the reports of native German thinktanks, or simply interpreting data labelled with German keywords).</p>
+
+<p>But I was determined to do well. I read the available English translations of all the EEG policy documents. I used data from whatever publicly available datasets I could lay my hands on. And I benchmarked our capacity forecasts from reports by other thinktanks. In a a little over a month, the model was alright. It forecasted renewable electricity surcharge on German consumers for the next 20 years.  The excel model was flexible enough to incorporate changes in Aurora’s outlook (pessimistic, average, or optimistic) for the German energy market and future energy policy.</p>
+
+<p>It was a tremendous learning experience where I data can be used measure and predict policy effects. I also developed a know-how of renewable energy technologies and learnt how to make dashboards on excel. Using the RES support model, Aurora was able to prepare an intelligent, data driven outlook on the EEG surcharge for their crucial German launch presentation.</p>
+
+<!-- `problem-solving` `analysis`[^analysis] `project-management`[^project]  -->
+
+<hr />
+
+<p><strong>From 12 hours to 10 mins: Speeding up the data loading</strong></p>
+
+<p>My primary deliverable was the RES Support model required to forecast the EEG surcharge. But I was eager to improve my programming skills and be of use in a more technical capacity. So I asked Florian,  the head of Energy Modelling and my supervisor, to give me something which would require my technical chops. Florian understood my intellectual itch perfectly, and asked me to work on our data loading process in my free time.</p>
+
+<p>The output of the energy dispatch model<sup id="fnref:model"><a href="#fn:model" class="footnote">4</a></sup> was in the form of hundreds of excel sheets with huge amounts of data. This data was cleaned using, manipulated and then fed in an database SQL database using a programming script which was inelegant, error prone, and inefficient. The loading process - from start to finish - took about 12 hours, so we would run it overnight.   I took a closer look:</p>
+
+<ul>
+  <li>The existing query was a perfect specimen of what is called sphagetti code. Long and inelegant - it had a separate script for every excel sheet. even though most data cleaning and manipulation functions were common across files. For every new excel file one needed to add a new code segment.</li>
+  <li>It wasn’t adaptable to changes, for exampke, any new requirements or new inputs. For an excel sheet with a new format, one would need to create a new script. For every change in the columns or output format, the code had to be changed for each sheet.</li>
+  <li>The algorithm’s perfomance was terrible. It would  switch contexts between Java, R and SQL engines for every row of data. This increased the overhead massively.</li>
+</ul>
+
+<p>Although, I myself wasn’t proficient in both R and SQL - the languages in which the cleaning and loading tasks was done, I understood the code and spotted the improvements that could be made in the algorithm. It didn’t take me long to learn enough R and SQL to write a new script myself -  it is surprisingly easy to learn a new language once you have a real problem to work on (though I think I have forgotten them now.)</p>
+
+<p>I changed the design and layout of the original script to make it more readable. Instead of writing the code for each sheet, I wrote helper functions based on the data manipulation task to be peformed. A generic wrapper function took as parameters the excel sheets and tasks you want perform on it. It would then delegate the task of data manipulation to the helper functions.  This made the code robust: for any changes or new format to excel sheet, one just needed to change input parameters, or change one or two lines of code in the wrapper function.</p>
+
+<p>I had suspected that there was no reason to switch contexts for every row of data and load them individually, and I was right. Instead of inserting each row at a time and using context switching every time, I was able to implement an algorithm to bulk insert and context switch only once every 10000 rows - which is the maximum SQL can handle.  The result that a process which took 12 hours before now took only 10 mins.</p>
+
+<!-- 
+Summary: I optimized the data cleaning and loading process used by the team,  speeding up the process­ by 7200%. I accomplished this by replacing the previous clunky code with an elegant, dynamic and efficient script. 
+ 
+ -->
+
+<!-- 
+`initiative`[^initiative] -->
+
+<hr />
+
+<p><strong>How volatile would offshore windpower be as country capacity increases?</strong></p>
+
+<p>My third task at Aurora was answering this question: Does the annual average load factor of a county’s offshore wind energy varies as it builds more capacity?<sup id="fnref:windContext"><a href="#fn:windContext" class="footnote">5</a></sup></p>
+
+<p>Unlike conventional power plants, the net output or electricity generated from wind farms is uncertain. Depending on the variation on wind speed across time, it can be quite volatile. However, as a country installs more and more offshore wind power, we expect that the volatility  (measured by standard deviation) in its net output to decrease. This is because the output of one wind farm is not always positively correlated with the output of another wind farm. (As the simplest case, imagine two wind farms. If at one point of time one is experiencing high wind and the other low wind, and vice versa at another point of time, then their net output remains almost uniform, even though they experience high degrees of variation in output individually)</p>
+
+<p>In my analysis, I put the hypothesis that volatility in net offshore output decreases with increasing total capacity to test. To account for variation in electriciy generation due to installation or decommissioning of further capacities, we tracked the change in standard deviation of hourly load factor<sup id="fnref:loadFactor"><a href="#fn:loadFactor" class="footnote">6</a></sup> with total installed capacity.</p>
+
+<p>On a scatterplot, we found the pattern (trendline) of standard deviation of LF vs Capacities for UK is quite apart from those of other countries, while the trendline for Germany, Denmark and Belgium were closely bunched together. UK experienced lesser std dev (lesser variation) in wind output than other countries for the same total installed capacity. This could have been because UK is a big island and has a larger range of locations for wind farms, while Germany, Denmark and Belgium have all their offshore windfarms spread over a small location. (In other words, UK has a more diversified portfolio of wind farms). We foundd that decreasing logarithmic curves allow a good fit for UK, DEU and DNK capacity vs. LF stddev observeations. As countries grow more offshore wind farms, the variation in offshore output would continue decreasing (as wind output becomes more uniform due to a larger spread of windfarms) until it becomes near-flat (when further decrease in variance by installing more farms becomes very difficult - almost impossible).</p>
+
+<p>The curves provided us with a reliable estimate for the future volatility in offshore output as countries expand their capacities.</p>
+
+<!-- `analysis`[^analysis] `problem-solving` -->
+
+<!-- 
+
+
+**About my manager**
+
+
+I couldn't have asked for a better mentor and manager than [Florian Habermacher](http://habermacher.net/).  Just being in the same room as him elevates your spirit. Many a times towards the end of the RES support work, I rushed the deliverable to him only to have some sanity check of my forecast fail. But he was ever supportive. (Interestingly, we have a long standing connection - Florian was an exchange student in IIT Delhi back in his undergrad days!) 
+
+Here is what he had to say on my internship: 
+
+
+>Piyush,
+
+> It was a big pleasure having you with us and sad to see you leave.
+
+>Few points in written:
+
+>Me, and all three others who worked quite a bit with you, were always very happy to work with you and felt that you are very dedicated to the work and wanted to really understand the issues rather than to just quickly get them done.  Everybody felt that you were able to grasp new points rapidly (well, I’d say at the beginning with some exceptions but overall I’d agree with this opinion of everybody else ;) ). Especially in the RES support work, Manuel and I were pleased with your pragmatism to organize the various categories/subcategories/exceptions/exceptions-of-exceptions, etc., into a really useful overview. Also, for a person that finds himself too good to program (joke), you are quite a good programmer ;) J.
+
+>As you mainly learn from critique, here however few words on what it seems that there could be room for improvement (by the way, no my first positive words were not meant in the English ‘for politeness’ sake’ only at all ;) – they were meant for real ):
+
+> - Organize excel sheets in a more intuitive manner
+- Don’t wait long to care about their formatting; difficult for us to understand them if they’re not compact
+- Once the key task done, take the initiative to double-check the results/data with alternative sources you can find; sanity checks
+
+> Hope to stay in touch and definitely interested in seeing your thesis at some point!!
+
+>Cheers, Florian 
+
+ -->
+
+<!-- 
+
+
+[^analysis]:  *“Describe the most sophisticated analysis you have conducted in your work to reach a decision”*
+*“How did you know how to proceed?”*
+*“What brought you to the recommendation that you made?”*
+*“Was your manager pleased with your recommendation?”* 
+They are looking for the processes you follow to reach a decision, to determine if you have a logical approach. They also want to see the level of technical skill you have in analysis. Tips:
+- Use a project at university or an example that required you to do statistical modelling.
+- Explain what made it sophisticated (was it the data source, the method of analysis, etc).
+- Discuss the process involved in reaching a decision, the rationale you followed.
+
+
+
+
+[^project]: *Tell me of an instance when you quickly gathered information from various sources.*  Lead complex and time-critical projects for senior leaders by quickly understanding context and developing a prioritized approach for resolution. (following structured processes & getting results). Can create sophisticated models/analysis
+
+[^initiative]:  *“Tell me about a time you raised your hand to tackle a new assignment which you had no experience with.” “What steps did you take to approach the task?” “What were you thinking at this point?”* They are looking at your information gathering process, and ability to make effective decisions with limited data. Also judging your willingness to learn, and go above and beyond in your work. Explain why you wanted the project. Highlight the chance to learn, willingness to do more. Discuss how you got the information you needed for the task. Go into detail about how your skill in (communication/programming etc.) made it possible for this task to be a success. Confirm that you would put your hand up again. 
+
+
+
+[^change]: *“Tell me about a time where you had to explain a new concept to a colleague.” What did you do differently that was successful in bringing them on board?”“What did your colleague say throughout the process?” “How did they react to your explanation?”*
+They are looking for examples of your verbal communication ability, and skills in influencing. They want to grasp your understanding of the change process, as well as confirm you know that different people need to learn new concepts differently.
+- Talk about the process you took in preparing for the conversation.
+- Discuss the pivotal point in getting understanding and acceptance from your colleague.
+- Reflect on why you were successful in explaining this to your colleague.
+“
+
+ -->
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:energyModelling">
+      <p>The modelling division was commonly accepted as the brains of the company. It had graduate economists and statisticians who had developed very rigorous, data-driven models for the gas and the power market. For our German entry we were developing a model which forecasted electricity prices for the next twenty years by modelling energy supply and demand and then solving for the market equilibrium in Germany.  However, because EU is seeing increasing regional integration - Scandinavia has a common electricity spot market, so would Southern Europe in the near future, plus the countries have many import and export arrangements - it is impossible to predict the power prices with any reasonable precision without taking modelling the rest of EU to some extent. So the model modelled the supply and demand in the rest of EU as well. This also made the model easily extendable to other European countries. This was good, because Aurora planned to expand to other European countries after UK and Germany. <a href="#fnref:energyModelling" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:generation">
+      <p>How much power is generated from different renewable technologies is a result of the (1) installed capacity and (2) the load factor. (1) The installed capacity depends on economics of the respective technology and government policy. For example,  solar and wind power are boosted via high subsidy rates and priority grid feed-in, but coal is discouraged by levying carbon emission costs. Biomass, being expensive, is being clamped down upon; there are plans to close down all nuclear power plants by 2022. (2) The load factor, on the other hand,  depends on technology related factors. The generation from solar and wind are variable and governed by natural forces: solar and wind offshore produce more during the day, wind onshore produces more during the night, and then there are seasonal variations. <a href="#fnref:generation" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:Energiwiende">
+      <p>The German Government passed support for  an energy turnaround (<a href="https://en.wikipedia.org/wiki/Energiewende_in_Germany">‘EnergyWiende’</a>) to a low-carbon and nuclear-free energy supply in 2010. The policy gave priority grid access to renewable technologies (and compensation if the grid operator is not able to connect it to the grid) and immunity from market price risks via technology-dependent subsidies for 20 years. The costs of subsidies are passed onto the consummer via an EEG surcharge, levied on top of the electricity unit price. <a href="#fnref:Energiwiende" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:model">
+      <p>The Model: The optimal output to meet the system load from a number of electricity generation facilities in the short term is determined by a model known as economic dispatch. The energy supply is modelled not macroscopically, but at the powerplant level. The main idea is that to serve the load at the minimum cost, the set of generators with the lowest marginal cost must be used first, with the marginal cost of the final generator needed to meet the load setting the system marginal cost. This is the cost of delivering one MW of additional electricity into the system (under given transmission and operational constraints). <a href="#fnref:model" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:windContext">
+      <p>First, a little context:  the period 2008-2015 saw rapid expansion in offshore wind energy for many countries. Stronger wind speeds are available offshore compared to on land, so offshore wind power’s contribution in terms of electricity supplied is higher. Unlike wind over the continent, offshore breezes can be strong in the afternoon, matching the time when people are using the most electricity. As such, as countries  make a transition from fossil fuels to renewables for their primary energy needs, offshore wind power forms an intergral part of their energy policies. UK’s offshore wind capacity grew from just 88 MW in 2008 to 3 GW by 2013;  by 2015, Denmark’s offshore wind Ccpacity totalled 1.2 GW, Belgium’s around 700 MW and Germany’s exceeded 1.5 GW.  Germany, whose plans I was familiar with through my earlier work,  plans to increase its offshore wind capacity to 6.5 GW by 2020 and 15 GW by 2030. <a href="#fnref:windContext" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:loadFactor">
+      <p>Load factor  is a  measure of how much electricity a power plant actually produces compared to how much it would produce if it operated at full capacity at that point of time (Example: Take a five-megawatt wind turbine. If it produces power of two megawatts, then its load factor at that time instant is 40% (2÷5 = 0.40, i.e. 40%). <a href="#fnref:loadFactor" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

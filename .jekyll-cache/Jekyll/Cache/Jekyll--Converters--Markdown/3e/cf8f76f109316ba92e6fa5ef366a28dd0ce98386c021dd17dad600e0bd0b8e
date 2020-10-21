@@ -1,0 +1,16 @@
+I"<p>The Problem: Alice has to send information to Bob. But the transfer should achieve the following:</p>
+<ul>
+  <li>It should be tamper-proof. If modified it should be detected by Bob</li>
+  <li>It should be private or encrypted. No one but Bob can read it. Bob should be able to decrypt it.</li>
+  <li>It should be fixed length? compressed? anthing else?</li>
+</ul>
+
+<p>Checksum algorithms are a way to make your message tamper-proof . What makes them tampter-proof? The property that even a sligh change in input changes the output quite radically.</p>
+
+<p>Hash functions</p>
+
+<p>They are one-way, that is, functions whose inverse is difficult to calculate.</p>
+
+<p>Terms to understand: SHA1, SHA256, ROT13, B64 encoding, BCrypt, RSA, Diffie Helman, PGP, Public/Private keys</p>
+
+:ET
