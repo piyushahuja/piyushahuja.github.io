@@ -1,0 +1,2 @@
+I"r<p>Tips: For an algorithm that just needs min or max value to work at eachs step, and node the whole sorted order, one can reduce time complexity from O(nlogn) to (O(n)) by working with the kth smallest (or largest) element instead of min or max. Here k should be a linear function of n. For example, k can be the median (k = n/2). Median can be found in O(n) times</p>
+:ET
