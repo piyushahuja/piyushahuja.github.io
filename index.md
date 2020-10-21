@@ -40,7 +40,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 - **Learning:** I am looking for people interested in practicing Improv, First Aid, or Wilderness survival skills.  
 
-- **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. Here are some ideas: a podcast, a comedy sketch, a mobile app, or a writing thing. 
+- **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. Here are some ideas: a podcast, a comedy sketch, a mobile app, or any long-form writing assignment. 
 
 {% include email-subscribe.html %}
 
