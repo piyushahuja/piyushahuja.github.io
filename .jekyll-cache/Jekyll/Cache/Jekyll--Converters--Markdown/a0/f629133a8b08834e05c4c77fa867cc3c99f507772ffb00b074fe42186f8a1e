@@ -1,0 +1,65 @@
+I"�<p>The Problem: Alice has to send information to Bob. But the transfer should achieve the following:</p>
+<ul>
+  <li>It should be tamper-proof. If modified it should be detected by Bob</li>
+  <li>It should be private or encrypted. No one but Bob can read it. Bob should be able to decrypt it.</li>
+  <li>It should be collission resistant, i.e. brute force methods should not be able to replicate it.</li>
+  <li>It should be fixed length? compressed? anthing else?</li>
+</ul>
+
+<p><strong>Checksums</strong> Checksum as a person’s full name: Eubediah Q. Horsefeathers. It’s a shortcut to uniqueness that’s fast and simple, but easy to forge, because security isn’t really the point of naming.</p>
+
+<p><strong>Hashing</strong> The core purpose of hashing is to create a fingerprint of data to assess data integrity. To qualify as a cryptographic hash function, a hash function must be pre-image resistant and collision resistant.</p>
+
+<ol>
+  <li>Secure hashes are designed to be tamper-proof: changes its output radically with tiny single bit changes to the input data</li>
+  <li>Secure hashes are designed to be slow. The faster you can calculate the hash, the more viable it is to use brute force to mount attacks.</li>
+</ol>
+
+<p><code class="highlighter-rouge">MD5</code> has since been broken and vulnerable to tampering. <code class="highlighter-rouge">SHA-1</code> isn’t great. <code class="highlighter-rouge">SHA-256</code>. Fast to compute, so vulnerable to brute-force, dictionary and rainbow tables. A single iteration of <code class="highlighter-rouge">SHA512</code> is fast, which makes it inappropriate for use as a password hashing function. Brute-Force: If an attacker has gotten hold of password hashes that were hashed with something like <code class="highlighter-rouge">SHA-256</code>, they could try to generate every password possible and hash these to find a match for the password hashes; this is called brute forcing. Since hash functions are deterministic (the same function input always results in the same hash), if a couple of users were to use the same password, their hash would be identical. If a significant amount of people are mapped to the same hash that could be an indicator that the hash represents a commonly used password and allow the attacker to significantly narrow down the number of passwords to use to break in by brute force.</p>
+
+<p>Dictionary attack: This is where a file/database is previously constructed containing possible passwords that are better guesses than generating every possible password. Rainbow Table Attack</p>
+
+<p>Solution: Use slower hashing method, making it unrealistic to find matches in our lifetime. <code class="highlighter-rouge">PBKDF2</code> is a key derivation function where the user can set the computational cost; this aims to slow down the calculation of the key to make it more impractical to brute force. In usage terms, it takes a password, salt and a number or iterations to produce a certain key length which can also be compared to a hash as it is also a one way function. With iterations set to a large number, the algorithm takes longer to calculate the end result. </p>
+
+<p>Hash functions are a way to make your message tamper-proof . What makes them tampter-proof? The property that even a sligh change in input changes the output quite radically.</p>
+
+<p>Given a message, you run it through the checksum algorithm, which the recipient knows. The recipient also receives the checksum through some independent source. If any single bit of the message was modified, you’d know.</p>
+
+<p>Checksums need not themselves contain the message, so they can be publicly displa</p>
+
+<p>You don’t walk up to someone and demand their fingerprints to prove they are who they say they are. Names are just convenient disambiguators, a way of quickly determining who you’re talking to for social reasons, not absolute proof of identity. </p>
+
+<p>yed, and also made to have an output of fixed length.</p>
+
+<p>Given a checksum algorithm and a checksum, can we find the original message? This is not possible, as a given checksum can correspond to many different inputs; even though collission is rare.</p>
+
+<p>Checksums are fast</p>
+
+<p>Hash functions are one-way functions whose inverse is difficult to calculate.</p>
+
+<p>Terms to understand: SHA1, SHA256, ROT13, B64 encoding, BCrypt, RSA, Diffie Helman, PGP, Public/Private keys</p>
+
+<hr />
+<p><strong>Web-Apps</strong></p>
+
+<p>In standard webapps, you need to carry the authentication information with you in every request. If a request doesn’t contain any authentication information, then the thing that does the authentication will pop up and ask for it</p>
+
+<p>(1) You create state (e.g., a database) and instead of passing the credentials around, you pass some kind of session identifier that maps to this state. e.g., PageSmith works. It’s not a bad approach, but it requires a lot more machinery</p>
+
+<p>(2) You encrypt the sensitive parts of the authentication information e.g.  <code class="highlighter-rouge">base64(username + ":" + encrypt(password, secret_key))</code></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Basic_access_authentication">Basic Auth</a></p>
+
+<p>Server Responds with <code class="highlighter-rouge">401</code> and header <code class="highlighter-rouge">WWW-Authenticate</code>
+Client encodes in Base64 with “Basic” Prepended and sends in <code class="highlighter-rouge">Authorization</code> Header. Only encoded, not encrypted. No login page or cookies are involved</p>
+
+<p>Cookies</p>
+
+<p><code class="highlighter-rouge">200</code> header and HTML response with no <code class="highlighter-rouge">WWW-Authenticate</code> header, but a <code class="highlighter-rouge">Set-Cookie</code> header (for the first time). In subsequent requests the client sends the named cookie in the headers.</p>
+
+<p><a href="OAuth: https://www.youtube.com/watch?v=996OiexHze0">OAuth Explained</a></p>
+
+<hr />
+
+<p><a href="https://www.cloudflare.com/en-gb/learning/ssl/what-happens-in-a-tls-handshake/">TLS Handshake</a></p>
+:ET

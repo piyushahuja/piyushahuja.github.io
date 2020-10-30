@@ -1,0 +1,1103 @@
+I"�<p><a href="https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/">Best advice on interviewing</a></p>
+
+<hr />
+
+<p><strong>Response to the code test. Architectural decisions made</strong></p>
+
+<ul>
+  <li>Scope for improvement: do parallel async queries when loading maps as they are independent</li>
+  <li>Modular: The function which parses each line, sent to processor can be  changed, though if something other than map has to be returned we would need to change processFile a bit.</li>
+</ul>
+
+<hr />
+
+<p><strong>The map/reduce via Hadoop involves a lot of boilerplate, so you could take us through that as well.</strong></p>
+
+<p>MapReduce has special datatypes for serialization, because data needs to travel across the network from the Mapper node to the Reducer node ( converting object data into byte stream data for transmission over a network across different nodes in a cluster or for persistent data storage.)</p>
+
+<p>Hadoop data types used in Mapreduce for key or value fields must satisfy two constraints.</p>
+
+<p>LongWritable: Default is TextInputFormat which gives byte offset of the line as the key, as in your case. byte offset of the key</p>
+
+<p>Reporter: reports job progress for mappers and reporters. Important for the orchestraton framework handling it, as it might otherwise assume time out and kill a job.</p>
+
+<ul>
+  <li>Any data type used for a Value field in mapper or reducer input/output must implement Writable Interface.</li>
+  <li>Any data type used for a Key field in mapper or reducer input/output must implement WritableComparable interface along with Writable interface to compare the keys of this type with each other for sorting purposes.</li>
+</ul>
+
+<p>What is Map Reduce?</p>
+
+<blockquote>
+  <p>Within a computer program, it is a design pattern for implementing functions that operate on sequences of elements, which uses the powerful idea of treating functions as first-class values that we can pass around and manipulate in our programs.</p>
+</blockquote>
+
+<blockquote>
+  <p>In a distributed system context, it is a programming model for executing batch jobs with parallel, distributed, algorithm on a cluster (e.g. processing and generating big data sets)</p>
+</blockquote>
+
+<blockquote>
+  <p>As an open source implementation (e.g. Hadoop), it is a system that orchestrates the processing of data by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance.</p>
+</blockquote>
+
+<blockquote>
+  <p>The use of this model is beneficial only when the optimized distributed shuffle operation (which reduces network communication cost) and fault tolerance features of the MapReduce framework come into play. Optimizing the communication cost is essential to a good MapReduce algorithm. The scalability and fault-tolerance achieved for a variety of applications by optimizing the execution engine.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>The work they do Welcome Sanger?</strong></p>
+
+<blockquote>
+  <p>Absorb and extend our use of an on-prem cloud:the code is terraform / ansible. The use is quite focused (standing up &amp; tearing down spark clusters) but as none of us are devops people, we need someone to shoulder that responsibility. 
+Quota-management and budget-management tasks which need a mix of front-end and back-end work (the front-end is mainly for people like me, who cannot stay on top of the administration).</p>
+</blockquote>
+
+<hr />
+
+<p><strong>What specifically about working at Sanger interests you?</strong></p>
+
+<ul>
+  <li>It’s a great opportunity to learn latest cloud cloud tech at one of the best resourced places that utilized. Hoping to learn some biology as well! It’s not just legacy software: Ansible! Terraform! Docker!</li>
+  <li>Being around smart people, campus like environment</li>
+</ul>
+
+<p><strong>My experience?</strong></p>
+
+<ul>
+  <li>Experience with relational and non-relational databases</li>
+  <li>Data Storage and Delivery pipelines in Opera 6 years ago.</li>
+  <li>JSON based REST APIs</li>
+</ul>
+
+<hr />
+
+<p><strong>How you’d like to develop?</strong></p>
+
+<ul>
+  <li>Cloud technologies (e.g. Terraform, Ansible, Kubernetes, GitHub CI)</li>
+  <li>Oppoturtunities to learning functional languages (Haskell/Erlang) and frotend frameworks like React.</li>
+  <li>Principle software developer</li>
+</ul>
+
+<blockquote>
+  <h2 id="linux-workload-management-tools-eg-lsf-or-slurm">Linux Workload management tools (e.g. LSF or Slurm)</h2>
+</blockquote>
+
+<p><strong>Any questions you have?</strong></p>
+
+<ul>
+  <li>How can I get up to speed with before joining?
+    <ul>
+      <li>Docker,  Unix/Shell Scripting, Ansible/Terraform, Apache Spark</li>
+    </ul>
+  </li>
+  <li>What’s the best part of your job?
+    <ul>
+      <li>Prompts the interviewer to talk about him/herself, esp. one’s successes. Suggests interest in career at the company/industry &amp; how the firm works on the “people” level. Seeds opportunity to compliment</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>How to do Mock Interviews?</strong></p>
+
+<p>Write down a list of things that your interviewers should observe you on:</p>
+
+<ul>
+  <li>Do you explain yourself concisely and clearly?</li>
+  <li>Do you talk to everyone in turn or do you speak only to the person asking?</li>
+  <li>Do you project confidence with your voice and mannerism?</li>
+  <li>Do you sound rushed?</li>
+  <li>Do you exude enthusiasm?</li>
+  <li>How do you handle pressure questions?</li>
+</ul>
+
+<p>Specifically, the interviewer is trying to answer:</p>
+
+<ul>
+  <li>Do I want to be on a team with this person? Can I rely on them and their work?</li>
+  <li>Do I want to be stuck on an airplane with this person? Are they interesting?</li>
+  <li>Could I put this person in front of a client? Is this person humble, kind, confident?</li>
+  <li>Can I throw massive amounts of data and information at this person? Are they organized in their thinking to synthesize what’s most important?’</li>
+</ul>
+
+<hr />
+
+<p><strong>Research the company to discover specific traits they look for in staff.</strong></p>
+
+<blockquote>
+  <p>These are intended to measure whether you fit with McKinsey culture (or what your interviewer thinks the culture is). That culture is compassionate, humble, curious, creative, intelligent, eager and confident. It honors leadership, integrity and hard work.</p>
+</blockquote>
+
+<blockquote>
+  <p>Google values an open culture, interactions between teams, and focuses on providing the best user experience. In an interview for this role, include experiences from your past that demonstrate you align with all of these traits.
+Do a quick  brainstorm on what you think a successful Google employee looks like, and tailor your responses to align with this mentality. Get inside the interviewer’s head (not your own).</p>
+</blockquote>
+
+<p>Examples of Skills:</p>
+
+<ul>
+  <li>Initiative</li>
+  <li>Prioritizaton
+    <ul>
+      <li>Manage individual project priorities, deadlines, and deliverables.</li>
+      <li>focussed on delivering high quality output in a timely manner</li>
+    </ul>
+  </li>
+  <li>Passion for building great consumer products</li>
+  <li>Team Work
+    <ul>
+      <li>Enjoy collaborating and making teammates better by teaching and mentoring.</li>
+      <li>Pair with teammates, review PRs, help others with technical questions &amp; share your learnings.</li>
+      <li>working collaboratively with various stakeholders within and outside the company</li>
+      <li>Collaborate across teams and time zones to make things happen, review code and be open to feedback</li>
+    </ul>
+  </li>
+  <li>Communication:
+    <ul>
+      <li>Capacity to articulate technical problems and projects to all teams</li>
+    </ul>
+  </li>
+  <li>Eagle eye for detail.</li>
+  <li>Curiosity and Mental athleticism.
+    <ul>
+      <li>A wish to jump at the opportunity to dive into new technology and territory.</li>
+      <li>You’ll be someone who enjoys working on challenges, solving problems and continuously learning</li>
+    </ul>
+  </li>
+  <li>Optimism, a glass-half-full take on things, enthusiasm</li>
+  <li>Comfortable in a fast-paced environment with lots of moving pieces.</li>
+  <li>Problem Solvng
+    <ul>
+      <li>You’ll love to problem solve (so probably had a Rubik’s cube at some point in your life) and are happy to constantly challenge to ensure we are continuously improving.</li>
+    </ul>
+  </li>
+  <li>Analytical, critical and abstract thinking.</li>
+  <li>Out-of-the-box thinking</li>
+</ul>
+
+<hr />
+
+<p><strong>Prepare Stories</strong></p>
+
+<p>Narrative Structure:</p>
+
+<ul>
+  <li><strong>Situation</strong>: Background of the situation, setting the scene for the interviewer.  Time, setting, position, organization, characters. Conflict, what was it and what caused it.</li>
+  <li><strong>Task</strong>: The specifics of what you were required to do/achieve, when, where, and who. Obstacles  Overcoming lack of resources be they time, money,  innate talent, or people magnifies your accomplishment many fold. Since  we rarely have enough of everything for plans to go smoothly, make sure  you tell the story of the difficulties you faced. what did you realize or have to change about yourself</li>
+  <li><strong>Action</strong>: The steps you actually took, behaviours, characteristics and skills you used.HOW did I do this, explain it in detail. WHY you took certain actions. Did you use a process? What process? How did you get the information to make the decision? How did you bring your team on board with your line of sight? Your accomplishment could be a purely individual and personal one.  And that dish would satisfy, but for most fields, an accomplishment  involving others where you influence, motivate, persuade, cajole, and lead will turn your bread and butter into a delectable delicacy. “what was your initial response?” “how did you overcome those biases?”)</li>
+  <li><strong>Result</strong>: Final outcome. What happened, and what you learnt. how did people react, think, fell? Other outcomes?  What happened? How did your customers react? Impact. Your accomplishment must show you as a contributor who has had a significant  impact on a person, organization, or entity. Your accomplishment could be that you increased membership, led a team to victory, built a  coalition in student government that did something fantastic, increased  sales, cut costs, or found a solution to a problem that enabled a  critical deal to go forward.</li>
+  <li>(Optional) <strong>Application</strong>. Demonstrate you have grown by using these learnings in a new situation. “how could you have approached the situation differently?”</li>
+</ul>
+
+<p>Some tips:</p>
+
+<ul>
+  <li>Answer the question appropriately. For failure, don’t talk about a poor grade or not getting a job. I told a story about how I blasted someone (much higher up), she found out and I had to apologize AND get her to trust me again.</li>
+  <li>Present your talents and strengths honestly, don’t embellish negatively or positively. It’s not time to be a sales person nor too modest.</li>
+  <li>Draw out the human element; did you understand others? Did you have empathy? Were you compassionate?</li>
+  <li>What do you want them to <em>know</em>? What do you want them to <em>feel</em>? What do you want them to <em>do</em>?</li>
+  <li>Describe yourself by what you have accomplished for previously employers vis-a-vis increasing revenues or reducing costs.  If you have not had the opportunity to do this yet, describe things which suggest you have the ability to increase revenue or reduce costs, or ideas to do so.</li>
+</ul>
+
+<hr />
+
+<p>Stories</p>
+
+<ul>
+  <li>Hurricane Sandy
+    <ul>
+      <li>The most challenging work I faced was in my first job. I was fresh out of college, and I was tasked with finding the impact of Hurricane Sandy on the US bond market. This was a non-trivial task, requiring both creativity, some hypothesis-making, AS well as technical skills to clean, analyse and train models on large swaths of data. Since I was fresh out of college, I had little experience of the ambiguity and practical challenges of working on a real project. This gave me a first taste of it, I learnt a lot, and by the end of it, I was able to produce a report which was quite respectable. It as even published.</li>
+    </ul>
+  </li>
+  <li>Jugnoo Onboarding</li>
+  <li>Jugnoo Checkout. Slider forced the user into a more delberative mode of acton</li>
+  <li>People:  QC Women Quizmasters</li>
+  <li>FB Account Kit in Login/Signup revamp caused the referrals to drop from 18% to 10%</li>
+  <li>Aurora German work</li>
+  <li></li>
+  <li>Challenge: Jugnoo Hit the ground running (I was afraid to say  I don’t know, and I found it difficult to gain the respect. Learning: it si okay to just listn and learn. respect doesnt come from being a know it all, but from authenticity and giving respect)</li>
+  <li>Urvashi (empathy was the key)</li>
+  <li>Management of priorities Conflict with Samar over AskLocal vision (Learning: communication was the key; only then I realized He would forget what he told me. )</li>
+  <li>Let go of someone (you have to give adequate warning, you have to give reasons which are acceptable to the person, and you have to be compassionate and empathetic yet tough)</li>
+</ul>
+
+<p>Stuff that did not work:
+Enrollment and Training of New Drivers (Trust)</p>
+<ul>
+  <li>Explaining stuff to Harshal Sanghvi</li>
+  <li>NUS Work</li>
+  <li>Urvashi and Nitika: The rival Was
+    <ul>
+      <li>One would leave early</li>
+      <li>Or take the testing equipment home</li>
+      <li>Not cover for the other</li>
+      <li>The other would complain about her behind her back</li>
+    </ul>
+  </li>
+  <li>QC Women Quizmasters</li>
+  <li>Awarding the best representative prize to a not-so-good quizzer Anurag Tiwari (QC)</li>
+  <li>Firing Jugnoo employee</li>
+  <li>Leaving Jugnoo for entrepreneurship</li>
+  <li>Delegating Menu planner to Shivam</li>
+  <li>While launching AskLocal, I was stuck with following the whims of the founder in deciding product direction.
+    <ul>
+      <li>Week 1: Copy Zomato Feed. Why are you thinking? First copy then differentiate.</li>
+      <li>Week 2: No one uses Tomato Feed! Why are you not following YikYak?</li>
+    </ul>
+  </li>
+  <li>Working with a remote designer from Europe
+    <ul>
+      <li>She had a data-oriented approach but we did not have the data she needed, was not familiar with our design language: (there was no documentation, it used to change so frequently), and had a different sense of aesthetics from ours. The processes for remote calls were not set in place.</li>
+      <li>Took guidance from Saurabh Wadhawan</li>
+    </ul>
+  </li>
+  <li>Rowing team</li>
+  <li>IIT Jee</li>
+  <li>Oxford</li>
+  <li>6 Pack Abs</li>
+  <li>Launching Platonia</li>
+  <li>Aurora Data Loading Task</li>
+  <li>Referrals in Jugnoo</li>
+  <li>AskLocal content: not family friendly and potentially offensive to women vs local knowledge-based</li>
+  <li>Jugnoo Star dogfeeding: force company employees to pay and use the new product</li>
+  <li>Jugnoo Star First experience management: I actually ended up offending the developers</li>
+  <li>Out of court settlement for property infringement. Rs. 1.7 Lakhs eventually (just  market rates)
+    <ul>
+      <li>BATNA: Long court battle - we were not even in the same city.</li>
+      <li>Approach: Contacted local politicians, tehsildar, instructed Kanugo to reach site on the same day as negotiation etc.</li>
+      <li>Use: Police was on our side and stopped from proceeding construction</li>
+    </ul>
+  </li>
+  <li>Jugnoo Product Management
+    <ul>
+      <li>Always think of ROI. What metrics are you going to effect? Who is being affected?</li>
+      <li>Maintained an excel sheet where the different teams would input the tasks and what priority it had for them. We would highlight taks we were performing and update the expected dates.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Going home late night for Urvashi</p>
+
+    <p>Sometimes delaying the decision helps: when the time allows more of relevant information to come in. But often we only delay out of fear, confusion, laziness or anxiety. In these cases, there might be a cost of delay, and delaying wouldn’t allay all those emotions or clear the confusion, but only worsen them. If you feel like delaying, you must introspect and be clear about Why you are delaying.</p>
+  </li>
+  <li>I recently developed a mobile app from scratch, which about 100+ people used and loved. The app allowed people to connect in-person over skill sharing, and the visition is something I had wanted to execute on since a long time.
+    <ul>
+      <li>Since last year, I’ve been the tech lead of Platonia, a startup I founded.</li>
+      <li>Apart from mentoring junior team members, I’ve been pretty hands-on with the server side development of the stack of the stack in Node.js</li>
+      <li>It is currently live on Google Playstore.  Our team of four shipped the product in six months. I designed, implemented, tested and monitor new functionalities to the platform.</li>
+      <li>The product didn’t take off with the growth rate needed to justify further time and investment.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>My Skills</strong></p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Bachelor + Masters <strong>degree in Computer Science</strong>.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />I am <strong>strong on CS fundamentals, algorithms and data structures</strong>,  OO design practices, UML diagrams, design patterns</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />I deliver clean, well-crafted, well-tested, well-documented software which is easy to maintan and extend to new use cases. Scalable, reliable and reusable</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Have 2.5 years of experience developing applications and <strong>programming with Java and Node.js</strong>, and 1 year of experience as a product manager.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>Back-end development</strong>
+    <ul>
+      <li>In my last role, I worked with the backend based on the stack: Express, Node.js, Mongodb, AWS. The experience gave me an opportunty to learn about architectural decisions and designing schemas.</li>
+      <li>I have  experience with web technologies and desiginng and deploying JSON-based RESTful APIs.</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>Testing</strong> Experience with testing a big system, understand the concept of unit, component, and system level testing
+    <ul>
+      <li>I am familiar with TDD practices. My prior experience with Node.js testing frameworks: Mocha, Chai, Sinon and Java testing framework JUnit.</li>
+      <li>I designed the test suite for platonia.</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />I have an understanding of Scrum and Agile development. I understand well trade-offs between perfection and time, with an eye towards <strong>iterative delivery of product features</strong>. I am good at managing individual project priorities, deadlines, and deliverables
+    <ul>
+      <li>At Jugnoo, we had weekly sprints, my team delivered one impactful feature every week. Sometimes we translateing business requirements into high-performing scalable solutions.</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Building robust and scalable production grade systems with TDD, continuous integration/delivery and automated testing. Experience working with development tools and concepts such as Version Control/Git.
+    <ul>
+      <li>Jugnoo used by about 3 million consumers across 28 cities in India. I have experence working on a large-scale, high-volume services.</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />I am at home working in a <strong>startup environment</strong>. This means taking ownership, responsibility and working autonomously while being flexible to the need of the business. Hands-on, nothing-is-impossible mindset. Understand all other functions to build software to meet the needs of our growing business.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>I get work done</strong>
+    <ul>
+      <li>At Jugnoo, week-in-week out translate business requirements into high-performing scalable solutions.</li>
+      <li>At Oxford, I had two submit two essays week-in-week out.</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Having designed, developed and tested consumer-facing products since 3 years, I <strong>obsess about user experience</strong>. Empathy drives my decisions.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" /><strong>Comunication</strong> I am right at home articulating complex technical content to peers and partners, as well as enthusing a non-tech audience about why our software will solve their problem.  I have the ability articulate technical problems and projects to all teams</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />With my background in math and philosophy, I am highly <strong>analytical and abstract thinker</strong></li>
+</ul>
+
+<hr />
+
+<p><strong>Skills to develop</strong></p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><strong>Continuous Integration/Deployment</strong> and Automation Testing</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><strong>Microservices</strong> Pros and Cons, and alternatives.
+    <ul>
+      <li>https://www.sequoiacap.com/article/build-us-microservices/</li>
+      <li>https://news.ycombinator.com/item?id=19239247</li>
+      <li>https://news.ycombinator.com/item?id=19321070</li>
+      <li>https://www.dblooman.com/aws/2016/11/10/Go-microservices-without-Docker….say-whaaaaaat.html</li>
+      <li>https://news.ycombinator.com/item?id=19708997</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><strong>GraphQL</strong> Development of a GraphQL service that serves these stats and other data over websockets.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><strong>SQL</strong>. Knowledge of relational databases. Have worked with SQL databases, writing custom queries and designing schemas  Experience with online data stores; offline data stores is a plus.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Stack: Java, Spring MVC, Elastic, PostgreSQL</li>
+</ul>
+
+<hr />
+
+<p><strong>Cover Letter</strong></p>
+
+<p>Dear Team,</p>
+
+<p>I am an Oxford and IIT Delhi grad, interested in software engineering roles at your company, as mentioned in your <a href="https://news.ycombinator.com/.">hacker news post</a></p>
+
+<p>Since last year, I’ve been the tech lead of a startup I founded.  Our backend is based on JSON-based RESTful APIs, and utilizes the following stack:  Express, Node.js, Mongodb, AWS. From a previous job at Opera Solutions (which was my first job out of college), I have experience of working on data delivery and storage pipelines for a big data analytics. I am proficient in Java, Javascript frameworks (Node.js, Mocha, Chai, Sinon), RESTful API design, data modelling, using version controls systems like Git, and implementing authentificiaton frameworks (including Oauth and Oauth 2.0)</p>
+
+<p>In between those two stints, I have been product manager of a consumer-facing on-demand services app used by about 3 million users across 28 cities in India. As a product manager, I led a team of 15, made product roadmaps, conducted user research and wrote detailed user journeys for the developers to implement. Before that, I read PPE at Oxford. Both these experiences instilled in me good interpersonal and communication skills which I have found to be very valuable in my career.</p>
+
+<p>I am currently based in India, seeking new opportunities, and looking to relocate.</p>
+
+<p>Summary:</p>
+
+<ul>
+  <li>Graduated from IIT Delhi with a five-year integrated masters (bachelors + masters) in computer science  in 2013</li>
+  <li>Worked at a big data analytics company as an an analytics specialist (13-14)</li>
+  <li>Graduated from Oxford in PPE (Philosophy, Politics and Economics) as a second undergrad degree in 2016 Worked as a product manager in a consumer-facing tech startup (16-17)</li>
+  <li>Founded a startup and led a team of four to ship the flagship product, currently live on Google Playstore  (2017- present)</li>
+</ul>
+
+<p>Please find attached my CV.  I also maintain a professional website, where you could find more details about my background: http://piyushahuja.github.io.</p>
+
+<p>Looking forward to hearing from you!</p>
+
+<p>Regards, <br />
+Piyush</p>
+
+<hr />
+
+<p><strong>My Intro/Tell me about yourself/Why I am the perfect fit for this specific opportunity? (Suggest, not tell)</strong></p>
+
+<ul>
+  <li>My first degree was in <strong>Computer Science</strong>  <strong>After that, I went to Oxford</strong> for a two years degree in humanities. PPE. I was one of the few places where you could get that in two years, and it is also one of the best, I went there to read for a second undergrad degree
+    <ul>
+      <li><strong>“The ability to quickly pick stuff up or learn new things”</strong>. For example, reading under the rigors of the tutorial system at Oxford has helped me develop time management skills and an ability to get work done under pressure. In software there are always new frameworks coming up, or you have to understand the API documentation quickly and quickly integrate it.</li>
+      <li>A diverse background in also gives me ability to approach a problem from different perspectives and assimilate knowledge from different fields.</li>
+    </ul>
+  </li>
+  <li><strong>My first job out of Oxford was in a  startup in the on-demand sector</strong> as a product manager, Jugnoo.  It was <strong>consumer facing app</strong> used by about <strong>3 million consumers across 28 cities</strong> in India.
+    <ul>
+      <li>One thing I got out of that role was a  complete obsession with user experience and <strong>experience handling large-scale, high-volume services.</strong>- Having seen both sides, I have a focus on customer experience</li>
+      <li>I can come up with clever ways to improve usage including behavioural economics and design improvements.</li>
+    </ul>
+  </li>
+  <li>Since last year, I’ve been working on a product called Platonia. Apart from mentoring junior team members, I’ve been <strong>pretty hands-on with the server side development of the stack of the stack in Node.js</strong>  It is currently live on Google Playstore.  Our team of four  shipped the product in six months.
+    <blockquote>
+      <p>The product didn’t take off with the growth rate needed to justify further time and investment.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>Why did you go for PPE?</strong></p>
+
+<ul>
+  <li>I wanted a more well rounded educaton. I went for a two years degree in humanities. Oxford was one of the few places where you could get that in two years, and it is also one of the best, I went there to read for a second undergrad degree
+    <ul>
+      <li>A diverse background in also gives me ability to approach a problem from different perspectives and assimilate knowledge from different fields.</li>
+      <li><strong>“The ability to quickly pick stuff up or learn new things”</strong>.
+        <ul>
+          <li>For example, reading under the rigors of the tutorial system at Oxford has helped me develop time management skills and an ability to get work done under pressure. In software there are always new frameworks coming up, or you have to understand the API documentation quickly and quickly integrate it.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<p><strong>Where did you hear about us?</strong></p>
+
+<ul>
+  <li>Hacker news post by Imran Ghori</li>
+  <li>Then I read the medium post BY Anil and connected with Suleyman</li>
+  <li></li>
+</ul>
+
+<p><strong>What are you looking for?</strong></p>
+
+<ul>
+  <li>I am looking for specialize further in the backend. Experience in high quality, production grade application with established tech practices, without the scrappyness of a startup.
+    <ul>
+      <li>there’s a lot of new, interesting challenges that I’d expect come up in day to day. Interesting problems:</li>
+      <li>new local method (Brazil has cash based, )</li>
+      <li>Challenges of securty and scale.</li>
+      <li>Improving P.O.S. software using protocols standards, websocket</li>
+    </ul>
+  </li>
+  <li>At the same time, it should not have complex hierarchies.  At this stage of my career, I am looking for a role which gives me a significant amount of ownership. This would great for learning, growth, and taking on real responsibility.</li>
+</ul>
+
+<p>s</p>
+
+<ul>
+  <li>As a person who wants to move fast make an impact, it would probablyy not suit me to work in a company with complex hierarchies or bureacracy. 
+Speed is the foundation of Ayden. We think, work and ship fast.</li>
+</ul>
+
+<hr />
+<p><strong>Why company X?</strong></p>
+
+<ul>
+  <li><strong>Takes Tech Very Seriously</strong>
+    <ul>
+      <li>Great tech practices. I have been following your blog.</li>
+    </ul>
+  </li>
+  <li><strong>Personable People</strong>
+    <blockquote>
+      <p>I talked to Rik Nijesson and Burak Yildrim, and both were very personable and encouraging.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<!-- - **Work Culture** 
+ >  There’s always something happening, from fiercely competitive quiz nights*
+
+ -->
+
+<!-- 
+- **Mission**:
+>  Tech used for a meaninful purpose. 
+ -->
+
+<hr />
+
+<p><strong>Why should we select you?</strong> (Tell, not suggest)</p>
+
+<ul>
+  <li>To put it simply, I get work done.
+    <ul>
+      <li>I have worked in any environment where this ability was</li>
+      <li>At Jugnoo, we had weekly sprints, my team delivered one impactful feature every week.</li>
+      <li>At Oxford, I had two submit two essays week-in-week out.</li>
+      <li>I believe in writing software which is easy to read, test,  maintain or extend. But I also understand well trade-offs between perfection and time. Often you have to just delivery. Often its not about your code being perfect, but about iterative fast on product features.</li>
+    </ul>
+  </li>
+  <li>I can see both perspectives: product managers and developers, I have a focus on customer experience</li>
+</ul>
+
+<hr />
+
+<p><strong>What are your strengths?</strong></p>
+
+<p>Strengths</p>
+
+<ul>
+  <li>I get work done</li>
+  <li>I am good at thinking in abstract terms - mathematics and philosophy.</li>
+</ul>
+
+<hr />
+
+<p><strong>What motivates you?</strong> <strong>What are you passionate about?</strong></p>
+
+<ul>
+  <li>I am passionate about learning new things.
+    <ul>
+      <li>This is what drove me to major in major in both and engineering. I did PPE at Oxford and CS in IIT Delhi, and this is what drove me to software engineering. There is so much to learn! I feel the experience of learning something fresh is what keeps you alive and kicking. Otherwise the world is a little boring.</li>
+    </ul>
+  </li>
+  <li>Simplifying complex things</li>
+</ul>
+
+<hr />
+
+<p><strong>Passion for tech and metacognition about coding well</strong></p>
+
+<ul>
+  <li>I am proficient in Java - which is strongly typed, object oriented, class-based. Transferring that knowleedge to <X>  would be trivial.
+</X>    <ul>
+      <li>I prefer statically typed and compiled languages (rather than interpreted ones). They tell me about errors in my code before I run any tests altogether, and once you get used to the boilerplate, you stop even noticing it. It is like dental hygiene, except for code.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>What are your weaknesses</strong></p>
+
+<hr />
+
+<p><strong>What’s something you’ve worked on that you’ve been proud of?</strong></p>
+
+<p>What has been your greatest achievement?</p>
+
+<ul>
+  <li>The thing that I am most proud of was the I was able to fulfill one of my childhood dreams</li>
+  <li>Situation: When I was young
+hich project are you most proud of?</li>
+  <li>Since last year, I’ve been the tech lead of Platonia, a startup I founded.</li>
+  <li>Apart from mentoring junior team members, I’ve been <strong>pretty hands-on with the server side development of the stack of the stack in Node.js</strong></li>
+  <li>It is currently live on Google Playstore.  Our team of four shipped the product in six months. I designed, implemented, tested and monitor new functionalities to the platform.</li>
+  <li>The product didn’t take off with the growth rate needed to justify further time and investment. *</li>
+</ul>
+
+<p>How do you work in teams?</p>
+<ul>
+  <li>Collaborate across teams and time zones to make things happen, review code and be open to feedback</li>
+</ul>
+
+<hr />
+
+<p><strong>Briefly, what do you like &amp; dislike about your current or latest role?</strong></p>
+
+<p>What I liked best about my latest role was that it gave me a lot of autonomy, which made me both disciplined and empowered at the same time!</p>
+
+<hr />
+
+<p><strong>What’s the most challenging work you’ve faced?</strong> (the strangest bug you had to debug on production, the most awful legacy system you needed to interface with, etc… this doesn’t need to be a success story) **Tell me an experience where you have <fill in="" a="" challenge=""> in your job, and what  have you done to overcome the challenge?**</fill></p>
+
+<hr />
+
+<p><strong>Tell me about a time you led people to do something they didn’t want to do.</strong></p>
+
+<hr />
+
+<p><strong>Tell me about a time you failed and how you overcame that failure.</strong></p>
+
+<hr />
+
+<p><strong>Tell me about a time you had to change your mind in front of others, what happened?</strong></p>
+
+<hr />
+
+<p><strong>Tell me about a time you had to work hard to meet a deadline that was virtually impossible. What did you do? How did you prioritize?</strong></p>
+
+<hr />
+
+<p><strong>Experience making system architecture decisions (which stack to use, choice of storage enginers, whether to use microservices)</strong></p>
+
+<p><strong>Situation:</strong> During the shipping of Platonia, we made quite a few architectural choices</p>
+
+<p><strong>Task:</strong> Choose a database for the application. SQL based like PostGreSQL (Relational) vs Mongo (NoSql) or Graph(Neo4J)</p>
+
+<p><strong>Action:</strong></p>
+
+<ul>
+  <li>Made a list of properties we needed from our database</li>
+  <li>Increase speed of writing code and deploying. Presence of an online community and f libraries we can take off-the-shel and wire together  (Ruled out Graph databases)
+    <ul>
+      <li>Something well known: Ease of hiring developers (Ruled out Graph databases)</li>
+      <li>Schema flexibiliy in light of evolving data model (Ruled out SQL databases)</li>
+    </ul>
+  </li>
+  <li>Something thats Scalable, since if it takes off it should be able to handle loads of millons (Ruled out SQL databases)</li>
+  <li>Chose MongoDb based on the above propertes
+    <ul>
+      <li>Mongo has many features that you think about relational database: support for joins, indexing and searching on nested data.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p>ANALYSIS</p>
+
+<p>“Describe the most sophisticated analysis you have conducted in your work to reach a decision”
+They are looking for the processes you follow to reach a decision, to determine if you have a logical approach. They also want to see the level of technical skill you have in analysis.</p>
+<ul>
+  <li>Use a project at university or an example that required you to do statistical modelling.</li>
+  <li>Explain what made it sophisticated (was it the data source, the method of analysis, etc).</li>
+  <li>Discuss the process involved in reaching a decision, the rationale you followed.
+“How did you know how to proceed?”
+“What brought you to the recommendation that you made?”
+“Was your manager pleased with your recommendation?”</li>
+</ul>
+
+<p>ATTENTION TO DETAIL</p>
+
+<p>“Tell me about a time you made errors in your work.”</p>
+
+<p>They are looking for learnings, what steps you are now following to ensure a high level of accuracy in your work. They also want to see you have taken responsibility for your actions.</p>
+<ul>
+  <li>Brief the background of the situation, alongside the error you made.</li>
+  <li>Take responsibility for the error.</li>
+  <li>Discuss how you fixed the problem, highlighting the speed you made the corrections.</li>
+  <li>Talk about what you learnt, and the process you now follow to ensure it doesn’t reoccur.
+“What was your bosses reaction when the errors were found?”
+“Tell me more about the obstacles this created for you in your work (after the mistakes).”</li>
+</ul>
+
+<p>FB Account Kit in Login/Signup revamp caused the referrals to drop from 18% to 10%</p>
+
+<p>COLLABORATION</p>
+
+<p>“Describe to me a time where you have been in a team that was divided in their opinion.”</p>
+
+<p>They are looking for how easily you can ease tensions within a team. Demonstrate leadership, your ability to bring together people with differing opinions.</p>
+
+<ul>
+  <li>Talk about the reasons for the two opinions in the team.</li>
+  <li>Describe the process you followed to get all team members on board.</li>
+  <li>Highlight the successful result as a consequence of your actions in aligning the team.
+“How did you breach the gap?”
+“Lead me through your thought process in approaching this resolution.”</li>
+</ul>
+
+<p>CHANGE MANAGEMENT</p>
+
+<p>“Tell me about a time where you had to explain a new concept to a colleague.”</p>
+
+<p>They are looking for examples of your verbal communication ability, and skills in influencing. They want to grasp your understanding of the change process, as well as confirm you know that different people need to learn new concepts differently.</p>
+
+<ul>
+  <li>Talk about the process you took in preparing for the conversation.</li>
+  <li>Discuss the pivotal point in getting understanding and acceptance from your colleague.</li>
+  <li>Reflect on why you were successful in explaining this to your colleague.
+“What did you do differently that was successful in bringing them on board?”
+“What did your colleague say throughout the process?”
+“How did they react to your explanation?”</li>
+</ul>
+
+<p>Aurora German work
+Explaining stuff to Harshal Sanghvi</p>
+
+<p>COMMUNICATION</p>
+
+<p>“Tell me about a time where you failed to communicate effectively.”
+They are looking for insights into a failure. Demonstrate you have the maturity to admit where you did not succeed, and your learnings. They want to see you did not repeat the mistakes.</p>
+<ul>
+  <li>Talk about why you thought you were adequately prepared.</li>
+  <li>Explain how you communicated and why it was not effective.</li>
+  <li>Give a second example to demonstrate you did not repeat this mistake a second time.
+“What was it about your communication that failed?”
+“What would you do differently today?”</li>
+</ul>
+
+<p>NUS Work</p>
+
+<p>CONFLICT MANAGEMENT</p>
+
+<p>“Tell us about a time you saw a conflict coming.”</p>
+
+<p>They want to see you can recognize and manage confrontations. They want to know you can handle difficult situations in a constructive manner.</p>
+
+<ul>
+  <li>Describe how you recognized the conflict, and how you immediately began to resolve it.</li>
+  <li>Talk about how effective your technique was in constructively dissolving the tension.</li>
+  <li>Comment on how going through this conflict made the team stronger.
+“What steps did you take pre-emptively to resolve the conflict?”
+“Did anyone else see it coming?”
+“How did you manage the resolution following the conflict?”
+“What impact did this have on team morale?”</li>
+</ul>
+
+<p>Urvashi and Nitika: The rival Was</p>
+<ul>
+  <li>One would leave early</li>
+  <li>Or take the testing equipment home</li>
+  <li>Not cover for the other</li>
+  <li>The other would complain about her behind her back</li>
+  <li></li>
+</ul>
+
+<p>CREATIVITY</p>
+
+<p>“Explain to me the most innovative solution you have created for a customer.”</p>
+
+<p>They are looking for new ways of doing business, demonstrating you think outside of the box. They want to know that this can be repeated, and you can implement and take action on an idea.</p>
+
+<ul>
+  <li>Outline the process you followed to come up with the solution.</li>
+  <li>Talk about why it was innovative and demonstrate your expertise on the subject.</li>
+  <li>
+    <p>Describe the steps you took to ensure the idea was implemented successfully.
+“What was the most challenging part of the implementation?”
+“What did you enjoy most in the creative process?”</p>
+  </li>
+  <li>Slider Button</li>
+  <li>QC Women Quizmasters</li>
+  <li></li>
+</ul>
+
+<p>DECISION MAKING</p>
+
+<p>Describe a Hard Decision you had to make
+“Tell me about a time where you took a course of action your team did not agree with.”
+“How did you handle the process, and what was the reaction from your team?”
+“How did you react to the negativity from the team?”
+“What did you learn from this situation?”
+“What would you change if you could redo this task from scratch?”</p>
+
+<p>Awarding the best representative prize to a not-so-good quizzer Anurag Tiwari (QC)</p>
+
+<p>DECISIVENESS</p>
+
+<p>“What is a decision you have needed to make that you ‘put-off’ the longest?”</p>
+
+<p>They want to determine your ability to use available information to make decisions. They want to know that you can perceive future impacts and implications of your chosen course of action.</p>
+
+<ul>
+  <li>Discuss the situation, and rationale that caused you to delay the decision.</li>
+  <li>Detail the outcome you expected while you were delaying the decision.</li>
+  <li>Explain if there is anything you would do differently today, in hindsight.
+“Why?’
+“When did that occur?”
+“Who else was involved?”
+“Would you make the same decision today?”</li>
+</ul>
+
+<p>Firing Jugnoo employee
+Leaving Jugnoo for entrepreneurship</p>
+
+<p>Sometimes delaying the decision helps: when the time allows more of relevant information to come in. But often we only delay out of fear, confusion, laziness or anxiety. In these cases, there might be a cost of delay, and delaying wouldn’t allay all those emotions or clear the confusion, but only worsen them.
+If you feel like delaying, you must introspect and be clear about Why you are delaying.</p>
+
+<p>DELEGATION</p>
+
+<p>“Tell me about a time you delegated to the wrong person.”</p>
+
+<p>They want to see you can demonstrate flexibility, and have the ability to make the best use of your subordinates. Also they want to see how well you support your team as a leader.</p>
+
+<ul>
+  <li>Explain your rationale for delegating to this individual at the beginning.</li>
+  <li>Discuss what led you to realise that this was the wrong person for the job.</li>
+  <li>Talk about how you made immediate changes to fix the situation, whilst being considerate towards the feelings of your staff.
+“Lead me through your thought process, and explain what you have learned.”
+“Did you make any other adjustments in your team as you realised this was not working?”
+“How did staff in your team react?”
+“Did this have any negative impact on the individual you delegated to?”</li>
+</ul>
+
+<p>….???</p>
+
+<p>Delegating Menu planner to Shivam</p>
+
+<p>EFFICIENCY</p>
+
+<p>“Describe a time you were caught in an inefficient process.”</p>
+
+<p>They are looking for adaptability, and your drive in creating solutions to everyday problems. They are looking for someone willing to challenge the status quo.</p>
+
+<ul>
+  <li>Explain your rationale in building a solution to fix the process.</li>
+  <li>Demonstrate you took guidance and suggestions from experienced team members.</li>
+  <li>Highlight your ability to implement the new process.
+“How long did it take you to find a new/different approach to the task?”
+“What steps did you take to implement the new procedure?”</li>
+</ul>
+
+<p>While launching AskLocal, I was stuck with following the whims of the founder in deciding product direction.</p>
+<ul>
+  <li>Week 1: Copy Zomato Feed. Why are you thinking? First copy then differentiate.</li>
+  <li>Week 2: No one uses Tomato Feed! Why are you not following YikYak?</li>
+</ul>
+
+<p>Working with a remote designer from Europe</p>
+<ul>
+  <li>She had a data-oriented approach but we did not have the data she needed, was not familiar with our design language: (there was no documentation, it used to change so frequently), and had a different sense of aesthetics from ours. The processes for remote calls were not set in place.</li>
+  <li>Took guidance from Saurabh Wadhawan</li>
+</ul>
+
+<p>FLEXIBILITY</p>
+
+<p>“Describe the biggest change you have had to overcome in your work.”</p>
+
+<p>They are testing to see if you are adaptable to achieving your goals, and can rapidly change in response to new information, conditions or obstacles.</p>
+
+<ul>
+  <li>Discuss the situation that led to the change.</li>
+  <li>Talk about how it was challenging for you, but you recognized this as an opportunity.</li>
+  <li>Elaborate on your understanding of the change cycle.</li>
+  <li>Conclude with how this change has had a positive effect, and you are now more content.
+“How did you react to different stages throughout the transition?”
+“What process did you follow to get through the changes?”</li>
+</ul>
+
+<p>GOAL SETTING</p>
+
+<p>“Tell me the most important goal you have set, and how you successfully achieved it.”</p>
+
+<p>They want to determine if you have structure to your tasks and methods for tackling big targets. They are looking for a process that you followed for success.</p>
+
+<ul>
+  <li>Describe a very important goal in your life, and what made it important.</li>
+  <li>Talk about the necessity of having a plan to achieve a goal</li>
+  <li>Go into detail regarding the steps you took to reach your goal.</li>
+  <li>Discuss the outcome, and your feelings having been successful.
+“What challenges did you have to overcome?”
+“At the beginning, did you expect to achieve your goal?”</li>
+</ul>
+
+<p>Rowing team
+IIT Jee
+Oxford
+6 Pack Abs
+Launching Platonia</p>
+
+<p>INDEPENDENCE</p>
+
+<p>“Tell me about a time where you were given authority over a high priority task.”
+h priority task.”</p>
+
+<p>They are looking for examples where your performance was better than normal staff. They want to know what makes you an ideal candidate, rather than another employee.</p>
+
+<ul>
+  <li>Discuss the skills you have that made you ideal for this task.</li>
+  <li>Describe how you approached the task, and how successful you were.</li>
+  <li>Talk about the decisions you made, and the decision making process you followed throughout the task.
+“Why were you specifically chosen to work on this task? Please go into more detail.”
+“What obstacles did you face, and how did you overcome them?”</li>
+</ul>
+
+<p>INITIATIVE</p>
+
+<p>“Tell me about a time you raised your hand to tackle a new assignment which you had no experience with.”
+They are looking at your information gathering process, and ability to make effective decisions with limited data. Also judging your willingness to learn, and go above and beyond in your work.</p>
+<ul>
+  <li>Explain why you wanted the project. Highlight the chance to learn, willingness to do more.</li>
+  <li>Discuss how you got the information you needed for the task.</li>
+  <li>Go into detail about how your skill in (communication/programming etc.) made it possible for this task to be a success.</li>
+  <li>Confirm that you would put your hand up again.
+“What steps did you take to approach the task?”
+“What were you thinking at this point?”</li>
+</ul>
+
+<p>Aurora Data Loading Task
+Referrals in Jugnoo</p>
+
+<p>INTEGRITY</p>
+
+<p>“Give me an example when you were asked to do something that went against your core beliefs”</p>
+
+<p>They are looking for how solid your belief system is, and if it aligns to their corporate values. They want to know what you would do in a situation that challenged your personal values.</p>
+
+<ul>
+  <li>Talk about a situation that was ethically wrong, and you chose to upkeep your values.</li>
+  <li>Research the specifics of their company values, and align your wording with theirs.</li>
+  <li>Discuss any repercussions that came from you upholding your beliefs.</li>
+  <li>Close by saying that you are happy you chose to maintain your values.
+“What was your gut reaction, and how did you handle this?”
+“When did this occur?”</li>
+</ul>
+
+<p>AskLocal content: not family friendly and potentially offensive to women vs local knowledge-based
+Jugnoo Star dogfeeding: force company employees to pay and use the new product</p>
+
+<p>INTERPERSONAL SKILLS</p>
+
+<p>“Describe a time you had to make a connection with a person, but it was difficult because of pre-existing conflict.”</p>
+
+<p>They want to see a demonstrated ability to connect through difficult situations. They want to know you can maintain professionalism and a cool head through a conflict.</p>
+
+<ul>
+  <li>Talk about the conflict you had with the person, and how you prepared for the meeting.</li>
+  <li>Discuss how you approached the person, and what interpersonal skills you used to help.</li>
+  <li>Describe how you reached an agreement, and resolved the conflict.
+“How did you approach this task?”
+“Were you happy with the results?”</li>
+</ul>
+
+<p>LEADERSHIP</p>
+
+<p>“Tell me about a time you had an underperforming team.”</p>
+
+<p>They want to know if you can act as a role model, and communicate a vision to the team. They want to see results, and examples where your actions influenced team behaviour.</p>
+
+<ul>
+  <li>Discuss the background of the team, and how you approached the performance issue.</li>
+  <li>Describe the specific actions you took to add structure to the team in reaching their goal.</li>
+  <li>Talk about how you appealed to each individuals personal motivators.</li>
+  <li>Outline the results you achieved through your team with numbers, facts and figures.
+“What steps did you take to improve performance?”
+“How did the team react, and how successful were you?”</li>
+</ul>
+
+<p>Jugnoo Star: I actually ended up offending the developers
+NEGOTIATION</p>
+
+<p>“Describe the most challenging negotiation you have been involved with.”</p>
+
+<p>They want to see your ability to handle complex negotiations, your thought process and outlook (short/long term). They want to know how you work with clients, and the types of relationships you build.</p>
+
+<ul>
+  <li>Talk about the specifics of why it was a challenging negotiation.</li>
+  <li>Detail the approach you took in preparation, and the deal you were after in the negotiation.</li>
+  <li>Reflect on the process you followed, and any learnings you have made.</li>
+  <li>Describe the win-win approach you took, and how both sides were happy with the outcome.</li>
+</ul>
+
+<p>“What steps did you take to prepare?”
+“Describe why it was so difficult.”
+“What was the outcome?”
+“What was the outcome for the other party?”</p>
+
+<ul>
+  <li>Out of court settlement for property infringement. Rs. 1.7 Lakhs eventually (just  market rates)</li>
+  <li>BATNA: Long court battle - we were not even in the same city.</li>
+  <li>Approach: Contacted local politicians, tehsildar, instructed Kanugo to reach site on the same day as negotiation etc.</li>
+  <li>Use: Police was on our side and stopped from proceeding construction</li>
+  <li>PLANNING AND ORGANISING</li>
+</ul>
+
+<p>“We’ve all had situations where it was impossible to meet a deadline. Give me an example from your experience.”
+They want to know how you approached the task of delivering bad news to your superior. Your ability to communicate, manage expectations and take responsibility.</p>
+
+<ul>
+  <li>
+    <p>Describe your exact actions once you realised you could not meet your deadline.</p>
+
+    <p>Hint: Immediately talk to your boss!</p>
+  </li>
+  <li>Talk about how you made a plan, with timelines and targets to complete the project.</li>
+  <li>Discuss what it took to get the project finished asap. Overtime? More staff?</li>
+  <li>Reflect on what you learnt, and how you would approach this situation differently today.
+“How did you manage expectations once you realised you would miss the deadline?”
+“How did your manager react to the bad news?”
+“What was the final outcome?”</li>
+</ul>
+
+<p>PRESENTATION</p>
+
+<p>Describe an effective presentation you have delivered to a large audience.</p>
+
+<p>They are after examples where you have demonstrated the technical skills of effective verbal communication.</p>
+
+<ul>
+  <li>Describe the topic and the method of delivery (tone of the script, accompanying presentation etc.)</li>
+  <li>Talk about why you chose these particular methods.</li>
+  <li>Detail what you did to prepare before you got on stage.</li>
+  <li>Reflect on why you believed it was effective, and support this with comments and feedback from the audience.
+“Did you feel prepared?”
+“What did you do differently that made it a success?”</li>
+</ul>
+
+<p>PRIORITIZATION</p>
+
+<p>“We’ve all had multiple projects at one point or another. Tell me about a time you had to juggle multiple responsibilities”</p>
+
+<p>They want to see your ability to deal with pressure, stress, and perform under difficult circumstances.</p>
+
+<ul>
+  <li>Explain why you were leading multiple projects, highlight skills you have over other candidates.</li>
+  <li>Talk about the method you used to keep track of deadlines and tasks.</li>
+  <li>Discuss the success that you had in each project.</li>
+  <li>End on how much you enjoyed working under these conditions.
+“What was the biggest challenge throughout this period?”
+“Was it difficult for you?”</li>
+</ul>
+
+<p>Jugnoo Product Management</p>
+<ul>
+  <li>Always think of ROI. What metrics are you going to effect? Who is being affected?</li>
+  <li>Maintained an excel sheet where the different teams would input the tasks and what priority it had for them. We would highlight taks we were performing and update the expected dates.</li>
+  <li>Productivity</li>
+</ul>
+
+<p>“Tell me about a time when you were the most productive member of a team.”</p>
+
+<p>They want to know if you have what it takes to be the best. If you are willing to go above and beyond the expectations of your team to produce fantastic results.</p>
+
+<ul>
+  <li>Discuss why you felt it was important to work so hard.</li>
+  <li>Talk about the challenges you faced in reaching the team’s goal.</li>
+  <li>Briefly touch on the team’s reaction to your enthusiasm, and clarify how happy you were performing at this level.</li>
+  <li>Describe how high productivity comes naturally to you, and give additional examples where this has been the case in your experience.
+“What did you do differently to your colleagues?”
+“How did your colleagues react to the situation?”
+“What impact did this have in your bosses eyes?”</li>
+</ul>
+
+<p>Project Management</p>
+
+<p>“Describe a process you have used to manage a project.”</p>
+
+<p>They are looking at your ability to use logic and methods to achieve positive outcomes. They want to see you can lead a team, and have success.</p>
+
+<ul>
+  <li>Detail the steps you followed in managing a project from idea to implementation.</li>
+  <li>Talk about challenges you faced, and how you overcame them.</li>
+  <li>Discuss how your results were also influenced by your ability to get the team motivated.</li>
+  <li>Talk about how you engaged the team, and motivated them.
+“Were you happy with the result?”
+“What did you do next?”</li>
+</ul>
+
+<p>RISK TAKING</p>
+
+<p>“What is the riskiest decision you have made in the last six months?”</p>
+
+<p>They want to know the process you follow to evaluate risk, and how you make a decision. They want to see examples where you weighed up the pro’s and con’s to make an effective decision.</p>
+
+<ul>
+  <li>Describe what it was about the situation that made it a risky decision.</li>
+  <li>Talk about how you evaluated the benefits for every choice, alongside the negatives.</li>
+  <li>Discuss any repercussions that came to you unawares after you took action.</li>
+  <li>Reflect on how you could have made a better judgement.
+“What information did you have prior to making the decision?”
+“What was the reaction from your colleagues or friends to your decision?”</li>
+</ul>
+
+<p>“In hindsight, would you still make the same decision?”</p>
+
+<p>SENSITIVITY TO OTHERS</p>
+
+<p>“What problems have your staff brought to you recently, and how did you help?”</p>
+
+<p>They are looking to see if you are sensitive to the needs of other people, and are aware of your surroundings and environment. They want to know if you have strong interpersonal skills.</p>
+
+<ul>
+  <li>Listening here is key. Give examples where your staff have come to you with their concerns, you have listened, and helped find a solution.</li>
+  <li>Talk about your empathy, and how you have the ability to connect with your staff on both a personal and professional level. Reinforce with examples that show your staff trust you.</li>
+  <li>
+    <p>Explain that you have always found it easy to connect with people.
+“Do you wish you had done something differently? Please explain”
+“Do you enjoy discussing other people’s problems?”</p>
+  </li>
+  <li>Going home late night for Urvashi
+STAFF DEVELOPMENT</li>
+</ul>
+
+<p>“Describe a time you had to coach a subordinate to improved success.”</p>
+
+<p>They want to see you can do more than simply lead, but are creating leaders and success through your subordinates.</p>
+
+<ul>
+  <li>Use an example that is in line with one of the competencies for the job you are interviewing for. It shows that you have the skill, and you can teach it to others.</li>
+  <li>Demonstrate the coaching methods used, and how this had a positive effect.</li>
+  <li>Talk about the long term development, and that you enjoy coaching and raising the calibre of your team.
+“Give me more examples.”
+“How did it turn out?”</li>
+</ul>
+
+<p>TEAMWORK</p>
+
+<p>“Tell me about a time you were leading a team, but they did not agree with you.”</p>
+
+<p>They want to find out about your ability to perform under adverse conditions. They would also like to see how you rectified the situation.</p>
+
+<ul>
+  <li>Discuss why the team was at odds, and how you approached the issue.</li>
+  <li>Run through the process you used to get the team in alignment.</li>
+  <li>Describe the problems you had in getting agreement, and how you overcame them.</li>
+</ul>
+
+<p>“How did you manage this situation?”
+“What approach did you take to remain productive?”
+“Tell me more about the obstacles that you faced.”</p>
+
+<p>——————————————————————————————————————</p>
+
+:ET
