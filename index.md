@@ -38,12 +38,12 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 **I enjoy learning, teaching, and creative collaborations.**
 
-- **Teaching:**  I am interested in teaching or mentoring opportunies in philosophy, algorithms, and creative writing.
+<!-- - **Teaching:**  I am interested in teaching or mentoring opportunies in philosophy, algorithms, and creative writing.
 
 - **Learning:** I am looking for people interested in practicing Improv, First Aid, or Wilderness survival skills.  
 
 - **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. Here are some ideas: a podcast, a comedy sketch, a mobile app, or any long-form writing assignment. 
-
+ -->
 {% include email-subscribe.html %}
 
 
