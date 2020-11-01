@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title: The Ten Commandments of Multiculturalism
 date:   2016-02-22 23:46:11
 tag: 
