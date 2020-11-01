@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title: On World Peace
 date:   2018-05-19 23:46:11
 tag: 

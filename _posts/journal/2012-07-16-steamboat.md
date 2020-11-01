@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title: The Steamboat
 date:   2012-07-16 23:46:11
 tag: My Secret Recipe for Disaster

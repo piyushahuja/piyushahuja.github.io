@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title: On Studying Philosophy
 date:   2016-09-27 23:46:11
 tag: 
