@@ -1,4 +1,4 @@
-I"�n<h1 id="what-is-docker">What is Docker?</h1>
+I"�o<h1 id="what-is-docker">What is Docker?</h1>
 
 <p>Docker is a form of OS-level virtualisation whose purpose is, to quote:</p>
 <blockquote>
@@ -30,7 +30,7 @@ one final point here: Docker Compose. You’re missing out on a lot of free stuf
 
 <p>Example: You don’t have to do these things (installing build tools, dependencies to build an application) on every new deployment! Instead you can build the applicationone and distribute it as an “executable” (without the build tools and dependencies)</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Source Openrc-hgi.sh
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Source Openrc-hgi.sh
 Install python3
 Install pip
 Install setuptools wheel 
@@ -181,7 +181,7 @@ A service can be run by one or multiple containers. With docker you can handle
 For example:
 Let’s say that we have this docker-compose.yml file:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>web:
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>web:
   image: example/my_web_app:latest
   expose:
     - 80
@@ -194,7 +194,7 @@ db:
 <p>This compose file defines two services, web and db.
 When you run docker-compose up, Asuming that the project directory is test1 then compose will start 2 containers named myapp_db_1 and myapp_web_1.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ docker ps -a
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ docker ps -a
 CONTAINER ID   IMAGE        COMMAND          ...      NAMES
 1c1683e871dc   test1_web    "nginx -g"       ...      test1_web_1
 a41360558f96   test1_db     "postgres -d"    ...      test1_db_1
@@ -206,7 +206,7 @@ a41360558f96   test1_db     "postgres -d"    ...      test1_db_1
 
 <p>Another very important point is that a Service can be configured to use a load balancer, so that as it creates the Tasks—that is it launches containers defined in the Task Defintion—the Service will automatically register the container’s EC2 instance with the load balancer. Tasks cannot be configured to use a load balancer, only Services can.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ docker-compose scale web=5
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ docker-compose scale web=5
 Creating and starting 2 ... done
 Creating and starting 3 ... done
 Creating and starting 4 ... done
@@ -279,8 +279,8 @@ with exec</li>
 <p>After all, at the end of the day a container is a set of virtualized processes.</p>
 
 <p>In docker you should only execute one process per container because if you don’t, the process that forked and went background is not monitored and may stop without you knowing it.
-When you use <code class="highlighter-rouge">CMD cron &amp;&amp; tail -f /var/log/cron.log</code> the cron process basically fork in order to execute cron in background, the main process exits and let you execute tailf in foreground. The background cron process could stop or fail you won’t notice, your container will still run silently and your orchestration tool will not restart it.
-You can avoid such a thing by redirecting directly the cron’s commands output into your docker stdout and stderr which are located respectively in <code class="highlighter-rouge">/proc/1/fd/1</code> and <code class="highlighter-rouge">/proc/1/fd/2</code> (The adopted solution may be dangerous in a production environment)
+When you use <code class="language-plaintext highlighter-rouge">CMD cron &amp;&amp; tail -f /var/log/cron.log</code> the cron process basically fork in order to execute cron in background, the main process exits and let you execute tailf in foreground. The background cron process could stop or fail you won’t notice, your container will still run silently and your orchestration tool will not restart it.
+You can avoid such a thing by redirecting directly the cron’s commands output into your docker stdout and stderr which are located respectively in <code class="language-plaintext highlighter-rouge">/proc/1/fd/1</code> and <code class="language-plaintext highlighter-rouge">/proc/1/fd/2</code> (The adopted solution may be dangerous in a production environment)
 Using basic shell redirects you may want to do something like this :</p>
 
 <p>ENTRYPOINT should be used in scenarios where you want the container to behave exclusively as if it were the executable it’s wrapping.   That is, when you don’t want or expect the user to override the executable you’ve specified, e.g. sometimes. convenient to use Docker as portable packaging for a specific executable.
@@ -288,7 +288,7 @@ Using basic shell redirects you may want to do something like this :</p>
 
 <p>you can achieve this same thing with CMD, but the use of ENTRYPOINT sends a strong message that this container is only intended to run this one command.</p>
 
-<p>CMD is used where you want the user to be able to override from the command line. CMD value can be easily overridden by supplying one or more arguments to <code class="highlighter-rouge">docker run</code> after the name of the image. e.g. Docker run ping localhost, Docker run ping docker.io. Running the image starts to feel like running any other executable – you specify the name of the command you want to run followed by the arguments you want to pass to that command. the -c 3 argument that was included as part of the ENTRYPOINT essentially becomes a “hard-coded” argument for the ping command (the -c flag is used to limit the ping count to the specified number). It’s included in each invocation of the image and can’t be overridden in the same way as the CMD parameter.</p>
+<p>CMD is used where you want the user to be able to override from the command line. CMD value can be easily overridden by supplying one or more arguments to <code class="language-plaintext highlighter-rouge">docker run</code> after the name of the image. e.g. Docker run ping localhost, Docker run ping docker.io. Running the image starts to feel like running any other executable – you specify the name of the command you want to run followed by the arguments you want to pass to that command. the -c 3 argument that was included as part of the ENTRYPOINT essentially becomes a “hard-coded” argument for the ping command (the -c flag is used to limit the ping count to the specified number). It’s included in each invocation of the image and can’t be overridden in the same way as the CMD parameter.</p>
 
 <p>CMD executable param1 param2. shell form: problematic if we need to send POSIX signals to the container since /bin/sh doesn’t dforward signals to child processes. Beyond the PID 1 issue, you may also run into problems with the shell form if you’re building a minimal image which doesn’t even include a shell binary. )</p>
 
@@ -313,23 +313,23 @@ DOCKEROPTS=’-H tcp://0.0.0.0:4243 -H unix:///var/run/docker.sock’</p>
 <p>When Docker is restarted, it listens for HTTP API requests on port 4243 (you can specify a different port) and also on a socket. To get all the messages, you can issue the GET request:
 http://<docker host="">:4243/containers/<container name="">/logs?stdout=1&amp;stderr=1</container></docker></p>
 
-<p>For running a command inside a docker, remotely, edit the file <code class="highlighter-rouge">/lib/systemd/system/docker.service</code></p>
+<p>For running a command inside a docker, remotely, edit the file <code class="language-plaintext highlighter-rouge">/lib/systemd/system/docker.service</code></p>
 
 <p>Modify the line that starts with ExecStart to look like this:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ExecStart=/usr/bin/docker daemon -H fd:// -H tcp://0.0.0.0:4243
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ExecStart=/usr/bin/docker daemon -H fd:// -H tcp://0.0.0.0:4243
 </code></pre></div></div>
-<p>Where the addition is the <code class="highlighter-rouge">“-H tcp://0.0.0.0:4243”</code> part.</p>
+<p>Where the addition is the <code class="language-plaintext highlighter-rouge">“-H tcp://0.0.0.0:4243”</code> part.</p>
 
 <p>Make sure the Docker service notices the modified configuration:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemctl daemon-reload
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemctl daemon-reload
 </code></pre></div></div>
 <p>Restart the Docker service:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo service docker restart
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo service docker restart
 </code></pre></div></div>
 
 <p>Test that the Docker API is indeed accessible:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl http://localhost:4243/version
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl http://localhost:4243/version
 </code></pre></div></div>
 
 <p><a href="https://stackoverflow.com/questions/32878795/run-command-inside-of-docker-container-using-ansible/41626257#41626257">Reference</a></p>

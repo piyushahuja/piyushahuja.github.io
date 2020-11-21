@@ -1,4 +1,4 @@
-I"�c<p><strong>How to think of a recursive solution?</strong></p>
+I""d<p><strong>How to think of a recursive solution?</strong></p>
 
 <p><strong>What is recursion?</strong></p>
 
@@ -118,16 +118,16 @@ recursive algorithms map very directly to mathematical induction, which he sugge
             <ul>
               <li>
                 <p>Incorrect Decomposition: 
-  <code class="highlighter-rouge">coinChange(n-d1,[d1…dk]) + counChange(n-d2, [d1…dk] + ….).</code> 
+  <code class="language-plaintext highlighter-rouge">coinChange(n-d1,[d1…dk]) + counChange(n-d2, [d1…dk] + ….).</code> 
   This repeats the counts (e.g. solution with at least 1 d1 and d2 are present in both).</p>
               </li>
-              <li>Correct Decomposition = <code class="highlighter-rouge">coinChange(n-d1, [d1…dk]) + coinChange(n, [d2…dk])</code>.</li>
-              <li>A second correct decomposition: <code class="highlighter-rouge">coinChange(n-d1, [d1…dk]) + coinChange(n-d2, [d3.…dk]) + ….</code>
+              <li>Correct Decomposition = <code class="language-plaintext highlighter-rouge">coinChange(n-d1, [d1…dk]) + coinChange(n, [d2…dk])</code>.</li>
+              <li>A second correct decomposition: <code class="language-plaintext highlighter-rouge">coinChange(n-d1, [d1…dk]) + coinChange(n-d2, [d3.…dk]) + ….</code>
                 <ul>
                   <li>Same as before, but delegate some of the work of recursive step to post-recursion through a loop. Or we can say it unpacks the right half of a binary recursion tree</li>
                 </ul>
               </li>
-              <li>A third correct decomposition: = <code class="highlighter-rouge">coinChange(n -d1, [d2…dk]) + coinChange (n-2d1, [d2….dk]) + ….coinChange(n-cd1, d2….dk])</code>, where cd1 &gt;=n and (c-1)d1 &lt; n. Or we can say it unpaccks the left half of a binary recursion tree.</li>
+              <li>A third correct decomposition: = <code class="language-plaintext highlighter-rouge">coinChange(n -d1, [d2…dk]) + coinChange (n-2d1, [d2….dk]) + ….coinChange(n-cd1, d2….dk])</code>, where cd1 &gt;=n and (c-1)d1 &lt; n. Or we can say it unpaccks the left half of a binary recursion tree.</li>
             </ul>
           </li>
           <li>Example: Longest Increasing Subsequencce
@@ -358,7 +358,7 @@ https://stackoverflow.com/questions/4240080/generating-all-permutations-of-a-giv
   </li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum = 0
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sum = 0
 i = 0
 while i &lt; n
     sum = sum + a[i]
@@ -370,14 +370,14 @@ while i &lt; n
   <li>
     <p>Here’s the loop invariant:</p>
 
-    <p>Upon entering an iteration of the loop, <code class="highlighter-rouge">sum = a[0] + a[1] + a[2] + ... + a[i-1].</code></p>
+    <p>Upon entering an iteration of the loop, <code class="language-plaintext highlighter-rouge">sum = a[0] + a[1] + a[2] + ... + a[i-1].</code></p>
 
     <p>Now let’s see how the three properties hold for this loop invariant.</p>
   </li>
   <li>Upon entering the first iteration, i = 0.  The sum a[0] + … + a[i-1] is empty, since i-1 = -1.  The sum of no terms is the identity 0 for addition.  Check.</li>
-  <li>Upon entering an iteration for a value of i, suppose that the loop invariant is true, so that <code class="highlighter-rouge">sum = a[0] + a[1] + a[2] + ... + a[i-1]</code>.  The iteration adds a[i] into sum and then increments i, so that the loop invariant holds entering the next iteration.  Check. </li>
+  <li>Upon entering an iteration for a value of i, suppose that the loop invariant is true, so that <code class="language-plaintext highlighter-rouge">sum = a[0] + a[1] + a[2] + ... + a[i-1]</code>.  The iteration adds a[i] into sum and then increments i, so that the loop invariant holds entering the next iteration.  Check. </li>
   <li>
-    <p>The loop terminates once i = n.  According to the loop invariant, <code class="highlighter-rouge">sum = a[0] + a[1] + a[2] + ... + a[n-1].</code><br />
+    <p>The loop terminates once i = n.  According to the loop invariant, <code class="language-plaintext highlighter-rouge">sum = a[0] + a[1] + a[2] + ... + a[n-1].</code><br />
   Check: sum is indeed the sum of the first n elements of the array.</p>
   </li>
   <li>

@@ -1,4 +1,4 @@
-I"�6<h1 id="what-is-nginx">What is nginx?</h1>
+I"�7<h1 id="what-is-nginx">What is nginx?</h1>
 
 <p>A lightweight, high-performance web server designed for high-traffic use cases.</p>
 
@@ -32,11 +32,11 @@
 
 <p>The nginx configuration language is designed with these uses in mind:</p>
 
-<p>We need some global parameters that any server process needs to start: which port to listen to, which user and group to run as, the process id, where to store logs etc. (<code class="highlighter-rouge">user</code>, , <code class="highlighter-rouge">error_log</code>)</p>
+<p>We need some global parameters that any server process needs to start: which port to listen to, which user and group to run as, the process id, where to store logs etc. (<code class="language-plaintext highlighter-rouge">user</code>, , <code class="language-plaintext highlighter-rouge">error_log</code>)</p>
 
-<p>We then need some global parameters specific to nginx internal architecturer: how many worker processes it should have and how many connections does each worker accept (<code class="highlighter-rouge">worker_processes</code>, <code class="highlighter-rouge">worker_connections</code>). The workers handle connections from clients, and as a rule for CPU-bound loads the number of workers should equal number of processors and for I/O bound loads multiplied by? by 1.5 or 2</p>
+<p>We then need some global parameters specific to nginx internal architecturer: how many worker processes it should have and how many connections does each worker accept (<code class="language-plaintext highlighter-rouge">worker_processes</code>, <code class="language-plaintext highlighter-rouge">worker_connections</code>). The workers handle connections from clients, and as a rule for CPU-bound loads the number of workers should equal number of processors and for I/O bound loads multiplied by? by 1.5 or 2</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user  nginx;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user  nginx;
 worker_processes  1;
 
 error_log  /var/log/nginx/error.log warn;
@@ -52,18 +52,18 @@ http {
 
 </code></pre></div></div>
 
-<p>We then want some instructions to be applied to requests. Often it is the case we want the same set of instructions to apply to requests requesting to the same location in their urls, going to a particular server or following a particular protocol (HTTP).  So we allow these instructions (called <code class="highlighter-rouge">directives</code>) to be grouped together into <code class="highlighter-rouge">blocks</code> (or <code class="highlighter-rouge">context</code>).</p>
+<p>We then want some instructions to be applied to requests. Often it is the case we want the same set of instructions to apply to requests requesting to the same location in their urls, going to a particular server or following a particular protocol (HTTP).  So we allow these instructions (called <code class="language-plaintext highlighter-rouge">directives</code>) to be grouped together into <code class="language-plaintext highlighter-rouge">blocks</code> (or <code class="language-plaintext highlighter-rouge">context</code>).</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;block&gt; {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;block&gt; {
 
   &lt;directive&gt; &lt;parameters&gt;; 
 
 }
 </code></pre></div></div>
 
-<p>For example, the <code class="highlighter-rouge">http</code> block contains directives for handling web directive. What might we want to put in instructions that apply to all web traffic? The location of special logs for this, the format of the log, whether we want the connections to be persistent for any time, etc….</p>
+<p>For example, the <code class="language-plaintext highlighter-rouge">http</code> block contains directives for handling web directive. What might we want to put in instructions that apply to all web traffic? The location of special logs for this, the format of the log, whether we want the connections to be persistent for any time, etc….</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 http {
     include       /etc/nginx/mime.types;
     default_type  application/octet-stream;
@@ -97,14 +97,14 @@ We want to be able to proxy the request. We might want to modify url, add header
 include /opt/local/etc/nginx/mime.types; A wildcard may appear in the path to match multiple files: include /opt/local/etc/nginx/vhost/*.conf; The location of your access.log file should be defined in your /etc/nginx/nginx.conf file or your site configuration file within your server block. By default, this would be in /etc/nginx/sites-available.</p>
 
 <p><strong>error_log</strong>- locations of error_logs. Can be overwritten within directives. A second param indicates the level of log debug (only available when debugging mod configured at compilation), info, notice, warn, error, crit, alert and emerg.pid - the file where the process ID of the main process is written, overwriting the compiled-in default. 
-<code class="highlighter-rouge">error_page code ... [=[response]] uri;</code></p>
+<code class="language-plaintext highlighter-rouge">error_page code ... [=[response]] uri;</code></p>
 
 <p> </p>
 
 <p><strong>try_files</strong>
 So add a catch-all fallback route to your nginx location directive: If the URL doesn’t match any static assets, it should serve the same index.html:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>location / {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>location / {
   try_files $uri $uri/ /index.htm
 }
 </code></pre></div></div>
@@ -152,7 +152,7 @@ So add a catch-all fallback route to your nginx location directive: If the URL 
 <p><strong>Remove particular cookies</strong>
 This snippet should remove some_cookie cookie from the request before passing it to the backend:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set $new_cookie $http_cookie;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set $new_cookie $http_cookie;
 
 if ($http_cookie ~ "(.*)(?:^|;)\s*some_cookie=[^;]+(.*)") {
     set $new_cookie $1$2;
@@ -161,7 +161,7 @@ proxy_set_header Cookie $new_cookie
 </code></pre></div></div>
 
 <p><strong>Location match based on regular expression</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>location ~* \.(?:ico|css|js|gif|jpe?g|png)$ {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>location ~* \.(?:ico|css|js|gif|jpe?g|png)$ {
     # Some basic cache-control for static files to be sent to the browser
     expires max;
     add_header Pragma public;
@@ -180,11 +180,11 @@ proxy_set_header Cookie $new_cookie
 
 <p>NGINX can be controlled by signals and Docker provides kill command for sending signals to a container. For example, to reload the NGINX configuration run the command:</p>
 
-<p><code class="highlighter-rouge">docker kill -s HUP &lt;container name&gt;</code>`</p>
+<p><code class="language-plaintext highlighter-rouge">docker kill -s HUP &lt;container name&gt;</code>`</p>
 
 <p>If you want to restart the NGINX process, restart the container by running the command:</p>
 
-<p><code class="highlighter-rouge">docker restart &lt;container name&gt;</code>`</p>
+<p><code class="language-plaintext highlighter-rouge">docker restart &lt;container name&gt;</code>`</p>
 
 <p>I thought docker-compose would keep the same IP between runs of the same container but it changes with each restart causing the nginx.conf to become stale. I can fix it by sending a SIGHUP to nginx which will make it reload the conf file and read the updated IP from the hosts file.
 I suppose there isn’t a way to tell docker or compose to keep the same IP when restarting a container? Also described here: https://medium.com/@joatmon08/using-containers-to-learn-nginx-reverse-proxy-6be8ac75a757</p>
@@ -193,7 +193,7 @@ I suppose there isn’t a way to tell docker or compose to keep the same IP when
 
 <h1 id="frequently-used-commands">Frequently Used Commands</h1>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nginx -t test your settings 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nginx -t test your settings 
 nginx -t -c
 nginx -s reload
 service nginx restart
