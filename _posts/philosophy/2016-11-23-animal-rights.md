@@ -1,8 +1,8 @@
 ---
 
 layout: post-journal
-title:  Mentally Challenged Humans: Do they have a claim to rights if animals don't?
-date:   2016-01-27 09:00:11
+title:  Animals and rights of mentally challenged humans  
+date:   2014-11-23 09:00:11
 tag: 
 categories: 
     - philosophy
@@ -35,7 +35,7 @@ One answer is that moral rights arise from our very human nature. Thus, animals
 
 For some, our special status has been granted by God (``God made humans in his own image”). I will not go into this claim, since I believe it rests on a stronger assumption on the existence of God and his designs and ends, which I find it impossible to discuss or argue for or against.  Suffice to say, the burden of proof or defence on such a position is quite high. However, such a position, if it could be defended, could allow for mentally challenged humans to have moral rights as opposed to animals.
 
-Reason and Moral Rights
+**Reason and Moral Rights**
 
 Others might maintain our intrinsic worth, our capacity to act morally, derives from our ability to reason. To be men, is to be rational animals.  Our moral rights derive their existence from the virtue of our rationale. This was Aristotle and Kant’s view. Reason is man’s defining characteristic, and hence foundation of our natural rights as human beings.
 
@@ -43,7 +43,7 @@ If we choose actual rationality or the exercise of freedom as the basis for hav
 
 Moreover, even though it might seem to place a wedge between `normal’ humans on one side and mentally challenged humans and mice in the other, does rationality really lend us a clear cut applicable distinction? Many animals display skill in hunting, Building, fighting, social organisation,   adaptability of means to ends, and other characteristics which are evidence of intelligence in men. Some higher primates display rational behaviour. Ants use tools and live a highly organised social life. Bees live in a highly sophisticated government system. Would we grant them moral rights? On the other hand, many human activities are almost robotic, requiring little thought or abstract use of symbols.
 
-Our human nature defined as such: as being Humans
+**Our human nature defined as such: as being Humans**
 
 However, there is a conception of humanity which we all share and can identify with, which is different and independent from man’s rational nature. While man’s capacity to reason is essentially a spectrum: some possess it in a greater degree, others to a limited one, this doesn’t imply that I think the other one as being less of a human. I could relate and identify with all human beings as kindreds regardless of how much their faculty of reasoning has developed. Which is not the case when it comes to animals like mice. No matter how much intellectual capacity a mice demonstrates, no matter how consistent or logical its activities as mice are, no matter how skilfully it navigates labyrinths or how well it performs in lab experiments,  I wouldn’t relate to it in the same way I relate to a human. There would be an essential difference: the essence of a mouse will remain that of a mouse and of a human will be of a human.
 
@@ -57,7 +57,7 @@ Right to life, liberty and happiness and so forth do not exist independent of hu
 
 But if restricted to humans, where do these moral rights, arise from, if not from our rational natures alone? This is besides the question, but one could pin it on social evolution: rights are something we feel compelled to oblige because they conferred our species with a collective evolutionary advantage. The same rights, when applied to mice or bees for example, might not serve as an evolutionary advantage. The force of duty we feel, towards recognising liberty, justice and so forth, might arise from our evolutionary instincts.
 
-Conclusion
+**Conclusion**
 
 If we insist that all humans, regardless of their mental capacities, possess moral rights, it would seem that there is an immaterial dimension to human beings that is the basis of us having rights - since  we are not basing it on our rational nature. One could either adopt the immaterial dimension of God, or produce some other philosophical justification. I believe our reflective reasoning, arising as we live collectively as a society, is also unique to human nature and can serve as a justifiable basis for moral rights. This allows all members of human species to possess such rights, whether mentally challenged or not: one does not need to be able to reason reflectively to possess those rights, as long as other members of the society can. 
  
