@@ -1,7 +1,0 @@
-I"o<p>The Problem: Alice has to send information to Bob. But the transfer should achieve the following:</p>
-<ul>
-  <li>It should be tamper-proof. If modified it should be detected by Bob</li>
-  <li>It should be private or encrypted. No one but Bob can read it. Bob should be able to decrypt it.</li>
-  <li>It should be fixed length? compressed? anthing else?</li>
-</ul>
-:ET

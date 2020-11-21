@@ -1,35 +1,35 @@
-I"w�<p><strong>Relationship Types</strong></p>
+I"��<p><strong>Relationship Types</strong></p>
 
 <p>There are three types of relationships between entities:</p>
 <ul>
   <li>1 to N
     <ul>
-      <li><code class="highlighter-rouge">Status</code> and <code class="highlighter-rouge">Comments</code> on that status (Facebook)</li>
-      <li><code class="highlighter-rouge">Resume</code> and the <code class="highlighter-rouge">Organizations</code> on that resume (LinkedIn)</li>
-      <li><code class="highlighter-rouge">Question</code> and <code class="highlighter-rouge">Answers</code> on that question (Quora)</li>
-      <li><code class="highlighter-rouge">User</code> and <code class="highlighter-rouge">Answers</code> (Quora)</li>
+      <li><code class="language-plaintext highlighter-rouge">Status</code> and <code class="language-plaintext highlighter-rouge">Comments</code> on that status (Facebook)</li>
+      <li><code class="language-plaintext highlighter-rouge">Resume</code> and the <code class="language-plaintext highlighter-rouge">Organizations</code> on that resume (LinkedIn)</li>
+      <li><code class="language-plaintext highlighter-rouge">Question</code> and <code class="language-plaintext highlighter-rouge">Answers</code> on that question (Quora)</li>
+      <li><code class="language-plaintext highlighter-rouge">User</code> and <code class="language-plaintext highlighter-rouge">Answers</code> (Quora)</li>
     </ul>
   </li>
   <li>N to 1
     <ul>
-      <li><code class="highlighter-rouge">Status</code> and <code class="highlighter-rouge">Author</code> (Facebook)</li>
-      <li><code class="highlighter-rouge">Employee</code> and <code class="highlighter-rouge">Organization</code></li>
-      <li><code class="highlighter-rouge">Question</code> and <code class="highlighter-rouge">User</code> (Quora)</li>
+      <li><code class="language-plaintext highlighter-rouge">Status</code> and <code class="language-plaintext highlighter-rouge">Author</code> (Facebook)</li>
+      <li><code class="language-plaintext highlighter-rouge">Employee</code> and <code class="language-plaintext highlighter-rouge">Organization</code></li>
+      <li><code class="language-plaintext highlighter-rouge">Question</code> and <code class="language-plaintext highlighter-rouge">User</code> (Quora)</li>
     </ul>
 
     <p>or reverse of 1 to N</p>
 
     <ul>
-      <li><code class="highlighter-rouge">Comments</code> and <code class="highlighter-rouge">Status</code> that it belongs to (Facebook)</li>
-      <li><code class="highlighter-rouge">Organizations</code> and <code class="highlighter-rouge">Resume</code> that refer it (LinkedIn)</li>
-      <li><code class="highlighter-rouge">Answer</code> and <code class="highlighter-rouge">Question</code> that it belongs to (Quora)</li>
-      <li><code class="highlighter-rouge">Answer</code> and <code class="highlighter-rouge">User</code>  (Quora)</li>
+      <li><code class="language-plaintext highlighter-rouge">Comments</code> and <code class="language-plaintext highlighter-rouge">Status</code> that it belongs to (Facebook)</li>
+      <li><code class="language-plaintext highlighter-rouge">Organizations</code> and <code class="language-plaintext highlighter-rouge">Resume</code> that refer it (LinkedIn)</li>
+      <li><code class="language-plaintext highlighter-rouge">Answer</code> and <code class="language-plaintext highlighter-rouge">Question</code> that it belongs to (Quora)</li>
+      <li><code class="language-plaintext highlighter-rouge">Answer</code> and <code class="language-plaintext highlighter-rouge">User</code>  (Quora)</li>
     </ul>
   </li>
   <li>N to N
     <ul>
-      <li><code class="highlighter-rouge">Status</code> and <code class="highlighter-rouge">Tags</code> (Instagram)</li>
-      <li><code class="highlighter-rouge">Users</code> and <code class="highlighter-rouge">Organizations</code> (Linkedin)</li>
+      <li><code class="language-plaintext highlighter-rouge">Status</code> and <code class="language-plaintext highlighter-rouge">Tags</code> (Instagram)</li>
+      <li><code class="language-plaintext highlighter-rouge">Users</code> and <code class="language-plaintext highlighter-rouge">Organizations</code> (Linkedin)</li>
     </ul>
   </li>
 </ul>
@@ -56,8 +56,8 @@
 
 <ul>
   <li><strong>Duplication</strong> The dependent non-key field is repeated in the record of every key which has the primary non-key.</li>
-  <li><strong>Write Overhead</strong> If the primary non-key changes, every such record must be updated (if department address changes, all entries must be changed). We would need to do extra work in ensuring consistency on every write (e.g. we would need to ensure that the added question/status has the same author name as the name in the <code class="highlighter-rouge">User</code> field and as other questions by them)</li>
-  <li><strong>Scope for Inconsistency</strong> Because of the redundancy, the data might become inconsistent, with different records showing different dependent non-key for the primary non-key (different address for the same deparment for different employees). There would be no single source of truth (e.g the name of the author might be present in both a <code class="highlighter-rouge">Question</code> table and the <code class="highlighter-rouge">User</code> table )</li>
+  <li><strong>Write Overhead</strong> If the primary non-key changes, every such record must be updated (if department address changes, all entries must be changed). We would need to do extra work in ensuring consistency on every write (e.g. we would need to ensure that the added question/status has the same author name as the name in the <code class="language-plaintext highlighter-rouge">User</code> field and as other questions by them)</li>
+  <li><strong>Scope for Inconsistency</strong> Because of the redundancy, the data might become inconsistent, with different records showing different dependent non-key for the primary non-key (different address for the same deparment for different employees). There would be no single source of truth (e.g the name of the author might be present in both a <code class="language-plaintext highlighter-rouge">Question</code> table and the <code class="language-plaintext highlighter-rouge">User</code> table )</li>
   <li><strong>No Orphaning and Evolvability</strong> If at some point in time there are no primary non-keys, there may be no record in which to keep the dependent non-key (orphaned tags, lost department address etc.)</li>
 </ul>
 
@@ -68,20 +68,20 @@
   <p>Normalize until it hurts, denormalize until it works. (I.e. prefer normal forms but denormal will have better performance.)</p>
 </blockquote>
 
-<p>You keep it denormalized if the relationship will remain 1-to-N, the field/key does not support a unique representation of its values (such as free text input), the access patters are same across the entire record, the field is not needed in isolation and is not likely to evolve into a more complex entity. Examples include a <code class="highlighter-rouge">Status</code> and <code class="highlighter-rouge">Comments</code>, <code class="highlighter-rouge">User</code> and <code class="highlighter-rouge">Location</code>. This is true even if it is a Table or a Collection.</p>
+<p>You keep it denormalized if the relationship will remain 1-to-N, the field/key does not support a unique representation of its values (such as free text input), the access patters are same across the entire record, the field is not needed in isolation and is not likely to evolve into a more complex entity. Examples include a <code class="language-plaintext highlighter-rouge">Status</code> and <code class="language-plaintext highlighter-rouge">Comments</code>, <code class="language-plaintext highlighter-rouge">User</code> and <code class="language-plaintext highlighter-rouge">Location</code>. This is true even if it is a Table or a Collection.</p>
 
 <p>You normalize if the relationship is N-1 (2 table) or N-N (3 tables), a single source of truth or unique representation is desirable, the access patterns are different, the field is queried in isolation and is likely to evolve into an indepndent entity with its own attributes.</p>
 
 <ol>
   <li><strong>What is the Relationship? 1-N, N-1, N-N</strong> 1-N relationships are well represented as embedded.  N-1 and N-N relationships, if embedded would result in denormalization and all its warts. The 1-to-N relationshop is a tree-like structure. Typically the entire tree is loaded as part of the queries. If all the data you need for one key is all in one “place”, if you know that that will always be your primary access pattern, then you don’t need joins and nosql systems may be faster for you. If you need joins, no sql systems not suitable as it would be slower (Multiple roundtrip queries to the db) and lead to more complex code (Emulate the joins in application) Example Queries for 1-to-N:
     <blockquote>
-      <p><code class="highlighter-rouge">Get all comments corresponding to a given status</code> (“get all status corresponding to a particular comment” doesn’t even make sense)</p>
+      <p><code class="language-plaintext highlighter-rouge">Get all comments corresponding to a given status</code> (“get all status corresponding to a particular comment” doesn’t even make sense)</p>
 
-      <p><code class="highlighter-rouge">Get all answers corresponding to a question</code> (“get all questions corresponding to an answer” doesn’t make sense either)</p>
+      <p><code class="language-plaintext highlighter-rouge">Get all answers corresponding to a question</code> (“get all questions corresponding to an answer” doesn’t make sense either)</p>
     </blockquote>
   </li>
   <li>
-    <p>Is the data likely to become more interconnected? The data always tends to become more interconnected (move towards N-to-N) as application complexity increases. For example, if Linkedin originally did not have recognize an entity for <code class="highlighter-rouge">Organization</code> which different users could map to, then it would be 1-to-N, but over time, it might decide to include that, in which case the relationship would become N-to-N. We can still store the relationship in a denormalized form (e.g. store author name in every status, or array of tags within status), as in the case of a 1-to-N relationship. This would avoid joins. (However, this causes duplication and will require extra work at the time of writing to ensure that data is consistent as noted)</p>
+    <p>Is the data likely to become more interconnected? The data always tends to become more interconnected (move towards N-to-N) as application complexity increases. For example, if Linkedin originally did not have recognize an entity for <code class="language-plaintext highlighter-rouge">Organization</code> which different users could map to, then it would be 1-to-N, but over time, it might decide to include that, in which case the relationship would become N-to-N. We can still store the relationship in a denormalized form (e.g. store author name in every status, or array of tags within status), as in the case of a 1-to-N relationship. This would avoid joins. (However, this causes duplication and will require extra work at the time of writing to ensure that data is consistent as noted)</p>
   </li>
   <li>
     <p><strong>User interface: free text input or options?</strong>  Free text suggests keeping it embedded/denormalized.  Functional dependencies only exist when the things involved have unique and singular identifiers (representations) (not having them lead to data maintenance problems of their own.) functional dependencies and the various normal forms are really only defined for situations in which there are unique and singular identifiers. If two representations of address: 123 Main St., New York or 123 Main Street, NYC, then address does not have a functional dependency.</p>
@@ -152,14 +152,14 @@
 
 <p><strong>PostTable</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Id
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Id
 Content
 Tags: [tag1, tag2, tag2]
 </code></pre></div></div>
 
 <p>Example Query: <em>Select all posts with a particular union of tags</em></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT - 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT - 
 FROM `PostTable` 
 WHERE tags LIKE "%search%" 
 OR tags LIKE "%webservice%" 
@@ -186,14 +186,14 @@ OR tags LIKE "%semweb%"
 
 <p><strong>PostTable</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
 Content
 Tags: [tagId1, tagId2, tagId3]
 </code></pre></div></div>
 
 <p><strong>TagTable</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TagId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TagId
 TagName
 </code></pre></div></div>
 
@@ -215,13 +215,13 @@ Can Store tag metadata, hierarchy etc.</p>
 
 <p><strong>PostTable</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
 Content
 </code></pre></div></div>
 
 <p><strong>PostTagTable</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
 TagName
 </code></pre></div></div>
 
@@ -244,14 +244,14 @@ TagName
 
 <p><em>Example Query: Select all posts with a particular tag</em> (Only 2-table join if we have tagName)</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
 FROM PostTable
 JOIN PostTagTable ON PostId
 WHERE TagName = 
 </code></pre></div></div>
 <p>or<sup id="fnref:difference"><a href="#fn:difference" class="footnote">1</a></sup></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
 FROM PostTable, PostTagTable
 WHERE PostTable.Id =  PostTagTable.postID
 and tagName = :tag
@@ -259,7 +259,7 @@ and tagName = :tag
 
 <p>Example Query: <em>Select all posts with a particular union of tags</em></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT b.*
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT b.*
 FROM scBookmarks b, scCategories c
 WHERE c.bId = b.bId
 AND (c.category IN ('bookmark', 'webservice', 'semweb'))
@@ -272,25 +272,25 @@ GROUP BY b.bId
 
 <p><strong>PostTable</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
 Content
 </code></pre></div></div>
 
 <p><strong>TagTable</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TagId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TagId
 TagName
 </code></pre></div></div>
 
 <p><strong>PostTagTable</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PostId
 TagId
 </code></pre></div></div>
 
 <p>Example Query: <em>Items for one tag</em>(3 table joing if we have tag name)</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT Item.* 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT Item.* 
   FROM Item
   JOIN ItemTag ON Item.ItemID = ItemTag.ItemID
   JOIN Tag ON ItemTag.TagID = Tag.TagID
@@ -299,7 +299,7 @@ TagId
 
 <p>Example Query: <em>Tag-Cloud</em> (2 table join)</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT Tag.Title, count(*)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT Tag.Title, count(*)
   FROM Tag
   JOIN ItemTag ON Tag.TagID = ItemTag.TagID
  GROUP BY Tag.Title
@@ -307,7 +307,7 @@ TagId
 
 <p>Example Query: <em>All Tags for one ite</em>m (2 table join if we have id):</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Select tagName
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Select tagName
 FROM Tag
 JOIN ItemTag on Tag.tagID = ItemTag.TagID
 Where ItemTag.ItemID = :id
@@ -325,7 +325,7 @@ Where ItemTag.ItemID = :id
 
 <p>If you are using a database that supports map-reduce, like couchdb, storing tags in a plain text field or list field is indeed the best way. Example:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tagcloud: {
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tagcloud: {
   map: function(doc){ 
     for(tag in doc.tags){ 
       emit(doc.tags[tag],1) 
@@ -350,7 +350,7 @@ Where ItemTag.ItemID = :id
 
 <p><strong>Post</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Text
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Text
 - Tags: [Tag]
 - Post by: User
 - Upvotes: [User_Ids]
@@ -363,7 +363,7 @@ Where ItemTag.ItemID = :id
 
 <p><strong>Users</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- id
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- id
 - name
 - Photo
 - screen_name or username
@@ -373,7 +373,7 @@ Where ItemTag.ItemID = :id
 
 <p><strong>TagTable</strong> (29488 rows)</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tagId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tagId
 Tagname
 </code></pre></div></div>
 
@@ -381,7 +381,7 @@ Tagname
 
 <p>A synonym tag can only be a synonym for one master tag. A master tag can have multiple synonym tags:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sourceTag: tag1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sourceTag: tag1
 masterTag: tag3
 
 sourceTag: tag2
@@ -393,7 +393,7 @@ masterTag: tag3
 
 <p>A master tag also be a synonym tag.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sourceTag: tag3
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sourceTag: tag3
 masterTag: tag5
 </code></pre></div></div>
 

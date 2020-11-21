@@ -1,4 +1,4 @@
-I"%<p><strong>Properties of Systems</strong>
+I"K<p><strong>Properties of Systems</strong>
 Real-World Performance. You should be familiar with the speed of everything your computer can do, including the relative performance of RAM, disk, SSD and your network.</p>
 
 <p>Concurrency. Do you understand threads, deadlock, and starvation? Do you know how to parallelize algorithms? Do you understand consistency and coherence?</p>
@@ -137,8 +137,8 @@ It can be seductive to over-fragment a system, and suddenly have hard-to-debug m
     </tr>
     <tr>
       <td><strong>Schema evolution</strong> Example: change from column fullName to separate columns userFirstName and userSecondName</td>
-      <td><code class="highlighter-rouge">ALTER TABLE users ADD COLUMN firstName text; UPDATE users SET firstName = split_part(fullName, ` `,1) UPDATE users</code></td>
-      <td><code class="highlighter-rouge">if (user &amp;&amp; user.fullName){ user.firstName = user.fullName.split(" ")[0] }</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ALTER TABLE users ADD COLUMN firstName text; UPDATE users SET firstName = split_part(fullName, ` `,1) UPDATE users</code></td>
+      <td><code class="language-plaintext highlighter-rouge">if (user &amp;&amp; user.fullName){ user.firstName = user.fullName.split(" ")[0] }</code></td>
     </tr>
     <tr>
       <td> </td>
