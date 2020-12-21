@@ -1,0 +1,102 @@
+I"�"<h1 id="a-guide-to-secret-management">A Guide to Secret Management</h1>
+
+<p>Secrets could be passwords, keys, certificates, sensitive environment data or any other custom data that a developer wants to protect e.g a database name, the administrator username, etc.</p>
+
+<blockquote>
+  <p>“Often one has, as part of their cluster, a database of sorts which contains all the configuration and somehow interacts with both TF and Ansible. I don’t know how it works exactly, just that it’s a thing. Consul is a popular one; it’s a key-value DB that I presume TF has a provider for. I guess Ansible can just talk to it natively” - A senior developer at Sanger</p>
+</blockquote>
+
+<p>Running a Docker container in production should be the assembly of an image with various configuration and secrets. It doesn’t matter if you are running this container in Docker, Kubernetes, Swarm or another orchestration layer, the orchestration platform should be responsible for creating containers by assembling these parts into a running container.</p>
+
+<h2 id="anti-pattern-passing-environment-variables-through-cli-docker-compose-etc">Anti-Pattern: Passing Environment variables (through CLI, Docker-Compose etc.)</h2>
+
+<p>(https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/)</p>
+
+<p>It’s usual to configure connection data, including credentials, using environment variables</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>docker service create <span class="se">\</span>
+ <span class="nt">--name</span> my-service <span class="se">\</span>
+ <span class="nt">-e</span> <span class="nv">DB_HOST</span><span class="o">=</span>my-db-service <span class="se">\</span>
+ <span class="nt">-e</span> <span class="nv">DB_USER</span><span class="o">=</span>my-db-user <span class="se">\</span>
+ <span class="nt">-e</span> <span class="nv">DB_PASS</span><span class="o">=</span>my-password <span class="se">\</span>
+ alpine <span class="k">while</span>
+</code></pre></div></div>
+
+<p>This allows you to make it portable, you just need to change the environment variables to port the same image from development, to staging, to production or anywhere else.
+But it has a drawback, you are making “public” your connection credentials and anybody with read access to your cluster could get your data:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>docker service inspect my-service <span class="nt">--format</span> <span class="s1">''</span> | jq
+<span class="o">[</span>
+  <span class="s2">"DB_HOST=my-db-service"</span>,
+  <span class="s2">"DB_USER=my-db-user"</span>,
+  <span class="s2">"DB_PASS=my-password"</span>
+
+
+
+<span class="nv">$ </span>docker <span class="nb">exec</span> <span class="nt">-it</span> <span class="se">\</span>
+    <span class="si">$(</span>docker ps <span class="nt">--filter</span> <span class="s2">"name=my-service."</span> <span class="nt">-q</span><span class="si">)</span> <span class="se">\</span>
+    <span class="nb">printenv</span> | <span class="nb">grep </span>DB_
+<span class="nv">DB_HOST</span><span class="o">=</span>my-db-service
+<span class="nv">DB_USER</span><span class="o">=</span>my-db-user
+<span class="nv">DB_PASS</span><span class="o">=</span>my-password
+</code></pre></div></div>
+<h2 id="anti-pattern-embed-configuration-or-secrets-in-docker-images--insecure-">Anti-Pattern: Embed configuration or secrets in Docker Images  (INSECURE: )</h2>
+
+<p><a href="https://medium.com/@mccode/dont-embed-configuration-or-secrets-in-docker-images-7b2e0f916fdd">Don’t do this</a>. This makes the image either insecure (if it is uploaded to a centralised repository like DockerHub), or unusable (if it is built in a local repository everytime). These values don’t belong in the image, they belong only in the running container.</p>
+
+<h2 id="anti-pattern--copying-a-configuration-file-and-injecting-it-manually">Anti-Pattern:  Copying a Configuration File and Injecting it Manually</h2>
+
+<p>This is not only tedious, but doesn’t work well with swarm since the services can be scheduled on any host in an automated way, so injection of config is not always possible.</p>
+
+<h2 id="bind-mount-secrets-to-containers">Bind Mount Secrets to Containers.</h2>
+
+<ul>
+  <li>
+    <p>If you bind mount a host path into your service’s containers, the path must exist on every swarm node. The Docker swarm mode scheduler can schedule containers on any machine that meets resource availability requirements and satisfies all constraints and placement preferences you specify. So you have to make sure the path is available to every node in the cluster the task can be scheduled to. But even with this approach container can be scheduled to a node with no or outdated data. So it is better to pin services to concrete nodes.</p>
+  </li>
+  <li>(IMPOSSIBLE WITH HOST MOUNTED VOLUMES (Cinder Service) .</li>
+  <li>Might be POSSIBLE WITH “Cluster filesystem” like CEPH - but how? )</li>
+  <li>Bind Mounting to container Config files (e.g. sourcing hgi-openrc.sh at runtime. But this should be available to the docker container through a bind mounted volume, e.g.) Bindmounting issues in swarm: cannot be done/has to be done on all nodes.  </li>
+</ul>
+
+<h2 id="using-an-configuration-management-solution-this-can-be-an-internal-config-management-service-etcd-etcd-is-a-distributed-reliable-key-value-store-or-an-external-service">Using an configuration management solution. This can be an internal config management service (etcd: etcd is a distributed reliable key-value store ), or <a href="https://gist.github.com/maxvt/bb49a6c7243163b8120625fc8ae3f3cd">an external service</a></h2>
+
+<h3 id="ansible-vault">Ansible Vault</h3>
+
+<p>Ansible Vault is a feature of ansible that allows you to keep sensitive data such as passwords or keys in encrypted files, rather than as plaintext in playbooks or roles. These vault files can then be distributed or placed in source control.
+This is Ansible’s built in secret management system, based on encrypting secrets into a file. Its usage can be more general than Chef’s encrypted data bags, as it can be applied to tasks, handlers, etc. and not just to variables; but it is not transparent, in the sense that some tasks will be configured differently when encryption is used. A command line tool is provided to manage the process, and the suggested workflow is to check the encrypted files into source control. There does not appear to be a way to have more than one password for a file, or to define different types of access to a secret, or to audit access.
+If you are using Ansible and your main goal is to get the secrets out of plaintext files, this would probably be your natural choice.</p>
+
+<p>There are many ways that a container can be provided secrets and configuration at runtime</p>
+
+<h3 id="docker-secrets">Docker secrets.</h3>
+
+<p>Docker Secrets is only available in the Swarm mode, so standalone containers can not use this feature/ Datacenter Operating System, Kubernetes and other orchestration technologies have their own integrated secrets management solutions. Managers in Docker Swarm act as an authoritative delegation to coordinate secrets management.
+When a user adds a new secret to a Swarm cluster, this secret is sent to a manager using a TLS connection.</p>
+
+<h3 id="kubernetes">Kubernetes</h3>
+
+<p>Switch to Kubernetes and take advantage of automated volume provisioning using multiple backends via Storage classes and claims.</p>
+
+<p>￼</p>
+
+<p>References:</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=OUSvv2maMYI&amp;feature=youtu.be">Video</a></li>
+  <li><a href="https://www.hashicorp.com/resources/securing-container-secrets-vault">Link</a></li>
+  <li><a href="https://github.com/moby/moby/issues/26944">Link</a></li>
+  <li><a href="https://github.com/moby/moby/issues/24430">Link</a></li>
+  <li><a href="https://github.com/docker/compose/issues/5523">Link</a></li>
+  <li>[Sample Docker Swarm Terraform Script with AWS](https://github.com/koslibpro/tf-aws-docker-swarm/blob/master/swarm.tf </li>
+  <li><a href="https://read.acloud.guru/deploy-a-docker-swarm-cluster-on-gcp-with-terraform-dc1c40bb062e">Sample Docker Swarm Terraform Script with GCP</a></li>
+</ul>
+
+<p>How to expand secret to expand into env variables?</p>
+
+<ul>
+  <li>(https://stackoverflow.com/questions/48094850/docker-stack-setting-environment-variable-from-secrets)</li>
+  <li><a href="https://medium.com/lucjuggery/from-env-variables-to-docker-secrets-bc8802cacdfd">From Env Variables to Docker Secrets</a></li>
+  <li><a href="https://medium.com/@basi/docker-environment-variables-expanded-from-secrets-8fa70617b3bc">Docker environment variables expanded from secrets</a></li>
+</ul>
+:ET
