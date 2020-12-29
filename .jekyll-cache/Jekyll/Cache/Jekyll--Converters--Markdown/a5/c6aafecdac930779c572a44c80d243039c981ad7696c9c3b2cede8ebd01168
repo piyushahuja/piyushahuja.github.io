@@ -1,12 +1,12 @@
-I"�<p>I joined Opera, a multinational big-data analytics firm, after graduating from IIT Delhi. It was an entry-level role as an analytics specialist and my first full-time job.</p>
+I"h<p>I joined Opera, a multinational big-data analytics firm, after graduating from IIT Delhi. It was an entry-level role as an analytics specialist and my first full-time job.</p>
 
 <p>Opera offered some freedom to choose the team which you wanted to join. After some deliberatiom, I chose to join Lalit Bansal in the Global Markets division. The role was product-oriented.  Our flagship product was a cloud-based application suite, <a href="https://www.operasolutions.com/knowledge-base/product-sheet/mobiuss-%E2%80%94-why-take-unnecessary-chances-risk#">Mobiuss</a>, which enabled portfolio construction, valuation and risk management for mortgage markets.</p>
 
 <p><strong>Mobiuss</strong></p>
 
-<p>Mobiuss was actually a collection of web-based products.  Mobiuss Resi catered to Residential Whole Loans, Mobiuss RMBS for residential mortgage backed securities,<sup id="fnref:RMBS"><a href="#fn:RMBS" class="footnote">1</a></sup> and Mobiuss CRE for Commercial Real Estate. Our clients were investment managers in big banks (e.g. Deutsche Bank) who were interested in valuating portfolios of financial instruments based on their risk profile.</p>
+<p>Mobiuss was actually a collection of web-based products.  Mobiuss Resi catered to Residential Whole Loans, Mobiuss RMBS for residential mortgage backed securities,<sup id="fnref:RMBS" role="doc-noteref"><a href="#fn:RMBS" class="footnote">1</a></sup> and Mobiuss CRE for Commercial Real Estate. Our clients were investment managers in big banks (e.g. Deutsche Bank) who were interested in valuating portfolios of financial instruments based on their risk profile.</p>
 
-<p>A client would upload a portfolio of loans or mortgage backed securities, and they they would see our forecast of their performance under different macroeconomic scenarios. The user could also adjust the granularity of the data: whether it is loan level or aggregated. For each loan, our algorithms would predict the key attributes of default rate, delinquencies, loss severity, prepayment including several others. <sup id="fnref:aurora"><a href="#fn:aurora" class="footnote">2</a></sup></p>
+<p>A client would upload a portfolio of loans or mortgage backed securities, and they they would see our forecast of their performance under different macroeconomic scenarios. The user could also adjust the granularity of the data: whether it is loan level or aggregated. For each loan, our algorithms would predict the key attributes of default rate, delinquencies, loss severity, prepayment including several others. <sup id="fnref:aurora" role="doc-noteref"><a href="#fn:aurora" class="footnote">2</a></sup></p>
 
 <p>My responsibilities were varied.</p>
 
@@ -38,13 +38,13 @@
 
 <p>I worked at Opera for six months - after which I had to leave to start my preparations for Oxford. Even so, in that brief stint, I learnt a lot. I learnt how to form assumptions and extract the relevant data for macroeconomic analyses, how web-based products work behind the scenes, and how large swaths of data can be used for forecasting.</p>
 
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:RMBS">
-      <p>A residential mortgage-backed security (RMBS) is a financial represents unwhich cash yields are paid to investors. These cash yields are supported by cash payments received from homeowners who pay interest and principal according to terms agreed to with their lenders. The  cash flow received from individuals are pooled and paid out to investors with with waterfall priorities. This enable investors to become comfortable with the certainty of receipt of cash at any point in time. RMBS are used as a funding instrument created by the originator of the mortgage loan without cross-collateralizing individual loans and mortgages - because it would be impossible to receive permission from individual homeowners. <a href="#fnref:RMBS" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:RMBS" role="doc-endnote">
+      <p>A residential mortgage-backed security (RMBS) is a financial represents unwhich cash yields are paid to investors. These cash yields are supported by cash payments received from homeowners who pay interest and principal according to terms agreed to with their lenders. The  cash flow received from individuals are pooled and paid out to investors with with waterfall priorities. This enable investors to become comfortable with the certainty of receipt of cash at any point in time. RMBS are used as a funding instrument created by the originator of the mortgage loan without cross-collateralizing individual loans and mortgages - because it would be impossible to receive permission from individual homeowners. <a href="#fnref:RMBS" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:aurora">
-      <p>This was very similar to the work I later did at Aurora. Just replace financial portfolios with energy power plants, financial instrument type  by power plant type, volatility in house prices with volatility in power generation, portfolio valuation with electricity price. <a href="#fnref:aurora" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:aurora" role="doc-endnote">
+      <p>This was very similar to the work I later did at Aurora. Just replace financial portfolios with energy power plants, financial instrument type  by power plant type, volatility in house prices with volatility in power generation, portfolio valuation with electricity price. <a href="#fnref:aurora" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>

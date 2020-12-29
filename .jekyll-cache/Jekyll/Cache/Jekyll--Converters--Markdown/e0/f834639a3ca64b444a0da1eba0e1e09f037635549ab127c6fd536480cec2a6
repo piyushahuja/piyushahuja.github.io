@@ -1,4 +1,4 @@
-I"�<p>Consider the careers chosen by most graduates of an elite education: law, medicine, consulting, academia, finance, and engineering. Climbing the meritocratic ladder in these fields requires incredible smarts, work-ethic and competitiveness. They demand complete and utmost devotion in most of your 20s and early 30s.   The rewards are a comfortable income, intelligent coworkers, and prestigious careers in institutions that take care of life’s basic needs.  An honorable existence in the upper echelons of the middle class.</p>
+I"�<p>Consider the careers chosen by most graduates of an elite education: law, medicine, consulting, academia, finance, and engineering. Climbing the meritocratic ladder in these fields requires incredible smarts, work-ethic and competitiveness. They demand complete and utmost devotion in most of your 20s and early 30s.   The rewards are a comfortable income, intelligent coworkers, and prestigious careers in institutions that take care of life’s basic needs.  An honorable existence in the upper echelons of the middle class.</p>
 
 <p><strong>The 10 Year Ladder</strong></p>
 
@@ -6,8 +6,8 @@
   <thead>
     <tr>
       <th>Year</th>
-      <th>Law<sup id="fnref:Law"><a href="#fn:Law" class="footnote">1</a></sup></th>
-      <th>Medicine<sup id="fnref:Medicine"><a href="#fn:Medicine" class="footnote">2</a></sup></th>
+      <th>Law<sup id="fnref:Law" role="doc-noteref"><a href="#fn:Law" class="footnote">1</a></sup></th>
+      <th>Medicine<sup id="fnref:Medicine" role="doc-noteref"><a href="#fn:Medicine" class="footnote">2</a></sup></th>
       <th>Academia</th>
       <th>Consulting</th>
     </tr>
@@ -213,7 +213,7 @@
       <td>0</td>
     </tr>
     <tr>
-      <td>Lifestyle<sup id="fnref:luxury"><a href="#fn:luxury" class="footnote">3</a></sup></td>
+      <td>Lifestyle<sup id="fnref:luxury" role="doc-noteref"><a href="#fn:luxury" class="footnote">3</a></sup></td>
       <td>20%</td>
       <td>10%</td>
     </tr>
@@ -226,16 +226,16 @@
 </table>
 
 <hr />
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:Law">
-      <p>Generally, it will take eight or more years to make partner at a large commercial firm. the senior partner is elected by the firm’s partners to serve a three-year term and is typically re-elected until they step down from the role or someone else voices an interest in the position. the Magic Circle - comprised of London’s five most prestigious law firms - currently offer first year trainees salaries in the region of £45,000 to £48,000. Once trainees reach their second year salaries rise to between £51,000 and £54,000. <a href="#fnref:Law" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:Law" role="doc-endnote">
+      <p>Generally, it will take eight or more years to make partner at a large commercial firm. the senior partner is elected by the firm’s partners to serve a three-year term and is typically re-elected until they step down from the role or someone else voices an interest in the position. the Magic Circle - comprised of London’s five most prestigious law firms - currently offer first year trainees salaries in the region of £45,000 to £48,000. Once trainees reach their second year salaries rise to between £51,000 and £54,000. <a href="#fnref:Law" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:Medicine">
-      <p>Newly qualified doctors enter a two-year Foundation Programme, where they undertake terms in a variety of different specialities. These must include training in General Medicine and General Surgery but can also include other fields such as Paediatrics, Anaesthetics or General Practice. Following completion of the Foundation Programme a doctor can choose to specialise in one field. All routes involve further assessment and examinations. To train as a general practitioner (GP), after completing the Foundation Programme, a doctor must complete eighteen months of posts in a variety of hospital specialities - often including paediatrics, psychiatry, geriatrics and obstetrics &amp; gynaecology. The trainee also has to spend eighteen months as a General Practice Speciality Registrar - a trainee based in a GP practice. After completing this training and the relevant exams, the doctor can become a GP and can practise independently. <a href="#fnref:Medicine" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:Medicine" role="doc-endnote">
+      <p>Newly qualified doctors enter a two-year Foundation Programme, where they undertake terms in a variety of different specialities. These must include training in General Medicine and General Surgery but can also include other fields such as Paediatrics, Anaesthetics or General Practice. Following completion of the Foundation Programme a doctor can choose to specialise in one field. All routes involve further assessment and examinations. To train as a general practitioner (GP), after completing the Foundation Programme, a doctor must complete eighteen months of posts in a variety of hospital specialities - often including paediatrics, psychiatry, geriatrics and obstetrics &amp; gynaecology. The trainee also has to spend eighteen months as a General Practice Speciality Registrar - a trainee based in a GP practice. After completing this training and the relevant exams, the doctor can become a GP and can practise independently. <a href="#fnref:Medicine" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:luxury">
-      <p>Combining stuff like clothes, haircare, furniture, gym, health, entertainment, gadgets, travel and gifts under one category. <a href="#fnref:luxury" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:luxury" role="doc-endnote">
+      <p>Combining stuff like clothes, haircare, furniture, gym, health, entertainment, gadgets, travel and gifts under one category. <a href="#fnref:luxury" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
