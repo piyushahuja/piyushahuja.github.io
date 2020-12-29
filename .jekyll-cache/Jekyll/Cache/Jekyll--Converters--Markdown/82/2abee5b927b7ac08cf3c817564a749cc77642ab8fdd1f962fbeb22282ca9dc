@@ -1,4 +1,4 @@
-I"�~<center><img src="files/tech/frontend.jpg" alt="Frontend" width="600" height="400" /></center>
+I"�~<center><img src="files/tech/frontend.jpg" alt="Frontend" width="600" height="400" /></center>
 
 <p>Rendering is the process of gathering data (if any) and load the associated templates (or just send the output directly). Then apply the gathered data to the associated templates. The final output is sent to the user.   This concept is quite the same for both client and server.</p>
 
@@ -139,7 +139,7 @@ Such applications generate whole content in the browser runtime.</p>
 <p>But we do not merely want a static painting, we want something we can interact with. We want events to happen when we click buttons. We want popup windows and animations (example: transitions from Like-&gt; Unlike which happen when we click on “Like” button on Facebook).</p>
 
 <ul>
-  <li>Apply JS code to the elements of the tree. JS allows triggers to happen inside the web browser. Contents on the page can be manipulated by js code into something that looks very different from the content in source code.<sup id="fnref:crawlers"><a href="#fn:crawlers" class="footnote">1</a></sup></li>
+  <li>Apply JS code to the elements of the tree. JS allows triggers to happen inside the web browser. Contents on the page can be manipulated by js code into something that looks very different from the content in source code.<sup id="fnref:crawlers" role="doc-noteref"><a href="#fn:crawlers" class="footnote">1</a></sup></li>
 </ul>
 
 <p> 
@@ -308,10 +308,10 @@ For hot reloading you’ll need two main middlewares:</p>
 <hr />
 
 <p>Vue: One important thing to note is that separation of concerns is not equal to separation of file types.   In modern UI development, we have found that instead of dividing the codebase into three huge layers that interweave with one another (HTML, CSS and JS), it makes much more sense to divide them into loosely-coupled components and compose them. Inside a component, its template, logic and styles are inherently coupled, and collocating them actually makes the component more cohesive and maintainable.</p>
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:crawlers">
-      <p>Source code is not a good representation of what it looks like to a web browser; a page load (which is the rendered version) is a better representation. Search engine crawlers earlier used to look at pre-rendered html, now they look at fully rendered. <a href="#fnref:crawlers" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:crawlers" role="doc-endnote">
+      <p>Source code is not a good representation of what it looks like to a web browser; a page load (which is the rendered version) is a better representation. Search engine crawlers earlier used to look at pre-rendered html, now they look at fully rendered. <a href="#fnref:crawlers" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>

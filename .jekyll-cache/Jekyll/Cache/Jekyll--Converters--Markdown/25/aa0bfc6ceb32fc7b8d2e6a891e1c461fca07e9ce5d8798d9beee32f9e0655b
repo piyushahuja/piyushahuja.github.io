@@ -1,4 +1,4 @@
-I"�V<p><strong>Activities to Practice</strong></p>
+I" W<p><strong>Activities to Practice</strong></p>
 
 <ul>
   <li>HIIT</li>
@@ -82,7 +82,7 @@
 
 <p>You only learn from deliberative practice.</p>
 
-<p>A mistake is an evaluation of an action. An action is in your control. The evaluation should be left to others. <sup id="fnref:interview"><a href="#fn:interview" class="footnote">1</a></sup></p>
+<p>A mistake is an evaluation of an action. An action is in your control. The evaluation should be left to others. <sup id="fnref:interview" role="doc-noteref"><a href="#fn:interview" class="footnote">1</a></sup></p>
 
 <p>“Fake it until you make it” gets it wrong. It makes you feel like an impostor. If you’re mindful of faking it, you’re not practicing the thing, but practicing faking it. If you learn to act like someone who is a good storyteller, you won’t be a good storyteller, but you’d be a good actor.</p>
 
@@ -309,10 +309,10 @@ I know a little bit about the “sales funnel.”…you need 500 cold calls to m
   <li><a href="https://news.ycombinator.com/item?id=24120275">Hackernews Discussion 2</a></li>
 </ul>
 
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:interview">
-      <p>If you’re interview prepping, and don’t see a solution immediately, it’s easy to think you’re not good enough, and that distracts you from finding a solution. That doesn’t happen if you’re doing it for fun. Interview questions are easy if you are confident in your abilities, have all the time in the world, and look at problems as a game. <a href="#fnref:interview" class="reversefootnote">&#8617;</a></p>
+    <li id="fn:interview" role="doc-endnote">
+      <p>If you’re interview prepping, and don’t see a solution immediately, it’s easy to think you’re not good enough, and that distracts you from finding a solution. That doesn’t happen if you’re doing it for fun. Interview questions are easy if you are confident in your abilities, have all the time in the world, and look at problems as a game. <a href="#fnref:interview" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
