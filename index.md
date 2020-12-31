@@ -38,8 +38,8 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 **I enjoy learning, teaching, and creative collaborations.**
 
-
- One of the best way to learn is to teach it to someone. I previously built a product that allows one to organize one-on-one meetups with people for learning-and-teaching. Give it a try! Click the links [for iOS]((http://itunes.com/apps/platonia)) and  [for Android](https://play.google.com/store/apps/details?id=com.platonia_client) to download.
+<!-- 
+ One of the best way to learn is to teach it to someone. Platonia allows one to organize one-on-one meetups with people for learning-and-teaching. Give it a try! Here's the [download link for iOS]((http://itunes.com/apps/platonia)) and here's the [download link for Android](https://play.google.com/store/apps/details?id=com.platonia_client). -->
 
 <!-- - **Teaching:**  I am interested in teaching or mentoring opportunies in philosophy, algorithms, and creative writing.
 
