@@ -11,6 +11,12 @@ comments: true
 
 ---
 
+---
+
+Thanks to Evan Reas and Derek Andersen for the ideas.
+
+----
+
 > There are not hundreds of millions of people in the world who walk outside every day wanting to meet somebody new that day. The excitement is around connecting people in a shared location such that IF they were to decide to meet in real life, they would be able to. This may not happen right after they connect online, but the possibility that they could is compelling for every person in the world. Human beings have an evolutionary urge to connect with other humans, in person, going back to clansmen survival instincts in the beginning of mankind. [Evan Reas of Circle]( https://www.quora.com/How-close-is-anybody-to-solving-the-social-networking-problem-of-connecting-new-people)
 
 > It is already happening. It will start to happen more in real time and live over the next few years because people have their location info with them all the time on their phones. Of important note is that the view that the holy grail is getting people to meet right here right now is wrong and that should be looked at as one necessary and awesome feature but not a killer application.

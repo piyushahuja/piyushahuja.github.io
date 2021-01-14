@@ -1,0 +1,106 @@
+I"�/<p>Thanks to Andrew Chen, Sangeet Paul Choudary, Venkatesh Rao, Gina Gotthilf, and Jerry Nettuno.</p>
+
+<hr />
+
+<p><strong>Seed the community on standalone mode</strong>.
+Essentially, a user should be able to derive value out of the product even when other users aren’t on it. A product that has standalone value irrespective of the network is more likely to get traction among at least one set of users.</p>
+
+<p><strong>Examples</strong></p>
+
+<p>Instagram - pictures and filters</p>
+
+<p><em>Square</em>: the standalone credit card swiping value proposition was enough for merchants to start adopting the product. The consumer side of the equation is still kicking in while the merchants are already engaged. <a href="http://platformed.info/seeding-platform-standalone-square-opentable-delicious/">Square</a></p>
+
+<p>Service booking systems like <em>OpenTable</em>: To seed usage among one side of the network (restaurants), the company distributes booking management systems which the restaurant can use as standalone software, before the actual network is built by opening out the consumer side.</p>
+
+<hr />
+
+<p><strong>Create tools of self-expression which are really easy to use</strong></p>
+
+<p>No matter what your platform does, users should be able to create something there which they would want to spread. A user may not want to spread the word about your platform but would definitely want to spread the word about what she created on it. E.g. YouTube grows everytime a video goes viral because users personally invest in marketing it. This is marketing that scales with adoption and super-effective.</p>
+
+<p>Kickstarter and Change.org allow users to spread their cause to the whole world. Users are vested in marketing it. Forget gamification, forget viral design… there is no bigger incentive for users than the ability to spread their creations, beliefs and causes in a manner that wasn’t possible before.<a href="http://platformed.info/hacking-your-way-to-critical-mass/">More on this</a>)</p>
+
+<p>If you’re building for user-generated content, ensure that users create good content and are appropriately motivated:  Usually, only about 1-10% of your community actively contribute content. To keep creating value, you need to ensure you cater to their motivations. <a href="http://platformed.info/creative-platform-threadless-500px-dribbble-instagram/">A primer on motivations</a></p>
+
+<p>Be shareable and embeddable</p>
+
+<p>Facebook sharing was great but users have, over time, become desensitized to what gets shared on Facebook. Instead, ensure that what gets created on your platform can get shared where your savvy users want to share it, namely on blogs and niche forums. YouTube got traction because MySpace users (musicians) needed a way to share videos and YouTube offered them a solution. <a href="http://platformed.info/destination-distribution-product-traction-widget/">More on shareable widgets</a></p>
+
+<hr />
+
+<p><strong>Subsidies product features for one side of the matrket</strong></p>
+
+<hr />
+
+<p><strong>Manually Recruit high value users from micro-market</strong></p>
+
+<p>Use money or brute force to hunt for the rare chicken that did not come from an egg, or the rare egg that did not come from a chicken. If you look hard enough, you might find a good job without showing evidence of experience. If you make enough pitches, you might find the one customer willing to make a first-lemming-like leap of faith and adopt a new product without social proof. Many chicken-egg problems that are constructed out of relatively arbitrary primitives (such as the “job” and “experience” pair) are solvable this way if you have enough energy. The more truly atomic the primitive categories are (more like real chickens and eggs), the more painful this process is. This is my least favorite solution. This is also the most widespread solution people attempt.</p>
+
+<p>Facebook’s early users were at Harvard, Yelp’s early users were the tech-savvy crowd of San Francisco, Quora and LinkedIn’s early users were the VCs and startups of Silicon Valley. Find a micro-market which contains your early adopters. <a href="http://platformed.info/facebook-harvardard-seeding-growth-traction/">Facebook seeding at harvard</a>)</p>
+
+<hr />
+
+<p><strong>Fake Users And Activity</strong></p>
+
+<p>When users come initially to your platform and there’s nothing there, they see little value in using it. Platform usage requires investment; you set up a profile, you browse around… it takes time. Users won’t invest if they don’t see activity. Well, if there isn’t any activity, create some. Reddit did it. Paypal did it. A lot of marketplaces do it. Once you create some activity, more users start coming over. <a href="http://platformed.info/seeding-youtube-megaupload-paypal-reddit/">More on this</a></p>
+
+<p>As a few other people have said, the only possible way you’re going to have a popular dating app is by having a lot of fake users in the beginning.
+When Tinder first launched, at least 90% of the profiles I came across were, after a little investigation, very obviously fake. I became suspicious after being “matched” with every single attractive girl I “liked” after having just created a profile. These “girls” had the mysterious ability to travel vast distances in extraordinarily small amounts of time. One second, a girl’s location would be 7 miles away, the next, she was 1407 miles away - incredible. If they responded at all to a message, they were vague, short answers that had nothing to do with what I was saying. I also received 10s of the exact same messages from different girls. They weren’t trying to get me to click links or buy things. Their sole purpose seemed to be to create the illusion that Tinder was full of gorgeous women who wanted me. After a while of using the app, the fake profiles dropped off, and I seemed to encounter more real people. I thought initially, that this was because they had gotten enough users to show me real people, but I’ve now noticed that any time I use the app in a new area, I’m flooded with fake profiles and fake messages all over again.</p>
+
+<p>Example</p>
+
+<ol>
+  <li>download pictures of female Harvard students using wget and apache index.</li>
+  <li>livejournal your progress.</li>
+  <li>tell your friends to look at the pictures.</li>
+</ol>
+
+<hr />
+
+<p><a href="https://www.ribbonfarm.com/2011/09/29/ubiquity-illusions-and-the-chicken-egg-problem/">Create Illusion of Ubiquity</a></p>
+
+<p>About the three-contacts and three-media: it appeared in social aplications of graph theory as clustering mechanism – if two of Your friends know some certain person, it is highly probable, that You’ll know him too, given sufficent amount of time. The time needed seems to get logarithmically shorter, if more of Your friends know that certain individual. Models of social networks are made this way. I also guess, that Facebook’s friends suggestions use this principle, but from the opposite point of view than successful marketing strategy. Being a marketer, You should aim for a few people in every target group, they’ll “cluster” the rest. The key is spending just enough resources to get Your “product” to just enough people to trigger a phase-change in the group – so that they’ll provoke the rest to get the product. Your Kindle example was good one. I work with proffesional photographers and my company didn’t spend too much on marketing – photographers in Poland are highly inter-connected society, so supplying our products to the ones that are in this market from a long period of time triggered the phase-change – we became recognised and valued company quickly and almost without any costs.</p>
+
+<p>A great example is TD Bank. When I set up a business bank account, I did some online research that showed that TD Bank was generally well regarded by small business owners. Driving around on the East Coast, I found TD Bank ATMs and branches all over the place. Their slogan, America’s Most Convenient Bank added to the illusion of ubiquity. So I signed up.</p>
+
+<p>Hot” Silicon Valley startups that have everybody crazily scrambling for beta invites are an example. The beta invite infrastructure is just the tip of the iceberg of perception management activity. You can orchestrate an entire illusion of hidden connections, powerful people trying to get in early, and hidden mystery that not everybody is privy to. For the special case of the Cool New Kid on the Block, you can signal an “enigmatic arrival” by concentrating the hype buildup in time. The sign that you are succeeding is the comment, “hey, lately I’ve been hearing about you everywhere.”</p>
+
+<hr />
+
+<p><strong>Gamify invititing within product</strong></p>
+
+<p>For instance, you could have some way of promoting users that had brought more users onto the site, e.g. if Alice gets half a dozen of her friends to sign up then Bob gets to see Alice listed prominently in the search results. The incentive for Alice could run deeper than that, maybe only if she has got her friends to join will she be able to see all of Bob’s pictures or learn about his sexual tastes. There could also be advantages for Alice’s friends, because Alice introduced them to the site they might get the advantages Alice has for a limited period of time.</p>
+
+<p>As soon as you ‘gamify’ people will cheat, e.g. in the above example, Alice might create half a dozen accounts, one for each of her various email addresses. Obviously you would need a method to make this not happen, and, if you solved it, you might have a competitive advantage. However, how long would you have this advantage for before some developer at match.com cloned it?</p>
+
+<hr />
+
+<p><strong>Have produces be consumers</strong></p>
+
+<p><em>Make the two-sided network one-sided:</em> Target a specific group which has both the consumers and producers of your service and where the lines between them blur. Even if they are two distinct types of users, the members of this group fulfill both requirements, or at least some of them do. This is important because the WOM required to spread the word among the producers simultaneously spreads the word among the consumers as well since they’re part of the same group.</p>
+
+<p>Etsy This is what worked for <em>Etsy</em>. People who make crafts typically like to buy from other craftspeople. This really helped them target <em>exactly one</em> group and spark transactions within that successfully before branching out. 
+<a href="http://platformed.info/two-sided-market-seeding/">Two sided seeding</a></p>
+
+<hr />
+
+<p>Anything from privileged information to exclusive access to a key distribution channel, to owning the rights to a key invention, counts as an unfair advantage and a basis for strategy.Form alliances and leverage multiple channels/networks: * Open Handset Alliance. Show you’re committted with heavy upfront investment * Microsoft with XBox.</p>
+
+<p>Be the first to get onto a new user acquisition platform: There is a window when a new channel launches when users are still gullible enough to be harvested. Yelp did it with SEO, Zynga did it with Facebook. The same tactics don’t work when both the users and the channel get more sophisticated later on. A detailed analysis of this cycle at: <a href="http://platformed.info/user-acquisition-content-discovery-platform-virality-spam/">False positives and the cycle of free user acquisition platforms</a></p>
+
+<hr />
+
+<p><a href="https://twitter.com/andrewchen/status/1016371636260495360">Andrew Chen</a></p>
+
+<p><a href="https://www.quora.com/What-are-key-strategies-to-acquire-first-100K-users-with-zero-marketing-budget">Strategies for irst 100k users with zero marketing budget</a></p>
+
+<p><a href="https://www.nfx.com/post/19-marketplace-tactics-for-overcoming-the-chicken-or-egg-problem">19 Tactics</a></p>
+
+<p><a href="http://platformed.info/yelp-craigslist-padmapper-two-sided-marketplace/">Two Sided Marketplace</a></p>
+
+<p><a href="https://mixergy.com/interviews/schedulicity-with-jerry-nettuno/">Schedulicity</a></p>
+
+<p><a href="https://growthhackers.com/amas/live-oct-6-ama-with-gina-gotthilf-vp-of-growth-and-marketing-at-duolingo">Duoloingo</a></p>
+
+:ET
