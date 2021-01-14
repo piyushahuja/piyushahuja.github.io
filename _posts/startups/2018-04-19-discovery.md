@@ -13,7 +13,7 @@ comments: true
 
 ---
 
-Thanks to Evan Reas and Derek Andersen for the ideas.
+Thanks to Evan Reas and Derek Andersen.
 
 ----
 
