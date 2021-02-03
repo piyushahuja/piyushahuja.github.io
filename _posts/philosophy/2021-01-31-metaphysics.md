@@ -62,6 +62,7 @@ Universals are qualities or relations found in two or more entities.[3] As an ex
 
 Philosophers agree that human beings can talk and think about universals, but disagree on whether universals exist in reality beyond mere thought and speech.
 
+# The Mind Body Problem
 
 # Time
 
