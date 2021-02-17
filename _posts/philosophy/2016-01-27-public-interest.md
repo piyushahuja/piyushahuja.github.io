@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title:  Is there such a thing as the public interest?
 date:   2016-01-27 09:00:11
 tag: 

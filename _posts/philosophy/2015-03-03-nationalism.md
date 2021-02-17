@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title:  What counts as a nation?
 date:   2016-03-03 09:00:11
 tag: 

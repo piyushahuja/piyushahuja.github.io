@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title:  Is causation analyzable in terms of counterfactuals?
 date:   2015-02-19 09:00:11
 tag: 

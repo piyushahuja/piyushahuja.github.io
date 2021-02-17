@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title:  Is there a distinctive liberal conception of the good life?
 date:   2016-02-17 09:00:11
 tag: 
