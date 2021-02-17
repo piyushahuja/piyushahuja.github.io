@@ -8,7 +8,7 @@ categories:
     - philosophy
     - metaphysics
 excerpt: 
-permalink: /time
+permalink: /causation
 comments: true
 
 ---
