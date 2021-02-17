@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title: Realism, anti-realism, idealism, materialism and dualism.
 date:   2015-01-30 09:00:11
 tag: 

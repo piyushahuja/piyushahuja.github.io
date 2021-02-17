@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title:  Animals and rights of mentally challenged humans  
 date:   2014-11-23 09:00:11
 tag: 
