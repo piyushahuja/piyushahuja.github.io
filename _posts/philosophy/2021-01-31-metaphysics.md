@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title:  Main Questions in Metaphysics
 date:   2021-01-31 09:00:11
 tag: 

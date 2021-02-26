@@ -1,6 +1,6 @@
 ---
 
-layout: post-journal
+layout: post-normal
 title:  Is consequentialism too demanding?
 date:   2014-10-20 09:00:11
 tag: 
