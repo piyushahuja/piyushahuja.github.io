@@ -86,6 +86,21 @@ Internal vs external onotlogical questions.
 
 # The Mind Body Problem
 
+plato: charito matephor
+aristotle: soul has three parts: growth/nutrition shared with plants, perception shared with animals and reason which is unique to human beings. Things have a Form and function, Purposive and intelligent
+Materialism: pre-socratic philosophers, epicurus, galileo (who wanted to focus on size, shape, color, measurable quantifiable things as being explanations for things which are qualitative (taste, feelings, etc.) , descartes (who defended galileo by compatmentalizing mind/soul as a separate domain, and emphasized maths + observation as a basis for knowing the empirical world - radical idea at time (why should math tell you anything?))
+christian church: attack against eternal truths (and the soul which is in contact with it)
+william blake (not christian): leaves out so much: beauty, imagination etc.
+kant: reconciling materialism with moral experience, in particular free will. 
+diderot: mind is a hapsichord which plays itsef, a book which writes on itself
+churchlands: we can completely replace psychologicla language by materilist language. against: our rich vocabulatory helps us in explaining behavior, predictiong what others would do etc. it cannot be replaced.
+
+Epiphemenalism: if you really introspect, most of the things we do are automatic
+
+challenge: top-down causation, as the mind and will causing thingsi n the physical world (as opposed to epiphenomentalism)
+
+
+
 # Time
 
 **Is it absurd to suppose that only the present exists?** 
