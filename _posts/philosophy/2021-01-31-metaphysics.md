@@ -16,37 +16,37 @@ comments: true
 Realism, anti-realism, idealism, materialism and dualism.
 
 
-# Existence (Ontology)
+# Existence
 
-**Is existence a property of individuals?**
-**Assuming that existence is a property of individuals, are there individuals that lack it?**
+**Is existence a property of individuals? If yes, are there individuals that lack it?**
 
 
-- the relationship between an individual’s essence and its existence. 
-- distinction between accident and essence and that distinction’s relation to contingency and necessity. 
+Useful abstractions to dissect this question: 
 
-All contingent properties are accidents and all essences are necessary.
+* The relationship between an individual’s essence (being) and its existence
 
-**Essential properties**: A thing’s essential properties are inseparable from the bearer, not only in the sense that the property is necessarily had by that object (insofar as that object were to exist), but in the deeper sense that any adequate account of what that object is involves that property; they are part of any adequate definition of the thing or answer to the question ‘What is it?’.
+A thing’s essential properties are inseparable from the bearer, not only in the sense that the property is necessarily had by that object (insofar as that object were to exist), but in the deeper sense that any adequate account of what that object is involves that property; they are part of any adequate definition of the thing or answer to the question ‘What is it?’. e.g. I am essentially a human and perhaps essentially the person I in fact am, if there are individual essences in addition to general essences.
 
-Essential vs necessary: I am essentially a human and perhaps essentially the person I in fact am, if there are individual essences in addition to general essences. I am necessarily identical to something and necessarily such that 2+2=4, but these properties are among my accidents, as they are not part of any adequate account of what I am and what distinguishes me from others. 
+* The distinction between accident and essence and that distinction’s relation to contingency and necessity. 
 
--------
+All essences are necessary and all contingent properties are accidents (not necessary). But there is no strict one-to-one correspondence: there could be necessary properties which are not essential: I am necessarily identical to something and necessarily such that 2+2=4, but these properties are among my accidents, as they are not part of any adequate account of what I am and what distinguishes me from others. 
 
-No, existence is not a property. 
 
-Nothing more to existence than essence: "there is not a space between an articulation of what a thing is and that thing’s existing" (Aristotle)
 
-there is no impression of existence distinct from the impression of an object, which is ultimately on Hume’s view a bundle of qualities. As all of our contentful ideas derive from impressions  (Hume)
 
-Kant:  Thus when I think a thing, through whichever and however many predicates I like (even in its thoroughgoing determination), not the least bit gets added to the thing when I posit in addition that this thing is. For otherwise what would exist would not be the same as what I had thought in my concept, but more than that, and I could not say that the very object of my concept exists”  vs Proponents of the ontological argument argue that the concept of God as an entity with all perfections or a being of which no greater can be conceived entails God’s existence, as existence is a perfection and a being that exists is greater than a being that does not exist. Kant objected that existence is not a property. 
-    - Frege:  existence is not a property of individuals but instead a second-order property—a property of concepts 
-    - Russel: second-order property of propositional functions, to say that dinosaurs do not exist is to say that the property of being a dinosaur is not instantiated; to say that Jean-Baptiste Botul does not exist is to say that some property—say, the property of being a unique post-war critic of Kant and father of Butolism—is not instantiated. In neither case is it to say of some individual that it does not exist, which neither Frege nor Russell thought made sense.
-    - The view that existence is not a property of individuals became the common view in the early 20th Century. the thought, developed most forcefully by Russell, that denying that existence is a first-order property is the only way to avoid the consequence that there are things that do not exist and thus that there is a distinction between being and existing, our second framing question from above. 
+**Position: No, existence is not a property.**
 
-Yes, existence is a property. There are things which do not exist.
+Argument 1 (Aristotle): Nothing more to existence than essence: "there is not a space between an articulation of what a thing is and that thing’s existing" 
 
-One can have an understanding of what a man or a phoenix is without knowing whether it exists. So, existence is something in addition to essence. Existence is not part of most objects’s natures and so those objects can be conceived or thought of separately from their existing. (Aquinas)
+Argument 2 (Hume) There is no impression of existence distinct from the impression of an object, which is ultimately on Hume’s view a bundle of qualities. As all of our contentful ideas derive from impressions 
+
+Argument 3 (Kant) Proponents of the ontological argument argue that the concept of God as an entity with all perfections or a being of which no greater can be conceived entails God’s existence, as existence is a perfection and a being that exists is greater than a being that does not exist. Kant objected that existence is not a property: "Thus when I think a thing, through whichever and however many predicates I like (even in its thoroughgoing determination), not the least bit gets added to the thing when I posit in addition that this thing is. For otherwise what would exist would not be the same as what I had thought in my concept, but more than that, and I could not say that the very object of my concept exists”
+
+Argument 4 (Frege, Russell):  existence is not a property of individuals but instead a second-order property: a property of concepts (Frege). second-order property of propositional functions, to say that dinosaurs do not exist is to say that the property of being a dinosaur is not instantiated; to say that Jean-Baptiste Botul does not exist is to say that some property—say, the property of being a unique post-war critic of Kant and father of Butolism—is not instantiated. In neither case is it to say of some individual that it does not exist, which neither Frege nor Russell thought made sense. The view that existence is not a property of individuals became the common view in the early 20th Century. the thought, developed most forcefully by Russell, that denying that existence is a first-order property is the only way to avoid the consequence that there are things that do not exist and thus that there is a distinction between being and existing, our second framing question from above. 
+
+**Position: Yes, existence is a property. There are things which do not exist.**
+
+Argument: One can have an understanding of what a man or a phoenix is without knowing whether it exists. So, existence is something in addition to essence. Existence is not part of most objects’s natures and so those objects can be conceived or thought of separately from their existing. (Aquinas)
 
 
 Existence is a genuine property of individuals but not universally had (Meinong)
@@ -62,6 +62,7 @@ A sentence like ‘Ronald McDonald does not exist’ either expresses a fully ar
 
 All meaningful singular existentials are true and their negations false. We mistakenly take some singular negative existentials to be true because we conflate or do not sharply distinguish existing from being concrete. The benefit of this account is the simple semantics of proper names and the sparse metaphysics. The cost is revisionism regarding what we mean when we use apparently true singular negative existentials.
 
+
 ------
 
 # Universals and Properties
@@ -69,7 +70,7 @@ All meaningful singular existentials are true and their negations false. We mist
 **Should the properties an object has in common with other objects, such as color and shape, be considered to exist beyond those objects? And if a property exists separately from objects, what is the nature of that existence?**
 
 
-Universals are qualities or relations found in two or more entities.[3] As an example, if all cup holders are circular in some way, circularity may be considered a universal property of cup holders.[4] Further, if two daughters can be considered female offspring of Frank, the qualities of being female, offspring, and of Frank, are universal properties of the two daughters. Many properties can be universal: being human, red, male or female, liquid or solid, big or small, etc.
+Universals are qualities or relations found in two or more entities. As an example, if all cup holders are circular in some way, circularity may be considered a universal property of cup holders. Further, if two daughters can be considered female offspring of Frank, the qualities of being female, offspring, and of Frank, are universal properties of the two daughters. Many properties can be universal: being human, red, male or female, liquid or solid, big or small, etc.
 
 Philosophers agree that human beings can talk and think about universals, but disagree on whether universals exist in reality beyond mere thought and speech.
 
