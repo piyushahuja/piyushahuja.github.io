@@ -1,4 +1,4 @@
-I"�O<p>Jugnoo is a hyperlocal on-demand services startup, headquartered in Chandigarh, India.  I was hired as a product manager for their main offering: an all-in-one mobile application which allowed consumers to order rides, budget meals, restaurant food and grocery on-demand.<sup id="fnref:fatafat" role="doc-noteref"><a href="#fn:fatafat" class="footnote">1</a></sup> At the time I joined, 3 million consumers in about 38 indian cities used the application for rides;   restaurant delivery was active in about 21 cities; grocery delivery was active in Gurgaon and Chandigarh, and budget meals delivery from our in-house kitchen was running in Gurgaon, Jaipur and Chandigarh.</p>
+I"AP<p>Jugnoo is a hyperlocal on-demand services startup, headquartered in Chandigarh, India.  I was hired as a product manager for their main offering: an all-in-one mobile application which allowed consumers to order rides, budget meals, restaurant food and grocery on-demand.<sup id="fnref:fatafat" role="doc-noteref"><a href="#fn:fatafat" class="footnote" rel="footnote">1</a></sup> At the time I joined, 3 million consumers in about 38 indian cities used the application for rides;   restaurant delivery was active in about 21 cities; grocery delivery was active in Gurgaon and Chandigarh, and budget meals delivery from our in-house kitchen was running in Gurgaon, Jaipur and Chandigarh.</p>
 
 <p><strong>Making meal delivery operationally profitable</strong></p>
 
@@ -12,7 +12,7 @@
 
 <p><img src="mealsMarch.jpg" alt="Meals in March" width="600" height="400" /></p>
 
-<p>The unit economics<sup id="fnref:mealsMarch" role="doc-noteref"><a href="#fn:mealsMarch" class="footnote">2</a></sup> for Chandigarh:</p>
+<p>The unit economics<sup id="fnref:mealsMarch" role="doc-noteref"><a href="#fn:mealsMarch" class="footnote" rel="footnote">2</a></sup> for Chandigarh:</p>
 
 <!-- 
 
@@ -121,7 +121,7 @@
 
 <h5 id="menu-planner">Menu Planner</h5>
 
-<p>People who order food online demand consistent quality but also  very quickly get bored if the items are repetetive. So the operations team changed the menu day-to-day and also experimented with new products. <sup id="fnref:newFood" role="doc-noteref"><a href="#fn:newFood" class="footnote">3</a></sup> They would plan their menu such that it certain threshhold constraints of profitability, diversity, and performance.</p>
+<p>People who order food online demand consistent quality but also  very quickly get bored if the items are repetetive. So the operations team changed the menu day-to-day and also experimented with new products. <sup id="fnref:newFood" role="doc-noteref"><a href="#fn:newFood" class="footnote" rel="footnote">3</a></sup> They would plan their menu such that it certain threshhold constraints of profitability, diversity, and performance.</p>
 
 <p>To enable this, we provided the team with a web-based menu planner. The menu planner showed previous sales and costs for each food item and raised alerts when the menu didn’t include, for example, a non-vegetarian dish, or a bread-based dish, or from an item from Chinese cuisine (say).</p>
 
@@ -135,7 +135,7 @@
 
 <p><img src="mealsJune.jpg" alt="Meals in June" width="600" height="400" /></p>
 
-<p>The unit economics are given beow.<sup id="fnref:mealsJune" role="doc-noteref"><a href="#fn:mealsJune" class="footnote">4</a></sup></p>
+<p>The unit economics are given beow.<sup id="fnref:mealsJune" role="doc-noteref"><a href="#fn:mealsJune" class="footnote" rel="footnote">4</a></sup></p>
 
 <!-- >  **Average order value: Rs. 112.8**
 
@@ -218,7 +218,7 @@
 
 <p><strong>Jugnoo Star: Increasing LTV through a subscription product</strong></p>
 
-<p>Jugnoo had a “sink or swim”  onboarding strategy. Every new hire was expected to hit the ground running. So when I joined, within my first week, I was tasked with launching our subscription feature. I was assigned a team of seven and a deadline of two weeks. Jugnoo Star became the first feature I shipped.<sup id="fnref:star" role="doc-noteref"><a href="#fn:star" class="footnote">5</a></sup></p>
+<p>Jugnoo had a “sink or swim”  onboarding strategy. Every new hire was expected to hit the ground running. So when I joined, within my first week, I was tasked with launching our subscription feature. I was assigned a team of seven and a deadline of two weeks. Jugnoo Star became the first feature I shipped.<sup id="fnref:star" role="doc-noteref"><a href="#fn:star" class="footnote" rel="footnote">5</a></sup></p>
 
 <p>In those two weeks, I familiarized myself with every part of the product. I  made user journeys, wireframes, mockups and detailed user-stories for the team. We had the business-side approval for offering free delivery on groceries,8% cashbacks on meals  and 2% cashbacks on restaurant delivery.  The initial pricing  was (Rs. 99 for monthly subscription and Rs. 499 for annual)  a day-one hypothesis. We did a soft launch, with no marketing and no PR.</p>
 

@@ -1,0 +1,25 @@
+I"�<p>Dependency Management:</p>
+
+<p>Bundler with ruby</p>
+
+<p>So you have a gemfile.lock(?) which lists all needed versions of all gems for your site, bundle install then installs all those and bundle execute uses just what is specified in the gem lock file? something like that.</p>
+
+<p>Bundler is handy for larger sites with lots of specific dependencies as it keeps everything in sync so someone else could build the site on a different computer and get the same exact setup as the first person.</p>
+
+<p>Installing dependencies for rbenv: autoconf, pkg-config, readline and ruby-build</p>
+
+<p>readline is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS provides BSD libedit.</p>
+
+<p>ruby-build installs a non-Homebrew OpenSSL for each Ruby version installed and these are never upgraded.</p>
+
+<p>To link Rubies to Homebrew’s OpenSSL 1.1 (which is upgraded) add the following
+to your ~/.zshrc:
+  export RUBY_CONFIGURE_OPTS=”–with-openssl-dir=$(brew –prefix openssl@1.1)”</p>
+
+<p>For compilers to find readline you may need to set:
+  export LDFLAGS=”-L/opt/homebrew/opt/readline/lib”
+  export CPPFLAGS=”-I/opt/homebrew/opt/readline/include”</p>
+
+<p>Brew installs at /opt/homebrew</p>
+:ET
