@@ -1,4 +1,4 @@
-I"<p><strong>Properties of Systems</strong>
+I":<p><strong>Properties of Systems</strong>
 Real-World Performance. You should be familiar with the speed of everything your computer can do, including the relative performance of RAM, disk, SSD and your network.</p>
 
 <p>Concurrency. Do you understand threads, deadlock, and starvation? Do you know how to parallelize algorithms? Do you understand consistency and coherence?</p>
@@ -142,7 +142,7 @@ It can be seductive to over-fragment a system, and suddenly have hard-to-debug m
     </tr>
     <tr>
       <td> </td>
-      <td>Schema changes have a bad rep of being slow and requiring downtime. Not true, except in MySQL, which copies entire table. Running UPDATE on a large table likely to be slow on any db: if not acceptable, leave new field as null and fill only on read, just as we do in NoSql. Useful for documentiing and enforcing structure. <sup id="fnref:schemaEvoSql" role="doc-noteref"><a href="#fn:schemaEvoSql" class="footnote">1</a></sup></td>
+      <td>Schema changes have a bad rep of being slow and requiring downtime. Not true, except in MySQL, which copies entire table. Running UPDATE on a large table likely to be slow on any db: if not acceptable, leave new field as null and fill only on read, just as we do in NoSql. Useful for documentiing and enforcing structure. <sup id="fnref:schemaEvoSql" role="doc-noteref"><a href="#fn:schemaEvoSql" class="footnote" rel="footnote">1</a></sup></td>
       <td>Schema-on-read, as app assumes some schema when reading documents. Advantageous when Heterogenous objects are to be stored and it is not practicle to have a separate table for them or when structure of objects detemined by external systems which may change</td>
     </tr>
     <tr>
@@ -157,8 +157,8 @@ It can be seductive to over-fragment a system, and suddenly have hard-to-debug m
     </tr>
     <tr>
       <td>Application Level Complexity</td>
-      <td>shredding a document into multiple tables can lead to cumbersome schemas and unnecessary complicated application code<sup id="fnref:sqlAppComplexity" role="doc-noteref"><a href="#fn:sqlAppComplexity" class="footnote">2</a></sup> but good for highly inter-connected data which is not self-contained</td>
-      <td>If document like structure (tree of one-to-many relatonshps, where typically the entire tree is loaded) or many-to-many relatonships not needed, then not very complex, because we dont need joins, so no need to emulate them in app code <sup id="fnref:noSqlAppComplexity" role="doc-noteref"><a href="#fn:noSqlAppComplexity" class="footnote">3</a></sup>. But deeply nested documents can cause difficulties (“the second item in the list of positions for userx” vs directly refering to position Id). For many-to-many, two options:  denomralize but additonal work to keep the data consistent, or normalize and emulate joins in app code. both complex, and the latter slower because of multiple roundtrip queries to db.</td>
+      <td>shredding a document into multiple tables can lead to cumbersome schemas and unnecessary complicated application code<sup id="fnref:sqlAppComplexity" role="doc-noteref"><a href="#fn:sqlAppComplexity" class="footnote" rel="footnote">2</a></sup> but good for highly inter-connected data which is not self-contained</td>
+      <td>If document like structure (tree of one-to-many relatonshps, where typically the entire tree is loaded) or many-to-many relatonships not needed, then not very complex, because we dont need joins, so no need to emulate them in app code <sup id="fnref:noSqlAppComplexity" role="doc-noteref"><a href="#fn:noSqlAppComplexity" class="footnote" rel="footnote">3</a></sup>. But deeply nested documents can cause difficulties (“the second item in the list of positions for userx” vs directly refering to position Id). For many-to-many, two options:  denomralize but additonal work to keep the data consistent, or normalize and emulate joins in app code. both complex, and the latter slower because of multiple roundtrip queries to db.</td>
     </tr>
     <tr>
       <td>Relationship between entities</td>
