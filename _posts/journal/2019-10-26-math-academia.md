@@ -118,7 +118,7 @@ Some accounts of *the lived experience* of a PhD
 * [Jeremy Kun, PhD in Maths](https://medium.com/@jeremyjkun/my-graduate-career-in-math-85fd4efb0fa9)
 * [Vipul Naik, PhD in Group Theory](https://www.quora.com/Why-do-people-leave-academia-What-are-the-pros-and-cons-of-leaving-the-field/answer/Vipul-Naik)
 * [Physics PhD: What Does Any of This Have To Do with Physics?](http://nautil.us/issue/43/heroes/what-does-any-of-this-have-to-do-with-physics)
-
+* [Philosophy PhD](https://twitter.com/not_not_I/status/1379262294010470400)
 
 Quotes from the following articles
 
@@ -126,7 +126,7 @@ Quotes from the following articles
 - [Academics who switched to industry, what's your experience been like?](https://news.ycombinator.com/item?id=18798498)
 - [Comments against "To Live Your Best Life, Do Mathematics"](https://news.ycombinator.com/item?id=13552747)
 - [Comments against "If you get a PhD, get an economics PhD"](https://news.ycombinator.com/item?id=5669474)
-- [Against Humanities PhD](https://jakeseliger.com/2012/05/22/what-you-should-know-before-you-start-grad-school-in-english-literature-the-economic-financial-and-opportunity-costs/)
+- [Against Humanities PhD](https://jakeseliger.com/2012/05/22/what-you-should-know-before-you-start-grad-school-in-english-literature-the-economic-financial-and-opportunity-costs/
 - [Why do so many peopel pursue a doctorate?](https://news.ycombinator.com/item?id=11543439)
 - [The experience of IITB -> MIT Chem PhD](https://www.insightiitb.org/graduate-student-to-be-or-not-to-be/)
 - [Why I am leaving Harvard](http://matt-welsh.blogspot.com/2010/11/why-im-leaving-harvard.html)
