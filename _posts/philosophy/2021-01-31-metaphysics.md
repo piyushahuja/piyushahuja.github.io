@@ -22,6 +22,7 @@ Terms:
 * Nominalism (universals do not exist. we predicate the same property of/to multiple entities, but argues that the entities only share a name and do not have a real quality in common.)
 * Conceptualism (universals exist as concepts within the mind)
 * Phenominalism
+* Naturalism
 
 
 * Essence vs Accident
@@ -30,7 +31,12 @@ Terms:
 * Real vs Ideal
 * Internal vs External
 * Analytic vs Synthetic
+* Sense and Reference
 
+Experiments:
+
+* Mary's Room
+* What is it like to be a bat?
 
 # Existence
 
@@ -94,6 +100,37 @@ the existence of universals.
     * Some resemblance nominalists will concede that the resemblance relation is itself a universal, but is the only universal necessary. Others argue that each resemblance relation is a particular
 
 * Conceptualists hold a position intermediate between nominalism and realism, saying that universals exist only within the mind and have no external or substantial reality. Conceptualism is a philosophical theory that explains universality of particulars as conceptualized frameworks situated within the thinking mind. The conceptualist view approaches the metaphysical concept of universals from a perspective that denies their presence in particulars outside of the mind's perception of them.
+
+
+**Metaphysical Realism and Anti-Realism**
+
+The basic idea of realism is that the kinds of thing which exist, and what they are like, are independent of us and the way in which we find out about them; antirealism denies this. Most people find it natural to be realists with respect to physical facts: how many planets there are in the solar system does not depend on how many we think there are, or would like there to be, or how we investigate them; likewise, whether electrons exist or not depends on the facts, not on which theory we favour. However, it seems natural to be antirealist about humour: something’s being funny is very much a matter of whether we find it funny, and the idea that something might really be funny even though nobody ever felt any inclination to laugh at it seems barely comprehensible. The saying that ‘beauty is in the eye of the beholder’ is a popular expression of antirealism in aesthetics. An obviously controversial example is that of moral values; some maintain that they are real (or ‘objective’), others that they have no existence apart from human feelings and attitudes.
+
+Frege's semantic realism (for Dummett, the only sense in which we can investigate realism) can be defined “as the belief that statement of disputed class, undecidable sentences, possess an objective truth-value, independently of our means of knowing it: they are true or false in virtue of a reality exciting independently of us.  Our sentential understanding consists in our knowledge of sentences’ truth conditions, where truth is treated as potentially evidence-transcendent or
+epistemically unconstrained. 
+
+Michael Dummett’s proposal that realism and antirealism (the latter term being his own coinage) were more productively understood in terms of two opposed theories of meaning. Thus, a realist is one who would have us understand the meanings of sentences in terms of their truth-conditions (the situations that must obtain if they are to be true); an antirealist holds that those meanings are to be understood by reference to assertability-conditions (the circumstances under which we would be justified in asserting them).
+
+For Dummett, realism is best understood as semantic realism, i.e., as the view accepting that every declarative sentence in one's language is bivalent (determinately true or false) and evidence-transcendent (independent of our means of coming to know which), while anti-realism rejects this view in favour of a concept of knowable (or assertible) truth. Historically, these debates had been understood as disagreements about whether a certain type of entity objectively exists or not. Thus we may speak of (anti-)realism with respect to other minds, the past, the future, universals, mathematical entities (such as natural numbers), moral categories, the material world, or even thought. 
+
+
+Dummett's Challenge: 
+
+Realist have a belief that truth-conditions can be considered as evidence-transcendent.
+
+Challenges to realism:
+
+* Manifestation Challenge: "a speaker's grasp of the meaning of a declarative, indexical-free sentence must be manifested in her uses of that sentence" expresses a behaviorist and reductive theory of meaning. Knowledge of meaning of a sentence has to manifest in linguistic behavior, essentially in agreement with Quine's view of language.
+When one utters a sentence about the world, there is no evidence of any link between what one says and the actual state of affairs. It could entirely be possible that the use of a sentence and its truth value is determined by the speaker according to prior linguistic practice, not according to the meaning of a sentence in the sense of correspondence with facts. 
+
+*  If realism were true, competence in one’s language would be impossible to acquire. "Socrates sneezed in his sleep the night before he took the hemlock." Understanding meaning of this sentence is equivalent to (i) understanding what conditions or state of affairs that would make this sentence true or false (Frege) OR (ii) understanding how to appripriately use this sentence in a linguistic community (later Wittgenstein). Semantic Realists say this sentence is either true of false. This requires that the meantal representations of a sentence (its meaning) are linked to its truth conditions. Anyone learning a sentence would have to grasp the correspondence between its meaning and the state of affairs that makes its true.
+
+
+* Brain in a vat
+
+* Conceptual Pluralism 
+
+* Model Indeterminacy
 
 
 
