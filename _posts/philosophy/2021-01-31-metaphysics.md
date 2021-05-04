@@ -13,10 +13,126 @@ comments: true
 
 ---
 
-Realism, anti-realism, idealism, materialism and dualism.
+Terms: 
+* Realism (Platonic: universals before things, Aristotle: universals in things, universals are real entities, they exist distinctly, apart from the particulars that instantiate them, but their existence is dependent on the particulars that exemplify them.)
+* Anti-realism
+* Idealism
+* Materialism
+* Dualism
+* Nominalism (universals do not exist. we predicate the same property of/to multiple entities, but argues that the entities only share a name and do not have a real quality in common.)
+* Conceptualism (universals exist as concepts within the mind)
+* Phenominalism
+* Naturalism
 
+
+* Essence vs Accident
+* Necessary vs Contingent
+* Abstract vs Concrete
+* Real vs Ideal
+* Internal vs External
+* Analytic vs Synthetic
+* Sense and Reference
+
+Experiments:
+
+* Mary's Room
+* What is it like to be a bat?
 
 # Existence
+
+Which of these exist? 
+
+* Material Objects (Stone, Tree)
+* Universals
+* Theoretrical Entities of Science (Electrons, Genes)
+* Laws of Nature
+* Mathematical Entities (Triangles, Numbers)
+* Mental States
+* Moral Facts, Objective Moral Values
+* Fiction (Unicorn, Dragon, Sherlock Holmes)
+* God
+* Past, Future
+* Events, Processess
+* Collective Fictions (Government, Nations)
+
+
+Theories of Truth:
+
+* Correspondence: truth consists in correspondence to the facts
+* Coherence: truth consists in coherence with a set of beliefs or propositions 
+* Deflationary: According to the deflationist, however, such suggestions are mistaken, and, moreover, they all share a common mistake. The common mistake is to assume that truth has a nature of the kind that philosophers might find out about and develop theories of. For the deflationist, truth has no nature beyond what is captured in ordinary claims such as that ‘snow is white’ is true just in case snow is white. Philosophers looking for the nature of truth are bound to be frustrated, the deflationist says, because they are looking for something that isn't there.
+
+
+Linguistic analysis: truth value of statements about existence depends on the theory of truth: correspondence theory (truth relies on the correspondence between a statement an an external, independent reality), or internalist theory (context theory or intuitionist?)
+
+
+------
+
+# Universals and Properties
+
+**Should the properties an object has in common with other objects, such as color and shape, be considered to exist beyond those objects? And if a property exists separately from objects, what is the nature of that existence?**
+
+
+Universals are qualities or relations found in two or more entities. As an example, if all cup holders are circular in some way, circularity may be considered a universal property of cup holders. Further, if two daughters can be considered female offspring of Frank, the qualities of being female, offspring, and of Frank, are universal properties of the two daughters. Many properties can be universal: being human, red, male or female, liquid or solid, big or small, etc.
+
+Philosophers agree that human beings can talk and think about universals, but disagree on whether universals exist in reality beyond mere thought and speech.
+
+The problem of universals is specifically accounting for the fact that some things are of the same type. For example, Fluffy and Kitzler are both cats, or, the fact that certain properties are repeatable, such as: the grass, the shirt, and Kermit the Frog are green. 
+
+One wants to know by virtue of what are Fluffy and Kitzler both cats, and what makes the grass, the shirt, and Kermit green?
+
+* Platonist argument: universals are required for certain general words to have meaning and for the sentences in which they occur to be true or false. Take the sentence "Djivan Gasparyan is a musician" for instance. The realist may claim that this sentence is only meaningful and expresses a truth because there is an individual, Djivan Gasparyan, who possesses a certain quality: musicianship. Therefore, it is assumed that the property is a universal which is distinct from the particular individual who has the property.
+The Platonist answer is that all the green things are green in virtue of the existence of a universal: a single abstract thing that, in this case, is a part of all the green things. With respect to the color of the grass, the shirt and Kermit, one of their parts is identical. In this respect, the three parts are literally one. Greenness is repeatable because there is one thing that manifests itself wherever there are green things.
+Plato famously held, on one interpretation, that there is a realm of abstract forms or universals apart from the physical world (see theory of the forms). Particular physical objects merely exemplify or instantiate the universal. 
+    * But where do they exist?  
+        * One possibility is that it is outside space and time.  
+            * However, naturalists assert that nothing is outside of space and time.
+        * Precisely because some form is immanent in several physical objects, it must also transcend each of those physical objects; in this way, the forms are "transcendent" only insofar as they are "immanent" in many physical objects. In other words, immanence implies transcendence; they are not opposed to one another. In this view, there would there not be a separate "world" or "realm" of forms that is distinct from the physical world, thus shirking much of the worry about where to locate a "universal realm". Moderate realists hold that there is no realm in which universals exist, but rather universals are located in space and time wherever they are manifest. Now, recall that a universal, like greenness, is supposed to be a single thing. 
+            * But isnt it strange that there could be a single thing that exists in multiple places simultaneously? The realist maintains that all the instances of greenness are held together by the exemplification relation, but this relation cannot be explained.
+        * (Bleh) Some Neoplatonists, such as the pagan philosopher Plotinus and the Christian philosopher Augustine, imply (anticipating conceptualism) that universals are contained within the mind of God.
+
+Nominalism arose in reaction to this problem. It denies 
+the existence of universals.
+
+* Fluffy and Kitzler, for example, are both cats simply because the predicate 'is a cat' applies to both of them. And this is the case for all similarity of attribute among objects. The main criticism of this view is that it does not provide a sufficient solution to the problem of universals. It fails to provide an account of what makes it the case that a group of things warrant having the same predicate applied to them.
+
+* 'Cat' applies to both cats because Fluffy and Kitzler resemble an exemplar cat closely enough to be classed together with it as members of its kind, or that they differ from each other (and other cats) quite less than they differ from other things, and this warrants classing them together. 
+    * Some resemblance nominalists will concede that the resemblance relation is itself a universal, but is the only universal necessary. Others argue that each resemblance relation is a particular
+
+* Conceptualists hold a position intermediate between nominalism and realism, saying that universals exist only within the mind and have no external or substantial reality. Conceptualism is a philosophical theory that explains universality of particulars as conceptualized frameworks situated within the thinking mind. The conceptualist view approaches the metaphysical concept of universals from a perspective that denies their presence in particulars outside of the mind's perception of them.
+
+
+**Metaphysical Realism and Anti-Realism**
+
+The basic idea of realism is that the kinds of thing which exist, and what they are like, are independent of us and the way in which we find out about them; antirealism denies this. Most people find it natural to be realists with respect to physical facts: how many planets there are in the solar system does not depend on how many we think there are, or would like there to be, or how we investigate them; likewise, whether electrons exist or not depends on the facts, not on which theory we favour. However, it seems natural to be antirealist about humour: something’s being funny is very much a matter of whether we find it funny, and the idea that something might really be funny even though nobody ever felt any inclination to laugh at it seems barely comprehensible. The saying that ‘beauty is in the eye of the beholder’ is a popular expression of antirealism in aesthetics. An obviously controversial example is that of moral values; some maintain that they are real (or ‘objective’), others that they have no existence apart from human feelings and attitudes.
+
+Frege's semantic realism (for Dummett, the only sense in which we can investigate realism) can be defined “as the belief that statement of disputed class, undecidable sentences, possess an objective truth-value, independently of our means of knowing it: they are true or false in virtue of a reality exciting independently of us.  Our sentential understanding consists in our knowledge of sentences’ truth conditions, where truth is treated as potentially evidence-transcendent or
+epistemically unconstrained. 
+
+Michael Dummett’s proposal that realism and antirealism (the latter term being his own coinage) were more productively understood in terms of two opposed theories of meaning. Thus, a realist is one who would have us understand the meanings of sentences in terms of their truth-conditions (the situations that must obtain if they are to be true); an antirealist holds that those meanings are to be understood by reference to assertability-conditions (the circumstances under which we would be justified in asserting them).
+
+For Dummett, realism is best understood as semantic realism, i.e., as the view accepting that every declarative sentence in one's language is bivalent (determinately true or false) and evidence-transcendent (independent of our means of coming to know which), while anti-realism rejects this view in favour of a concept of knowable (or assertible) truth. Historically, these debates had been understood as disagreements about whether a certain type of entity objectively exists or not. Thus we may speak of (anti-)realism with respect to other minds, the past, the future, universals, mathematical entities (such as natural numbers), moral categories, the material world, or even thought. 
+
+
+Dummett's Challenge: 
+
+Realist have a belief that truth-conditions can be considered as evidence-transcendent.
+
+Challenges to realism:
+
+* Manifestation Challenge: "a speaker's grasp of the meaning of a declarative, indexical-free sentence must be manifested in her uses of that sentence" expresses a behaviorist and reductive theory of meaning. Knowledge of meaning of a sentence has to manifest in linguistic behavior, essentially in agreement with Quine's view of language.
+When one utters a sentence about the world, there is no evidence of any link between what one says and the actual state of affairs. It could entirely be possible that the use of a sentence and its truth value is determined by the speaker according to prior linguistic practice, not according to the meaning of a sentence in the sense of correspondence with facts. 
+
+*  If realism were true, competence in one’s language would be impossible to acquire. "Socrates sneezed in his sleep the night before he took the hemlock." Understanding meaning of this sentence is equivalent to (i) understanding what conditions or state of affairs that would make this sentence true or false (Frege) OR (ii) understanding how to appripriately use this sentence in a linguistic community (later Wittgenstein). Semantic Realists say this sentence is either true of false. This requires that the meantal representations of a sentence (its meaning) are linked to its truth conditions. Anyone learning a sentence would have to grasp the correspondence between its meaning and the state of affairs that makes its true.
+
+
+* Brain in a vat
+
+* Conceptual Pluralism 
+
+* Model Indeterminacy
+
+
 
 **Is existence a property of individuals? If yes, are there individuals that lack it?**
 
@@ -50,8 +166,7 @@ Argument: One can have an understanding of what a man or a phoenix is without kn
 
 
 Existence is a genuine property of individuals but not universally had (Meinong)
-
-    - primary motivation is the puzzle of negative singular existentials—sentences that seem to truly assert the nonexistence of an individual, such as the sentence ‘Jean-Baptiste Botul does not exist’. In order to be true, it seems, the subject position must designate some entity of which nonexistence is truly predicated, in which case there are things—the designation of these singular terms—that do not exist. Frege and Russell, by contrast, take the same sentences to demonstrate that those expressions are not genuine singular terms at all and that negative existentials all have a general form, asserting the noninstantiation of a property.
+* primary motivation is the puzzle of negative singular existentials—sentences that seem to truly assert the nonexistence of an individual, such as the sentence ‘Jean-Baptiste Botul does not exist’. In order to be true, it seems, the subject position must designate some entity of which nonexistence is truly predicated, in which case there are things—the designation of these singular terms—that do not exist. Frege and Russell, by contrast, take the same sentences to demonstrate that those expressions are not genuine singular terms at all and that negative existentials all have a general form, asserting the noninstantiation of a property.
 
 Absolutely everything exists. 
 
@@ -63,41 +178,37 @@ A sentence like ‘Ronald McDonald does not exist’ either expresses a fully ar
 All meaningful singular existentials are true and their negations false. We mistakenly take some singular negative existentials to be true because we conflate or do not sharply distinguish existing from being concrete. The benefit of this account is the simple semantics of proper names and the sparse metaphysics. The cost is revisionism regarding what we mean when we use apparently true singular negative existentials.
 
 
-------
-
-# Universals and Properties
-
-**Should the properties an object has in common with other objects, such as color and shape, be considered to exist beyond those objects? And if a property exists separately from objects, what is the nature of that existence?**
 
 
-Universals are qualities or relations found in two or more entities. As an example, if all cup holders are circular in some way, circularity may be considered a universal property of cup holders. Further, if two daughters can be considered female offspring of Frank, the qualities of being female, offspring, and of Frank, are universal properties of the two daughters. Many properties can be universal: being human, red, male or female, liquid or solid, big or small, etc.
+-----
 
-Philosophers agree that human beings can talk and think about universals, but disagree on whether universals exist in reality beyond mere thought and speech.
-
-
-Existence as what is expressed by the existential quantifier.
-
-The view that there are non-existent objetcs
-
+Internal vs external ontological questions.
 Quine view of ontology.
 
-Internal vs external onotlogical questions.
-
+* The notion of 'one reality' behind our everyday perceptions is common in everyday life, and some find it unsettling that what 'exists' might be a matter of what language one chooses to use.
+    * Putnam points out that while the pages of a book are regarded as part of book when they are attached, they are things-in-themselves if they are detached. My nose is only part of an object, my person. On the other hand, is my nose the same as the collection of atoms or molecules forming it? This arbitrariness of language is called conceptual relativity, a matter of conventions.[13] The point is made that if one wishes to refer only to 'pages', then books may not exist, and vice versa if one wishes to admit only to books. Thus, in this view, the Carnapian multiplicity of possible linguistic frameworks proposes a variety of 'realities' and the prospect of choosing between them, a form of what is called ontological pluralism, or multiple realities.
 
 # The Mind Body Problem
 
-plato: charito matephor
+plato: chariot matephor
 aristotle: soul has three parts: growth/nutrition shared with plants, perception shared with animals and reason which is unique to human beings. Things have a Form and function, Purposive and intelligent
-Materialism: pre-socratic philosophers, epicurus, galileo (who wanted to focus on size, shape, color, measurable quantifiable things as being explanations for things which are qualitative (taste, feelings, etc.) , descartes (who defended galileo by compatmentalizing mind/soul as a separate domain, and emphasized maths + observation as a basis for knowing the empirical world - radical idea at time (why should math tell you anything?))
+
+materialism: pre-socratic philosophers, epicurus, galileo (who wanted to focus on size, shape, color, measurable quantifiable things as being explanations for things which are qualitative (taste, feelings, etc.) , descartes (who defended galileo by compatmentalizing mind/soul as a separate domain, and emphasized maths + observation as a basis for knowing the empirical world - radical idea at time (why should math tell you anything?))
+
 christian church: attack against eternal truths (and the soul which is in contact with it)
+
 william blake (not christian): leaves out so much: beauty, imagination etc.
+
 kant: reconciling materialism with moral experience, in particular free will. 
+
 diderot: mind is a hapsichord which plays itsef, a book which writes on itself
-churchlands: we can completely replace psychologicla language by materilist language. against: our rich vocabulatory helps us in explaining behavior, predictiong what others would do etc. it cannot be replaced.
+
+churchlands: we can completely replace psychological language by materialist language. 
+against: our rich vocabulatory helps us in explaining behavior, predictiong what others would do etc. it cannot be replaced.
 
 Epiphemenalism: if you really introspect, most of the things we do are automatic
 
-challenge: top-down causation, as the mind and will causing thingsi n the physical world (as opposed to epiphenomentalism)
+challenge: top-down causation, as the mind and will causing things in the physical world (as opposed to epiphenomentalism)
 
 
 
