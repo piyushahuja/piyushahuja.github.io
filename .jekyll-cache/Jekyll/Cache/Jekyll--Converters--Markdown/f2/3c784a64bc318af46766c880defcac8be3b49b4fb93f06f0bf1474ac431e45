@@ -1,0 +1,3 @@
+I"5<p>To store data there is hardware (magnetic disks). 
+The arrangement on disk with which this data is stores is called the filesystem. The specific format (whether metadata or information about is stored) varies from filesystem to filesystem. What is actually stored can be an object, a file, or a block.</p>
+:ET

@@ -1,0 +1,168 @@
+I"�F<p>To store data there is hardware (magnetic disks). 
+The arrangement on disk with which this data is stores is called the filesystem. The specific format (whether metadata or information about is stored) varies from filesystem to filesystem. What is actually stored can be an object, a file, or a block.</p>
+
+<hr />
+
+<h1 id="block-storage">Block Storage</h1>
+
+<p>Block storage splits data into files across different locations. There is no metadata stored with it (ownership, description, association etc.) Strong consistency is maintained on change of any data.</p>
+
+<p>In detail:</p>
+
+<ul>
+  <li>
+    <p>Files are split into evenly sized blocks of data, each with its own address (Logical Block Number). Unlike file storage – where the data is managed on the file level – data is stored in data blocks.  Several blocks (for example in a SAN system) build a file. A block consists of an address and the SAN application gets the block if it makes an SCSI-Request to this address. The storage application decides then where the data blocks are stored inside the system and on what specific disk or storage medium. How the blocks are combined and how they can be accesses are also decided by the storage application.</p>
+  </li>
+  <li><strong>Blocks are unaware</strong> No additional information (metadata) to provide more context for what that block of data is Blocks in a SAN do not have metadata that is related to the storage system or application. In other words: Blocks are data segments without description, association or an owner. Everything is handled and controlled by the SAN software.
+    <ul>
+      <li><strong>Used for performance hungry applications</strong> Because block storage doesn’t rely on a single path to data—like file storage does—it can be retrieved quickly. You’re likely to encounter block storage in the majority of enterprise workloads; it has a wide variety of uses (as seen by the rise in popularity of SAN arrays). Because block level storage devices are accessible as volumes and accessed directly by the operating system, they can perform well for a variety of use cases:</li>
+      <li>structured database storage</li>
+      <li>random read/write loads (transactional sites)</li>
+      <li>virtual machine file system (VMFS) volumes.</li>
+      <li><strong>Latency issues in geographically distributed systems</strong> Since block storage has essentially no additional storage-side metadata that can be associated with a given block other than the address of that block, performance degrades in geographically distributed systems. The further the block storage gets from the application, the more the performance suffers due to latency issues.</li>
+    </ul>
+  </li>
+  <li>Strongly consistent. Strong consistency is needed for real-time systems such as transactional databases that are constantly being written to, but provide limited scalability and reduced availability as a result of hardware failures. Scalability becomes even more difficult within a geographically distributed system. Strong consistency is a requirement, however, whenever a read request must return the most updated version of the data. can be directly accessed by the operating system as a mounted drive volume, while object storage cannot do so without significant degradation to performance. The tradeoff here is that, unlike object storage, the storage management overhead of block storage (such as remapping volumes) is relatively nonexistent  .</li>
+</ul>
+
+<p>Object Storage abstracts the entire management layer,  so the same command using the connector simply returns “Filesystem is Object Storage.” (By the same token, “no storage management overhead” can be a pro; see below.
+No storage management overhead for object storage. Unlike HDFS, Cloud Storage requires no routine maintenance such as running checksums on the files, upgrading or rolling back to a previous version of the file system and other administrative tasks. </p>
+
+<p>If you were to run a command such as <code class="language-plaintext highlighter-rouge">hadoop fsck -files -blocks</code> against a directory in HDFS, you would see an output of useful information, ranging from status to racks to corrupted blocks.</p>
+
+<p>Downsides:</p>
+
+<ul>
+  <li><strong>Low Scalability</strong> Limit on how much data can be stored (because of block size?), and strong constistency requirements ensure scalability is difficult. Scalability becomes even more difficult within a geographically distributed system.</li>
+  <li><strong>Low Availability</strong> as a result of hardware files.</li>
+  <li><strong>High Latency</strong> The further the block storage gets from the application, the more the performance suffers due to latency issues.  Performance degrades in geographically distributed systems because of no storage-side metadata. 
+Low Throughput</li>
+</ul>
+
+<h2>   </h2>
+
+<h1 id="file-storage">File Storage</h1>
+
+<p>Data is stored as a single piece of information inside a folder, just like you’d organize pieces of paper inside a manila folder.
+When you need to access that piece of data, your computer needs to know the path to find it. (Beware—It can be a long, winding path.) Data stored in files is organized and retrieved using a limited amount of metadata that tells the computer exactly where the file itself is kept. It’s like a library card catalog for data files.</p>
+
+<p>Think of a closet full of file cabinets. Every document is arranged in some type of logical hierarchy—by cabinet, by drawer, by folder, then by piece of paper. This is where the term hierarchical storage comes from, and this is file storage. It is the oldest and most widely used data storage system for direct and network-attached storage systems, and it’s one that you’ve probably been using for decades. Any time you access documents saved in files on your personal computer, you use file storage.</p>
+
+<p>The problem is, just like with your filing cabinet, that virtual drawer can only open so far. File-based storage systems must scale out by adding more systems, rather than scale up by adding more capacity.</p>
+
+<p>Network Attached Storage: exposes its storage as a network file system</p>
+
+<ul>
+  <li>
+    <p>When devices are attached to a NAS system, a mountable file system is displayed and users can access their files with proper access rights. Because of that, a NAS system has to manage user privileges, file locking, and other security measures so several users can access files.</p>
+  </li>
+  <li>
+    <p>As with any server or storage solution, a file system is responsible for positioning the files in the NAS. This works very well for hundreds of thousands or even millions of files, but not for billions. The access to the NAS is handled via NFS and SMB/CIFS protocols.</p>
+  </li>
+  <li>File storage is methods to store data on Network Attached Storage (NAS). Block Storage is Storage Area Network (SAN) systems.
+    <ul>
+      <li>Example: NFS volumes used in Hail clusters are a block device (Cinder) that can be partitioned, formounted and mounted on the Hail master nodes and then distributed (via NFS) amongst the cluster</li>
+    </ul>
+  </li>
+  <li>
+    <p>A SAN stores data at the block level, while NAS accesses data as files. To a client OS, a SAN typically appears as a disk and exists as its own separate network of storage devices, while NAS appears as a file server.</p>
+  </li>
+  <li>SAN and network-attached storage (NAS) are both network-based storage solutions. A SAN typically uses Fibre Channel connectivity, while NAS typically ties into to the network through a standard Ethernet connection.   SAN is associated with structured workloads such as databases, while NAS is generally associated with unstructured data such as video and medical images.</li>
+</ul>
+
+<hr />
+
+<h1 id="object-storage">Object Storage</h1>
+
+<p>Object storage is a computer data storage architecture that manages data as objects, as opposed to other storage architectures like file systems which manages data as a file hierarchy, and block storage which manages data as blocks within sectors and tracks. One of the design principles of object storage is to abstract some of the lower layers of storage away from the administrators and applications. Thus, data is exposed and managed as objects instead of files or blocks. Objects contain additional descriptive properties which can be used for better indexing or management. Administrators do not have to perform lower-level storage functions like constructing and managing logical volumes to utilize disk capacity or setting RAID levels to deal with disk failure. Object storage also allows the addressing and identification of individual objects by more than just file name and file path. Object storage adds a unique identifier within a bucket, or across the entire system, to support much larger namespaces and eliminate name collisions.</p>
+
+<p><strong>Includes Metadata stored with the object.</strong> Each object typically includes the data itself, a variable amount of metadata, and a globally unique identifier. Object storage can be implemented at multiple levels, including the device level (object-storage device), the system level, and the interface level. In each case, object storage seeks to enable capabilities not addressed by other storage architectures, like interfaces that can be directly programmable by the application, a namespace that can span multiple instances of physical hardware, and data-management functions like data replication and data distribution at object-level granularity.</p>
+
+<p><strong>Alow storage of massive amounts of unstructured data</strong></p>
+
+<p>One of the first object-storage products, Lustre, is used in 70% of the Top 100 supercomputers and ~50% of the Top 500.</p>
+
+<p>Lustre is a type of parallel distributed file system, generally used for large-scale cluster computing. The name Lustre is a portmanteau word derived from Linux and cluster. However, unlike block-based distributed filesystems, such as <code class="language-plaintext highlighter-rouge">GPFS</code> and <code class="language-plaintext highlighter-rouge">PanFS</code>, where the metadata server controls all of the block allocation, the Lustre metadata server is only involved in pathname and permission checks, and is not involved in any file I/O operations, avoiding I/O scalability bottlenecks on the metadata server. </p>
+
+<ul>
+  <li>
+    <p>Object storage doesn’t split files up into raw blocks of data. Instead, entire clumps of data are stored in an object that contains the data, metadata, and the unique identifier – applications identify the object via this ID. Each object is stored in a flat address space, making them much easier to locate and retrieve the data.   The many objects inside an object storage system are stored all over the given storage disks.</p>
+  </li>
+  <li>
+    <p>All objects are managed via the application itself. This means that <strong>No real file system is needed</strong>, as the layer is obsolete. When an application sends a storage inquiry to the solution regarding where to store the object, the object is given an address inside the huge storage space and saved there by the application itself.</p>
+  </li>
+  <li><strong>No limit as to how much data can be stored</strong>. No limit on the type or amount of metadata, which makes object storage powerful and customizable.
+    <ul>
+      <li>Metadata can include anything from the security classification of the file within the object to the importance of the application associated with the information.  </li>
+      <li>The metadata is customisable, which means a lot more identifying information for each piece of data can be inputted.</li>
+    </ul>
+  </li>
+  <li><strong>Eventually consistent</strong> Object storage systems are eventually consistent. Eventual consistency can provide virtually unlimited scalability. It ensures high availability for data that needs to be durably stored but is relatively static and will not change much, if at all. This is why storing photos, video, and other unstructured data is an ideal use case for object storage systems; it does not need to be constantly altered.
+    <ul>
+      <li>The downside to eventual consistency is that there is no guarantee that a read request returns the most recent version of the data.</li>
+      <li>We don’t recommend you use object storage for transactional data, especially because of the eventual consistency model.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Uses</p>
+
+    <ul>
+      <li>The data that is being stored is changed. A lot of what is being produced now is unstructured data – content or material that will never be changed again. This is where Object storage comes into play.</li>
+      <li>In the enterprise data center, object storage is used for these same types of storage needs, where the data needs to be highly available and highly durable. </li>
+      <li>Object storage works very well for unstructured data sets where data is generally read but not written-to. Databases in an object storage environment ideally have data sets that are unstructured, where the use cases suggests the data will not require a large number of writes or incremental updates.
+        <ul>
+          <li>static web content</li>
+          <li>data backups</li>
+          <li>archival images</li>
+          <li>multimedia (videos, pictures, or music) files are best stored as objects. Anyone who’s stored a picture on Facebook or a song on Spotify has used object storage even if they don’t know it. Object storage is used for purposes such as storing photos on Facebook, songs on Spotify, or files in online collaboration services, such as Dropbox</li>
+        </ul>
+      </li>
+      <li>Geographically distributed back-end storage is another great use case for object storage. The object storages applications present as network storage and support extendable metadata for efficient distribution and parallel access to objects. That makes it ideal for moving your back-end storage clusters across multiple data centers.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Downsides</p>
+
+<ul>
+  <li>
+    <p><strong>Doesn’t provide you with the ability to incrementally edit one part of a file</strong> (as block storage does). Objects have to be manipulated as a whole unit, requiring the entire object to be accessed, updated, then re-written in their entirety. That can have performance implications. In its pure form object storage can only save one version of a file (object). If a user makes a change another version of the same file is stored as a new object. Due to this, an object storage is a perfect for a backup or archive solution, for example, online video streaming sites.  </p>
+  </li>
+  <li>
+    <p>Important to recognize that object storage was not created as a replacement for NAS file access and sharing; <strong>it does not support the locking and sharing mechanisms needed to maintain a single accurately updated version of a file</strong></p>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="virtual-object-storage">Virtual Object Storage</h1>
+
+<p>In addition to object-storage systems that own the managed files, some systems provide an object abstraction on top of one or more traditional filesystem based solutions. These solutions do not own the underlying raw storage, but instead actively mirror the filesystem changes and replicate them in their own object catalogue, alongside any metadata that can be automatically extracted from the files. Users can then contribute additional metadata through the virtual object storage APIs. A global namespace and replication capabilities both inside and across filesystems are typically supported.
+Notable examples in this category are Nirvana, and its open-source cousin iRODS.</p>
+
+<hr />
+
+<h1 id="key-value-stores">Key Value Stores</h1>
+
+<p>Unfortunately, the border between an object store and a key-value store is blurred, with key-value stores being sometimes loosely referred to as object stores.</p>
+
+<p>A traditional block storage interface uses a series of fixed size blocks which are numbered starting at 0. Data must be that exact fixed size and can be stored in a particular block which is identified by its logical block number (LBN). Later, one can retrieve that block of data by specifying its unique LBN.</p>
+
+<p>With a key-value store, data is identified by a key rather than a LBN. A key might be “cat” or “olive” or “42”. It can be an arbitrary sequence of bytes of arbitrary length. Data (called a value in this parlance) does not need to be a fixed size and also can be an arbitrary sequence of bytes of arbitrary length. One stores data by presenting the key and data (value) to the data store and can later retrieve the data by presenting the key.</p>
+
+<p>This concept is seen in programming languages. Python calls them dictionaries, Perl calls them hashes, Java and C++ call them maps, etc. Several data stores also implement key-value stores such as Memcached, Redis and CouchDB.</p>
+
+<p>Object stores are similar to key-value stores in two respects.</p>
+<ul>
+  <li>First, the object identifier or URL (the equivalent of the key) can be an arbitrary string.</li>
+  <li>Second, data may be of an arbitrary size.</li>
+</ul>
+
+<p>There are, however, a few key differences between key-value stores and object stores.</p>
+<ul>
+  <li><strong>No metadata</strong> First, object stores also allow one to associate a limited set of attributes (metadata) with each piece of data. The combination of a key, value, and set of attributes is referred to as an object.</li>
+  <li><strong>For small data</strong> Second, object stores are optimized for large amounts of data (hundreds of megabytes or even gigabytes), whereas for key-value stores the value is expected to be relatively small (kilobytes).</li>
+  <li><strong>Strong consistency</strong> Finally, object stores usually offer weaker consistency guarantees such as eventual consistency, whereas key-value stores offer strong consistency.</li>
+</ul>
+
+:ET
