@@ -146,30 +146,29 @@ ms.joinGroup(new InetSocketAddress(hostname, port), nif);
 
 **Connections Using Linux Utilities**
 
-**nc**(tcp client/server for everything related to tcp or udp: sending, receiving. Alternative to telnet)
+**nc** (or telnet): tcp client/server for everything related to tcp or udp: sending, receiving. Alternative to telnet
 
 
 * scan if a port is open on a remote system. ```nc -vz localhost 9000```
-* oull the banner information (helpful information about operating system and services versions) from a remote system;
+* pull the banner information (helpful information about operating system and services versions) from a remote system;
 * connect to a network service manually with listening
 * remote administration for transferring of files: "pipe" into TCP for batch data transfer, because it will not alter any byte sent through it. If you need something like cat but for TCP, use nc
 
-# Other Useful Utilities
 
-**netstat**
+**netstat**: show currently-active connections as well as their status ( ESTABLISH, LISTENING, TIME_WAIT…) 
 
-* show currently-active connections as well as their status ( ESTABLISH, LISTENING, TIME_WAIT…) ```netstat | grep LISTEN``` check if server is listening
+```netstat | grep LISTEN``` check if server is listening (or ```lsof -i: <port>``` )
 * network interface statistics
 * ```netstat -r``` for routing table
 
+**ip**: ip routing, network devices, interfaces and tunnels
+```ip route``` (or ifconfig)
 
-```bash
-ifconfig
-lsof -i: <port>
-ip route
-iptables -t nat -nvL
-tcpdump (to capture packets)
-```
+**iptables**: tables of packet filter rules 
+nat -nvL
+
+**tcpdump**: to capture packets
+
 
 ```socat tcp-listen:8001,reuseaddr,fork tcp:localhost:8000```
 

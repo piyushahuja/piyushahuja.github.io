@@ -1,0 +1,121 @@
+I"$><p><strong>Seed Metaphor</strong></p>
+
+<p>An operating system is a seed. The “kernel” of the seed is the core of the operating system, providing operating system services to applications programs, which is surrounded by the “shell” of the seed that is what users see from the outside.</p>
+
+<p>Some people want to tie “kernel” (and, indeed, “shell”) down to be more specific than that. But in truth there’s a lot of variation across operating systems. Not the least these variations is what constitutes a “shell” (which can range from Solaris’ <code class="language-plaintext highlighter-rouge">sh</code> through Netware’s Console Command Interpreter to OS/2’s Workplace Shell and Windows NT’s Explorer), but there’s also a lot of variance from one operating system to another in what is, and isn’t, a part of a “kernel” (which may or may not include disk I/O, for example).</p>
+
+<p>There are other terminologies. In IBM mainframe terminology, the “kernel” in the seed/nut metaphor is called the control program. Other names include the supervisor, the monitor, the core, and the executive. Core is another fairly obvious biological metaphor. It is interesting that so too is another name. Harvey M. Deitel, in his Operating Systems, calls the control program the nucleus. The word “nucleus” comes from the Latin nucleus, and means the kernel of a nut (c.f. the Latin nux, which means “nut”). So even calling the control program “the nucleus” is in fact making this same operating-system-as-a-nut analogy. It’s an analogy that is used for more than just operating systems. If you are familiar with chemistry, for example, you’ll know that an atomic nucleus is surrounded by electrons in shells.</p>
+
+<p>The kernel does all the interaction with the hardware, and manages the memory, the I/O devices.</p>
+
+<blockquote>
+  <p>That part of the system which permanently resides in main storage has historically been called the nucleus. The nucleus will usually consist of a minimal set of primitives and processes for the management of processes, resources, and input-output</p>
+</blockquote>
+
+<hr />
+
+<p>A <strong>program</strong> (or a task or thread of execution) is very general thing - a set of ordered instructions for the CPU to carry out.</p>
+
+<p>A <strong>process</strong> is an executing instance of a program. As an implementation detail, it is a (collection of) thread of execution and other context, such as <strong>address space</strong> and <strong>file descriptor table.</strong></p>
+
+<p><strong>unix implementation details for process</strong>: Unix supports the notion of a <strong>current working directory</strong> for each process, maintained as part of the process state. This allows users to refer to files by their relative pathnames, which are interpreted relative to the current directory. Unix guarantees that every process has a unique identifier called the <strong>process ID</strong>. The process ID is always a non-negative integer. Similar to files, each process has one <strong>owner</strong> and <strong>group</strong>, and the owner and group permissions are used to determine which files and devices the process can open. Most processes also have <strong>a parent process</strong> that started them. </p>
+
+<p><strong>File descriptors</strong> are normally small non-negative integers that the kernel uses to identify the files being accessed by a particular process.  Whenever it opens an existing file or creates a new file, the kernel returns a file descriptor that is used to read or write the file. (Sockets are based on a very similar mechanism i.e. socket descriptors).</p>
+
+<p>A <strong>shell</strong> is a program (on Linux, typically written in C) that provides an interface to handle processes.</p>
+
+<p>An interactive shell (<code class="language-plaintext highlighter-rouge">sh</code>, <code class="language-plaintext highlighter-rouge">dash</code>, <code class="language-plaintext highlighter-rouge">bash</code>, <code class="language-plaintext highlighter-rouge">zsh</code>) interprets (compile source code into OS-readable binary on the fly) the commands you are typing in the terminal window, for example <code class="language-plaintext highlighter-rouge">ls</code>, <code class="language-plaintext highlighter-rouge">cat</code> and <code class="language-plaintext highlighter-rouge">date</code> (these are not shells but executable binaries). You launch an interactive shell by logging into a terminal emulator.</p>
+
+<p>All running applications and daemons are processes. The only thing running which is not a process is the kernel (including kernel threads). A (running) shell is a process but not all processes are shells. Sourcing a script will execute the commands in the current shell process, whereas executing a script will spawn a new shell process and execute the commands there (though it might be a child process).</p>
+
+<hr />
+
+<p><strong>Process Lifecycle</strong></p>
+
+<p>A process may start other processes (e.g. by making the <code class="language-plaintext highlighter-rouge">fork()</code> system call, which uses clone(), and then the exec() call to replace the clone); these new processes will belong to the same process group as the parent unless other action is taken.</p>
+
+<p>Each process may also have a “controlling terminal”, which starts off the same as its parent.  Each shell you get at login becomes the leader of its own new session and process group, and sets the controlling process group of the terminal to itself. </p>
+
+<p>The kernel, at least on Unix like OSes is launching one (or more) initial hand crafted processes, usually called init. These processes are the parents of a whole hierarchy of other processes.</p>
+
+<p>The init process is normally started when the Kernel calls a certain filename – often found in <code class="language-plaintext highlighter-rouge">/etc/rc</code> or <code class="language-plaintext highlighter-rouge">/etc/inittab</code> – but this location can change based on OS. Normally this process sets the path, checks the file system, initializes serial ports, sets the clock, and more. Finally, the last thing the init process handles is starting up all the other background processes necessary for your operating system to run properly – and it runs them as daemons. Typically, all of these daemon scripts exist in /etc/init.d/; it’s conventional to end all of the daemon executables with the letter d (such as httpd, sshd, mysqld, etc.) – so you might think that this directory is named as such because of that, but it’s actually just a common unix convention to name directories that have multiple configuration files with a .d suffix.   </p>
+
+<p>Traditionally in Unix, the only way to create a process is to create a copy of the existing process and to go from there. This practice – known as process forking – involves duplicating the existing process to create a child process and making an exec system call to start another program. We get the phrase “process forking” because fork is an actual C method in the Unix standard library which handles creating new processes in this manner. The process that calls the fork command will be considered the parent process of the newly created child process. The child process is nearly identical to the parent process, with a few differences such as different process IDs and parent process IDs, no shared memory locks, no shared async I/O, and more. </p>
+
+<p>A process may create another thread that shares its address space.</p>
+
+<p>A zombie process is one which has died but still exists as a placeholder in the process table until its parent (or init if the zombie is itself an orphan) checks its exit status.</p>
+
+<p>An orphan processes are processes that are still alive and running but whose parent has died</p>
+
+<p>When the parent dies, it’s dead. With respect to its children, it doesn’t matter whether the parent stays on as a zombie: the children become orphans at the time the parent dies, and then they lose any connection with their parent, init adops them as its children.</p>
+
+<hr />
+
+<p><a href="http://www.programmerinterview.com/data-structures/difference-between-stack-and-heap/">Stack and Heap</a></p>
+
+<p>https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap</p>
+
+<hr />
+
+<p><strong>OS distributions</strong></p>
+
+<p>An OS distribution has an OS kernel which interacts with utilities packaged with it. Compiling the software and making them work with one another is the job of the distribution.  Some Linux distributions are intended for desktop computers, some for servers without a graphical interface, and others for special uses, such as home theater PCs, supercomputers, POS systems or embedded systems.</p>
+
+<p>For example, the Linux kernel can be packaged with GNU shell utilities. The terminal and many of the commands we use on it are not part of the kernel, but of the Utilities.</p>
+
+<p>Utilities might include:</p>
+
+<ul>
+  <li>desktop server</li>
+  <li>desktop environment<sup id="fnref:desktop" role="doc-noteref"><a href="#fn:desktop" class="footnote" rel="footnote">1</a></sup></li>
+</ul>
+
+<ul>
+  <li>system services (Red Hat Linux has a built-in tool called Lokkit for configuring the firewall capabilities)</li>
+  <li>graphical program (e.f. Red Hat graphical installer called Anaconda)</li>
+  <li>package managers (Red Hat was the first to use rpm)</li>
+  <li>configuration utilities</li>
+  <li>GNU shell utilities</li>
+</ul>
+
+<hr />
+
+<p><strong>Job</strong></p>
+
+<p>A shell provides an interface to handle processes. It does so with the help of an abstraction call <strong>jobs</strong>.</p>
+
+<p>Any program you interactively start that doesn’t detach from the terminal (ie, not a daemon) is a job. To list all the jobs you are running, you can use <code class="language-plaintext highlighter-rouge">jobs</code>.</p>
+
+<p>If you’re running an interactive program, you can press CtrlZ to suspend it. Then you can start it back in the foreground (using fg) or in the background (using bg). While the program is suspended or running in the background, you can start another program - you would then have two jobs running. You can also start a program running in the background by appending an “&amp;” like this: program &amp;. That program would become a background job.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>The shell creates a process group within the current session for each “job” it launches, and places each process it starts into the appropriate process group. For example, ls</td>
+      <td>headis a pipeline of two processes, which the shell considers a single job, and will belong to a single, new process group. The shell has the concept of “foreground” jobs and “background” jobs. Foreground jobs are process groups with control of the terminal, and background jobs are process groups without control of the terminal.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Each terminal has a foreground process group. When bringing a job to the foreground, the shell sets it as the terminal’s foreground process group; when putting a job to the background, the shell sets the terminal’s foreground process group to another process group or itself.
+Processes may read from and write to their controlling terminal if they are in the foreground process group. Otherwise they receive SIGTTIN and SIGTTOU signals on attempts to read from and write to the terminal respectively. By default these signals suspend the process, although most shells mask SIGTTOU so that a background job can write to the terminal uninterrupted.</p>
+
+<p>Some programs are not designed to be run with continuous user input and disconnect from the terminal at the first opportunity. For example, a web server responds to web requests, rather than user input. Mail servers are another example of this type of application. These types of programs are known as daemons. they typically handle things such as network requests, hardware activity, and other wait &amp; watch type tasks  (e.g. firewalls, docker daemon, …) Daemons are spawned one of two ways: either the init process forks and creates them directly – like we mentioned above in the init process segment – or some other process will fork itself to create a child process, and then the parent process immediately exits. The first condition seems pretty straightforward – the init process forks to create a daemon – but how does that second condition work, and how does the init process end up becoming the parent of these daemons? When you fork a process to create a child process, and then immediately kill that parent process, the child process becomes an orphaned process – a running process with no parent (not to be confused with a zombie process, such as a child process that has been terminated but is waiting on the parent process to read its exit status). By default, if a child process gets orphaned, the init process will automatically adopt the process and become its parent. This is a key concept to understand, because this is normally how daemons that you start after boot up relate to the init process. </p>
+
+<p>If I start a program in the background using &amp; (for example ‘./script &amp;’ ), what makes this process’ execution different than if I ran normally a program that turns itself into a daemon 
+Running a program in the background, it no longer is directly controlled by the terminal (you can’t simply ^C it), but it can still write to the terminal and interfere with your work. Typically a daemon will separate itself from the terminal (in addition to forking) and its output/error would be redirected to files.</p>
+
+<p>Does this simply mean that if I logout the background process will stop and the daemon will keep running ?
+The background process could be protected with nohup but unless its output were redirected, closing the terminal would prevent it from writing, producing an error that likely would stop it. Daemon differ from simple background processes that are spawned in the terminal because these background process are typically bound to that terminal session, and when that terminal session ends it will send the SIGHUP message to all background processes – which normally terminates them. Because daemons are normally children of the init process, it’s more difficult to terminate them.
+ 
+Besides the problem of keeping track of the program’s output (and error messages), there’s the problem of restarting it if it happens to die. A service script fits into the way the other services on the system are designed, providing a more/less standard way of controlling the daemon.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:desktop" role="doc-endnote">
+      <p>an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system that share a common graphical user interface (GUI), sometimes described as a graphical shell.  Desktop GUIs help the user to easily access and edit files, while they usually do not provide access to all of the features found in the underlying operating system. Instead, the traditional command-line interface (CLI) is still used when full control over the operating system is required.  typically consists of icons, windows, toolbars, folders, wallpapers and desktop widgets (see Elements of graphical user interfaces and WIMP). GUI might also provide drag and drop functionality. aims to be an intuitive way for the user to interact with the computer using concepts which are similar to those used when interacting with the physical world, such as buttons and windows. <a href="#fnref:desktop" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
