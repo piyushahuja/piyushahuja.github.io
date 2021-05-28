@@ -1,13 +1,11 @@
 ---
 layout: post-normal
-title: Tools
-date:   2018-05-12 09:00:11
+title: Python Asyncio
+date:   2021-05-27 09:00:11
 tag: 
 categories: tech
 excerpt: 
-permalink: /python
+permalink: /asyncio
 comments: false
 
 ---
-
-
