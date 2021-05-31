@@ -47,13 +47,9 @@ This already provides some major advantages. Now, if my project depends on your 
 
 A lock file is simply a file that lists the exact version you are currently depending on of each dependency. Usually, you need to explicitly run an update program to upgrade to newer versions of your dependencies. There are many reasons for this, such as avoiding unnecessary recompiles, having reproducible builds, or not automatically updating to the latest version (which may be broken). Having all your dependencies, including their dependencies, explicitly specified (including name and version) is what gives you reproducible builds. Ruby does the same thing with Gemfile.lock. npm does the same thing with package-lock.json. 
 
-Example: Crook's Reproducible Build
 
-Is it a single, self-contained script, or are there modules you’ve written?  If there are modules, you’ll probably need a virtualenv, otherwise Python won’t know where to look for them. Yes, in principle, you could chmod +x your Python script, add the necessary shebang and then hardcode sys.path ( modifying the python module search path within the script (by modifying sys.path) or environment variable PYTHONPATH?), but that tightly couples you to the Python binary (even if you did #!/usr/bin/env python3 you might get Python 3.1 on some system, which wouldn’t work) and the module path, unless you go to the trouble of establishing the module path dynamically. That seems like a lot of work. virtualenvs make everything much easier, at the expense of having to create the virtualenv once.
 
-In production, one wouldn’t do it this way: if you distributed binaries executables then they’d be installed per the usual Python setuptools routine. 
-
-Example: Ruby
+**Example: Ruby**
 
 You have a gemfile.lock which lists all needed versions of all gems for your sit. "bundle install" then installs all those and "bundle execute" uses just what is specified in the gem lock file.
 
@@ -61,7 +57,7 @@ Bundler is handy for larger sites with lots of specific dependencies as it keeps
 
 Example: [Deno](https://kitsonkelly.com/posts/deno-is-a-browser-for-code/)
 
-Example: Python
+**Example: Python**
 
 Theree's no  builtin way to automatically define a lock file. The recommended way is this:
 
@@ -83,14 +79,14 @@ How to do it?
 
 Use: Poetry + pipenv, or pip-tools.
 
-Your should create setup.py/cfg and declare your immediate dependencies, then you can optionally provide version _ranges_ that are acceptable. I highly recommend to install pip-tools and use pip-compile to generate requirements.txt, that file then works like a lock file and it is essentially picking the latest versions within restrictions in setup.cfg
+Your should create `setup.py/cfg` and declare your immediate dependencies, then you can optionally provide version _ranges_ that are acceptable. I highly recommend to install pip-tools and use pip-compile to generate requirements.txt, that file then works like a lock file and it is essentially picking the latest versions within restrictions in setup.cfg
 
 
 ## Vendoring
 
 An extreme version of this kind of dependency locking is vendoring, which is where you copy all the code of your dependencies into your own project. That gives you total control over any changes to it, and lets you introduce your own changes to it, but also means you have to explicitly pull in any updates from the upstream maintainers over time.
 
-Example: Python
+**Example: Python**
 
 Python has no vendoring.  There is no a builtin way to create a redistributable executable with all your dependencies.
 
@@ -104,6 +100,11 @@ To create a redistributable executable with all your dependencies, you can eithe
 
 Alternatively, this can be done via the setuptools route. It is the one that's most common and available by default. It has a weakness though, it started with people writing setup.py file and defining all parameters there. Because setup.py is actually a python program it encourages you to write it as a program and that creates issues, setuptools though for a wile had a declarative way to declare packages using setup.cfg file, you should use that and your setup.py should contain nothing more than a call to setup().
 
+Example: **Crook's Reproducible Build**
+
+Is it a single, self-contained script, or are there modules you’ve written?  If there are modules, you’ll probably need a virtualenv, otherwise Python won’t know where to look for them. Yes, in principle, you could chmod +x your Python script, add the necessary shebang and then hardcode sys.path ( modifying the python module search path within the script (by modifying sys.path) or environment variable PYTHONPATH?), but that tightly couples you to the Python binary (even if you did #!/usr/bin/env python3 you might get Python 3.1 on some system, which wouldn’t work) and the module path, unless you go to the trouble of establishing the module path dynamically. That seems like a lot of work. virtualenvs make everything much easier, at the expense of having to create the virtualenv once.
+
+In production, one wouldn’t do it this way: if you distributed binaries executables then they’d be installed per the usual Python setuptools routine. 
 
 # Virtual Environments
 
