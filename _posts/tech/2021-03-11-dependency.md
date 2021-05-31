@@ -102,20 +102,20 @@ Alternatively, this can be done via the setuptools route. It is the one that's m
 
 Example: **Crook's Reproducible Build**
 
-Is it a single, self-contained script, or are there modules you’ve written?  If there are modules, you’ll probably need a virtualenv, otherwise Python won’t know where to look for them. Yes, in principle, you could chmod +x your Python script, add the necessary shebang and then hardcode sys.path ( modifying the python module search path within the script (by modifying sys.path) or environment variable PYTHONPATH?), but that tightly couples you to the Python binary (even if you did #!/usr/bin/env python3 you might get Python 3.1 on some system, which wouldn’t work) and the module path, unless you go to the trouble of establishing the module path dynamically. That seems like a lot of work. virtualenvs make everything much easier, at the expense of having to create the virtualenv once.
+Is it a single, self-contained script, or are there modules you’ve written?  If there are modules, you’ll probably need a `virtualenv`, otherwise Python won’t know where to look for them. Yes, in principle, you could `chmod +x` your Python script, add the necessary shebang and then hardcode `sys.path` ( modifying the python module search path within the script (by modifying `sys.path`) or environment variable `PYTHONPATH`?), but that tightly couples you to the Python binary (even if you did `#!/usr/bin/env python3` you might get `Python 3.1` on some system, which wouldn’t work) and the module path, unless you go to the trouble of establishing the module path dynamically. That seems like a lot of work. `virtualenvs` make everything much easier, at the expense of having to create the virtualenv once.
 
 In production, one wouldn’t do it this way: if you distributed binaries executables then they’d be installed per the usual Python setuptools routine. 
 
 # Virtual Environments
 
 
-**Why don’t other languages have them?**
+**Why don’t other languages have virtualenvs?**
 
 Other languages don’t have system-level package management. Python does.
 
-Node: the node_modules folder it like a virtual env. In the Node.js/npm ecosystem, we have conflated the management of code on our local machine, with a centralized registry of code to help facilitate discovery.  Node's dependency managers npm/yarn just copy the versioned dependencies from their cache folder into the local node_modules folder and remove transitive dependencies duplicates when possible by flattening them into node_modules.
+**Node**: the `node_modules` folder it like a virtual env. In the Node.js/npm ecosystem, we have conflated the management of code on our local machine, with a centralized registry of code to help facilitate discovery.  Node's dependency managers npm/yarn just copy the versioned dependencies from their cache folder into the local node_modules folder and remove transitive dependencies duplicates when possible by flattening them into node_modules.
 
-Because of the heavy reliance on semantic versioning, and the complex dependency graphs that tend to come from the Node.js/npm eco-system, having a repeatable build became a real problem. Yarn introduced the concept of lock files, of which npm followed suit. My personal feeling is it was a bit of the tail wagging the dog, in that the behaviours of developers in the eco-system created a problem that then needed an imperfect solution to fix it. Any of us that have lived with the eco-system for a long time know that the fix to a lot of issues is rm -rf node_modules package-lock.json && npm install.
+Because of the heavy reliance on semantic versioning, and the complex dependency graphs that tend to come from the Node.js/npm eco-system, having a repeatable build became a real problem. Yarn introduced the concept of lock files, of which npm followed suit. My personal feeling is it was a bit of the tail wagging the dog, in that the behaviours of developers in the eco-system created a problem that then needed an imperfect solution to fix it. Any of us that have lived with the eco-system for a long time know that the fix to a lot of issues is `rm -rf node_modules package-lock.json && npm install`.
 
 
 Deno has two solutions for that. First, is that Deno caches modules. That cache can be checked into your source control, and the --cached-only flag will ensure that there is not attempts to retrieve remote modules. The DENO_DIR environment variable can be used to specify where the cache is located to provide further flexibility.
@@ -127,9 +127,9 @@ There are also a couple other commands that make managing repeatable builds. den
 
 **Why do I need to make a "virtual environment" to have separate dependencies, and then source it my shell?**
 
-If you have an application A which uses different versions than application B, it could be solved by allowing python to keep multiple versions of the same packages, but then you would like to count on system package manager to keep care of that, and pip, rpm, deb don't offer this functionality by default. So you would once again have to use some kind of virtualenv like environment that's disconnected from the system packages.
+If you have an application A which uses different versions than application B, it could be solved by allowing python to keep multiple versions of the same packages, but then you would like to count on system package manager to keep care of that, and `pip`, `rpm`, `deb` don't offer this functionality by default. So you would once again have to use some kind of virtualenv like environment that's disconnected from the system packages.
 
-Why do I need to have fresh copies of my dependencies, even if they are the same versions, in each virtual environment?   
+**Why do I need to have fresh copies of my dependencies, even if they are the same versions, in each virtual environment?**
 
 You don't you can install your dependencies in system directory and configure virtualenv to see these packages as well, I prefer though to have it completely isolated from the system.
 
