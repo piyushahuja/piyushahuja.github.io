@@ -1,0 +1,355 @@
+I"��<p><strong>Cheatsheets</strong></p>
+
+<ul>
+  <li><a href="https://cheat.readthedocs.io/en/latest/python/asyncio.html">Dan’s</a></li>
+  <li><a href="https://realpython.com/async-io-python/">A Complete Walkthrough</a></li>
+  <li><a href="https://lucumr.pocoo.org/2016/10/30/i-dont-understand-asyncio/">I don’t understand asyncio</a></li>
+</ul>
+
+<h1 id="some-useful-abstractions">Some Useful Abstractions</h1>
+
+<p><strong>Coroutines</strong>: Generalization of a subroutine: these are functions which can be paused during execution, and values can be yielded out or passed into them when they are paused or resumed. Calling a coroutine does not execute it, but returns a couroutine object (which we can use later). This is useful a coroutine can be suspended during the execution so that it waits for external processing (some routine in I/O) and returns from the point at which it had stopped when the external processing was done.</p>
+
+<p><strong>A couroutine is a generalization of a subroutine to include routines that can be paused (when it yields values) and resumed later (when accept values)</strong>. This generalization helps us in <strong>implementing cooperative multitasking</strong> (<a href="https://stackoverflow.com/questions/46074841/why-coroutines-cannot-be-used-with-run-in-executor">as opposed to</a> blocking code or preemptive multitasking like the threading model): e.g. in the case of a network operation, it helps to pause and do some other stuff while we are waiting for a response. <strong>Coroutine has little to do with writing async code in a linear way or avoiding callback hell.</strong></p>
+
+<p><strong>Not every function executed asynchronously is a coroutine</strong>. A couroutine is specific model of asynchronous implementation (cooperative multitasking implemented by awaitables). A function can also be executed asynchronously by threads (shared memory) or processes (independent memory spaces but containing one or more threads), which implement pre-emptive multitasking, implemented using callables. </p>
+
+<p><strong>Futures:</strong> It is like a promise. A future is an object that represents something uncompleted. It makes it easy for code in one place to indicate when the work is done, and optionally what the result was, and for code elsewhere that was interested in it to find out about it. It allows us to avoid callback hell. ``ensure_future<code class="language-plaintext highlighter-rouge"> returns a Future object to which we can add a callback to using </code>add_done_callback `</p>
+
+<p><strong>A future/promise is a placeholder/container which allows us to  writing async code in a linear way and avoid callback hell.</strong> While waiting for a network I/O, a coroutine function can return a container(promise) which will fill with the value when the operation is complete. This container can be acted upon on when its filled in: and we can attach such methods on the placeholder.  <a href="https://stackoverflow.com/questions/34753401/difference-between-coroutine-and-future-task-in-python-3-5">Difference between coroutine and futue</a></p>
+
+<p><strong>Couroutine Object</strong>: A couroutine object subclasses a future. To execute a coroutine object, either:</p>
+<ul>
+  <li>use it in an expression with await in front of it, or</li>
+  <li>schedule it with <code class="language-plaintext highlighter-rouge">ensure_future()</code> or <code class="language-plaintext highlighter-rouge">create_task()</code>.</li>
+</ul>
+
+<p><strong>Task:</strong> A Task is a way to arrange for a coroutine to be executed by an event loop, while also providing the caller a way to find out what the result was.  This is a subclass of asyncio that is used to encapsulate and manage coroutines in a parallel mode. Event loops use cooperative scheduling: an event loop only runs one task at a time. Other tasks may run in parallel if other event loops are running in different threads. A task is automatically scheduled for execution when it is created. There are two ways to do this, which seem equivalent as far as I can tell:future = )</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">loop.create_task(coroutine)</code></li>
+  <li>``asyncio.ensure_future(coroutine[, loop=loop]) `</li>
+</ul>
+
+<p><strong>Event Loop</strong>: All async coroutines can only run inside an event loop. Event loop is an object that manages cooperative multitasking. Event loops run (1) asynchronous tasks and callbacks, (2) perform network IO operations, and  (3) run subprocesses.  The Asyncio module allows a single event loop per process.</p>
+
+<hr />
+
+<h1 id="top-level-asyncio-api">Top Level Asyncio API</h1>
+
+<p><code class="language-plaintext highlighter-rouge">asyncio.run()</code>: Application developers should typically use this (as opposed to referring directly to the loop object). This function runs the passed coroutine, taking care of managing the asyncio event loop and finalizing asynchronous generators. This function always creates a new event loop and closes it at the end. It should be used as a main entry point for asyncio programs, and should ideally only be called once.</p>
+
+<p><code class="language-plaintext highlighter-rouge">asyncio.gather()</code>: Returns a Future instance, allowing high level grouping of tasks</p>
+
+<p><code class="language-plaintext highlighter-rouge">asyncio.wait()</code>: Supports waiting to be stopped after the first task is done, or after a specified timeout, allowing lower level precision of operations:
+asyncio.</p>
+
+<p><code class="language-plaintext highlighter-rouge">asyncio.create_task(coro)</code>. when using <code class="language-plaintext highlighter-rouge">ensure_future</code>, exceptions will not crash the system and might go unnoticed.</p>
+
+<p>If you have something that could either be a coroutine or a Future (the latter includes a Task because that’s a subclass of Future), and you want to be able to call a method on it that is only defined on Future (probably about the only useful example being <code class="language-plaintext highlighter-rouge">cancel()</code>). When it is already a Future (or Task) this does nothing; when it is a coroutine it wraps it in a Task. <code class="language-plaintext highlighter-rouge">ensure_future()</code> The only time when you should be calling <code class="language-plaintext highlighter-rouge">ensure_future()</code> is when you are providing an API (like most of asyncio’s own APIs) that accepts either a coroutine or a Future and you need to do something to it that requires you to have a Future. <a href="https://stackoverflow.com/questions/36342899/asyncio-ensure-future-vs-baseeventloop-create-task-vs-simple-coroutine">Link</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">asyncio.Task.all_tasks()</code></p>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/42231161/asyncio-gather-vs-asyncio-wait/42246632">wait() vs gather()</a></li>
+  <li><a href="https://stackoverflow.com/questions/30361824/asynchronous-exception-handling-in-python">In exception handling</a></li>
+</ul>
+
+<hr />
+
+<h1 id="loop-api">Loop API</h1>
+
+<p><strong>Loop Object APIs for Handling Futures</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge">loop.run_until_complete(future)</code> Run until the future (an instance of Future) has completed.  if the loop isn’t already running and you just want to run the loop for this one thing, you can now. f you want to compute some finite work using coroutines and then stop, use loop.run_until_complete(<future or="" coroutine="">).</future></p>
+
+<p><code class="language-plaintext highlighter-rouge">loop.run_until_complete(future)</code> If the argument is a coroutine object it is implicitly scheduled to run as a asyncio.Task.
+Return the Future’s result or raise its exception.</p>
+
+<p><code class="language-plaintext highlighter-rouge">loop.run_forever()</code> Run the event loop until <code class="language-plaintext highlighter-rouge">stop()</code> is called. If you want a long-running loop that keeps responding to events until it’s told to stop, use loop.run_forever().
+If <code class="language-plaintext highlighter-rouge">stop()</code> is called before <code class="language-plaintext highlighter-rouge">run_forever()</code> is called, the loop will poll the I/O selector once with a timeout of zero, run all callbacks scheduled in response to I/O events (and those that were already scheduled), and then exit.
+If stop() is called while <code class="language-plaintext highlighter-rouge">run_forever()</code> is running, the loop will run the current batch of callbacks and then exit. Note that new callbacks scheduled by callbacks will not run in this case; instead, they will run the next time <code class="language-plaintext highlighter-rouge">run_forever()</code> or <code class="language-plaintext highlighter-rouge">run_until_complete()</code> is called.</p>
+
+<p><code class="language-plaintext highlighter-rouge">loop.create_future()</code>
+Create an asyncio.Future object attached to the event loop. This is the preferred way to create Futures in asyncio. This lets third-party event loops provide alternative implementations of the Future object (with better performance or instrumentation).
+ 
+<code class="language-plaintext highlighter-rouge">loop.create_task(coro)</code>
+Schedule the execution of a Coroutines. Return a Task object.  If you know that you have a coroutine and you want it to be scheduled, the correct API to use is create_task(). Third-party event loops can use their own subclass of Task for interoperability. In this case, the result type is a subclass of Task.</p>
+
+<p>If you know that you have a coroutine and you want it to be scheduled, the correct API to use is <code class="language-plaintext highlighter-rouge">loop.create_task()</code>. The only time when you should be calling <code class="language-plaintext highlighter-rouge">ensure_future()</code> is when you are providing an API (like most of asyncio’s own APIs) that accepts either a coroutine or a Future and you need to do something to it that requires you to have a Future.</p>
+
+<p><strong>Event Loop APIs for Networking</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge">loop.create_server(protocol_factory, host=None, port=None, *, family=socket.AF_UNSPEC, flags=socket.AI_PASSIVE, sock=None, backlog=100, ssl=None, reuse_address=None, reuse_port=None, ssl_handshake_timeout=None, start_serving=True)</code>
+Create a TCP server (socket type SOCK_STREAM) listening on port of the host address.
+Returns a Server object.</p>
+
+<p><strong>Event Loop APIs  for Executing code in thread or process pools</strong></p>
+
+<p>awaitable <code class="language-plaintext highlighter-rouge">loop.run_in_executor(executor, func, *args)</code>
+Arrange for func to be called in the specified executor.
+The executor argument should be an concurrent.futures.Executor instance. The default executor is used if executor is None.</p>
+
+<p><a href="https://docs.python.org/3/library/asyncio-eventloop.html#running-subprocesses">Event Loop APIs for Running Subprocesses</a></p>
+
+<hr />
+
+<h1 id="use-cases">Use Cases</h1>
+
+<ul>
+  <li><a href="https://medium.com/python-pandemonium/asyncio-coroutine-patterns-beyond-await-a6121486656f">webcrawler</a></li>
+  <li>Q: I am opening a file which has 100,000 URL’s. I need to send an HTTP request to each URL and print the status code.
+    <blockquote>
+      <p>A: Threads are absolutely not the answer here. They will provide both process and kernel bottlenecks, as well as throughput limits that are not acceptable if the overall goal is “the fastest way”.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<hr />
+
+<p><a href="https://stackoverflow.com/questions/39857796/use-asyncio-update-some-data-timely-and-present-via-aiohttp">Graceful shutdown</a></p>
+
+<p>Stopping aiohttp web server by just closing all connections is not always satisfactory. The problem is: if application supports websockets or data streaming it most likely has open connections at server shutdown time.</p>
+
+<p>The library has no knowledge how to close them gracefully but developer can help by registering <code class="language-plaintext highlighter-rouge">Application.on_shutdown</code> signal handler and call the signal on web server closing.</p>
+
+<p>Developer should keep a list of opened connections (Application is a good candidate).</p>
+
+<p>The following websocket snippet shows an example for websocket handler:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from aiohttp import web
+import weakref
+
+app = web.Application()
+app['websockets'] = weakref.WeakSet()
+
+async def websocket_handler(request):
+    ws = web.WebSocketResponse()
+    await ws.prepare(request)
+
+    request.app['websockets'].add(ws)
+    try:
+        async for msg in ws:
+            ...
+    finally:
+        request.app['websockets'].discard(ws)
+
+    return ws
+</code></pre></div></div>
+
+<p>Signal handler may look like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from aiohttp import WSCloseCode
+
+async def on_shutdown(app):
+    for ws in set(app['websockets']):
+        await ws.close(code=WSCloseCode.GOING_AWAY,
+                       message='Server shutdown')
+
+app.on_shutdown.append(on_shutdown)
+</code></pre></div></div>
+
+<p>Both run_app() and AppRunner.cleanup() call shutdown signal handlers.</p>
+
+<p>you’ll want your service to gracefully shutdown if it receives a POSIX signal of some sort, e.g. clean up open database connections, stop consuming messages, finish responding to current requests while not accepting new requests, etc. So, if we happen to restart an instance of our own service, we should clean up the “mess” we’ve made before exiting out.  We’ve been catching the commonly-known KeyboardInterrupt exception like many other tutorials and libraries. But there are many common signals that a service should expect and handled. A few typical ones are (descriptions from man signal):
+<code class="language-plaintext highlighter-rouge">SIGHUP</code> - Hangup detected on controlling terminal or death of controlling process
+<code class="language-plaintext highlighter-rouge">SIGQUIT</code> - Quit from keyboard (via <code class="language-plaintext highlighter-rouge">^\</code>)
+<code class="language-plaintext highlighter-rouge">SIGTERM</code> - Termination signal
+<code class="language-plaintext highlighter-rouge">SIGINT</code> - Interrupt program</p>
+
+<p>There’s also SIGKILL (i.e. the familiar <code class="language-plaintext highlighter-rouge">kill -9</code>) and <code class="language-plaintext highlighter-rouge">SIGSTOP</code>, although the standard is that they can’t be caught, blocked, or ignored.
+Currently, if we quit our service via <code class="language-plaintext highlighter-rouge">^\</code> or send a signal via something like <code class="language-plaintext highlighter-rouge">pkill -TERM -f &lt;script path&gt;</code>, our service doesn’t get a chance to clean up:</p>
+
+<p>Graceful Shutdown</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="k">try</span><span class="p">:</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">run_forever</span><span class="p">()</span>
+    <span class="k">except</span> <span class="nb">KeyboardInterrupt</span><span class="p">:</span>
+        <span class="k">pass</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="n">srv</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">srv</span><span class="p">.</span><span class="n">wait_closed</span><span class="p">())</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">app</span><span class="p">.</span><span class="n">shutdown</span><span class="p">())</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">handler</span><span class="p">.</span><span class="n">finish_connections</span><span class="p">(</span><span class="mf">60.0</span><span class="p">))</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">app</span><span class="p">.</span><span class="n">cleanup</span><span class="p">())</span>
+    <span class="n">loop</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">loop</span> <span class="o">=</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">get_event_loop</span><span class="p">()</span>
+    <span class="c1"># May want to catch other signals too
+</span>    <span class="n">signals</span> <span class="o">=</span> <span class="p">(</span><span class="n">signal</span><span class="p">.</span><span class="n">SIGHUP</span><span class="p">,</span> <span class="n">signal</span><span class="p">.</span><span class="n">SIGTERM</span><span class="p">,</span> <span class="n">signal</span><span class="p">.</span><span class="n">SIGINT</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">signals</span><span class="p">:</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">add_signal_handler</span><span class="p">(</span>
+            <span class="n">s</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">s</span><span class="o">=</span><span class="n">s</span><span class="p">:</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">create_task</span><span class="p">(</span><span class="n">shutdown</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">loop</span><span class="p">)))</span>
+    <span class="n">queue</span> <span class="o">=</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">Queue</span><span class="p">()</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">create_task</span><span class="p">(</span><span class="n">publish</span><span class="p">(</span><span class="n">queue</span><span class="p">))</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">create_task</span><span class="p">(</span><span class="n">consume</span><span class="p">(</span><span class="n">queue</span><span class="p">))</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">run_forever</span><span class="p">()</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="n">loop</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="s">"Successfully shutdown the Mayhem service."</span><span class="p">)</span><span class="err">  </span><span class="k">async</span> <span class="k">def</span> <span class="nf">shutdown</span><span class="p">(</span><span class="n">signal</span><span class="p">,</span> <span class="n">loop</span><span class="p">):</span>
+    <span class="s">"""Cleanup tasks tied to the service's shutdown."""</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Received exit signal </span><span class="si">{</span><span class="n">signal</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s">..."</span><span class="p">)</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="s">"Closing database connections"</span><span class="p">)</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="s">"Nacking outstanding messages"</span><span class="p">)</span>
+    <span class="n">tasks</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">all_tasks</span><span class="p">()</span> <span class="k">if</span> <span class="n">t</span> <span class="ow">is</span> <span class="ow">not</span>
+             <span class="n">asyncio</span><span class="p">.</span><span class="n">current_task</span><span class="p">()]</span>
+
+    <span class="p">[</span><span class="n">task</span><span class="p">.</span><span class="n">cancel</span><span class="p">()</span> <span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="n">tasks</span><span class="p">]</span>
+
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Cancelling </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">tasks</span><span class="p">)</span><span class="si">}</span><span class="s"> outstanding tasks"</span><span class="p">)</span>
+    <span class="k">await</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">gather</span><span class="p">(</span><span class="o">*</span><span class="n">tasks</span><span class="p">)</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Flushing metrics"</span><span class="p">)</span>
+    <span class="n">loop</span><span class="p">.</span><span class="n">stop</span><span class="p">()</span>
+
+
+<span class="k">async</span> <span class="k">def</span> <span class="nf">shutdown</span><span class="p">(</span><span class="n">signal</span><span class="p">,</span> <span class="n">loop</span><span class="p">):</span>
+    <span class="s">"""Cleanup tasks tied to the service's shutdown."""</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Received exit signal </span><span class="si">{</span><span class="n">signal</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s">..."</span><span class="p">)</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="s">"Closing database connections"</span><span class="p">)</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="s">"Nacking outstanding messages"</span><span class="p">)</span>
+    <span class="n">tasks</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">all_tasks</span><span class="p">()</span> <span class="k">if</span> <span class="n">t</span> <span class="ow">is</span> <span class="ow">not</span>
+             <span class="n">asyncio</span><span class="p">.</span><span class="n">current_task</span><span class="p">()]</span>
+
+    <span class="p">[</span><span class="n">task</span><span class="p">.</span><span class="n">cancel</span><span class="p">()</span> <span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="n">tasks</span><span class="p">]</span>
+
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Cancelling </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">tasks</span><span class="p">)</span><span class="si">}</span><span class="s"> outstanding tasks"</span><span class="p">)</span>
+    <span class="k">await</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">gather</span><span class="p">(</span><span class="o">*</span><span class="n">tasks</span><span class="p">,</span> <span class="n">return_exceptions</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">logging</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Flushing metrics"</span><span class="p">)</span>
+    <span class="n">loop</span><span class="p">.</span><span class="n">stop</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><strong>How to run periodic background jobs</strong></p>
+
+<p> 
+AIOHTTP native application startup:</p>
+
+<p>Run both in the same event loop : Wrap the job in a coroutine and resume it after every hour on the same thread. If any request comes, suspend the job.  Sometimes there’s a need to perform some asynchronous operations just after application start-up. Even more, in some sophisticated systems there could be a need to run some background tasks in the event loop along with the application’s request handler. Such as listening to message queue or other network message/event sources (e.g. ZeroMQ, Redis Pub/Sub, AMQP, etc.) to react to received messages within the application. </p>
+
+<p>For example, the background task could listen to ZeroMQ on zmq.SUB socket, process and forward retrieved messages to clients connected via WebSocket that are stored somewhere in the application (e.g. in the <code class="language-plaintext highlighter-rouge">application['websockets']</code> list). </p>
+
+<p>To run such short and long running background tasks aiohttp provides an ability to register <code class="language-plaintext highlighter-rouge">Application.on_startup</code> signal handler(s) that will run along with the application’s request handler.  For example there’s a need to run one quick task and two long running tasks that will live till the application is alive. The appropriate background tasks could be registered as an <code class="language-plaintext highlighter-rouge">Application.on_startup</code> signal handlers as shown in the example below: </p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">async</span> <span class="k">def</span> <span class="nf">listen_to_redis</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">sub</span> <span class="o">=</span> <span class="k">await</span> <span class="n">aioredis</span><span class="p">.</span><span class="n">create_redis</span><span class="p">((</span><span class="s">'localhost'</span><span class="p">,</span> <span class="mi">6379</span><span class="p">))</span>
+        <span class="n">ch</span><span class="p">,</span> <span class="o">*</span><span class="n">_</span> <span class="o">=</span> <span class="k">await</span> <span class="n">sub</span><span class="p">.</span><span class="n">subscribe</span><span class="p">(</span><span class="s">'news'</span><span class="p">)</span>
+        <span class="k">async</span> <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">ch</span><span class="p">.</span><span class="nb">iter</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s">'utf-8'</span><span class="p">):</span>
+            <span class="c1"># Forward message to all connected websockets:
+</span>            <span class="k">for</span> <span class="n">ws</span> <span class="ow">in</span> <span class="n">app</span><span class="p">[</span><span class="s">'websockets'</span><span class="p">]:</span>
+                <span class="n">ws</span><span class="p">.</span><span class="n">send_str</span><span class="p">(</span><span class="s">'{}: {}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">ch</span><span class="p">.</span><span class="n">name</span><span class="p">,</span> <span class="n">msg</span><span class="p">))</span>
+    <span class="k">except</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">CancelledError</span><span class="p">:</span>
+        <span class="k">pass</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="k">await</span> <span class="n">sub</span><span class="p">.</span><span class="n">unsubscribe</span><span class="p">(</span><span class="n">ch</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">await</span> <span class="n">sub</span><span class="p">.</span><span class="n">quit</span><span class="p">()</span>
+
+
+<span class="k">async</span> <span class="k">def</span> <span class="nf">start_background_tasks</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
+    <span class="n">app</span><span class="p">[</span><span class="s">'redis_listener'</span><span class="p">]</span> <span class="o">=</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">create_task</span><span class="p">(</span><span class="n">listen_to_redis</span><span class="p">(</span><span class="n">app</span><span class="p">))</span>
+
+
+<span class="k">async</span> <span class="k">def</span> <span class="nf">cleanup_background_tasks</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
+    <span class="n">app</span><span class="p">[</span><span class="s">'redis_listener'</span><span class="p">].</span><span class="n">cancel</span><span class="p">()</span>
+    <span class="k">await</span> <span class="n">app</span><span class="p">[</span><span class="s">'redis_listener'</span><span class="p">]</span>
+
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">web</span><span class="p">.</span><span class="n">Application</span><span class="p">()</span>
+<span class="n">app</span><span class="p">.</span><span class="n">on_startup</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">start_background_tasks</span><span class="p">)</span>
+<span class="n">app</span><span class="p">.</span><span class="n">on_cleanup</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">cleanup_background_tasks</span><span class="p">)</span>
+<span class="n">web</span><span class="p">.</span><span class="n">run_app</span><span class="p">(</span><span class="n">app</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The task <code class="language-plaintext highlighter-rouge">listen_to_redis()</code> will run forever. To shut it down correctly <code class="language-plaintext highlighter-rouge">Application.on_cleanup</code> signal handler may be used to send a cancellation to it</p>
+
+<p><strong>Method: Create_task</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import asyncio
+
+async def periodic():
+    while True:
+        print('periodic')
+        await asyncio.sleep(1)
+
+def stop():
+    task.cancel()
+
+loop = asyncio.get_event_loop()
+loop.call_later(5, stop)
+task = loop.create_task(periodic())
+
+try:
+    loop.run_until_complete(task)
+except asyncio.CancelledError:
+    pass
+</code></pre></div></div>
+
+<p><strong>Method: Ensure_future Have a task and a main server in the same event loop (Check: Would this work?)</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">async</span> <span class="k">def</span> <span class="nf">data_updater</span><span class="p">(</span><span class="n">app</span><span class="p">):</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="k">await</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+        <span class="n">app</span><span class="p">[</span><span class="s">"userfeed"</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">random</span><span class="p">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">))]</span><span class="err"> </span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">init</span><span class="p">(</span><span class="n">loop</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8000</span><span class="p">):</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">app</span> <span class="o">=</span> <span class="n">web</span><span class="p">.</span><span class="n">Application</span><span class="p">(</span><span class="n">loop</span><span class="o">=</span><span class="n">loop</span><span class="p">)</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">app</span><span class="p">.</span><span class="n">router</span><span class="p">.</span><span class="n">add_route</span><span class="p">(</span><span class="s">'GET'</span><span class="p">,</span> <span class="s">'/'</span><span class="p">,</span> <span class="n">web_handle</span><span class="p">)</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">handler</span> <span class="o">=</span> <span class="n">app</span><span class="p">.</span><span class="n">make_handler</span><span class="p">()</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">srv</span> <span class="o">=</span> <span class="k">await</span> <span class="n">loop</span><span class="p">.</span><span class="n">create_server</span><span class="p">(</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="n">handler</span><span class="p">,</span> <span class="s">'127.0.0.1'</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="n">port</span><span class="p">)</span>
+<span class="err"> </span> <span class="err"> </span> <span class="k">return</span> <span class="n">srv</span><span class="p">,</span> <span class="n">app</span><span class="p">,</span> <span class="n">handler</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">loop</span> <span class="o">=</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">get_event_loop</span><span class="p">()</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">srv</span><span class="p">,</span> <span class="n">app</span><span class="p">,</span> <span class="n">handler</span> <span class="o">=</span> <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">init</span><span class="p">(</span><span class="n">loop</span><span class="p">,</span> <span class="mi">8000</span><span class="p">))</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">app</span><span class="p">[</span><span class="s">'userfeed'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">asyncio</span><span class="p">.</span><span class="n">ensure_future</span><span class="p">(</span><span class="n">data_updater</span><span class="p">(</span><span class="n">app</span><span class="p">))</span>
+<span class="err"> </span> <span class="err"> </span> <span class="k">try</span><span class="p">:</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="n">loop</span><span class="p">.</span><span class="n">run_forever</span><span class="p">()</span>
+<span class="err"> </span> <span class="err"> </span> <span class="k">except</span> <span class="nb">KeyboardInterrupt</span><span class="p">:</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="k">pass</span>
+<span class="err"> </span> <span class="err"> </span> <span class="k">finally</span><span class="p">:</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="n">srv</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">srv</span><span class="p">.</span><span class="n">wait_closed</span><span class="p">())</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">app</span><span class="p">.</span><span class="n">shutdown</span><span class="p">())</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">handler</span><span class="p">.</span><span class="n">finish_connections</span><span class="p">(</span><span class="mf">60.0</span><span class="p">))</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="n">loop</span><span class="p">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">app</span><span class="p">.</span><span class="n">cleanup</span><span class="p">())</span>
+<span class="err"> </span> <span class="err"> </span> <span class="n">loop</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><strong>Method: Spawn a new thread (Thread 2) and run the task in it.</strong> 
+The new task can run a blocking task as it won’t affect the event loop in  the main thread, or it can create its own event loop. “<code class="language-plaintext highlighter-rouge">The AbstractEventLoop.run_in_executor()</code> method can be used with a thread pool executor to execute a callback in different thread to not block the thread of the event loop.”. Spawn a new thread. Run an event loop on that thread. Wrap the job in a coroutine which runs forever (after every hour).</p>
+
+<p>In this example, the separate thread runs an infinite loop.   </p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">concurrent.futures</span> <span class="kn">import</span> <span class="n">ThreadPoolExecutor</span>
+
+<span class="n">main_event_loop</span> <span class="o">=</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">get_event_loop</span><span class="p">()</span>
+<span class="n">executor</span> <span class="o">=</span> <span class="n">ThreadPoolExecutor</span><span class="p">(</span><span class="n">max_workers</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">main_event_loop</span><span class="p">.</span><span class="n">run_in_executor</span><span class="p">(</span><span class="n">executor</span><span class="p">,</span> <span class="n">utils</span><span class="p">.</span><span class="n">run_blocking_tasks</span><span class="p">,</span> <span class="n">update_cluster</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Example For Multithreading</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">concurrent.futures</span> <span class="kn">import</span> <span class="n">ThreadPoolExecutor</span>
+<span class="n">executor</span> <span class="o">=</span> <span class="n">ThreadPoolExecutor</span><span class="p">(</span><span class="n">max_workers</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">futures</span> <span class="o">=</span> <span class="p">[</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="n">loop</span><span class="p">.</span><span class="n">run_in_executor</span><span class="p">(</span><span class="n">executor</span><span class="p">,</span> <span class="n">run</span><span class="p">,</span> <span class="n">asyncio</span><span class="p">.</span><span class="n">sleep</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+<span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+</code></pre></div></div>
+
+<p><strong>Method: Spawn a new background thread using  <code class="language-plaintext highlighter-rouge">threading.Timer</code></strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>t = threading.Timer(time, function)
+t.start()
+t.daemon = true
+
+threading.Thread
+
+t = threading.Event()
+t.wait(time)
+</code></pre></div></div>
+
+<p><strong>schedule module or Apscheduler module or Celery</strong></p>
+
+:ET

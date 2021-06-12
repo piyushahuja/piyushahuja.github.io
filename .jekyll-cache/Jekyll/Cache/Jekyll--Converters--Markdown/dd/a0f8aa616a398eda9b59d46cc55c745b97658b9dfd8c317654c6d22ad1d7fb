@@ -1,0 +1,146 @@
+I"h#<p>Terraform is a <strong>tool for building, changing, and versioning infrastructure safely and efficiently</strong>.  Terraform is an open source command line tool that can be used to provision any kind of infrastructure on dozens of different platforms and services. With Terraform you simply declare resources and how you want them configured and then Terraform will map out the dependencies and build everything for you.  Terraform is a great infrastructure provisioning tool, but you may have noticed that it doesn’t come with a config management system. We use Terraform to stand up virtual machines or cloud instances, and then we hand over the reins to Ansible to finish up the configuration of our OS and applications.</p>
+
+<p>Knowing that your infrastructure is exactly what you expect it to be can simplify your operations significantly. You can have confidence that if anything changes, any images crash or are accidentally deleted, that you can immediately re-build your infrastructure. </p>
+
+<p><strong>Terraform software is just an executable written and compiled in Golang. There are no plugins or drivers to install, no registries, no DLLs (dynamic link library file format). Makes it very portable.</strong></p>
+
+<hr />
+
+<h1 id="changing-your-configuration">Changing your configuration</h1>
+
+<p><strong>Terraform can help with change management, planning and documentation.</strong></p>
+
+<p>Terraform makes the changes both predictable (terraform shows you what changes its going to make before it makes them) and consistent (1. iterations of deployment are idempotent. You can make the same deployment, and if nothing is different in the configuration, nothing will change 2. If you make the same deployment in different environments, each run of a new environment will match the previous ones.</p>
+
+<hr />
+<p>Language</p>
+
+<p>Abstractions: State, Plan, Modules, Expressions, Variables</p>
+
+<p>Declarative. The main purpose of the Terraform language is declaring resources. All other language features exist only to make the definition of resources more flexible and convenient.</p>
+
+<p><strong>expressions</strong> map to values. Values have a type. Except null value which has no type. null is most useful in conditional expressions, so you can dynamically omit an argument if a condition isn’t met.
+Values can be of type <code class="language-plaintext highlighter-rouge">string</code>, <code class="language-plaintext highlighter-rouge">number</code>, <code class="language-plaintext highlighter-rouge">bool</code>, <code class="language-plaintext highlighter-rouge">list</code>, <code class="language-plaintext highlighter-rouge">map</code>.</p>
+
+<p><strong>Variables</strong>:</p>
+<ul>
+  <li>Store sensitive information like passwords or secret keys.</li>
+  <li>Placeholder for information that changes depending on deployment (production and dev have different values)</li>
+</ul>
+
+<p>When variables are declared in the root module of your configuration, they can be set in a number of ways:</p>
+<ul>
+  <li>In a Terraform Cloud workspace.</li>
+  <li>Individually, with the -var command line option.</li>
+  <li>In variable definitions (.tfvars) files, either specified on the command line or automatically loaded.</li>
+  <li>As environment variables.</li>
+</ul>
+
+<p> —-</p>
+
+<p><strong>Provisioning Resources</strong></p>
+
+<p><strong>Terraform State</strong></p>
+
+<p>When you work with Terraform it maintains the state of the infrastructure that contains everything including your instances. With a local backend, this state is stored in a JSON file that can be easily parsed and converted to the Ansible inventory. To make ansible-playbook work you have to have an Ansible code in the same directory</p>
+
+<p>Statefile: Json file either stored locally or remotely. (Highly recommended not touching or changed it). 
+Resource mappings and metadata: takes configuration file and puts them into a resource tree (helps orchestrate across multiple providers by making a resource tree and dependency tree between different resources. Also stores metadata (last good state, some of the computed information of the resource e.g. DNS address for your load balancer).</p>
+
+<p>When you are deploying a new instance of your configuration or making updating  state file becomes gets locked.  Important when working in teams and state file is  shared (say through NFS share in your local network or hosted  application in a remote location (S3 bucker e.g).</p>
+
+<p>Statefile is created in the local folder 
+State allows you to create multiple environments that are using the same configuration files. 
+In a real world, you won’t be storing the production state at the same location where dev or test is scored. But you can have multiple dev environments, or a dev and stage environment.</p>
+
+<p><strong>Terraform Plan</strong></p>
+
+<p>Inspects State, inspects the configuration file that you submit -&gt; Creates a dependency graph e.g. if you are creating subnets in VPC, that can’t be created until VPC is created. As it walks through the dependency graph, it sees whether the updated configuration would require any additions or deletions</p>
+
+<p><strong>Provisioners</strong></p>
+
+<p>Many provisioners require access to the remote resource. Terraform uses default while connecting to a resource, but these can be overridden using a connection block.
+Connection block in resource: applies to all provisioners (Same ssh connection - user, host, private key)
+Connection block in  provisione: scoped to that provisioner
+Use case: have an initial provisioner connect as root user to setup user accounts, subsequent privistioners connect as a user with more limited provisioners.</p>
+
+<p>File provisioner: copy files from machine executing terraform to the remote
+Local-exec provisioner: invokes a local executable after a resource is created, which invokes a process on the machine running Terraform, not on the resource. 
+Rempote-exec provisioner: invokes a script on the remote resource after it is created. Use-cases: run a configuration management tool, bootstrap into a cluster, etc.</p>
+
+<hr />
+
+<p><strong>Modules</strong></p>
+
+<p>A module is a container for multiple resources that are used together. A module is a container for multiple resources that are used together. Modules can be used to create lightweight abstractions, so that you can describe your infrastructure in terms of its architecture, rather than directly in terms of physical objects.</p>
+
+<p>Syntax will work just for string variables. With others you have to specify the ‘blank default’:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>variable "passed_list_var" {
+    default = []
+}
+
+variable "passed_map_var" {
+    default = {}
+}
+</code></pre></div></div>
+
+<hr />
+
+<p><strong>Best Practices</strong></p>
+
+<ul>
+  <li>https://medium.com/@pavloosadchyi/terraform-patterns-and-tricks-i-use-every-day-117861531173</li>
+  <li>https://www.stratoscale.com/blog/openstack/tutorial-how-to-use-terraform-to-deploy-openstack-workloads/</li>
+  <li>https://hackernoon.com/terraform-openstack-ansible-d680ea466e22</li>
+  <li>https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/tutorial.html</li>
+  <li>https://medium.com/@hbarcelos</li>
+  <li>how-i-learnt-to-love-and-hate-terraform-in-the-past-few-weeks-db085d012882</li>
+  <li>https://itnext.io/things-i-wish-i-knew-about-terraform-before-jumping-into-it-43ee92a9dd65</li>
+</ul>
+
+<p>Examples</p>
+
+<p>https://github.com/diodonfrost/terraform-openstack-examples/tree/master/04-instance-with-loadbalancer </p>
+
+<p><strong>Common Bugs</strong></p>
+
+<p>Hail deployment depends on terraform version 0.11:</p>
+
+<ul>
+  <li>Reference to other resources must be with quotes and $</li>
+  <li>depends_on cannot contain variables. Values must be hardcoded</li>
+  <li>‘count’ cannot be computed for resource within module based on list of interpolated values https://docs.cloudposse.com/troubleshooting/terraform-value-of-count-cannot-be-computed/ https://github.com/hashicorp/terraform/issues/18923  </li>
+</ul>
+
+<hr />
+
+<p>How To:</p>
+
+<p>Use Terraform template_file data source to generate a dynamic Ansible inventory from Terraform state file
+ 
+data “template_file” “inventory” {
+  template = “${file(“templates/inventory.tpl”)}”</p>
+
+<p>depends_on = [
+    “google_compute_instance.managers”,
+    “google_compute_instance.workers”,
+  ]</p>
+
+<p>vars {
+    managers = “${join(“\n”, google_compute_instance.managers.<em>.network_interface.0.access_config.0.nat_ip)}”
+    workers  = “${join(“\n”, google_compute_instance.workers.</em>.network_interface.0.access_config.0.nat_ip)}”
+  }
+}</p>
+
+<p>resource “null_resource” “cmd” {
+  triggers {
+    template_rendered = “${data.template_file.inventory.rendered}”
+  }</p>
+
+<p>provisioner “local-exec” {
+    command = “echo ‘${data.template_file.inventory.rendered}’ &gt; ../ansible/inventory”
+  }
+}</p>
+
+:ET

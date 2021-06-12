@@ -1,0 +1,308 @@
+I"�<p><a href="https://docs.python.org/3/reference/datamodel.html">Data Model</a></p>
+
+<p>Objects are python’s abstraction for data. Everything is an object - intergers, strings, functions, classes, modules, methods etc. And objects are “first class citizens”. This implies that all objects that can be named in the language can be assigned to variables, passed as arguments to functions, stored in containers (lists, tuples, dictionaries) etc.</p>
+
+<p><a href="https://www.youtube.com/watch?v=HTLu2DFOdTg">Reymond Hettinger: Classes</a>
+<a href="https://www.youtube.com/watch?v=UANN2Eu6ZnM">Reymond Hettinger: The Mental Game</a>
+<a href="https://en.wikiversity.org/wiki/Python_Concepts/Strings">Strings</a>
+String values represent a series of Unicode code points  (ASCII is a subset of Unicode)
+<a href="http://www.omahapython.org/IdiomaticPython.html">Idioms</a></p>
+
+<p><a href="https://cheat.readthedocs.io/en/latest/python/index.html">Development Environment</a></p>
+
+<hr />
+
+<p><strong>Top Level Functions and Protocols vs Object Methods</strong> Why does python has <code class="language-plaintext highlighter-rouge">len()</code> rather than object.length? (and similarly with <code class="language-plaintext highlighter-rouge">del()</code>, <code class="language-plaintext highlighter-rouge">zip()</code> instead of <code class="language-plaintext highlighter-rouge">zip_with()</code>, <code class="language-plaintext highlighter-rouge">str()</code> instead of <code class="language-plaintext highlighter-rouge">object.str()</code> , list comprehensions <code class="language-plaintext highlighter-rouge">new_list = [expression for member in iterable]</code> are different from calling methods on iterables, and so on**</p>
+
+<p>Just because everything is an object doesn’t mean being an object is the most important thing about each thing! Python is not a pure OOP but is a multi-paradigm language, and this is one of the useful things borrowed from functional programming.</p>
+
+<p>This allows the use of these “methods” with higher order functions (functions that take a function as argument) without the need to define a function or lambda just to call a mthod.</p>
+
+<p>Using a protocol, one can provide alternative ways of implementing things. len() returns the length of x. How does it do that? It calls the special internal method .<strong>len</strong> on x. So you can still customize it. Think of len() as an operator more than a function. By keeping the special internal methods named <strong>something</strong> instead of just something we can adapt to pretty much any API in Python.</p>
+
+<p>What needs to be done? if you do not think of “I will use a while loop here, here and here, and a condition there and then I have the first part” but as “this is what I want to do, this is what I need and am done”. You do not focus on the implementation details.</p>
+
+<p>If you look at Java in comparison what will we find? A builtin array has a field called <code class="language-plaintext highlighter-rouge">.length</code>. A builtin string however is an actual object and has a method called <code class="language-plaintext highlighter-rouge">.length()</code>. A map or list in Java responds to <code class="language-plaintext highlighter-rouge">.size()</code>. All the XML APIs in Java will use .getLenght() instead</p>
+
+<p>Having that one function (instead of method) doing that call gives us extra powers to commonly required behavior.
+<code class="language-plaintext highlighter-rouge">__iter__ </code>method that object is iterable so you can use the for-loop to iterate over it. You should not call .<strong>iter</strong> yourself, instead use iter(x) if you really need the iterator. Why is that? Why can’t I just use x.<strong>iter</strong>() and be happy? Because
+For instance in Python if you have something that has a method named <code class="language-plaintext highlighter-rouge">.__getitem__</code> (subscript operator <code class="language-plaintext highlighter-rouge">x[y] == x.__getitem__(y)</code>) and the subscripted object is an integer and the special method will not raise a lookup error if 0 is passed it means that obviously there is a first item in the object. Python will then assume it’s iterable and continue to subscript it incrementing integers (first iteration step is <code class="language-plaintext highlighter-rouge">x[0]</code>, second is <code class="language-plaintext highlighter-rouge">x[1]</code> etc.). You can easily test this yourself:</p>
+
+<p><a href="https://lucumr.pocoo.org/2011/7/9/python-and-pola/">More on this</a></p>
+
+<hr />
+<h1 id="modules">Modules</h1>
+
+<p>A module in python is just a python file. Packages enable to keep a directory structure of modules for more readable imports.</p>
+
+<p>Aside from some naming restrictions, nothing special is required for a Python file to be a module, but you need to understand the import mechanism in order to use this concept properly and avoid some issues.</p>
+
+<ul>
+  <li>Concretely, the <code class="language-plaintext highlighter-rouge">import module_name</code> statement will look for the proper file, which is <code class="language-plaintext highlighter-rouge">module_name.py</code> <em>in the same directory as the caller</em> if it exists</li>
+  <li>If it is not found, the Python interpreter will search for <code class="language-plaintext highlighter-rouge">module_name.py</code> in the <code class="language-plaintext highlighter-rouge">sys.path</code> recursively and raise an <code class="language-plaintext highlighter-rouge">ImportError</code> exception if it is not found.
+    <blockquote>
+      <p>There are various ways of making sure a directory is always on the Python sys.path list when you run Python, including:</p>
+      <ul>
+        <li>put the directory into the contents of the PYTHONPATH environment variable</li>
+        <li>make the module part of an installable package, and install it – see: making a Python package.</li>
+      </ul>
+    </blockquote>
+  </li>
+  <li>Once <code class="language-plaintext highlighter-rouge">module_name.py</code> is found, the Python interpreter will execute the module in an isolated scope.
+    <ul>
+      <li>In many languages, an include file directive is used by the preprocessor to take all code found in the file and ‘copy’ it into the caller’s code. It is different in Python: the included code is isolated in a module namespace, which means that you generally don’t have to worry that the included code could have unwanted effects, e.g. override an existing function with the same name.</li>
+      <li>It is executed once per process.All unenclosed statements are executed, For classes, the story is different: at import time, the interpreter executes the body of every class, even the body of classes nested in other classes. Execution of a class body means that the attributes and methods of the class are defined, and then the class object itself is built. </li>
+      <li>Any top-level statement in <code class="language-plaintext highlighter-rouge">module_name.py</code> will be executed, including other imports if any.    </li>
+    </ul>
+  </li>
+  <li>Function and class definitions are stored in the module’s dictionary. Then, the module’s variables, functions, and classes will be available to the caller through the module’s namespace, a central concept in programming that is particularly helpful and powerful in Python.
+https://stackoverflow.com/questions/419163/what-does-if-name-main-do</li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">import module_name</code> creates an object of the module’s name (and possibly creates the .pyc byte code file). Later imports of same module name use the existing object.</p>
+  </li>
+  <li>The <code class="language-plaintext highlighter-rouge">dir()</code><code class="language-plaintext highlighter-rouge"> function displays names of module attributes. [Example: </code><strong>name</strong><code class="language-plaintext highlighter-rouge"> attribute, which is equal to </code><strong>main</strong><code class="language-plaintext highlighter-rouge"> when a module is running as a standalone programme). The </code><strong>dict</strong><code class="language-plaintext highlighter-rouge"> attribute is a dictionary of module objects [E.g. </code>math.<strong>dict</strong><code class="language-plaintext highlighter-rouge"> contains </code>pow<code class="language-plaintext highlighter-rouge">, </code>sum<code class="language-plaintext highlighter-rouge">, </code>cosh` as keys for corresponding function objects)
+ </li>
+</ul>
+
+<p>Don’t: <code class="language-plaintext highlighter-rouge">from module  import *</code> It affects same named objects within the namespace.  It is possible to simulate the more standard behavior by using a special syntax of the import statement: <code class="language-plaintext highlighter-rouge">from modu import *</code>. This is generally considered bad practice. Using <code class="language-plaintext highlighter-rouge">import *</code> makes code harder to read and makes dependencies less compartmentalized.</p>
+
+<p><a href="https://stackoverflow.com/questions/45446418/modulenotfounderror-no-module-named-main-xxxx-main-is-not-a-packag/52756937">Relative Imports</a></p>
+
+<blockquote>
+  <p>Note that relative imports are based on the name of the current module. Since the name of the main module is always <code class="language-plaintext highlighter-rouge">__main__</code>, modules intended for use as the main module of a Python application must always use absolute imports.</p>
+</blockquote>
+
+<p><strong>Tests</strong></p>
+
+<p>Ways to call tests:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">unittest</span> <span class="n">test_module</span> <span class="p">(</span><span class="n">e</span><span class="p">.</span><span class="n">g</span><span class="p">.</span> <span class="n">test</span><span class="p">.</span><span class="n">test_</span><span class="o">*</span><span class="p">.</span> <span class="n">Module</span> <span class="n">search</span> <span class="n">path</span> <span class="n">will</span> <span class="n">have</span> <span class="n">root</span><span class="p">)</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">unittest</span> <span class="n">test</span><span class="o">/</span><span class="n">test_file</span><span class="p">.</span><span class="n">py</span> <span class="p">(</span><span class="n">Module</span> <span class="n">search</span> <span class="n">path</span> <span class="n">will</span> <span class="n">have</span> <span class="n">test</span> <span class="n">directory</span><span class="p">,</span> <span class="ow">not</span> <span class="n">root</span><span class="p">)</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">unittest</span> <span class="n">discover</span> <span class="n">test</span> 
+</code></pre></div></div>
+
+<p>To give the individual tests import context, create a tests/context.py file:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">os</span> 
+<span class="kn">import</span> <span class="nn">sys</span> 
+<span class="n">sys</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">__file__</span><span class="p">),</span> <span class="s">'..'</span><span class="p">)))</span>
+<span class="kn">import</span> <span class="nn">sample</span>
+</code></pre></div></div>
+
+<p>Then, within the individual test modules, import the module like so: 
+from <code class="language-plaintext highlighter-rouge">.context import sample</code></p>
+
+<p>This will always work as expected, regardless of installation method.</p>
+
+<p>Some people will assert that you should distribute your tests within your module itself, but it often increases complexity for your users; many test suites often require additional dependencies and runtime contexts.</p>
+
+<hr />
+
+<p><strong>Useful Standard Library Modules</strong></p>
+
+<p><strong>sys</strong>: responsible for the interaction between the program and the Python interpreter, providing a series of functions and variables for manipulating the Python runtime environment</p>
+<ul>
+  <li>command line arguments (sys.argv)</li>
+  <li>module Search Path  (sys.path)</li>
+  <li>exit code (sys.exit)</li>
+  <li>sys.executable</li>
+  <li>sys.version</li>
+  <li>sys.platform </li>
+</ul>
+
+<p><strong>argeparse</strong></p>
+
+<p><strong>os</strong>:  interacting with the operating system, providing access to the underlying interface of the operating system. file system drivers or manage the file system as a hiearchy of directories and files and command line utilities</p>
+<ul>
+  <li>os.environ</li>
+  <li>os.sep</li>
+  <li>os.getcwd</li>
+  <li>os.chdir</li>
+  <li>os.listdir()</li>
+  <li>os.path (to query the filesystem)</li>
+  <li>os.remove</li>
+</ul>
+
+<p><strong>subprocess</strong>: 
+The subprocess module allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes. 
+Spawning a subprocess always incurs a (minor)  performance hit minor compared to the alternatives.</p>
+
+<p><code class="language-plaintext highlighter-rouge">subprocess.run()</code>, <code class="language-plaintext highlighter-rouge">subprocess.Popen()</code> handles process creation.  </p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">subprocess</span>
+<span class="n">new_process</span> <span class="o">=</span> <span class="n">subprocess</span><span class="p">.</span><span class="n">Popen</span><span class="p">([</span><span class="err">‘</span><span class="n">ping</span><span class="p">,</span> <span class="err">‘</span><span class="n">localhost</span><span class="err">’</span><span class="p">],</span> <span class="n">shell</span> <span class="o">=</span> <span class="n">true</span><span class="p">,</span> <span class="n">stidout</span> <span class="o">=</span> <span class="n">subprocess</span><span class="p">.</span><span class="n">PIPE</span><span class="p">)</span>
+<span class="n">For</span> <span class="n">pingline</span> <span class="ow">in</span> <span class="n">newprocess</span><span class="p">.</span><span class="n">stdout</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">pingline</span><span class="p">.</span><span class="n">decode</span><span class="p">())</span>
+</code></pre></div></div>
+
+<p>Python’s subprocess library, and the popen command that underlies it, offer a way to get a pipe to stdin of the process. This way, you can send in the commands you want directly from Python and don’t have to attempt to get another subprocess to talk to it.</p>
+
+<ul>
+  <li><a href="https://stackoverflow.com/questions/4256107/running-bash-commands-in-python">Running Bash commands in Python</a></li>
+  <li><a href="https://stackoverflow.com/questions/375427/a-non-blocking-read-on-a-subprocess-pipe-in-python">A non-blocking read on a subprocess.PIPE in Python</a></li>
+  <li><a href="https://stackoverflow.com/questions/20669558/how-to-make-subprocess-called-with-call-popen-inherit-environment-variables">How to make subprocess called with call/Popen inherit environment variables</a></li>
+  <li></li>
+</ul>
+
+<hr />
+
+<p><strong>glob</strong>: provides pattens matching on file names. glob() function returns a list of matching file names.</p>
+
+<p><strong>re</strong>: regular expression pattern matching.</p>
+
+<p><strong>database access</strong></p>
+
+<p><strong>archiving and compression</strong></p>
+
+<p>date and time information and measurement</p>
+
+<p><strong>unittest</strong></p>
+
+<p><strong>logging</strong></p>
+
+<p><strong>pathlib</strong></p>
+
+<p><strong>tempFile</strong></p>
+
+<p><strong>typing</strong></p>
+
+<p><strong>functools</strong></p>
+
+<p><strong>metaclasses</strong></p>
+
+<p>Abstract Class: All classes have a meta class. E.g. that’s what python uses to tell a class how to create an instance 
+e.g. abstactmethod: decorator function that requires that abstract methods are overridden</p>
+
+<p><strong>weakreference</strong></p>
+
+<p>A primary use for weak references is to implement caches or mappings holding large objects, where it’s desired that a large object not be kept alive solely because it appears in a cache or mapping. For example, if you have a number of large binary image objects, you may wish to associate a name with each. If you used a Python dictionary to map names to images, or images to names, the image objects would remain alive just because they appeared as values or keys in the dictionaries. The WeakKeyDictionary and WeakValueDictionary classes supplied by the weakref module are an alternative, using weak references to construct mappings that don’t keep objects alive solely because they appear in the mapping objects. If, for example, an image object is a value in a WeakValueDictionary, then when the last remaining references to that image object are the weak references held by weak mappings, garbage collection can reclaim the object, and its corresponding entries in weak mappings are simply deleted.</p>
+
+<hr />
+
+<p><strong>Decorators</strong></p>
+
+<p>This is a cool trick from <a href="https://en.wikipedia.org/wiki/Aspect-oriented_programming">aspect-oriented programming</a>.<sup id="fnref:aspect" role="doc-noteref"><a href="#fn:aspect" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>A decorator is a function or a class that wraps (or decorates) a function or a method. The ‘decorated’ function or method will replace the original ‘undecorated’ function or method. Because functions are first-class objects in Python, this can be done ‘manually’, but using the @decorator syntax is clearer and thus preferred.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">foo</span><span class="p">():</span>
+    <span class="c1"># do something
+</span>
+<span class="k">def</span> <span class="nf">decorator</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+    <span class="c1"># manipulate func
+</span>    <span class="k">return</span> <span class="n">func</span>
+
+<span class="n">foo</span> <span class="o">=</span> <span class="n">decorator</span><span class="p">(</span><span class="n">foo</span><span class="p">)</span>  <span class="c1"># Manually decorate
+</span>
+<span class="o">@</span><span class="n">decorator</span>
+<span class="k">def</span> <span class="nf">bar</span><span class="p">():</span>
+    <span class="c1"># Do something
+# bar() is decorated
+</span>
+
+</code></pre></div></div>
+
+<p>This mechanism is useful for separating concerns and avoiding external unrelated logic ‘polluting’ the core logic of the function or method.  Mainly used by library writers to make your code work with the library (rather than you have to change your code to make it work with their library, they would decorate it).</p>
+
+<p>A good example of a piece of functionality that is better handled with decoration is memoization or caching: you want to store the results of an expensive function in a table and use them directly instead of recomputing them when they have already been computed. This is clearly not part of the function logic.</p>
+
+<p>@cached_property (e.g _is_valid for Config object: if it is valid on construction, it always remains valid)</p>
+
+<p>@property (can be called with syntax object.property instead of object.property())</p>
+
+<p>@dataclass (automatically sets getters and setters for objects stored)</p>
+
+<p>@patch(package.module.ClassName, mock_object_name) in tests for mocking</p>
+
+<p>@abstractmethod</p>
+
+<p>@classmethod With classmethods, the class of the object instance is implicitly passed as the first argument instead of self. One use people have found for class methods is to create inheritable alternative constructors.
+@
+staticmethod (example: _build in _YAMLConfig class) when compared to normal methods, the static methods and class methods can also be accessed using the class but unlike class methods, static methods are immutable via inheritance
+With classmethods, the class of the object instance is implicitly passed as the first argument instead of self. With staticmethods, neither self (the object instance) nor cls (the class) is implicitly passed as the first argument. They behave like plain functions except that you can call them from an instance or the class. Staticmethods are used to group functions which have some logical connection with a class to the class…we can just use a simple outside-of-class function but it helps with organization and style with multiple classes.</p>
+
+<hr />
+
+<h1 id="tips">Tips</h1>
+
+<p>Using properly mutable types for things that are mutable in nature and immutable types for things that are fixed in nature helps to clarify the intent of the code. For example, the immutable equivalent of a list is the tuple, created with <code class="language-plaintext highlighter-rouge">(1, 2)</code>.  This tuple is a pair that cannot be changed in-place, and can be used as a key for a dictionary.</p>
+
+<p><code class="language-plaintext highlighter-rouge">range(start, end, step)</code> is the constructor of a class which returns an iterable sequence of integers
+<code class="language-plaintext highlighter-rouge">zip(collection1, collection2, coll3…)</code> to stich corresponding elements.
+<code class="language-plaintext highlighter-rouge">dict(zip(coll1, coll2)</code> to make it a dict.</p>
+
+<p>Lists use many methods similar to strings. Lists can also be sliced like strings.
+Sets use many methods similar to dictionaries.</p>
+
+<p><a href="https://stackoverflow.com/questions/47789/generator-expressions-vs-list-comprehensions">Use List and Generator Comprehension</a></p>
+
+<p>List comprehension = [function(iterable)] e.g..</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">prices</span> <span class="o">=</span> <span class="p">[</span><span class="err">…</span><span class="p">,</span> <span class="err">…</span><span class="p">,..]</span>  
+<span class="n">fees</span> <span class="o">=</span> <span class="p">[</span><span class="err">…</span><span class="p">,</span><span class="err">…</span><span class="p">]</span> 
+<span class="n">totals</span> <span class="o">=</span> <span class="p">[</span><span class="n">price</span> <span class="o">-</span> <span class="n">fee</span> <span class="k">for</span> <span class="n">prices</span> <span class="ow">in</span> <span class="n">prices</span> <span class="k">if</span> <span class="n">price</span> <span class="o">&gt;</span> <span class="nb">min</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>Lambda expressions: maybe used where statements are not syntactically allowed.  </p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">apply</span> <span class="n">disc</span> <span class="o">=</span> 
+<span class="p">{</span><span class="err"> </span> <span class="err">‘</span><span class="n">cruise</span><span class="err">’</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">price</span><span class="p">:</span> <span class="n">price</span> <span class="o">-</span> <span class="mi">5</span><span class="err"> </span><span class="p">,</span>
+  <span class="err">‘</span><span class="n">rocker</span><span class="err">’</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">price</span><span class="p">:</span> <span class="n">price</span><span class="o">*</span><span class="mi">2</span><span class="err"> </span> <span class="p">}</span>
+</code></pre></div></div>
+
+<p>Functions usually return immediately, but generator functions can maintain state.</p>
+
+<p>List comprehensions are usually the fastest and most idiomatic way to construct a string from its parts, appending each part to the string is inefficient because the entirety of the string is copied on each append. Instead, it is much more efficient to accumulate the parts in a list, which is mutable, and then glue (join) the parts together when the full string is needed.  using join() is not always best. In the instances where you are creating a new string from a pre-determined number of strings, using the addition operator is actually faster</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">foo</span> <span class="o">=</span> <span class="s">'foo'</span>
+<span class="n">bar</span> <span class="o">=</span> <span class="s">'bar'</span>
+<span class="n">foobar</span> <span class="o">=</span> <span class="n">foo</span> <span class="o">+</span> <span class="n">bar</span>  <span class="c1"># This is good
+</span><span class="n">foo</span> <span class="o">+=</span> <span class="s">'ooo'</span>  <span class="c1"># This is bad, instead you should do:
+</span><span class="n">foo</span> <span class="o">=</span> <span class="s">''</span><span class="p">.</span><span class="n">join</span><span class="p">([</span><span class="n">foo</span><span class="p">,</span> <span class="s">'ooo'</span><span class="p">])</span>
+
+<span class="c1"># Alternative:
+</span><span class="n">foobar</span> <span class="o">=</span> <span class="s">'%s%s'</span> <span class="o">%</span> <span class="p">(</span><span class="n">foo</span><span class="p">,</span> <span class="n">bar</span><span class="p">)</span> <span class="c1"># It is OK
+</span><span class="n">foobar</span> <span class="o">=</span> <span class="s">'{0}{1}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">foo</span><span class="p">,</span> <span class="n">bar</span><span class="p">)</span> <span class="c1"># It is better
+</span><span class="n">foobar</span> <span class="o">=</span> <span class="s">'{foo}{bar}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">foo</span><span class="o">=</span><span class="n">foo</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="n">bar</span><span class="p">)</span> <span class="c1"># It is best 
+</span></code></pre></div></div>
+
+<p>Do not use <code class="language-plaintext highlighter-rouge">readLines()</code> method of files. Not efficient (loads entire in memory: huge memory requirement, and other tasks can only be done after this). [Instead use readline() or use file as a lazy iterator] (https://stackoverflow.com/questions/17246260/python-readlines-usage-and-efficient-practice-for-reading )</p>
+
+<p>Bare <code class="language-plaintext highlighter-rouge">*</code> in function signature:  used to force the caller to use named arguments - so you cannot define a function with <code class="language-plaintext highlighter-rouge">*</code> as an argument when you have no following keyword arguments. <code class="language-plaintext highlighter-rouge">*</code> is in place of <code class="language-plaintext highlighter-rouge">*args</code>, and vice-versa; they can’t coexist in a signature. That’s why they chose <code class="language-plaintext highlighter-rouge">*</code>; previously, <code class="language-plaintext highlighter-rouge">*args</code> was the only way to force purely positional arguments, and it marked the end of arguments which could be passed positionally (since it collected all remaining positional arguments, they could reach the following named arguments). <code class="language-plaintext highlighter-rouge">*</code> `means the same “positional arguments can’t go beyond here”, but the lack of a name means “but I won’t accept them at all, because I chose not to provide a place to put them</p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">for  _ in range(x)</code> kind of language when the index is not important.
+Use <code class="language-plaintext highlighter-rouge">in</code> to check membership (rather than <code class="language-plaintext highlighter-rouge">.get</code>)</p>
+
+<p>Use Protocol paradigm to make life easier: can override <code class="language-plaintext highlighter-rouge">__add__ </code>for defining the meaning of “+”.</p>
+
+<p>Use aliasing to make life easier.</p>
+
+<p>Strings support sllicing functions, concatenation and repetition, str() constructor which also does type conversion, .upper(), .lower() etc. The built-in string class provides the ability to do complex variable substitutions and value formatting via the format() method.</p>
+
+<hr />
+
+<h1 id="common-bugs">Common Bugs</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">airports</span> <span class="o">=</span> <span class="p">[..,</span><span class="err">…</span><span class="p">,..]</span>
+<span class="n">dest</span> <span class="o">=</span> <span class="n">airports</span>
+<span class="n">dest</span> <span class="ow">is</span> <span class="n">airpots</span> <span class="o">-&gt;</span> <span class="bp">True</span>
+<span class="n">dest</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">airports</span><span class="p">)</span> <span class="c1"># this is the data type conversion function. Makes a copy
+</span><span class="n">dest</span> <span class="ow">is</span> <span class="n">airports</span> <span class="o">-&gt;</span> <span class="bp">False</span><span class="p">.</span> 
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">readline()</code><code class="language-plaintext highlighter-rouge"> includes the </code>\n<code class="language-plaintext highlighter-rouge"> line. Use </code>rstrip()<code class="language-plaintext highlighter-rouge"> to remove it (Note the </code>file<code class="language-plaintext highlighter-rouge"> is an iterator so we don't really need </code>readline()`)</p>
+
+<p>Any functions which returns a new value, usually doesn’t change the original object (except in stuff like <code class="language-plaintext highlighter-rouge">list.pop()</code>). If a function doesn’t return, it usually just has modified the original element.</p>
+
+<p>As a caveat to Global access - reading a global variable can happen without explicit declaration, but writing to it without declaring <code class="language-plaintext highlighter-rouge">global(var_name)</code>will instead create a new local instance.</p>
+
+<p>‘-123’.isdigit is false because ‘-‘ is not a digit.</p>
+
+<p>Default parameters are bound at function creation time, not evaluation time. If the default parameter is a mutable type, repeated calls to the function can mutate it.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:aspect" role="doc-endnote">
+      <p>Aspect-oriented programming entails breaking down program logic into distinct parts (so-called concerns, cohesive areas of functionality). Nearly all programming paradigms support some level of grouping and encapsulation of concerns into separate, independent entities by providing abstractions (e.g., functions, procedures, modules, classes, methods) that can be used for implementing, abstracting and composing these concerns. Some concerns “cut across” multiple abstractions in a program, and defy these forms of implementation. These concerns are called cross-cutting concerns or horizontal concerns. Logging exemplifies a crosscutting concern because a logging strategy necessarily affects every logged part of the system. Logging thereby crosscuts all logged classes and methods. <a href="#fnref:aspect" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
