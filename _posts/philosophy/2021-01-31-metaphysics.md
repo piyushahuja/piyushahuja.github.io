@@ -35,8 +35,12 @@ Terms:
 
 Experiments:
 
-* Mary's Room
+* Mary's Room (Jackson)
 * What is it like to be a bat?
+* China Brain
+* Twin Earth (Putnam)
+* Chinese Room (Searle)
+* Philosophical Zombie
 
 # Existence
 
@@ -55,6 +59,7 @@ Which of these exist?
 * Events, Processess
 * Collective Fictions (Government, Nations)
 
+Linguistic analysis:  truth value of statements about existence depends on the theory of truth
 
 Theories of Truth:
 
@@ -63,7 +68,8 @@ Theories of Truth:
 * Deflationary: According to the deflationist, however, such suggestions are mistaken, and, moreover, they all share a common mistake. The common mistake is to assume that truth has a nature of the kind that philosophers might find out about and develop theories of. For the deflationist, truth has no nature beyond what is captured in ordinary claims such as that ‘snow is white’ is true just in case snow is white. Philosophers looking for the nature of truth are bound to be frustrated, the deflationist says, because they are looking for something that isn't there.
 
 
-Linguistic analysis: truth value of statements about existence depends on the theory of truth: correspondence theory (truth relies on the correspondence between a statement an an external, independent reality), or internalist theory (context theory or intuitionist?)
+
+
 
 
 ------
@@ -189,6 +195,52 @@ Quine view of ontology.
     * Putnam points out that while the pages of a book are regarded as part of book when they are attached, they are things-in-themselves if they are detached. My nose is only part of an object, my person. On the other hand, is my nose the same as the collection of atoms or molecules forming it? This arbitrariness of language is called conceptual relativity, a matter of conventions.[13] The point is made that if one wishes to refer only to 'pages', then books may not exist, and vice versa if one wishes to admit only to books. Thus, in this view, the Carnapian multiplicity of possible linguistic frameworks proposes a variety of 'realities' and the prospect of choosing between them, a form of what is called ontological pluralism, or multiple realities.
 
 # The Mind Body Problem
+
+
+Monism: There is only one substance
+
+- Idealism: everything is mind. Physical stuff can be reduced to mental stuff (i.e. physicality is an illusion). (George Berkeley)
+- Physicalism: everything is physical stuff (which includes energy, electrons/photons, waves, forces etc.) Mental states can be 'reduced to it'. 
+    - Folk psychology will be erased with the progress of science. Most mental states dont even exist. (Churchlands eliminative materialsm).Proponents of these views argue that in the same way that talk of demonic possession was questioned with scientific advance, categorisations like "pain" may need to be revised. debates over the reality of a psychological concept like "demonology" – the posit that evil spirits influence human behaviour. An eliminativist might argue that this theory completely fails to describe anything real; the reductionist might argue that the concepts are valid, and that science will simply provide an increasingly detailed understanding of the demons. The revisionist would be somewhere in between, suggesting only that partial revision of the common sense understanding will be necessary. That is, parts of the demon theory will be validated by future research. Today, one is likely to be eliminativist about demons. However, eliminative materialists mention other psychological concepts (e.g. belief, will, consciousness) about which one is more likely to be revisionist.
+    - Behaviorism: inner mental phenomenon do not exist. Like functionalism but without inner states, only input and output. 
+    - type identity theory:  mental events can be grouped into types, and can then be correlated with types of physical events in the brain. For example, one type of mental event, such as "mental pains" will, presumably, turn out to be describing one type of physical event (like C-fiber firings). contrasted by token identity physicalism, which argues that mental events are unlikely to have "steady" or categorical biological correlates. These positions make use of the philosophical type–token distinction (e.g., Two persons having the same "type" of car need not mean that they share a "token", a single vehicle). Type physicalism can now be understood to argue that there is an identity between types (any mental type is identical with some physical type), whereas token identity physicalism says that every token mental state/event/property is identical to some brain state/event/property.
+    - anomalous monism (Donald Davidson): like reductive physicalism however anomalous becase unlike physical stuff this cannot be predicted or explained by physical laws. Since (in this theory) every mental event is some physical event or other, the idea is that someone's thinking at a certain time, for example, that snow is white, is a certain pattern of neural firing in their brain at that time, an event which can be characterized as both a thinking that snow is white (a type of mental event) and a pattern of neural firing (a type of physical event). There is just one event that can be characterized both in mental terms and in physical terms. If mental events are physical events, they can at least in principle be explained and predicted, like all physical events, on the basis of laws of physical science. However, according to anomalous monism, events cannot be so explained or predicted as described in mental terms (such as "thinking", "desiring" etc.), but only as described in physical terms: this is the distinctive feature of the thesis as a brand of physical monism.
+- Panpsychism: everything is one consciousness
+- Neutral monism: there is an unknown substance (e.g. God), which gives rise to appearance of physical and mental properties
+    + How is this different from dual aspect monism? or Property dualism?
+
+Dualism:
+
+
+
+- Substance dualism (Descartes): There are two distinct substances: mind and body   
+    + Causation: How does one cause events in another??
+        + Only physical events causes physical events. That mental events cause physical events is an illusion (Epiphenomalism: Dennett, Huxley)
+        + Physical events causes mental events. But its not necessary: non-physical stuff can also cause it (Searle)
+        + There are laws governing how physical stuff interacts with the mental world. But they havn't been discoevered yet (Chalmers, Nagel)
+
+
+In between:
+
+Functionalism: mental states (beliefs, desires, being in pain, etc.) are constituted solely by their functional role, which means, their causal relations with other mental states, sensory inputs and behavioral outputs.
+a theoretical level between the physical implementation and behavioral output. Since mental states are identified by a functional role, they are said to be realized on multiple levels; in other words, they are able to be manifested in various systems, even perhaps computers, so long as the system performs the appropriate functions. While a computer's program performs the functions via computations on inputs to give outputs, implemented via its electronic substrate, a brain performs the functions via its biological operation and stimulus responses.
+  - The main difference between Logical behaviorism and Functionalism is that Functionalism emphasizes on the importance of pre-existing conditions. For example in Logical Behaviorism ‘Pizza desire’ for person X would be X’s actual and dispositional behaviors concerning pizza. However, If, for example, X was presented with pizza and X does not eat it, then according to LB, X does not have pizza desire. On the other hand, Functionalism would say it would depend on pre-existing conditions. For instance, X might have a pizza desire, but has a pre-existing belief that the pizza is just a hologram or made of plastic for display.
+        - Other than the difference that states that Functionalism emphasizes on the importance of pre-existing conditions (or current mental state) while L.Behaviorism does not, is that Causal-role functionalism identify mental states as internal states that causes behaviors and caused by some environmental causes. Such functionalists believe that: For any mental state M, M is the internal state that causally mediates in the right way between environmental input, behavioral output, and other mental states.
+        - Adding the mental events is a big change. Functionalism does not seek to reduce mental states merely to inputs and outputs; part of what it is to be a pain is to cause the desire to alleviate the pain.
+        - Further, functionalism allows for a mentalistic psychology. Functionalism in the philosophy of mind is tied towards the idea in computer science of distinguishing the software being run from the hardware running it. Cognitive science has taken this distinction of explanatory levels and run with it, all thanks to the philosophical foundation provided by neuroscience. Never again will we be called unscientific for invoking mental states!
+        - On this understanding, type physicalism can be seen as incompatible with functionalism, since it claims that what characterizes mental states (e.g. pain) is that they are physical in nature, while functionalism says that what characterizes pain is its functional/causal role and its relationship with yelling "ouch", etc. However, any weaker sort of physicalism which makes the simple ontological claim that everything that exists is made up of physical matter is perfectly compatible with functionalism. Moreover, most functionalists who are physicalists require that the properties that are quantified over in functional definitions be physical properties. Hence, they are physicalists, even though the general thesis of functionalism itself does not commit them to being so.
+
+
+
+
+
+
+
+
+
+
+
+----
 
 plato: chariot matephor
 aristotle: soul has three parts: growth/nutrition shared with plants, perception shared with animals and reason which is unique to human beings. Things have a Form and function, Purposive and intelligent
