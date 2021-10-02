@@ -126,7 +126,8 @@ Quotes from the following articles
 - [Academics who switched to industry, what's your experience been like?](https://news.ycombinator.com/item?id=18798498)
 - [Comments against "To Live Your Best Life, Do Mathematics"](https://news.ycombinator.com/item?id=13552747)
 - [Comments against "If you get a PhD, get an economics PhD"](https://news.ycombinator.com/item?id=5669474)
-- [Against Humanities PhD](https://jakeseliger.com/2012/05/22/what-you-should-know-before-you-start-grad-school-in-english-literature-the-economic-financial-and-opportunity-costs/
+- [Against Humanities PhD](https://jakeseliger.com/2012/05/22/what-you-should-know-before-you-start-grad-school-in-english-literature-the-economic-financial-and-opportunity-costs/)
+- [Against Humanities PhD II](https://news.ycombinator.com/item?id=28725346)
 - [Why do so many peopel pursue a doctorate?](https://news.ycombinator.com/item?id=11543439)
 - [The experience of IITB -> MIT Chem PhD](https://www.insightiitb.org/graduate-student-to-be-or-not-to-be/)
 - [Why I am leaving Harvard](http://matt-welsh.blogspot.com/2010/11/why-im-leaving-harvard.html)
