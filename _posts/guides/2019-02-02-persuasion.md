@@ -55,6 +55,10 @@ Both activities require common abilities:
 -  reframing or breaking frames 
 
 
+---
+
+- [One word can make a difference](https://ideas.ted.com/what-a-difference-a-word-can-make-how-a-single-word-can-change-your-conversation/)
+
 ----
 
 * Talk around the idea, only indirectly suggesting it [How to plant an idea in someone's mind](https://lifehacker.com/how-to-plant-ideas-in-someones-mind-5715912)
@@ -259,7 +263,7 @@ Four parts:
 
 ----
 
-## Separate people from the problem. 
+## Separate people from the problem.
 
 > “He who has learned to disagree without being disagreeable has discovered the most valuable secret of negotiation.”    
  

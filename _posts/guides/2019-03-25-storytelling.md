@@ -73,6 +73,8 @@ Stories are gold.  Being a good storyteller is like strapping your personality 
 
 - **Determine How the Sound of your Voice Makes you Feel and make improvements**. Listen to yourself talk in a recording and pay attention to how you feel when you hear yourself talk. Do you feel positive or negative? Pleasant or irritiated? Energizing or sleep-inducing? There may be a high chance that most people feel the same way when they hear your voice. Can you adjust the general tonality to something more pleasing and stick to that?
 
+* **None of the tricks we use to make ourselves loved or respected by others work in the ways you would imagine they ought to.** The tales of how clever we were, how wise, how we won, they mostly fail. The practiced jokes and the witty one-liners all crash and burn up
+Honesty matters. Vulnerability matters. Being open about who you were at a moment in time when you were in a difficult or an impossible place matters more than anything. Having a place the story starts and a place it’s going: that’s important. Telling your story, as honestly as you can, and leaving out the things you don’t need, that’s vital. [From here](https://www.themarginalian.org/2017/04/17/neil-gaiman-the-moth-presents-all-these-wonders/?fbclid=IwAR0IkuieSMb5ulFqYAKErmsN92rvIRO8iOO4W8w-JhPCP2MFpNDIXO6K2Kk)
 
 ---------
 

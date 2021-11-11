@@ -131,5 +131,8 @@ Quotes from the following articles
 - [Why do so many peopel pursue a doctorate?](https://news.ycombinator.com/item?id=11543439)
 - [The experience of IITB -> MIT Chem PhD](https://www.insightiitb.org/graduate-student-to-be-or-not-to-be/)
 - [Why I am leaving Harvard](http://matt-welsh.blogspot.com/2010/11/why-im-leaving-harvard.html)
+  
+Tweets:
 - [passionate about science, not academia](https://twitter.com/JoanaFFPViana/status/1453989180267274241)
 - [lessons have you learned the hard way about the academe?](https://twitter.com/JohnHolbein1/status/1453514785690165249)
+- [A cynics guide to getting a faculty position](https://twitter.com/LabListon/status/1370302957410004994)
