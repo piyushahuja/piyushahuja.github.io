@@ -29,7 +29,7 @@ Interviewers go through hundreds of resumes just like you, and have probably int
 
 
 
-## Before the interview 
+## Before the interview
 
 **Prepare stories which highlight skills that the interviewer is looking for**
 
@@ -218,8 +218,7 @@ The best "something else" in interview situation is to think about how you can h
 
 This tells you where the company is growing and potential areas where you can help if positions are unfilled. Make that explicit as appropriate. Shows interest in success & future of the company.
 
-
- 
+* Is there anything I have said or haven’t said which would leave you in any doubt that I could do an excellent job for you?[Link](https://twitter.com/ufollowbooks/status/1447907361906102280)
 
 * What are the common attributes of your most successful projects, employees etc.?
 
