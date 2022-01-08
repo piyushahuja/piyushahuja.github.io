@@ -1,0 +1,28 @@
+I"ß<CENTER><h1 class="emphnext">Courses</h1></CENTER>
+
+<p>These are in-person workshops I offer in Cambridge.</p>
+
+<div class="postit">
+<a class="postit-link" href="/courses/algorithms/intro">Algorithms</a> 
+<span class="post-tag"></span>
+</div>
+
+<div class="postit">
+<a class="postit-link" href="/courses/ideas/intro">History of Ideas</a> 
+<span class="post-tag"></span>
+</div>
+
+<div class="postit">
+<a class="postit-link" href="/courses/maths/intro">Maths Proof Techniques</a> 
+<span class="post-tag"></span>
+</div>
+
+<div class="postit">
+<a class="postit-link" href="/courses/writing/intro">Writing Workshop</a> 
+<span class="post-tag"></span>
+</div>
+
+<!-- 
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+ -->
+:ET

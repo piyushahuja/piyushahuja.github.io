@@ -1,0 +1,58 @@
+---
+layout: post-normal
+title: Characters
+date:   2019-03-23 09:00:11
+tag:
+course: writing
+lesson: 9
+excerpt:
+comments: false
+---
+
+
+
+This may be my favorite question ever on Quora. Readers, viewers, and critics talk about three-dimensional characters and caricatures, and most of us "know them when we see them," but I rarely stumble across in-depth analyses of the subject.
+
+In my opinion, the chief ingredient is ambiguity. Or perhaps "unpredictability" is more apt. It can't be random, incoherent unpredictability. Characters must be psychologically plausible. But they should be plausible after-the-fact rather then predictable before. ("Oh, I see why he did that" rather than "I know what he's going to do.")
+
+If we always know how they'll react—because we know their "type"—they're caricatures. In fact, that's what makes a caricature fun. We love knowing exactly what Scrooge is going to say when he sees a Christmas present with a pink bow on top.
+
+We want The Cat in the Hat to be pure impishness. We may not know the exact sort of impish thing he'll do, but we know he'll never surprise us by being not-impish. And we'd hate it if he did. He's the character equivalent of comfort food, and we don't want to be surprised by a Poptart or by mac 'n cheese. We want them to be caricatures of food, to taste exactly the way they tasted when we were kids.
+
+I got obsessed with ambiguity and unpredictability when I experimented with Artificial Life, an offshoot of Artificial Intelligence that involves programming computers to mimic biological systems. I lay awake at night, wondering what ingredients I'd need to make a virtual creature as fun to watch as a kitten—or even an insect.
+
+I quickly realized that anything that seemed to by moving programmatically—like the "ball" in Pong or the aliens in Space Invaders—wouldn't work. It would have no ability to surprise me, and the fun thing about kittens is never knowing what they're going to get up to.
+
+But if I made the sim surprising by giving it constant random movements, that wouldn't be satisfying either. No biological creature is baffling to that extent. And even when a kitten surprises you, you're usually able to explain its actions after-the-fact.
+
+So the key is to find a sweet spot between predictability and surprise. That's what gives characters a feel of "dimension." Think about a your favorite complex character caught in a situation in which you aren't sure how he'll react. If he's well-written and well-played, you'll know that however he reacts, he'll be true to himself, but you also know that truth is complicated enough to include multiple possibilities.
+
+The feel has to be similar to a jazz improvisation that bends the melody almost to the breaking point without quite breaking it.
+
+What can create this coherent-unpredictability? Usually it's a product of multiple, conflicting urges, ones the readers of viewers know about individually without knowing what will happen when they mix together.
+
+Cookie monster doesn't have those. Nor does Dr. Smith on "Lost in Space." Well, maybe that's not entirely true. He's torn between extreme selfishness and a sentimental attachment to his adopted family, but you always know exactly how those forces will play out within him in a conflict. When, in the end, Smith "does the right thing," the fun is watching him surprise himself rather than being surprised by him.
+
+But a character like Walter White is much more layered, because he has a deep love of his family and a deep love of his dangerous, criminal activities. He also has a mammoth ego/inferiority complex. So if he has to choose, under pressure, between feeding his ego and protecting his family, it's unclear which road he'll take. It's as if a feather is poised the air between the two possibilities and the slightest breeze could blow it in either direction.
+
+Since the writers carefully set up both his need for power and his love for his family, I'd believe it if he sacrificed his ego-driven desires to care for them, as long as I saw that it was a struggle for him. I'd also believe it if he dicked them over to bulk up his pride, as long as that made him feel guilty or sent him into a paroxysm of self-justification. And the fact that those possibilities and contradictions are always in him—and in my mind as a viewer as I watch him—makes him seem three-dimensional.
+
+
+
+
+UPDATE: I just came across this appreciation, by novelist Paul Harding, of short-story writer, John Cheever, which makes some similar points:
+
+Source: http://www.theatlantic.com/entertainment/archive/2013/09/think-about-characters-like-a-sphere-how-john-cheever-wrote-inner-turmoil/279541/
+
+
+Cheever is a writer who helped teach me to think about characters like a sphere: You’ve got the north pole and the south pole, a polarity with opposite charges contained inside one whole. But then there’s these magnetic fields created between the two of them, which is where the real complexity is, where the real intermingling of those contradictory impulses take shape.
+
+So I strive for these polarities in my own work. You have to be careful that you’re not dogmatic or schematic about it. But the more I think about it, I’m aware that—in all art forms—contradiction is the essential move or method for art. In music it’s counterpoint. In landscape painting it’s the contrast between the foreground, which is always dark, and the background, which is light. And in writing, it’s death and life. The imminent arrival of death—what greater thing to set life in relief against? … The darker it gets, when we arrives at just one remaining pinpoint of light, that pinpoint becomes all the more beautiful and resplendent for its rarity and clarity against the gloom. You put contradictory things next to each other, and in the intermingling of them you get something like the mystery of human experience.
+The same kind of principle works for juxtaposition—the infinite with the infinitesimal. This works in writing, when you describe something on the scale of the universe, and then describe something as tiny as a grain of sand. So you could take a tiny, intimate domestic scene—someone drinking a cup of tea at a desk—that scalability, that intuitive human truth that the great and the small, the good and the bad, the light and the dark, are all intermingled.
+
+The poles must be structured around the truly irreducible questions—mysteries you can’t get to the bottom of. Otherwise, you’re in danger of explaining yourself away. Second-rate writing will tell you which pole to pick: “Be kind to strangers!” Then you’re in the realm of propaganda or received opinion or truisms. I think the definition of kitsch, or sentimentality, is denying either pole in favor over the other. It goes back to what Cheever’s character, is attempting but failing, to do—trying to deny the dark part and show only the light. But in the model, that conceptual model, no subject has any meaning if it’s been separated from its opposite. It’s Einstein, it’s relativity: Nothing has meaning without being relative to its opposite.
+These contrasts really can be the organizing aesthetic principle of fiction. … you take the events of the outside world, you pass them through a consciousness—and the angle of refraction is what you would call character.
+
+… It can be as mundane a thing as “I don’t want to smoke cigarettes, but I smoke cigarettes.” These contradictions are compelling from the most trivial vice to the deepest sinful stuff—that’s the real human arena, and Cheever is deep, deep down in it….
+
+Every single day’s writing session is an attempt to get to that complexity. To climb down into the fictional realm and inhabit a character, and see the world and the dramatic circumstances that I’ve given him through his perceptions. And to write prose that reproduces his experiences, not only the events of his life but his interpretations of them. Life in its full range, irreducible, in its full, heartbreaking complexity. All I want to do is immerse the reader in the experience. I do not write in order to explain, I write in order to describe—the true mystery, the heartbreaking mystery of being a human being.
