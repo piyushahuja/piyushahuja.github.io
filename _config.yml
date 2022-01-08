@@ -13,8 +13,14 @@ author: Piyush Ahuja
 markdown: kramdown
 permalink: pretty
 
-# collections:
-#   - staff_members
+collections:
+  courses:
+    output: true
+    permalink: /:collection/:path
+    sort_by: lesson
+
+
+
 include: ["_pages"]
 # disqus:
 #     shortname: 'piyushahuja'

@@ -1,0 +1,36 @@
+---
+layout: post-normal
+title: Variety and Rhythm
+date:   2020-03-23 09:00:11
+tag:
+course: writing
+lesson: 15
+excerpt:
+comments: false
+---
+
+
+
+
+First, eliminate most qualifiers, like "I think" and "I feel."
+	I think you should wear a black dress, because I feel that would be more appropriate for such a somber occasion, and in my opinion, people don't give enough respect to tradition. I think you should.
+
+	Wear a black dress, which would be appropriate for such a somber occasion. People don't give enough respect to tradition. You should.
+ If you're worried that you'll come across as arrogant, then add in one or two strategically placed, strongly-worded disclaimers. They'll go farther and be less annoying that little ones sprinkled throughout your paragraphs:
+	Maybe it's none of my business, but I think you should wear a black dress, which would be appropriate for such a somber occasion. People don't give enough respect to tradition. You should.
+ You can also eliminate most phrases like "I saw," "I heard," and "I thought."
+	Yesterday, at the zoo, I heard an earsplitting howl. Then I saw a little monkey rush past, with two keepers huffing after him. And I thought about that time we chased Amy Sue around the playground.  
+
+	Yesterday, at the zoo, some creature howled. A little monkey rushed past, with two keepers huffing after him. It was like that time we chased Amy Sue around the playground.
+ Often, you can combine several short "I" sentences into a single sentence with dependent clauses:
+	I got on the bus and moved to the back. When I sat down, I noticed this girl I'd seen before. I paused for a moment. I didn't know what to do. Then I revved up my courage. I got up and moved closer to where she was sitting. I said hello. She turned and smiled at me. I blushed.
+
+	I got on the bus, moved to the back and sat down near this girl who looked familiar. I paused for a moment, unsure what to do, then revved up my courage, stood, and moved closer to where she was sitting.  "Hello."  She turned and smiled at me. I blushed.
+ You probably feel more awkward than your readers. Personal writing is generally a strength, not a weakness. If I'm reading your prose, it's because I care about what you think. (Did those two I's in my last sentence bother you? I bet you didn't even notice them.) Repetition can become annoying, whether it's I, I, I or duck, duck, goose. So by all means check your sentences for variety. But remember that we read in real time and can only hold a sentence or two in memory at once. So it's generally okay if you're mentioning I again, after mentioning it two sentences ago. We don't remember that your I from before.  It's a somewhat artificial, arbitrary rule, but you could try, for a while, pledging to use no more than two I's in a row. After that, you have to write two sentences with no I's, just to flush them from the reader's mind:
+	I talked to Freddy about the murders. I didn't know how he'd take it. He didn't get mad or anything. He just kept insisting that Elm Street was better off without all those teenagers. Who am I to argue? But I told him to at least clean up after himself. He looked ashamed. He said he was sorry about all the guts and blood (and that eyeball George Anderson found under the front tire of his sedan), and he promised to be more fastidious in the future. I told him that was all we wanted. Then I said I had to go. "See you in your dreams," he said, winking. What a card!
+ A common writing trick is to include an aside, to break up a pattern. You'll often see fiction writers do this to kill the monotony of long, dialog passages. Of course, you need to make sure you're not throwing in gratuitous remarks. Just realize that you don't need I, I, I and then observation, observation, observation. You can weave the two together:
+	"What's for dinner?" he asked. After wiping her hands with a paper towel, she looked at him. "Slugs," she said. "What?" "I said slugs." "You mean like ... slug slugs?" "Yes," she sighed. "Slugs. Slugs! You know, like you find in the garden." "But..." "But what?" She crossed her arms over her chest. "Well," he said. "They ... They're bugs." She walked over to the sink and turned on both faucets, the hot and the cold. She watched the water pour out, over the sudsy dishes.  "For your information," she said, snatching a spoon out of a mug, and holding a spoon up to the light, "they're mollusks, not bugs."
+ You can do the same thing: 
+	I wrote grandma a letter, telling her all about the bank and how I think we should do the robbery on Monday, not Thursday. I know she'll think I'm silly, but Thursday is my birthday. I want to go to the water park. I love the slide. 
+
+I wrote grandma a letter, telling her all about the bank and how I think we should do the robbery on Monday, not Thursday. Can you imagine the look on her face when she reads it? I know she'll think I'm silly, but Thursday is my birthday. Birthdays are when you get to be selfish, right? I want to go to the water park. I love the slide.
