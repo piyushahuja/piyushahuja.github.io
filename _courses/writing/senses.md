@@ -175,3 +175,36 @@ Here's an example anthropomorphism:
 
 "... the light industries began to spread themselves ..."
 
+----
+
+What can I do to better capture emotion in writing? How can I capture the feeling and express it fully? How can I improve my redaction skills?
+
+Originally Answered: What can I do to write better?
+You can't directly convey a feeling with prose. In fact, it's hard to directly convey a feeling with any form of communication, though perhaps music gets close. In any case, if you're feeling sad, you can't shuttle your sadness into the reader's head by simply writing "I'm sad."
+
+Instead, focus on the physical and sensual. How does "feeling sad" manifest itself in your body? Do you shiver? Do you feel a dull ache in your stomach? Do tears run down your cheeks? Do you go numb?
+
+In prose, even those sensations may be too weak to spark similar sensations in the reader. The solutions -- the writer's best friends -- are descriptive detail and metaphor. A tear dropping into your coffee is easier for the reader to feel than a tear running down your cheek. It's a more specific detail, especially since we all know tears run down cheeks.
+
+Here's a metaphor: "It felt as rusty spikes had lodged themselves in my stomach. Even the slightest move made me wince." Good metaphors grab the senses, forcing the reader to feel.
+
+I wrote more about sensual metaphors here: Marcus Geduld's answer to How can one learn to speak in metaphors or pictures?
+
+Use these same techniques to write about *why* you're sad (or why you're feeling whatever you're feeling). There's a story behind your tears. Tell it.
+
+But make sure you include sensual details. "My husband left me" doesn't leap from your heart to the reader's, because there are no details to affect the reader's senses. "Husband" sparks only the most generalized image; "left me" is a generalized verb phrase. How about "The day Charlie left me, I sat on my side of the sofa and stared at the space he used to occupy on the other side"?
+
+For many people, training themselves to think in sensual details is hard, but it gets easier the longer you do it. So, as others have said, write every day. Make a first draft, not worrying about details. Then go back and make it more sensual. Go through it sentence by sentence, asking yourself it there's a detail or metaphor you can haunt the reader with.
+
+Here's George Orwell, "writing about his feelings" without writing about them at all (except for a mention of guilt towards the end). Notice that it's mostly description. And yet you get a very strong sense of how he felt:
+
+
+> Soon after I arrived at St Cyprian's (not immediately, but after a week or two, just when I seemed to be settling into the routine of school life) I began wetting my bed. I was now aged eight, so that this was a reversion to a habit which I must have grown out of at least four years earlier. Nowadays, I believe, bed-wetting in such circumstances is taken for granted. It is normal reaction in children who have been removed from their homes to a strange place. In those days, however, it was looked on as a disgusting crime which the child committed on purpose and for which the proper cure was a beating. For my part I did not need to be told it was a crime. Night after night I prayed, with a fervour never previously attained in my prayers, ‘Please God, do not let me wet my bed! Oh, please God, do not let me wet my bed!’, but it made remarkably little difference. Some nights the thing happened, others not. There was no volition about it, no consciousness. You did not properly speaking do the deed: you merely woke up in the morning and found that the sheets were wringing wet.
+
+> After the second of third offence I was warned that I should be beaten next time, but I received the warning in a curiously roundabout way. One afternoon, as we were filing out from tea, Mrs Wilkes the Headmaster's wife, was sitting at the head of one of the tables, chatting with a lady of whom I knew nothing, except that she was on an afternoon's visit to the school. She was an intimidating, masculine-looking person wearing a riding-habit, or something that I took to be a riding-habit. I was just leaving the room when Mrs Wilkes called me back, as though to introduce me to the visitor.
+
+> Mrs Wilkes was nicknamed Flip, and I shall call her by that name, for I seldom think of her by any other. (Officially, however, she was addressed as Mum, probably a corruption of the ‘Ma'am’ used by public schoolboys to their housemasters' wives.) She was a stocky square-built woman with hard red cheeks, a flat top to her head, prominent brows and deep-set, suspicious eyes. Although a great deal of the time she was full of false heartiness, jollying one along with mannish slang (‘Buck up, old chap!’ and so forth), and even using one's Christian name, her eyes never lost their anxious, accusing look. It was very difficult to look her in the face without feeling guilty, even at moments when one was not guilty of anything in particular.
+
+> ‘Here is a little boy,’ said Flip, indicating me to the strange lady, ‘who wets his bed every night. Do you know what I am going to do if you wet your bed again?’ she added, turning to me, ‘I am going to get the Sixth Form to beat you’.
+
+

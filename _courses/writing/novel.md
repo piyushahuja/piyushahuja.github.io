@@ -21,7 +21,7 @@ comments: false
 
 [Blake Snyder's Plot Structure Beat Sheet](https://timstout.wordpress.com/story-structure/blake-snyders-beat-sheet/)
 
-
+[What makes a story great to read?](https://www.quora.com/What-makes-a-story-great-to-read/answer/Marcus-Geduld)
 
 Once, one of his playwrights, Zayd (who would later become my husband), wrote a play in which two human beings wake up together only to discover that they are in a cage, a zoo of sorts. Derek, who believed and taught us to believe that plays are, by their nature, lyrical—poetry unfolding on the stage—complimented Zayd on his dialogue but said that the whole play would have to be scrapped unless “the question” was answered. “What question?” we asked, and he stood up: “Where is the toilet? You think you can have two people in a cage overnight and not tell us where they use the toilet? You cannot.” 
 
@@ -393,5 +393,78 @@ What do you think fiction writers should focus on?
 This may seem like a non-answer, but I mean every word of it, and I strongly believe it. If a fiction writer wants to write good fiction—fiction that moves and challenges his readers—he should focus on whatever affects him: whatever turns him on, scares him, excites him, makes him angry, etc. His job is to transfer that passion from his own brain to the reader's, using words as tools.
 
 This is too personal to generalize. For some writers it will be politics, for others it will be strawberry pie. I don't want someone who is obsessed with pie to write a lukewarm novel about politics. I'd rather he make me hungry. And Joe Kline shouldn't waste his time writing about pastries.
+
+----
+
+
+What makes a story great to read?
+Profile photo for Marcus Geduld
+Marcus Geduld
+, Published author, lifelong reader.
+Updated Mar 12, 2014 · Upvoted by 
+Ellen Vrana
+, Full-time writer.
+Originally Answered: What makes a story great?
+There are always exceptions, but if I was planning to violate any of the following rules and principles, I would seriously think about why I was doing it. Also note that aesthetics are largely subjective. The following will help you write stories that will satisfy someone like me.
+
+1. **A great story is constructed to hook me and refuse to let me go.** There are many techniques authors can use to do this, including creating high-stakes drama, making me care deeply about characters, piquing my curiosity, etc. At each point, there must be something driving me to move from one sentence to the next.
+
+2. **It overflows with sensual detail.** The story is told, as much as possible, in a way that makes me feel as if I'm seeing things, smelling things, hearing things, tasting things, and touching things. Orwell describes a character's experience eating a rancid sausage as "bombs of filth exploded in his mouth." That hooks me much more effectively than, "The sausage was disgusting."
+
+3. **Its characters should obey "Stanislavsky's Rules."** Stanislavsky was a Russian actor and director who formalized (amongst other things) a system of analysis many actors use today. It's based on the premise that characters pursue goals. They're not necessarily self-knowing: they may not know what their goals are. But, still, they have goals and they pursue them.
+
+For instance, a particular character's goal might be "to marry the girl." Conflict occurs when a character's goals are thwarted by a competing character (another suitor), by a force of nature (the girl dies), or by his own inner qualms (shyness). If a character achieves his goal or is permanently thwarted, he must either form a new goal or be out of the story.
+
+The author needn't communicate his character's goals, and doing so is often a bad idea. As a reader, I just need to feel that the characters are psychologically plausible, even if I can't explain how.
+
+Despite its title, this is a great book for writers: A Practical Handbook for the Actor. So is this: Games People Play: The Basic Handbook of Transactional Analysis.
+
+4. **Its characters need to be distinct from each other.** One doesn't necessarily have to draw them as broadly as Dickens, but Dickens is a great teacher. In well-told stories, characters (even minor ones) are never collections of quirks. "He always scratches his beard" isn't a character. Neither is "He's continually sarcastic."
+
+5. **Its stakes must be high.** That's not to say all the characters must be in life-or-death peril. Some great stories have been written about high school kids with crushes. But I need to both understand and, more important, have a visceral feeling of why it's vital Shelly get a date with Dan. The author must make me care!
+
+6. **Its plot must be plausible.** By that, I don't mean it must avoid dragons or giant robots. I mean that stories should obey whatever logic they set up. If it's established in Chapter One that the sultan has a flying carpet, the author has to explain why, in Chapter Two, when he's locked in his bedroom, he can't just fly out the window.
+
+7. **Either its plot or characters (or both) must surprise me.** If a story doesn't have plot twists—if it's obvious what's going to happen—then I must be surprised by how the characters get from Point A to Point B, or by their reactions. "This is a love story, so I know the woman is going to fall in love with the man, but he ruined her business and she hates him! How is he going to win her over?"
+
+8. **Its writing style must either move out of the way or reveal an interesting (often invisible) storyteller character.** Great writing (in the stylistic sense) can be matter-of-fact. It can be so simple that you don't notice it: you only think about the plot and the characters. Much brilliant genre writing is like this, and it takes just as much skill to write as "flowery" prose. It's vital that the author removes all clunky phrasing and he must make his writing as sensual as possible.
+
+Or he can make the narrative voice a distinct character—one that calls attention to itself. He can use obscure words, noticeable rhythms, complex metaphorical systems, wordplay, and so on, as long as this is in service of a distinct voice: the evocation of a storyteller I enjoy spending time with. (It's worth considering Stanislavsky's Rules for this hidden character, even if he's an unnamed 3rd-Person narrator.)
+
+9. **It uses metaphor to make the abstract sensual.** Here's a simple example from "The Golem and the Jinni" by Helene Wecker.
+
+
+> She tried to imagine herself chatting and laughing with a roomful of strangers, completely at her ease. It seemed an impossible fantasy, like a child wishing for wings.
+
+
+"An impossible fantasy" is an abstraction. Wecker makes it visceral by likening it to a child wishing for wings. This is the primary use of metaphor in fiction. It's why, "I'm describing something abstract" is never an excuse for not making it sensual.
+
+10. **It lacks gratuitous elements.** As a reader, I don't need to understand exactly how everything fits together, but I must feel that it does. The main difference between a well-told story and a real-life sequence of events is the former is a coherent whole and the latter isn't. Nothing should be in the story because the author thinks it's cool, unless it simultaneously serves the story, moves it forward, and/or helps the reader experience something in it. This is what is meant by "kill all your darlings." Cut anything that's gratuitous, even a single sentence.
+
+Also note Chekhov's rule that if a gun appears in act one, it must be fired in act two. (Otherwise the gun is gratuitous.) Every detail must exist for a reason!
+
+11. **Even if it's a tragedy, it contains humor.** Shakespeare understood this, well. Most readers shut down when subjected to page after page of misery. If there's no humor, the story had better be damned interesting.
+
+12. **It must avoid awkward exposition.** There are only two acceptable sorts of exposition: (1) straight-forward description that doesn't pretend to be anything else (e.g. the text crawl at the beginning of "Star Wars") and (2) exposition that's so deeply hidden, the reader doesn't notice it.
+
+Let's say you need to get the reader to understand that Sarah is Bill's sister. You can not have him say, "Sister dear, please pass the butter," unless you've established that he always talks to people in that stilted way. In casual conversation, most people don't label their friends and family. They just say, "Pass the butter."
+
+You must either be overt—"Bill turned to his sister and said, 'Pass the butter'"—or incredibly stealthy: "Remember when mom used to buy that really salty butter?"
+
+13. **It shouldn't be too "on the nose."** Many contemporary stories (especially ones written for film and television) violate this by giving their characters too much self-knowledge and having them express their wisdom via the language of pop psychology: "I now realize that I pushed him away because I saw too much of myself in him." This rings false. Most people don't know why they do what they do.
+
+Also, most of the time, unless we're talking about something trivial, we don't say what we want. We've all swallowed social rules that make us temper or hide our desires.
+
+So, if George wants his wife to quit fussing over her face so they can get to the party, he probably won't say, "Quit fussing over your face so we can get to the party" (unless their relationship has reached an intense moment of crisis or he's a specifically antisocial sort of character). He'll glance at his watch and say, "Do you think they're wondering where we are?"
+
+14. **It should avoid judging its characters.** Let me, the reader, decide whether they are good or bad. In the best stories, that's difficult, because the "good guys" have negative traits and the "bad guys" have their charms.
+
+15. **It should avoid didacticism.** Let me, the reader, draw my own moral or conclusions. In the best stories, all conclusions are complicated. If the entire "message" of a book is "bigotry is bad," the writer could have just told me that, and I probably knew it, already.
+
+A great story about bigotry involves me in a world in which bigotry is a force and helps me feel what the characters feel, both the sufferings (and lusts for revenge) of the victims and the fears of the bigots. The story has the confidence to let me live in its world and emerge however I emerge. It doesn't drive me towards a school-lesson conclusion.
+
+16. **It should contain just the right level of ambiguity.** This is the most difficult effect for stories to achieve, and so we generally find it (along with other traits) only in the world's greatest literature (films, plays, etc.). If a story answers all its questions, it's forgettable. It might divert me as piece of light entertainment, but once it's over, I rarely want to read it again. If a story is too ambiguous, it's confusing. I get irritated because I have no idea what's going on. So the trick is to find the sweet spot between these extremes. Great stories haunt without being confusing. In my mind, a great example of perfect ambiguity is the ending of Bergan's film "Fanny and Alexander."
+
+
 
 

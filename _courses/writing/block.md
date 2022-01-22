@@ -1382,6 +1382,52 @@ http://biblioklept.org/2011/04/14/the-ego-is-the-enemy-of-imagination-david-milc
 
 ----
 
+You always have inspiration to write.
+
+Write a description of the room you're in or what you did yesterday. The inspiration for that is the room you're in or what you did yesterday.
+
+Perhaps that's not what you mean when you say you lack inspiration to write. Maybe you mean you aren't inspired to write about anything interesting. Okay, but don't let that stop you from writing. "Not having inspiration" is no excuse to stop. You are perfectly capable of describing your bedroom or the route you take to work. So do so.
+
+Edison said "genius is one-percent inspiration and ninety-nine percent perspiration." The one percent doesn't need to come first, and, in fact, it generally doesn't. Don't waste time waiting for it. Simply get to work.
+
+As you write, don't try to be interesting, but be as evocative as you can. Imagine I'm your reader (or imagine the reader is your mom, best friend, worst enemy) and make me (or whoever) experience whatever you're describing. Pick sensual details, such as the scratched-wood surface of the coffee table or the train you have to take that smells vaguely like urine. Labor to tickle the reader's five senses.
+
+It doesn't matter if you have a writing project and this has nothing to do with it. Just keep writing. Slide over to your project when you're ready. Or write something tangential about your project. If you're writing a sci-fi story and you can't come up with a way to get your hero out of a failing space ship, write a description of his onboard computer or of the type of shoes he's wearing.
+
+
+So I'll be writing Jon Snow chapters, and I'll carry that Jon Snow sequence as far as I can. And then at some point, maybe I'll get stuck or not be sure what I should do next ... [so I'll] switch from Jon Snow to Sansa or Daenerys or somebody like that.
+
+
+-- George R.R. Martin, http://www.austinchronicle.com/blogs/books/2013-08-29/lonestarcon-3-the-george-r-r-martin-interview/
+
+Simply write. Write about a lie you told, an elephant you saw at the zoo, cutting your toenails, making a cup of coffee... Bring it to life. Bring it to life doesn't mean "make it exciting" or "make it important." It means make the reader see it, hear it, taste it, touch it, and smell it...
+
+---
+
+Writing is no different from any other field in this regard. You continue to develop by working outside your comfort zone, failing at first (if you don't, you're not far enough outside your comfort zone) and pushing past failure.
+
+Since there are many aspects to writing, there are many ways you can push. For instance...
+
+- write about a subject you've never written about before.
+
+- if you usually write fiction, try non-fiction. If you've only written prose, try poetry. Try writing a play. Try writing an instruction manual. Try writing a speech. Try writing a children's book. Etc. Try writing something much shorter than usual -- or much longer. Find a from with strict rules, such as a haiku or three-act play, and work creatively within that structure.
+
+- fiction: if you generally write protagonists of one gender, switch to another gender. If you generally write about young people, write about old people. If you generally write about Americans, write about Koreans. Etc.
+
+- Use a tense you're not all that used to. Write a whole story or essay in present tense. Make it work.
+
+- Write in E-Prime. It's a varient of English in which you're not allowed to use any form of "to be." You can't write, "He was a cop," because "was" is a form of "to be." Instead, you have to write "He joined the police force." I forced myself to write in E-Prime for a year, and it massively improved my writing. I didn't tell anyone I was doing it either, so I had to make everything sound natural. I literally wrote everything in E-Prime, including text messages and emails to my mom.
+
+See E-Prime.
+
+- Try a very different style of writing than you're used to. If you're generally pithy, write in a baroque style. If you write complicated sentences, full of asides and meanders, force yourself to write like Hemingway.
+
+- Speaking of Hemingway, try your hand at imitations. Pick a different writer every week -- Fitzgerald, Carver, Austen... -- and try writing a short piece in his or her style.
+
+That's a small list of the sorts of things you can try. You can, I'm sure, come up with all sorts of other exercises. The point is to keep working out.
+
+---
+
 
 - [Draft Number 4 by John McPhee](https://www.newyorker.com/magazine/2013/04/29/draft-no-4)
 - [The Middle of Things](https://www.newyorker.com/books/page-turner/the-middle-of-things-advice-for-young-writers)

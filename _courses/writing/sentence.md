@@ -506,5 +506,98 @@ My final word of advice is play, play, play! Always think of English as a playgr
 I have issues with it. Others have already mentioned one of them, which is the repetition of "building." How about something more specific for the first instance, such as "He raced through the lobby, opened the door ..."? My second issue is with "raced" and "dashed." I commend you for using strong, simple verbs, but when you use two similar ones like this, one after another, it's as if you're suggesting "race" means something different from "dash." But since I don't know the difference, I'm puzzled. I know that a race can be long (you can race for hours) and a dash is generally short, but you don't seem to be making that distinction.  Perhaps you're trying to avoid the building-building problem, and you don't want to write "raced ... raced ..." or "dashed ... dashed ...", and, if so, you're smart to avoid that sort of repetition.  My suggestion is to assume the reader understands your character is moving quickly. You don't need to keep reinforcing it. Instead, focus on other aspects of his actions. Maybe ... "He raced through the lobby, opened the door, and nearly collided with a pregnant woman in the skyway as he entered the next building" Or, if you want to keep the focus on his journey, try to come up with something clearly distinguishable from "raced." Maybe ... "He raced through the lobby, opened the door, and stumbled through the skyway into the next building."  Or, if you want to emphasize speed, consider losing the door: "He raced through down the hall, through the lobby, and across the skyway into the next building." By the way, "dashed" is a great verb, but in my mind there's something dandyish about it, as in, "I'm just going to dash off a few letters before luncheon."
 
 
+----
+> What he had to do once he got to New York was a very important matte
 
 
+It's grammatically correct, but it's a clunky sentence in my opinion.
+
+"What he had to do" is a boring, un-evocative phrase. How about this? "His task in New York was very important."
+
+Even that's not great, since I can't visualize (or hear, smell, taste or touch) a "task," but it's a little better.
+
+"... was very important" is also bland. How about "His task in New York was crucial"? At least that cuts down on the string of ho-hum words.
+
+But the whole sentence is telling rather than showing. It's avoiding agency ("Important to whom?") and imagery. It's hard for me to make recommendations, because I don't know the context, but I'd go with something like this (changed to match whatever make sense in your story).
+
+
+> He knew his wife would leave him if he failed in New York.
+
+> Unless he could find the bomb and defuse it, thousands of people in Midtown would die.
+
+> He stomach cramped. What if he failed in New York? What then? He popped a Xanax and crossed Fifth Avenue, heading towards Broadway.
+
+
+It's pretty hard to avoid sentences of the form "X was Y" (e.g. "What he had to do was important"), but they're worth minimizing, as they don't move stories forward. They just assert equivalencies and make claims about objects having traits.
+
+Every writer would benefit from spending a few months writing in E-Prime. I forced myself to do it for a year, while insisting my prose felt totally natural, and it helped my writing more than any other exercise I've ever tried.
+
+---
+
+Humans have limited bandwidth. In case anyone thinks I'm calling him stupid, I'm including myself in the category of "humans with limited bandwidth." The famous number is seven (plus-or-minus two), meaning that we can hold five-to-nine simultaneous ideas in our working memories. In reality, I've found it to be way less.
+
+This may be because, if you put two images in the same sentence, other aspects also take up bandwidth, such as parsing grammar and understanding the meanings of individual words. 
+
+In my work, I write many emails that contain instructions. I've found that if a single email contains two instructions, at least half the people receiving it will ignore one of them. And I'm not talking about dumb or lazy people. I'm talking about very smart people with years of professional experience and advanced degrees. 
+
+If I write "Please come to the 4pm meeting and bring a pen," many will show up without pens or bring pens to the wrong meeting. I will have slightly better luck if I break the tasks in two separate sentences:
+
+- Please come to the meeting at 4pm.
+- Please bring a pen.
+
+People seem to process a single sentence as a thought-unit, so if you pack in two ideas, you put one at peril, and you don't get to choose which one. It's a toss-up whether pens or meeting will win.
+
+Even if readers receive both ideas, the two may dilute each other. "My favorite food is chocolate" is a stronger sentence than "My favorite food is chocolate, and my mom's least-favorite animal is the penguin." 
+
+If one of the two ideas evokes strong emotions, it may completely crowd out the other: "Please bring a number two pencil to the meeting, which will be about how some races are inferior to others." If you write a sentence like that, expect lots of people to come to the meeting without number two pencils. (They may, however, bring guns to the meeting.)
+
+Here's an uncomfortable result of narrow bandwidths: for years, I've been struggling with how to handle neutral gender in writing. I'm sad to say, I've yet to find a solution that works for me. I refuse to use clunky constructions like h/she, and I'm not happy with "they" as a singular pronoun.
+
+My discontent has nothing to do with grammar. As a writer, I consider my primary job to be evoking images in readers' brains. And when testing words and phrases, I must use my own brain as a proxy. 
+
+I am incapable of imagining a they. I'm so influenced by my gender-obsessed culture, when I think of a person, I imagine a man or a woman. I apologize to mixed-gendered people for saying that. It's biased, but true. "They" does not evoke an image the way "he" or "she" does.
+
+Which leaves me with two options: I can use "he" (or "she") in all cases, or I can alternate between "he" and "she." Though I tend towards the former, I'm unhappy with it. I believe the many women who tell me they can't identify with "he." They tell me that they don't feel sentences like "if someone wants to please me, he should buy me candy" apply to them. Or, at least, they have to go through mental gymnastics to make that sentence apply, and those cartwheels and summersaults may use up some of their precious bandwidth. Which means less candy for me!
+
+But I also am unhappy with "If you see a cop working a crime scene, don't distract her with questions." Because I have sexist defaults in my brain, I imagine a cop as a man. I know there are female officers, but unless I stop to think about that, a generic cop is male to my brain.
+
+Which means that when I read that sentence, part of my brain is reacting to the surprise of finding "her" where it expects "him." It's a very mild surprise, but I'm aware of it. It's actually a pleasing surprise. As a Feminist, I'm glad the writer hasn't fallen prey to gender stereotypes. 
+
+Still, the surprise sucks up some bandwidth. My brain is trying to simultaneously think about the writer's fair-mindedness and the main point of the sentence, which is leaving cops to their work. That point is at least somewhat diluted by my thoughts about avoided sexism. 
+
+Some readers may think I'm being petty -- that the human brain has bandwidth enough to cope with little surprises like "her" while still following the writer's main point. And that may be true. 
+
+But my main concern is that writers think these matters through -- that regardless of what they decide, they take bandwidth limitations seriously and think about how much they are taxing readers.
+
+Given my concerns, it's strange that my favorite writer is Shakespeare, a man who packed so many layers into his lines, the reader's bandwidth fills and then bursts. If writing is meant to be read over and over, meditated on and discussed, my points above may not apply. They don't apply to most poetry. They don't always apply to fiction. They don't even necessarily apply to non-fiction, if it aims for something beyond mere reporting.
+
+Again, my main hope is that writers think about bandwidth and take it seriously, not that they always make the decision to "keep it simple, stupid." As Shakespeare said, "suit the action to the word and the word to the action."
+
+
+---
+
+Or, if you want to take the reader on a long, circuitous trip -- a trip full of meandering paths to dark corners of your limbic system, a trip where stepping off the path and into the woods is the whole point of the journey, a trip where, as in a seduction, the pursuit is as much fun as the climax -- you might want to keep it long and, rather than leaping straight "to the point," you might, instead, want to circle around the point and sidle up to it, now and then gently prodding it with your foot, as you would a dangerous, gorgeous sleeping creature.
+
+
+---
+
+When Paul reached for his dropped gun, Jack shot at the bottom part of his leg three times.
+
+or
+
+When Paul reached for his gun on the floor, Jack shot at the bottom part of his leg three times.
+Visualization like Frame 0001; Frame 0002......
+
+Yes, I can, but both "his dropped gun" and "his gun on the floor" seem odd and clumsy to me. Why don't we already know Paul dropped his gun, and, if we do, why are you telling us again?
+
+In context, I imagine something like this:
+
+"The gun slipped from Paul's hand and thudded on the floor. As he reached for it, Jack shot him in the leg."
+
+My other problem is with "the bottom part of his leg." It's like an attempt to be specific without actually being specific, similar to, "a hair towards the back of his head, but not quite at the back, but not too far forward, either."
+
+I would either just write "leg," as I did above, or mention a specific part by name, such as "shin" or "ankle."
+
+--
+
+[Don't begin with an anecdote](https://www.quora.com/When-should-you-not-begin-with-an-anecdote/answer/Marcus-Geduld)

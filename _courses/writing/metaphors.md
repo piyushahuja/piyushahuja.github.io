@@ -140,4 +140,63 @@ Jenny was tired. She felt as if she'd hauled a sofa up twelve flights of stairs.
 
 
 
+----
+
+Do we mistake metaphor for reality?
+This question previously had details. They are now in a comment.
+Profile photo for Marcus Geduld
+Marcus Geduld
+, studied at School of Theatre at Ohio University
+Updated Mar 12, 2020
+I'll start by urging you to go to a bookstore or library and get Metaphors We Live By: George Lakoff, Mark Johnson.
+
+Our thinking is infused with metaphor, and most of the metaphors we use are so buried, we don't even notice them, e.g. my use of the word "buried" in this sentence.
+
+Do I actually think of metaphors as being buried? Yes and no. I'm aware, if I give it a moment's thought, that metaphors are concepts (and utterances). They're ideas, so they can't literally be buried like treasure or corpses. And yet, when I'm speaking, I'm not as aware of this fiction as I am that Santa isn't real. There's certainly a sense in which I feel that metaphors are actually buried.
+
+(It's actually a challenge to literalize this. Okay, they're not buried, so what are they? They are often things we say or imply that aren't literal, but we're unaware of this aspect of them. It's the unawareness that evokes "buried," because we're often unaware of stuff that's got dirt piled on top of it.)
+
+Look at your own writing:
+
+"I'm genuinely curious about the role metaphor plays in nailing down belief/understanding."
+
+You used two metaphors in that sentence, and I bet you didn't even think about the fact that you did so while you were writing it. Those metaphors are ingrained in your mind, and you'd have a very hard time communicating without them. When we write, metaphors flow from our fingertips like ... well, that's another metaphor. Nothing actually flows from our fingertips.
+
+"So I wondered if what looked like mere metaphor to me looked like an accurate picture of reality to him."
+
+Really? You "looked at" a metaphor? Okay, you get the point. But I'd also say that it's rarely cut-and-dry (to use another metaphor). It's a mistake to say that we 100% accept our metaphors as real or unreal. When I say "I'm going to go to amazon.com," I know that I'm not really going anywhere. But, at the same time, I kind of think I am. This is partly because a metaphor isn't the same thing as a fiction. A metaphor uses the techniques of fiction to explain or think about a truth.
+
+There are certainly specific ideas that person A considers metaphorical while person B considers real, but I doubt that means A has a better understanding of metaphor than B. They just have different ideas about the specific things they're talking about.
+
+Maybe some people have a better understanding of metaphor than others, but everyone I've ever met, even young children, understands the basic idea. The dumbest guy in the world doesn't think I'm literally walking to amazon.com. And if he knows that I'm not and yet isn't confused by me saying I'm "going" there, he understands metaphor.
+
+Certainly, some people are better than others at coining surprising and effective metaphors. We call the best of them "poets."
+
+1) What role does a compelling enough metaphor play in making a human mind "feel" it has gained possession of a true piece of knowledge about the external world?
+
+In general, it allows us to use the sensual to grapple with the abstract. We're sense-based creatures who have a hard time understanding something we can't see, touch, taste, smell, or hear. Which is why it's useful to hear ...
+
+Death, that hath suck'd the honey of thy breath,
+Hath had no power yet upon thy beauty...
+
+- Shakespeare, "Romeo and Juliet."
+
+Or
+
+If you want a picture of the future, imagine a boot stamping on a human face — forever.
+
+- Orwell, "1984."
+
+Death and the future are abstractions that Shakespeare and Orwell help us grasp by linking them to sensual data.
+
+2) Do all of us do this one level or another? Do some minds have more facility with manipulating metaphor and reality together?
+
+See above. Yes, we all do it. Yes, some people are better than others, e.g. I can't do it as well as Shakespeare and Orwell.
+
+3) If so, what specific limitations does this mechanism place on inter-personal communication and understanding?
+
+I think it generally helps more than it hurts, but there's always a trade-off. The negative of metaphorical thinking is that it can trap us in mental ruts. It's very hard for me to not think I'm going somewhere when I download files from a server (which what I'm literally doing when I "visit" amazon.com, although even that's not true, because "downloading" is a metaphor). And it's hard for me to stop thinking of Quora as a location.
+
+When you can't stop yourself from working within a mental framework, you're thinking is necessarily going to be limited by the constraints of that framework. Metaphor is just one of many such constraints that make it difficult to ... to use a well-known metaphor ... think outside the box.
+
 
