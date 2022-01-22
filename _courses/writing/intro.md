@@ -45,6 +45,25 @@ Every assignment would be delivered in five versions: A three page version, a on
 
 Along the way you’d trade detail for brevity. Hopefully adding clarity at each point.  Each step requires asking “What’s really important?” That’s the most important question you can ask yourself about anything. The class would really be about answering that very question at each step of the way. Whittling it all down until all that’s left is the point.
 
+
+Try this:
+
+Draft a piece in your usual way. Save a copy.
+Delete 1/10 of the paragraphs. This may remove important ideas. That's okay. We'll restore those (or try to) in step 6. When calculating 1/10, round up. That is, if you start with fifteen paragraphs, delete two and not one.
+Delete 1/10 of the remaining sentences.
+Delete 1/10 of the remaining words.
+Note the number of words in the thrice decimated piece. This is your word count limit.
+Revise to restore any essential ideas that were lost in steps 2–4, but do not exceed the word count limit from step 5.
+My writer's group did this exercise. It was excruciating. But it was worth the pain. Everyone's writing came to life.
+
+Some things you'll learn:
+
+Your patterns and habits that add unnecessary words. Maybe you'll learn that you overuse "to be" verbs, or insert too many weasel words, such as "perhaps" or "somehow".
+How to find strong verbs and nouns that do all the work of multiple weaker words.
+How to identify and emphasize the essence of what you are trying to say, and prioritize what to include and what to exclude.
+
+
+
 **Feedback Forum**
 
 Each meeting includes Feedback Forum (30 min feedback sessions). A participant shares a segment of <2000 words; other participants comments for 20 min in Google docs & 10 min verbally [Idea Source](https://twitter.com/DarbyVickers/status/1387089114852249604)

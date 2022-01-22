@@ -14,6 +14,8 @@ comments: false
 
 [Things I learned II](http://algeri-wong.com/yishan/things-i-learned-from-my-wifes-screenwriting-education-part-ii.html)
 
+[Exposition is not allowed and other tips](https://wordswordswords.quora.com/Post-30)
+
 
 Is there a type of story that is more suited on the stage (performance/plays/theater) than others?
 This question previously had details. They are now in a comment.

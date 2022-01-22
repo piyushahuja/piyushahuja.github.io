@@ -17,6 +17,18 @@ comments: false
 
 ---
 
+Refuse to use the word “thing.”
+
+Each thing can be described in more detail. When we don’t we’re just being lazy. Don’t drown the cake in frosting to avoid baking a new one.
+
+Let a device be a device, a trait be a trait, a feeling be a feeling.
+
+Before: “This is the greatest thing my parents taught me.”
+
+After: “This is the greatest lesson my parents taught me.”
+
+---
+
 Fewer prepositions.
 
 Many of us need to free up time these days. But time doesn’t go anywhere on its own. Not up. Not down. You don’t have to pull it. You take it. Or make it.
@@ -93,3 +105,29 @@ There are multiple reasons:
 - "One needn't, unless one is desirous of being thrashed within an inch of one's life, insult the king, which is to say that if one takes pleasure in contemplating the neck as an object bounded by head and body, it is, perhaps, in one's interest (if my faculties haven't lead me a-dance) to stifle unchecked sentiments injurious to one's monarch before they leap, unhindered and with envious verve, perforce from one's gullet."
 
 [Source](https://www.quora.com/Why-do-humans-insert-superfluous-words-in-sentences-is-there-a-brain-science-related-or-psychological-cause/answer/Marcus-Geduld)
+
+
+---
+
+An example from the book On Writing (pp.340, draft for ‘1408’):
+
+> Mike sat down in one of the chairs in front of the desk. He expected Ostermeyer to sit behind the desk, where he could draw authority from it, but Ostermeyer surprised him. He sat in the other chair on what he probably thought of as the employees’ side of the desk.
+
+Trimmed down to:
+
+> Mike sat down in front of the desk. He expected Olin to sit behind the desk, but Olin surprised him. He took the chair beside Mike.
+
+
+Make sure you remove most dialogue tags and words such as ‘that’, ‘I think’ and words ending with ‘-ing’. As per these excellent answers by Christopher Kingery and Belle Elida.
+
+But do not overdo it!
+
+King also gives an example where he actually expands on the original draft:
+
+> ‘Hello, ex-wife,’ Tom said to Doris as she entered the room.
+
+Becomes:
+
+>‘Hi, Doris,’ Tom said. His voice sounded natural enough - to his own ears, at least - but the fingers of his right hand crept to the place where his wedding ring had been until six months ago.
+
+

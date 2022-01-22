@@ -334,3 +334,178 @@ The goal should be to assault the reader with whatever it is you're writing abou
 
 [Who constructs meaning?: Cat vs fluffy kitten, "goes to the movies every night"](https://www.quora.com/Who-has-more-power-the-writer-or-the-reader-Who-constructs-meaning/answer/Marcus-Geduld)
 
+---
+
+
+How can one justify the use of word "fuck" 252 times (2 per minute) in the movie "The Departed"? What justifies this profanity?
+This question previously had details. They are now in a comment.
+
+My memory is that the movie seemed very true-to-life. The characters spoke the way real-life people speak—people who are similar to those characters. Many storytellers (myself included) believe there are two justifications for using specific words in stories:
+
+1. Verisimilitude. This is the idea that art should "hold a mirror up to nature." If you disagree with that—if you feel that art should be more "refined" than nature—then you won't agree with certain artistic choices. Or, if you agree but feel, in this case, that the filmmakers were bad observers, and, in fact, they captured something false-to-nature, you also won't like their choice.
+
+(An example of false-to-nature is a prime-time TV cop show, in which the characters say "freaking" "effing" and "frigging" instead of fucking.)
+
+2. Because a departure from nature is beautiful. Sometimes artists create their own "worlds" that don't obey the laws of our world. These choices are justified by having their own fantasy kind of beauty. An example is Shakespeare's habit of making his characters speak in blank verse.
+
+Here's what is, to me, a gorgeous piece of writing from "Deadwood." Can you hear the poetry?
+
+
+Hugo: Had you vision as well as sight, you would recognize within me not only a man, but an institution and the future as well.
+
+Steve: Fuck you, fuck the institution, and fuck the future!
+
+Hugo: You cannot fuck the future, sir. The future fucks you.
+
+
+When it comes to observations, we can rely somewhat on objectivity. Most people would agree that underworld characters do tend to swear a lot. But beauty is, famously, in the eye of the beholder. If I claim something is beautiful and you disagree, we're both being guided by strong subjective feelings, and neither of us is going to be able to convince the other.
+
+So I will not be able to convince you of my feeling that fuck is one of the most beautiful and versatile words in the English language. It's so versatile, you can even stick in in the middle of other words, which I think is fan-fucking-tastic!
+
+I am sorry you're unable to enjoy it.
+
+
+----
+
+
+Here's one way to do it: write a first draft that thumbs its nose at panache. Just dump your ideas on the page using whatever bland prose leaks out of your pen. Then, as you proofread, underline any word or phrase that bores you.
+
+Example:
+
+1. The Dump
+
+
+It's so hot these days. At work, I'm sweating through my clothes, and by the time I get home, I'm drenched. I have to turn the air conditioning way up and just sit there in my underwear.
+
+
+2. The Underlines
+
+
+It's so hot these days. At work, I'm sweating through my clothes, and by the time I get home, I'm drenched. I have to turn the air conditioning way up and just sit there in my underwear.
+
+
+Keep in mind that good writing is sensual, by which I mean it sparks one or more of the five senses. When I underline, I'm not looking for prose that's boring or "unoriginal." I'm looking for anything non-sensual.
+
+"It's so hot these days" explains that it's hot, but it doesn't make the reader feel hot. If I can bake him, my prose will wind up being original and panachy.
+
+A couple of notes: the key isn't to plop in obscure words or coin "poetic" metaphors, because those also won't spark the senses. Does this make you feel hot?
+
+
+It's so thermogenic these days?
+
+
+And as for metaphors, a creative-writing teacher once told me about one of her students who wrote, "crystal drops bombed his nose" instead of "it rained on him." Don't be that student! "Crystal drops bombed her nose" doesn't make me feel rained on!
+
+By the way, "I'm drenched" and "in my underwear" escaped underlining because they're sensual phrases. Or at least I think so. What do you think?
+
+Okay, now it's time for research and brainstorming. I usually start with the latter. I make lists. I start with the first underlined passage and, on a blank sheet of paper, write some ...
+
+3. Word Associations
+
+"It's so hot these days."
+
+
+hot
+overheated
+sweat
+boiling
+sidewalk hot
+steam
+plants wilting
+thirsty
+103 degrees.
+miniskirts
+panting
+fried chicken
+dog day afternoon
+deoderant
+...
+
+
+Note: don't censor yourself! Should I really be thinking of miniskirts? Maybe not. (Don't tell my wife!) But if you start curtaining your thoughts, you'll blunt your creativity. Don't worry: you can always burn your notes, later.
+
+I also crack open ...
+
+4. The Thesaurus
+
+(or use an online one) and I look up "hot" (and maybe some of the words from my brainstorming session.
+
+
+baking, blazing, blistering, boiling, broiling, burning, calescent, close, decalescent, febrile, fevered, feverish, feverous, fiery, flaming, heated, humid, igneous, incandescent, like an oven, on fire, ovenlike, parching, piping, recalescent, red, roasting, scalding, scorching, searing, sizzling, smoking, steaming, stuffy, sultry, summery, sweltering, sweltry, thermogenic, torrid, tropic, tropical, very warm, warm ...
+
+
+I search through my brainstorms and research, looking for a sensual way to state my idea. I settle on ...
+
+5. The Rewrite
+
+
+New york City is parched this summer ...
+
+
+That doesn't mean exactly the same thing as my original sentence. Maybe that's okay; maybe not. Sometimes, during this stage, new words and phrases nudge my meaning. It's part of the give and take of prosemanship. If the rewrite isn't acceptable, I can nudge it back towards its original meaning.
+
+The main point is to be playful. Build lego towers out of words, topple them, rebuild them, put mustaches on them (???) and so on. Always hunt for the sensual.
+
+6. Repeat steps three-through-five with all of the underlined sections. Then proofread again, underline any new problem words and phrases, and keep at it. Remember, "Art is never finished, only abandoned." -- Leonardo da Vinci. At some point, you'll run out of time or feel the piece is "good enough." It will certainly be better than it was when you started.
+
+When you can't seem to make an idea sensual through straightforward prose...
+
+7. Try Metaphor
+
+That's the main purpose of metaphor. It sensualizes ideas that are flat when phrased literally.
+
+For instance, no matter what literal phrasing I use as a replacement for "I have to turn the air conditioning way up," I can't seem to make it sensual. So I play with metaphors. What's it like to turn up the air conditioning? Is there a way I can exaggerate it or fantasize it?
+
+I cranked the air conditioner up to eleven.
+
+I ran the air conditioner full blast, turing my apartment into the Fortress of Solitude.
+
+I revved up the air conditioner and kept it pumping away until there were icicles hanging from my bookshelves.
+
+I air conditioned my bedroom until it was colder than Anchorage.
+
+I dragged my chair next to the air conditioner, cranked it up, and froze myself into a glacier.
+
+I french kissed my air conditioner.
+
+Etc.
+
+My goal is to be as playful as possible. I'm not answerable to anyone. I'm exploring, and I can always delete dumb attempts.
+
+9. Ease Back
+
+You don't need to make every phrase and every sentence into a sensual feast. What's important is that, in general, the reader's senses are tickled. So if you have to include some "telling" along with your "showing," don't sweat it. Don't stick a fork in your eye just because you can't find a way to sensualize a letter to your accountant.
+
+Always try for sensuality, and the more startlingly sensual you are in sentence one, the more you earn the right to be bland in sentences two and three. Then bugger the reader's senses again in sentence four!
+
+
+---
+
+How do you walk the fine line between dumbing down your writing and making your writing understandable for a larger demographic?
+Marcus Geduld
+Marcus Geduld, Published author, lifelong reader.
+714 Views
+One of the best ways to grow as a writer -- or as pretty much anything -- is to pursue excellence within constraints. Since NBC is constraining me to half an hour, how can I write a great episode? Since my article can't exceed 1,000 words, how can I pack as much information into it as possible? Since my poem must be fourteen blank-verse lines with an ABAB rhyme pattern, except for the last two lines, which should be a rhymed coupled, how can I write the best poem possible?
+
+Using a simple vocabulary is only "dumbing-down" if you choose to see it that way. In fact, a skilled writer can be extraordinarily impressive with simple words, as George Orwell, Mark Twain, Ernest Hemingway, and Raymond Carver have shown. In fact, one way to get better at writing clear, simple, evocative prose is to study such writers.
+
+> In Moulmein, in lower Burma, I was hated by large numbers of people – the only time in my life that I have been important enough for this to happen to me. I was sub-divisional police officer of the town, and in an aimless, petty kind of way anti-European feeling was very bitter. No one had the guts to raise a riot, but if a European woman went through the bazaars alone somebody would probably spit betel juice over her dress. As a police officer I was an obvious target and was baited whenever it seemed safe to do so. When a nimble Burman tripped me up on the football field and the referee (another Burman) looked the other way, the crowd yelled with hideous laughter. This happened more than once. In the end the sneering yellow faces of young men that met me everywhere, the insults hooted after me when I was at a safe distance, got badly on my nerves. The young Buddhist priests were the worst of all. There were several thousands of them in the town and none of them seemed to have anything to do except stand on street corners and jeer at Europeans.
+
+-- George Orwell, "Shooting an Elephant."
+
+> Now as to the matter of lying. You want to be very careful about lying; otherwise you are nearly sure to get caught. Once caught, you can never again be in the eyes to the good and the pure, what you were before. Many a young person has injured himself permanently through a single clumsy and ill finished lie, the result of carelessness born of incomplete training. Some authorities hold that the young ought not to lie at all. That of course, is putting it rather stronger than necessary; still while I cannot go quite so far as that, I do maintain, and I believe I am right, that the young ought to be temperate in the use of this great art until practice and experience shall give them that confidence, elegance, and precision which alone can make the accomplishment graceful and profitable.
+
+-- Mark Twain, "Advice to Youth"
+
+> He had sung when he was by himself in the old days and he had sung at night sometimes when he was alone steering on his watch in the smacks or in the turtle boats. He had probably started to talk aloud, when alone, when the boy had left. But he did not remember. When he and the boy fished together they usually spoke only when it was necessary. They talked at night or when they were storm-bound by bad weather. It was considered a virtue not to talk unnecessarily at sea and the old man had always considered it so and respected it. But now he said his thoughts aloud many times since there was no one that they could annoy.
+
+-- Ernest Hemingway, "The Old Man and the Sea."
+
+> This blind man was late forties, a heavy-set, balding man with stooped shoulders, as if he carried a great weight there. He wore brown slacks, brown shoes, a light-brown shirt, a tie, a sports coat. Spiffy. He also had this full beard. But he didn’t use a cane and he didn’t wear dark glasses. I’d always thought dark glasses were a must for the blind. Fact was, I wish he had a pair. At first glance, his eyes looked like anyone else’s eyes. But if you looked close, there was something different about them. Too much white in the iris, for one thing, and the pupils seemed to move around in the sockets without his knowing it or being able to stop it. Creepy. As I stared at his face, I saw the left pupil turn in toward his nose while the other made an effort to keep in one place. But it was only an effort, for that one eye was on the roam without his knowing it or wanting it to be.
+
+-- Raymond Carver, "Cathedral"
+
+
+[I always "eat words" when I write. Why is that?](https://www.quora.com/I-always-eat-words-when-I-write-Meaning-I-often-leave-words-out-when-I-write-Why-is-that-Is-this-a-language-linguistics-problem/answer/Marcus-Geduld)
+
+

@@ -68,6 +68,8 @@ If you held a gun to my head and forced me to concoct a less personal, more obje
 
 [On Stephen King](https://www.quora.com/Should-Stephen-King-get-more-credit-as-a-writer-from-literary-critics/answer/Marcus-Geduld)
 
+[Helping a college applicant](https://wordswordswords.quora.com/writing-help)
+
 ---
 
 

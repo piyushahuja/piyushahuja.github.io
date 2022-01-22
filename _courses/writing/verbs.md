@@ -181,4 +181,11 @@ Finally, here are some of my favorite essays, books (and a lecture series) on wr
 
 - "Building Great Sentences" by Brooks Landon[6].
 
+----
+
+
+> "In its second minute the Hate rose to a frenzy. People were leaping up and down in their places and shouting at the tops of their voices in an effort to drown the maddening bleating voice that came from the screen. The little sandy-haired woman had turned bright pink, and her mouth was opening and shutting like that of a landed fish."
+
+Notice how Orwell chooses simple, active and evocative verbs as the core of most sentences: rose, leaving, shouting, drown, bleating, opening, shutting. And he ends the passage with an understated but well-crafted metaphor, perfectly conveying the gist of the sandy-haired woman's actions: "her mouth was opening and shutting like that of a landed fish." These are far from Orwell's best sentences, but I find that just dipping into his work, almost anywhere, teaches me something. 
+
  

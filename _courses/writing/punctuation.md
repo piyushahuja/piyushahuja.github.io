@@ -108,6 +108,22 @@ Commas do it gently--folding the aside in with the rest of the sentence--almost 
 
 I know this question is about poetry and I've only mentioned prose so far. But, in my experience, asides work the same way in either form. Some poets experiment and veer far away from standard usage, so it's possible you'll run across one with ((((quirks like this)))) in it, but some prose writers experiment, too, and it's possible you'll run across )))this((( in a novel. There are no rules. Writing is what you have the audacity to try and what you can get away with.
 
+
+Viewpoint:
+
+No brackets.
+
+Like “thing,” parentheses only weaken what you actually want to say. If you want to say it, say it. If not, don’t.
+
+Whether it’s the brackets that are unnecessary or what’s in them is for you to decide. But one of the two is. At least 99% of the time.
+
+Probability is on your side when you ditch them.
+
+Before: “You must pass a (ridiculously hard) course.”
+
+After: “You must pass a ridiculously hard course.”
+
+
 ----
 
 Can you ask a question without a question mark?
@@ -170,3 +186,28 @@ J.D. Salinger: Melancholy About the Comma
 
 ---
 
+
+> "I see nothing," Dong Huong said, again. The ground rumbled beneath her, even as her ears popped with pressure –more laughter from The Tortoise in the Lake, even as the darkness of space focused and narrowed – became the shadow of wings, the curve on vast surfaces – the hulls of two huge ships flanking them; thin, sharp, like a stretch of endless walls – making The Tortoise in the Lake seem small and insignificant, just as much as Dong Huong herself was small and insignificant in comparison to her own ship.
+
+Yes, the dashes are really clumsy. But I think I can parse it:
+
+The ground rumbled beneath her, even as her ears popped with pressure
+[–* There was] more laughter from The Tortoise in the Lake, even as the darkness of space focused and narrowed
+
+[–** Darkness that] became the shadow of wings, the curve on vast surfaces
+[–*** Darkness that was coming from] the hulls of two huge ships flanking them; thin, sharp, like a stretch of endless walls
+[–**** Walls that were] making The Tortoise in the Lake seem small and insignificant, just as much as Dong Huong herself was small and insignificant in comparison to her own ship.
+
+* here, the dash is being used as a simple way to join two sentences. Instead of a dash, the author could have used a period or an ellipsis. And he probably should have.
+
+** here, the dash say, "I'm going to continue to describe darkness."
+
+*** here, the dash says, "I'm going to say something more about darkness."
+
+**** here, the dash says, I'm going to include a parenthetical about walls.
+
+I'd rewrite the paragraph this way:
+
+"I see nothing," Dong Huong said, again. The ground rumbled beneath her, even as her ears popped with pressure, causing* more laughter from The Tortoise in the Lake, even as the darkness of space focused and narrowed—became the shadow of wings, the curve on vast surfaces. The hulls of two huge ships flanked them: thin, sharp, like a stretch of endless walls, making The Tortoise in the Lake seem small and insignificant, just as much as Dong Huong herself was small and insignificant in comparison to her own ship.
+
+*I'm not sure if we're supposed to think the rumbling ground caused the laughter, and I don't know what "The Tortoise in the Lake" refers to. If the goal isn't to imply causation, maybe the rewrite should be "... even has her ears popped with pressure. There was more laughter from the Tortoise..."
