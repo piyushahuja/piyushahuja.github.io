@@ -4,22 +4,16 @@ title: Use Verbs
 date:   2020-03-23 09:00:11
 tag:
 course: writing
-lesson: 8
+lesson: 7
 excerpt:
 comments: false
 ---
 
 
-[What are some powerful words (adjectives or verbs) which will help me in creative writing?
-Profile photo for Marcus Geduld
-](https://www.quora.com/What-are-some-powerful-words-adjectives-or-verbs-which-will-help-me-in-creative-writing/answer/Marcus-Geduld?ch=10&share=b2788b38&srid=3HW0)
-
-----
-Amazing writing tip from Chuck Palahniuk:
+**Chuck Palahniuk**
 
  
-In the words of the man himself, writing advice for all writers (particularly of fiction) that I found useful from Chuck Palahniuk.
- 
+
 In six seconds, you’ll hate me. But in six months, you’ll be a better writer.
 From this point forward—at least for the next half year—you may not use “thought” verbs. These include: 'thinks', 'knows', 'understands', 'realizes', 'believes', 'wants', 'remembers', 'imagines', 'desires', and a hundred others you love to use.
 The list should also include: 'loves' and 'hates'. And it should include: 'is' and 'has', but we’ll get to those later.
@@ -27,57 +21,68 @@ The list should also include: 'loves' and 'hates'. And it should include: 'is' a
  
 Until some time around Christmas, you can’t write:
 
- 
-	Kenny wondered if Monica didn’t like him going out at night…
+> Kenny wondered if Monica didn’t like him going out at night...
+
 Instead, you’ll have to un-pack that to something like:
 
  
-	The mornings after Kenny had stayed out, beyond the last bus, until he’d had to bum a ride or pay for a cab and got home to find Monica faking sleep, faking because she never slept that quiet, those mornings, she’d only put her own cup of coffee in the microwave. Never his.
+> The mornings after Kenny had stayed out, beyond the last bus, until he’d had to bum a ride or pay for a cab and got home to find Monica faking sleep, faking because she never slept that quiet, those mornings, she’d only put her own cup of coffee in the microwave. Never his.
+
 Instead of characters knowing anything, you must now present the details that allow the reader to know them. Instead of a character wanting something, you must now describe the thing so that the reader wants it.
 
  
 Instead of saying:
- 
-	Adam knew Gwen liked him.
-You’ll have to say: 
+
+> Adam knew Gwen liked him.
+
+You’ll have to say:
 
  
-	Between classes, Gwen had always leaned on his locker when he’d go to open it. She’s roll her eyes and shove off with one foot, leaving a black-heel mark on the painted metal, but she also left the smell of her perfume. The combination lock would still be warm from her butt. And the next break, Gwen would be leaned there, again.
+> Between classes, Gwen had always leaned on his locker when he’d go to open it. She’s roll her eyes and shove off with one foot, leaving a black-heel mark on the painted metal, but she also left the smell of her perfume. The combination lock would still be warm from her butt. And the next break, Gwen would be leaned there, again.
+
 In short, no more short-cuts. Only specific sensory detail: action, smell, taste, sound, and feeling.
 
  
 Typically, writers use these “thought” verbs at the beginning of a paragraph (In this form, you can call them “Thesis Statements” and I’ll rail against those, later). In a way, they state the intention of the paragraph. And what follows, illustrates them.
 
  
-For example: 
+For example:
 
  
-	Brenda knew she’d never make the deadline. Traffic was backed up from the bridge, past the first eight or nine exits. Her cell phone battery was dead. At home, the dogs would need to go out, or there would be a mess to clean up. Plus, she’d promised to water the plants for her neighbor…
+> Brenda knew she’d never make the deadline. Traffic was backed up from the bridge, past the first eight or nine exits. Her cell phone battery was dead. At home, the dogs would need to go out, or there would be a mess to clean up. Plus, she’d promised to water the plants for her neighbor...
+
+
 Do you see how the opening “thesis statement” steals the thunder of what follows? Don’t do it. If nothing else, cut the opening sentence and place it after all the others. Better yet, transplant it and change it to: 
 
  
-Brenda would never make the deadline.
+> Brenda would never make the deadline.
  
 Thinking is abstract. Knowing and believing are intangible. Your story will always be stronger if you just show the physical actions and details of your characters and allow your reader to do the thinking and knowing. And loving and hating.
 Don’t tell your reader:
 
- 
-	Lisa hated Tom.
-Instead, make your case like a lawyer in court, detail by detail. Present each piece of evidence. For example: 
+>Lisa hated Tom.
+
+Instead, make your case like a lawyer in court, detail by detail. Present each piece of evidence. For example:
 
  
-	During roll call, in the breath after the teacher said Tom’s name, in that moment before he could answer, right then, Lisa would whisper-shout ‘Butt Wipe,’ just as Tom was saying, ‘Here’.
+> During roll call, in the breath after the teacher said Tom’s name, in that moment before he could answer, right then, Lisa would whisper-shout ‘Butt Wipe,’ just as Tom was saying, ‘Here’.
+
+
 One of the most-common mistakes that beginning writers make is leaving their characters alone. Writing, you may be alone. Reading, your audience may be alone. But your character should spend very, very little time alone. Because a solitary character starts thinking or worrying or wondering.
 
  
-For example: 
+For example:
 
  
-	Waiting for the bus, Mark started to worry about how long the trip would take…
-A better break-down might be: 
+>Waiting for the bus, Mark started to worry about how long the trip would take...
+
+
+A better break-down might be:
 
  
-	The schedule said the bus would come by at noon, but Mark’s watch said it was already 11:57. You could see all the way down the road, as far as the Mall, and not see a bus. No doubt, the driver was parked at the turn-around, the far end of the line, taking a nap. The driver was kicked back, asleep, and Mark was going to be late. Or worse, the driver was drinking, and he’d pull up drunk and charge Mark seventy-five cents for death in a fiery traffic accident…
+> The schedule said the bus would come by at noon, but Mark’s watch said it was already 11:57. You could see all the way down the road, as far as the Mall, and not see a bus. No doubt, the driver was parked at the turn-around, the far end of the line, taking a nap. The driver was kicked back, asleep, and Mark was going to be late. Or worse, the driver was drinking, and he’d pull up drunk and charge Mark seventy-five cents for death in a fiery traffic accident...
+
+
 A character alone must lapse into fantasy or memory, but even then you can’t use “thought” verbs or any of their abstract relatives.
 
  
@@ -85,32 +90,38 @@ Oh, and you can just forget about using the verbs forget and remember.
 No more transitions such as:
 
  
-	Wanda remembered how Nelson used to brush her hair.
-Instead: 
+> Wanda remembered how Nelson used to brush her hair.
+
+Instead:
 
  
-	Back in their sophomore year, Nelson used to brush her hair with smooth, long strokes of his hand.
+> Back in their sophomore year, Nelson used to brush her hair with smooth, long strokes of his hand.
+
 Again, un-pack. Don’t take short-cuts.
 
  
 Better yet, get your character with another character, fast. Get them together and get the action started. Let their actions and words show their thoughts. You—stay out of their heads.
 
  
-And while you’re avoiding “thought” verbs, be very wary about using the bland verbs “is” and “have.” For example: 
-“Ann’s eyes are blue.”
+And while you’re avoiding “thought” verbs, be very wary about using the bland verbs “is” and “have.” For example:
+
+> “Ann’s eyes are blue.”
  
  
  
- “Ann has blue eyes.”
+> “Ann has blue eyes.”
  
 Versus:
 
  
-	Ann coughed and waved one hand past her face, clearing the cigarette smoke from her eyes, blue eyes, before she smiled…
+> Ann coughed and waved one hand past her face, clearing the cigarette smoke from her eyes, blue eyes, before she smiled
+
 Instead of bland “is” and “has” statements, try burying your details of what a character has or is, in actions or gestures. At its most basic, this is showing your story instead of telling it.
 
  
-And forever after, once you’ve learned to un-pack your characters, you’ll hate the lazy writer who settles for: “Jim sat beside the telephone, wondering why Amanda didn’t call.”
+And forever after, once you’ve learned to un-pack your characters, you’ll hate the lazy writer who settles for:
+
+> “Jim sat beside the telephone, wondering why Amanda didn’t call.”
 
  
 Please. For now, hate me all you want, but don’t use thought verbs. After Christmas, go crazy, but I’d bet money you won’t.
@@ -120,38 +131,19 @@ For this month’s homework, pick through your writing and circle every “thoug
 
  
 Then, pick through some published fiction and do the same thing. Be ruthless.
-“Marty imagined fish, jumping in the moonlight…”
-“Nancy recalled the way the wine tasted…”
-“Larry knew he was a dead man…”
+> “Marty imagined fish, jumping in the moonlight…”
+
+> “Nancy recalled the way the wine tasted…”
+
+> “Larry knew he was a dead man…”
 
  
 Find them. After that, find a way to re-write them. Make them stronger.
 
 ---
 
-Are there grammatical constructions where a preposition takes the role of a verb?
-This question previously had details. They are now in a comment.
-Profile photo for Marcus Geduld
-Marcus Geduld
-, Published author, lifelong reader.
-Answered Dec 16, 2013
-"Please put the towels under the sink, and when you're done, put the trash can under the table. Then, put those notebooks under the paperweight, and, once you've done that, put a bucket under that crack in the ceiling..."
 
-"For God's sake, stop undering me!"
-
----
-
-Use strong, simple verbs without adverbs. For instance, rather than "ran quickly," try "sprinted." Note that I said "simple" verbs. If your point is that someone is slowly walking with no plan to be anywhere, then "wandered" is probably best, but "walked slowly with no goal in mind" is better than "perambulated," even though the latter is a fun word.
-
-Why? What's wrong with "perambulated" and what's so great about simple, strong verbs? Your goal, when writing, should be to plant an image in the reader's head. Do whatever best serves that goal. Most readers will get a sharper image with "sprinted" than "ran quickly," and most will also find it easier to imagine "wandering" (or "walking slowly with no goal in mind") than "perambulating," which they may even have to look up in a dictionary.
-
-A thesaurus is your best friend (and nowadays he's free online!). If you have in mind a certain kind of fast running, but all you can think of is "run," the thesaurus will suggest bound, break, canter, dart, dash, drop, escape, fall, flight, gallop, jog, race, rush, scamper, scuttle, spring, sprint, spurt, tear, and whisk.
-
-Don't make it a pain in the ass to use the thesaurus. I recommend having thesaurus.com open in another window -- not another tab -- so that you never feel the urge to say, "Well, I guess I should look this up in the thesaurus, but..."
-
----
-
-Write in e-Prime. E-prime is a varient of English that forbids use of any form of the verb "to be"[2]. It was invented* for philosophical reasons, and you can read about those if you're interested, but, for me, e-prime is a great way to strengthen your writing, because "is" and "was" are a very hard verb to visualize, unlike action verbs such as "run," "jump," "kill" and "kiss."
+Write in e-Prime. E-prime is a varient of English that forbids use of any form of the verb "to be". It was invented for philosophical reasons, and you can read about those if you're interested, but, for me, e-prime is a great way to strengthen your writing, because "is" and "was" are a very hard verb to visualize, unlike action verbs such as "run," "jump," "kill" and "kiss."
 
 I forced myself to write everything in e-prime for a year, and, as part of the game, I didn't tell anyone I was doing it. So my writing had to flow and not sound stilted or odd, despite the lack of "to be." As a result of my e-prime year, I grew much more confident as a writer. (I allowed myself to use forms of "to be" as auxiliary verbs, as long as they were followed by some other, stronger verb, as in "was playing." This may be against the rules of strict e-prime.)
 
@@ -160,32 +152,50 @@ Note: I'm not advocating you omit to-be verbs in normal writing. I'm suggesting 
 Here's some normal prose:
 
 
-I was born in 1965, and my name is Marcus. In school, I was always good at drawing and writing, but I was terrible at math.
+> I was born in 1965, and my name is Marcus. In school, I was always good at drawing and writing, but I was terrible at math.
 
 
 Here's an e-prime version:
 
 
-The doctor delivered me on November 15th, 1965, and my parents named me Marcus. In school, I excelled at drawing and writing, but I sucked at math.
+> The doctor delivered me on November 15th, 1965, and my parents named me Marcus. In school, I excelled at drawing and writing, but I sucked at math.
 
 
-The e-prime version has the merit of focusing on who did what to whom. It's hard to imagine me just "being born" and "getting named." It's much easier to imagine a doctor delivering me and my parents naming me.
+**The e-prime version has the merit of focusing on who did what to whom.** It's hard to imagine me just "being born" and "getting named." It's much easier to imagine a doctor delivering me and my parents naming me.
 
-Finally, here are some of my favorite essays, books (and a lecture series) on writing:
-
-- "Politics and the English Language" by George Orwell [3].
-
-- "Fenimore Cooper's Literary Offenses" by Mark Twain [4].
-
-- "Spunk and Bite" by Arthur Plotnik [5].
-
-- "Building Great Sentences" by Brooks Landon[6].
 
 ----
 
 
+
+Use strong, simple verbs without adverbs. For instance, rather than "ran quickly," try "sprinted." Note that I said "simple" verbs. If your point is that someone is slowly walking with no plan to be anywhere, then "wandered" is probably best, but "walked slowly with no goal in mind" is better than "perambulated," even though the latter is a fun word.
+
+Why? What's wrong with "perambulated" and what's so great about simple, strong verbs? Your goal, when writing, should be to plant an image in the reader's head. Do whatever best serves that goal. Most readers will get a sharper image with "sprinted" than "ran quickly," and most will also find it easier to imagine "wandering" (or "walking slowly with no goal in mind") than "perambulating," which they may even have to look up in a dictionary.
+
+A thesaurus is your best friend (and nowadays he's free online!). If you have in mind a certain kind of fast running, but all you can think of is "run," the thesaurus will suggest bound, break, canter, dart, dash, drop, escape, fall, flight, gallop, jog, race, rush, scamper, scuttle, spring, sprint, spurt, tear, and whisk.
+
+[What are some powerful words (adjectives or verbs) which will help me in creative writing?](https://www.quora.com/What-are-some-powerful-words-adjectives-or-verbs-which-will-help-me-in-creative-writing/answer/Marcus-Geduld?ch=10&share=b2788b38&srid=3HW0)
+
+
+---
+
+**Orwell**
+
 > "In its second minute the Hate rose to a frenzy. People were leaping up and down in their places and shouting at the tops of their voices in an effort to drown the maddening bleating voice that came from the screen. The little sandy-haired woman had turned bright pink, and her mouth was opening and shutting like that of a landed fish."
 
 Notice how Orwell chooses simple, active and evocative verbs as the core of most sentences: rose, leaving, shouting, drown, bleating, opening, shutting. And he ends the passage with an understated but well-crafted metaphor, perfectly conveying the gist of the sandy-haired woman's actions: "her mouth was opening and shutting like that of a landed fish." These are far from Orwell's best sentences, but I find that just dipping into his work, almost anywhere, teaches me something. 
+
+
+--
+
+Are there grammatical constructions where a preposition takes the role of a verb?
+
+"Please put the towels under the sink, and when you're done, put the trash can under the table. Then, put those notebooks under the paperweight, and, once you've done that, put a bucket under that crack in the ceiling..."
+
+"For God's sake, stop undering me!"
+
+---
+
+
 
  

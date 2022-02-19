@@ -12,8 +12,6 @@ comments: false
 
 [Against](https://lithub.com/the-three-words-that-almost-ruined-me-as-a-writer-show-dont-tell/)
 
-[The case against Good and Bad](https://www.youtube.com/watch?v=D5zDkW1thls)
-
 [It was a dark and stormy night](https://www.quora.com/Why-is-Horace-Walpoles-opening-line-It-was-a-dark-and-stormy-night-so-often-cited-as-a-bad-line-to-start-a-novel-It-sets-the-tone-is-informative-and-is-appropriately-gloomy-So-why-is-this-line-so-beleaguered/answer/Tamara-Vardo?ch=10&share=21e36fd4&srid=3HW0)
 
 ----

@@ -4,10 +4,12 @@ title: Mot Juste
 date:   2019-03-23 09:00:11
 tag:
 course: writing
-lesson: 7
+lesson: 8
 excerpt:
 comments: false
 ---
+
+“Words have their own firmness,” Susan Sontag reflected in her diary. “Use the right word, not its second cousin,”
 
 [Pictures of Orwell's drafts](https://www.quora.com/Do-you-have-difficulties-deciding-on-phrasing-or-vocabulary-when-writing-How-do-you-handle-the-blank-spot/answer/Marcus-Geduld)
 

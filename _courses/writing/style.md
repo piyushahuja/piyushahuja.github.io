@@ -25,20 +25,47 @@ comments: false
 * The more abstract a truth one wishes to teach, the more one must first entice the senses.
 * Strategy on the part of the good writer of prose consists of choosing his means for stepping close to poetry but never stepping into it.
 * It is not good manners or clever to deprive one's readers of the most obvious objections. It is very good manners and very clever to leave it to one's readers alone to prononce the ultimate quintessence of our wisdom.
-    * [Example](https://news.ycombinator.com/item?id=19568720)
 
 [Nietzsche's Advice for Writing Philosophy](https://www.reddit.com/r/philosophy/comments/3bfc7q/nietzsches_advice_for_writing_philosophy/)
 
+---
 
------
 
-**Paul Graham's Advice**
+[Schopenhauer on Style](https://www.themarginalian.org/2014/03/20/schopenhauer-on-style/)
 
-As for how to write well, here's the short version: Write a bad version 1 as fast as you can; rewrite it over and over; cut out everything unnecessary; write in a conversational tone; develop a nose for bad writing, so you can see and fix it in yours; imitate writers you like; if you can't get started, tell someone what you plan to write about, then write down what you said; expect 80% of the ideas in an essay to happen after you start writing it, and 50% of those you start with to be wrong; be confident enough to cut; have friends you trust read your stuff and tell you which bits are confusing or drag; don't (always) make detailed outlines; mull ideas over for a few days before writing; carry a small notebook or scrap paper with you; start writing when you think of the first sentence; if a deadline forces you to start before that, just say the most important sentence first; write about stuff you like; don't try to sound impressive; don't hesitate to change the topic on the fly; use footnotes to contain digressions; use anaphora to knit sentences together; read your essays out loud to see (a) where you stumble over awkward phrases and (b) which bits are boring (the paragraphs you dread reading); try to tell the reader something new and useful; work in fairly big quanta of time; when you restart, begin by rereading what you have so far; when you finish, leave yourself something easy to start with; accumulate notes for topics you plan to cover at the bottom of the file; don't feel obliged to cover any of them; write for a reader who won't read the essay as carefully as you do, just as pop songs are designed to sound ok on crappy car radios; if you say anything mistaken, fix it immediately; ask friends which sentence you'll regret most; go back and tone down harsh remarks; publish stuff online, because an audience makes you write more, and thus generate more ideas; print out drafts instead of just looking at them on the screen; use simple, germanic words; learn to distinguish surprises from digressions; learn to recognize the approach of an ending, and when one appears, grab it.
+
+> There is nothing an author should guard against more than the apparent endeavor to show more intellect than he has; because this rouses the suspicion in the reader that he has very little, since a man always affects something, be its nature what it may, that he does not really possess. And this is why it is praise to an author to call him naïve, for it signifies that he may show himself as he is. In general, naïveté attracts, while anything that is unnatural everywhere repels. We also find that every true thinker endeavors to express his thoughts as purely, clearly, definitely, and concisely as ever possible. This is why simplicity has always been looked upon as a token, not only of truth, but also of genius. Style receives its beauty from the thought expressed, while with those writers who only pretend to think it is their thoughts that are said to be fine because of their style. Style is merely the silhouette of thought; and to write in a vague or bad style means a stupid or confused mind.
+
+> If a man has something to say that is worth saying, he need not envelop it in affected expressions, involved phrases, and enigmatical innuendoes; but he may rest assured that by expressing himself in a simple, clear, and naïve manner he will not fail to produce the right effect. A man who makes use of such artifices as have been alluded to betrays his poverty of ideas, mind, and knowledge
+
+
+
+> Obscurity and vagueness of expression are at all times and everywhere a very bad sign. In ninety-nine cases out of a hundred they arise from vagueness of thought, which, in its turn, is almost always fundamentally discordant, inconsistent, and therefore wrong. When a right thought springs up in the mind it strives after clearness of expression, and it soon attains it, for clear thought easily finds its appropriate expression. A man who is capable of thinking can express himself at all times in clear, comprehensible, and unambiguous words. Those writers who construct difficult, obscure, involved, and ambiguous phrases most certainly do not rightly know what it is they wish to say: they have only a dull consciousness of it, which is still struggling to put itself into thought; they also often wish to conceal from themselves and other people that in reality they have nothing to say.
+
+
+> All prolixity and all binding together of unmeaning observations that are not worth reading should be avoided. A writer must be sparing with the reader’s time, concentration, and patience; in this way he makes him believe that what he has before him is worth his careful reading, and will repay the trouble he has spent upon it. It is always better to leave out something that is good than to write down something that is not worth saying. . . .
+
+> Truth that is naked is the most beautiful, and the simpler its expression the deeper is the impression it makes; this is partly because it gets unobstructed hold of the hearer’s mind without his being distracted by secondary thoughts, and partly because he feels that here he is not being corrupted or deceived by the arts of rhetoric, but that the whole effect is got from the thing itself.
+
+
+> Just as neglect of dress betrays contempt for the society in which a man moves, so does a hasty, careless, and bad style show shocking disrespect for the reader, who then rightly punishes it by not reading the book.
+
+---
+
+**Orwell**
+
+- Never use a metaphor, simile or other figure of speech which you are used to seeing in print.
+- Never use a long word where a short one will do ("utilize vs use")
+- If it is possible to cut a word out, always cut it out.
+- Never use the passive where you can use the active.
+- Never use a foreign phrase, a scientific word or a jargon word if you can think of an everyday English equivalent.
+- Break any of these rules sooner than say anything outright barbarous.
 
 ----
 
-[Kurt Vonnegut’s 8 Keys to the Power of the Written Word](https://www.brainpickings.org/2013/01/14/how-to-write-with-style-kurt-vonnegut/)
+
+
+[Kurt Vonnegut](https://www.brainpickings.org/2013/01/14/how-to-write-with-style-kurt-vonnegut/)
 
 - Find a subject you care about.
 - Do not ramble.
@@ -49,22 +76,12 @@ As for how to write well, here's the short version: Write a bad version 1 as fas
 - Pity the readers.
 
 
-----
+---
 
-**Orwell**
 
-- Never use a metaphor, simile or other figure of speech which you are used to seeing in print.
-- Never use a long word where a short one will do.
-- If it is possible to cut a word out, always cut it out.
-- Never use the passive where you can use the active.
-- Never use a foreign phrase, a scientific word or a jargon word if you can think of an everyday English equivalent.
-- Break any of these rules sooner than say anything outright barbarous.
+
+**Paul Graham**
+
+As for how to write well, here's the short version: Write a bad version 1 as fast as you can; rewrite it over and over; cut out everything unnecessary; write in a conversational tone; develop a nose for bad writing, so you can see and fix it in yours; imitate writers you like; if you can't get started, tell someone what you plan to write about, then write down what you said; expect 80% of the ideas in an essay to happen after you start writing it, and 50% of those you start with to be wrong; be confident enough to cut; have friends you trust read your stuff and tell you which bits are confusing or drag; don't (always) make detailed outlines; mull ideas over for a few days before writing; carry a small notebook or scrap paper with you; start writing when you think of the first sentence; if a deadline forces you to start before that, just say the most important sentence first; write about stuff you like; don't try to sound impressive; don't hesitate to change the topic on the fly; use footnotes to contain digressions; use anaphora to knit sentences together; read your essays out loud to see (a) where you stumble over awkward phrases and (b) which bits are boring (the paragraphs you dread reading); try to tell the reader something new and useful; work in fairly big quanta of time; when you restart, begin by rereading what you have so far; when you finish, leave yourself something easy to start with; accumulate notes for topics you plan to cover at the bottom of the file; don't feel obliged to cover any of them; write for a reader who won't read the essay as carefully as you do, just as pop songs are designed to sound ok on crappy car radios; if you say anything mistaken, fix it immediately; ask friends which sentence you'll regret most; go back and tone down harsh remarks; publish stuff online, because an audience makes you write more, and thus generate more ideas; print out drafts instead of just looking at them on the screen; use simple, germanic words; learn to distinguish surprises from digressions; learn to recognize the approach of an ending, and when one appears, grab it.
 
 ----
-[Schopenhauer on Style](https://www.themarginalian.org/2014/03/20/schopenhauer-on-style/)
-
-----
-
-
-
-[Writing Exercise To Get A First Draft In The Shape Of A Tree](https://www.quora.com/What-major-literary-work-was-carefully-planned-out-in-advance/answer/Alex-Johnston-39?ch=10&oid=306665199&share=a6a5d110&srid=3HW0&target_type=answer)
