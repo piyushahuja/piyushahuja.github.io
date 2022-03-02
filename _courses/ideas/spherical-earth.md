@@ -39,3 +39,6 @@ https://en.wikipedia.org/wiki/Geocentric_model#:~:text=In%20astronomy%2C%20the%2
 Two of the more entertaining parts of the shape-of-the-Earth story: (1) It was common at one time to argue that humans couldn't live at the equator; and (2) skepticism that people could live at the antipodes, particularly amusing to this Australian
 
 https://en.wikipedia.org/wiki/Figure_of_the_Earth
+
+https://profmattstrassler.com/2022/02/17/how-to-figure-out-the-size-of-the-moon-yourself/
+
