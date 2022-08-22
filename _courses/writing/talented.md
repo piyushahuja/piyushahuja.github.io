@@ -1,10 +1,10 @@
 ---
 layout: post-normal
-title: What is talented writing?
+title: Talented Writing
 date:   2019-03-23 09:00:11
 tag:
 course: writing
-lesson: 01
+lesson: 1
 excerpt:
 comments: false
 ---
