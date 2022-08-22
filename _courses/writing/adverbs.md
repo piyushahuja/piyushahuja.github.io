@@ -1,14 +1,13 @@
 ---
 layout: post-normal
 title: Eliminate Adverbs
-date: 2021-03-24 09:00:11
+date:   2019-03-23 09:00:11
 tag:
 course: writing
 lesson: 4
 excerpt:
 comments: false
 ---
-
 
 
 

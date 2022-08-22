@@ -11,8 +11,8 @@ section: Home
 
 
 
-These are in-person workshops I offer in Cambridge.
-
+<!-- These are in-person workshops I offer in Cambridge.
+ -->
 
 {% for page in site.courses %}
 {% if page.lesson == "intro" %}

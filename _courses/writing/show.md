@@ -4,7 +4,7 @@ title: Show, Don't Tell
 date:   2019-03-23 09:00:11
 tag:
 course: writing
-lesson: 9
+lesson: 6
 excerpt:
 comments: false
 ---

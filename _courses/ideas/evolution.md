@@ -1,6 +1,6 @@
 ---
 layout: post-normal
-title: Theory of Evolution
+title: Where did human beings come from?
 date:   2019-03-23 09:00:11
 tag:
 course: ideas
@@ -10,5 +10,8 @@ comments: false
 ---
 
 
+Plato was called by biologist Ernst Mayr "the great antihero of evolutionism,"[10] because he promoted belief in essentialism, which is also referred to as the theory of Forms. This theory holds that each natural type of object in the observed world is an imperfect manifestation of the ideal, form or "species" which defines that type.
 
+Aristotle believed that features of living organisms showed clearly that they had what he called a final cause, that is to say that their form suited their function. He explicitly rejected the view of Empedocles that living creatures might have originated by chance.
 
+Other Greek philosophers, such as Zeno of Citium (334—262 BC) the founder of the Stoic school of philosophy, agreed with Aristotle and other earlier philosophers that nature showed clear evidence of being designed for a purpose; this view is known as teleology.[16] The Roman Skeptic philosopher Cicero (106—43 BC) wrote that Zeno was known to have held the view, central to Stoic physics, that nature is primarily "directed and concentrated...to secure for the world...the structure best fitted for survival. Cicero reports that the peripatetic and Stoic view of nature as an agency concerned most basically with producing life "best fitted for survival" was taken for granted among the Hellenistic elite.
