@@ -10,26 +10,41 @@ comments: false
 ---
 
 
-What are the things that appear to us as sun, the stars and the moon? The sun rises every day, makes it way across the sky, and then sets. The moon and the stars do something similar at the time the sun is set. And then the same thing happens again and again, roughly. The sun is always of the same size, but sometimes it takes longer to traverse the sky, sometimes lesser. And the moon has phases. And then there were the rare phenonmenon of the eclipses.
+How do we know what the sun, the stars and the moon are? 
 
-There is a a periodicity, with minor variations to the whole thing. It endows it with predictability.   And early humans had thousands of years and lots of time on their hands to observe the patterns, the patterns of the length of the days, the pattern of seasons etc. An understanding of these patterns was of great importance: predicting the seasons allowed early humans to decide when to sow or harvest their crops, take shelter from adverse weather conditions, and when to hold their ceremonies.
+Raw observations. The sun is this yellow circle that comes up at one end of the horizon, traverses the sky, and then then goes down at the other end. We know that we only get light when this yellow circle is up, so the yellow circle is probably causing the light.
+
+And then, when this yellow circle goes down, another circle is up in the sky,yellowish, along with tiny white dots. The other circle also moves around in one direction, and then sets, while the tiny dots stay the same, more or less.
+ 
+
+ And then the same thing happens again and again. The sun is always of the same size, but sometimes it takes longer to traverse the sky, sometimes lesser. And the other yellowish circle is not always a circle: it varies shape from being completely black to complety yellow. And the fixed white dots are not all fixed: some "wander". 
 
 
-An early human would find these things to be true:
+So there is some regularity, some periodicity, a pattern to the whole system of whatever it is that is going on. This regularity endows the system with predictability: if one can come up with a correct model of the system, then they can predict what happens when. And because this dance of the heavens is responsible for day and night, for the seasons and the climate, for the temperature and winds, being able to predict its effects was of immensve value. It would allow early humans to decide when to sow or harvest their crops, take shelter from adverse weather conditions, and when to hold their ceremonies.
 
-* When the moon is on the opposite side of the sun, it is fully illuminated.
 
-The moon’s phases, Anaxagoras realized, were the result of different portions of the celestial object being illuminated by the sun from Earth’s perspective.
+And early humans had thousands of years and lots of time on their hands to observe the patterns
 
-* Earth is floating freely and does not need to be resting on something (Anaximander)
-* Sun is another natural body, on fire (Anaxagoras) 
-* Moon is a rock that reflect's the light of the Sun (Anaxagoras) 
-* Bruno: first modern to say that the planets shined by reflecting light
-* Stars are distant suns
-* That Earth is spherical, not flat
-* Measuring the circumference
-* That we rotate around an axis 
-* That we revolve around the sun
+
+
+
+
+
+------
+
+The sequence of ideas:
+
+* That we rotate around an axis (Pythagoreans, Hicetas, Heraclides and Ecphantus Aristarchus, put to rest by Aristotle and then Ptolemy)
+* Earth is floating freely and does not need to be resting on something (Anaximander:550 BC)
+* Sun is another natural body, on fire (Anaxagoras:540 BC, Aristarchus: 350 BC, Giordano Bruno: 1590 AD) 
+* Moon is a rock that reflect's the light of the Sun (Anaxagoras: 540 BC) 
+* That Earth is spherical (Pythagoreans: 600 BC)
+* That we revolve around the sun (Aristarchus, then Copernicus, Kepler, Galileo)
+* Measuring the circumference (Eratosthenes: 300 BC)
+* That our axis also rotates i.e. precession (Hipparchus 150 BC)
+* The idea that the earth moves
+* Planets shined by reflecting light (Bruno)
+* Stars are distant suns with their own planets (Bruno)
 * That the universe is expanding
 * How did the universe originate? Big bang vs eternal and infinite theory 
 * There is no ether, one substance that permeates everything. Newton's Idea, helped by prior discovery of magnetism: things can exert influence each other even without a medium between them
@@ -37,14 +52,17 @@ The moon’s phases, Anaxagoras realized, were the result of different portions 
 
 -----
 
-(Wrong) Anaximander's Model: 
+Anaximander's Model: 
 
-Anaximander was the first to conceive a mechanical model of the world. 
+Anaximander was the first to conceive a mechanical model of the world. Anaximander's realization that the Earth floats free without falling and does not need to be resting on something has been indicated by many as the first cosmological revolution and the starting point of scientific thinking. Karl Popper calls this idea "one of the boldest, most revolutionary, and most portentous ideas in the whole history of human thinking." 
 
-In his model, the Earth floats very still in the centre of the infinite, not supported by anything. It remains "in the same place because of its indifference", a point of view that Aristotle considered ingenious, but false, in On the Heavens. Anaximander's realization that the Earth floats free without falling and does not need to be resting on something has been indicated by many as the first cosmological revolution and the starting point of scientific thinking. Karl Popper calls this idea "one of the boldest, most revolutionary, and most portentous ideas in the whole history of human thinking."[46] Such a model allowed the concept that celestial bodies could pass under the Earth, opening the way to Greek astronomy.
+Such a model allowed the concept that celestial bodies could pass under the Earth, opening the way to Greek astronomy.
 
 
-Its curious shape is that of a cylinder[43] with a height one-third of its diameter. The flat top forms the inhabited world, which is surrounded by a circular oceanic mass.
+
+In his model, the Earth floats very still in the centre of the infinite, not supported by anything. It remains "in the same place because of its indifference", a point of view that Aristotle considered ingenious, but false, in On the Heavens. 
+
+Its curious shape is that of a cylinder with a height one-third of its diameter. The flat top forms the inhabited world, which is surrounded by a circular oceanic mass.
 
 
 In the 6th century BC, Anaximander proposed a cosmology with Earth shaped like a section of a pillar (a cylinder), held aloft at the center of everything. The Sun, Moon, and planets were holes in invisible wheels surrounding Earth; through the holes, humans could see concealed fire.
@@ -59,7 +77,9 @@ Aristarchus proposed Heliocentricsm as a hypothesis, but no one took him up, unt
 
 **What Moon Is**
 
-Anaxagoras turns the problem of lunar light into a problem of geometry. When the moon is on the opposite side of the Earth than the sun, the full face is illuminated. The moon’s phases, Anaxagoras realized, must be the result of different portions of the celestial object being illuminated by the sun from Earth’s perspective. The philosopher also realized that the occasional darkening of the moon must result from the moon, sun and Earth lining up such that the moon passes into the Earth’s shadow—a lunar eclipse. When the moon passes directly in front of the sun, the skies darken during the day, a phenomenon Anaxagoras also described and we now call a solar eclipse.
+Anaxagoras turns the problem of lunar light into a problem of geometry. 
+
+When the moon is on the opposite side of the Earth than the sun, the full face is illuminated. The moon’s phases, Anaxagoras realized, must be the result of different portions of the celestial object being illuminated by the sun from Earth’s perspective. The philosopher also realized that the occasional darkening of the moon must result from the moon, sun and Earth lining up such that the moon passes into the Earth’s shadow: a lunar eclipse. When the moon passes directly in front of the sun, the skies darken during the day, a phenomenon Anaxagoras also described and we now call a solar eclipse.
 
 **What Stars Are**
 
