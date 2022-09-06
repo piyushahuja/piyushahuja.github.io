@@ -10,33 +10,27 @@ comments: false
 ---
 
 
-How do we know what the sun, the stars and the moon are? 
+How do we know what is the thing that we call the sun, the stars and the moon? 
 
-Raw observations. The sun is this yellow circle that comes up at one end of the horizon, traverses the sky, and then then goes down at the other end. We know that we only get light when this yellow circle is up, so the yellow circle is probably causing the light.
+If we take raw observations as a starting point: the sun is this yellow circle that comes up at one end of the horizon, traverses the blue sky, and then then goes down at the other end. We know that we only get light when this yellow circle is up, so we can make the inference that this yellow circle is probably the cause of the light.
 
-And then, when this yellow circle goes down, another circle is up in the sky,yellowish, along with tiny white dots. The other circle also moves around in one direction, and then sets, while the tiny dots stay the same, more or less.
+And then, when this yellow circle goes down, another circle is up in the sky. This is slightly yellowish. The other circle also moves around in one direction, and then sets. Along with this yellowish circle we are visible tiny dots stay the same, more or less.
  
-
- And then the same thing happens again and again. The sun is always of the same size, but sometimes it takes longer to traverse the sky, sometimes lesser. And the other yellowish circle is not always a circle: it varies shape from being completely black to complety yellow. And the fixed white dots are not all fixed: some "wander". 
-
-
-So there is some regularity, some periodicity, a pattern to the whole system of whatever it is that is going on. This regularity endows the system with predictability: if one can come up with a correct model of the system, then they can predict what happens when. And because this dance of the heavens is responsible for day and night, for the seasons and the climate, for the temperature and winds, being able to predict its effects was of immensve value. It would allow early humans to decide when to sow or harvest their crops, take shelter from adverse weather conditions, and when to hold their ceremonies.
+And the same thing happens again and again. The sun is always of the same size, but sometimes it takes longer to traverse the sky, sometimes lesser. And the other yellowish circle is not always a circle: it varies shape from being completely black to complety yellow. And the fixed white dots are not all fixed: some "wander". 
 
 
-And early humans had thousands of years and lots of time on their hands to observe the patterns
+So there is a regularity, a periodicity, a pattern to the whole system of whatever it is that is going on. This regularity endows the system with predictability: if one can come up with a correct model of the system, then they can predict what happens when. And because this dance of the heavens correlates with day and night, for the seasons and the climate, with the temperature and winds, being able to predict its effects has always been of immense value. It would allow early humans to decide when to sow or harvest their crops, take shelter from adverse weather conditions, and when to hold their ceremonies.
 
 
-
-
-
+And early humans had thousands of years and lots of time on their hands to observe the patterns.
 
 ------
 
-The sequence of ideas:
+The evolution of our understanding:
 
 * That we rotate around an axis (Pythagoreans, Hicetas, Heraclides and Ecphantus Aristarchus, put to rest by Aristotle and then Ptolemy)
-* Earth is floating freely and does not need to be resting on something (Anaximander:550 BC)
-* Sun is another natural body, on fire (Anaxagoras:540 BC, Aristarchus: 350 BC, Giordano Bruno: 1590 AD) 
+* Earth is floating freely and does not need to be resting on something (Anaximander: 550 BC)
+* Sun is another natural body, on fire (Anaxagoras: 540 BC, Aristarchus: 350 BC, Giordano Bruno: 1590 AD) 
 * Moon is a rock that reflect's the light of the Sun (Anaxagoras: 540 BC) 
 * That Earth is spherical (Pythagoreans: 600 BC)
 * That we revolve around the sun (Aristarchus, then Copernicus, Kepler, Galileo)
@@ -47,7 +41,7 @@ The sequence of ideas:
 * Stars are distant suns with their own planets (Bruno)
 * That the universe is expanding
 * How did the universe originate? Big bang vs eternal and infinite theory 
-* There is no ether, one substance that permeates everything. Newton's Idea, helped by prior discovery of magnetism: things can exert influence each other even without a medium between them
+* There is no ether, one substance that permeates everything. Things can exert influence each other even without a medium between them (Newton's Idea, helped by prior discovery of magnetism)
 
 
 -----
@@ -80,6 +74,8 @@ Aristarchus proposed Heliocentricsm as a hypothesis, but no one took him up, unt
 Anaxagoras turns the problem of lunar light into a problem of geometry. 
 
 When the moon is on the opposite side of the Earth than the sun, the full face is illuminated. The moon’s phases, Anaxagoras realized, must be the result of different portions of the celestial object being illuminated by the sun from Earth’s perspective. The philosopher also realized that the occasional darkening of the moon must result from the moon, sun and Earth lining up such that the moon passes into the Earth’s shadow: a lunar eclipse. When the moon passes directly in front of the sun, the skies darken during the day, a phenomenon Anaxagoras also described and we now call a solar eclipse.
+
+---
 
 **What Stars Are**
 
@@ -116,10 +112,14 @@ Instead of proceeding through the entire sequence of the zodiac, the equinoxes "
 
 https://www.aps.org/publications/apsnews/200606/history.cfm
 
+----
+
 
 **Rotation of the earth**
 
 First of all, the rotation of the Earth could have been proven using an experiment similar to Foucault’s pendulum. There is nothing in Léon Foucault’s 1851 experiment which could not have been done in 1581 ,or 1081, or 581 or even 81 CE. They just didn’t think of it — and they did not study pendulums very carefully before Galileo. They could have, but they didn’t.
+
+----
 
 
 **The Curvature Of The Earth**
@@ -139,7 +139,7 @@ How do we know that the Earth curves?
 Some scholars follow Frances Yates in stressing the importance of Bruno's ideas about the universe being infinite and lacking geocentric structure as a crucial crossing point between the old and the new. According to astrophysicist Steven Soter, he was the first person to grasp that "stars are other suns with their own planets."[74] Others see in Bruno's idea of multiple worlds instantiating the infinite possibilities of a pristine, indivisible One,[76] a forerunner of Everett's many-worlds interpretation of quantum mechanics.[77]
 
 The principle of relativity states that it is impossible to determine whether a system is at rest or moving at constant speed with respect to an inertial system by experiments internal to the system, i.e., there is no internal observation by
-which one can distinguish a system moving uniformly from one at rest. This principle played a key role in the defence of the heliocentric system, as it made the movement of the Earth compatible with everyday experience. https://web.archive.org/web/20160126194011/http://www.narit.or.th/en/files/2015JAHHvol18/2015JAHH...18..241D.pdf
+which one can distinguish a system moving uniformly from one at rest. This principle played a key role in the defence of the heliocentric system, as it made the movement of the Earth compatible with everyday experience. [Relativity](https://web.archive.org/web/20160126194011/http://www.narit.or.th/en/files/2015JAHHvol18/2015JAHH...18..241D.pdf)
 
 
 In particular, to support the Copernican view and oppose the objection according to which the motion of the Earth would be perceived by means of the motion of winds, clouds etc., in La Cena de le Ceneri Bruno anticipates some of the arguments of Galilei on the relativity principle.[70] Note that he also uses the example now known as Galileo's ship.
@@ -183,7 +183,7 @@ Epicycles, phlogiston, caloric, ether.
 * Read: The Sleepwalkers
 * [Scientific Revolution](https://twitter.com/michael_nielsen/status/1473312007923257344)
 * [Emergence of Modern Astronomy](https://thonyc.wordpress.com/2020/07/15/the-emergence-of-modern-astronomy-a-complex-mosaic-part-xl/)
-* https://www.loc.gov/static/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/ancient-greek-astronomy-and-cosmology.html#:~:text=In%20the%205th%20century%20B.C.,moon%20it%20is%20clearly%20round.
+* [Finding our place](https://www.loc.gov/static/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/ancient-greek-astronomy-and-cosmology.html#:~:text=In%20the%205th%20century%20B.C.,moon%20it%20is%20clearly%20round)
 * [Repeat Eratosthenes](https://www.juliantrubin.com/bigten/eratosthenes.html)
 
 
