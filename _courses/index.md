@@ -3,6 +3,7 @@ title: Courses
 layout: page-home
 permalink: /courses
 section: Home
+lesson: index
 ---
 
 
