@@ -29,10 +29,10 @@ And early humans had thousands of years and lots of time on their hands to obser
 The evolution of our understanding:
 
 * That we rotate around an axis (Pythagoreans, Hicetas, Heraclides and Ecphantus Aristarchus, put to rest by Aristotle and then Ptolemy)
+* That Earth is spherical (Pythagoreans: 600 BC)
 * Earth is floating freely and does not need to be resting on something (Anaximander: 550 BC)
 * Sun is another natural body, on fire (Anaxagoras: 540 BC, Aristarchus: 350 BC, Giordano Bruno: 1590 AD) 
 * Moon is a rock that reflect's the light of the Sun (Anaxagoras: 540 BC) 
-* That Earth is spherical (Pythagoreans: 600 BC)
 * That we revolve around the sun (Aristarchus, then Copernicus, Kepler, Galileo)
 * Measuring the circumference (Eratosthenes: 300 BC)
 * That our axis also rotates i.e. precession (Hipparchus 150 BC)
@@ -48,18 +48,13 @@ The evolution of our understanding:
 
 Anaximander's Model: 
 
-Anaximander was the first to conceive a mechanical model of the world. Anaximander's realization that the Earth floats free without falling and does not need to be resting on something has been indicated by many as the first cosmological revolution and the starting point of scientific thinking. Karl Popper calls this idea "one of the boldest, most revolutionary, and most portentous ideas in the whole history of human thinking." 
+Anaximander was the first to conceive a mechanical model of the world. His realization that the Earth floats free without falling and does not need to be resting on something has been indicated by many as the first cosmological revolution and the starting point of scientific thinking. Karl Popper calls this idea "one of the boldest, most revolutionary, and most portentous ideas in the whole history of human thinking." 
 
 Such a model allowed the concept that celestial bodies could pass under the Earth, opening the way to Greek astronomy.
 
-
-
 In his model, the Earth floats very still in the centre of the infinite, not supported by anything. It remains "in the same place because of its indifference", a point of view that Aristotle considered ingenious, but false, in On the Heavens. 
 
-Its curious shape is that of a cylinder with a height one-third of its diameter. The flat top forms the inhabited world, which is surrounded by a circular oceanic mass.
-
-
-In the 6th century BC, Anaximander proposed a cosmology with Earth shaped like a section of a pillar (a cylinder), held aloft at the center of everything. The Sun, Moon, and planets were holes in invisible wheels surrounding Earth; through the holes, humans could see concealed fire.
+Its curious shape is that of a cylinder with a height one-third of its diameter. The flat top forms the inhabited world, which is surrounded by a circular oceanic mass. In the 6th century BC, Anaximander proposed a cosmology with Earth shaped like a section of a pillar (a cylinder), held aloft at the center of everything. The Sun, Moon, and planets were holes in invisible wheels surrounding Earth; through the holes, humans could see concealed fire.
 
 
 Aristarchus proposed Heliocentricsm as a hypothesis, but no one took him up, until Copernicus reviced the theory in 16th century
@@ -97,6 +92,8 @@ Hipparchus gave an account of his discovery in On the Displacement of the Solsti
 Because the equinoctial points are not marked in the sky, Hipparchus needed the Moon as a reference point; he used a lunar eclipse to measure the position of a star. Hipparchus already had developed a way to calculate the longitude of the Sun at any moment. A lunar eclipse happens during Full moon, when the Moon is at opposition, precisely 180° from the Sun. Hipparchus is thought to have measured the longitudinal arc separating Spica from the Moon. To this value, he added the calculated longitude of the Sun, plus 180° for the longitude of the Moon. He did the same procedure with Timocharis' data (Evans 1998, p. 251). Observations such as these eclipses, incidentally, are the main source of data about when Hipparchus worked, since other biographical information about him is minimal. The lunar eclipses he observed, for instance, took place on 21 April 146 BC, and 21 March 135 BC (Toomer 1984, p. 135 n. 14).
 
 Hipparchus also studied precession in On the Length of the Year. Two kinds of year are relevant to understanding his work. The tropical year is the length of time that the Sun, as viewed from the Earth, takes to return to the same position along the ecliptic (its path among the stars on the celestial sphere). The sidereal year is the length of time that the Sun takes to return to the same position with respect to the stars of the celestial sphere. Precession causes the stars to change their longitude slightly each year, so the sidereal year is longer than the tropical year. Using observations of the equinoxes and solstices, Hipparchus found that the length of the tropical year was 365+1/4−1/300 days, or 365.24667 days (Evans 1998, p. 209). Comparing this with the length of the sidereal year, he calculated that the rate of precession was not less than 1° in a century. From this information, it is possible to calculate that his value for the sidereal year was 365+1/4+1/144 days (Toomer 1978, p. 218). By giving a minimum rate, he may have been allowing for errors in observation.
+
+[Solargraphs: Movement of the Sun](https://twitter.com/WadsworthFabian/status/1566872065302470657)
 
 To approximate his tropical year Hipparchus created his own lunisolar calendar by modifying those of Meton and Callippus in On Intercalary Months and Days (now lost), as described by Ptolemy in the Almagest III.1 (Toomer 1984, p. 139). The Babylonian calendar used a cycle of 235 lunar months in 19 years since 499 BC (with only three exceptions before 380 BC), but it did not use a specified number of days. The Metonic cycle (432 BC) assigned 6,940 days to these 19 years producing an average year of 365+1/4+1/76 or 365.26316 days. The Callippic cycle (330 BC) dropped one day from four Metonic cycles (76 years) for an average year of 365+1/4 or 365.25 days. Hipparchus dropped one more day from four Callippic cycles (304 years), creating the Hipparchic cycle with an average year of 365+1/4−1/304 or 365.24671 days, which was close to his tropical year of 365+1/4−1/300 or 365.24667 days.
 
