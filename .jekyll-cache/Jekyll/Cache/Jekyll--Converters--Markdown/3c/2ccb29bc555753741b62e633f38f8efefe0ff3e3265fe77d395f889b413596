@@ -1,0 +1,30 @@
+I"ß<CENTER><h1 class="emphnext">Maths Proof Techniques</h1></CENTER>
+
+<div class="section list">
+  <h1>Lesson 1</h1>
+  <p class="line">
+  <a class="title" href="/courses/maths/geometry">Geometry</a>
+  </p>
+  <!--<p class="excerpt"><hr />
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>Lesson 3</h1>
+  <p class="line">
+  <a class="title" href="/courses/maths/binomial">Binomial Power Series</a>
+  </p>
+  <!--<p class="excerpt"><p>https://www.quantamagazine.org/how-isaac-newton-discovered-the-binomial-power-series-20220831/</p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>Lesson 2</h1>
+  <p class="line">
+  <a class="title" href="/courses/maths/pigeonhole">Pigeonhole Principle</a>
+  </p>
+  <!--<p class="excerpt">
+</p>-->
+</div>
+
+:ET
