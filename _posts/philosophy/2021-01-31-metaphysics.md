@@ -13,6 +13,9 @@ comments: true
 
 ---
 
+[There is no escaping metaphysics](https://iai.tv/articles/auid-2236-there-is-no-escaping-metaphysics-auid-2236?_auid=2020)
+
+
 Terms: 
 * Realism (Platonic: universals before things, Aristotle: universals in things, universals are real entities, they exist distinctly, apart from the particulars that instantiate them, but their existence is dependent on the particulars that exemplify them.)
 * Anti-realism
