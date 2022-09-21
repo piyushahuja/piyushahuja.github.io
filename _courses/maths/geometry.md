@@ -17,3 +17,6 @@ comments: false
 
 
 [Non-Euclid Construction](https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/non_Euclid_construction/index.html#Einstein)
+
+[Comparing evolution of geometry and set theory](https://twitter.com/mattecapu/status/1570783692641169409)
+

@@ -112,3 +112,4 @@ If you held a gun to my head and forced me to concoct a less personal, more obje
 ---
 
 
+[A writer is someone for whom writing is more difficult than it is for other people](https://twitter.com/paulg/status/1571087915538853888)
