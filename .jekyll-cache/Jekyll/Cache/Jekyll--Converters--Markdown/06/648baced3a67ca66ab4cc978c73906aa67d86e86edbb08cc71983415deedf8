@@ -1,45 +1,31 @@
----
-layout: page-home
-title: Piyush Ahuja
-permalink: /
-section: Home
----
-
-
-<!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
+I"<!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
  -->
 
+<p><strong>Currently</strong></p>
 
-**Currently**
-
-I am working on Platonia, a learning-based social network based in Cambridge.
-
----
-
-**Also**
-
-I run a local meditation group in Cambridge on Thursdays.
-
-I am looking for volunteer participants for [my writing workshop](/courses/writing/intro).
-
-<center>
+<p>I am working on Platonia, a learning-based social network based in Cambridge.</p>
 
 <figure>
-    <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height= "400" /> 
+
+<div style="text-align: left;">
+
+<img align="left" src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height="400" /> 
     <figcaption></figcaption> 
-</figure>
-</center>
+&lt;/figure&gt;
+
+</div>
+
+
+
 
 ---
-
-
 
 
 **Previous Work**
 
-For the last three years, I have been senior software developer at Wellcome Sanger Institute (I am currently on a sabbatical). Previously, I was the lead product manager at Jugnoo, an on-demand startup used by more than 3 million people across 30 Indian cities. 
+For the last three years, I have been senior software developer at Wellcome Sanger Institute. I am currently on a sabbatical. Previously, I was the lead product manager at Jugnoo, an on-demand startup used by more than 3 million people across 30 Indian cities. 
 
-The [work experience page](/work)  spells it all out.  
+The [work section](/work)  spells out my professional experience in greater detail.  
 
 
 ---
@@ -51,13 +37,20 @@ I read for a second BA in Philosophy, Politics and Economics at the University o
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg) 
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
-[Here's a summary of my research](/research). 
-
-[Here are some essays in philosophy](/philosophy) from my time in Oxford.
+The [research page](/research)  gives a summary of my research projects and these are some [essays in philosophy](/philosophy) that I wrote while at Oxford.
 
 <!-- The [work section](/work)  spells out my professional experience in greater detail.  
  -->
 
+----
+
+**Also**
+
+I am interested in the [history of ideas](courses/ideas/intro) and [mathematical proofs]().
+
+I run a local meditation group in Cambridge on Thursdays.
+
+I intend to start [a writing workshop](/courses/writing/intro) next year.
 
 
 
@@ -74,10 +67,26 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 ----
 
-{% include email-subscribe.html %}
+<form style="#ccc;padding:3px;text-align:center;" action="https://tinyletter.com/piyushahuja" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/piyushahuja', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+ 	<p>
+ 	<label for="tlemail">Email: piyushahuja.in@gmail.com.</label>
+ 	<br />
+ 	To join my email list, fill in your email address:
+ 		<input type="email" style="width:140px; text-align:center;" name="email" id="email" value="" placeholder="example@example.com" />	
+ 		<button>Submit</button>
+ 	</p>
+
+ 	<input type="hidden" value="1" name="embed" />
+ 
+
+ </form>
+         
 
 
 [resumeFile]: ../files/piyush_resume.pdf 
 [thesis]: ../files/research/thesis.pdf
 
  
+</figure>
+:ET
