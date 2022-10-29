@@ -12,15 +12,15 @@ section: Home
 
 **Currently**
 
-I am working on Platonia, a learning-based social network based in Cambridge.
+I am working on a learning-based social network based in Oxbridge.
 
 ---
 
 **Also**
 
-I run a local meditation group in Cambridge on Thursdays.
 
-I am looking for volunteer participants for [my writing workshop](/courses/writing/intro).
+
+I am planning to run a local meditation group in Cambridge and [a writing workshop](/courses/writing/intro). I'm looking for participants: if you're interested, please reach out.
 
 <center>
 
@@ -37,23 +37,23 @@ I am looking for volunteer participants for [my writing workshop](/courses/writi
 
 **Previous Work**
 
-For the last three years, I have been senior software developer at Wellcome Sanger Institute (I am currently on a sabbatical). Previously, I was the lead product manager at Jugnoo, an on-demand startup used by more than 3 million people across 30 Indian cities. 
+For the last three years, I have been senior software developer at Wellcome Sanger Institute (I am currently on a sabbatical). 
 
-The [work experience page](/work)  spells it all out.  
-
+For a detailed account of my past work, visit [my work experience page](/work).
 
 ---
 
 **Education** 
 
-I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College.
+I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College. [These are some essays](/philosophy) I wrote while at Oxford. 
 
-Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg) 
+Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
+
+For a detailed account of all my research, visit [my research page](/research).
+
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
-[Here's a summary of my research](/research). 
 
-[Here are some essays in philosophy](/philosophy) from my time in Oxford.
 
 <!-- The [work section](/work)  spells out my professional experience in greater detail.  
  -->
