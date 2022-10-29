@@ -1,0 +1,72 @@
+I"r<!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
+ -->
+
+<p><strong>Currently</strong></p>
+
+<p>I am working on a learning-based social network based in Cambridge.</p>
+
+<hr />
+
+<p><strong>Also</strong></p>
+
+<p>I would love to run a meditation group and <a href="/courses/writing/intro">a writing workshop</a> in Cambridge. I’m looking for volunteer participants: if this interests you, please reach out!</p>
+
+<center>
+
+<figure>
+    <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height="400" /> 
+    <figcaption></figcaption> 
+</figure>
+</center>
+
+<hr />
+
+<p><strong>Previous Work</strong></p>
+
+<p>For the last three years, I have been senior software developer at Wellcome Sanger Institute (I am currently on a sabbatical).</p>
+
+<p><a href="/work">The work experience page</a> has an account of my work history.</p>
+
+<hr />
+
+<p><strong>Education</strong></p>
+
+<p>I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, <a href="https://www.tiarafoundation.com/copy-of-tiara-special-grant">Tiara Special Grant</a>, and a second undergraduate degree scholarship by Harris Manchester College. <a href="/philosophy">These are some essays</a> from that time at Oxford.</p>
+
+<p>Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master’s thesis was in the design of approximation algorithms for networks under <a href="https://en.wikipedia.org/wiki/Naveen_Garg">Naveen Garg</a>.</p>
+
+<p><a href="/research">The research page</a> has a summary and links to the research I’d done in university.</p>
+
+<!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
+
+<!-- The [work section](/work)  spells out my professional experience in greater detail.  
+ -->
+
+<!-- 
+ One of the best way to learn is to teach it to someone. Platonia allows one to organize one-on-one meetups with people for learning-and-teaching. Give it a try! Here's the [download link for iOS]((http://itunes.com/apps/platonia)) and here's the [download link for Android](https://play.google.com/store/apps/details?id=com.platonia_client). -->
+
+<!-- - **Teaching:**  I am interested in teaching or mentoring opportunies in philosophy, algorithms, and creative writing.
+
+- **Learning:** I am looking for people interested in practicing Improv, First Aid, or Wilderness survival skills.  
+
+- **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. Here are some ideas: a podcast, a comedy sketch, a mobile app, or any long-form writing assignment. 
+ -->
+
+<hr />
+
+<form style="#ccc;padding:3px;text-align:center;" action="https://tinyletter.com/piyushahuja" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/piyushahuja', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+ 	<p>
+ 	<label for="tlemail">Email: piyushahuja.in@gmail.com.</label>
+ 	<br />
+<!--  	To join my email list, fill in your email address:
+ 		<input type="email" style="width:140px; text-align:center;" name="email" id="email" value placeholder="example@example.com" />	
+ 		<button>Submit</button> -->
+ 	</p>
+
+ 	<input type="hidden" value="1" name="embed" />
+ 
+
+ </form>
+
+:ET
