@@ -20,7 +20,7 @@ I am working on a learning-based social network based in Oxbridge.
 
 
 
-I am planning to run a local meditation group in Cambridge and [a writing workshop](/courses/writing/intro). I'm looking for participants: if you're interested, please reach out.
+I would love to run a meditation group and [a writing workshop](/courses/writing/intro)in Cambridge . I'm looking for participants: if you're interested, please reach out.
 
 <center>
 
