@@ -20,7 +20,7 @@ I am working on a learning-based social network based in Cambridge.
 
 
 
-I would love to run a meditation group and [a writing workshop](/courses/writing/intro). I'm looking for participants: if you're interested, please reach out.
+I would love to run a meditation group and [a writing workshop](/courses/writing/intro) in Cambridge. I'm looking for volunteer participants: if this interests you, please reach out!
 
 <center>
 
@@ -39,17 +39,17 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 For the last three years, I have been senior software developer at Wellcome Sanger Institute (I am currently on a sabbatical). 
 
-For a detailed account of my past work, visit [my work experience page](/work).
+[The work experience page](/work) has an account of my work history.
 
 ---
 
 **Education** 
 
-I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College. [These are some essays](/philosophy) I wrote while at Oxford. 
+I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College. [These are some essays](/philosophy) from that time at Oxford. 
 
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
 
-For a detailed account of all my research, visit [my research page](/research).
+[The research page](/research) has a summary and links to the research I'd done while in university.
 
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
