@@ -49,7 +49,7 @@ I read for a second BA in Philosophy, Politics and Economics at the University o
 
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
 
-[The research page](/research) has a summary and links to the research I'd done while in university.
+[The research page](/research) has a summary and links to the research I'd done in university.
 
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
