@@ -12,7 +12,7 @@ section: Home
 
 **Currently**
 
-I am working on a learning-based social network based in Oxbridge.
+I am working on a learning-based social network based in Cambridge.
 
 ---
 
@@ -20,7 +20,7 @@ I am working on a learning-based social network based in Oxbridge.
 
 
 
-I would love to run a meditation group and [a writing workshop](/courses/writing/intro)in Cambridge . I'm looking for participants: if you're interested, please reach out.
+I would love to run a meditation group and [a writing workshop](/courses/writing/intro). I'm looking for participants: if you're interested, please reach out.
 
 <center>
 
