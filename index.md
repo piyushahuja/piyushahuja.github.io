@@ -16,12 +16,12 @@ I am working on a learning-based social network based in Cambridge.
 
 ---
 
-**Also**
+<!-- **Also**
 
 
 
 I would love to run a meditation group and [a writing workshop](/courses/writing/intro) in Cambridge. I'm looking for volunteer participants: if this interests you, please reach out!
-
+ -->
 <center>
 
 <figure>
