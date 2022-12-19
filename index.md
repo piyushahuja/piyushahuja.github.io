@@ -12,7 +12,7 @@ section: Home
 
 **Currently**
 
-I am working on a work break. 
+I am on a work break. 
 
 ---
 
