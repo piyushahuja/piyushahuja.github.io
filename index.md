@@ -12,7 +12,7 @@ section: Home
 
 **Currently**
 
-I am on a work break. 
+I am on a sabbatical. 
 
 ---
 
@@ -37,7 +37,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 **Previous Work**
 
-For the last three years, I have been senior software developer at Wellcome Sanger Institute (I am currently on a sabbatical). 
+For the last three years, I have been senior software developer at Wellcome Sanger Institute.
 
 [The work experience page](/work) has an account of my work history.
 
