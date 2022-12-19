@@ -12,7 +12,7 @@ section: Home
 
 **Currently**
 
-I am working on a learning-based social network based in Cambridge.
+I am working on a work break. 
 
 ---
 
