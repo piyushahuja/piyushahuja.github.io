@@ -12,7 +12,7 @@ section: Home
 
 **Currently**
 
-I am on a sabbatical. 
+I am on a sabbatical.
 
 ---
 
