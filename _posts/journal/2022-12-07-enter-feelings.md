@@ -127,9 +127,12 @@ Divorced, a mother of two, and polyamourous.
 
 She liked to dance, wear oily scents, and had a fun side to her.
 
+Her mother left her for Greece when she was young. Her father was an alcoholic.
+Since 15, she had to look after her own. She had cousins in Liverpool. 
+
 ---
 
-
+**L**, **K**, **M**     
 
 
 
