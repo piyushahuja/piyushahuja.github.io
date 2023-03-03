@@ -15,9 +15,35 @@ comments: true
 
 
 * Is your authentic self something you were born with and you need to fulfill (an essential self), or is it something you create for yourself throughout your life (an existential self)?
-    - The call of personal authenticity — of being true to one’s self — conceals the chasms between the essential self and the existential self, which are psychologically divergent interpretations of the Self. Existentialist authenticity prescribes to the individual man and woman “determine your destiny!”, by being aware of the absolute freedom to choose. 
-    - Essentialist authenticity demands that a person find and follow a prescribed system of values in order to reach a pre-ordained destiny.
-    - The essentialist person searches for signs of self-betrayal; the existentialist person asks: “How am I not myself?” and answers “Only when I act in bad faith”.
+    - The call of personal authenticity — "being true to one’s self" — conceals the chasms between the essential self and the existential self, which are psychologically divergent interpretations of the Self. 
+
+- Essentialist authenticity demands that a person find and follow a prescribed system of values in order to reach a pre-ordained destiny.
+    + avoids the true nature of our freedom
+    + Existentialist authenticity prescribes to the individual man and woman “determine your destiny!”, by being aware of the absolute freedom to choose.
+        * Avoids factity of our existence: we cant choose everything (physical aspects are obvious, but maybe there are mental aspects: autism, taste is genetic) 
+    
+- The essentialist person searches for signs of self-betrayal
+    + the existentialist person asks: “How am I not myself?” and answers “Only when I act in bad faith” (we avoid our true freedom)
+
+The dilemma:       
+- The task at hand that we are both factic (in an essential sense) and free (in the existential sense). Factic "I have no control" vs the other extreme "I can create myself anew out of nothing". 
+    We are both defined by certain factors over which we have no control but we also have freedom to interpret and expand our situation. We can make ourselves but we dont have complete control over our self making. 
+
+-----
+
+- Essentialist:
+    + One of the reasons we are inauthentic is because we cant tolerate the thought of our mortality/finitude. We are confronted with a range of demands, as a son, father etc. We dont choose that.  We dont make that decision (factic), we live the dream of indeterminacy (Free).   Deaths definitely coming, not yet, there's still time. Still time to change, be different, be other than who they are now.
+    + Nietzche. Rails against conformism and against the idea that the rules of how we ought to be would be the same for everyone. 
+
+- Existentialists: 
+    + People with bad faith avoid the recognition that we are free, we going to die, we are constantly responsible for the task of deciding  (Sartre) Being inauthentic is to choose to act in a way that does not recognize the sort of beings humans are: they have radical freedom.  Its not that authentic people act radically, but they act out of a recognition of the kind of beings human beings are. 
+    + Fromme considered behavior of any kind, even that wholly in accord with societal mores, to be authentic if it results from personal understanding and approval of its drives and origins, rather than merely from conformity with the received wisdom of the society. Thus a Frommean authentic may behave consistently in a manner that accords with cultural norms, for the reason that those norms appear on consideration to be appropriate, rather than simply in the interest of conforming with current norms. Fromm thus considers authenticity to be a positive outcome of enlightened and informed motivation rather than a negative outcome of rejection of the expectations of others. He described the latter condition – the drive primarily to escape external restraints typified by the "absolute freedom" of Sartre – as "the illusion of individuality", as opposed to the genuine individuality that results from authentic living.
+  
+   Essentialism is a mistake: We are tempted to reify the idea of self to reduce our freedom rather than expand it.
+
+------
+
+
 * Does your obligation to be true to yourself override your obligations to others?
     - In existentialism, authenticity is the degree to which a person's actions are congruent with his or her values and desires, despite external pressures to social conformity.
 * Where does authenticity end and narcissism start? Modern western capitalist fetish with individualism, excessive idea of self-importance, outward-focussed. 
@@ -27,11 +53,7 @@ comments: true
 
 
 
-
-  
-
-Erich Fromm
-A very different definition of authenticity was proposed by Erich Fromm[18] in the mid-1900s. He considered behavior of any kind, even that wholly in accord with societal mores, to be authentic if it results from personal understanding and approval of its drives and origins, rather than merely from conformity with the received wisdom of the society. Thus a Frommean authentic may behave consistently in a manner that accords with cultural norms, for the reason that those norms appear on consideration to be appropriate, rather than simply in the interest of conforming with current norms. Fromm thus considers authenticity to be a positive outcome of enlightened and informed motivation rather than a negative outcome of rejection of the expectations of others. He described the latter condition – the drive primarily to escape external restraints typified by the "absolute freedom" of Sartre – as "the illusion of individuality",[19] as opposed to the genuine individuality that results from authentic living.
+-----
 
 
 How does one fail to act authentically?
@@ -50,6 +72,8 @@ We dont make that decision, we live the dream of indeterminacy.   Deaths definit
 - Nietzche: Rails against conformism and against the idea that the rules of how we ought to be would be the same for everyone. 
 - Goethe's Werther: Individual wrestling with his in own inner passion
 
+Erich Fromm
+A very different definition of authenticity was proposed by Erich Fromm. in the mid-1900s. He considered behavior of any kind, even that wholly in accord with societal mores, to be authentic if it results from personal understanding and approval of its drives and origins, rather than merely from conformity with the received wisdom of the society. Thus a Frommean authentic may behave consistently in a manner that accords with cultural norms, for the reason that those norms appear on consideration to be appropriate, rather than simply in the interest of conforming with current norms. Fromm thus considers authenticity to be a positive outcome of enlightened and informed motivation rather than a negative outcome of rejection of the expectations of others. He described the latter condition – the drive primarily to escape external restraints typified by the "absolute freedom" of Sartre – as "the illusion of individuality", as opposed to the genuine individuality that results from authentic living.
 
 
 
@@ -58,7 +82,8 @@ How does one act or be authentic?
 Motivation for action:
 - A virtuous person does things for their own sake
 - When you act on your own assessment (not others')
-- Are you the author, or origin, of your actions? 
+- Are you the author, or origin, of your actions?  
+    + Possibly not enough: because the motivation is important. 
 - True Christian faces pure/chaste fear - they love what God loves (not doing because they are scared of God/scared of punishment) Augustine
 -  We are more authentic when we are more in touch with our passionate side. 
 - Authentic" are willing to make demands, death may come now (Heidegger)
@@ -82,5 +107,23 @@ Anxiety: existential. Anxiety: What interrupts the conformist, anonymous mode is
 * Taking care of your needs
 * Chamaeleon drive, Moulding to others
 * Be the source   
+
+
+
+
+
+- Appearing as you are (vs different public and private face: being two faced)
+    + Maybe integrity necessary for authenticity? But possibly not sufficient.
+- A feeling that "this is you", acting in accordance with your values and beliefs whatever the consequence (vs "betraying yourself")
+    + why we might not act according to are values and beliefs? 
+    + motivation to pleasing others
+    + obtaining something 
+    + pressure to conform (following a dress code in the party)
+    + following a role or rule (acting in bad faith not recognizing true freedom e.g. a person in military or the queen or a role)
+        * Erich Fromme
+    + out of fear of consequences
+        * - Are you the author, or origin, of your actions? 
+
+
 
 
