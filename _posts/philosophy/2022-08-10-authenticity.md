@@ -13,6 +13,11 @@ comments: true
 
 ---
 
+The debate has shifted as the idea of an individual has shifted. 
+- Earlier, individuals were nodes in a social relation. And to be inathentic was to act in accordance with conformity rather than your individual values
+
+- Now, society is an aggregation of individual autonomous agents. And to live inauthentically is to have two **faces**
+
 
 * Is your authentic self something you were born with and you need to fulfill (an essential self), or is it something you create for yourself throughout your life (an existential self)?
     - The call of personal authenticity — "being true to one’s self" — conceals the chasms between the essential self and the existential self, which are psychologically divergent interpretations of the Self. 
@@ -33,7 +38,7 @@ The dilemma:
 
 - Essentialist:
     + One of the reasons we are inauthentic is because we cant tolerate the thought of our mortality/finitude. We are confronted with a range of demands, as a son, father etc. We dont choose that.  We dont make that decision (factic), we live the dream of indeterminacy (Free).   Deaths definitely coming, not yet, there's still time. Still time to change, be different, be other than who they are now.
-    + Nietzche. Rails against conformism and against the idea that the rules of how we ought to be would be the same for everyone. 
+
 
 - Existentialists: 
     + People with bad faith avoid the recognition that we are free, we going to die, we are constantly responsible for the task of deciding  (Sartre) Being inauthentic is to choose to act in a way that does not recognize the sort of beings humans are: they have radical freedom.  Its not that authentic people act radically, but they act out of a recognition of the kind of beings human beings are. 
