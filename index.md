@@ -12,7 +12,16 @@ section: Home
 
 **Currently**
 
-I am on a sabbatical.
+I am based in Cambridge and often travel to London and Oxford. I am on a career break and working on the following projects.
+
+* [Meeting Without Masks](https://www.tickettailor.com/events/meetingwithoutmasks/902321): a conscious dating event in Cambridge
+* Platonia: a social network based on skills 
+* [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast
+* Salt To Taste: a series of essays on finding yourself
+* [A Writing Course](https://piyushahuja.com/courses/writing/intro)
+
+I find a lot of value in mentoring. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please don't hesitate to reach out.
+
 
 ---
 
@@ -37,7 +46,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 **Previous Work**
 
-For the last three years, I have been senior software developer at Wellcome Sanger Institute.
+Between 2019 - 2023, I was senior software developer at Wellcome Sanger Institute.
 
 [The work experience page](/work) has an account of my work history.
 
@@ -50,6 +59,17 @@ I read for a second BA in Philosophy, Politics and Economics at the University o
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
 
 [The research page](/research) has a summary of the research I'd done in university.
+
+
+----
+
+**Hobbies** 
+
+
+I like to draw portraits and try new recipes.
+
+During college, I was a [national level quizzer](https://www.youtube.com/watch?v=-5pdjrdj0uA). 
+
 
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
