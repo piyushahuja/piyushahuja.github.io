@@ -9,6 +9,8 @@ excerpt:
 comments: false
 ---
 
+[In Praise of the Long Complicated Sentence](https://lithub.com/baroque-purple-and-beautiful-in-praise-of-the-long-complicated-sentence/?utm_source=substack&utm_medium=email)
+
 There's no evidence that certain words are objectively beautiful or beloved by the majority of people. Many individuals have words that they love, but your favorites and mine are probably different. I'm a fan of click, lizard, oh, alabaster, loon, crinkle, zigzag, fay, vim, fuck, luscious, scissors, cunt, and quagmire.  But, for me, beauty in language is less about individual works and more about words in contexts. Depending on the sentence or phrase it's housed in, almost any word can be beautiful or ugly.  The word "see" isn't special to me on its own, but it becomes magical when Shakespeare has Ophelia say, "O, woe is me / To have seen what I have seen, see what I see!" and the words "it" and "thing," which are normally humdrum, shine in the slogans "Coke is it!" and "It's the real thing."
 
 ----
