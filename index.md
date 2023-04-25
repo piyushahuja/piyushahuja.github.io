@@ -12,7 +12,7 @@ section: Home
 
 **Currently**
 
-I am on a career break and involved in the following projects:
+I am on a career break and spending time on the following projects:
 
 
 
@@ -74,7 +74,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 In my free time, I like to draw portraits and try new recipes.
 
-I used to be a [competitive quizzer](https://www.youtube.com/watch?v=-5pdjrdj0uA) and have appeared in multiple nationally televised game shows.
+I used to be a [competitive quizzer](https://www.youtube.com/watch?v=-5pdjrdj0uA).
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
 
