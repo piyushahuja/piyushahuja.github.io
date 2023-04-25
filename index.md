@@ -12,17 +12,17 @@ section: Home
 
 **Currently**
 
-I am on a career break, that is to say, I have traded a life of security for more autonomy and creativity. 
+I am on a career break and involved in the following projects:
 
-<!-- These are the projects that I am working on:
 
-* [Meeting Without Masks](https://www.tickettailor.com/events/meetingwithoutmasks/902321): a conscious dating event in Cambridge
+
+* Meeting Without Masks: a conscious dating event in Cambridge
 * Platonia: a social network based on skills 
 * [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast
 * Salt To Taste: a series of essays on finding yourself
 * [A Writing Course](https://piyushahuja.com/courses/writing/intro)
 * [A Newcomer's Guide to Cambridge](/cambridge)
- -->
+
 I find a lot of value in mentoring. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please don't hesitate to write to me.
 
 I am based in Cambridge and often travel to London and Oxford. 
@@ -74,8 +74,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 In my free time, I like to draw portraits and try new recipes.
 
-I used to be a competent quizzer, appearing in three nationally televised [quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) across seven episodes. 
-
+I used to be a [competitive quizzer](https://www.youtube.com/watch?v=-5pdjrdj0uA) and have appeared in multiple nationally televised game shows.
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
 
