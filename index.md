@@ -6,28 +6,30 @@ section: Home
 ---
 
 
-<!-- <img class='inset right' src='/1.jpg' title='Piyush Ahuja' width='130px' />   
- -->
 
 
 **Currently**
 
-I am on a career break and spending time on the following projects:
+I am on a career break. Ancient greeks used to believe that an unexamined life is not worth living. I have found, through experience, that a life lived constantly examining it is not worth living as well. I am using my time off to *live* philosophy in a sensory, embodied way, one that moves away from the cold metal bars of the life of the mind to the vivid and velvety texture of lived experience.
 
 
 
-* Meeting Without Masks: a conscious dating event in Cambridge
-* Platonia: a social network based on skills 
-* [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast
-* Salt To Taste: a series of essays on finding yourself
+<img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
+
+
+
+* Salt To Taste: a series of essays on authenticity
 * [A Writing Course](https://piyushahuja.com/courses/writing/intro)
 * [A Newcomer's Guide to Cambridge](/cambridge)
+* [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast 
+* Meeting Without Masks: conscious dating in Cambridge
+* Platonia: a social network based on skills 
 
-I find a lot of value in mentoring. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please don't hesitate to write to me.
+  
+----
 
-I am based in Cambridge and often travel to London and Oxford. 
+I am based in Cambridge and frequently travel to London and Oxford. 
 
----
 
 <!-- **Also**
 
@@ -39,7 +41,11 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 <figure>
     <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height= "400" /> 
-    <figcaption></figcaption> 
+
+    
+
+
+ <figcaption></figcaption> 
 </figure>
 </center>
 
@@ -54,7 +60,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 Between 2019 - 2023, I was senior software developer at Wellcome Sanger Institute.
 
-[The work experience page](/work) has an account of my work history.
+[The work experience page](/work) lists my work history.
 
 ---
 
@@ -64,8 +70,7 @@ I read for a second BA in Philosophy, Politics and Economics at the University o
 
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
 
-[The research page](/research) has a summary of the research I'd done in university.
-
+[The research page](/research) has a summary of my research during university.
 
 ----
 
@@ -97,6 +102,11 @@ I used to be a [competitive quizzer](https://www.youtube.com/watch?v=-5pdjrdj0uA
  -->
 
 ----
+
+**Contact**
+
+I find a lot of value in mentoring. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please don't hesitate to write to me.
+
 
 {% include email-subscribe.html %}
 
