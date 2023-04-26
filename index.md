@@ -12,7 +12,7 @@ section: Home
 
 I am on a career break. 
 
-Ancient Greeks used to believe that an unexamined life is not worth living. Maybe a life lived constantly examining it is not worth living as well? I am using my time off to *live* philosophy in an embodied way, one that moves away from the cold metal bars of the life of the mind to the vivid and velvety feel of lived experience. 
+Ancient Greeks used to believe that an unexamined life is not worth living. Maybe a life lived constantly examining it is not worth living as well? I am using my time off to *live* in an embodied way, moving away from the cold metal bars of the life of the mind to the vivid and velvety feel of lived experience. 
 
 I am also working on bringing the following projects to life
 
@@ -20,14 +20,12 @@ I am also working on bringing the following projects to life
 <img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
 
 
-
-* Salt To Taste: a series of essays on authenticity
-* [A Writing Course](https://piyushahuja.com/courses/writing/intro)
-* [A Newcomer's Guide to Cambridge](/cambridge)
-* [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast 
 * Meeting Without Masks: conscious dating in Cambridge
 * Platonia: a social network based on skills 
-
+* Salt To Taste: a series of essays on authenticity
+* [A Writing Course](https://piyushahuja.com/courses/writing/intro)
+* [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast 
+* [A Newcomer's Guide to Cambridge](/cambridge)
   
 ----
 
