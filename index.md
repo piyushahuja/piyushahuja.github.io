@@ -108,7 +108,7 @@ I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared 
 
 **Contact**
 
-I find a lot of value in mentoring. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please don't hesitate to write to me.
+I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please don't hesitate to write to me.
 
 
 {% include email-subscribe.html %}
