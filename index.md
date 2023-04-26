@@ -12,8 +12,9 @@ section: Home
 
 I am on a career break. 
 
-Ancient Greeks used to believe that an unexamined life is not worth living. I have found, through experience, that neither a life lived constantly examining it is not worth living as well: one can only do one or the other. So I am using my time off to *live* philosophy in an embodied way, one that moves away from the cold metal bars of the life of the mind to the vivid and velvety texture of lived experience.
+Ancient Greeks used to believe that an unexamined life is not worth living. My time in academia and the pandemic made me realize that a life lived constantly examining it is not worth living as well. I am using my time off to *live* philosophy in an embodied way, one that moves away from the cold metal bars of the life of the mind to the vivid and velvety feel of lived experience. 
 
+I am also working on the following projects
 
 
 <img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
