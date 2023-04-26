@@ -10,7 +10,9 @@ section: Home
 
 **Currently**
 
-I am on a career break. Ancient greeks used to believe that an unexamined life is not worth living. I have found, through experience, that a life lived constantly examining it is not worth living as well. I am using my time off to *live* philosophy in a sensory, embodied way, one that moves away from the cold metal bars of the life of the mind to the vivid and velvety texture of lived experience.
+I am on a career break. 
+
+Ancient Greeks used to believe that an unexamined life is not worth living. I have found, through experience, that neither a life lived constantly examining it is not worth living as well: one can only do one or the other. So I am using my time off to *live* philosophy in an embodied way, one that moves away from the cold metal bars of the life of the mind to the vivid and velvety texture of lived experience.
 
 
 
@@ -58,7 +60,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 **Previous Work**
 
-Between 2019 - 2023, I was senior software developer at Wellcome Sanger Institute.
+Between 2019 - 2023, I was a senior software developer at Wellcome Sanger Institute.
 
 [The work experience page](/work) lists my work history.
 
@@ -79,7 +81,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 In my free time, I like to draw portraits and try new recipes.
 
-I used to be a [competitive quizzer](https://www.youtube.com/watch?v=-5pdjrdj0uA).
+I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows]((https://www.youtube.com/watch?v=-5pdjrdj0uA)) in my college days. 
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
 
