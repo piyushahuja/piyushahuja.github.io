@@ -10,9 +10,7 @@ section: Home
 
 **Currently**
 
-I am on a career break. I am using my time off to live in an embodied way. What does that mean? I am slowly dismantling the cold metal bars of the life of the mind that I lived until now and starting to experience the vivid and velvety feel of lived experience. 
-
-Currently working on following projects 
+I am on a career break. I am using my time off to work on the following projects 
 
 
 
