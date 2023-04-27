@@ -10,10 +10,9 @@ section: Home
 
 **Currently**
 
-I am on a career break. I am using my time off to work on the following projects 
+I am on a career break. I am using my time off to live in an embodied way, slowly dismantling the cold metal bars of the life of the mind to experience the vivid and velvety feel of lived experience. 
 
-
-
+Currently working on following projects 
 
 
 <img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
