@@ -21,8 +21,8 @@ Currently working on following projects
 * Meeting Without Masks: conscious dating in Cambridge
 * Platonia: a social network based on skills 
 * Salt To Taste: a series of essays on authenticity
-* [A Writing Course](https://piyushahuja.com/courses/writing/intro)
-* [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast 
+<!-- * [A Writing Course](https://piyushahuja.com/courses/writing/intro) -->
+<!-- * [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast  -->
   
 ----
 
