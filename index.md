@@ -24,12 +24,12 @@ I am on a career break and currently working on following projects
 * Salt To Taste: a series of essays on authenticity
 * [A Writing Course](https://piyushahuja.com/courses/writing/intro)
 * [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast 
-* [A Newcomer's Guide to Cambridge](/cambridge)
   
 ----
 
-I am based in Cambridge and frequently travel to London and Oxford. 
+I am based in Cambridge. [A Newcomer's Guide to Cambridge](/cambridge)
 
+I also frequently travel to London and Oxford.
 
 <!-- **Also**
 

@@ -17,9 +17,9 @@ Hills Road and the area next to train station is likely to have more modern hous
 
 If distance from city centre and the university is not important to you, Cherry Hinton area has some good housing at affordable prices and good nature.  It has the best Indian Supermarket in town and attracts the desi community. 
 
-The more north of the river Cam one goes, a lot less nicer is gets. Chesterton area is not bad, but Arbury looks run-down and feels quite far from city centre, even though it isnt
+The more north of the river Cam one goes, a lot less nicer is gets. Chesterton area is not bad, but Arbury looks run-down and feels quite far from city centre, even though it isnt.
 
-If you are not looking for lively restaurants or affordable housing or being close to the city centre, but looking for something clean, posh, quiet and green, look at western part of Cambridge.
+If you are not looking for lively restaurants or affordable housing or being close to the city centre, but looking for something clean, posh, quiet and green, look at western part of Cambridge, such as Newnham.
 
 
 
@@ -67,33 +67,21 @@ Highest concentration of Nobel Laureaes in the world (Grantchester)
 
 ----
 
-
-
-
 **Who are some famous people associated with Cambridge?**
 
 * Newton's Tree
-
 * Charles Darwin's House
-
-* John Maynard Keyne's House
-
-* Witgenstein's Grave
-
-* Ramanujan: [113 Chesterton Road](https://www.facebook.com/david.tong.3720/posts/pfbid02Y3xZExrFaqNZcAscTF5v2SEq9WaY4SGQHG7Y8Y8DyEB1ub1aYHGtsqe9TgggCSJMl)
-
-* Byron's Pool (Further upstream is Byron's Pool, named after Lord Byron, who is said (by Brooke, at least) to have swum there)
-
-* Watson and Crick (The Eagle, Portugal Street)
-
+* John Maynard Keynes' House
+* Witgenstein's Grave 
+* Ramanujan's House: [113 Chesterton Road](https://www.facebook.com/david.tong.3720/posts/pfbid02Y3xZExrFaqNZcAscTF5v2SEq9WaY4SGQHG7Y8Y8DyEB1ub1aYHGtsqe9TgggCSJMl)
+* Byron's Pool where Lord Byron is said to have swum
+* Watson and Crick (The Eagle Pub, House at Portugal Street)
 * Stephen Hawking (Cambridge, 1969)
-
-
-*  Literature: Zadie Smith, Stephen Fry, Hugh Laurie (Member of Hawks Club, Portuga Fl Street), Mitchell and Webb, Wenger’s daughter at Fitzwilliam
-  
-* Music: Pink Floyd (Roger Waters, Syd Barett, David Gilmour). Perse School, then Hills Road Sixth Form College
-
-- Movies: Tilda Swinton, Olivia Williams
+* Arsene Wenger’s daughter studies at Fitzwilliam
+* Pink Floyd (Roger Waters, Syd Barett, David Gilmour). They met at Perse School and Hills Road Sixth Form College
+* Rajiv Gandhi met Sonia Gandhi at Varsity Hotel
+* Famous graduates in Literature : Zadie Smith, Stephen Fry, Hugh Laurie (Member of Hawks Club, Portuga Street), Mitchell and Webb 
+* Famous graduates working in Movies: Tilda Swinton, Olivia Williams
 
 ----
 
@@ -212,8 +200,8 @@ https://www.facebook.com/groups/camsocial/posts/4147560558628341/)
 
 * Live Music: Try The Portland Arms. Check what gigs are coming up. The Blue Moon is also OK for nightlife, as is Q Club on certain nights. The night scene can seem fairly limited in Cambridge. A cafe/bar called CB2 also has some good live events in the basement downstairs.
 
-* ADC Theatre
-  - There is a cheap, but always VERY good, theatre run by students, with two venues: the ADC theatre and the Corpus Playroom. During Christmas they do smaller (outsourced) productions: I have never been at one of those so I'm not sure about their quality. The theatre and its companies are also renowned for their prominent history and alumni.
+* ADC Theatre. There is a cheap, but always VERY good, theatre run by students, with two venues: the ADC theatre and the Corpus Playroom. During Christmas they do smaller (outsourced) productions: I have never been at one of those so I'm not sure about their quality. The theatre and its companies are also renowned for their prominent history and alumni
+  
 ---
 
 **Art**
@@ -225,8 +213,7 @@ https://www.facebook.com/groups/camsocial/posts/4147560558628341/)
 Murray Edwards College has permanent collection of modern and contemporary art by alumni. [Check it out](https://womensart.murrayedwards.cam.ac.uk/)
 
 
-Kettle’s Yard 
-* For a sprinkle of culture, head along to Kettle’s Yard, a gorgeous Cambridge house filled with a collection of 20th-century art, which also has its own contemporary gallery. There are exhibitions on display for much of the year and events including study days, art workshops and music recitals. It's a "house museum" (free but you should book your slot in advance). It was owned by an art lover and expert who collected proper masterpieces and put them in his place. It's different from any other art museum you can visit (at least, that I visited!) and it leaves you in awe! The collector and first modern art curator of the Tate Gallery, Jim Ede lived at this property on Castle Street in the 20th century. Kettle’s Yard is made up of four separate cottages joined together, and every afternoon Ede and his wife Helen would open their house to visitors to give a tour of his collection. The home and all its art were donated to the University of Cambridge in the 60s and the layout, books, home furnishings and laidback atmosphere are all holdovers from when the Edes were here. The collection is a who’s who of the British avant-garde in the first decades of the 20th century and has works by Henry Moore, Barbara Hepworth and David Jones, but also Joan Miró, Helen Frankenthaler and Henri Gaudier-Brzeska.
+Kettle’s Yard. For a sprinkle of culture, head along to Kettle’s Yard, a gorgeous Cambridge house filled with a collection of 20th-century art, which also has its own contemporary gallery. There are exhibitions on display for much of the year and events including study days, art workshops and music recitals. It's a "house museum" (free but you should book your slot in advance). It was owned by an art lover and expert who collected proper masterpieces and put them in his place. It's different from any other art museum you can visit (at least, that I visited!) and it leaves you in awe! The collector and first modern art curator of the Tate Gallery, Jim Ede lived at this property on Castle Street in the 20th century. Kettle’s Yard is made up of four separate cottages joined together, and every afternoon Ede and his wife Helen would open their house to visitors to give a tour of his collection. The home and all its art were donated to the University of Cambridge in the 60s and the layout, books, home furnishings and laidback atmosphere are all holdovers from when the Edes were here. The collection is a who’s who of the British avant-garde in the first decades of the 20th century and has works by Henry Moore, Barbara Hepworth and David Jones, but also Joan Miró, Helen Frankenthaler and Henri Gaudier-Brzeska.
 
 
 ----
