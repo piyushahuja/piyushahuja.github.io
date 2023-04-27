@@ -1,6 +1,6 @@
 ---
 layout: page-home
-title:  Cambridge
+title:  Guide to Cambridge
 permalink: /cambridge
 section: Home
 ---
