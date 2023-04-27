@@ -10,7 +10,7 @@ section: Home
 
 **Currently**
 
-I am on a career break. I am using my time off to practice living in an embodied way, slowly dismantling the cold metal bars of the life of the mind to experience fully the vivid and velvety feel of lived experience. 
+I am on a career break. I am using my time off to live in an embodied way, slowly dismantling the cold metal bars of the life of the mind to experience fully the vivid and velvety feel of lived experience. 
 
 Currently working on following projects 
 
