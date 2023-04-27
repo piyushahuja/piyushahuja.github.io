@@ -10,19 +10,22 @@ section: Home
 
 **Currently**
 
-I am on a career break. I am using my time off to live in an embodied way, slowly dismantling the cold metal bars of the life of the mind to experience the vivid and velvety feel of lived experience. 
+<img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='290px'  />   
 
-Currently working on following projects 
+I am on a career break. I am using my time off to live in an embodied way, slowly dismantling the cold metal bars of the life of the mind to experience the vivid and velvety feel of lived experience.
+
+Currently working on the following projects 
 
 
-<img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
 
 
 * Meeting Without Masks: conscious dating in Cambridge
 * Platonia: a social network based on skills 
 * Salt To Taste: a series of essays on authenticity
-<!-- * [A Writing Course](https://piyushahuja.com/courses/writing/intro) -->
-<!-- * [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4): a philosophy podcast  -->
+  
+
+<!-- * [A Writing Course](https://piyushahuja.com/courses/writing/intro)
+
   
 ----
 
@@ -77,6 +80,9 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 
 In my free time, I like to draw portraits and try new recipes.
+
+I make a casual philosphy podcast with a friend. It's called [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4)
+
 
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 
