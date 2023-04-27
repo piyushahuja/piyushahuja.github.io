@@ -14,7 +14,7 @@ section: Home
 
 
 
-I am on a career break. I am using my time off to live in an embodied way, slowly dismantling the cold metal bars of the life of the mind to experience the vivid and velvety feel of lived experience.
+I am on a career break. 
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
@@ -44,6 +44,9 @@ Currently involved with the following projects
 
 I would love to run a meditation group and [a writing workshop](/courses/writing/intro) in Cambridge. I'm looking for volunteer participants: if this interests you, please reach out!
  -->
+
+----
+
 
 I am based in Cambridge. [This guide](/cambridge) is for those new to the city.
 
@@ -89,7 +92,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 In my free time, I like to draw portraits and try new recipes.
 
-I am involved in a casual conversation podcast. It's called [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4)
+I am involved in a casual conversation podcast. It's called [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4). In my opinion, it's not very good (yet!)
 
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 
