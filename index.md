@@ -10,11 +10,10 @@ section: Home
 
 **Currently**
 
-I am on a career break. 
+I am on a career break and currently working with on following projects 
 
-Ancient Greeks used to believe that an unexamined life is not worth living. Maybe a life lived constantly examining it is not worth living as well? I am using my time off to *live* in an embodied way, moving away from the cold metal bars of the life of the mind to the vivid and velvety feel of lived experience. 
+<!-- Ancient Greeks used to believe that an unexamined life is not worth living. Maybe a life lived constantly examining it is not worth living as well? I am using my time off to *live* in an embodied way, moving away from the cold metal bars of the life of the mind to the vivid and velvety feel of lived experience.  -->
 
-I am currently involved with the following projects
 
 
 <img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
