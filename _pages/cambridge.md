@@ -9,17 +9,17 @@ section: Home
 
 **Which area is the best for renting?**
 
-There are various things to consider: how important is the city centre to you? Are you looking for something close to colleges or would you rather stay away from the student crowd? Are you looking for liveliness and crowds or somewhere quiet and close to nature? Are you wanting cheaper rent or wanting spacious housing with good facilies?
+There are various questions to consider: how important is the city centre to you? Are you looking for something close to colleges or would you rather stay away from the student crowd? Do you prefer city liveliness or nature-quiet? Cheaper rent or plush furnishings?
 
-Mill Road ranks high in distance to city centre, liveliness, cost-effectiveness and hipness, but low in being clean, quiet or close to nature. It has South Asian supermarkets, African restaurants. At the top of Mill Road, is a great sports centre (Kelsey Kerridge) with a swimming pool (Parkside Pools. The downside is that most houses in that area are old and the rooms are likely not that great.
+Mill Road ranks high in distance to city centre, liveliness, cost-effectiveness and hipness. It has South Asian supermarkets, African restaurants and a worldly atmoshphere. At the top of Mill Road is a great sports centre with a swimming pool. But rooms are likely to be a bit shoddy, the roads are not pristine, and its one of the less green areas of town.
 
-Hills Road and the area next to train station is likely to have more modern housing. It is also more lively and expensive. It has plenty of modern and varied restaurants and continues straight onto the city centre.
+Hills Road and the area next to train station is likely to have more modern housing. It is lively but expensive. Continying straight onto the city centre, it has plenty of modern shops, cafes and restaurants.
 
-If distance from city centre and the university is not important to you, Cherry Hinton area has some good housing at affordable prices and good nature.  It has the best Indian Supermarket in town and attracts the desi community. 
+Cherry Hinton area has some good housing at affordable prices near wider roads and green expanses. It is a bit further away from city centre: one can live there without ever getting in touch with the university.  It has the best Indian Supermarket in town and attracts the desi community. 
 
 The more north of the river Cam one goes, a lot less nicer is gets. Chesterton area is not bad, but Arbury looks run-down and feels quite far from city centre, even though it isnt.
 
-If you are not looking for lively restaurants or affordable housing or being close to the city centre, but looking for something clean, posh, quiet and green, look at western part of Cambridge, such as Newnham.
+If you are not looking for lively restaurants or affordable housing, but looking for surrounds that clean, posh, quiet and green close to the university, look at western part of Cambridge, such as Newnham.
 
 
 
@@ -41,10 +41,11 @@ All these areas offer unrestricted parking spots for free of cost and the distan
 
 **What are some good viewing spots?**
 
-* Castle Hill Mound. Just an odd path at the back of a car park, but really great views over the city. 
-* Similarly, the view point at the top of line kiln bank gives fantastic views from the other side of town 
 * Climbing the tower at Great St Mary
 * Varsity Hotel Bar
+* Castle Hill Mound. Just an odd path at the back of a car park, but really great views over the city. 
+* The view point at the top of line kiln bank gives fantastic views from the other side of town 
+
 
 
 
@@ -53,57 +54,65 @@ All these areas offer unrestricted parking spots for free of cost and the distan
 
 **What are some famous stories and traditions associated with the city?**
 
-[Wittgenstein and Russel](https://www.facebook.com/russellbertie/posts/pfbid0SA4ZBvEqw4n9z3c42C3TcXAHnd5TrtjdYKRpKsNHfHymoqk66EAJU383tdSawZGfl)
 
-[Nightclimbing](https://www.varsity.co.uk/features/24648?fbclid=IwAR2yy5ukhiCm5hsv3SLVesqsGhj6kgqskBDRf-xTBwdBF3WA45HD30lvLqM) has been a Cambridge tradition since the 1930s. [Trinity-St. Johns Rivalry](https://www.facebook.com/acambridgediary/posts/pfbid02tseEu7dmJKWZSV4U8MthqixquyjsGTuHvYEtK4pnqLp3eA8FaLyr7GqZB9KgubVxl)
+**Rules of Football at Parker's Piece.** "the birthplace of association football"
 
+> Here on Parker's Piece, in the 1800s, students established a common set of simple football rules emphasising skill above force, which forbade catching the ball and 'hacking'. These 'Cambridge Rules' became the defining influence on the 1863 Football Association rules
 
-Rules of Football (Parker's Piece). Another beautifully kempt lawn space, the 25-acre common Parker’s Piece is known as the birthplace of association football as it was there where the Cambridge Rules were first put into use in 1848. It also played host to fancy cricket matches between 1917 and 1864. A pleasant place for a walk or your own mini cricket match (top tip: dogs make excellent fielders)
+Grantchester, said to have the highest concentration of Nobel Laureaes in the world.
 
-Highest concentration of Nobel Laureaes in the world (Grantchester)
+[Nightclimbing](https://www.varsity.co.uk/features/24648?fbclid=IwAR2yy5ukhiCm5hsv3SLVesqsGhj6kgqskBDRf-xTBwdBF3WA45HD30lvLqM) has been a Cambridge tradition since the 1930s. [An amusing prank](https://www.facebook.com/acambridgediary/posts/pfbid02tseEu7dmJKWZSV4U8MthqixquyjsGTuHvYEtK4pnqLp3eA8FaLyr7GqZB9KgubVxl): the pink feather duster under the arm and St John's college scarf on Henry VIII at Trinity main gate. 
 
-[Cardboad Race](https://www.facebook.com/groups/odd.things.around.cambridge/permalink/10160576542669887/)
+[The Cardboad Race in June](https://www.facebook.com/groups/odd.things.around.cambridge/permalink/10160576542669887/)
 
 
 ----
 
 **Who are some famous people associated with Cambridge?**
 
-* Newton's Tree
+* Pink Floyd (Roger Waters, Syd Barett, David Gilmour). They met at Perse School and Hills Road Sixth Form College
+* Rajiv Gandhi met Sonia Gandhi at Varsity Hotel
+* [The relationship between Wittgenstein and Bertrant Russell](https://www.facebook.com/russellbertie/posts/pfbid0SA4ZBvEqw4n9z3c42C3TcXAHnd5TrtjdYKRpKsNHfHymoqk66EAJU383tdSawZGfl)
+* Witgenstein's Grave 
+* Newton's Tree at Trinity
 * Charles Darwin's House
 * John Maynard Keynes' House
-* Witgenstein's Grave 
 * Ramanujan's House: [113 Chesterton Road](https://www.facebook.com/david.tong.3720/posts/pfbid02Y3xZExrFaqNZcAscTF5v2SEq9WaY4SGQHG7Y8Y8DyEB1ub1aYHGtsqe9TgggCSJMl)
 * Byron's Pool where Lord Byron is said to have swum
 * Watson and Crick (The Eagle Pub, House at Portugal Street)
 * Stephen Hawking (Cambridge, 1969)
-* Arsene Wenger’s daughter studies at Fitzwilliam
-* Pink Floyd (Roger Waters, Syd Barett, David Gilmour). They met at Perse School and Hills Road Sixth Form College
-* Rajiv Gandhi met Sonia Gandhi at Varsity Hotel
 * Famous graduates in Literature : Zadie Smith, Stephen Fry, Hugh Laurie (Member of Hawks Club, Portuga Street), Mitchell and Webb 
 * Famous graduates working in Movies: Tilda Swinton, Olivia Williams
+* Arsene Wenger’s daughter studies at Fitzwilliam
 
 ----
 
 **I am coming for a day trip from London. Help me plan my trip**
   
+Do a loop through as many or as few colleges as you like starting from Magdalene College, along The Backs over the Silver Street bridge, through Pembroke and up to Emma or Downing. 
 
 
-* **Do: Take the Backs Walk** For a beautiful walk incorporating the university buildings and their impeccably manicured lawns, the River Cam and its various bridges, take a stroll along The Backs. With grazing cattle to be spotted all along this picturesque stretch of reclaimed land, this is a cracking angle from which to admire those colleges that touch the water’s edge. If the colleges are closed you can walk over the river at **Garret Hostel Bridge**, then down 'the Backs' to see the backs of the colleges and up to Queens college where you can see **the mathematical bridge**.[^bridge] There is a good amount of the city you can walk around seeing the colleges without having to enter a college. 
+**The Backs**
+
+*University buildings and their impeccably manicured lawns, the river Cam and its various bridges. Grazing cattle to be spotted all along this stretch of reclaimed land. Provides cracking angle from which to admire those colleges that touch the water’s edge, Stunning, especially in the magic hour*
+  
+Cross over the river at **Garret Hostel Bridge**, then down 'the Backs' to see the backs of the colleges and up to Queens college where you can see **The Mathematical Bridge**.[^bridge] 
 
 [^bridge]:This pretty wooden footbridge is another gorgeous spot to breathe in a little of Cambridge’s chilled-out charm. This Grade II listed building, designed by William Etheridge and built by James Essex in 1749, takes its name from the arrangement of its timbers at certain tangents to create its arching shape. There is a myth that Sir Isaac Newton built the bridge without the help of any nuts or bolts, which, though untrue, makes a cheeky anecdote to share with your travel buddy as you stroll across.
 
-You can do a nice loop through as many or as few colleges as you like from Magdalene, along the backs (which are stunning, especially in the magic hour), over the Silver Street bridge, through Pembroke and up to Emma/Downing. 
 
-Also, no tourist ever really makes it out that way, but Newnham is really close to the centre and is absolutely beautiful to walk around (if you can ignore the building work, aha). 
+Newnham is absolutely beautiful to walk around.
 
-If it's not dark, you can also head out over Jesus Green to the river and watch some rowing/see the colourful boathouses, before looping back into town over Midsummer Common.
+Sitting on the wall outside **The Mill** with a pint in a plastic glass is one of life's best things.
 
-Sitting on the wall outside **the Mill** with a pint in a plastic glass is one of life's best things.
+Start at the Hobson's Conduit's head (on Trumpington Rd at the end of Lensfield Road) and walk to the Round Church, you see: Conduit, Fitzwilliam, Fitzbillies, Peterhouse, Corpus Clock[^chronophage], The Eagle, Kings college chapel, Senate house, St. Johns, Round Church[^round]
 
-Start at the conduit head and walk to **the round church**[^round], you see most of the touristy stuff in one go: Conduit, Fitzwilliam, Fitzbillies, Peterhouse, Chronophage, Eagle, Kings, Kings college chapel, Senate house, Johns, Round church
-Hobson's Conduit (the head is on Trumpington Rd at the end of Lensfield Road)
-**Don't miss: Bridge of Sighs, University Library, Newton's Tree**
+[^chronophage]:With a face made entirely of gold, a metal grasshopper called the Chronophage or ‘time-eater’ sitting above it and an undulating ripple design, which suggests the expansion of the universe after the Big Bang
+
+
+Head out over Jesus Green to the river and watch some rowing/see the colourful boathouses, before looping back into town over Midsummer Common.
+
+**Not to miss: Bridge of Sighs, University Library, Newton's Tree**
 
 
 
@@ -118,29 +127,35 @@ Emmanuel college is really chill about people wandering in to look round, and ha
 
 
 
+**Punting**
+
+This activity was introduced to Cambridge at the start of the 20th century and entails propelling a shallow-bottomed boat with a square bow (a punt) using a wooden pole tipped with a metal “foot”. By the colleges the Cam’s riverbed is shallow and gravelly, and it won’t take long to get the hang of the activity, so long as you can avoid the many other punters taking part in summer.
+
+Students and tourists often travel from Cambridge by punt to picnic in the meadows or take tea at The Orchard. The footpath to Cambridge that runs beside Grantchester Meadows is nicknamed the Grantchester Grind. Bring a bottle of wine or some hot chocolate, absolutely the best way to see the beautiful college backs.
 
 
-* **Do: Punting**
-  - Students and tourists often travel from Cambridge by punt to picnic in the meadows or take tea at The Orchard.The footpath to Cambridge that runs beside Grantchester Meadowsis nicknamed the Grantchester Grind. bring a bottle of wine or some hot chocolate, absolutely the best way to see the beautiful college backs.
-  - This activity was introduced to Cambridge at the start of the 20th century and entails propelling a shallow-bottomed boat with a square bow (a punt) using a wooden pole tipped with a metal “foot”. By the colleges the Cam’s riverbed is shallow and gravelly, and it won’t take long to get the hang of the activity, so long as you can avoid the many other punters taking part in summer.
-  - If you’d prefer some solitude you can go a mile or two upriver, past the weir to the village of Grantchester. The backdrop here is more rural, and you can reward yourself with a pub lunch before floating back towards Cambridge.
-  - Houghton Boats, SUP Cambridge for hiring SUPs, punts, canoes, kayaks
+If you’d prefer some solitude you can go a mile or two upriver, past the weir to the village of Grantchester. The backdrop here is more rural, and you can reward yourself with a pub lunch before floating back towards Cambridge.
+
+Houghton Boats, SUP Cambridge for hiring SUPs, punts, canoes, kayaks
+
+---
 
 * Consider: Kings College Evensong. Widely believed to be one of England’s finest examples of Perpendicular Gothic architecture, along with the beautiful St George’s Chapel in Windsor, King’s College Cambridge is a breathtaking place to be. With the largest fan-vaulted ceiling in the world and some dazzling examples of medieval stained glass, you’ll find yourself gazing heaven-wards to drink in its daunting beauty. Story: Cambridge Prank
-* Consider: Picnic on River Cam riverbanks, cross King’s College Bridge
-* Consider: Drinks on the roof top at The Varsity - the views are fantastic (and the cocktails are pretty good too).
-* Consider: A visit to the Botanical Garden
-* Consider: Ice skating on Parker’s Piece (in winters)
+  
+*  Picnic on River Cam riverbanks, cross King’s College Bridge
+* Drinks on the roof top at The Varsity - the views are fantastic
+* A visit to the Botanical Garden
+* Ice skating on Parker’s Piece (in winters)
 
 ---
 **I have seen it all. What else can I see?**
 
 
-DNA Bike Path
-Grounds of Cherry Hinton Hall
-Cherry Hinton Brook
-Mill Road Cemetery
-Logan's Meadow
+* DNA Bike Path
+* Grounds of Cherry Hinton Hall
+* Cherry Hinton Brook
+* Mill Road Cemetery
+* Logan's Meadow
 
 Wild Swimming: I discovered Houghton Mill in the summer as a good wild swimming spot
 Another similar spot I discovered recently is St Helen's Picnic Site in Thetford Forest, if you're ever out that way. Although no boating. Lovely water (although a bit shallower than HM) and greats walks. There's a beautiful tiny church there too
@@ -183,11 +198,9 @@ What are you into?
 
 * Crepe Affaire is amazing, not quite pancakes but so so good. It's near the historical Round Church. Perfect spot for brunch.
 
-* Fitzbillies
-  - Definitely the highest calorie thing to do in Cambridge is to drop into the gorgeous Fitzbillies on Trumpington Street and feast on one of their famous Chelsea Buns. These sticky-sweet snacks have been on sale here since 1921 and make for an ideal riverside energy boost when your punting enthusiasm begins to wane. There’s now a second branch of Fitzbillies on Bridge Street serving coffees, cakes and tasty bacon rolls.
+* Fitzbillies. Definitely the highest calorie thing to do in Cambridge is to drop into the gorgeous Fitzbillies on Trumpington Street and feast on one of their famous Chelsea Buns. These sticky-sweet snacks have been on sale here since 1921 and make for an ideal riverside energy boost when your punting enthusiasm begins to wane. There’s now a second branch of Fitzbillies on Bridge Street serving coffees, cakes and tasty bacon rolls.
 
-* Cambridgeshire Wine School
-  - If fine wines are your thing, head along to Cambridgeshire Wine School for a lively evening of wine tasting. Not only will you sample delightful wines from Europe and even further afield, you’re bound to make some fabulous new friends, too. Choose evenings dedicated to Italian tipples, South American or Portuguese recipes. There’s even a cheese and wine event if you’re a fan of fancy fromage.
+* Cambridgeshire Wine School. If fine wines are your thing, head along to Cambridgeshire Wine School for a lively evening of wine tasting. Not only will you sample delightful wines from Europe and even further afield, you’re bound to make some fabulous new friends, too. Choose evenings dedicated to Italian tipples, South American or Portuguese recipes. There’s even a cheese and wine event if you’re a fan of fancy fromage.
 
 * Hot numbers on Gwydir Street off Mill Road and watch jazz
 
@@ -220,14 +233,13 @@ Kettle’s Yard. For a sprinkle of culture, head along to Kettle’s Yard, a gor
 
 **Museums**
 
-Fitzwilliam Museum. The brilliantly diverse collection includes arms, coins, Cypriot, Greek and Egyptian art by Degas, Reubens and Gainsborough among countless others. Many consider it the finest small museum in all of Europe
+There are several museums that are free to enter. The museum of Natural Sciences, the museum of Zoology, the Museum of Archaeology and Anthropology. They are all located in Downing Street and each one takes just one hour to visit. I particularly like the Zoology one, that has also a nice cafeteria.
+
+Fitzwilliam Museum. The brilliantly diverse collection includes arms, coins, Cypriot, Greek and Egyptian art by Degas, Reubens and Gainsborough among countless others. Many consider it the finest small museum in all of Europe
 
 Sedgwick Museum of Earth Sciences
 
-
-The collections at the Museum of Archaeology and Anthropology cover nearly two million years of human history and come from all six of the world’s inhabited continents.
-
-The museum goes back to 1884 and moved into purpose-built premises in 1913, refurbished and reopened in 2013 on its centenary.
+The collections at the Museum of Archaeology and Anthropology cover nearly two million years of human history and come from all six of the world’s inhabited continents. The museum goes back to 1884 and moved into purpose-built premises in 1913, refurbished and reopened in 2013 on its centenary.
 
 Some of the most captivating things to see are the ethnographic pieces picked up by the explorer Captain James Cook during his three expeditions in the 18th century.
 
@@ -235,8 +247,9 @@ There are also Roman and Anglo-Saxon artefacts unearthed in digs around Cambridg
 
 One exhibit that literally stands out is the towering 19th-century Haida totem pole from Tanu in British Columbia.
 
-If this list has already got you thinking Cambridge rocks, let us dig a little deeper and recommend you a geology museum that’s pure gold. (Thanks. We know.) The oldest of Cambridge University’s museums, it was founded in 1728 and is now home to around two million minerals, fossil and rocks.
-Corpus Clock. With a face made entirely of gold, a metal grasshopper called the Chronophage or ‘time-eater’ sitting above it and an undulating ripple design, which suggests the expansion of the universe after the Big Bang
+If this list has already got you thinking Cambridge rocks, let us dig a little deeper and recommend you a geology museum that’s pure gold. The oldest of Cambridge University’s museums, it was founded in 1728 and is now home to around two million minerals, fossil and rocks.
+
+
 
 
 The Scott Polar Research Institute (SPRI) was founded in 1920 as a memorial to Captain Robert Falcon Scott and his team, who died in 1912 in Antarctica on the return trek from the South Pole.
@@ -261,10 +274,6 @@ Beyond all this you can enter Duxford’s preserved Operations Room, check out t
 
 
 Imperial War Museum As well as an enormous airfield, this museum also boasts a collection of 200 vintage aircraft (including Concorde and the Spitfire) which have been carefully restored to their hey-day glory and are displayed proudly from floor to ceiling at what is the largest aviation museum in Europe.
-
- There are several museums that are free to enter. The museum of Natural Sciences, the museum of Zoology, the Museum of Archaeology and Anthropology. They are all located in Downing Street and each one takes just one hour to visit. I particularly like the Zoology one, that has also a nice cafeteria.
-
-
 
 
 
