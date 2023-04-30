@@ -10,11 +10,12 @@ section: Home
 
 **Currently**
 
-<img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='290px'  />   
 
 
 
 I am on a career break. 
+
+<img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
@@ -24,7 +25,7 @@ Currently involved with the following projects
 
 
 
-* Meeting Without Masks: conscious dating in Cambridge
+<!-- * Meeting Without Masks: conscious dating in Cambridge -->
 * Platonia: a social network based on skills 
 * Salt To Taste: a series of essays on authenticity
   
@@ -92,7 +93,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 In my free time, I like to draw portraits and try new recipes.
 
-I am involved in a casual conversational podcast: [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4). 
+I also have a casual conversational podcast: [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4). 
 
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 
