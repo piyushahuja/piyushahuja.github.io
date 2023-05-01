@@ -138,8 +138,6 @@ Look at for [Dinky Doors](https://www.dinkydoors.co.uk/tour). These are 14 minia
 
 **Punting**
 
-This activity was introduced to Cambridge at the start of the 20th century and entails propelling a shallow-bottomed boat with a square bow (a punt) using a wooden pole tipped with a metal “foot”. By the colleges the Cam’s riverbed is shallow and gravelly, and it won’t take long to get the hang of the activity, so long as you can avoid the many other punters taking part in summer.
-
 
 If you’d prefer some solitude you can go a mile or two upriver, past the weir to the village of Grantchester. The backdrop here is more rural, and you can reward yourself with a pub lunch before floating back towards Cambridge. Students and tourists often travel from Cambridge by punt to picnic in Grantchester Meadows or take tea at The Orchard. The footpath to Cambridge that runs beside Grantchester Meadows is nicknamed the Grantchester Grind. Bring a bottle of wine or some hot chocolate (in winters), absolutely the best way to see the beautiful college backs.
 
@@ -156,8 +154,8 @@ If you’d prefer some solitude you can go a mile or two upriver, past the weir 
 * Cherry Hinton Brook
 * Mill Road Cemetery
 * Logan's Meadow
-* Visit Ely This one isn’t technically in Cambridge, but it makes for a brilliant day trip during your stay. Dating back to 1083, it is built in the monumental Romanesque style and its central octagonal tower attracts some 250,000 visitors every year. Take a moment to gaze up at the church’s captivating ceilings and dazzling stained glass.
-* A closer destination is Grantchester, where you can get following the river from Grantchester Meadows.
+* Ely This one isn’t technically in Cambridge, but it makes for a brilliant day trip. Dating back to 1083, it is built in the monumental Romanesque style. Take a moment to gaze up at the church’s captivating ceilings and dazzling stained glass.
+* Grantchester
 * [Anglesey Abbey](https://www.nationaltrust.org.uk/anglesey-abbey-gardens-and-lode-mill)
 * Wild Swimming: Houghton Mill in the summer is a good wild swimming spot
 Another similar spot I discovered recently is St Helen's Picnic Site in Thetford Forest, if you're ever out that way. Although no boating. Lovely water (although a bit shallower than HM) and greats walks. There's a beautiful tiny church there too.
