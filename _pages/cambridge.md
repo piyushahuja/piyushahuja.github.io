@@ -156,7 +156,9 @@ If you’d prefer some solitude you can go a mile or two upriver, past the weir 
 * Cherry Hinton Brook
 * Mill Road Cemetery
 * Logan's Meadow
-
+* Visit Ely This one isn’t technically in Cambridge, but it makes for a brilliant day trip during your stay. Dating back to 1083, it is built in the monumental Romanesque style and its central octagonal tower attracts some 250,000 visitors every year. Take a moment to gaze up at the church’s captivating ceilings and dazzling stained glass.
+* A closer destination is Grantchester, where you can get following the river from Grantchester Meadows.
+* [Anglesey Abbey](https://www.nationaltrust.org.uk/anglesey-abbey-gardens-and-lode-mill)
 
 
 **What are some water based activities?**
@@ -288,16 +290,11 @@ Beyond all this you can enter Duxford’s preserved Operations Room, check out t
 
 **I’m looking for places to go in a day, leaving from Cambridge and let’s say up to 15 kms away. Ideally some sort of park or point of view as the destination, and heading outside the city. We’ll be taking the kids on our cargo bike, so roads with bike paths are preferred. As an example I’ve taken the kids to campus by bike before and the mix of small roads/bike paths was ok.**
 
-* Visit Ely This one isn’t technically in Cambridge, but it makes for a brilliant day trip during your stay. Dating back to 1083, it is built in the monumental Romanesque style and its central octagonal tower attracts some 250,000 visitors every year. Take a moment to gaze up at the church’s captivating ceilings and dazzling stained glass.
 
-* A closer destination is Grantchester, where you can get following the river from Grantchester Meadows.
-
-* [Anglesey Abbey](https://www.nationaltrust.org.uk/anglesey-abbey-gardens-and-lode-mill)
 
 * [Ickworth](https://www.nationaltrust.org.uk/ickworth) is nice for kids to visit but is national trust so you will have to book on Friday when they release tickets (if you are a member) 
 
 * Also you can cycle around [fulbourn nature reserve](https://getoutside.ordnancesurvey.co.uk/local/fulbourn-fen-south-cambridgeshire) and local villages are quite nice
-
 
 * [Fen Drayton Lakes](https://www.rspb.org.uk/reserves-and-events/reserves-a-z/fen-drayton-lakes/) area is pretty nice. Easy riding along the busway to get there and nice little walks around lakes and things once you are in the area. lots of bird life so bring binoculars! 
 
@@ -334,16 +331,15 @@ Beyond all this you can enter Duxford’s preserved Operations Room, check out t
 
 * Cambridge to St. Ives via the https://www.thebusway.info/, and couple of miles further (if you have energy) there’s https://www.nationaltrust.org.uk/houghton-mill-and-waterclose-meadows - a nice mill you can visit and a very nice river kids can splash in. St. Ives is 12 miles from North Cambridge via the guided busway - it may be a bit further than you’d want to cycle.
 
-* The Roman Road from Fulbourn to Horseheath is a great walking and cycling path, though it’s borderline with a cargo bike and young kids. Entry point on google maps is marked [here](https://www.google.com/maps/search/roman+road+near+Fulbourn,+Cambridge/@52.1599457,0.1919989,15.46z)
-There’s also [nice information on](https://frrfd.org.uk/), though they make it sound and look like it’s only walkable.
+* The Roman Road from Fulbourn to Horseheath is a great walking and cycling path, though it’s borderline with a cargo bike and young kids. Entry point on google maps is marked [here](https://www.google.com/maps/search/roman+road+near+Fulbourn,+Cambridge/@52.1599457,0.1919989,15.46z). There’s also [nice information on](https://frrfd.org.uk/), though they make it sound and look like it’s only walkable.
 
 
-* One website/app I can thoroughly recommend is Komoot - it’s basically a collection of good running/cycling/hiking routes. I did the 6th route on [this page](https://www.komoot.com/guide/670893/road-cycling-routes-around-cambridge), “Lovely view loop from Cambridge”, and it was a great ride. It’s good as you know the routes are tried and tested by cyclists, so it won’t kick you onto a highway as Google Maps sometimes does!
-
-Useful links: 
+Useful links for cyclists: 
 * https://www.cyclestreets.net 
 * https://www.alltrails.com/england
-* https://slowways.uk/ they have a UK-wide map for walking and cycling routes.
+* https://slowways.uk/ 
+* Komoot: a collection of good running/cycling/hiking routes. I did the 6th route on [this page](https://www.komoot.com/guide/670893/road-cycling-routes-around-cambridge), “Lovely view loop from Cambridge”, and it was a great ride. It’s good as you know the routes are tried and tested by cyclists, so it won’t kick you onto a highway as Google Maps sometimes does!
+
 
 ---
 
