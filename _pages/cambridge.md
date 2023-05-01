@@ -130,11 +130,11 @@ The classic is a walk around some of the colleges' courts. In some colleges you 
 
 Most of the big colleges (Clare, trinity, johns, kings, Jesus etc) have a couple of evensongs during the week. Just need to find one that’s on the night you’re around. They’re free for anyone to attend. Even if you’re not religious, they’re pretty amazing to go to once.
 
-Emmanuel college is really chill about people wandering in to look round, and has loos that are closer to the bus station than the Grand Arcade. Might be nice to go to an evensong in one of the chapels. 
+Emmanuel college is really chill about people wandering in to look round, and has loos that are closer to the bus station than the Grand Arcade. 
 
 * Evensong at Kings College. One of England’s finest examples of Perpendicular Gothic architecture. With the largest fan-vaulted ceiling in the world and some dazzling examples of medieval stained glass, you’ll find yourself gazing heaven-wards to drink in its daunting beauty. 
 
-Look at for [Dinky Doors](https://www.dinkydoors.co.uk/tour). These are 14 miniature sculptures (with doors), hidden just out of plain sight, delivering a doze of unexpected wonder as you wander. They are spread out, but look out from the one at 10 Downing Street if you do not plan to spend the whole day on them.
+Look at for [Dinky Doors](https://www.dinkydoors.co.uk/tour). These are 14 miniature sculptures hidden just out of plain sight, delivering a doze of unexpected wonder as you wander. Not all of them are in the city centre, but look out for the one at 10 Downing Street.
 
 **Punting**
 
