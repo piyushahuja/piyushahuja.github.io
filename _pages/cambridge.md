@@ -147,7 +147,7 @@ If you’d prefer some solitude you can go a mile or two upriver, past the weir 
 
 ----
 
-**I have seen it all. What else can I see?**
+**I have seen it all. What else can I do?**
 
 
 * A walk in the Botanical Garden
@@ -159,11 +159,7 @@ If you’d prefer some solitude you can go a mile or two upriver, past the weir 
 * Visit Ely This one isn’t technically in Cambridge, but it makes for a brilliant day trip during your stay. Dating back to 1083, it is built in the monumental Romanesque style and its central octagonal tower attracts some 250,000 visitors every year. Take a moment to gaze up at the church’s captivating ceilings and dazzling stained glass.
 * A closer destination is Grantchester, where you can get following the river from Grantchester Meadows.
 * [Anglesey Abbey](https://www.nationaltrust.org.uk/anglesey-abbey-gardens-and-lode-mill)
-
-
-**What are some water based activities?**
-  
-Wild Swimming: Houghton Mill in the summer is a good wild swimming spot
+* Wild Swimming: Houghton Mill in the summer is a good wild swimming spot
 Another similar spot I discovered recently is St Helen's Picnic Site in Thetford Forest, if you're ever out that way. Although no boating. Lovely water (although a bit shallower than HM) and greats walks. There's a beautiful tiny church there too.
 
 ---
