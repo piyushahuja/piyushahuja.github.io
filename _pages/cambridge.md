@@ -11,7 +11,7 @@ section: Home
 
 There are various questions to consider: how important is the city centre to you? Are you looking for something close to colleges or would you rather stay away from the student crowd? Do you prefer city liveliness or nature-quiet? Cheaper rent or plush furnishings?
 
-Mill Road ranks high in distance to city centre, liveliness, cost-effectiveness and hipness. It has South Asian supermarkets, African restaurants and a worldly atmoshphere. At the top of Mill Road is a great sports centre with a swimming pool. But rooms are likely to be a bit shoddy, the roads are not pristine, and its one of the less green areas of town.
+Mill Road ranks high in distance to city centre, liveliness, cost-effectiveness and hipness. It has South Asian supermarkets, African restaurants and a worldly atmosphere. At the top of Mill Road is a great sports centre with a swimming pool. But rooms are likely to be a bit shoddy, the roads are not pristine, and its one of the less green areas of town.
 
 Hills Road and the area next to train station is likely to have more modern housing. It is lively but expensive. Continying straight onto the city centre, it has plenty of modern shops, cafes and restaurants.
 
@@ -361,22 +361,4 @@ Useful links:
 
 
 ---
-
-**What are some employers and companies in Cambridge apart from the university?**
-
-- AstraZeneca
-- Addenbrookes Hospital
-- Arm
-- Amazon
-- Microsoft
-- Wellcome Sanger
-- Babraham Institute
-- Institute of Molecular Biology
-- Abcam 
-- Quantum Computing
-- Cambridge Healthcare Research 
-- Cambridge Econometrica
-
-
-----
 
