@@ -55,13 +55,13 @@ All these areas offer unrestricted parking spots for free of cost and the distan
 **What are some famous stories and traditions associated with the city?**
 
 
-**Rules of Football at Parker's Piece.** "the birthplace of association football"
+Parker's Piece can be said to be "the birthplace of association football"
 
 > Here on Parker's Piece, in the 1800s, students established a common set of simple football rules emphasising skill above force, which forbade catching the ball and 'hacking'. These 'Cambridge Rules' became the defining influence on the 1863 Football Association rules
 
-Grantchester, said to have the highest concentration of Nobel Laureaes in the world.
+Grantchester is said to have the highest concentration of Nobel Laureaes in the world.
 
-[Nightclimbing](https://www.varsity.co.uk/features/24648?fbclid=IwAR2yy5ukhiCm5hsv3SLVesqsGhj6kgqskBDRf-xTBwdBF3WA45HD30lvLqM) has been a Cambridge tradition since the 1930s. [An amusing prank](https://www.facebook.com/acambridgediary/posts/pfbid02tseEu7dmJKWZSV4U8MthqixquyjsGTuHvYEtK4pnqLp3eA8FaLyr7GqZB9KgubVxl): the pink feather duster under the arm and St John's college scarf on Henry VIII at Trinity main gate. 
+[Nightclimbing](https://www.varsity.co.uk/features/24648?fbclid=IwAR2yy5ukhiCm5hsv3SLVesqsGhj6kgqskBDRf-xTBwdBF3WA45HD30lvLqM) has been a Cambridge tradition since the 1930s. [In this taunting prank](https://www.facebook.com/acambridgediary/posts/pfbid02tseEu7dmJKWZSV4U8MthqixquyjsGTuHvYEtK4pnqLp3eA8FaLyr7GqZB9KgubVxl), night climbers from St. John's College placed a the pink feather duster under the arm on Henry VIII at the Trinity College main gate. 
 
 [The Cardboad Race in June](https://www.facebook.com/groups/odd.things.around.cambridge/permalink/10160576542669887/)
 
@@ -70,19 +70,20 @@ Grantchester, said to have the highest concentration of Nobel Laureaes in the wo
 
 **Who are some famous people associated with Cambridge?**
 
-* Pink Floyd (Roger Waters, Syd Barett, David Gilmour). They met at Perse School and Hills Road Sixth Form College
-* Rajiv Gandhi met Sonia Gandhi at Varsity Hotel
-* [The relationship between Wittgenstein and Bertrant Russell](https://www.facebook.com/russellbertie/posts/pfbid0SA4ZBvEqw4n9z3c42C3TcXAHnd5TrtjdYKRpKsNHfHymoqk66EAJU383tdSawZGfl)
-* Witgenstein's Grave 
-* Newton's Tree at Trinity
-* Charles Darwin's House
-* John Maynard Keynes' House
-* Ramanujan's House: [113 Chesterton Road](https://www.facebook.com/david.tong.3720/posts/pfbid02Y3xZExrFaqNZcAscTF5v2SEq9WaY4SGQHG7Y8Y8DyEB1ub1aYHGtsqe9TgggCSJMl)
+* Newton (Theory of Gravitation and Calculus) studied at Trinity and a descendent of his apple tree is planted in front of his room
+* Charles Darwin (Theory of Evolution). his house is next to Judge Business School
+* Watson and Crick DNA Discovery (The Eagle Pub, House at Portugal Street)  
 * Byron's Pool where Lord Byron is said to have swum
-* Watson and Crick (The Eagle Pub, House at Portugal Street)
 * Stephen Hawking (Cambridge, 1969)
-* Famous graduates in Literature : Zadie Smith, Stephen Fry, Hugh Laurie (Member of Hawks Club, Portuga Street), Mitchell and Webb 
-* Famous graduates working in Movies: Tilda Swinton, Olivia Williams
+* John Maynard Keynes' House (close to Hughes Hall) 
+* Srivinas Ramanujan's at [113 Chesterton Road](https://www.facebook.com/david.tong.3720/posts/pfbid02Y3xZExrFaqNZcAscTF5v2SEq9WaY4SGQHG7Y8Y8DyEB1ub1aYHGtsqe9TgggCSJMl)
+* Pink Floyd. My landlord went to a school (Hills Road Sixth Form College) where the members of Pink Floyd met
+* Rajiv Gandhi met Sonia Gandhi at Varsity Hotel where she was part time waitressing.
+* [The relationship between Wittgenstein and Bertrant Russell](https://www.facebook.com/russellbertie/posts/pfbid0SA4ZBvEqw4n9z3c42C3TcXAHnd5TrtjdYKRpKsNHfHymoqk66EAJU383tdSawZGfl).  Witgenstein's Grave is at Ascension Parish Burial Ground next to members of the Darwin Family (and my landlord's)
+
+**Other Gossip**
+
+* Many big names in literature and media studied at Cambridge: Zadie Smith, Stephen Fry, Hugh Laurie (Member of Hawks Club, Portuga Street), Mitchell and Webb, Tilda Swinton and Olivia Williams
 * Arsene Wenger’s daughter studies at Fitzwilliam
 
 ----
@@ -92,40 +93,47 @@ Grantchester, said to have the highest concentration of Nobel Laureaes in the wo
 Do a loop through as many or as few colleges as you like starting from Magdalene College, along The Backs over the Silver Street bridge, through Pembroke and up to Emma or Downing. 
 
 
-**The Backs**
+**The Backs Walk**
 
 *University buildings and their impeccably manicured lawns, the river Cam and its various bridges. Grazing cattle to be spotted all along this stretch of reclaimed land. Provides cracking angle from which to admire those colleges that touch the water’s edge, Stunning, especially in the magic hour*
   
-Cross over the river at **Garret Hostel Bridge**, then down 'the Backs' to see the backs of the colleges and up to Queens college where you can see **The Mathematical Bridge**.[^bridge] 
+
+
+
+Starting from Fitzwilliam Museum and the nearby Fitzbillies (restaurant famous among university students for Chelsea Buns), one can walk a loop that runs through major points of attraction. Turn left to Silver Street, up to Queens college where you can see **The Mathematical Bridge**.[^bridge] 
 
 [^bridge]:This pretty wooden footbridge is another gorgeous spot to breathe in a little of Cambridge’s chilled-out charm. This Grade II listed building, designed by William Etheridge and built by James Essex in 1749, takes its name from the arrangement of its timbers at certain tangents to create its arching shape. There is a myth that Sir Isaac Newton built the bridge without the help of any nuts or bolts, which, though untrue, makes a cheeky anecdote to share with your travel buddy as you stroll across.
 
 
-Newnham is absolutely beautiful to walk around.
+Go towards Newnham College (lovely college with intriguing artwork at the entrance), University Library (UL), and then to the Backs ("backs of colleges"). 
 
-Sitting on the wall outside **The Mill** with a pint in a plastic glass is one of life's best things.
 
-Start at the Hobson's Conduit's head (on Trumpington Rd at the end of Lensfield Road) and walk to the Round Church, you see: Conduit, Fitzwilliam, Fitzbillies, Peterhouse, Corpus Clock[^chronophage], The Eagle, Kings college chapel, Senate house, St. Johns, Round Church[^round]
+Cross over the river at **Garret Hostel Bridge** Corpus Clock[^chronophage], The Eagle, Kings college chapel, Senate house, Newton's Tree, St. Johns, Round Church[^round].
+
 
 [^chronophage]:With a face made entirely of gold, a metal grasshopper called the Chronophage or ‘time-eater’ sitting above it and an undulating ripple design, which suggests the expansion of the universe after the Big Bang
 
 
+Picnic on River Cam riverbanks, cross King’s College Bridge. Sitting on the wall outside **The Mill** with a pint in a plastic glass is one of life's best things.
+
+
 Head out over Jesus Green to the river and watch some rowing/see the colourful boathouses, before looping back into town over Midsummer Common.
 
-**Not to miss: Bridge of Sighs, University Library, Newton's Tree**
+Six restaurant is high up in Varsity hotel so you get a great view over the rooftops 
 
 
 
 [^round]: Officially known as the Church of the Holy Sepulchre, the Round Church is a Grade I listed building dating back to 1130. Its beautiful rotunda structure is formed of stone. The church’s upper storey, built above the nave, has a glorious conical spire on top, making this a pretty unique space to explore.
 
 
-* **Do: Watch out for the Dinky Doors**
-* Six restaurant is high up in Varsity hotel so you get a great view over the rooftops 
+ **Visit Colleges**. 
 
-* **Do: Visit Colleges**. The classic is a walk around some of the colleges' courts. In some colleges you pay for the entrance (King's, St. Johns, Trinity) but don't be fooled: the other colleges are free and as nice! Jesus, Christ (these are two separate ones :D ), Peterhouse, Pembroke, etc. Usually they only give access to two or three internal courts and to the chapel. These are usually nice sights, but if you read something about their history before going, you might complement the sight with some interesting anecdotes. Depending on when she's visiting, check which colleges are open to visitors - the Fellows garden at Clare is beautiful. Most of the big colleges (Clare, trinity, johns, kings, Jesus etc) have a couple of evensongs during the week. Just need to find one that’s on the night you’re around. They’re free for anyone to attend. Even if you’re not religious, they’re pretty amazing to go to once.
+The classic is a walk around some of the colleges' courts. In some colleges you pay for the entrance (King's, St. Johns, Trinity) but don't be fooled: the other colleges are free and as nice! Jesus, Christ (these are two separate ones :D ), Peterhouse, Pembroke, etc. Usually they only give access to two or three internal courts and to the chapel. These are usually nice sights, but if you read something about their history before going, you might complement the sight with some interesting anecdotes. Depending on when she's visiting, check which colleges are open to visitors - the Fellows garden at Clare is beautiful. Most of the big colleges (Clare, trinity, johns, kings, Jesus etc) have a couple of evensongs during the week. Just need to find one that’s on the night you’re around. They’re free for anyone to attend. Even if you’re not religious, they’re pretty amazing to go to once.
 Emmanuel college is really chill about people wandering in to look round, and has loos that are closer to the bus station than the Grand Arcade. Might be nice to go to an evensong in one of the chapels. http://www.clare.cam.ac.uk/Chapel-and-Choir/
 
+* Evensong at Kings College. One of England’s finest examples of Perpendicular Gothic architecture. With the largest fan-vaulted ceiling in the world and some dazzling examples of medieval stained glass, you’ll find yourself gazing heaven-wards to drink in its daunting beauty. 
 
+Look at for Dinky Doors, especially one at 10 Downing Street
 
 **Punting**
 
@@ -136,33 +144,29 @@ Students and tourists often travel from Cambridge by punt to picnic in the meado
 
 If you’d prefer some solitude you can go a mile or two upriver, past the weir to the village of Grantchester. The backdrop here is more rural, and you can reward yourself with a pub lunch before floating back towards Cambridge.
 
-Houghton Boats, SUP Cambridge for hiring SUPs, punts, canoes, kayaks
 
----
+----
 
-* Consider: Kings College Evensong. Widely believed to be one of England’s finest examples of Perpendicular Gothic architecture, along with the beautiful St George’s Chapel in Windsor, King’s College Cambridge is a breathtaking place to be. With the largest fan-vaulted ceiling in the world and some dazzling examples of medieval stained glass, you’ll find yourself gazing heaven-wards to drink in its daunting beauty. Story: Cambridge Prank
-  
-*  Picnic on River Cam riverbanks, cross King’s College Bridge
-* Drinks on the roof top at The Varsity - the views are fantastic
-* A visit to the Botanical Garden
-* Ice skating on Parker’s Piece (in winters)
-
----
 **I have seen it all. What else can I see?**
 
 
+* A walk in the Botanical Garden
 * DNA Bike Path
 * Grounds of Cherry Hinton Hall
 * Cherry Hinton Brook
 * Mill Road Cemetery
 * Logan's Meadow
 
-Wild Swimming: I discovered Houghton Mill in the summer as a good wild swimming spot
-Another similar spot I discovered recently is St Helen's Picnic Site in Thetford Forest, if you're ever out that way. Although no boating. Lovely water (although a bit shallower than HM) and greats walks. There's a beautiful tiny church there too
+
+
+**What are some water based activities?**
+  
+Wild Swimming: Houghton Mill in the summer is a good wild swimming spot
+Another similar spot I discovered recently is St Helen's Picnic Site in Thetford Forest, if you're ever out that way. Although no boating. Lovely water (although a bit shallower than HM) and greats walks. There's a beautiful tiny church there too.
 
 ---
 
-**I live here, and I would like to find community**
+**I live here, and I would like to finding community**
 
 The best way to find community is join a group of hobbyists.
 
@@ -176,7 +180,7 @@ What are you into?
 
 **Dancing**
 
-* Cambsdance
+* Cambsdance 
 * Contact Improv
 * Tango
 * Salsa
@@ -185,61 +189,67 @@ What are you into?
 
 **Shops and Cafes**
 
-* Waterstones Cafe
-* Pho Vietnamese
+
+* Fitzbillies. Definitely the highest calorie thing to do in Cambridge is to drop into the gorgeous Fitzbillies on Trumpington Street and feast on one of their famous Chelsea Buns. These sticky-sweet snacks have been on sale here since 1921 and make for an ideal riverside energy boost when your punting enthusiasm begins to wane. There’s now a second branch of Fitzbillies on Bridge Street serving coffees, cakes and tasty bacon rolls.
+* Waterstones Book Cafe
+* For spicy food, visit Pho Vietnamese (Vietnamese)
 * Parker's Tavern
 
 
 * Harry Potter: A small one would be to visit the (semi)-secret Harry Potter shop in the tourist information center. It’s pretty cool if you’re into the wizarding world
+  
+
+----
+
+**Food, Pubs and Alcohol-Fuelled Fun**
 
 * The Granta on the fen is a really lovely pub to watch the sun set
-
 * Fort St George by the river is a nice spot to watch the rowers go up and down if you're so inclined. Both do good food.
-
-* Crepe Affaire is amazing, not quite pancakes but so so good. It's near the historical Round Church. Perfect spot for brunch.
-
-* Fitzbillies. Definitely the highest calorie thing to do in Cambridge is to drop into the gorgeous Fitzbillies on Trumpington Street and feast on one of their famous Chelsea Buns. These sticky-sweet snacks have been on sale here since 1921 and make for an ideal riverside energy boost when your punting enthusiasm begins to wane. There’s now a second branch of Fitzbillies on Bridge Street serving coffees, cakes and tasty bacon rolls.
-
-* Cambridgeshire Wine School. If fine wines are your thing, head along to Cambridgeshire Wine School for a lively evening of wine tasting. Not only will you sample delightful wines from Europe and even further afield, you’re bound to make some fabulous new friends, too. Choose evenings dedicated to Italian tipples, South American or Portuguese recipes. There’s even a cheese and wine event if you’re a fan of fancy fromage.
-
-* Hot numbers on Gwydir Street off Mill Road and watch jazz
-
-* Best place for beer selection is down the same street as Hot Numbers. Its a pub called the Cambridge Blue and I highly recommend it for its vast selection.
-
+* Cambridgeshire Wine School. Not only will you sample delightful wines from Europe and even further afield, you’re bound to make some fabulous new friends, too. Choose evenings dedicated to Italian tipples, South American or Portuguese recipes. There’s even a cheese and wine event if you’re a fan of fancy fromage.
+* Beer: Cambridge Blue best place for beer selection.
 * [Cocktail Bar and Music](
-https://www.facebook.com/groups/camsocial/posts/4147560558628341/)
+https://www.facebook.com/groups/camsocial/posts/4147560558628341/)  
 
-* Standup Comedy: The Tram Depot
 
-* Live Music: Try The Portland Arms. Check what gigs are coming up. The Blue Moon is also OK for nightlife, as is Q Club on certain nights. The night scene can seem fairly limited in Cambridge. A cafe/bar called CB2 also has some good live events in the basement downstairs.
-
-* ADC Theatre. There is a cheap, but always VERY good, theatre run by students, with two venues: the ADC theatre and the Corpus Playroom. During Christmas they do smaller (outsourced) productions: I have never been at one of those so I'm not sure about their quality. The theatre and its companies are also renowned for their prominent history and alumni
-  
 ---
 
-**Art**
+**Live Events**
 
-[Art](https://www.varsity.co.uk/arts/25300?fbclid=IwAR23Yhbgdgn7uX5KloOihClVs5-UfkmPsF_7Yw8qO_mo-5esVZj9QRlpTRQ)
+
+* For Standup Comedy: The Tram Depot
+* Live Music: Try The Portland Arms. Check what gigs are coming up. The Blue Moon is also OK for nightlife, as is Q Club on certain nights. The night scene can seem fairly limited in Cambridge. A cafe/bar called CB2 also has some good live events in the basement downstairs.
+* ADC Theatre. There is a cheap, but always VERY good, theatre run by students, with two venues: the ADC theatre and the Corpus Playroom. During Christmas they do smaller (outsourced) productions: I have never been at one of those so I'm not sure about their quality. The theatre and its companies are also renowned for their prominent history and alumni
+  
+
+---
+
+**Visual Art**
+
+Kettle’s Yard. For a sprinkle of culture, head along to Kettle’s Yard, a gorgeous Cambridge house filled with a collection of 20th-century art, which also has its own contemporary gallery. There are exhibitions on display for much of the year and events including study days, art workshops and music recitals. It's a "house museum" (free but you should book your slot in advance). It was owned by an art lover and expert who collected proper masterpieces and put them in his place. It's different from any other art museum you can visit (at least, that I visited!) and it leaves you in awe! The collector and first modern art curator of the Tate Gallery, Jim Ede lived at this property on Castle Street in the 20th century. Kettle’s Yard is made up of four separate cottages joined together, and every afternoon Ede and his wife Helen would open their house to visitors to give a tour of his collection. The home and all its art were donated to the University of Cambridge in the 60s and the layout, books, home furnishings and laidback atmosphere are all holdovers from when the Edes were here. The collection is a who’s who of the British avant-garde in the first decades of the 20th century and has works by Henry Moore, Barbara Hepworth and David Jones, but also Joan Miró, Helen Frankenthaler and Henri Gaudier-Brzeska.
+
 
 [Downing College's Heong Galley](https://www.dow.cam.ac.uk/cultural-life/heong-gallery) 
 
 Murray Edwards College has permanent collection of modern and contemporary art by alumni. [Check it out](https://womensart.murrayedwards.cam.ac.uk/)
 
 
-Kettle’s Yard. For a sprinkle of culture, head along to Kettle’s Yard, a gorgeous Cambridge house filled with a collection of 20th-century art, which also has its own contemporary gallery. There are exhibitions on display for much of the year and events including study days, art workshops and music recitals. It's a "house museum" (free but you should book your slot in advance). It was owned by an art lover and expert who collected proper masterpieces and put them in his place. It's different from any other art museum you can visit (at least, that I visited!) and it leaves you in awe! The collector and first modern art curator of the Tate Gallery, Jim Ede lived at this property on Castle Street in the 20th century. Kettle’s Yard is made up of four separate cottages joined together, and every afternoon Ede and his wife Helen would open their house to visitors to give a tour of his collection. The home and all its art were donated to the University of Cambridge in the 60s and the layout, books, home furnishings and laidback atmosphere are all holdovers from when the Edes were here. The collection is a who’s who of the British avant-garde in the first decades of the 20th century and has works by Henry Moore, Barbara Hepworth and David Jones, but also Joan Miró, Helen Frankenthaler and Henri Gaudier-Brzeska.
+[More Art](https://www.varsity.co.uk/arts/25300?fbclid=IwAR23Yhbgdgn7uX5KloOihClVs5-UfkmPsF_7Yw8qO_mo-5esVZj9QRlpTRQ)
+
 
 
 ----
 
 **Museums**
 
-There are several museums that are free to enter. The museum of Natural Sciences, the museum of Zoology, the Museum of Archaeology and Anthropology. They are all located in Downing Street and each one takes just one hour to visit. I particularly like the Zoology one, that has also a nice cafeteria.
 
-Fitzwilliam Museum. The brilliantly diverse collection includes arms, coins, Cypriot, Greek and Egyptian art by Degas, Reubens and Gainsborough among countless others. Many consider it the finest small museum in all of Europe
+**Fitzwilliam Museum.** The brilliantly diverse collection includes arms, coins, Cypriot, Greek and Egyptian art by Degas, Reubens and Gainsborough among countless others. Many consider it the finest small museum in all of Europe
 
-Sedgwick Museum of Earth Sciences
+The museum of Natural Sciences, the museum of Zoology, the Museum of Archaeology and Anthropology. They are all located in Downing Street and each one takes just one hour to visit. I particularly like the Zoology one, that has also a nice cafeteria.
 
-The collections at the Museum of Archaeology and Anthropology cover nearly two million years of human history and come from all six of the world’s inhabited continents. The museum goes back to 1884 and moved into purpose-built premises in 1913, refurbished and reopened in 2013 on its centenary.
+
+**Sedgwick Museum of Earth Sciences**
+
+The collections at the **Museum of Archaeology and Anthropology** cover nearly two million years of human history and come from all six of the world’s inhabited continents. The museum goes back to 1884 and moved into purpose-built premises in 1913, refurbished and reopened in 2013 on its centenary.
 
 Some of the most captivating things to see are the ethnographic pieces picked up by the explorer Captain James Cook during his three expeditions in the 18th century.
 
@@ -247,24 +257,18 @@ There are also Roman and Anglo-Saxon artefacts unearthed in digs around Cambridg
 
 One exhibit that literally stands out is the towering 19th-century Haida totem pole from Tanu in British Columbia.
 
-If this list has already got you thinking Cambridge rocks, let us dig a little deeper and recommend you a geology museum that’s pure gold. The oldest of Cambridge University’s museums, it was founded in 1728 and is now home to around two million minerals, fossil and rocks.
+If this list has already got you thinking Cambridge rocks, let us dig a little deeper and recommend you a **Geology museum** that’s pure gold. The oldest of Cambridge University’s museums, it was founded in 1728 and is now home to around two million minerals, fossil and rocks.
 
 
+**The Scott Polar Research Institute (SPRI)** was founded in 1920 as a memorial to Captain Robert Falcon Scott and his team, who died in 1912 in Antarctica on the return trek from the South Pole. The SPRI runs the museum at the institute at the building, recording the feats achieved during the “Heroic Age of Antarctic Exploration”. The museum has photographs, pieces of archive footage, drawings and paintings. You can view arts and crafts by people indigenous to the Arctic, as well as equipment from polar expeditions and the last letters written by Scott during his ill-fated trek
 
-
-The Scott Polar Research Institute (SPRI) was founded in 1920 as a memorial to Captain Robert Falcon Scott and his team, who died in 1912 in Antarctica on the return trek from the South Pole.
-
-The SPRI runs the museum at the institute at the building, recording the feats achieved during the “Heroic Age of Antarctic Exploration”. The museum has photographs, pieces of archive footage, drawings and paintings.
-
-You can view arts and crafts by people indigenous to the Arctic, as well as equipment from polar expeditions and the last letters written by Scott during his ill-fated trek
-
-ree to enter, the Sedgwick Museum of Earth Sciences is Cambridge’s oldest museum and was created when the geologist John Woodward bequeathed his collection of fossils to the university in 1728. Some of Woodward’s fossils can still be viewed in their original 18th-century cabinets.
+**The Sedgwick Museum of Earth Sciences** is Cambridge’s oldest museum and was created when the geologist John Woodward bequeathed his collection of fossils to the university in 1728. Some of Woodward’s fossils can still be viewed in their original 18th-century cabinets.
 
 In all the museum has about two million rock, fossil and mineral specimens.
 
 Standing guard by the entrance to the museum is Iggy the Iguanodon, the plaster replica of a dinosaur skeleton discovered in a mine in 1878, and was donated to the museum by the King of Belgium in 1878. Also fascinating is the set of 2,000 rocks and fossils gathered by Charles Darwin during his expedition on the HMS Beagle, and there are also numerous meteorites, each presented with a thin section showing their optical properties.
 
-The biggest aviation museum in Britain is at a former RAF base 10 miles south of Cambridge.
+The biggest **aviation museum** in Britain is at a former RAF base 10 miles south of Cambridge.
 
 There are five hangars, including the recently extended “Hangar 1”, which houses more than 30 aircraft starting with the First World War.
 
@@ -273,7 +277,7 @@ In Hangar 2 you can see planes that are in working order, and watch restoration 
 Beyond all this you can enter Duxford’s preserved Operations Room, check out the tanks, artillery and armoured cars in the Land Warfare Hall and marvel at the B-52 and Blackbird in the American Air Museum.
 
 
-Imperial War Museum As well as an enormous airfield, this museum also boasts a collection of 200 vintage aircraft (including Concorde and the Spitfire) which have been carefully restored to their hey-day glory and are displayed proudly from floor to ceiling at what is the largest aviation museum in Europe.
+**Imperial War Museum** As well as an enormous airfield, this museum also boasts a collection of 200 vintage aircraft (including Concorde and the Spitfire) which have been carefully restored to their hey-day glory and are displayed proudly from floor to ceiling at what is the largest aviation museum in Europe.
 
 
 
