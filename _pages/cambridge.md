@@ -112,10 +112,10 @@ Cross over the river at Garret Hostel Bridge and watch the Corpus Clock[^chronop
 [^chronophage]:With a face made entirely of gold, a metal grasshopper called the Chronophage or ‘time-eater’ sitting above it and an undulating ripple design, which suggests the expansion of the universe after the Big Bang
 
 
-Picnic on River Cam riverbanks, cross King’s College Bridge. Sitting on the wall outside The Mill with a pint in a plastic glass is one of life's best things.
+Cpnsider a picnic on River Cam riverbanks, cross King’s College Bridge or at Jesus Greem. Sitting on the wall outside The Mill with a pint in a plastic glass is one of life's best things.
 
 
-Head out over Jesus Green to the river and watch some rowing/see the colourful boathouses, before looping back into town over Midsummer Common.
+Head out over Jesus Green (another picnic spot) to the river and watch some rowing/see the colourful boathouses, before looping back into town over Midsummer Common. 
 
 Six restaurant is high up in Varsity hotel so you get a great view over the rooftops 
 
