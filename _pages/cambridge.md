@@ -188,7 +188,7 @@ What are you into?
 **Shops and Cafes**
 
 
-* Fitzbillies. Definitely the highest calorie thing to do in Cambridge is to drop into the gorgeous Fitzbillies on Trumpington Street and feast on one of their famous Chelsea Buns. These sticky-sweet snacks have been on sale here since 1921 and make for an ideal riverside energy boost when your punting enthusiasm begins to wane. There’s now a second branch of Fitzbillies on Bridge Street serving coffees, cakes and tasty bacon rolls.
+* Fitzbillies. Definitely the highest calorie thing to do in Cambridge is to drop into the gorgeous Fitzbillies on Trumpington Street and feast on one of their famous Chelsea Buns. These sticky-sweet snacks have been on sale here since 1921 and make for an ideal riverside energy boost when your punting enthusiasm begins to wane. 
 * Waterstones Book Cafe
 * For spicy food, visit Pho Vietnamese (Vietnamese)
 * Parker's Tavern
