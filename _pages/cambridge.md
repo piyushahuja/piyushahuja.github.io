@@ -83,7 +83,7 @@ Grantchester is said to have the highest concentration of Nobel Laureaes in the 
 
 **Other Gossip**
 
-* Many big names in literature and media studied at Cambridge: Zadie Smith, Stephen Fry, Hugh Laurie (Member of Hawks Club, Portuga Street), Mitchell and Webb, Tilda Swinton and Olivia Williams
+* Many big names in literature and media studied at Cambridge: Zadie Smith, Stephen Fry, Hugh Laurie (Member of Hawks Club, Portugal Street), Mitchell and Webb, Tilda Swinton and Olivia Williams
 * Arsene Wenger’s daughter studies at Fitzwilliam
 
 ----
@@ -98,9 +98,7 @@ Do a loop through as many or as few colleges as you like starting from Magdalene
 *University buildings and their impeccably manicured lawns, the river Cam and its various bridges. Grazing cattle to be spotted all along this stretch of reclaimed land. Provides cracking angle from which to admire those colleges that touch the water’s edge, Stunning, especially in the magic hour*
   
 
-
-
-Starting from Fitzwilliam Museum and the nearby Fitzbillies (restaurant famous among university students for Chelsea Buns), one can walk a loop that runs through major points of attraction. Turn left to Silver Street, up to Queens college where you can see **The Mathematical Bridge**.[^bridge] 
+Starting from Fitzwilliam Museum and the nearby Fitzbillies (restaurant famous among university students for Chelsea Buns), one can walk a loop that runs through major points of attraction. Turn left to Silver Street, up to Queens college where you can see The Mathematical Bridge.[^bridge] 
 
 [^bridge]:This pretty wooden footbridge is another gorgeous spot to breathe in a little of Cambridge’s chilled-out charm. This Grade II listed building, designed by William Etheridge and built by James Essex in 1749, takes its name from the arrangement of its timbers at certain tangents to create its arching shape. There is a myth that Sir Isaac Newton built the bridge without the help of any nuts or bolts, which, though untrue, makes a cheeky anecdote to share with your travel buddy as you stroll across.
 
@@ -108,13 +106,13 @@ Starting from Fitzwilliam Museum and the nearby Fitzbillies (restaurant famous a
 Go towards Newnham College (lovely college with intriguing artwork at the entrance), University Library (UL), and then to the Backs ("backs of colleges"). 
 
 
-Cross over the river at **Garret Hostel Bridge** Corpus Clock[^chronophage], The Eagle, Kings college chapel, Senate house, Newton's Tree, St. Johns, Round Church[^round].
+Cross over the river at Garret Hostel Bridge and watch the Corpus Clock[^chronophage], The Eagle, Kings college chapel, Senate house, Newton's Tree, St. Johns, Round Church[^round].
 
 
 [^chronophage]:With a face made entirely of gold, a metal grasshopper called the Chronophage or ‘time-eater’ sitting above it and an undulating ripple design, which suggests the expansion of the universe after the Big Bang
 
 
-Picnic on River Cam riverbanks, cross King’s College Bridge. Sitting on the wall outside **The Mill** with a pint in a plastic glass is one of life's best things.
+Picnic on River Cam riverbanks, cross King’s College Bridge. Sitting on the wall outside The Mill with a pint in a plastic glass is one of life's best things.
 
 
 Head out over Jesus Green to the river and watch some rowing/see the colourful boathouses, before looping back into town over Midsummer Common.
@@ -126,23 +124,25 @@ Six restaurant is high up in Varsity hotel so you get a great view over the roof
 [^round]: Officially known as the Church of the Holy Sepulchre, the Round Church is a Grade I listed building dating back to 1130. Its beautiful rotunda structure is formed of stone. The church’s upper storey, built above the nave, has a glorious conical spire on top, making this a pretty unique space to explore.
 
 
- **Visit Colleges**. 
+ **Visit a college**
 
-The classic is a walk around some of the colleges' courts. In some colleges you pay for the entrance (King's, St. Johns, Trinity) but don't be fooled: the other colleges are free and as nice! Jesus, Christ (these are two separate ones :D ), Peterhouse, Pembroke, etc. Usually they only give access to two or three internal courts and to the chapel. These are usually nice sights, but if you read something about their history before going, you might complement the sight with some interesting anecdotes. Depending on when she's visiting, check which colleges are open to visitors - the Fellows garden at Clare is beautiful. Most of the big colleges (Clare, trinity, johns, kings, Jesus etc) have a couple of evensongs during the week. Just need to find one that’s on the night you’re around. They’re free for anyone to attend. Even if you’re not religious, they’re pretty amazing to go to once.
-Emmanuel college is really chill about people wandering in to look round, and has loos that are closer to the bus station than the Grand Arcade. Might be nice to go to an evensong in one of the chapels. http://www.clare.cam.ac.uk/Chapel-and-Choir/
+The classic is a walk around some of the colleges' courts. In some colleges you pay for the entrance (King's, St. Johns, Trinity) but don't be fooled: the other colleges are free and as nice! Jesus, Christ (these are two separate ones :D ), Peterhouse, Pembroke, etc. Usually they only give access to two or three internal courts and to the chapel. These are usually nice sights, but if you read something about their history before going, you might complement the sight with some interesting anecdotes. the Fellows garden at Clare is beautiful. 
+
+Most of the big colleges (Clare, trinity, johns, kings, Jesus etc) have a couple of evensongs during the week. Just need to find one that’s on the night you’re around. They’re free for anyone to attend. Even if you’re not religious, they’re pretty amazing to go to once.
+
+Emmanuel college is really chill about people wandering in to look round, and has loos that are closer to the bus station than the Grand Arcade. Might be nice to go to an evensong in one of the chapels. 
 
 * Evensong at Kings College. One of England’s finest examples of Perpendicular Gothic architecture. With the largest fan-vaulted ceiling in the world and some dazzling examples of medieval stained glass, you’ll find yourself gazing heaven-wards to drink in its daunting beauty. 
 
-Look at for Dinky Doors, especially one at 10 Downing Street
+Look at for [Dinky Doors](https://www.dinkydoors.co.uk/tour). These are 14 miniature sculptures (with doors), hidden just out of plain sight, delivering a doze of unexpected wonder as you wander. They are spread out, but look out from the one at 10 Downing Street if you do not plan to spend the whole day on them.
 
 **Punting**
 
 This activity was introduced to Cambridge at the start of the 20th century and entails propelling a shallow-bottomed boat with a square bow (a punt) using a wooden pole tipped with a metal “foot”. By the colleges the Cam’s riverbed is shallow and gravelly, and it won’t take long to get the hang of the activity, so long as you can avoid the many other punters taking part in summer.
 
-Students and tourists often travel from Cambridge by punt to picnic in the meadows or take tea at The Orchard. The footpath to Cambridge that runs beside Grantchester Meadows is nicknamed the Grantchester Grind. Bring a bottle of wine or some hot chocolate, absolutely the best way to see the beautiful college backs.
 
+If you’d prefer some solitude you can go a mile or two upriver, past the weir to the village of Grantchester. The backdrop here is more rural, and you can reward yourself with a pub lunch before floating back towards Cambridge. Students and tourists often travel from Cambridge by punt to picnic in Grantchester Meadows or take tea at The Orchard. The footpath to Cambridge that runs beside Grantchester Meadows is nicknamed the Grantchester Grind. Bring a bottle of wine or some hot chocolate (in winters), absolutely the best way to see the beautiful college backs.
 
-If you’d prefer some solitude you can go a mile or two upriver, past the weir to the village of Grantchester. The backdrop here is more rural, and you can reward yourself with a pub lunch before floating back towards Cambridge.
 
 
 ----
