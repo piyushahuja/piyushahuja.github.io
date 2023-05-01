@@ -76,7 +76,7 @@ Even David Karger, who has had remarkable and ground-breaking accomplishments in
 
 * **Academic life doesn't take place in a vacuum: there's a lot of politics and pettiness from your peers.**
 
->   "When I was post-doc at a well-respected university, the Profs treated me with a combination with disrespect and contempt (when they were not outright ignoring me). I switched to industry; my pay went up 3X-fold, and my talented colleagues praised those problem-solving abilities that I developed over the course of my academic career. My advice to you; f*ck academia! Its a petty pointless prison where you’ll never do anything worthwhile. Switch to industry in order to work and projects that actually have some impact on the world. Only then will you be treated with respect."
+>   "When I was post-doc at a well-respected university, the Profs treated me with a combination with disrespect and contempt (when they were not outright ignoring me). I switched to industry; my pay went up 3X-fold, and my talented colleagues praised those problem-solving abilities that I developed over the course of my academic career. My advice to you; fck academia! Its a petty pointless prison where you’ll never do anything worthwhile. Switch to industry in order to work and projects that actually have some impact on the world. Only then will you be treated with respect."
 
 * **Most of the time is not even spent doing research.**
 
@@ -108,6 +108,14 @@ Even David Karger, who has had remarkable and ground-breaking accomplishments in
 > "I did my PhD in physics, and worked as a SWE right after graduation. Halfway through grad school, I started to feel academia is not my thing, but I cannot quit for all sorts of reasons (at least if thought so at the time). I used Matlab/FORTRAN/python for data analysis in my research work and intentionally looked into CS stuff along the way. I loved it, took a lot of MOOC and managed to eventually get a job in the industry. I loved it in the beginning, spent a lot of personal time doing work and had no complaints. The industry has amazing stride of coming up new technology/ideas, there is always something I can learn which never makes me bored. Most of the people seem generally smart and love their job. Over time I start to realize work is work and there are many factors in the play. I have to find a balance among interesting work, nice colleagues and good pay, but it is not too hard given the amount of opportunities the industry offers. Overall I am happy I made the move. My academia background wasn’t in the CS field, so I am not sure how relevant my experience is. I did often need to look up and read CS papers to help with my job, obviously not the same way as in research. I hated paper reading in grad school but start to enjoy it now, one of the reasons is the interest and motivation are stronger and also the for-fun mindset. Strangely it came to me that maybe things would work out as well had I stayed in academia.
 
 
+* **Your relationships would suffer**
+
+> As someone that got married during their PhD and is now finishing up and reflecting: it isn't worth it. Neglecting the people in your life that love you in the pursuit of "science" is no different than neglecting them because you have a drug habit or because you're an inveterate gambler or because you're chasing fame and fortune. The science will get done regardless and the only thing you accomplish is ensuring your own interests.
+
+> As a PhD, I now believe that pursuing a career in science is an enormously selfish and entitled life choice for anyone who doesn't have a trust fund.
+It's not just neglect during the PhD. Even a non-neglectful academic is asking a lot of their partner. Stipends are low. Post-docs require chasing term-limited positions around the country, often with little to no savings, for up the half a decade. Building wealth is impossible, having a family is just barely possible, and the process takes you well into mid-life depriving your partner of a career and a real relationship. I have seen more divorces during post-docs than during PhDs. Everyone I know who made it through PhDs and post-docs without scars fell into one of two categories: unmarried or wealthy. I think academia's biggest open secret is that a HUGE number of academics -- especially in and around large metros or in nice climates -- are chasing a prestigious and comfortable job because their trust funds allow them to not care about the money and their upbringing makes it difficult for them to deal with having a manager.
+
+
 ----
 
 **References**
@@ -131,6 +139,7 @@ Quotes from the following articles
 - [Why do so many peopel pursue a doctorate?](https://news.ycombinator.com/item?id=11543439)
 - [The experience of IITB -> MIT Chem PhD](https://www.insightiitb.org/graduate-student-to-be-or-not-to-be/)
 - [Why I am leaving Harvard](http://matt-welsh.blogspot.com/2010/11/why-im-leaving-harvard.html)
+- [More reasons in this thread])https://news.ycombinator.com/item?id=35776480
   
 Tweets:
 - [passionate about science, not academia](https://twitter.com/JoanaFFPViana/status/1453989180267274241)
