@@ -55,15 +55,15 @@ All these areas offer unrestricted parking spots for free of cost and the distan
 **What are some famous stories and traditions associated with the city?**
 
 
-Parker's Piece can be said to be "the birthplace of association football"
+Parker's Piece is the birthplace of association football.
 
 > Here on Parker's Piece, in the 1800s, students established a common set of simple football rules emphasising skill above force, which forbade catching the ball and 'hacking'. These 'Cambridge Rules' became the defining influence on the 1863 Football Association rules
 
-Grantchester is said to have the highest concentration of Nobel Laureaes in the world.
+Grantchester has the highest concentration of Nobel Laureaes in the world.
 
 [Nightclimbing](https://www.varsity.co.uk/features/24648?fbclid=IwAR2yy5ukhiCm5hsv3SLVesqsGhj6kgqskBDRf-xTBwdBF3WA45HD30lvLqM) has been a Cambridge tradition since the 1930s. [In this taunting prank](https://www.facebook.com/acambridgediary/posts/pfbid02tseEu7dmJKWZSV4U8MthqixquyjsGTuHvYEtK4pnqLp3eA8FaLyr7GqZB9KgubVxl), night climbers from St. John's College placed a the pink feather duster under the arm on Henry VIII at the Trinity College main gate. 
 
-[The Cardboad Race in June](https://www.facebook.com/groups/odd.things.around.cambridge/permalink/10160576542669887/)
+[The Cambridge Cardboard Boat Race in May Week (that happens in June!)](https://www.youtube.com/watch?v=u7ncM8JTc5g). The competition rules are simple. Build something which hopefully floats out of nothing but cardboard, PVA glue and gaffa tape – the same applies for paddles too (although dinner trays from hall are also allowed here) – any other material is allowed as long as it is merely for looks and not structural. The race is from Jesus Green to Magdalene Beach and each crew that entry must hold three persons. 
 
 
 ----
