@@ -70,16 +70,16 @@ Grantchester is said to have the highest concentration of Nobel Laureaes in the 
 
 **Who are some famous people associated with Cambridge?**
 
-* Newton (Theory of Gravitation and Calculus) studied at Trinity and a descendent of his apple tree is planted in front of his room
-* Charles Darwin (Theory of Evolution). his house is next to Judge Business School
-* Watson and Crick DNA Discovery (The Eagle Pub, House at Portugal Street)  
+* Newton (Theory of Gravitation and Calculus) studied at Trinity and a descendent of the original apple tree is planted in the college courtyard next to the main gate (worth a visit)
+* Charles Darwin (Theory of Evolution) was a prominent figure in Cambridge. A blue plaque commemorating his house can be found on 21 Fitzwilliam St next to Fitzwilliam Museum
+* Watson and Crick announced the structure of DNA Discovery at The Eagle Pub. The house where Crick used to live on Portugal Street is subtly marked with the DNA structure (next to Hawks Club)
 * Byron's Pool where Lord Byron is said to have swum
-* Stephen Hawking (Cambridge, 1969)
+* Stephen Hawking
 * John Maynard Keynes' House (close to Hughes Hall) 
 * Srivinas Ramanujan's at [113 Chesterton Road](https://www.facebook.com/david.tong.3720/posts/pfbid02Y3xZExrFaqNZcAscTF5v2SEq9WaY4SGQHG7Y8Y8DyEB1ub1aYHGtsqe9TgggCSJMl)
 * Pink Floyd. My landlord went to a school (Hills Road Sixth Form College) where the members of Pink Floyd met
 * Rajiv Gandhi met Sonia Gandhi at Varsity Hotel where she was part time waitressing.
-* [The relationship between Wittgenstein and Bertrant Russell](https://www.facebook.com/russellbertie/posts/pfbid0SA4ZBvEqw4n9z3c42C3TcXAHnd5TrtjdYKRpKsNHfHymoqk66EAJU383tdSawZGfl).  Witgenstein's Grave is at Ascension Parish Burial Ground next to members of the Darwin Family (and my landlord's)
+* [The relationship between Wittgenstein and Bertrant Russell](https://www.facebook.com/russellbertie/posts/pfbid0SA4ZBvEqw4n9z3c42C3TcXAHnd5TrtjdYKRpKsNHfHymoqk66EAJU383tdSawZGfl).  Witgenstein's Grave is at Ascension Parish Burial Ground next to members of the Darwin Family (and my ex-landlord's)
 
 **Other Gossip**
 
