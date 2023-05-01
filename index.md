@@ -25,7 +25,7 @@ Currently involved with the following projects
 
 
 
-<!-- * Meeting Without Masks: conscious dating in Cambridge -->
+* Meeting Without Masks
 * Platonia: a social network based on skills 
 * Salt To Taste: a series of essays on authenticity
   
