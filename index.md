@@ -12,17 +12,15 @@ section: Home
 
 
 
-
-I am on a career break. 
-
 <img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
+
+
+I am on a career break.
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
 
-Currently involved with the following projects 
-
-
+These are the projects I spend time on
 
 
 * Meeting Without Masks
@@ -49,7 +47,9 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 ----
 
 
-I am based in Cambridge. [This guide](/cambridge) is for those new to the city.
+I am based in Cambridge. 
+
+Lots of visitors ask me about it, so I created [this evolving document](/cambridge). Please let me know what else would be useful information.
 
 <center>
 
