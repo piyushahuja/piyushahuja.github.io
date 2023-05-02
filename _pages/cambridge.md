@@ -134,7 +134,7 @@ Emmanuel college is really chill about people wandering in to look round, and ha
 
 * Evensong at Kings College. One of England’s finest examples of Perpendicular Gothic architecture. With the largest fan-vaulted ceiling in the world and some dazzling examples of medieval stained glass, you’ll find yourself gazing heaven-wards to drink in its daunting beauty. 
 
-Look at for [Dinky Doors](https://www.dinkydoors.co.uk/tour). These are 14 miniature sculptures hidden just out of plain sight, delivering a doze of unexpected wonder as you wander. Not all of them are in the city centre, but look out for the one at 10 Downing Street.
+Watch out for [Dinky Doors](https://www.dinkydoors.co.uk/tour). These are 14 miniature sculptures hidden just out of plain sight, delivering a doze of unexpected wonder as you wander. Not all of them are in the city centre, but look out for the one at 10 Downing Street.
 
 **Punting**
 
@@ -190,9 +190,7 @@ What are you into?
 * Waterstones Book Cafe
 * For spicy food, visit Pho Vietnamese (Vietnamese)
 * Parker's Tavern
-
-
-* Harry Potter: A small one would be to visit the (semi)-secret Harry Potter shop in the tourist information center. It’s pretty cool if you’re into the wizarding world
+* Harry Potter: If you’re into the wizarding world, visit the (semi)-secret Harry Potter shop in the tourist information center. 
   
 
 ----
