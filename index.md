@@ -90,11 +90,6 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 **Hobbies** 
 
-
-In my free time, I like to draw portraits and try new recipes.
-
-I also have a casual conversational podcast: [Grey Masala](https://open.spotify.com/show/4fwl2XZOBsSZFFQH2Jaec4). 
-
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
