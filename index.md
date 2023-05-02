@@ -49,7 +49,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 I am based in Cambridge. 
 
-[This evolving document](/cambridge) is a guide to the city. Any feedback and suggestions would help in making it more useful to denizens.
+[This evolving document](/cambridge) is a guide to the city. Any feedback and suggestions would help making it more useful to denizens.
 
 <center>
 
@@ -89,6 +89,8 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 ----
 
 **Hobbies** 
+
+In my free time, I like to sketch portraits and try new recipes.
 
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 
