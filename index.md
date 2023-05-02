@@ -20,7 +20,7 @@ I am on a career break.
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
 
-These are the projects I spend time on
+These are the projects I am spending this time on
 
 
 * Meeting Without Masks
