@@ -49,7 +49,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 I am based in Cambridge. 
 
-I created [this evolving document](/cambridge) as a guide to the city. Suggestions and feedback would really help in making it more useful for more people.
+I created [this evolving document](/cambridge) as a guide to the city. I would really appreciate suggestions and feedback: it would help in making it more useful to others.
 
 <center>
 
