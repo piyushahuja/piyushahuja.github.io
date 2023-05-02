@@ -63,7 +63,7 @@ Grantchester has the highest concentration of Nobel Laureaes in the world.
 
 [Nightclimbing](https://www.varsity.co.uk/features/24648?fbclid=IwAR2yy5ukhiCm5hsv3SLVesqsGhj6kgqskBDRf-xTBwdBF3WA45HD30lvLqM) has been a Cambridge tradition since the 1930s. [In this taunting prank](https://www.facebook.com/acambridgediary/posts/pfbid02tseEu7dmJKWZSV4U8MthqixquyjsGTuHvYEtK4pnqLp3eA8FaLyr7GqZB9KgubVxl), night climbers from St. John's College placed a the pink feather duster under the arm on Henry VIII at the Trinity College main gate. 
 
-[The Cambridge Cardboard Boat Race in May Week (that happens in June!)](https://www.youtube.com/watch?v=u7ncM8JTc5g). The competition rules are simple. Build something which hopefully floats out of nothing but cardboard, PVA glue and gaffa tape – the same applies for paddles too (although dinner trays from hall are also allowed here) – any other material is allowed as long as it is merely for looks and not structural. The race is from Jesus Green to Magdalene Beach and each crew that entry must hold three persons. 
+[The Cambridge Cardboard Boat Race](https://www.youtube.com/watch?v=u7ncM8JTc5g) after the end-of-term exams. The competition rules are simple. Build something which hopefully floats out of nothing but cardboard, PVA glue and gaffa tape – the same applies for paddles too (although dinner trays from hall are also allowed here) – any other material is allowed as long as it is merely for looks and not structural. The race is from Jesus Green to Magdalene Beach and each crew that entry must hold three persons. 
 
 
 ----
