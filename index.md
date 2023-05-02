@@ -26,7 +26,7 @@ These are the projects that occupy my waking hours (and sometimes, dreams)
 <!-- * Meeting Without Masks -->
 * Platonia: a social network based on skills 
 * Salt To Taste: a series of essays on authenticity
-  
+
 
 <!-- * [A Writing Course](https://piyushahuja.com/courses/writing/intro)
 
