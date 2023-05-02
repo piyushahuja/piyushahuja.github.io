@@ -23,7 +23,7 @@ I am on a career break.
 These are the projects I am spending this time on
 
 
-* Meeting Without Masks
+<!-- * Meeting Without Masks -->
 * Platonia: a social network based on skills 
 * Salt To Taste: a series of essays on authenticity
   
