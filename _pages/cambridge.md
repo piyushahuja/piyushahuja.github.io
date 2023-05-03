@@ -80,6 +80,7 @@ Grantchester has the highest concentration of Nobel Laureaes in the world.
 * Pink Floyd. My landlord went to a school (Hills Road Sixth Form College) where the members of Pink Floyd met
 * Rajiv Gandhi met Sonia Gandhi at Varsity Hotel where she was part time waitressing.
 * [The relationship between Wittgenstein and Bertrant Russell](https://www.facebook.com/russellbertie/posts/pfbid0SA4ZBvEqw4n9z3c42C3TcXAHnd5TrtjdYKRpKsNHfHymoqk66EAJU383tdSawZGfl).  Witgenstein's Grave is at Ascension Parish Burial Ground next to members of the Darwin Family (and my ex-landlord's)
+* [Aurobindo Ghosh](https://en.wikipedia.org/wiki/Sri_Aurobindo) studied for Civil Service at King's College
 
 **Other Gossip**
 
