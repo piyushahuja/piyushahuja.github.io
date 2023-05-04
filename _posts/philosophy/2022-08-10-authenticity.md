@@ -5,8 +5,7 @@ title:  Authenticity
 date:   2022-08-10 09:00:11
 tag: 
 categories: 
-    - philosophy
-    - ethics
+    - draft
 excerpt: 
 permalink: /authenticity
 comments: true
