@@ -90,7 +90,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 **Hobbies** 
 
-In my free time, I like to sketch portraits and try new recipes.
+I enjoy learning new skills, and I mix it up to prevent myself from becoming obsessed or bored.   However, I keep returning to cooking, improv theatre and football.
 
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 

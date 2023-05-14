@@ -43,12 +43,8 @@ All these areas offer unrestricted parking spots for free of cost and the distan
 
 * Climbing the tower at Great St Mary
 * Varsity Hotel Bar
-* Castle Hill Mound. Just an odd path at the back of a car park, but really great views over the city. 
-* The view point at the top of line kiln bank gives fantastic views from the other side of town 
-
-
-
-
+* Castle Hill Mound. 
+* The view point at the top of line kiln bank?
 
 ---
 
@@ -165,10 +161,11 @@ Another similar spot I discovered recently is St Helen's Picnic Site in Thetford
 
 **I live here, and I would like to finding community**
 
-The best way to find community is join a group of hobbyists.
+The best way to find community is join a group of hobbyists. 
 
 What are you into?
 
+These are the ones that I have a foot in and can personally vouch for
 
 **Literature**
 
@@ -177,21 +174,33 @@ What are you into?
 
 **Dancing**
 
-* Cambsdance 
-* Contact Improv
-* Tango
-* Salsa
+* Contact Improv at Anglia Ruskin on Mondays 5.30 pm
+* Salsa at Darwin College Tuesday at 8 pm
+* Cambsdance 5 Rhythms at St. Pauls Friday 7 pm
+* Tango Sundays at 2 pm
+
+
+**Sports**
+
+* Clay Farm Football at Trumptington Community College at 8.30 pm
 
 ---
 
 **Shops and Cafes**
 
+My Favourite Cafes
 
-* Fitzbillies. Definitely the highest calorie thing to do in Cambridge is to drop into the gorgeous Fitzbillies on Trumpington Street and feast on one of their famous Chelsea Buns. These sticky-sweet snacks have been on sale here since 1921 and make for an ideal riverside energy boost when your punting enthusiasm begins to wane. 
-* Waterstones Book Cafe
+* Harvey's Coffee House: to blend in with the students
+* Parker's Tavern for a posh ambience, to play upto the Oxbridge stereotype for visitors
+* Waterstones Book Cafe for a literary theme
+  
+
+Food
+
+* Fitzbillies. Their famous Chelsea Buns have been on sale here since 1921. 
 * For spicy food, visit Pho Vietnamese (Vietnamese)
-* Parker's Tavern
-* Harry Potter: If you’re into the wizarding world, visit the (semi)-secret Harry Potter shop in the tourist information center. 
+
+
   
 
 ----
