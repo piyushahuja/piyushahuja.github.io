@@ -201,8 +201,6 @@ Food
 * For spicy food, visit Pho Vietnamese (Vietnamese)
 
 
-  
-
 ----
 
 **Food, Pubs and Alcohol-Fuelled Fun**
