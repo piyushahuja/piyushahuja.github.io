@@ -1,0 +1,6 @@
+I"{<h1 id="using-docker">Using Docker</h1>
+
+<h1 id="logs">Logs</h1>
+
+<p>You send logs to logger daemon or /dev/null.</p>
+:ET

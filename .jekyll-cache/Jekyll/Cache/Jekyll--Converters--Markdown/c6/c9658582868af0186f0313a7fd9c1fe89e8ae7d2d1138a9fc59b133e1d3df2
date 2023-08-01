@@ -1,0 +1,22 @@
+I"*<h1 id="properties-you-want">Properties you want</h1>
+
+<p>healthchecks
+autoscaling
+zero downtime deploys</p>
+
+<h1 id="using-docker">Using Docker</h1>
+
+<p>Size of the image <a href="https://github.com/nodejs/docker-node">Node images</a></p>
+
+<h1 id="logs">Logs</h1>
+
+<p>You send logs to logger daemon or /dev/null.
+You probably want to store logs externally: in a volume or mounted host directory, and have a separate container take care of logs.</p>
+
+<p>People mount /dev/log into a container.</p>
+
+<h1 id="analytics">Analytics</h1>
+
+<p>Clickhealth</p>
+
+:ET
