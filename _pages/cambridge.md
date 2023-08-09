@@ -154,8 +154,13 @@ If you’d prefer some solitude you can go a mile or two upriver, past the weir 
 * Ely This one isn’t technically in Cambridge, but it makes for a brilliant day trip. Dating back to 1083, it is built in the monumental Romanesque style. Take a moment to gaze up at the church’s captivating ceilings and dazzling stained glass.
 * Grantchester
 * [Anglesey Abbey](https://www.nationaltrust.org.uk/anglesey-abbey-gardens-and-lode-mill)
-* Wild Swimming: Houghton Mill in the summer is a good wild swimming spot
-Another similar spot I discovered recently is St Helen's Picnic Site in Thetford Forest, if you're ever out that way. Although no boating. Lovely water (although a bit shallower than HM) and greats walks. There's a beautiful tiny church there too.
+* Wild Swimming:
+    - Houghton Mill in the summer is a good wild swimming spot. 
+    - Another similar spot I discovered recently is St Helen's Picnic Site in Thetford Forest, if you're ever out that way. Although no boating. Lovely water (although a bit shallower than HM) and greats walks. There's a beautiful tiny church there too.
+    - Grantchester Meadow. (Spot on Map)[https://maps.app.goo.gl/aJ4KoetuJa4buBwo7 swimming spot]
+    - From the newnham end the field along the path after the car park is quiet and has several wooden ladders into the river ( some hidden under the water), same after the path, where the river makes a bend ( known as dead man’s corner). From Grantchester side, walk one field from the Red lion pub towards cambridge and there is a slow gravel ramp into the river ( build for the cows to drink) which makes access very easy :-)
+
+
 
 ---
 
