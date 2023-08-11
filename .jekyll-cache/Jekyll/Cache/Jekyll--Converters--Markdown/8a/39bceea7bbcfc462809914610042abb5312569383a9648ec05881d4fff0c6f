@@ -1,0 +1,76 @@
+I"_<ul>
+  <li>Internalise the Hail deployment process as a team, and be ready to extend it / fix it as needed.
+    <ul>
+      <li>Task Description:  “I would expect you to play a leading role in absorbing and dealing with our hail deployment framework: this is a mix of terraform and ansible, creating a spark clusters (running hail software) in our on-prem cloud.”</li>
+      <li>Comments: I feel I have internalised this as much as I could have, and have already extended it to one use-case (Docker Swarm Cluster – see below)</li>
+    </ul>
+  </li>
+  <li>Resource allocation GUI for users. User should see how much space who is consuming in their hail clusters
+    <ul>
+      <li>Comments: The basic cluster usage report gives an overview, This evolve gradually into a full fledged web app as we add more features, incorporate more OpenStack querying. One potential reason this might be slow is because the openstack APIs are not very well documented. For example, I had to muddle my way around for hours in the source code  of a python-openstack client before I was able to find a way to query CPU time.</li>
+    </ul>
+  </li>
+  <li>Set up Docker Swarm Infrastructure for deploying web apps (Extended the Hail deployment process)
+    <ul>
+      <li>Comments: This took a little longer than I anticipated, but it was a useful exercise in hindsight, as it involved working with all the tech used in Luca’s code (ansible, terraform, docker). Troubleshooting various bugs forced me to learn “sysadmin stuff” like networking basics.</li>
+    </ul>
+  </li>
+  <li>Set up FCE workflow for Clara with troubleshoot support: Done
+    <ul>
+      <li>Comments: Even though this was maybe not that high in the priority list, it felt more rewarding than other tasks as I could see the direct impact of my work, and that external validation helps.</li>
+      <li>“the machine in openstack is way faster than the one in the farm, I ma impressed! something that takes 2 to 3 hours on the farm takes 15-30 min on the openstack machine” - Clara</li>
+      <li>“it is so much faster I set it to do some stuff that would have taken me days to do on the farm” - Clara</li>
+    </ul>
+  </li>
+  <li>Helped Guillaume with his Terraform Script</li>
+</ul>
+
+<p>Training Done:</p>
+
+<p>Farm (1 Day)</p>
+
+<p>Python (3 Day)</p>
+
+<p>Other Learning events:</p>
+
+<p>HumGen Seminars</p>
+
+<p>IGM Meetings</p>
+
+<p>Tech Stacks Learnt:</p>
+
+<p>Terraform</p>
+
+<p>Ansible</p>
+
+<p>Docker</p>
+
+<p>Docker Swarm</p>
+
+<p>AIOHTTP</p>
+
+<p>Vue JS</p>
+
+<p>Bootstrap CSS</p>
+
+<p>Bash Scripting Basics</p>
+
+<p>Cloud Computing Basics (including networking, storage etc. and Openstack abstractions)</p>
+
+<p>Currently working on:</p>
+
+<p>Cluster Report (Vue.js, Bootstrap, Python, AIOHTTP)
+Helping Sebastian (Bash, Python)
+Integrating Different Web Apps on one user-facing platform (Nginx, Docker, DockerSwarm)</p>
+
+<p>Upcoming Projects:</p>
+
+<p>Infra: HDFS cluster provisioning 
+Web: Cluster Report
+Web: Left by Josh (React JS, AIOHTTP)</p>
+
+<p>What I would like to learn:</p>
+
+<p>ReactJS (as part of Josh’s work)
+Consolidate my learning on what I already know (VueJS, AIOHTTP, Python especially)</p>
+:ET
