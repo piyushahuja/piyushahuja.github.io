@@ -46,7 +46,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 ----
 
-**Location** 
+**Where am I?** 
 
 I'm permanently based in Cambridge (UK). [This evolving document](/cambridge) is a guide to the city. Feedback and suggestions are welcome.
 
@@ -77,7 +77,7 @@ I'm permanently based in Cambridge (UK). [This evolving document](/cambridge) is
  -->
 In 2022, I was endorsed by Tech Nation as an exceptional leader in digital technology.
 
-As a senior software engineer, I've made contributions in devops and software development (full stack) for scientists and researchers in genomics. As a product manager, I have experience leading teams of software developers, designs, QA, and marketing to launch digital products at scale. 
+I have experience developing and launching products for scientists and researchers in genomics as a senior software engineer at Wellcome Sanger Institute, and for millions of Indian consumers as a product manager at on-demand services company Jugnoo.
 
 [The work experience page](/work) lists my work history.
 
