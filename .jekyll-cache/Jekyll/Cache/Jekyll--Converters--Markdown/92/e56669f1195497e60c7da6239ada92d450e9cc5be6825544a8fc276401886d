@@ -1,0 +1,51 @@
+I"Ó<CENTER><h1 class="emphnext">Work Experience</h1></CENTER>
+
+<div class="section list">
+  <h1>2019 - 2023</h1>
+  <p class="line">
+  <a class="title" href="/sanger">Wellcome Trust Sanger Institute</a>
+  <a class="comments">Senior Software Engineer</a>
+  </p>
+  <p class="excerpt">Genomics R&amp;D</p>
+</div>
+
+<div class="section list">
+  <h1>2017 - 2019</h1>
+  <p class="line">
+  <a class="title" href="/platonia">MVP Experiments</a>
+  <a class="comments">Founder and CTO</a>
+  </p>
+  <p class="excerpt">Now available for download on Google Playstore</p>
+</div>
+
+<div class="section list">
+  <h1>2016 - 2017</h1>
+  <p class="line">
+  <a class="title" href="/jugnoo">Jugnoo</a>
+  <a class="comments">Product Manager</a>
+  </p>
+  <p class="excerpt">On-demand services startup<!--  Shipped products for  --></p>
+</div>
+
+<div class="section list">
+  <h1>2015 - 2016</h1>
+  <p class="line">
+  <a class="title" href="/aurora">Aurora Energy Research</a>
+  <a class="comments">Summer Intern</a>
+  </p>
+  <p class="excerpt">Energy analytics company<!-- Forcecasted EEG surcharge on German consumers --></p>
+</div>
+
+<div class="section list">
+  <h1>2013 - 2014</h1>
+  <p class="line">
+  <a class="title" href="/opera">Opera Solutions</a>
+  <a class="comments">Analytics Specialist</a>
+  </p>
+  <p class="excerpt">Big data analytics company<!-- Worked on financial products powered by big-data analytics --></p>
+</div>
+
+<!-- 
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+ -->
+:ET

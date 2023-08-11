@@ -8,24 +8,24 @@ section: Home
 
 
 
-**Currently**
+**Currently Working On**
 
 
 
 <img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
 
 
-I am on a career break.
-
-
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
 
-These are the projects that occupy my waking hours (and sometimes, dreams)
+
 
 
 <!-- * Meeting Without Masks -->
-* Platonia: a social network based on skills 
-* Salt To Taste: a series of essays on authenticity
+* Platonia: a social network based on skills. [Give the demo a try](https://platonia.network/login)
+
+* Meetings Without Masks: An authentic dating event for singles. Next one: [30th September](https://www.tickettailor.com/events/meetingwithoutmasks/958578) 
+
+<!-- * Salt To Taste: a series of essays on authenticity -->
 
 
 <!-- * [A Writing Course](https://piyushahuja.com/courses/writing/intro)
@@ -35,7 +35,7 @@ These are the projects that occupy my waking hours (and sometimes, dreams)
 
 
 
- I also frequently travel to London and Oxford.
+
  -->
 <!-- **Also**
 
@@ -46,12 +46,13 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 ----
 
+**Location** 
 
-I am based in Cambridge. 
+I'm permanently based in Cambridge (UK). [This evolving document](/cambridge) is a guide to the city. Feedback and suggestions are welcome.
 
-[This evolving document](/cambridge) is a guide to the city. Feedback and suggestions are welcome.
+You might also find me in London, Oxford, Warsaw, New Delhi, or Chandigarh.
 
-<center>
+<!-- <center>
 
 <figure>
     <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height= "400" /> 
@@ -61,7 +62,7 @@ I am based in Cambridge.
 
  <figcaption></figcaption> 
 </figure>
-</center>
+</center> -->
 
 
 
@@ -70,9 +71,13 @@ I am based in Cambridge.
 
 
 
-**Previous Work**
+**Professional**
 
-Between 2019 - 2023, I was a senior software developer at Wellcome Sanger Institute.
+<!-- Between 2019 - 2023, I was a senior software developer at Wellcome Sanger Institute.
+ -->
+In 2022, I was endorsed by Tech Nation as an exceptional leader in digital technology.
+
+As a senior software engineer, I've made contributions in devops and software development (full stack) for scientists and researchers in genomics. As a product manager, I have experience leading teams of software developers, designs, QA, and marketing to launch digital products at scale. 
 
 [The work experience page](/work) lists my work history.
 
@@ -89,8 +94,6 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 ----
 
 **Hobbies** 
-
-I enjoy trying new recipes, going for improv workshops, and playing football.
 
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 
@@ -118,7 +121,7 @@ I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared 
 
 **Contact**
 
-I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please don't hesitate to write to me.
+I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, I'd love to talk to you and help in any way I can.
 
 
 {% include email-subscribe.html %}
