@@ -12,7 +12,7 @@ section: Home
 
 
 
-<img class='inset right' src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='280px'  />   
+<img class='inset right' src="files/images/mypic.jpeg" title='Piyush Ahuja' width='240px'  />   
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
@@ -21,7 +21,7 @@ section: Home
 
 
 <!-- * Meeting Without Masks -->
-* Platonia: a social network based on skills. [Give the demo a try](https://platonia.network/login)
+* Platonia: a social network based on skills. [Give it a try!](https://platonia.network/login)
 
 * Meetings Without Masks: An authentic dating event for singles. Next one: [30th September](https://www.tickettailor.com/events/meetingwithoutmasks/958578) 
 
