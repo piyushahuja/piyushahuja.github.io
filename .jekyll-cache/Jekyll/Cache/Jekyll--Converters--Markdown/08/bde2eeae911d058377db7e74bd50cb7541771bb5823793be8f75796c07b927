@@ -1,24 +1,18 @@
-I"s<p><strong>Currently</strong></p>
+I"�<p><strong>Currently Working On</strong></p>
 
-<p><img class="inset right" src="files/images/mypic2.jpeg" title="Piyush Ahuja" width="280px" /></p>
-
-<p>I am based in Cambridge, and frequently travel to London and Oxford.</p>
+<p><img class="inset right" src="files/images/mypic.jpeg" title="Piyush Ahuja" width="160px" /></p>
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
-
-<p>These are the projects that occupy my waking hours (and sometimes, dreams)</p>
 
 <!-- * Meeting Without Masks -->
 <ul>
   <li>
-    <p>Platonia: one of the best way to learn is to teach it to someone. Platonia allows one to connect with others for learning-and-teaching. <a href="https://platonia.network/login">Give it a try</a></p>
+    <p>Platonia: a social network based on skills. <a href="https://platonia.network/login">Give it a try!</a></p>
   </li>
   <li>
-    <p>Meetings Without Masks</p>
+    <p>Meetings Without Masks: An authentic dating event for singles. Next one: <a href="https://www.tickettailor.com/events/meetingwithoutmasks/958578">30th September</a></p>
   </li>
 </ul>
-
-<p>An authentic dating event for singles. The next one is on 30th September.</p>
 
 <!-- * Salt To Taste: a series of essays on authenticity -->
 
@@ -40,25 +34,33 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 <hr />
 
-<p><a href="/cambridge">This evolving document</a> is a guide to the city. Feedback and suggestions are welcome.</p>
+<p><strong>Where am I?</strong></p>
 
-<center>
+<p>I’m permanently based in Cambridge (UK). <a href="/cambridge">This evolving document</a> is a guide to the city. Feedback and suggestions are welcome.</p>
+
+<!-- When not in Cambridge, I frequently travel to London, Oxford, Warsaw, New Delhi, or Chandigarh.
+ -->
+<!-- <center>
 
 <figure>
-    <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height="400" /> 
+    <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height= "400" /> 
 
     
 
 
  <figcaption></figcaption> 
 </figure>
-</center>
+</center> -->
 
 <hr />
 
 <p><strong>Professional</strong></p>
 
-<p>Between 2019 - 2023, I was a senior software developer at Wellcome Sanger Institute.</p>
+<!-- Between 2019 - 2023, I was a senior software developer at Wellcome Sanger Institute.
+ -->
+<p>In 2022, I was endorsed by Tech Nation as an exceptional leader in digital technology.</p>
+
+<p>I have experience developing and launching products for scientists and researchers in genomics as a senior software engineer at Wellcome Sanger Institute, and for millions of Indian consumers as a product manager at on-demand services company Jugnoo.</p>
 
 <p><a href="/work">The work experience page</a> lists my work history.</p>
 
@@ -97,7 +99,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 <p><strong>Contact</strong></p>
 
-<p>I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please don’t hesitate to write to me.</p>
+<p>I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please write to me and I’d help in any way I can.</p>
 
 <form style="#ccc;padding:3px;text-align:center;" action="https://tinyletter.com/piyushahuja" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/piyushahuja', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
