@@ -12,7 +12,7 @@ section: Home
 
 
 
-<img class='inset right' src="files/images/mypic.jpeg" title='Piyush Ahuja' width='140px'  />   
+<img class='inset right' src="files/images/mypic1.jpeg" title='Piyush Ahuja' width='110px'  />   
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
