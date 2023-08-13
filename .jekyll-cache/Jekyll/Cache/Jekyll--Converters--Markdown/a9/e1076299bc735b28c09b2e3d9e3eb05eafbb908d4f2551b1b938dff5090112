@@ -1,6 +1,6 @@
-I"Ÿ<p><strong>Currently Working On</strong></p>
+I"ò<p><strong>Currently Working On</strong></p>
 
-<p><img class="inset right" src="files/images/mypic2.jpeg" title="Piyush Ahuja" width="280px" /></p>
+<p><img class="inset right" src="files/images/mypic.jpeg" title="Piyush Ahuja" width="140px" /></p>
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
 
@@ -34,23 +34,23 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 <hr />
 
-<p><strong>Location</strong></p>
+<p><strong>Where am I?</strong></p>
 
-<p>I am permanently based in Cambridge. <a href="/cambridge">This evolving document</a> is a guide to the city. Feedback and suggestions are welcome.</p>
+<p>Iâ€™m permanently based in Cambridge (UK). <a href="/cambridge">This evolving document</a> is a guide to the city. Feedback and suggestions are welcome.</p>
 
-<p>I also frequently travel to London and Oxford.</p>
-
-<center>
+<!-- When not in Cambridge, I frequently travel to London, Oxford, Warsaw, New Delhi, or Chandigarh.
+ -->
+<!-- <center>
 
 <figure>
-    <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height="400" /> 
+    <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height= "400" /> 
 
     
 
 
  <figcaption></figcaption> 
 </figure>
-</center>
+</center> -->
 
 <hr />
 
@@ -58,8 +58,9 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 <!-- Between 2019 - 2023, I was a senior software developer at Wellcome Sanger Institute.
  -->
-
 <p>In 2022, I was endorsed by Tech Nation as an exceptional leader in digital technology.</p>
+
+<p>I have experience developing and launching products for scientists and researchers in genomics as a senior software engineer at Wellcome Sanger Institute, and for millions of Indian consumers as a product manager at on-demand services company Jugnoo.</p>
 
 <p><a href="/work">The work experience page</a> lists my work history.</p>
 
@@ -98,7 +99,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 <p><strong>Contact</strong></p>
 
-<p>I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please donâ€™t hesitate to write to me.</p>
+<p>I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please write to me and Iâ€™d help in any way I can.</p>
 
 <form style="#ccc;padding:3px;text-align:center;" action="https://tinyletter.com/piyushahuja" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/piyushahuja', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 
