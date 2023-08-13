@@ -46,9 +46,9 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 ----
 
-**Where am I?** 
+**Where am I these days?** 
 
-I'm permanently based in Cambridge (UK). [This evolving document](/cambridge) is a guide to the city. Feedback and suggestions are welcome.
+I'm based in Cambridge (UK). [This evolving document](/cambridge) is a guide to the city. Feedback and suggestions are welcome.
 
 <!-- When not in Cambridge, I frequently travel to London, Oxford, Warsaw, New Delhi, or Chandigarh.
  -->
