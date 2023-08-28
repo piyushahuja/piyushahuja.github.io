@@ -195,7 +195,7 @@ Get then to negotiate against themselves. This is not just flattery but probably
     *  No doesn’t mean No. Yes means commitment, and no means protections. After the first no, people feel protected, and then they think and then might say yes. Give them a chance to focus on you - because otherwise there are 4-5 things going in their mind. 
      * An initial no can be a way to yes. 
 >  “Is this a good time to talk?”. Ask “Is this a bad time to talk?” to get a toe in.
-> Say a boss gives you an impossible task, and you want to negotiate him into giving an easier one. You can retort “You want me to succeed, don’t you?”, or you can say “Do you want me to fail?”. The form is pushing for a yes *getting a toe in”, while the latter is pushing for a no. The latter, however is better, because it leads to instance agreement and empathy.
+> Say a boss gives you an impossible task, and you want to negotiate him into giving an easier one. You can retort “You want me to succeed, don’t you?”, or you can say “Do you want me to fail?”. The form is pushing for a yes "getting a toe in”, while the latter is pushing for a no. The latter, however is better, because it leads to instance agreement and empathy.
 
 - **Appeal to your character and credibility.** (Ethos)
    Qualities of Character, credibility, consistency, integerity, trust, sincerity, authenticity, nobility, grace
@@ -951,7 +951,12 @@ Even if you don't get a raise or promotion this time, it tells your boss that yo
 
 
 
+---
+To read
 
+- [How to sabotage your salary negotiation efforts before you even start](https://interviewing.io/blog/sabotage-salary-negotiation-before-even-start)
+- [negotiation word-for-words](https://interviewing.io/blog/negotiate-salary-recruiter)
+- [How to reply to recruiters](https://index.medium.com/career-advice-nobody-gave-me-never-ignore-a-recruiter-4474eac9556)
 
 ----
 
