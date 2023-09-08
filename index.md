@@ -21,7 +21,7 @@ section: Home
 
 
 <!-- * Meeting Without Masks -->
-* Platonia: a social network based on skills. [Give it a try :)](https://platonia.network/login)
+* Platonia: an edtech platform enabling connection. Email me for a trial. 
 
 <!-- 
 * Meetings Without Masks: An authentic dating event for singles. Next one: [30th September](https://www.tickettailor.com/events/meetingwithoutmasks/958578) 
