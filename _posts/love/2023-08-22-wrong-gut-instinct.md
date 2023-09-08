@@ -159,6 +159,9 @@ Memories of being loved
 - Sarah
 - Becky
 - Charity "clean, masculine energy", coming to me in islands
+- Sammie chosing me in Radically Honesty Dating
+- Charlotte Facherty meeting me twice
+
 
 
 
