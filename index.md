@@ -54,7 +54,7 @@ I'm based in Cambridge (UK). [This evolving document](/cambridge) is a guide to 
 
 <!-- When not in Cambridge, I frequently travel to London, Oxford, Warsaw, New Delhi, or Chandigarh.
  -->
-<!-- <center>
+<center>
 
 <figure>
     <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height= "400" /> 
@@ -64,7 +64,7 @@ I'm based in Cambridge (UK). [This evolving document](/cambridge) is a guide to 
 
  <figcaption></figcaption> 
 </figure>
-</center> -->
+</center>
 
 
 
