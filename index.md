@@ -21,7 +21,8 @@ section: Home
 
 
 <!-- * Meeting Without Masks -->
-* Platonia: an edtech platform enabling connection. Email me for a trial. 
+* Platonia: an edtech platform for sharing skills. Contact me for a link. 
+* Meetings Without Masks: authentic dating in Cambridge (with Sarah Maughan)
 
 <!-- 
 * Meetings Without Masks: An authentic dating event for singles. Next one: [30th September](https://www.tickettailor.com/events/meetingwithoutmasks/958578) 
