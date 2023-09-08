@@ -21,7 +21,7 @@ section: Home
 
 
 <!-- * Meeting Without Masks -->
-* Platonia: an edtech platform for sharing skills. Contact me for a link. 
+* Platonia: connection via sharing skills. Email for a demo. 
 * Meetings Without Masks: authentic dating in Cambridge (with Sarah Maughan)
 
 <!-- 
