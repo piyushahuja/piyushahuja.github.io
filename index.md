@@ -22,7 +22,6 @@ section: Home
 
 <!-- * Meeting Without Masks -->
 * Platonia: connection via sharing skills. Email for a demo. 
-* Meetings Without Masks: authentic dating in Cambridge (with Sarah Maughan)
 
 <!-- 
 * Meetings Without Masks: An authentic dating event for singles. Next one: [30th September](https://www.tickettailor.com/events/meetingwithoutmasks/958578) 
