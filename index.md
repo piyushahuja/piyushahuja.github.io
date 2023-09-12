@@ -10,10 +10,10 @@ section: Home
 
 **Currently**
 
+Founder, Cambridge Innovation Labs
 
-
-<img class='inset right' src="files/images/mypic1.jpeg" title='Piyush Ahuja' width='110px'  />   
-
+<!-- <img  src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='500px'  />   
+ -->
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
 
@@ -49,7 +49,7 @@ I would love to run a meditation group and [a writing workshop](/courses/writing
 
 **Where am I these days?** 
 
-I'm based in Cambridge (UK). [This evolving document](/cambridge) is a guide to the city. Feedback and suggestions are welcome.
+Cambridge (UK).<!--  [This evolving document](/cambridge) is a guide to the city. Feedback and suggestions are welcome. -->
 
 <!-- When not in Cambridge, I frequently travel to London, Oxford, Warsaw, New Delhi, or Chandigarh.
  -->
