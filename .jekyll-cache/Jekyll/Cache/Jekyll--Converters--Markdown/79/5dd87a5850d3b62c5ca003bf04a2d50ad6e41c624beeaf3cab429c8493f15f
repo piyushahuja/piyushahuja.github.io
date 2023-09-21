@@ -1,4 +1,4 @@
-I"�<p><strong>Relationship Types</strong></p>
+I"��<p><strong>Relationship Types</strong></p>
 
 <p>There are three types of relationships between entities:</p>
 <ul>
@@ -38,7 +38,7 @@
 
 <h1 id="normalization">Normalization</h1>
 
-<p>The normalization rules are designed to <strong>enhances the integrity of the data</strong> at some possible <strong>performance cost for certain retrieval applications</strong> (data which may have been retrievable from one record in an unnormalized design may have to be retrieved from several records in the normalized form). It is biased toward the assumption that all non-key fields will be updated frequently. It prevents update anomalies (easy to change entries without going through all records) and data inconsistencies (less mistakes) and minimizes redundancy (efficient user of space). Removing duplication is the key to normalisation .   There is no obligation to fully normalize all records when actual performance requirements are taken into account: so it depends what your data access patterns are going to be. It also makes sharding difficult.</p>
+<p>The normalization rules are designed to <strong>enhances the integrity of the data</strong> at some possible <strong>performance cost for certain retrieval applications</strong> (data which may have been retrievable from one record in an unnormalized design may have to be retrieved from several records in the normalized form). It is biased toward the assumption that all non-key fields will be updated frequently. It prevents update anomalies (easy to change entries without going through all records) and data inconsistencies (less mistakes) and minimizes redundancy (efficient use of space). Removing duplication is the key to normalisation .   There is no obligation to fully normalize all records when actual performance requirements are taken into account: so it depends what your data access patterns are going to be. It also makes sharding difficult.</p>
 
 <p>A NoSQL record does not adhere to first normal form (variable number of fields), but we can still ask whether to extract individual fields into their own separate collection or not. This is called “embedding” vs “referencing”.</p>
 
@@ -49,13 +49,13 @@
 <p>You can “smell” duplication, scope for inconsistencies and update mistakes by asking: Is non-key field a fact about a subset of a key or another non-key field?</p>
 
 <blockquote>
-  <p>The key, the whole key, and nothing but the key</p>
+  <p>Every non-key must provide a fact about the key, the whole key, and nothing but the key</p>
 </blockquote>
 
-<p>If that happens, these properties are present in your (tables/collection) for some dependent non-key field:</p>
+<p>The table can be normalized further when these properties are present in your (tables/collection) for some dependent non-key field:</p>
 
 <ul>
-  <li><strong>Duplication</strong> The dependent non-key field is repeated in the record of every key which has the primary non-key.</li>
+  <li><strong>Duplication</strong> A dependent non-key field is repeated in the record of every key which has the primary non-key.</li>
   <li><strong>Write Overhead</strong> If the primary non-key changes, every such record must be updated (if department address changes, all entries must be changed). We would need to do extra work in ensuring consistency on every write (e.g. we would need to ensure that the added question/status has the same author name as the name in the <code class="language-plaintext highlighter-rouge">User</code> field and as other questions by them)</li>
   <li><strong>Scope for Inconsistency</strong> Because of the redundancy, the data might become inconsistent, with different records showing different dependent non-key for the primary non-key (different address for the same deparment for different employees). There would be no single source of truth (e.g the name of the author might be present in both a <code class="language-plaintext highlighter-rouge">Question</code> table and the <code class="language-plaintext highlighter-rouge">User</code> table )</li>
   <li><strong>No Orphaning and Evolvability</strong> If at some point in time there are no primary non-keys, there may be no record in which to keep the dependent non-key (orphaned tags, lost department address etc.)</li>
@@ -68,7 +68,7 @@
   <p>Normalize until it hurts, denormalize until it works. (I.e. prefer normal forms but denormal will have better performance.)</p>
 </blockquote>
 
-<p>You keep it denormalized if the relationship will remain 1-to-N, the field/key does not support a unique representation of its values (such as free text input), the access patters are same across the entire record, the field is not needed in isolation and is not likely to evolve into a more complex entity. Examples include a <code class="language-plaintext highlighter-rouge">Status</code> and <code class="language-plaintext highlighter-rouge">Comments</code>, <code class="language-plaintext highlighter-rouge">User</code> and <code class="language-plaintext highlighter-rouge">Location</code>. This is true even if it is a Table or a Collection.</p>
+<p>You keep a dependent key denormalized if the relationship with the primary key will remain 1-to-N, the field/key does not support a unique representation of its values (such as free text input), the access patterns are same across the entire record, the field is not needed in isolation, and is not likely to evolve into a more complex entity. Examples include a <code class="language-plaintext highlighter-rouge">Status</code> and <code class="language-plaintext highlighter-rouge">Comments</code>, <code class="language-plaintext highlighter-rouge">User</code> and <code class="language-plaintext highlighter-rouge">Location</code>. This is true even if it is a Table or a Collection.</p>
 
 <p>You normalize if the relationship is N-1 (2 table) or N-N (3 tables), a single source of truth or unique representation is desirable, the access patterns are different, the field is queried in isolation and is likely to evolve into an indepndent entity with its own attributes.</p>
 
@@ -106,7 +106,7 @@
 
 <hr />
 
-<p><strong>2 Table with Foreign Keys  vs 3 Table Collection with Mapping Tablen</strong></p>
+<p><strong>2 Table with Foreign Keys  vs 3 Table Collection with Mapping Table</strong></p>
 
 <ul>
   <li>Normalize with a second table</li>
@@ -488,14 +488,13 @@ Hierarchy (e.g Categories) : https://docs.mongodb.com/drivers/use-cases/category
   <li>
     <p>Related data is frequently used in association with the parent. Which means that if your “read/write” cases are pretty much always needing to “read/write” to both parent and child then it makes sense to embed the data for atomic operations.</p>
   </li>
+  <li>One: favor embedding unless there is a compelling reason not to</li>
+  <li>Two: needing to access an object on its own is a compelling reason not to embed it</li>
+  <li>Three: Arrays should not grow without bound. If there are more than a couple of hundred documents on the “many” side, don’t embed them; if there are more than a few thousand documents on the “many” side, don’t use an array of ObjectID references. High-cardinality arrays are a compelling reason not to embed.</li>
+  <li>Four: Don’t be afraid of application-level joins: if you index correctly and use the projection specifier (as shown in part 2) then application-level joins are barely more expensive than server-side joins in a relational database.</li>
+  <li>Five: Consider the write/read ratio when denormalizing. A field that will mostly be read and only seldom updated is a good candidate for denormalization: if you denormalize a field that is updated frequently then the extra work of finding and updating all the instances is likely to overwhelm the savings that you get from denormalizing.</li>
+  <li>Six: As always with MongoDB, how you model your data depends – entirely – on your particular application’s data access patterns. You want to structure your data to match the ways that your application queries and updates it.</li>
 </ul>
-
-<p>One: favor embedding unless there is a compelling reason not to
-Two: needing to access an object on its own is a compelling reason not to embed it
-Three: Arrays should not grow without bound. If there are more than a couple of hundred documents on the “many” side, don’t embed them; if there are more than a few thousand documents on the “many” side, don’t use an array of ObjectID references. High-cardinality arrays are a compelling reason not to embed.
-Four: Don’t be afraid of application-level joins: if you index correctly and use the projection specifier (as shown in part 2) then application-level joins are barely more expensive than server-side joins in a relational database.
-Five: Consider the write/read ratio when denormalizing. A field that will mostly be read and only seldom updated is a good candidate for denormalization: if you denormalize a field that is updated frequently then the extra work of finding and updating all the instances is likely to overwhelm the savings that you get from denormalizing.
-Six: As always with MongoDB, how you model your data depends – entirely – on your particular application’s data access patterns. You want to structure your data to match the ways that your application queries and updates it.</p>
 
 <p>When you use an Id, the info that is meaningful to humans is stord in only one place. Because it has no meaning to humans, it never needs to change, even if the information that it identifies changes. (otherwise all the redudant copies need to be changed: write overheads, inconsistencies).</p>
 
@@ -516,7 +515,7 @@ To ensure consistency, we have to write to both the tables on every write to the
 To obtain the ids of new tags/skills, we have to emulate a join in application code (look at the code which populates and then filters id).
 All of this increases the code complecity.</p>
 
-<p>Database design in a non-relational database like MongoDB depends on the queries you need to support, not the relationships between data entities. - <a href="https://stackoverflow.com/questions/7258504/nosql-normalizing-help">NoSQL normalizing help</a></p>
+<p><strong>Database design in a non-relational database like MongoDB depends on the queries you need to support, not the relationships between data entities.</strong> - <a href="https://stackoverflow.com/questions/7258504/nosql-normalizing-help">NoSQL normalizing help</a></p>
 
 <p>Instead, had we kept tags and skills in denormalized form within the supowerpower entity, we do not need to write or emulate joins. The problem is that we would not be able to keep skills as an independent evolvable entity and link them to the superpowers.</p>
 
