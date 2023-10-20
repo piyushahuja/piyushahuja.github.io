@@ -59,6 +59,14 @@ Both activities require common abilities:
 
 - [One word can make a difference](https://ideas.ted.com/what-a-difference-a-word-can-make-how-a-single-word-can-change-your-conversation/)
 
+> "How did you here about us?" vs "Where did you here about us?"
+
+> "Is there anythign else I can do for you?" vs "Is there something else I can do for you?"
+
+> "might you be interested in mediation?” vs "Would you be willing?"
+
+> "“Tell me about your day from when you woke up this morning to the point that we met." vs “can you tell me the circumstances in which you were arrested?” "
+
 ----
 
 * Talk around the idea, only indirectly suggesting it [How to plant an idea in someone's mind](https://lifehacker.com/how-to-plant-ideas-in-someones-mind-5715912)
