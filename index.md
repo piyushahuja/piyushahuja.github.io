@@ -10,7 +10,7 @@ section: Home
 
 **Currently**
 
-Founder, Cambridge Innovation Labs
+Founder and CEO, Cambridge Innovation Labs (backed by Innovate UK)
 
 <!-- <img  src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='500px'  />   
  -->
