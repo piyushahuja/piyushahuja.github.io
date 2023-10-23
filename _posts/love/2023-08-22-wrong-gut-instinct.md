@@ -20,7 +20,7 @@ This is my attempt to reflect on the times I've felt loved, or acutely felt the 
 
 ----
 
-Beatta 
+*Beatta*
 
 The first signal was in the m/w reunion. I was looking at her, but she wasn't looking for me. And I was suddenly overcome by feeling of grief, with memories of all those times when I imagine being loved but the reality swerves differently. "She doesn't love me". "I'll never be loved"
 
@@ -46,7 +46,7 @@ What did I do right? I accepted her truth. I never tried to get. I didn't come o
 
 ---
 
-Sarah
+*Sarah*
 
 She spent the closing with Simon.
 
@@ -79,7 +79,7 @@ But that's an overreaction. She did like me. At the time, she was just looking o
 
 ---
 
-Becks 
+*Becky* 
 
 
 When I joined her at the breakfast table, she looked at the clock, and left.
@@ -98,7 +98,7 @@ At the end of the ceremony, Becks wanted us to cuddle. She sent me a message and
 
 -----
 
-Francesca
+*Francesca*
 
 
 She invited me to join her group.
@@ -128,8 +128,7 @@ She is public about how I help her
 
 ----
 
-Charity
-
+*Charity*
 
 Did I sort of "know"?
 
@@ -146,10 +145,7 @@ She sees me as a "clean, masculine" energy, full of integrity.
 ---
 
 
-
-
-
-Memories of being loved
+**Memories of being loved**
 
 - Ginta bringing me food, waving at the Zoom screen, picking me as my husband, finding me at the bath, speaking respectfully at the island and in the eulogy.
 - Debbie chosing me, and then choosing me again. Her picking apart my self-criticism, affirmations on my performance.
