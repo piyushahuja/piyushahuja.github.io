@@ -28,9 +28,12 @@ Before
 After:
 - Relishing people for who they are
 	
+
+Debbie’s Radical noticing and acceptance of my micro-expressions, pauses, hesitations. 
+
+
 -----
 
 Practice:
 
-Strawberry’s Exercise
-Debbie’s Radical noticing and acceptance of my micro-expressions, pauses, hesitations. 
+* Strawberry’s Exercise
