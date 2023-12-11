@@ -10,7 +10,8 @@ section: Home
 
 **Currently**
 
-Founder, Cambridge Innovation Labs (backed by Innovate UK)
+I am the founder and CEO of an early stage startup (Cambridge Innovation Labs, backed by Innovate UK). In the past, I have been a senior software engineer and a product manager.
+
 
 <!-- <img  src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='500px'  />   
  -->
@@ -97,6 +98,20 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 **Hobbies** 
 
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
+
+
+
+
+I am passionate about philosophy. I am especially interested in questions of authenticity and the metaphysics of the self, such as: how does our vital life force work, and what causes it to diminish or flourish? I am interested in integrating academic philosophy as well as embodied philosophical practices such as movement, meditation, and breathwork. 
+
+
+
+<!--  With Sarah Maughan, I run a conscious dating workshop in Cambridge.  -->
+
+<!-- I am driven by the philosophy of authenticity and questions in the metaphysics of self, soul, and consciousness that have a deep sense of mystery and magic: we say "be yourself", but how can we possibly fail to be ourselves? How do we get in our own way? How does our vital life force work, and what causes it to diminish or flourish?  -->
+
+
+
 
 <!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
 
