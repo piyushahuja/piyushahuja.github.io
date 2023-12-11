@@ -1,6 +1,6 @@
 ---
 layout: page-home
-title:  Things I Love
+title:  An Assortment of Stuff I Love
 permalink: /love
 section: Home
 ---
@@ -8,7 +8,7 @@ section: Home
 <CENTER><h1 class="emphnext">{{ page.title }}</h1></CENTER>
 
 
-<!-- > "Let the young soul survey its own life with a view of the following question: “What have you truly loved thus far? What has ever uplifted your soul, what has dominated and delighted it at the same time?” Assemble these revered objects in a row before you and perhaps they will reveal a law by their nature and their order: the fundamental law of your very self. Compare these objects, see how they complement, enlarge, outdo, transfigure one another; how they form a ladder on whose steps you have been climbing up to yourself so far; for your true self does not lie buried deep within you, but rather rises immeasurably high above you, or at least above what you commonly take to be your I." -->
+ > "How can man know himself?... For the most important inquiry, however, there is a method. Let the young soul survey its own life with a view of the following question: “What have you truly loved thus far? What has ever uplifted your soul, what has dominated and delighted it at the same time?” Assemble these revered objects in a row before you and perhaps they will reveal a law by their nature and their order: the fundamental law of your very self. Compare these objects, see how they complement, enlarge, outdo, transfigure one another; how they form a ladder on whose steps you have been climbing up to yourself so far; for your true self does not lie buried deep within you, but rather rises immeasurably high above you, or at least above what you commonly take to be your I."  - Friedrich Nietzsche
 
 
 Road trips, BBC Radio, warm showers, swimming pools, airports, libraries, stargazing, the movie Contact, The Matrix, metaphors, the anime Heidi, salted caramel creme, masala chai, [University Challenge opening theme](https://www.youtube.com/watch?v=jrbpLRNDjOs&list=PLdIS7dENF-nXEe19T8RwR9FF-b-r1Lp6i&index=28), 
