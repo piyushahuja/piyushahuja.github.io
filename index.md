@@ -10,7 +10,7 @@ section: Home
 
 **Currently**
 
-I am the founder and CEO of an early stage startup (Cambridge Innovation Labs, backed by Innovate UK). In the past, I have been a senior software engineer and a product manager.
+Founder and CEO, Cambridge Innovation Labs (backed by Innovate UK)
 
 
 <!-- <img  src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='500px'  />   
