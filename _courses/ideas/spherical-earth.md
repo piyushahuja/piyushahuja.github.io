@@ -167,7 +167,7 @@ Two of the more entertaining parts of the shape-of-the-Earth story: (1) It was c
 
 Epicycles, phlogiston, caloric, ether. 
 
-
+[Neputinsts vs Plutonists](https://www.historytoday.com/archive/great-debates/maria-graham-and-valparaiso-earthquake)
 
 * [Figure of the earth](https://en.wikipedia.org/wiki/Figure_of_the_Earth)
 * [How to figure out the size of the moon yourself](https://profmattstrassler.com/2022/02/17/how-to-figure-out-the-size-of-the-moon-yourself/)
