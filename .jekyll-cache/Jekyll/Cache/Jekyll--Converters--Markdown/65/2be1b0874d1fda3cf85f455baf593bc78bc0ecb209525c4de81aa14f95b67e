@@ -1,11 +1,10 @@
-I"}”<p><strong>Relationship Types</strong></p>
+I"Ã“<p><strong>Relationship Types</strong></p>
 
 <p>There are three types of relationships between entities:</p>
 <ul>
   <li>1 to N
     <ul>
       <li><code class="language-plaintext highlighter-rouge">Status</code> and <code class="language-plaintext highlighter-rouge">Comments</code> on that status (Facebook)</li>
-      <li><code class="language-plaintext highlighter-rouge">Resume</code> and the <code class="language-plaintext highlighter-rouge">Organizations</code> on that resume (LinkedIn)</li>
       <li><code class="language-plaintext highlighter-rouge">Question</code> and <code class="language-plaintext highlighter-rouge">Answers</code> on that question (Quora)</li>
       <li><code class="language-plaintext highlighter-rouge">User</code> and <code class="language-plaintext highlighter-rouge">Answers</code> (Quora)</li>
     </ul>
