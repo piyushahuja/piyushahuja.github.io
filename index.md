@@ -10,50 +10,22 @@ section: Home
 
 **Currently**
 
-Founder and CEO, Cambridge Innovation Labs (backed by Innovate UK)
+<!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
+* Founder, Cambridge Innovation Labs (backed by Innovate UK) 
+* Entrepreneur in Residence, DEFI, University of Cambridge 
 
-<!-- <img  src="files/images/mypic2.jpeg" title='Piyush Ahuja' width='500px'  />   
- -->
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
-
-
-
-
-<!-- * Meeting Without Masks -->
-
-
-<!-- 
-* Meetings Without Masks: An authentic dating event for singles. Next one: [30th September](https://www.tickettailor.com/events/meetingwithoutmasks/958578) 
- -->
-<!-- * Salt To Taste: a series of essays on authenticity -->
-
-
-<!-- * [A Writing Course](https://piyushahuja.com/courses/writing/intro)
-
-  
-----
-
-
-
-
- -->
-<!-- **Also**
-
-
-
-I would love to run a meditation group and [a writing workshop](/courses/writing/intro) in Cambridge. I'm looking for volunteer participants: if this interests you, please reach out!
- -->
 
 ----
 
 **Where am I these days?** 
 
-Cambridge (UK).<!--  [This evolving document](/cambridge) is a guide to the city. Feedback and suggestions are welcome. -->
+Cambridge (UK).
+<!-- 
+I often travel to London, Oxford, New Delhi, and Chandigarh. -->
 
-<!-- When not in Cambridge, I frequently travel to London, Oxford, Warsaw, New Delhi, or Chandigarh.
- -->
 <center>
 
 <figure>
@@ -75,11 +47,10 @@ Cambridge (UK).<!--  [This evolving document](/cambridge) is a guide to the city
 
 **Professional**
 
-<!-- Between 2019 - 2023, I was a senior software developer at Wellcome Sanger Institute.
- -->
-In 2022, I was endorsed by Tech Nation as an exceptional leader in digital technology.
 
-I have experience developing and launching products for scientists and researchers in genomics as a senior software engineer at Wellcome Sanger Institute, and for millions of Indian consumers as a product manager at on-demand services company Jugnoo.
+In 2021, I was endorsed by Tech Nation as an exceptional leader in digital technology.
+
+I have experience developing and launching products for scientists and researchers in genomics as a senior software engineer at Wellcome Sanger Institute, for millions of Indian consumers as a product manager at on-demand services company Jugnoo, and for financial institutions as a global markets analytics specialist at big data firm Opera Solutions.
 
 [The work experience page](/work) lists my work history.
 
@@ -95,14 +66,30 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 ----
 
-**Hobbies** 
+**Interests** 
+
+
+I am passionate about learning, [teaching](/teachers), and philosophy. 
+
 
 I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 
 
+During my time in Cambridge, I've learnt shooting (clay pigeons), fencing, indoor climbing, tennis, squash, tango, 5 rhythms, contact improvisation, improv theatre, drawing, and cooking. 
 
 
-I am passionate about philosophy. I am especially interested in questions of authenticity and the metaphysics of the self, such as: how does our vital life force work, and what causes it to diminish or flourish? I am interested in integrating academic philosophy as well as embodied philosophical practices such as movement, meditation, and breathwork. 
+Below you'd find some of my learning notes in different forms:
+
+* [A Writing Course](/courses/writing/intro)
+* [Zen and the Art of Cooking](/cook)
+* [Improv]()
+
+
+
+Within philosophy, I am interested in questions of authenticity and the metaphysics of the self, such as: how does our vital life force work, and what causes it to diminish or flourish? I am interested in integrating academic philosophy as well as embodied philosophical practices such as movement, meditation, and breathwork
+
+
+
 
 
 
@@ -113,14 +100,16 @@ I am passionate about philosophy. I am especially interested in questions of aut
 
 
 
-<!-- My [master's thesis]([link to my thesis][thesis]) was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg).  -->
 
 
-<!-- The [work section](/work)  spells out my professional experience in greater detail.  
+
+<!-- * Meeting Without Masks -->
+
+
+<!-- 
+* Meetings Without Masks: An authentic dating event for singles. Next one: [30th September](https://www.tickettailor.com/events/meetingwithoutmasks/958578) 
  -->
-
-
-
+<!-- * Salt To Taste: a series of essays on authenticity -->
 
 
 <!-- 
@@ -137,7 +126,7 @@ I am passionate about philosophy. I am especially interested in questions of aut
 
 **Contact**
 
-I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please write to me and I'd help in any way I can.
+I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, feel free to write to me and I'd help in any way I can.
 
 
 {% include email-subscribe.html %}
