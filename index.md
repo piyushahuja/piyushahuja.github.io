@@ -77,12 +77,11 @@ I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared 
 
 During my time in Cambridge, I've learnt shooting (clay pigeons), fencing, indoor climbing, tennis, squash, tango, 5 rhythms, contact improvisation, improv theatre, drawing, and cooking. 
 
-
-Below you'd find some of my learning notes in different forms:
+The following are some essays, notes, courses that document my learnings.
 
 * [A Writing Course](/courses/writing/intro)
-* [Zen and the Art of Cooking](/cook)
-* [Improv]()
+* [Salt To Taste: How I Learnt to Stop Worrying And Love Cooking](/cook)
+* [Improv](/improv)
 
 
 
