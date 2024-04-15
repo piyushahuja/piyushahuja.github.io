@@ -20,13 +20,11 @@ section: Home
 
 ----
 
-**Where am I these days?** 
-
-Cambridge (UK).
+<!-- **Where am I these days?**  SF and Cambridge (UK). -->
 <!-- 
 I often travel to London, Oxford, New Delhi, and Chandigarh. -->
 
-<center>
+<!-- <center>
 
 <figure>
     <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height= "400" /> 
@@ -38,21 +36,20 @@ I often travel to London, Oxford, New Delhi, and Chandigarh. -->
 </figure>
 </center>
 
+ -->
 
-
----
 
 
 
 
 **Professional**
 
-
 In 2021, I was endorsed by Tech Nation as an exceptional leader in digital technology.
 
-I have experience developing and launching products for scientists and researchers in genomics as a senior software engineer at Wellcome Sanger Institute, for millions of Indian consumers as a product manager at on-demand services company Jugnoo, and for financial institutions as a global markets analytics specialist at big data firm Opera Solutions.
 
-[The work experience page](/work) lists my work history.
+[Research](/research)
+
+[Work Experience](/work) 
 
 ---
 
@@ -62,7 +59,7 @@ I read for a second BA in Philosophy, Politics and Economics at the University o
 
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
 
-[The research page](/research) has a summary of my research.
+
 
 ----
 
