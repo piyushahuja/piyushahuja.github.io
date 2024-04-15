@@ -1,4 +1,4 @@
-I"E<p><strong>Currently</strong></p>
+I"Þ<p><strong>Currently</strong></p>
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
@@ -11,16 +11,14 @@
 
 <hr />
 
-<p><strong>Where am I these days?</strong></p>
-
-<p>Cambridge (UK).
+<!-- **Where am I these days?**  SF and Cambridge (UK). -->
 <!-- 
-I often travel to London, Oxford, New Delhi, and Chandigarh. --></p>
+I often travel to London, Oxford, New Delhi, and Chandigarh. -->
 
-<center>
+<!-- <center>
 
 <figure>
-    <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height="400" /> 
+    <img src="files/images/oxford/cam.jpg" alt="Cambridge" width="550" height= "400" /> 
 
     
 
@@ -29,15 +27,16 @@ I often travel to London, Oxford, New Delhi, and Chandigarh. --></p>
 </figure>
 </center>
 
-<hr />
+ -->
 
 <p><strong>Professional</strong></p>
+
+<p><a href="/research">Research</a>
+<a href="/work">Work Experience</a></p>
 
 <p>In 2021, I was endorsed by Tech Nation as an exceptional leader in digital technology.</p>
 
 <p>I have experience developing and launching products for scientists and researchers in genomics as a senior software engineer at Wellcome Sanger Institute, for millions of Indian consumers as a product manager at on-demand services company Jugnoo, and for financial institutions as a global markets analytics specialist at big data firm Opera Solutions.</p>
-
-<p><a href="/work">The work experience page</a> lists my work history.</p>
 
 <hr />
 
@@ -46,8 +45,6 @@ I often travel to London, Oxford, New Delhi, and Chandigarh. --></p>
 <p>I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, <a href="https://www.tiarafoundation.com/copy-of-tiara-special-grant">Tiara Special Grant</a>, and a second undergraduate degree scholarship by Harris Manchester College. <a href="/philosophy">These are some essays</a> I wrote in my time at Oxford.</p>
 
 <p>Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My masterâ€™s thesis was in the design of approximation algorithms for networks under <a href="https://en.wikipedia.org/wiki/Naveen_Garg">Naveen Garg</a>.</p>
-
-<p><a href="/research">The research page</a> has a summary of my research.</p>
 
 <hr />
 
@@ -62,9 +59,9 @@ I often travel to London, Oxford, New Delhi, and Chandigarh. --></p>
 <p>The following are some essays, notes, courses that document my learnings.</p>
 
 <ul>
-  <li><a href="/courses/writing/intro">The Writing Course I Would Love To Teach</a></li>
+  <li><a href="/courses/writing/intro">A Writing Course</a></li>
   <li><a href="/cook">Salt To Taste: How I Learnt to Stop Worrying And Love Cooking</a></li>
-  <li><a href="">Improv</a></li>
+  <li><a href="/improv">Improv</a></li>
 </ul>
 
 <p>Within philosophy, I am interested in questions of authenticity and the metaphysics of the self, such as: how does our vital life force work, and what causes it to diminish or flourish? I am interested in integrating academic philosophy as well as embodied philosophical practices such as movement, meditation, and breathwork</p>
