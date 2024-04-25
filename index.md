@@ -44,18 +44,19 @@ I often travel to London, Oxford, New Delhi, and Chandigarh. -->
 
 **Professional**
 
-In 2021, I was endorsed by Tech Nation as an exceptional leader in digital technology.
-
 
 [Research](/research)
 
 [Work Experience](/work) 
 
+
 ---
 
 **Education** 
 
-I read for a second BA in Philosophy, Politics and Economics at the University of Oxford.  I was supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College. [These are some essays](/philosophy) I wrote in my time at Oxford. 
+BA in Philosophy, Politics and Economics (University of Oxford),  supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College. 
+
+[These are some essays](/philosophy) I wrote in my time at Oxford. 
 
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
 
