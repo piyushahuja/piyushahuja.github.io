@@ -1,4 +1,6 @@
-I""d<p><strong>How to think of a recursive solution?</strong></p>
+I"Ad<hr />
+
+<p><strong>How to think of a recursive solution?</strong></p>
 
 <p><strong>What is recursion?</strong></p>
 
@@ -10,6 +12,8 @@
   </li>
 </ul>
 
+<hr />
+
 <p><strong>When to use recursion?</strong></p>
 
 <ul>
@@ -19,7 +23,7 @@
       <li>the problem is defined recursively.
         <ul>
           <li>divide and conquer</li>
-          <li>dynammic programming</li>
+          <li>dynamic programming</li>
         </ul>
       </li>
     </ul>
@@ -31,6 +35,8 @@
     </ul>
   </li>
 </ul>
+
+<hr />
 
 <p><strong>Why recursion? Why not?</strong>
 two common reasons for using recursion:</p>
@@ -336,6 +342,8 @@ https://stackoverflow.com/questions/4240080/generating-all-permutations-of-a-giv
   </li>
   <li>Step 3: Run your code through test cases: especially terminal conditions</li>
 </ul>
+
+<hr />
 
 <p><strong>How to verify correctness of an iterative solution?</strong></p>
 
