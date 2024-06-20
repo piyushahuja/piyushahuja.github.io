@@ -11,7 +11,7 @@ comments: false
 
 ---
 
-
+---
 
 **How to think of a recursive solution?**
 
@@ -22,17 +22,21 @@ comments: false
 * Recursion is when a function calls itself.  
 > Recursion is the root of computation since it trades description for time.
 
+---
+
 **When to use recursion?**
 
 * Hints that recursion would be useful: 
     * the data has a recursive structure: it can be defined recursively (e.g. trees, linkedlist, natural numbers)
     * the problem is defined recursively.
         * divide and conquer
-        * dynammic programming
+        * dynamic programming
 
 * If a function calls itself to solve a subproblem, two things had better happen: 
     * The subproblem has to be simpler than the original problem 
     * Some subproblems have to be so simple that you can solve them without recursion (bottoming out)
+
+---
 
 **Why recursion? Why not?**
 two common reasons for using recursion:
@@ -260,6 +264,7 @@ References:
 * Step 3: Run your code through test cases: especially terminal conditions
 
 
+---
 
 **How to verify correctness of an iterative solution?**
 

@@ -70,16 +70,12 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 I am passionate about learning, [teaching](/teachers), and philosophy. 
 
 
-I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
-
-
-During my time in Cambridge, I've learnt shooting (clay pigeons), fencing, indoor climbing, tennis, squash, tango, 5 rhythms, contact improvisation, improv theatre, drawing, and cooking. 
-
-The following are some essays, notes, courses that document my learnings.
-
 * [A Writing Course](/courses/writing/intro)
 * [Salt To Taste: How I Learnt to Stop Worrying And Love Cooking](/cook)
 * [Improv](/improv)
+
+
+I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days. 
 
 
 
