@@ -64,10 +64,10 @@ _[Essays in Economics and Morality][rbn]{:.pdf :}_
 
 
 
-<!-- [Financial Theory and Functional Analysis]()
+[Financial Theory and Functional Analysis]()
 :   We study how concepts from measure theory can be used to capture information flow in financial markets. We show that the existence of the conditional expectation of a given random variable follows from the structure of \mathcal{L}_2 Hilbert Spaces. Interpreted this way, the conditional expectation is the orthogonal projection of the random variable on a sub − σ – algebra - the unique a.e best approximation of the random variable on the closed subspace of the space of all random variables with finite variance.
 
-_[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_. _[Conditional Expectation through Hilbert Spaces](/files/research/mad2.pdf){:.pdf :}_. _[Hilbert Spaces and Conditional Expectation (Slides)](/files/research/mad.pdf){:.pdf :}_.  -->    
+_[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_. _[Conditional Expectation through Hilbert Spaces](/files/research/mad2.pdf){:.pdf :}_. _[Hilbert Spaces and Conditional Expectation (Slides)](/files/research/mad.pdf){:.pdf :}_.     
 
 
 </div>
@@ -76,13 +76,13 @@ _[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_.
 
 <div class="section" markdown="1">
 
-<!-- Others
+Others
 =====================
 
 
  _[Yields Falsehood When Preceded by its Own Quotation][yields]{:.pdf :}_. On The Problem of Consciousness 
 
- _[Game Theory and The Dark Knight][knight]{:.pdf :}_. Published in _Infinite Epsilons_ (Maths Department Magazine) --> 
+ _[Game Theory and The Dark Knight][knight]{:.pdf :}_. Published in _Infinite Epsilons_ (Maths Department Magazine) 
 
 <!-- _[A God's Workshop in an Idle Mind][god]{:.pdf :}_. Conversations with God
 

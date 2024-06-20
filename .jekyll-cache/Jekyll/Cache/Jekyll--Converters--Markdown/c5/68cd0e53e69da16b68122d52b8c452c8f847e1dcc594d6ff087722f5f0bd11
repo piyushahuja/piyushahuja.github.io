@@ -1,4 +1,4 @@
-I"� <CENTER><h1 class="emphnext">Research Experience</h1></CENTER>
+I"�!<CENTER><h1 class="emphnext">Research Experience</h1></CENTER>
 
 <div class="section">
 
@@ -58,10 +58,12 @@ fitting algorithm for metric uncapacitated facility location by Jain et al. (cal
 
   <p><em><a href="../files/research/economicsandmorality.pdf" class="pdf">Essays in Economics and Morality</a></em></p>
 
-  <!-- [Financial Theory and Functional Analysis]()
-:   We study how concepts from measure theory can be used to capture information flow in financial markets. We show that the existence of the conditional expectation of a given random variable follows from the structure of \mathcal{L}_2 Hilbert Spaces. Interpreted this way, the conditional expectation is the orthogonal projection of the random variable on a sub − σ – algebra - the unique a.e best approximation of the random variable on the closed subspace of the space of all random variables with finite variance.
+  <dl>
+    <dt><a href="">Financial Theory and Functional Analysis</a></dt>
+    <dd>We study how concepts from measure theory can be used to capture information flow in financial markets. We show that the existence of the conditional expectation of a given random variable follows from the structure of \mathcal{L}_2 Hilbert Spaces. Interpreted this way, the conditional expectation is the orthogonal projection of the random variable on a sub − σ – algebra - the unique a.e best approximation of the random variable on the closed subspace of the space of all random variables with finite variance.</dd>
+  </dl>
 
-_[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_. _[Conditional Expectation through Hilbert Spaces](/files/research/mad2.pdf){:.pdf :}_. _[Hilbert Spaces and Conditional Expectation (Slides)](/files/research/mad.pdf){:.pdf :}_.  -->
+  <p><em><a href="/files/research/mad1.pdf" class="pdf">Capturing Information Flow: Introduction</a></em>. <em><a href="/files/research/mad2.pdf" class="pdf">Conditional Expectation through Hilbert Spaces</a></em>. <em><a href="/files/research/mad.pdf" class="pdf">Hilbert Spaces and Conditional Expectation (Slides)</a></em>.</p>
 
 </div>
 
@@ -69,13 +71,11 @@ _[Capturing Information Flow: Introduction](/files/research/mad1.pdf){:.pdf :}_.
 
 <div class="section">
 
-  <!-- Others
-=====================
+  <h1 id="others">Others</h1>
 
+  <p><em><a href="../files/essays/yields.pdf" class="pdf">Yields Falsehood When Preceded by its Own Quotation</a></em>. On The Problem of Consciousness</p>
 
- _[Yields Falsehood When Preceded by its Own Quotation][yields]{:.pdf :}_. On The Problem of Consciousness 
-
- _[Game Theory and The Dark Knight][knight]{:.pdf :}_. Published in _Infinite Epsilons_ (Maths Department Magazine) -->
+  <p><em><a href="../files/writings/knight.pdf" class="pdf">Game Theory and The Dark Knight</a></em>. Published in <em>Infinite Epsilons</em> (Maths Department Magazine)</p>
 
   <!-- _[A God's Workshop in an Idle Mind][god]{:.pdf :}_. Conversations with God
 
