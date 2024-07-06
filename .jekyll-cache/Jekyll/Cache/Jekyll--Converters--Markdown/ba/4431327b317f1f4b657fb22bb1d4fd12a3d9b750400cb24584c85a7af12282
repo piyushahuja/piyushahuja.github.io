@@ -1,0 +1,329 @@
+I"N<h1 id="general-dos">General Do’s</h1>
+
+<ul>
+  <li>Interviewing is like a show business performance. Not only the final code matters, but also how you produce it:
+    <ul>
+      <li>what clarification questions you ask (instead of going on with implicit assumptions)</li>
+      <li>how many test cases you write</li>
+      <li>how quickly you produce the first correct code</li>
+      <li>how many mistakes (bugs) you make</li>
+      <li>how easily you notice and fix them</li>
+      <li>how accurately and logically you can reason about the memory usage and speed of your code</li>
+      <li>how quickly you incorporate feedback and hints from the interviewer, how you consider and reject suboptimal solutions</li>
+      <li>how you communicate your confidence.</li>
+    </ul>
+  </li>
+  <li>
+    <p>It’s better to answer fewer questions in more thorough detail than to get through every question the interviewer may have had on his list to ask you. And it’s much more important to be neat, cogent and presentable than to be superfast when writing code. And which again, all gets down to basic psychology – showing the interviewer that you are capable of seeing things from their perspective – which in essence is what these “tests” are really about, anyway.</p>
+  </li>
+  <li>
+    <p>Be fast with trivial problems. Don’t be a candidate from whom the answers have to be wrestled out. Quickly recognize the type of problem and give a high-level solution.  A typical way to get rejected is that you produce the code in 40 minutes, but the interviewer expected to spend only 15 minutes on this question, and he had another, more interesting question for you for the remaining 25 minutes</p>
+  </li>
+  <li>If you know more, show it. There were multiple examples where you would answer a question and mention some other knowledge I had but explain that I didn’t have time in an interview to fully implement that solution.
+    <ul>
+      <li>Answering a question about strings? Show off your Unicode knowledge with your solution or explain how to support Unicode.</li>
+      <li>Implementing a private method? Talk about the Objective-C conventions for methods. Updating a table view? Talk about the different animations you can support.</li>
+      <li>Don’t bring something up if you can’t talk all about it, but if you can, it allows you to show knowledge outside of the narrow window provided by the question and gives you a leg up on anyone that sticks strictly to the beaten path.</li>
+    </ul>
+  </li>
+  <li>Overcommunicate.</li>
+  <li>Incorporate feedback and pick up hints. Be fast at mentally switching from one idea to the other one and don’t try to stick to the old idea even after being directly told that this idea is wrong?</li>
+  <li>Be comfortable with pointer based loops and recursion. The good programmers stand up, write the answer on the board, sometimes adding a clever fillip (Ooh! Unicode compliant! Nice!), and it takes thirty seconds, and now I have to decide if they’re really good, so I bring out the big guns: recursion and pointers. The best programmers all have an easy aptitude for dealing with multiple levels of abstraction simultaneously. In programming, that means specifically that they have no problem with recursion (which involves holding in your head multiple levels of the call stack at the same time) or complex pointer-based algorithms (where the address of an object is sort of like an abstract representation of the object itself).   Being able to reason recursively or inductively is important for many areas of computing, including using heirarchical data representations (e.g. XML), distributed computing, searching, and sorting.</li>
+  <li>For phone screens, I use a piece of paper (mentioning I am doing so to the interviewer). write down thought process on paper, reading aloud as I write it down. What I have on paper is usually just for me so that I don’t lose my train of thought, and before I start coding, I put down what you are going to do briefly as comments in the shared screen referring to the notes.</li>
+</ul>
+
+<hr />
+
+<h1 id="assumptions-approach-implementation">Assumptions, Approach, Implementation</h1>
+
+<ul>
+  <li>Assumptions.</li>
+  <li>Approach. Discuss the approach, graphically and in pseudocode</li>
+  <li>Implementation. Highlight and point to each step in the pseudocode as you write the code.</li>
+</ul>
+
+<p><img src="/algo_pic" title="algo_pic" width="600px" /></p>
+
+<hr />
+
+<h1 id="clarify-assumptions">Clarify Assumptions</h1>
+
+<blockquote>
+  <p>Example: <a href="https://web.stanford.edu/class/cs9/sample_probs/Anagrams.pdf">Anagrams</a></p>
+</blockquote>
+
+<p>Clarify every single thing,  no matter how small. This is the time to be pedantic. Clarify every ambiguity you can think of. Ask questions even if you’re almost sure you know the answers.</p>
+
+<p>It gives you a chance to come up with edge cases and fully spec the problem (seeing how you handle edge-cases is one of the main things that interviewers look for when evaluating an interview)</p>
+
+<p>It gives you a minute to collect your thoughts before you need to start solving the problem.</p>
+
+<ul>
+  <li>
+    <p><strong>Paraphrase</strong>. Rephrase a sentence, say it aloud, and ask for confirmation.</p>
+  </li>
+  <li>
+    <p><strong>Partition and verify output for examples.</strong></p>
+
+    <p>One way to generate questions is to start working through small examples and asking if the answer you expect agrees with the interviewer. It helps to visualize first what the problem is. Bring up specific examples of input, and make sure you are correct about the expected output.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Problem: Delete a course named 6.000 from list.</p>
+</blockquote>
+
+<blockquote>
+  <p>Partition:   <br />
+     subjects.size: 0, 1, n   <br />
+     contents: no 6.xx, one 6.xx, all 6.xx.    <br />
+     position: 6.xx at start, 6.xx in middle, 6.xx at end</p>
+</blockquote>
+
+<blockquote>
+  <p>If it’s a problem related to trees, I would start with the null case, one node, two nodes, three nodes. This can help you generalize a solution.</p>
+</blockquote>
+
+<ul>
+  <li><strong>Suggest what should be done in edge cases.</strong>
+    <blockquote>
+      <p>Should adding (Key, null) delete existing key? Should null keys be allowed?</p>
+    </blockquote>
+  </li>
+  <li><strong>Ask about the scope</strong>
+    <blockquote>
+      <p>“Can I use a small set of data?”    <br />
+Is this in a user or customer facing system? <br />
+How often will this be called? <br />
+What’s the typical size of an input? What’s the largest size of an input? <br />
+How is the process that this will be a part of run? Is it a service? Is it run on a schedule?    <br />
+Are there any constraints (memory usage, execution time, etc.)?</p>
+    </blockquote>
+  </li>
+  <li><strong>How would clients call this? Determine Specification and preconditions on the funnction</strong></li>
+</ul>
+
+<blockquote>
+  <p>“Can I assume the input array is sorted?”</p>
+</blockquote>
+
+<blockquote>
+  <p>I remember one interview solution that relied entirely on all the inputs being positive integers, but I almost failed the interview because I couldn’t figure out what to do when I got zero as an input. If I would have read the problem more carefully, I would have realized that zero was not included in the possible inputs.</p>
+</blockquote>
+
+<blockquote>
+  <p>How to expose elements of the data structure? Should I implement the the iterable interface by providing an iterator()?</p>
+</blockquote>
+
+<blockquote>
+  <p>Implement data structure with Generics or assume a type used by the user int/string</p>
+</blockquote>
+
+<ul>
+  <li>Should I quickly get something running, or follow a methodology (say TDD) or optimise for code reuse and elegance (say SOLID principles) or design anticipating future requirements in mind.
+    <blockquote>
+      <p>In the Diamond Kata, might the client want to start from a different character than A tomorrow?    <br />
+String reverse: don’t repeat yourself (use only one array!).</p>
+    </blockquote>
+
+    <p>Approaching the problem from a test driven perspective first might seem the logical way, but what about just writing the code to solve the problem, holding back on the test driven approach until you’re asked how you could make it better, let the conversation take it. Some places still don’t understand what test driven really means, so you might come across as too advanced. If you want to find out about whether they value this skill set, aim your questions to them around finding out about their development process.</p>
+  </li>
+  <li><strong>Optional: Validate assumptions of data structure and complexity beforehand</strong></li>
+</ul>
+
+<hr />
+
+<h1 id="discuss-approach">Discuss Approach</h1>
+
+<ul>
+  <li>
+    <p><strong>Explain your thought process before you begin coding.</strong></p>
+
+    <p><strong>Be sure to talk to the interviewer about your thinking and intentions</strong>. Even in cases where you are not stuck, always enunciate your approach, <strong>explaining your rationale.</strong>  It might slow you down a little at the beginning, but communication is more important than anything and it only helps with the interview.</p>
+
+    <p>Explain your thinking out loud as much as possible, but don’t talk too much if it distracts you from finding the solution.  Silence can be awkward in an interview, but you can control it. <strong>Say “I’ll take a second to look this over” to break the silence</strong> and will allow you to concentrate on solving the problem rather than finding the right words to say.</p>
+
+    <p><strong>If some part of your solution is coming from intuition, mention so.</strong></p>
+
+    <p><strong>Document the steps while communicating your thought process</strong></p>
+  </li>
+  <li>
+    <p><strong>Point out the obvious naive solution.</strong></p>
+
+    <p>Make sure that you always give a solution to the problem you’ve been asked (even if it is obvious, or wrong, or even if it takes exponential time, or an NSA super computer).</p>
+
+    <p>While you’re explaining this, think of how to improve it. You should only talk through the simplest brute-force solution to the problem that you can think of. You should talk, rather than jump right into coding, because you can move faster when talking, and it’s more engaging for the interviewer. If the interviewer is engaged, they will step in and offer pointers. If you retreat into writing code, however, you’ll miss this opportunity.</p>
+
+    <p>When you’ve described a brute-force solution, ask the interviewer if they would like you to implement it, or come up with more efficient solution.</p>
+
+    <p>Normally they will tell you to come up with a more efficient solution.</p>
+  </li>
+  <li>
+    <p><strong>Get to the more efficient solution.</strong></p>
+
+    <ul>
+      <li><strong>Talk and bounce ideas off of the interviewer. Don’t write code just yet.</strong></li>
+    </ul>
+
+    <p>Hopefully, the question will be similar to something you’ve seen, and you’ll know the answer.</p>
+
+    <ul>
+      <li><strong>It’s useful to think of what problems you’ve seen that are most similar, and bring these up with the interviewer.</strong></li>
+    </ul>
+
+    <p>Most interview questions are slightly-obscured applications of classic CS algorithms. The interviewer will often guide you to this algorithm, but only if you begin the process.</p>
+  </li>
+  <li>
+    <p>Sometimes you’ll get stuck. Relax. It doesn’t mean you’ve failed. Keep in mind that the interviewer usually cares more about your ability to cleverly poke the problem from a few different angles than your ability to stumble into the correct answer. When hope seems lost, keep poking.</p>
+  </li>
+  <li>
+    <p>If you get stuck finding a solution and if you had communicated your thought process, continue to think aloud and explain the problem with your approach. Thereafter, try to salvage your current approach.  Think out loud more. Say what you know. Say what you thought might work and why .Even if you don’t solve the problem, you can still impress your interviewer with your thinking. Even if they reject you, the feedback in their record can be positive and you may get a chance later down the line. t won’t work. You might realize it actually does work, or a modified version does. Or you might get a hint.</p>
+  </li>
+  <li>
+    <p>Go back to the drawing board and try to find another solution.</p>
+  </li>
+  <li>
+    <p><strong>Solve by Hand and Automate.</strong> Draw pictures. Don’t waste time trying to think in your head—think on the board.  Draw a couple different test inputs. Draw how you would get the desired output by hand. Then think about automating your approach.</p>
+  </li>
+  <li>
+    <p><strong>Solve a simpler version of the problem.</strong></p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Not sure how to find the 4th largest item in the set? Think about how to find the 1st largest item and see if you can adapt that approach.</p>
+</blockquote>
+
+<ul>
+  <li><strong>Think about the bounds on space and runtime.</strong> If you’re not sure if you can optimize your solution, think about it out loud. For example:
+    <blockquote>
+      <p>“I have to at least look at all of the items, so I can’t do better than O(n)O(n).”
+“The brute force approach is to test all possibilities, which is O(n^2)O(n2).”
+“The answer will contain n^2n2 items, so I must at least spend that amount of time.”</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Discern hints and go down a path.</strong></p>
+
+    <p>Always look out for questions/comments from the interviewer: they may actually be a hint and may prove to be a lifeline.  * Wait for a hint. Don’t stare at your interviewer expectantly, but do take a brief second to “think”—your interviewer might have already decided to give you a hint and is just waiting to avoid interrupting.</p>
+
+    <p>Interviewers usually have a series of questions ready to guide the candidate down a particular path in the design of this data structure or block of code, because it’s such a big question, and they can often tell how smart the candidate is by how far they get down that path in a fixed amount of time.    I don’t really mind giving programming problems that are too hard, as long as the candidate has some chance of starting out, and then I’m happy to dole out little hints along the way, little toeholds, so to speak.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Example: Project a triangle onto a plane, a typical graphics problem, and I don’t mind helping them with the trig (SOH-CAH-TOA, baby!), and when I ask them how to speed it up, I might drop little hints about look-up tables. Notice that the kinds of hints I’m happy to provide are really just answers to trivia questions—the kinds of things that you find on Google.</p>
+</blockquote>
+
+<hr />
+
+<ul>
+  <li>
+    <p><strong>Write the pseudocode first.</strong></p>
+
+    <p>Before you start coding,  put down what you are going to do briefly as comments in the shared screen referring to the notes.</p>
+  </li>
+  <li>
+    <p><strong>List things the algorithm needs to do at the bare minimum.</strong></p>
+
+    <p>On the whiteboard, write down a list of the things the algorithm needs to do.  Focus on the smallest amount of code that can provide the answer that is being requested.</p>
+    <ul>
+      <li>Smaller code is easier for the reviewer to understand (if you’re doing something tricky).</li>
+      <li>Employers are looking for developers to solve problems. So, they’re keen to know if you can take a requirement, run with it and turn it in to a solution</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="write-code">Write Code</h1>
+
+<ul>
+  <li>
+    <p>Finally, after both you and your interviewer agree that you have a good solution, you should write your code. Depending on the company, this may be on a computer or a whiteboard. But because you’ve already come up with the solution, this should be fairly straightforward.</p>
+  </li>
+  <li>
+    <p>Solve the problem first. Mention you’d refactor later.</p>
+
+    <ul>
+      <li>Do not start by building up infrastructure around the problem.</li>
+      <li>Do not start thinking about nugget packages you need for the problem.</li>
+      <li>Point out that you’re leaving a code comment for error handling.  (Handling of Exceptions, Try-Catch blocks)
+        <ul>
+          <li>Validating arguments: Throw Nullpointer exception, or Illegalargument exception or  IllegalState exception. common validations can be factored out into utility classes.</li>
+        </ul>
+
+        <p>The interviewer might say that you can assume that the parameters you’re getting already passed a validation. However, it is still important to bring this up to show that you are aware of error cases and quality.  or the interviwer might say, “That’s a good point. How would you handle it? Would you throw an exception? Or return a specific value?” This can make for a good short discussion about code quality. Mention a few error cases.</p>
+      </li>
+      <li>
+        <p><a href="/ood-practices">Point out SOLID prinnciples and OOD best practices</a>.</p>
+      </li>
+      <li>For extra points, ask your interviewer if they would like you to write tests.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="test-by-walking-through-examples">Test by walking through examples</h1>
+
+<p>How do you know the code works? How do you design a unit test? What kinds of conditions do you assert in the code? How do you debug a crash? What if it’s intermittent? What types of mistakes lead to intermittent bugs?</p>
+
+<ul>
+  <li>
+    <p>Consider how you would test your code, and what your test cases would be. Use the assumptions section as a place to write clean test code, if you should choose to do so.  Organize your test cases in different categories.</p>
+  </li>
+  <li>
+    <p>Re-use the examples from brainstorming to walk through your code and make sure it works.</p>
+  </li>
+  <li>
+    <p>Ask yourself “OK, so where’s the bug?”, “Amy I satisfied with that code?”,  “What did I forget?”. Check for failure modes and possible optimizations.  (before the interviewer has a chance to give you that annoying “that’s nice. but aren’t you missing something?” line).  All programmers make mistakes, there’s nothing wrong with that, they just have to be able to find them.</p>
+  </li>
+</ul>
+
+<p>Possible sources of bugs:</p>
+
+<blockquote>
+  <p>With string functions in C, most college kids forget to null-terminate the new string.
+likely to have off-by-one errors.       <br />
+forget semicolons sometimes.       <br />
+Won’t work correctly on 0 length strings      <br />
+GPF if malloc fails… 
+Integer Overflow
+Mutable Objects</p>
+</blockquote>
+
+<hr />
+
+<h1 id="discuss-performance">Discuss performance</h1>
+
+<ul>
+  <li>
+    <p>Talk about time/space tradeoffs</p>
+  </li>
+  <li>
+    <p>“What are the performance characteristics of my algorithm?”</p>
+  </li>
+</ul>
+
+<p>Think about extreme quantities. For example, if the problem is about lists, mention that you would have a case with a large list and a really small list. If it’s about numbers, you’ll test the maximum integer number and the smallest.</p>
+
+<hr />
+
+<ul>
+  <li>
+    <p><strong>Thank the interviewer</strong></p>
+
+    <p>Always remember to thank your interviewer via email preferably by the end of the same business day that you interviewed with them. Even if the company isn’t your top choice, someone took time out of their busy schedule to interview you, so it’s important to thank them. And, if you learned something new, a quick thank you email is a great way to reiterate that.</p>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>References</strong></p>
+
+<ul>
+  <li><a href="https://blog.pramp.com/how-to-interview-well-as-a-software-engineer-f64c2631158c">How to interview by Pramp</a></li>
+</ul>
+
+:ET

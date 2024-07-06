@@ -1,0 +1,62 @@
+I"�
+<CENTER><h1 class="emphnext">Infrastructure</h1></CENTER>
+
+<div class="section list">
+  <h1>25 Feb 2019</h1>
+  <p class="line">
+  <a class="title" href="/ood-practices">Design Patterns</a>
+<!--   <a class="comments" href="/ood-practices#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p>The essential idea is that an abstract data type is defined by its operations. The set of operations for a type T, along with their specifications, fully characterize what we mean by T. when we talk about the List type, what we mean is not a linked list or an array or any other specific data structure for representing a list. Instead we mean a set of opaque values – the possible objects that can have List type – that satisfy the specifications of all the operations of List: get(), size(), etc. (maps to interfaces in Java?)</p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>27 Oct 2018</h1>
+  <p class="line">
+  <a class="title" href="/system">System Design</a>
+<!--   <a class="comments" href="/system#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p>TLDR: use clusters, use caching, sharding and replication, use redundancy, use parallelisation (multi-threading, load balancing etc.),  use async workflows, avoid points of contention and sync issue.</p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>23 Oct 2018</h1>
+  <p class="line">
+  <a class="title" href="/auth">Understanding OAuth</a>
+<!--   <a class="comments" href="/auth#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p>Understanding OAuth
+https://stackoverflow.com/questions/13387698/why-is-there-an-authorization-code-flow-in-oauth2-when-implicit-flow-works-s
+https://medium.com/google-cloud/understanding-oauth2-and-building-a-basic-authorization-server-of-your-own-a-beginners-guide-cf7451a16f66</p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>21 Feb 2018</h1>
+  <p class="line">
+  <a class="title" href="/backend">Backend Design</a>
+<!--   <a class="comments" href="/backend#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p><strong>Properties of Systems</strong>
+Real-World Performance. You should be familiar with the speed of everything your computer can do, including the relative performance of RAM, disk, SSD and your network.</p>
+</p>-->
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script type="text/javascript" src="http://disqus.com/forums/piyushahujanotes/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+//]]>
+</script>
+
+:ET

@@ -1,0 +1,89 @@
+I"e<CENTER><h1 class="emphnext">Programming Languages</h1></CENTER>
+
+<div class="section list">
+  <h1>01 Jun 2021</h1>
+  <p class="line">
+  <a class="title" href="/ansible">Ansible</a>
+<!--   <a class="comments" href="/ansible#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><center><img src="files/tech/ansible.jpg" alt="Frontend" width="600" height="400" /></center>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>31 May 2021</h1>
+  <p class="line">
+  <a class="title" href="/terraform">Terraform</a>
+<!--   <a class="comments" href="/terraform#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p>Terraform is a <strong>tool for building, changing, and versioning infrastructure safely and efficiently</strong>.  Terraform is an open source command line tool that can be used to provision any kind of infrastructure on dozens of different platforms and services. With Terraform you simply declare resources and how you want them configured and then Terraform will map out the dependencies and build everything for you.  Terraform is a great infrastructure provisioning tool, but you may have noticed that it doesn’t come with a config management system. We use Terraform to stand up virtual machines or cloud instances, and then we hand over the reins to Ansible to finish up the configuration of our OS and applications.</p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>28 May 2021</h1>
+  <p class="line">
+  <a class="title" href="/js">Javascript</a>
+<!--   <a class="comments" href="/js#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p>For understanding loops and closures
+https://stackoverflow.com/questions/16937223/pass-a-parameter-to-filereader-onload-event</p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>27 May 2021</h1>
+  <p class="line">
+  <a class="title" href="/asyncio">Python Asyncio</a>
+<!--   <a class="comments" href="/asyncio#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p><strong>Cheatsheets</strong></p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>25 May 2021</h1>
+  <p class="line">
+  <a class="title" href="/python">Python</a>
+<!--   <a class="comments" href="/python#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p><a href="https://docs.python.org/3/reference/datamodel.html">Data Model</a></p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>15 Apr 2020</h1>
+  <p class="line">
+  <a class="title" href="/docker">Docker</a>
+<!--   <a class="comments" href="/docker#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><h1 id="what-is-docker">What is Docker?</h1>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>14 Feb 2020</h1>
+  <p class="line">
+  <a class="title" href="/nginx">Nginx</a>
+<!--   <a class="comments" href="/nginx#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><h1 id="what-is-nginx">What is nginx?</h1>
+</p>-->
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script type="text/javascript" src="http://disqus.com/forums/piyushahujanotes/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+//]]>
+</script>
+
+:ET
