@@ -79,7 +79,7 @@ I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared 
 
 
 
-Within philosophy, I am interested in questions of authenticity and the metaphysics of the self, such as: how does our vital life force work, and what causes it to diminish or flourish? I am interested in integrating academic philosophy as well as embodied philosophical practices such as movement, meditation, and breathwork
+Within philosophy, I am interested in questions of authenticity and the metaphysics of the self, such as: how does our vital life force work, and what causes it to diminish or flourish? I am interested in integrating academic philosophy and embodied philosophical practices.
 
 
 
