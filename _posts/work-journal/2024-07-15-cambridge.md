@@ -1,14 +1,14 @@
 ---
 
 layout: post-work-journal
-title: Platonia
-date:   2017-07-25 09:00:11
+title: Cambridge Innovation Labs
+date:   2024-07-15 09:00:11
 tag: 
 categories: work
-excerpt: Stealth Startup
-permalink: /platonia
-startYear: 2017
-endYear: 2019
+excerpt: AI Dialogue Moderator, Learning Web
+permalink: /innovation-labs
+startYear: 2023
+endYear: 2024
 designation: Founder 
 ---
 
