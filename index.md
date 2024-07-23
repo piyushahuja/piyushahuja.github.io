@@ -114,9 +114,9 @@ Within philosophy, I am interested in questions of authenticity and the metaphys
 
 **Contact**
 
-<!-- 
+
 I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, feel free to write to me and I'd help in any way I can.
- -->
+
 
 {% include email-subscribe.html %}
 
