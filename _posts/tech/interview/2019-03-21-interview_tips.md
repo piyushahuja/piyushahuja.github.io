@@ -3,7 +3,7 @@ layout: post-journal
 title: General Mindset
 date:   2019-04-10 09:00:11
 tag:  
-categories: interview
+categories: 
 excerpt: 
 permalink: /interview_tips
 comments: false

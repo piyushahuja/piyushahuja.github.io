@@ -3,7 +3,7 @@ layout: page-home
 title: Interview Advice
 date:  2017-10-27 09:00:11
 tag: 
-categories: tech
+categories: 
 excerpt: 
 permalink: /interview
 comments: false

@@ -3,7 +3,7 @@ layout: post-journal
 title: Competency Interview
 date:   2019-04-09 09:00:11
 tag: 
-categories: interview
+categories: 
 excerpt: 
 permalink: /competency-interview
 comments: false
