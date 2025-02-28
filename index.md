@@ -14,7 +14,7 @@ section: Home
 
 
 
-* Founder, Cambridge Innovation Labs (backed by Innovate UK) 
+* Founder, [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/)
 * Entrepreneur in Residence, DEFI, University of Cambridge 
 
 
