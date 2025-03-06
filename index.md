@@ -57,8 +57,6 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
  **Beyond Work** 
 
-I'm passionate about philosophy and [teaching](/teachers).
-
 In a past life, I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days.  
 
 <!-- I was also awarded the Cumulative Outstanding Contribution to Board of Recreation & Creative Activities.
