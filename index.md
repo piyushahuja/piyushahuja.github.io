@@ -14,7 +14,7 @@ section: Home
 
 
 
-I am founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/). Since 2024, I have been an Entrepreneur in Residence, [Digital Education Futures Initiative](https://www.deficambridge.org/), University of Cambridge.
+I am the founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/). Since 2024, I have been an Entrepreneur in Residence, [Digital Education Futures Initiative](https://www.deficambridge.org/), University of Cambridge.
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
