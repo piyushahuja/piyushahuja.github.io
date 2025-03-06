@@ -6,7 +6,9 @@ section: Home
 ---
 
 
+**Summary**
 
+I'm a entrepreneur, technologist, and researcher based in Cambridge. 
 
 **Currently**
 
@@ -15,9 +17,7 @@ section: Home
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
-
-
-I am the founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/). Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/) at the University of Cambridge.
+As the founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/), I lead an Innovate UK backed AI product studio.  So far, we have focussed on education and enterprise data cleaning. Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/) at the University of Cambridge.
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
@@ -40,9 +40,9 @@ I am the founding director of [Cambridge Innovation Labs](https://cambridgeinnov
 ---
 
 
-**Professional**
+**Professional Experience**
 
-I have about ten years of experience spanning startups, research, and tech organizations. These pages: [work](/work) and [research](/research) contain the details.
+I have over a decade of experience across startups, research institutions, and technology organizations. These pages: [work](/work) and [research](/research) contain the details.
 
 ---
 
@@ -50,19 +50,22 @@ I have about ten years of experience spanning startups, research, and tech organ
 
 I read for a **second** BA in [Philosophy, Politics and Economics](https://www.theguardian.com/education/2017/feb/23/ppe-oxford-university-degree-that-rules-britain?CMP=fb_gu) with senior status at the University of Oxford. I was supported by the KC Mahindra Scholarship, Tiara Special Grant, and a second undergraduate degree scholarship by Harris Manchester College. 
 
-At Oxford, I  wrote an [thesis on congestion option pricing](../files/research/ppethesis.pdf)  and specialized in philosophy of maths. [These are some essays](/philosophy) from that time.
+At Oxford, I  wrote a [thesis on congestion option pricing](../files/research/ppethesis.pdf)  and specialized in philosophy of maths. [These are some essays](/philosophy) from that time.
 
-Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Maths and Computing in 2013. My master's thesis in the [design of approximation algorithms for networks](../files/research/thesis.pdf) under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg) was awarded an outstanding grade by a joint panel of maths and cs department.
-
+Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Maths and Computing in 2013. My master's thesis in the [design of approximation algorithms for networks](../files/research/thesis.pdf) under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg) (awarded an outstanding grade). 
 
 
 ----
 
- **Hobbies** 
+ **Beyond Work** 
+
+I'm passionate about philosophy and [teaching](/teachers)
 
 In a past life, I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days.  
 
+<!-- I was also awarded the Cumulative Outstanding Contribution to Board of Recreation & Creative Activities.
 
+ -->
 <!-- 
 Within philosophy, I am interested in questions of authenticity and the metaphysics of the self, such as: how does our vital life force work, and what causes it to diminish or flourish? I am interested in integrating academic philosophy and embodied philosophical practices.
 
@@ -108,11 +111,14 @@ Within philosophy, I am interested in questions of authenticity and the metaphys
 
 **Contact**
 
+If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please reach out: I'd be happy to help in any way I can.
 
-I find a lot of value in supporting others. If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, feel free to write to me and I'd help in any way I can.
+Email: piyushahuja.in@gmail.com
+
+Social: [LinkedIn](https://www.linkedin.com/in/piyush-ahuja-2006041b/) \| [Twitter](https://x.com/piyushahuja_in) \|  [GitHub](https://github.com/piyushahuja)
 
 
-{% include email-subscribe.html %}
+
 
 [resumeFile]: ../files/piyush_resume.pdf 
 [thesis]: ../files/research/thesis.pdf
