@@ -42,7 +42,7 @@ As the founding director of [Cambridge Innovation Labs](https://cambridgeinnovat
 
 **Professional Experience**
 
-I have over a decade of experience across startups, research institutions, and technology organizations. These pages: [work](/work) and [research](/research) contain the details.
+I have just a little over a decade of experience across startups, research institutions, and technology organizations. These pages: [work](/work) and [research](/research) contain the details.
 
 ---
 
