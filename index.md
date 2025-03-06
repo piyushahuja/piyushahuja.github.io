@@ -14,8 +14,7 @@ section: Home
 
 
 
-* Founder, [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/)
-* Entrepreneur in Residence, DEFI, University of Cambridge 
+I am founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/). Since 2024, I have been an Entrepreneur in Residence, [Digital Education Futures Initiative](https://www.deficambridge.org/), University of Cambridge.
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
@@ -40,38 +39,25 @@ section: Home
 
 **Professional**
 
-[Work Experience](/work) 
-
-[Research](/research)
-
-
+I have ten years of experience in startups, research, and tech organizations. Details of [work](/work) and [research](/research)
 
 ---
 
 **Education** 
 
-BA in Philosophy, Politics and Economics (University of Oxford),  supported by the KC Mahindra Scholarship, [Tiara Special Grant](https://www.tiarafoundation.com/copy-of-tiara-special-grant), and a second undergraduate degree scholarship by Harris Manchester College. 
+I read for a **second** BA in [Philosophy, Politics and Economics](https://www.theguardian.com/education/2017/feb/23/ppe-oxford-university-degree-that-rules-britain?CMP=fb_gu) with senior status at the University of Oxford. I was supported by the KC Mahindra Scholarship, Tiara Special Grant, and a second undergraduate degree scholarship by Harris Manchester College. 
 
-[These are some essays](/philosophy) I wrote in my time at Oxford. 
+At Oxford, I  wrote an [thesis on congestion option pricing](../files/research/ppethesis.pdf)  and specialized in philosophy of maths. [These are some essays](/philosophy) from that time.
 
-Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Mathematics and Computing in 2013. My master's thesis was in the design of approximation algorithms for networks under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
+Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Maths and Computing in 2013. My master's thesis in the [design of approximation algorithms for networks](../files/research/thesis.pdf) under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg) was awarded an outstanding grade by a joint panel of maths and cs department.
 
 
 
 ----
 
-<!-- **Interests** 
- -->
+ **Interests** 
 
-<!-- I am passionate about learning, [teaching](/teachers), and philosophy. 
-
-
-* [A Writing Course](/courses/writing/intro)
-* [Salt To Taste: How I Learnt to Stop Worrying And Love Cooking](/cook)
-* [Improv](/improv)
-
-
-I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days.  -->
+In a past life, I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days.  
 
 
 <!-- 
@@ -80,6 +66,10 @@ Within philosophy, I am interested in questions of authenticity and the metaphys
  -->
 
 
+<!-- * [A Writing Course](/courses/writing/intro)
+* [Salt To Taste: How I Learnt to Stop Worrying And Love Cooking](/cook)
+* [Improv](/improv)
+ -->
 
 
 <!--  With Sarah Maughan, I run a conscious dating workshop in Cambridge.  -->
@@ -111,6 +101,7 @@ Within philosophy, I am interested in questions of authenticity and the metaphys
 - **Creative Collaborations:** If you'd like to collaborate on something for *fun*, please don't hesitate to reach out. Here are some ideas: a podcast, a comedy sketch, a mobile app, or any long-form writing assignment. 
  -->
 
+---
 
 **Contact**
 
