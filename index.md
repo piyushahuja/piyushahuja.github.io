@@ -8,7 +8,7 @@ section: Home
 
 **Summary**
 
-I'm a entrepreneur, technologist, and researcher based in Cambridge. 
+I'm an entrepreneur and computer science researcher based in Cambridge. 
 
 **Currently**
 
@@ -17,7 +17,7 @@ I'm a entrepreneur, technologist, and researcher based in Cambridge.
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
-As the founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/), I lead an Innovate UK backed AI product studio.  So far, we have focussed on education and enterprise data cleaning. Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/) at the University of Cambridge.
+As the founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/), I lead an Innovate UK backed AI product studio.  So far, we have focussed on education and enterprise data cleaning. Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/).
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
@@ -48,9 +48,7 @@ I have over a decade of experience across startups, research institutions, and t
 
 **Education** 
 
-I read for a **second** BA in [Philosophy, Politics and Economics](https://www.theguardian.com/education/2017/feb/23/ppe-oxford-university-degree-that-rules-britain?CMP=fb_gu) with senior status at the University of Oxford. I was supported by the KC Mahindra Scholarship, Tiara Special Grant, and a second undergraduate degree scholarship by Harris Manchester College. 
-
-At Oxford, I  wrote a [thesis on congestion option pricing](../files/research/ppethesis.pdf)  and specialized in philosophy of maths. [These are some essays](/philosophy) from that time.
+I read for a **second** BA in [Philosophy, Politics and Economics](https://www.theguardian.com/education/2017/feb/23/ppe-oxford-university-degree-that-rules-britain?CMP=fb_gu) with senior status at the University of Oxford. I  wrote a [thesis on congestion option pricing](../files/research/ppethesis.pdf)  and specialized in philosophy of maths. [These are some essays](/philosophy) from that time.
 
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Maths and Computing in 2013. My master's thesis in the [design of approximation algorithms for networks](../files/research/thesis.pdf) under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg) (awarded an outstanding grade). 
 
@@ -59,7 +57,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
  **Beyond Work** 
 
-I'm passionate about philosophy and [teaching](/teachers)
+I'm passionate about philosophy and [teaching](/teachers).
 
 In a past life, I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days.  
 
