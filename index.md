@@ -39,7 +39,7 @@ I am founding director of [Cambridge Innovation Labs](https://cambridgeinnovatio
 
 **Professional**
 
-I have ten years of experience in startups, research, and tech organizations. Details of [work](/work) and [research](/research)
+I have about ten years of experience spanning startups, research, and tech organizations. These pages: [work](/work) and [research](/research) contain the details.
 
 ---
 
@@ -55,7 +55,7 @@ Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in
 
 ----
 
- **Interests** 
+ **Hobbies** 
 
 In a past life, I used to be a competitive quizzer. I had my 15 minutes on fame when I appeared on some [nationally televised quiz shows](https://www.youtube.com/watch?v=-5pdjrdj0uA) in my college days.  
 
