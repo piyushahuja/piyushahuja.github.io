@@ -10,11 +10,14 @@ section: Home
 
 **Currently**
 
+
+
+
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
 
 
-I am the founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/). Since 2024, I have been an Entrepreneur in Residence, [Digital Education Futures Initiative](https://www.deficambridge.org/), University of Cambridge.
+I am the founding director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/). Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/) at the University of Cambridge.
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
