@@ -70,3 +70,19 @@ Basic forms of germ theory were proposed by Girolamo Fracastoro in 1546, and exp
 
 By the early 19th century, smallpox vaccination was commonplace in Europe, though doctors were unaware of how it worked or how to extend the principle to other diseases. A transitional period began in the late 1850s with the work of Louis Pasteur. This work was later extended by Robert Koch in the 1880s. By the end of that decade, the miasma theory was struggling to compete with the germ theory of disease. Viruses were initially discovered in the 1890s. Eventually, a "golden era" of bacteriology ensued, during which the germ theory quickly led to the identification of the actual organisms that cause many diseases
 
+----
+
+**EEG**
+
+Hans Berger, the inventor of the electroencephalogram (EEG), has one of the most fascinating origin stories in the history of neuroscience—one that involves a strange premonition.
+
+In 1892, Berger was a young German soldier performing his military service. One day, while stationed in Würzburg, he was assigned to a dangerous task involving horse artillery. In a freak accident, his horse suddenly reared up, throwing him off and nearly trampling him. He narrowly escaped death.
+
+At that exact moment, miles away in his hometown, Berger’s sister had a sudden and overwhelming feeling that something terrible had happened to him. She was so distressed that she convinced their father to send him a telegram, asking if he was safe. Berger later recalled this event as a turning point in his life. He was deeply shaken by the apparent telepathic connection between him and his sister.
+
+This experience convinced Berger that human brains must be able to transmit signals, even at a distance. He became obsessed with finding a scientific explanation for thought transmission. Though he never proved telepathy, this led him to dedicate his career to studying the brain’s electrical activity.
+
+Decades later, in 1924, Berger made his groundbreaking discovery—he successfully recorded the first human EEG, detecting rhythmic electrical waves in the brain (which he called the "alpha waves"). His work laid the foundation for modern neuroscience and brain-computer interfaces.
+
+So, in a strange way, a brush with death and a moment of unexplained intuition led to one of the greatest breakthroughs in brain science.
+
