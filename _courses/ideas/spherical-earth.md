@@ -182,5 +182,6 @@ Epicycles, phlogiston, caloric, ether.
 * [Emergence of Modern Astronomy](https://thonyc.wordpress.com/2020/07/15/the-emergence-of-modern-astronomy-a-complex-mosaic-part-xl/)
 * [Finding our place](https://www.loc.gov/static/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/ancient-greek-astronomy-and-cosmology.html#:~:text=In%20the%205th%20century%20B.C.,moon%20it%20is%20clearly%20round)
 * [Repeat Eratosthenes](https://www.juliantrubin.com/bigten/eratosthenes.html)
+* [Pyramids](https://x.com/Philosophi_Cat/status/1897760135038308680)
 
 
