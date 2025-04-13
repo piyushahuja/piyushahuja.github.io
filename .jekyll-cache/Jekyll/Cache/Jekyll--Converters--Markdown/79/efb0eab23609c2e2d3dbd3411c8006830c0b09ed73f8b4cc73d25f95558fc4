@@ -1,0 +1,65 @@
+I"'<CENTER><h1 class="emphnext">Automated Theorem Proving</h1></CENTER>
+
+<div class="section list">
+  <h1>29 Aug 2019</h1>
+  <p class="line">
+  <a class="title" href="/algorithm">Algorithm Design</a>
+<!--   <a class="comments" href="/algorithm#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><hr />
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>12 Jun 2018</h1>
+  <p class="line">
+  <a class="title" href="/dp-practice">Activity Selection</a>
+<!--   <a class="comments" href="/dp-practice#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><p>Tips: For an algorithm that just needs min or max value to work at eachs step, and node the whole sorted order, one can reduce time complexity from O(nlogn) to (O(n)) by working with the kth smallest (or largest) element instead of min or max. Here k should be a linear function of n. For example, k can be the median (k = n/2). Median can be found in O(n) times</p>
+</p>-->
+</div>
+
+<div class="section list">
+  <h1>28 May 2018</h1>
+  <p class="line">
+  <a class="title" href="/dp">Dynamic Programming</a>
+<!--   <a class="comments" href="/dp#disqus_thread">View Comments</a> -->
+  </p>
+  <!--<p class="excerpt"><ul>
+  <li>Most of DP problems can be divided into two types: optimization problems and combinatoric problems.
+    <ul>
+      <li>The optimization problems require you to choose some feasible solution so that the value of goal function is minimized (or maximized). You are often trying to either minimize or maximize a decision. You are given two (or more) options at any given point and you have to decide which is more optimal for the problem you’re trying to solve. These decisions, however, are based on previous choices you made.
+        <ul>
+          <li>The optimal substructure vares n how many subproblems are used n an optimal solution to the original problem and  how many choices we have in detemining which subproblems to use.
+            <blockquote>
+              <p>Optimal Parenthisizaton: 2 subproblems used, n choices at most    <br />
+Activity Selection Naive: 2 subproblems, n choices at most.    <br />
+Acvitity Selection Greedy Observation: 1 subproblem, 1 choice  <br />
+Assembly Line Scheduling: 1 subproblems used 2 choices</p>
+            </blockquote>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+</p>-->
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script type="text/javascript" src="http://disqus.com/forums/piyushahujanotes/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+//]]>
+</script>
+
+:ET
