@@ -16,14 +16,22 @@ comments: false
 
 **What is performance of LLMs stand vs other approaches?**
 
-**What are the main benchmarks?**  Frontier Math, MathArena
+**What are the main datasets and benchmarks?**  Frontier Math, MathArena, MiniF2F
+
+**How is automated theorem proving different from automated formal verification?**
 
 
+Automated formal veriication: imagine a world where no critical software or hardware has any bugs. 
 
+---
 
-AlphaGeometry was shown to solve mathematical geometry problems on the level of the International Math Olympiad (IMO)
+AlphaGeometry was shown to solve mathematical geometry problems on the level of the International Math Olympiad (IMO).
+
+We present AlphaGeometry2, a significantly improved version of AlphaGeometry introduced in Trinh et al. (2024), which has now surpassed an average gold medalist in solving Olympiad geometry problems. mproved the coverage rate of the AlphaGeometry language on International Math Olympiads (IMO) 2000-2024 geometry problems from 66% to 88%. The search process of AlphaGeometry2 has also been greatly improved through the use of Gemini architecture for better language modeling, and a novel knowledge-sharing mechanism that combines multiple search trees. Together with further enhancements to the symbolic engine and synthetic data generation, we have significantly boosted the overall solving rate of AlphaGeometry2 to 84% for all geometry problems over the last 25 years, compared to 54% previously.
+
 
 AIMO Prize: The AIMO Prize is a $10mn challenge fund, founded and supported by XTX Markets, designed to spur the open development of AI models that can reason mathematically, leading to the creation of a publicly shared AI model capable of winning a gold medal in the International Mathematical Olympiad (IMO). A grand prize of $5M will be awarded to whoever can create an AI model that can win a gold medal in the IMO
+
 
 
 ----
