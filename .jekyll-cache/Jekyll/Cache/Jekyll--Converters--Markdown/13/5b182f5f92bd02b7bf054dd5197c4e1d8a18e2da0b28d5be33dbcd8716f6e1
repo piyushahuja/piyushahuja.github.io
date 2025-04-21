@@ -1,4 +1,4 @@
-I"<CENTER><h1 class="emphnext">Automated Theorem Proving</h1></CENTER>
+I"�<CENTER><h1 class="emphnext">Automated Theorem Proving</h1></CENTER>
 
 <div class="section list">
   <h1>28 May 2024</h1>
@@ -6,7 +6,8 @@
   <a class="title" href="/search">Search techniques</a>
 <!--   <a class="comments" href="/search#disqus_thread">View Comments</a> -->
   </p>
-  <!--<p class="excerpt"><p>abstraction and generalization are fundamental mathematical activities.
+  <!--<p class="excerpt"><p>&lt;!– 
+abstraction and generalization are fundamental mathematical activities.
 allow abstraction as one of the proof-finding methods which allows the proof finder to search for general techniques for proving a wide class of statements, as opposed to results that are more tailored to the specific target and hypotheses in the given problem state.</p>
 </p>-->
 </div>
@@ -17,7 +18,7 @@ allow abstraction as one of the proof-finding methods which allows the proof fin
   <a class="title" href="/aimath">AI for Math</a>
 <!--   <a class="comments" href="/aimath#disqus_thread">View Comments</a> -->
   </p>
-  <!--<p class="excerpt"><p><strong>What is the State of The Art on AI enabled Automated Theorem Proving? What models, datasets, and techniques do they use?</strong></p>
+  <!--<p class="excerpt"><p>&lt;!–</p>
 </p>-->
 </div>
 
