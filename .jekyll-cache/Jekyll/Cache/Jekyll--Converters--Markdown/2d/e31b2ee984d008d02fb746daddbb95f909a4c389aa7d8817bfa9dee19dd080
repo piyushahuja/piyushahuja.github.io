@@ -1,17 +1,4 @@
----
-layout: post-normal
-title: Search techniques
-date:   2024-05-28 09:00:11
-tag:
-categories: atp
-excerpt:
-permalink: /search
-comments: false
-
-
----
-
-<!-- 
+I"I<!-- 
 abstraction and generalization are fundamental mathematical activities.
 allow abstraction as one of the proof-finding methods which allows the proof finder to search for general techniques for proving a wide class of statements, as opposed to results that are more tailored to the specific target and hypotheses in the given problem state.
 
@@ -30,3 +17,4 @@ motivations: formal statements of heuristic principles, and the purpose of havin
 Combinator is a function without free variables. 
 
 Calculus is a method of computation or calculation in a special notation -->
+:ET
