@@ -52,7 +52,7 @@ I read for a **second** BA in [Philosophy, Politics and Economics](https://www.t
 
 At Oxford, I  wrote a [thesis on congestion option pricing](../files/research/ppethesis.pdf)  and specialized in philosophy of maths. <!-- [These are some essays](/philosophy) from that time. -->
 
-Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Maths and Computing in 2013. My master's thesis in the [design of approximation algorithms for networks](../files/research/thesis.pdf) under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg) (awarded an outstanding grade). 
+Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Maths and Computing in 2013. My master's thesis in the [design of approximation algorithms for networks](../files/research/thesis.pdf) under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
 
 
 ----
