@@ -6,14 +6,9 @@ section: Home
 ---
 
 
-**Summary**
 
-I'm a computer science researcher and entrepreneur based in Cambridge. 
 
 **Currently**
-
-
-
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
