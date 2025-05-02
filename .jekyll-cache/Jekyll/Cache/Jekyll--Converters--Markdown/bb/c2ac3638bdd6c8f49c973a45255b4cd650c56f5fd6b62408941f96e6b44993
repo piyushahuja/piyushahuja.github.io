@@ -1,4 +1,4 @@
-I"4<p><strong>Summary</strong></p>
+I"<p><strong>Summary</strong></p>
 
 <p>I’m a computer science researcher and entrepreneur based in Cambridge.</p>
 
@@ -6,7 +6,7 @@
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
-<p>I run <a href="https://cambridgeinnovationlabs.com/">Cambridge Innovation Labs</a>, an Innovate UK backed AI software development company.   Since 2024, I have also been an Entrepreneur in Residence with <a href="https://www.deficambridge.org/">Digital Education Futures Initiative</a> at the University of Cambridge.</p>
+<p>I run <a href="https://cambridgeinnovationlabs.com/">Cambridge Innovation Labs</a>, an AI research and software development company.   Since 2024, I have also been an Entrepreneur in Residence with <a href="https://www.deficambridge.org/">Digital Education Futures Initiative</a> at the University of Cambridge.</p>
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
 
@@ -24,17 +24,17 @@
 
 <hr />
 
-<p><strong>Professional Experience</strong></p>
+<!-- **Professional Experience**
 
-<p>I have over a decade of experience across startups, research institutions, and technology organizations. These pages: <a href="/work">work</a> and <a href="/research">research</a> contain the details.</p>
-
+I have over a decade of experience across startups, research institutions, and technology organizations. These pages: [work](/work) and [research](/research) contain the details.
+ -->
 <hr />
 
 <p><strong>Education</strong></p>
 
 <p>I read for a <strong>second</strong> BA in <a href="https://www.theguardian.com/education/2017/feb/23/ppe-oxford-university-degree-that-rules-britain?CMP=fb_gu">Philosophy, Politics and Economics</a> with senior status at the University of Oxford. I was supported by the KC Mahindra Scholarship, Tiara Special Grant, and a second undergraduate degree scholarship by Harris Manchester College.</p>
 
-<p>At Oxford, I  wrote a <a href="../files/research/ppethesis.pdf">thesis on congestion option pricing</a>  and specialized in philosophy of maths. <a href="/philosophy">These are some essays</a> from that time.</p>
+<p>At Oxford, I  wrote a <a href="../files/research/ppethesis.pdf">thesis on congestion option pricing</a>  and specialized in philosophy of maths. <!-- [These are some essays](/philosophy) from that time. --></p>
 
 <p>Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Maths and Computing in 2013. My master’s thesis in the <a href="../files/research/thesis.pdf">design of approximation algorithms for networks</a> under <a href="https://en.wikipedia.org/wiki/Naveen_Garg">Naveen Garg</a> (awarded an outstanding grade).</p>
 
