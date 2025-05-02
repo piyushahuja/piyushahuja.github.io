@@ -17,7 +17,7 @@ I'm a computer science researcher and entrepreneur based in Cambridge.
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
-I run [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/), an Innovate UK backed AI software development company.   Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/) at the University of Cambridge.
+I run [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/), an AI research and software development company.   Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/) at the University of Cambridge.
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
@@ -40,17 +40,17 @@ I run [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/), an Inno
 ---
 
 
-**Professional Experience**
+<!-- **Professional Experience**
 
 I have over a decade of experience across startups, research institutions, and technology organizations. These pages: [work](/work) and [research](/research) contain the details.
-
+ -->
 ---
 
 **Education** 
 
 I read for a **second** BA in [Philosophy, Politics and Economics](https://www.theguardian.com/education/2017/feb/23/ppe-oxford-university-degree-that-rules-britain?CMP=fb_gu) with senior status at the University of Oxford. I was supported by the KC Mahindra Scholarship, Tiara Special Grant, and a second undergraduate degree scholarship by Harris Manchester College. 
 
-At Oxford, I  wrote a [thesis on congestion option pricing](../files/research/ppethesis.pdf)  and specialized in philosophy of maths. [These are some essays](/philosophy) from that time.
+At Oxford, I  wrote a [thesis on congestion option pricing](../files/research/ppethesis.pdf)  and specialized in philosophy of maths. <!-- [These are some essays](/philosophy) from that time. -->
 
 Before Oxford, I graduated from IIT Delhi with a five-year Integrated Masters in Maths and Computing in 2013. My master's thesis in the [design of approximation algorithms for networks](../files/research/thesis.pdf) under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg) (awarded an outstanding grade). 
 
