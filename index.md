@@ -10,9 +10,12 @@ section: Home
 
 **Currently**
 
+
+I'm an independent researcher and entrepreneur based in Cambridge. 
+
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
-I run [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/), an AI research and software development company.   Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/) at the University of Cambridge.
+I am the director of [Cambridge Innovation Labs](https://cambridgeinnovationlabs.com/), an AI research and software development company.   Since 2024, I have also been an Entrepreneur in Residence with [Digital Education Futures Initiative](https://www.deficambridge.org/) at the University of Cambridge.
 
 
 <!-- I would like to bring philosophy to bear on daily life through products people use and events they attend.  -->
