@@ -13,7 +13,7 @@ permalink: /aliveness
 in every interaction, look for aliveness. this is where a person's energy come out: excitement, anger, passion. and specificity and vulnerability. do it for both yourself and the other. bring that out. expand on it. 
 
 
-adults put a a lot of effort into controlling their energy discharges, not being too loud or moving too weirdly. aliveness is when you allow the energy to discharge naturally, the way a small child would. we learn to ‘behave’ to avoid shame. we forget how to be comfortable in our skin. 
+adults put a lot of effort into controlling their energy discharges, not being too loud or moving too weirdly. aliveness is when you allow the energy to discharge naturally, the way a small child would. we learn to ‘behave’ to avoid shame. we forget how to be comfortable in our skin. 
 
 
 
