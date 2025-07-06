@@ -7,7 +7,7 @@ section: Home
 
 **Currently**
 
-I'm a CS researcher and entrepreneur based in Cambridge. 
+I'm based in Cambridge. 
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
