@@ -7,7 +7,7 @@ section: Home
 
 **Currently**
 
-I'm interested in CS, maths, philosophy (embodied and academic), entrepreneurship and AI. I'm based in Cambridge.
+I'm interested in CS, maths, philosophy, and entrepreneurship. I'm based in Cambridge.
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
