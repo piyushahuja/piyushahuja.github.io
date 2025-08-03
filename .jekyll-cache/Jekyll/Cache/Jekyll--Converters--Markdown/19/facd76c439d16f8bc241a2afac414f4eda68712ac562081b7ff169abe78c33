@@ -1,0 +1,154 @@
+I"�#<p>In some settings, it makes sense to have an agent follow a “policy” that outputs an action given a state. 
+For example, if the state space is continuous or too large, it would be difficult to store value functions.</p>
+
+<p>There’s always a deterministic policy for any MDP.</p>
+
+<p>State aliasing: If you are only partially observing the environment, or your features limit your view of the world, then it can be optimal to use a stochastic policy, in which case policy search methods can be better than value methods.</p>
+
+<h2 id="how-do-we-improve-the-policy-during-training">How do we improve the policy during training?</h2>
+
+<p>One way is a class of methods called “Policy gradient” (as opposed to PPO).</p>
+
+<p>These model and optimize the policy directly (rather than indirectly). The policy is usually modeled with a parameterized function with respect to $\theta$. There are situations where it is more efficient to represent policy than value functions.</p>
+
+<p>The value of the reward (objective) function depends on this policy and then various algorithms can be applied to optimize for the best reward.</p>
+
+<h2 id="benefits">Benefits</h2>
+
+<ul>
+  <li>
+    <p><strong>Better convergence properties</strong>: Value-based methods can oscillate or diverge. With policy gradients, you smoothly update your policy. You don’t get dramatic changes in what action you are going to take. You make incremental changes to policy in the direction that makes policy better.</p>
+  </li>
+  <li>
+    <p><strong>Effective in continuous action spaces</strong> (e.g., robot control, trying to show the perfect advert): Value-based methods require finding the maximum, which can be prohibitively expensive.</p>
+  </li>
+</ul>
+
+<h2 id="why-does-gradient-of-log-of-policy-appear-not-the-policy-itself">Why does gradient of log of policy appear, not the policy itself?</h2>
+
+<p>The <strong>log trick</strong> (likelihood ratio trick): $\nabla_{\theta} \pi_{\theta} = \pi_{\theta} \cdot \nabla_{\theta} \log \pi_{\theta}$ makes the math work cleanly with sampling.</p>
+
+<p><strong>Assumptions:</strong></p>
+<ol>
+  <li>The policy is differentiable (doesn’t have to be differentiable everywhere, but only when it is actually picking actions, i.e., when it is non-zero)</li>
+  <li>We know the gradient because we created our policy (Gaussian, softmax — alternatively to $\epsilon$-greedy)</li>
+</ol>
+
+<p>We want to optimize expected return:</p>
+
+\[\nabla_{\theta} J(\theta) = \nabla_{\theta} \mathbb{E}_{\tau} [R(\tau)] = \mathbb{E}_{\tau} \left[ R(\tau) \nabla_{\theta} \log p_{\theta}(\tau) \right]\]
+
+<p>This pulls the gradient outside the sampling process.</p>
+
+<p>The trajectory probability is a product of policy probabilities over time, the log of a product becomes a sum of logs. Only the policy depends on $\theta$, so we ignore the rest when computing gradients.</p>
+
+\[\nabla_{\theta} J(\theta) = \mathbb{E}_{\tau} \left[ \sum_{t=0}^{T-1} \nabla_{\theta} \log \pi_{\theta}(a_t | s_t) \cdot R(\tau) \right]\]
+
+<h2 id="softmax-policy-for-discrete-actions">Softmax Policy for Discrete Actions</h2>
+
+<p>Alternative to $\epsilon$-greedy:</p>
+
+\[\pi_i = \frac{e^{z_i}}{\sum_j e^{z_j}}\]
+
+\[\log(\pi_i) = z_i - \log\left(\sum_j e^{z_j}\right)\]
+
+<p>The gradient with respect to each logit $z_k$ is:</p>
+
+\[\frac{\partial \log(\pi_i)}{\partial z_k} = 
+\begin{cases} 
+1 - \pi_i &amp; \text{if } k = i \\
+-\pi_k &amp; \text{if } k \neq i 
+\end{cases}\]
+
+<p>In a linear softmax policy, logits are:</p>
+
+\[z_a(s) = \theta_a^T s\]
+
+<p>(Weight actions using linear combination of features)</p>
+
+\[\log(\pi_{\theta}(i|s)) = \theta_i^T s - \log\left(\sum_b e^{\theta_b^T s}\right)\]
+
+<p>Derivative w.r.t parameters $\theta_k$:</p>
+
+\[\frac{\partial \log(\pi_{\theta}(i|s))}{\partial \theta_k} = 
+\begin{cases} 
+s \cdot (1 - \pi_{\theta}(i|s)), &amp; \text{if } k = i \\
+-s \cdot \pi_{\theta}(k|s), &amp; \text{if } k \neq i 
+\end{cases}\]
+
+<p>For a single step with return $G_t$ and learning rate $\alpha$:</p>
+
+<p>The update rule for the parameters $\theta_k$ is given by:</p>
+
+\[\theta_k \leftarrow \theta_k + \alpha \cdot G_t \cdot \nabla_{\theta_k} \log(\pi_{\theta}(a_t | s_t))\]
+
+<p>This implies:</p>
+
+<p>If the chosen action is $k = a_t$:</p>
+
+\[\theta_{a_t} \leftarrow \theta_{a_t} + \alpha \cdot G_t \cdot (1 - \pi_{\theta}(a_t | s_t)) \cdot s_t\]
+
+<p>For other actions:</p>
+
+\[\theta_k \leftarrow \theta_k - \alpha \cdot G_t \cdot \pi_{\theta}(k | s_t) \cdot s_t\]
+
+<p>If a feature occurs and gets more reward, we want to adjust the policy to have more of that feature.</p>
+
+<p><strong>Example</strong>: Gaussian policy for continuous actions.</p>
+
+<h2 id="implementation">Implementation</h2>
+
+<p>The function gives you discounted, normalized returns per step, ready for use in policy gradient loss calculation:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">calculate_stepwise_returns</span><span class="p">(</span><span class="n">rewards</span><span class="p">,</span> <span class="n">discount_factor</span><span class="p">):</span>
+    <span class="n">returns</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">R</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">rewards</span><span class="p">):</span>
+        <span class="n">R</span> <span class="o">=</span> <span class="n">r</span> <span class="o">+</span> <span class="n">R</span> <span class="o">*</span> <span class="n">discount_factor</span>
+        <span class="n">returns</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">R</span><span class="p">)</span>
+    <span class="n">returns</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">returns</span><span class="p">)</span>
+    <span class="n">normalized_returns</span> <span class="o">=</span> <span class="p">(</span><span class="n">returns</span> <span class="o">-</span> <span class="n">returns</span><span class="p">.</span><span class="n">mean</span><span class="p">())</span> <span class="o">/</span> <span class="n">returns</span><span class="p">.</span><span class="n">std</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">normalized_returns</span>
+</code></pre></div></div>
+
+<p><strong>Example:</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">rewards</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<span class="n">discount_factor</span> <span class="o">=</span> <span class="mf">0.9</span>
+<span class="c1"># Raw returns: [2.458, 1.62, 1.8, 2]
+# Normalized: tensor([ 1.57, -1.13, -0.55,  0.11])
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">calculate_loss</span><span class="p">(</span><span class="n">stepwise_returns</span><span class="p">,</span> <span class="n">log_prob_actions</span><span class="p">):</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="p">(</span><span class="n">stepwise_returns</span> <span class="o">*</span> <span class="n">log_prob_actions</span><span class="p">).</span><span class="nb">sum</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">loss</span>
+</code></pre></div></div>
+
+<h2 id="issues-with-reinforce">Issues with REINFORCE</h2>
+
+<p>Linear REINFORCE updates are global in state space.</p>
+
+<p>REINFORCE Has High Variance</p>
+
+<ul>
+  <li>\(G_t\) is a single noisy Monte Carlo sample of the return</li>
+  <li>Updates are global — changing $\theta_a$ affects all states in a linear policy</li>
+  <li>Learning is unstable. Especially early on, a single high-return trajectory can push the policy too far, hurting generalization. Lucky or unlucky episodes can cause big policy swings. Risk of catastrophic forgetting caused by over-updating from a single trajectory</li>
+</ul>
+
+<p>We can reduce variance by subtracting a baseline:</p>
+
+<p>Instead of \(G_t\), use:</p>
+
+\[A_t = G_t - b(s_t)\]
+
+<p>\(b(s_t)\) is a baseline (\(V(s_t)\) in Actor-Critic)</p>
+
+<p>If an action does as expected, no need to shift policy If it’s better than expected, increase probability. If worse, decrease probability</p>
+
+<p>Reduces variance because only deviations from expected return drive updates.  Smaller, more targeted updates, Less destabilizing global shifts in policy weights</p>
+
+<p>All modern policy gradient methods (PPO, A2C, A3C, SAC) include:</p>
+
+<p>A critic, Advantage normalization, Or mini-batch updates</p>
+
+:ET

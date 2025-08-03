@@ -1,0 +1,289 @@
+I"<p>In some settings, it makes sense to have an agent follow a “policy” that outputs an action given a state. 
+For example, if the state space is continuous or too large, it would be difficult to store value functions.</p>
+
+<p>There’s always a deterministic policy for any MDP</p>
+
+<p>State aliasing, If you are only partially observing the environment, or your features limit your view o fthe world, then it can be optimal to use a stochastic policy, in which case policy search methods can be better than value methods.</p>
+
+<p>How do we improve the policy during training?</p>
+
+<p>One way is a class of methods called “Policy gradient” (as opposed to PPO).</p>
+
+<p>These model and optimize the policy directly (rather than indirectly). The policy is usually modeled with a parameterized function respect to /theta. There are situations where it is more efficient to represent policy than value functions.</p>
+
+<p>The value of the reward (objective) function depends on this policy and then various algorithms can be applied to optimize 
+ for the best reward.</p>
+
+<hr />
+
+<p>Benefits</p>
+
+<ul>
+  <li>
+    <p>Better convergence properties. Value based methods can oscillate or diverge. With policy gradients, you smoothly update your policy. You dont get dramatic changes in what action you are going to take. You make incremental changes to policy in the direction what makes policy better</p>
+  </li>
+  <li>
+    <p>Effective in continous actions spaces (e.g. robot, trying to show the perfect advert). Value based method: one has to find out how to find a max. Maximisation can be prohibitally expensive.</p>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>Why does gradient of log of policy appears, not the policy itself?</strong></p>
+
+<p>The log trick/ likelihood ratio trick: gradient policy = policy * gradient of log of policy,  makes the math work cleanly with sampling:</p>
+
+<p>Assume:</p>
+<ul>
+  <li>(1) The policy is differentiable  (doesnt have to be differentiable everywhere, but only when it is actually picking actions, i.e. when it is non zero)</li>
+  <li>(2) We know the gradient because e.g. we created our policy (gaussian, softmax  — alternatively to e-greedy)</li>
+</ul>
+
+<p>We want to optimize expected return:</p>
+
+<p>This pulls the gradient outside the sampling process</p>
+
+<p>The trajectory probability is a product of policy probabilities over time, the log of a product becomes a sum of logs, Only the policy depends on θ\thetaθ, so we ignore the rest when computing gradients.</p>
+
+\[\nabla_{\theta} J(\theta) = E_{\tau} \left[ \sum_{t=0}^{T-1} \nabla_{\theta} \log \pi_{\theta}(a_t | s_t) \cdot R(\tau) \right]\]
+
+<hr />
+
+<p>Softmax policy for discrete actions (alternative to epsilon greedy)</p>
+
+\[π_i = e^{z_i} / ∑_j e^{z_j}\]
+
+\[log(π_i) = z_i - log(∑_j e^{z_j})\]
+
+<p>The gradient with respect to each logit \(z_k\) is:</p>
+
+\[\frac{\partial \log(\pi_i)}{\partial z_k} = 
+\begin{cases} 
+1 - \pi_i &amp; \text{if } k = i \\
+-\pi_k &amp; \text{if } k \neq i 
+\end{cases}\]
+
+<p>In a linear softmax policy, logits are:</p>
+
+\[z_a(s) = θ_a^T * s\]
+
+\[log(π_θ(i|s)) = θ_i^T * s - log(∑_b e^(θ_b^T * s))\]
+
+<p>Derivative w.r.t parameters θ_k:</p>
+
+\[\frac{\partial \log(\pi_{\theta}(i|s))}{\partial \theta_k} = 
+\begin{cases} 
+s * (1 - \pi_{\theta}(i|s)), &amp; \text{if } k = i \\
+-s * \pi_{\theta}(k|s), &amp; \text{if } k \neq i 
+\end{cases}\]
+
+<p>For one step with return 
+𝐺
+𝑡
+G 
+t
+​
+  and learning rate 
+𝛼
+α:</p>
+
+<p>𝜃
+𝑘
+←
+𝜃
+𝑘
++
+𝛼
+ 
+𝐺
+𝑡
+ 
+∇
+𝜃
+𝑘
+log
+⁡
+𝜋
+𝜃
+(
+𝑎
+𝑡
+∣
+𝑠
+𝑡
+)
+θ 
+k
+​
+ ←θ 
+k
+​
+ +αG 
+t
+​
+ ∇ 
+θ 
+k
+​</p>
+
+<p>​
+ logπ 
+θ
+​
+ (a 
+t
+​
+ ∣s 
+t
+​
+ )
+Which means:</p>
+
+<p>Chosen action 
+𝑘
+=
+𝑎
+𝑡
+k=a 
+t
+​
+ :</p>
+
+<p>𝜃
+𝑎
+𝑡
+←
+𝜃
+𝑎
+𝑡
++
+𝛼
+ 
+𝐺
+𝑡
+ 
+(
+1
+−
+𝜋
+𝜃
+(
+𝑎
+𝑡
+∣
+𝑠
+𝑡
+)
+)
+ 
+𝑠
+𝑡
+θ 
+a 
+t
+​</p>
+
+<p>​
+ ←θ 
+a 
+t
+​</p>
+
+<p>​
+ +αG 
+t
+​
+ (1−π 
+θ
+​
+ (a 
+t
+​
+ ∣s 
+t
+​
+ ))s 
+t
+​</p>
+
+<p>Other actions:</p>
+
+<p>𝜃
+𝑘
+←
+𝜃
+𝑘
+−
+𝛼
+ 
+𝐺
+𝑡
+ 
+𝜋
+𝜃
+(
+𝑘
+∣
+𝑠
+𝑡
+)
+ 
+𝑠
+𝑡
+θ 
+k
+​
+ ←θ 
+k
+​
+ −αG 
+t
+​
+ π 
+θ
+​
+ (k∣s 
+t
+​
+ )s 
+t
+​</p>
+
+<p>Weight actions using linear combination of features.</p>
+
+<p>Score function: Feature (s,a) - E(over all features). If a feature occurs and gets more reward, we want to adjust the policy to have more of that feature.</p>
+
+<p>Example: Gausian policy. Continuous action.</p>
+
+<hr />
+
+<p>The function gives you discounted, normalized returns per step, ready for use in policy gradient loss calculation.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def calculate_stepwise_returns(rewards, discount_factor):
+    returns = []
+    R = 0
+    for r in reversed(rewards):
+        R = r + R * discount_factor
+        returns.insert(0, R)
+    returns = torch.tensor(returns)
+    normalized_returns = (returns - returns.mean()) / returns.std()
+    return normalized_returns
+</code></pre></div></div>
+
+<p>Example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rewards = [1, 0, 0, 2]
+discount_factor = 0.9
+Raw returns: [2.458,1.62,1.8,2]
+tensor([ 1.57, -1.13, -0.55,  0.11])
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def calculate_loss(stepwise_returns, log_prob_actions):
+    loss = -(stepwise_returns * log_prob_actions).sum()
+    return loss
+</code></pre></div></div>
+
+<hr />
+
+<p>Linear REINFORCE updates are global in state space</p>
+:ET
