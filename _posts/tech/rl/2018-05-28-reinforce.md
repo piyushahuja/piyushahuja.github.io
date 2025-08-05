@@ -1,6 +1,6 @@
 ---
 layout: post-normal
-title: REINFORCE
+title: Policy Gradient Methods
 date:   2024-05-28 09:00:11
 tag:
 categories: rl
@@ -9,34 +9,65 @@ permalink: /reinforce
 comments: false
 ---
 
-In some settings, it makes sense to have an agent follow a "policy" that outputs an action given a state. 
-For example, if the state space is continuous or too large, it would be difficult to store value functions. 
+RL methods follow two general ideas:
+- Value Based: We could estimate how "good" a state or state/action pair is, and then we could have our agent behave greedily.
+- Policy Based: We could find an optimal policy, a policy being a function that outputs an action for each state. 
+These model and optimize the policy directly (rather than indirectly). The value of the reward (objective) function depends on this policy and then various algorithms can be applied to optimize for the best reward.
 
-There's always a deterministic policy for any MDP.
 
-State aliasing: If you are only partially observing the environment, or your features limit your view of the world, then it can be optimal to use a stochastic policy, in which case policy search methods can be better than value methods.
+-----
 
-## How do we improve the policy during training?
+Policy based methods are better in the following settings:
+* There are situations where it is more efficient to represent policy than value functions. If the state space is continuous or too large, it would be difficult to store value functions.  In continuous action spaces* (e.g., robot control, trying to show the perfect advert): Value-based methods require finding the maximum, which can be prohibitively expensive.
+* State aliasing: If you are only partially observing the environment, or your features limit your view of the world, then it can be optimal to use a stochastic policy, in which case policy search methods can be better than value methods. 
+* Value-based methods can oscillate or diverge. With policy gradients, you smoothly update your policy. You don't get dramatic changes in what action you are going to take. You make incremental changes to policy in the direction that makes policy better.
 
-One way is a class of methods called "Policy gradient" (as opposed to PPO).
+----
+**Policy Gradient Theorem**
 
-These model and optimize the policy directly (rather than indirectly). The policy is usually modeled with a parameterized function with respect to $\theta$. There are situations where it is more efficient to represent policy than value functions. 
+The objective in RL is the expected return over trajectories:
 
-The value of the reward (objective) function depends on this policy and then various algorithms can be applied to optimize for the best reward.
+$$J(\theta) = E_{\tau \sim \pi_{\theta}} [R(\tau)]$$
 
-## Benefits
+Where a trajectory $$\tau = (s_0, a_0, s_1, a_1, ..., s_T, a_T)$$.
 
-* **Better convergence properties**: Value-based methods can oscillate or diverge. With policy gradients, you smoothly update your policy. You don't get dramatic changes in what action you are going to take. You make incremental changes to policy in the direction that makes policy better.
+Policy gradient theorem (REINFORCE) gives:
 
-* **Effective in continuous action spaces** (e.g., robot control, trying to show the perfect advert): Value-based methods require finding the maximum, which can be prohibitively expensive.
+$$\nabla_{\theta} J(\theta) = E_{\tau \sim \pi_{\theta}} [R(\tau) \cdot \nabla_{\theta} \log \pi_{\theta}(\tau)]$$
 
-## Why does gradient of log of policy appear, not the policy itself?
+Factorizing the Trajectory Probability:
+
+$$\pi_{\theta}(\tau) = p(s_0) \prod_{t=0}^{T} \pi_{\theta}(a_t | s_t) p(s_{t+1} | s_t, a_t)$$
+
+$$\nabla_{\theta} J(\theta) = E_{\tau} [R(\tau) \cdot \sum_{t=0}^{T} \nabla_{\theta} \log \pi_{\theta}(a_t | s_t)]$$
+
+The per-step sum form:
+
+$$R(\tau) \cdot \sum_{t} \nabla_{\theta} \log \pi_{\theta}(a_t | s_t)$$
+is computationally what we actually implement, because we compute the log-prob of each action as we sample the trajectory.
+
+
+**Note**
+Credit assignment: 
+
+Instead of using the same R(τ) for all timesteps, we can refine credit assignment by using the return from each step onward:
+
+$$R_t = Σ_{k=t}^{T} γ^{k−t} * r_k$$
+
+
+Then the gradient becomes:
+
+$$∇_θ J(θ) = E_{τ∼π_θ} [ Σ_{t=0}^{T} R_t * ∇_θ log π_θ(a_t | s_t) ]$$
+
+The trajectory return  $$$R(τ)$$ and stepwise return  forms are mathematically equivalent in expectation
+
+Using full  $$𝑅(𝜏)$$ gives the same weight to every action that can high variance in long episodes. Using stepwise  gives more precise credit assignment to actions closer to the rewards. This is variance reduction but keeps the estimator unbiased.
 
 The **log trick** (likelihood ratio trick): $$\nabla_{\theta} \pi_{\theta} = \pi_{\theta} \cdot \nabla_{\theta} \log \pi_{\theta}$$ makes the math work cleanly with sampling.
 
 **Assumptions:**
-1. The policy is differentiable (doesn't have to be differentiable everywhere, but only when it is actually picking actions, i.e., when it is non-zero)
-2. We know the gradient because we created our policy (Gaussian, softmax — alternatively to $\epsilon$-greedy)
+1. The policy is differentiable 
+2. We know the gradient  (Gaussian, softmax, differentiable neural network etc.)
 
 We want to optimize expected return:
 
@@ -44,19 +75,90 @@ $$\nabla_{\theta} J(\theta) = \nabla_{\theta} \mathbb{E}_{\tau} [R(\tau)] = \mat
 
 This pulls the gradient outside the sampling process.
 
+
 The trajectory probability is a product of policy probabilities over time, the log of a product becomes a sum of logs. Only the policy depends on $\theta$, so we ignore the rest when computing gradients.
 
 $$\nabla_{\theta} J(\theta) = \mathbb{E}_{\tau} \left[ \sum_{t=0}^{T-1} \nabla_{\theta} \log \pi_{\theta}(a_t | s_t) \cdot R(\tau) \right]$$
 
+
+
+-------
+
+**Non Differentiable Computation**
+
+In the standard Reinforcement Learning (RL) process, the following steps occur:
+
+The state at time $$t$$, denoted as $$s_t$$, is processed through the policy, denoted as $$π_θ$$, to determine the action at time $$t$$, denoted as $$a_t$$. This action is then introduced to the environment, which in turn provides the new state at time $$t+1$$, denoted as $$s_{t+1}$$, and the reward at time $$t$$, denoted as $$r_t$$.
+
+This can be mathematically represented as:
+
+$$s_t → π_θ(a_t) → Environment → s_{t+1}, r_t$$
+
+
+Obtaining a reward in a trajectory in RL involves non-differentiable computation, even the policy is differentiable:
+
+* Action is sampled (discrete or stochastic). There is no gradient through sampling. 
+* The transition in the environment $$s_t, a_t ↦ s_{t+1}$$ is a black box, implying that we do not have knowledge how the environment selects state based on action. 
+* Similarly, the reward $$r_t = R(s_t, a_t)$$ is also a black box, indicating that we do not have knowledge of the reward that the environment provides based on our action and the state. We cannot compute $$∂R/∂a$$
+
+
+We are unable to apply the chain rule from the reward back to $$θ$$ in a continuous manner because we cannot determine how the sampling or environmental reward changes with $$θ$$.
+
+As a result, we consider the reward as an external scalar signal that influences a policy gradient.
+
+
+
+-----
+
+What if we could model the environment and reward function as differentiable?
+
+If we could model the environment and reward function as differentiable (as in differentiable simulators)
+
+$$
+f: s_{t+1} = f(s_t, a_t)
+$$
+$$s_{t+1}$$ is differentiable
+
+$$
+r_t = g(s_t, a_t)
+$$
+
+$$r_t$$ is differentiable
+
+Then you could skip policy gradient and just do end-to-end backpropagation:
+
+$$
+\nabla_{\theta} R = \sum_{t} \frac{\partial R}{\partial a_t} \frac{\partial a_t}{\partial \theta}
+$$
+
+This is much more sample-efficient because you use true gradients instead of REINFORCE’s noisy estimates.
+
+
+----
+
+**Comparison with supervised learning**
+
+Cross-entropy loss is really the negative log-likelihood of the correct label
+Gradient of supervised learning is:
+
+$$\nabla_{\theta} L = -\nabla_{\theta} \log p_{\theta}(y|x)$$
+
+In supervised learning, we know the target label → smooth differentiable loss.
+In RL, the “label” is implicit and stochastic via reward → need expectation over trajectories
+
+
+
+-------
+
 ## Softmax Policy for Discrete Actions
 
-Alternative to $\epsilon$-greedy:
+Alternative to $$\epsilon$$-greedy:
 
 $$\pi_i = \frac{e^{z_i}}{\sum_j e^{z_j}}$$
 
 $$\log(\pi_i) = z_i - \log\left(\sum_j e^{z_j}\right)$$
 
-The gradient with respect to each logit $z_k$ is:
+The gradient with respect to each logit $$z_k$$ is:
 
 $$\frac{\partial \log(\pi_i)}{\partial z_k} = 
 \begin{cases} 
@@ -68,11 +170,9 @@ In a linear softmax policy, logits are:
 
 $$z_a(s) = \theta_a^T s$$
 
-(Weight actions using linear combination of features)
-
 $$\log(\pi_{\theta}(i|s)) = \theta_i^T s - \log\left(\sum_b e^{\theta_b^T s}\right)$$
 
-Derivative w.r.t parameters $\theta_k$:
+Derivative w.r.t parameters $$\theta_k$$:
 
 $$\frac{\partial \log(\pi_{\theta}(i|s))}{\partial \theta_k} = 
 \begin{cases} 
@@ -80,15 +180,15 @@ s \cdot (1 - \pi_{\theta}(i|s)), & \text{if } k = i \\
 -s \cdot \pi_{\theta}(k|s), & \text{if } k \neq i 
 \end{cases}$$
 
-For a single step with return $G_t$ and learning rate $\alpha$:
+For a single step with return $$G_t$$ and learning rate $$\alpha$$:
 
-The update rule for the parameters $\theta_k$ is given by:
+The update rule for the parameters $$\theta_k$$ is given by:
 
 $$\theta_k \leftarrow \theta_k + \alpha \cdot G_t \cdot \nabla_{\theta_k} \log(\pi_{\theta}(a_t | s_t))$$
 
 This implies:
 
-If the chosen action is $k = a_t$:
+If the chosen action is $$k = a_t$$:
 
 $$\theta_{a_t} \leftarrow \theta_{a_t} + \alpha \cdot G_t \cdot (1 - \pi_{\theta}(a_t | s_t)) \cdot s_t$$
 
@@ -98,41 +198,127 @@ $$\theta_k \leftarrow \theta_k - \alpha \cdot G_t \cdot \pi_{\theta}(k | s_t) \c
 
 If a feature occurs and gets more reward, we want to adjust the policy to have more of that feature.
 
------
-Limitations of Linear modeL:
+
+**Example**: Gaussian policy for continuous actions.
+
+
+--------
+
+
+Why use a neural network (limitations if a linear model)
 A single flat hyperplane divides state space into “prefer action i” vs. “prefer action j” If the environment is simple and separable, this works. But it cannot capture complex, non-linear decision regions
-
-
-
 First layer warps the state space into a feature space. In feature space, the final decision is still linear → hyperplanes in feature space When mapped back to the original state space, those hyperplanes become curved, flexible surfaces. 
+
 
 
 ----
 
 
 
+Episode-based update (REINFORCE): High variance (needs normalization or baseline). Learning is slow if episodes are long
 
-**Example**: Gaussian policy for continuous actions.
+- $$G_t$$ is a single noisy Monte Carlo sample of the return.  Especially early on, a single high-return trajectory can push the policy too far, hurting generalization. Lucky or unlucky episodes can cause big policy swings. Risk of catastrophic forgetting caused by over-updating from a single trajectory. 
+
+
+We can reduce variance by subtracting a baseline:
+
+Instead of $$G_t$$, use:
+
+$$A_t = G_t - b(s_t)$$
+
+$$b(s_t)$$ is a baseline ($$V(s_t)$$ in Actor-Critic)
+
+
+
+All modern policy gradient methods (PPO, A2C, A3C, SAC) include: A critic, Advantage normalization, Or mini-batch updates
+Step-based update (Actor-Critic):  Reduces variance because only deviations from expected return drive updates.  Smaller, more targeted updates, Less destabilizing global shifts in policy weights.  Lower variance, More sample-efficient.
+A2C/A3C were breakthrough algorithms for: Continuous learning in long episodes
+
+
+
+-----
+
+
+
 
 ## Implementation
 
-The function gives you discounted, normalized returns per step, ready for use in policy gradient loss calculation:
+We define the policy neural network via Torch's neural network module. 
 
+**Cartpole** 
+
+```python
+class PolicyNetwork(nn.Module):
+    def __init__(self, input_dim, hidden_dim, output_dim, dropout):
+        super().__init__()
+        self.layer1 = nn.Linear(input_dim, hidden_dim)
+        self.layer2 = nn.Linear(hidden_dim, output_dim)
+        self.dropout = nn.Dropout(dropout)
+    def forward(self, x):
+        x = self.layer1(x)
+        x = self.dropout(x)
+        x = F.relu(x)
+        x = self.layer2(x)
+        return x
+```
+
+**Pong** 
+```python
+class PolicyNetwork(nn.Module):
+    def __init__(self, input_dim=6400, hidden_dim=512):
+        super().__init__()
+        self.layer1 = nn.Linear(input_dim, hidden_dim, bias=False)
+        self.leaky_relu = nn.LeakyReLU()
+        self.layer2 = nn.Linear(hidden_dim, 1, bias=False)
+        self.sigmoid = nn.Sigmoid()
+        # self.dropout = nn.Dropout(dropout)
+    def forward(self, X):
+        out = self.linear1(X)
+        out = self.leaky_relu(out)
+        out = self.linear2(out)
+        out = self.sigmoid(out)
+        return out
+```
+
+Given a trajectory of rewards, the folllowing function gives you discounted, normalized returns per step, ready for use in policy gradient loss calculation:
+$$
+G_t = r_t + γ*r_{t+1} + γ^2*r_{t+2}
+$$
+
+
+**Cartpole** 
 ```python
 def calculate_stepwise_returns(rewards, discount_factor):
     returns = []
     R = 0
     for r in reversed(rewards):
+         #  if r != 0: R = 0 reset the sum; game boundary (pong)
         R = r + R * discount_factor 
         returns.insert(0, R)
     returns = torch.tensor(returns)
     normalized_returns = (returns - returns.mean()) / returns.std()
     return normalized_returns
+```
+**Example:**
+```python
+rewards = [1, 0, 0, 2]
+discount_factor = 0.9
+# Raw returns: [2.458, 1.62, 1.8, 2]
+# Discounted normalized returns: tensor([ 1.57, -1.13, -0.55,  0.11])
+```
 
-def calculate_loss(stepwise_returns, log_prob_actions):
-    loss = -(stepwise_returns * log_prob_actions).sum()
-    return loss
 
+We can improve on this:
+
+
+
+-----
+
+**Forward Pass for Cartpole**
+
+In a forward pass, we collect an observation, run it through the stochastic policy that outputs a distribution over actions, then sample an action, collect the log probability of action and the reward, then use the collected rewards to find discounted normalized returns per step. 
+
+```python
 def forward_pass(env, policy, discount_factor):
     log_prob_actions = []
     rewards = []
@@ -155,30 +341,170 @@ def forward_pass(env, policy, discount_factor):
     log_prob_actions = torch.cat(log_prob_actions)
     stepwise_returns = calculate_stepwise_returns(rewards, discount_factor)
     return episode_return, stepwise_returns, log_prob_actions
+```
+
+
+For a binary action with sigmoid output $$p$$, the log-likelihood of the policy is given by:
+
+$$
+\log(\pi(a|s)) = 
+\begin{cases} 
+\log(p) & \text{if action = 1} \\
+\log(1 - p) & \text{if action = 0}
+\end{cases}
+$$
+
+
+The Binary Cross-Entropy (BCE) loss function is defined as:
+
+BCE(p, y) = -[y * log(p) + (1 - y) * log(1 - p)]
+
+This can be broken down into two cases:
+
+1. If y = 1, the BCE loss becomes -log(p)
+2. If y = 0, the BCE loss becomes -log(1 - p)
+
+Interestingly, the BCE loss is equivalent to the negative log-likelihood for a Bernoulli distribution. 
+This is exactly the same as the negative log probability (-log_prob) used in the REINFORCE algorithm.
+
+
+
+**Forward Pass for Pong**
+
+For Pong, we preprocess the input
+
+Then 
+
+
+```python
+  # preprocess the observation, set input to network to be difference image
+current_observation = image_preprocess(observation, device=device)
+input_observation = cur_observation - prev_observation if prev_observation  is not None else torch.zeros(D).to(device)
+prev_observation  = cur_observation 
+```
+
+get the output (action probabilities), sample the action, collect the reward.
+
+```python
+action_prob = model(input_observation)
+dist = torch.distributions.Bernoulli(probs=action_prob)
+action = dist.sample()
+ # action = 1 if np.random.uniform() < output.item() else 0  roll the dice!    
+ # record value
+observations.append(input_observation )  # observation
+gt_labels.append(action)  # label
+ # step the environment and get new measurements
+observation, reward, terminated, truncated, info = env.step(action)
+cumulative_return += reward
+rewards.append(reward)
+if terminated or truncated:  # an episode finished, multiple played games
+        episode_number += 1
+        batch_mean_reward.append(reward_sum)
+# stack inputs, targets and rewards into a batch
+inputs = torch.stack([torch.tensor(i) for i in observations]).to(device)
+stepwise_returns = calculate_stepwise_returns(rewards, discount_factor, device=device)
+targets = torch.stack([torch.tensor(i) for i in gt_labels]).to(device).float()
+```
+
+**Calculating loss and backpropagation. That is the core learning step.**
+
+Once we have stepwise returns and log probability of actions, we can calculate loss. 
+
+ **Cartpole**
+```python
+def calculate_loss(stepwise_returns, log_prob_actions):
+    loss = -(stepwise_returns * log_prob_actions).sum()
+    return loss
 
 def update_policy(stepwise_returns, log_prob_actions, optimizer):
     stepwise_returns = stepwise_returns.detach()
     loss = calculate_loss(stepwise_returns, log_prob_actions)
-
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
     return loss.item()
+```
 
-def main():
+You usually don’t want to track gradients during the environment interaction. You often recompute log-probs at training time for stability and because you may want to process the whole trajectory as a batch
+When you call policy_forward, instead of discarding the raw logits, store them:
+
+```python
+output = model(preprocessed_observation)
+logit_buffer.append(output)  # store logits for training
+```
+At training time, use the stored logits instead of calling model(inputs) again. Saves computation. Uses more memory (store one logit per timestep) and may complicate batching.
+
+**Pong** 
+```python
+ # Calculate Loss and Grads
+action_probs = model(inputs)
+loss = nn.BCELoss(reduction='none')(action_probs.squeeze(-1), targets) / batch_size  # batch_size == grad accumulation iterations
+weighted_loss = loss * stepwise_returns
+weighted_loss = weighted_loss.sum()  # not average, since each episode is used as a one data sample
+weighted_loss.backward()
+```
+The Pong version first calculates a supervised loss and then weights it by rewards, creating a policy gradient with a supervised-like loss. The supervised loss at time t, denoted as supervised_loss_t, is given by the cross entropy (BCE) of the model predictions at time t and the action at time t. This can be represented mathematically as:
+
+$$supervised\_loss_t = BCE(actionprobs_t, a_t) = -log(\pi_\theta(a_t | s_t))$$
+
+Where:
+$$\pi_\theta(a_t | s_t)$$ is the probability of action $$a_t$$ given state $$s_t$$ under policy $$ \theta $$.
+
+The loss per timestep $$L_t$$ is given by the product of the reward-to-go $$G_t$$ and the negative log probability of the action given the state. This can be represented mathematically as:
+
+$$L_t = G_t * (-log(\pi_\theta(a_t | s_t)))$$
+
+Where:
+- $$G_t$$ is the reward-to-go (discounted return) at time t.
+
+
+batch_size represents number of episodes per update. If you divide by batch_size, each episode contributes a smaller gradient, effectively an average gradient, just a scaling to keep gradient magnitudes reasonable. equivalent to using a smaller learning rate.
+
+We could also do as in Cartpole:
+
+```python
+log_probs = torch.log_softmax(model_preds, dim=-1)
+log_prob_actions = log_probs.gather(1, targets.unsqueeze(1)).squeeze(1)
+loss = -(discounted_r * log_prob_actions).sum()
+loss.backward()
+```
+
+
+
+
+For the main training loop, you define your hyperparameters:
+
+```python
     MAX_EPOCHS = 500
     DISCOUNT_FACTOR = 0.99
     N_TRIALS = 25
     REWARD_THRESHOLD = 475
     PRINT_INTERVAL = 10
-    INPUT_DIM = env.observation_space.shape[0]
-    HIDDEN_DIM = 128
-    OUTPUT_DIM = env.action_space.n
-    DROPOUT = 0.5
-    episode_returns = []
+```
+
+
+Then you construct your network
+
+```python
+    # Defines network architecture parameters based on environment’s state and action spaces.
+    INPUT_DIM = env.observation_space.shape[0] # Input dimension (state size)
+    HIDDEN_DIM = 128 # Number of neurons in hidden layer
+    OUTPUT_DIM = env.action_space.n # Number of actions (output dim)
+    DROPOUT = 0.5 # Dropout probability in policy network
     policy = PolicyNetwork(INPUT_DIM, HIDDEN_DIM, OUTPUT_DIM, DROPOUT)
+```
+
+
+And then you run a loop that does (1) forward passes and (2) parameter updates.
+Each forward pass can correspond to one episode. 
+When the mean return for episodes is good enough, you can consider the agent trained. 
+
+```python
+
+    episode_returns = []
     LEARNING_RATE = 0.01
     optimizer = optim.Adam(policy.parameters(), lr = LEARNING_RATE)
+
     for episode in range(1, MAX_EPOCHS+1):
         episode_return, stepwise_returns, log_prob_actions = forward_pass(env, policy, DISCOUNT_FACTOR)
         _ = update_policy(stepwise_returns, log_prob_actions, optimizer)
@@ -189,67 +515,25 @@ def main():
         if mean_episode_return >= REWARD_THRESHOLD:
             print(f'Reached reward threshold in {episode} episodes')
             break
-```
 
-This computes:  
-
-$$
-G_t = r_t + γ*r_{t+1} + γ^2*r_{t+2}
-$$
-
-
-**Example:**
-```python
-rewards = [1, 0, 0, 2]
-discount_factor = 0.9
-# Raw returns: [2.458, 1.62, 1.8, 2]
-# Normalized: tensor([ 1.57, -1.13, -0.55,  0.11])
 ```
 
 
-------
-
-Linear REINFORCE updates are global in state space.
-
-REINFORCE Has High Variance
-
-
-- $$G_t$$ is a single noisy Monte Carlo sample of the return
-- Updates are global — changing $\theta_a$ affects all states in a linear policy
-- Learning is unstable. Especially early on, a single high-return trajectory can push the policy too far, hurting generalization. Lucky or unlucky episodes can cause big policy swings. Risk of catastrophic forgetting caused by over-updating from a single trajectory
-
-We can reduce variance by subtracting a baseline:
-
-Instead of $$G_t$$, use:
-
-$$A_t = G_t - b(s_t)$$
-
-$$b(s_t)$$ is a baseline ($$V(s_t)$$ in Actor-Critic)
-
-
-If an action does as expected, no need to shift policy If it's better than expected, increase probability. If worse, decrease probability
-
-Reduces variance because only deviations from expected return drive updates.  Smaller, more targeted updates, Less destabilizing global shifts in policy weights
-
-Episode-based update (REINFORCE): High variance (needs normalization or baseline). Learning is slow if episodes are long
-
-All modern policy gradient methods (PPO, A2C, A3C, SAC) include:
-
-A critic, Advantage normalization, Or mini-batch updates
 
 
 
-Step-based update (Actor-Critic):
 
-Lower variance, More sample-efficient
-A2C/A3C were breakthrough algorithms for: Continuous learning in long episodes, Scaling RL to Atari and 3D environments
-
-
+-----
 
 Resources:
 
 
-https://karpathy.github.io/2016/05/31/rl/
+* [Pong by Karpathy](https://karpathy.github.io/2016/05/31/rl/)
+* [CartPole](https://www.datacamp.com/tutorial/reinforcement-learning-with-gymnasium)
+* [OpenAI Problem Sets](https://spinningup.openai.com/en/latest/spinningup/exercises.html#problem-set-1-basics-of-implementation)
 
 
-https://spinningup.openai.com/en/latest/spinningup/exercises.html#problem-set-1-basics-of-implementation
+
+------
+
+

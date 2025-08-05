@@ -1,0 +1,55 @@
+I"<!-- 
+abstraction and generalization are fundamental mathematical activities.
+allow abstraction as one of the proof-finding methods which allows the proof finder to search for general techniques for proving a wide class of statements, as opposed to results that are more tailored to the specific target and hypotheses in the given problem state.
+
+
+Bayesianism in mathematics
+
+Learning from Errors
+
+
+motivations: formal statements of heuristic principles, and the purpose of having them in the library would be to model the know-how of an experienced human mathematician, providing a bridge between a problem state where a library result can be applied in a non-obvious way, and the library result itself
+
+
+----
+
+
+Combinator is a function without free variables. 
+
+Calculus is a method of computation or calculation in a special notation -->
+
+<p>In RL or NLP, gradients are often sparse or very noisy. Vanilla SGD uses a single learning rate for all parameters. Different parameters can have very different gradient magnitudes (e.g., early layers vs. late layers in CNNs). Choosing a good fixed learning rate is hard and often unstable.</p>
+
+<p>ADAM: Computes an adaptive learning rate per parameter using the moving average of squared gradients. Large-gradient parameters → smaller steps; small-gradient parameters → bigger steps</p>
+
+<p>Moving Average Trick:</p>
+
+<p>Dropout:
+. What Dropout Does
+Dropout randomly “turns off” neurons during training with probability 
+𝑝
+p = DROPOUT</p>
+
+<p>Each forward pass uses a different subnetwork</p>
+
+<p>Effect:</p>
+
+<p>Prevents the network from over-relying on specific neurons</p>
+
+<p>Improves generalization</p>
+
+<p>Acts as a regularizer like L2 weight decay</p>
+
+<p>Dropout is applied in the hidden layers only (not on output layer, because you need a valid probability distribution)</p>
+
+<p>====</p>
+
+<p>L2 regularization is a technique to prevent overfitting in neural networks (and other models) by discouraging the weights from becoming too large.</p>
+
+<p>Penalizing 
+𝑤
+2
+w 
+2
+  discourages large weights.</p>
+:ET
