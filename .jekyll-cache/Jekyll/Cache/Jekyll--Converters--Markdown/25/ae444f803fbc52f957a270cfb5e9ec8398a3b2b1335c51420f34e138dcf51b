@@ -1,0 +1,6 @@
+I"�<p>RL methods follow two general ideas:</p>
+<ul>
+  <li>Policy Based:   Value Based: We could estimate how “good” a state or state/action pair is, and then we could have our agent behave greedily.
+These model and optimize the policy directly (rather than indirectly). The value of the reward (objective) function depends on this policy and then various algorithms can be applied to optimize for the best reward.</li>
+</ul>
+:ET
