@@ -1,3 +1,0 @@
-I"�<p>In RL, “policy” that outputs an action given a state. 
-For example, if the state space is continuous or too large, it would be difficult to store value functions.</p>
-:ET

@@ -1,3 +1,0 @@
-I"�<p>In some settings, it makes sense to have an agent follow a “policy” that outputs an action given a state. 
-For example, if the state space is continuous or too large, it would be difficult to store value functions.</p>
-:ET

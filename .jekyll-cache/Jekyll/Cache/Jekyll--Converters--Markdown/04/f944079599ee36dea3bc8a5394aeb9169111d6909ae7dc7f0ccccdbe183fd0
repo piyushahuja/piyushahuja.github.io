@@ -1,0 +1,3 @@
+I"
+<p>One way to solve RL tasks is by estimating how “good” a state or state/action pair is, and then we could have our agent behave greedily (which becomes our policy) Here, by state, one can think of finding out the best board configurations of Chess and Go.</p>
+:ET

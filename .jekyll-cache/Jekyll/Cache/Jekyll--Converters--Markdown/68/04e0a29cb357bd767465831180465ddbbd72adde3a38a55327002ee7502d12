@@ -1,6 +1,0 @@
-I")<p>RL methods follow two general ideas:</p>
-<ul>
-  <li>Value We could estimate how “good” a state or state/action pair is, and then we could have our agent behave greedily.</li>
-  <li>We could find an optimal policy, a policy being a function that outputs an action for each state.</li>
-</ul>
-:ET
