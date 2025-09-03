@@ -1,2 +1,0 @@
-I"<p>One way to solve RL tasks is by estimating how “good” a state or state/action pair is, and then we could have our agent behave greedily. One can think of the finding out board configurations of Chess and Go, and trying to behave in a way to reach</p>
-:ET
