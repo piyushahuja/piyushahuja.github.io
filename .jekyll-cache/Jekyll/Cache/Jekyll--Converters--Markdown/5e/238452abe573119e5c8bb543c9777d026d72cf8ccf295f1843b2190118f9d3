@@ -1,5 +1,0 @@
-I"�<p>RL methods follow two general ideas:</p>
-<ul>
-  <li>Policy Based: One way to solve RL tasks is by estimating how “good” a state or state/action pair is, and then we could have our agent behave greedily. One can think of</li>
-</ul>
-:ET

@@ -276,6 +276,24 @@ class PolicyNetwork(nn.Module):
         return out
 ```
 
+Dropout is a regularization technique to prevent overfitting: randomly "drops" (sets to zero) a fraction of neurons at each step, forces the network to not rely too heavily on specific neurons, encouraging robust feature learning, At inference (test time), dropout is turned off, and weights are scaled to reflect full capacity.
+
+Leaky ReLU is a variant of ReLU activation. Problem with ReLu:  Neurons can "die" (always output 0 for negative inputs → gradients vanish). Leaky ReLU: allows a small, non-zero gradient for negative inputs
+
+Other things you can do
+Batch Normalization ```self.bn1 = nn.BatchNorm1d(hidden_dim)```
+Weight Initialization: Control how weights are initialized for stability and convergence.
+```
+nn.init.xavier_uniform_(self.layer1.weight)
+nn.init.zeros_(self.layer1.bias)
+```
+
+Other things you can do:
+* Experiment with hidden sizes (e.g., 128, 256, 512).
+* Monitor loss curves and gradients (TensorBoard/Matplotlib)
+* Use normalized inputs (observations scaled to [0,1] or standardized), Consider reward normalization in RL training.
+* Use GPU when possible (.to(device)), Save checkpoints frequently (torch.save).
+
 ------
 
 ## Step Returns from rewards
@@ -284,6 +302,7 @@ Given a trajectory of rewards, the folllowing function gives you discounted, nor
 $$
 G_t = r_t + γ*r_{t+1} + γ^2*r_{t+2}
 $$
+
 
 
 **Cartpole** 
@@ -487,6 +506,9 @@ log_prob_actions = log_probs.gather(1, targets.unsqueeze(1)).squeeze(1)
 loss = -(discounted_r * log_prob_actions).sum()
 loss.backward()
 ```
+
+Use Adam optimizer (with learning rate decay).
+Try weight decay (L2 regularization).
 
 -------
 
