@@ -1,0 +1,294 @@
+I"�A<p>Our goal is to find a policy that maximizes rewards. We need to decide what the rewards should be and the maximization process.</p>
+
+<p>Method 1: PPO (from Instruct GPT)</p>
+
+<p>From the InstructGPT paper, the objective:</p>
+
+\[\max_\theta \ \mathbb{E}_{x \sim {D},\ y \sim \pi_\theta(\cdot|x)} \left[ r(x, y) - \beta \log \frac{\pi_\theta(y|x)}{\pi_{\text{ref}}(y|x)} \right]\]
+
+<p>where:</p>
+<ul>
+  <li>\(x\) is the input (prompt)</li>
+  <li>\(y\) is the output (response)</li>
+  <li>\(r(x, y)\) is the reward for output \(y\) given \(x\)</li>
+  <li>\(\pi_\theta\) is the policy being optimized</li>
+  <li>\(\pi_{\text{ref}}\) is the reference policy (after SFT)</li>
+  <li>\(\beta\) is a coefficient controlling the KL penalty</li>
+  <li>\(D\) is the data distribution</li>
+</ul>
+
+<p>The first term encourages outputs that the reward model scores highly (i.e., outputs that humans prefer).</p>
+
+<p>The second term penalizes the new policy if it drifts too far from the reference distribution. Without this KL term, the model might exploit quirks of the reward model (reward hacking). With it, you’re effectively keeping the fine-tuned model in the same “neighborhood” as the reference model. So it’s a regularized RL objective: maximize reward, but stay close to the supervised-finetuned baseline.</p>
+
+<p>A third term is often added to the objective to prevent catastrophic forgetting by encouraging the model to retain its general language modeling abilities. The full loss can be written as:</p>
+
+\[L(\theta) = 
+\underbrace{\mathbb{E}_{x, y \sim \pi_\theta} \left[ -r_\phi(x, y) \right]}_{\text{reward model term}}
++ 
+\underbrace{\beta\, \mathrm{KL}\left(\pi_\theta \,\|\, \pi_{\text{ref}}\right)}_{\text{KL penalty}}
++ 
+\underbrace{\lambda\, \mathbb{E}_{(x, y) \sim D_{\text{pretrain}}} \left[ -\log \pi_\theta(y|x) \right]}_{\text{LM loss (anchor)}}\]
+
+<p>where the last term is a language modeling (LM) loss on pretraining data, weighted by \(\lambda\). \(\lambda\) is a small coefficient, so the LM term doesn’t dominate, but it’s always present to prevent drift.</p>
+
+<p>First term: maximize reward model score. Second term: stay close to reference policy (PPO-style KL regularizer). Third term: continue predicting the next token on a subset of the original pretraining corpus.</p>
+
+<hr />
+
+<p><strong>Training the reward model</strong></p>
+
+<p>Hypothesis: Every single sequence has a true scalar reward value \(r\) associated with it.</p>
+
+<p>Humans can’t give the true numerical value (subjective, noisy, scale-free). But they can compare two model outputs and say “I prefer A over B”.</p>
+
+<p>Can we convert those pairwise human preferences \((y_w, y_l)\) (winner vs. loser) into a scalar score \(r_\theta(x,y)\)?</p>
+
+<p>When a person does pairwise ratings, it compares the scalars, and flips a coin (Bradley Terry Model). When we optimize the reward, we want to output the sequence with the highest \(r\). We don’t observe \(r\), though, we only observe noisy pairwise comparison through \(r_\theta\).</p>
+
+<p>\(y_w​ ≻ y_ℓ​⟺r(y_w​)&gt;r(y_ℓ​)\) + noise.</p>
+
+<p>If would be natural to assume that the difference between rewards reflects the probability that one is chosen over the other. One way to convert reward values to probabilities would be to pass them via a sigmoid function (like we do logits).</p>
+
+\[P(y_w \succ y_\ell) = \sigma\left( r_\phi(y_w) - r_\phi(y_\ell) \right)\]
+
+<p>where $r_\phi$ is the reward model parameterized by $\phi$, and $\sigma(z)$ is the logistic sigmoid:
+\(\sigma(z) = \frac{1}{1 + e^{-z}}\)</p>
+
+<p>This is logistic regression on the difference between two items’ scores.</p>
+
+<p><strong>Training objective</strong></p>
+
+<p>We maximize the likelihood of observed preferences, or equivalently minimize negative log-likelihood:</p>
+
+<p>Formally, for each preference pair \((x, y_w, y_l)\), the negative log likelihood loss (the logistic regression cross entropy loss on difference of  scores) is:</p>
+
+\[L_{\mathrm{RM}}(\phi) = -\log \sigma\left( r_\phi(x, y_w) - r_\phi(x, y_l) \right)\]
+
+<p>where \(\sigma\) is the logistic sigmoid function.</p>
+
+<ul>
+  <li>If the reward model assigns a higher score to \(y_w\) than \(y_l\), the loss is small.</li>
+  <li>If it mistakenly gives a higher score to \(y_l\), the loss is large.</li>
+</ul>
+
+<p>This is logistic regression’s cross-entropy loss, but applied to pairwise differences.</p>
+
+<hr />
+
+<p><strong>What is the training algorithm?</strong></p>
+
+<p>Attempt 1: Policy gradient</p>
+
+<p>If we want to optimize the reward, we take the gradient of the reward objective with respect to \(\theta\) (left hand side equation).</p>
+
+<p>We take the normal gradients (\(\log p_\theta\)), and multiply by reward.</p>
+
+<p>But variances are too high.</p>
+
+<p>Two things that are inefficient:</p>
+<ul>
+  <li>Purely on policy. We have to sample from p_theta, then take a step on those sample. Expensive part of RL is the rollouts. We have to run the LM and get samples.We would much rather sample less frequently. We rollout once, we sample once, and we ddo multiple updates on that rollout.</li>
+</ul>
+
+<p>This motivates TRPO (linearize the problem around the current policy)</p>
+
+<p>Attempt 2:</p>
+
+<p>Instead of taking updates from p_theta, we would allow the updates to go stale.<br />
+We sample from old policy, but still get valid policy gradients, by importance sampling correction, and keep policy close to the old one so you don’t get too far.</p>
+
+<p>Instead of taking the reward, we take an advantage (a variance reduced version of reward). We can subtract any state dependent variable or constant.</p>
+
+<p>I want to take multiple gradient steps after sampling from \(p_\theta\) once (Sampling from one rollout and then going off policy). To do this, I need to do importance weighting corrections, because the more steps I take, the more stale my original samples become.</p>
+
+<p>write the equation here</p>
+
+<p>TRPO: Make corrections for all the steps you take, and you constrain yourself to stay close (by KL equation).</p>
+
+<p>Attempt 3:</p>
+
+<p>PPO: Instead of explicitly constraining to stay close, I can clip the probability ratios, and this will naturally incentivize the model to stay close.</p>
+
+\[L(s, a, \theta_k, \theta) = \min \left(
+    \frac{\pi_\theta(a \mid s)}{\pi_{\theta_k}(a \mid s)} A^{\pi_{\theta_k}}(s, a),\;
+    \operatorname{clip}\left(
+        \frac{\pi_\theta(a \mid s)}{\pi_{\theta_k}(a \mid s)},
+        1 - \epsilon, 1 + \epsilon
+    \right) A^{\pi_{\theta_k}}(s, a)
+\right)\]
+
+<p>code: https://github.com/tatsu-lab/alpaca_farm/blob/main/src/alpaca_farm/rl/ppo_trainer.py</p>
+
+<p>Reward shaping:</p>
+
+<p>Its more like contexual bandit. No state transitions, no environment, no complexity</p>
+
+<p>Reward shaping: constructing per token KL losses to give Rl algorithm something easier to learn from.</p>
+
+<hr />
+
+<p>PPO: Very successful in toy environments, in DotaBot
+At the conceptual level, not very complicated (except the value function bit)</p>
+
+<p>Can we get rid of PPO? in practice, PPO is very complicated.  37 different things to implement (reward model, value network, generalized advantage estimation etc.). The value model is memory hungry and involves additional tuning for training.</p>
+
+<p>Alternatives to make it simple:</p>
+<ul>
+  <li>SFT on pairwise preferences: prepend good on preferred, bad on rejected. Then train conditioning on good.</li>
+  <li>train on preferred responses</li>
+  <li>train a reward model and sample the best out of those</li>
+</ul>
+
+<p>None of these work as well.</p>
+
+<hr />
+
+<p>DPO</p>
+
+<p>Enter DPO.</p>
+
+<p>Instead of learning a separate reward model + RL, you compute the “reward” implicitly as how much more the policy prefers the winner over the reference, in terms of a log-ratio of policy probabilities. This is why DPO is stable and avoids rollouts: the reward differences are directly determinable from the policy’s log-probs.  it’s still grounded in the same Bradley–Terry pairwise preference framework</p>
+
+\[L_{\mathrm{DPO}}(\theta) = -\log \sigma\left( \beta \log \frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \beta \log \frac{\pi_\theta(y_\ell|x)}{\pi_{\text{ref}}(y_\ell|x)} \right)\]
+
+<p><strong>Derivation</strong></p>
+
+<p>Start with the KL-regularized RLHF objective for a single prompt ( x ), where we optimize a policy over full sequences ( y ):</p>
+
+\[\max_{\pi} \; \mathbb{E}_{y \sim \pi(\cdot|x)} \left[ r(y) \right] 
+\;\; - \;\; \beta \, D_{\mathrm{KL}}\left( \pi(\cdot|x) \;\|\; \pi_{\mathrm{ref}}(\cdot|x) \right)\]
+
+<p>If we plug in the probabilities and the constraint that they should sum to 1, we can solve this equation by the langragian method: adding the constraint with a multiplier  λ:, taking the derivative, equating it to zero, to receive a relation between the optimal policy and the reward function that maximizes the reward.</p>
+
+\[\begin{align*}
+&amp;\text{Maximize:} \\
+&amp;\qquad \max_{\pi} \sum_{y} \pi(y|x) \left[ r(y) - \beta \log \frac{\pi(y|x)}{\pi_{\text{ref}}(y|x)} \right] \\
+&amp;\text{subject to:} \\
+&amp;\qquad \sum_{y} \pi(y|x) = 1
+\end{align*}\]
+
+\[\begin{align*}
+L(\pi, \lambda) = \sum_{y} \pi(y|x) \left[ r(y) - \beta \log \pi(y|x) + \beta \log \pi_{\text{ref}}(y|x) \right] + \lambda \left( \sum_{y} \pi(y|x) - 1 \right)
+\end{align*}\]
+
+<p>Set
+\(\frac{\partial L}{\partial \pi(y|x)} = 0\)</p>
+
+\[\frac{\partial L}{\partial \pi(y|x)} = r(y) - \beta \left(1 + \log \pi(y|x)\right) + \beta \log \pi_{\text{ref}}(y|x) + \lambda = 0\]
+
+<p>Rearrange:
+\(\log \pi^*(y|x) = \frac{1}{\beta} r(y) + \log \pi_{\text{ref}}(y|x) - \log Z(x)\)</p>
+
+<p>So the optimizer is:
+\(\pi^*(y|x) = \frac{1}{Z(x)} \, \pi_{\text{ref}}(y|x) \, \exp\left( \frac{r(y)}{\beta} \right)\)</p>
+
+<p>where
+\(Z(x) = \sum_{y} \pi_{\text{ref}}(y|x) \exp\left( \frac{r(y)}{\beta} \right)\)</p>
+
+<p>Invert this to express the reward in terms of a log-ratio:
+\(r(y) = \beta \left( \log \pi^*(y|x) - \log \pi_{\text{ref}}(y|x) \right) + \beta \log Z(x)\)</p>
+
+<p>Note: The constant \(\beta \log Z(x)\) depends only on the prompt \(x\), not on \(y\).</p>
+
+<p>This relation between optimal policy and reward is true for any reward, policy pair that satisfies the KL-regularized RLHF objective.  If we have pairwise preference data, the difference in their scalar optimal rewards is:</p>
+
+\[r(y_w) - r(y_\ell) = \beta \left[ \log \frac{\pi^*(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \log \frac{\pi^*(y_\ell|x)}{\pi_{\text{ref}}(y_\ell|x)} \right]\]
+
+<p>The pairwise preference likelihood can be written entirely in terms of log-probability ratios between the optimal policy and the reference.</p>
+
+<p>DPO’s key move is to identify this and directly optimize the parametric policy to explain the observed preferences by minimizing the negative log likelihood of observed preferences.</p>
+
+<p>The Bradley–Terry model gives:
+\(P(y_w \succ y_\ell \mid x) = \sigma\left( r(y_w) - r(y_\ell) \right)\)</p>
+
+\[L_{\mathrm{DPO}}(\theta) = -\log \sigma\left( \beta \log \frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \beta \log \frac{\pi_\theta(y_\ell|x)}{\pi_{\text{ref}}(y_\ell|x)} \right)\]
+
+<p>“skip the reward model; make the policy itself explain the pairwise prefs via log-prob ratios”  Get rid of any policy (rollouts, outer loops etc.)
+Take gradient steps on log loss of good stuff, Take negative gradient steps on bad stuff) (appropriately weighted</p>
+
+<p>PPO / RLHF needs: a learned reward model, on-policy or clipped off-policy steps, value network, and careful tuning (exploding/vanishing advantages, importance sampling, KL constraint scheduling).</p>
+
+<p>DPO: directly maximizes the preference likelihood, which is a supervised-like loss (logistic on log-prob differences). No policy rollouts, no critic, no on-policy sampling — only forward passes and normal backprop. That makes training simpler, deterministic, and empirically more stable.</p>
+
+<p>So we have taken an RL problem and turned it into a max likelihood problem, something similar, conceptually, to pretraining.</p>
+
+<p>DPO and RLHF solve the same underlying preference alignment problem. RLHF can explore beyond data (but is expensive/unstable), while DPO is stable and cheap (but data-bound) DPO = one supervised finetuning loop, like standard LM training. DPO is low variance (supervised gradients, exact log-probs), but potentially biased toward the support of the training data. RLHF with PPO has high variance (sampling rollouts, stochastic policy gradients), but low bias. RLHF may generalize better in sparse-data settings. DPO is bounded by the diversity of comparisons.</p>
+
+<p>in principle PPO allows RLHF to generalize beyond the fixed preference dataset. But in practice (e.g. InstructGPT, Anthropic’s RLHF, etc.), this effect is weak.</p>
+
+<p>Pushing PPO too far degrades text quality (mode collapse, loss of diversity)
+Reward models trained on pairwise prefs don’t extrapolate perfectly. Rollouts often exploit noise rather than discover genuinely better completions. PPO exploration rarely finds fundamentally new modes of behavior beyond what’s in the supervised data + reward model training set. Reward hacking (exploiting weaknesses in the reward model) also emerges if exploration is pushed too far.</p>
+
+<p>DPO has no exploration loop; it just learns the preference structure directly. Empirically, DPO often matches or beats PPO-RLHF on benchmarks, precisely because RLHF’s supposed exploration benefit doesn’t translate strongly in practice.</p>
+
+<hr />
+
+<p>DPO updates are scaled by the prediction error of the implied reward model.</p>
+
+<p>Define the advantage over the reference under policy \(\pi\) as:
+\(\Delta(x, y_w, y_\ell) = \left[ \log \pi(y_w|x) - \log \pi_{\text{ref}}(y_w|x) \right] - \left[ \log \pi(y_\ell|x) - \log \pi_{\text{ref}}(y_\ell|x) \right]\)</p>
+
+<p>The gradient is a difference of log-prob gradients:
+\(\nabla \log \pi_\theta(y_w|x) - \nabla \log \pi_\theta(y_\ell|x)\)
+That is, increase the log-prob of the winner and decrease the log-prob of the loser.</p>
+
+<p>The scalar weight is:
+\(\kappa \, \sigma(-\kappa \Delta) \in (0, \kappa)\)
+If the model already prefers the winner by a large margin (large positive \(\Delta\)), then \(\sigma(-\kappa \Delta)\) is small, resulting in little or no update (saturation). If it prefers the loser, the weight is large, leading to a big corrective update.</p>
+
+<p>This is exactly like pairwise logistic regression on sequence log-probabilities — hence it trains with standard supervised gradient descent (</p>
+
+<hr />
+
+<p>Variants of DPO (many, but these are from Tulu 3):</p>
+
+<ul>
+  <li>Normalize the update size by length of responses</li>
+  <li>Get rid of reference policy (what we are doing is adjusting the policy, or we are more doing update the good stuff, downeight the bad stuff)</li>
+</ul>
+
+<p>In RL, many findings are contingent on the specific setting: base model, environment, post training preferences you are running on. Tulu3 paper: if you do SFT very nicely, it eats up all gains of PPO or DPO. The only thing that does better is DPO with length normalization.</p>
+
+<hr />
+
+<p>RLHF: Overfitting. the more RL you do (increased KL divergence from finetuned policy), the more rewards deviate from human preferences.</p>
+<ul>
+  <li>RLHF on human feedback not necessarily getting better on human preference win rates</li>
+  <li>RLHF on AI feedback noisy (Alpaca Farm) not necessarily getting better on Ai feeback win rates</li>
+  <li>RLHF on non noise AI feedback is good</li>
+</ul>
+
+<p>Less calibrated models: RLHF at temporate 1 show much more overconfient behavior. Maybe its fine, but you have to be careful if you used to think of them as calibrated probabilistic models.</p>
+
+<hr />
+
+<p>Why not DPO? Suited for pairwise comparisons. not so good for math questions, example.</p>
+
+<p>Is offline in a way.</p>
+
+<hr />
+
+<p>Folk theory: What you really want your RL algorithm to do is to solve problems that it can do somewhat well on, but is not so easy that it can already solve them. So a curriculum effect that you want to feed it problems at the right level of difficulty.</p>
+
+<hr />
+
+<p>Enter GRPO: Very simple in motivaion</p>
+
+<p>start with ppo, replace gae with much simpler: calculate the advantage as z score within group</p>
+
+<p>In the online case, rollout + immediate update, this is just policy gradient with group normalized rewards.</p>
+
+<p>https://github.com/McGill-NLP/nano-aha-moment</p>
+
+<p>Advtange is also simple: add an epsilon to variance so it doesnt blow up, a fudge factor.</p>
+
+<hr />
+
+<p>DeepseekMath Paper: Two finetuning based methods</p>
+
+<p>Outperforms reinforcing correct answers, with some gains from process rewards.</p>
+
+<p>GRPO is dividing the rewards by the length of the output.</p>
+
+:ET
