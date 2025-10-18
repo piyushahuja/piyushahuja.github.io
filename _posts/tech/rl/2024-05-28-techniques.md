@@ -45,9 +45,7 @@ Moving Average Trick:
 
 Dropout:
 . What Dropout Does
-Dropout randomly “turns off” neurons during training with probability 
-𝑝
-p = DROPOUT
+Dropout randomly "turns off" neurons during training with probability $$p$$.
 
 Each forward pass uses a different subnetwork
 
@@ -66,7 +64,7 @@ Dropout is applied in the hidden layers only (not on output layer, because you n
 
 L2 regularization is a technique to prevent overfitting in neural networks (and other models) by discouraging the weights from becoming too large.
 
-Penalizing  discourages large weights. Smaller weights → network is less sensitive to small input changes. Reduces the risk of memorizing noise. Encourages smoother, more generalizable decision boundaries.
+Penalizing large weights discourages them from becoming too large. Smaller weights → network is less sensitive to small input changes. Reduces the risk of memorizing noise. Encourages smoother, more generalizable decision boundaries.
 
 Dropout: randomly zeroes some activations during training to prevent co-adaptation.
 
@@ -89,10 +87,7 @@ Both are regularizers, but they work in different ways and are often used togeth
 
  Leaky ReLU:
 
-Allows a small gradient for negative inputs (
-𝛼
-𝑥
-αx), so neurons can recover even if they go negative.
+Allows a small gradient for negative inputs ($$\alpha x$$), so neurons can recover even if they go negative.
 
 Reduces the chance of “dead” neurons.
 
@@ -173,72 +168,15 @@ Kraft's inequality
 
 Setup: prefix-free codes
 
-Suppose you have a set of symbols 
-𝑋
-=
-{
-𝑥
-1
-,
-𝑥
-2
-,
-…
-,
-𝑥
-𝑛
-}
-X={x
-1
-	​
+Suppose you have a set of symbols $$X = \{x_1, x_2, \ldots, x_n\}$$.
 
-,x
-2
-	​
-
-,…,x
-n
-	​
-
-}.
-
-Each symbol 
-𝑥
-𝑖
-x
-i
-	​
-
- is assigned a binary codeword of length 
-ℓ
-𝑖
-ℓ
-i
-	​
-
-.
+Each symbol $$x_i$$ is assigned a binary codeword of length $$\ell_i$$.
 
 A prefix-free code means no codeword is a prefix of another.
 
 Example: if “0” is a code, you cannot also have “01” or “001”.
 
-We want a condition on the lengths 
-ℓ
-1
-,
-…
-,
-ℓ
-𝑛
-ℓ
-1
-	​
-
-,…,ℓ
-n
-	​
-
- that guarantees a prefix-free code exists.
+We want a condition on the lengths $$\ell_1, \ldots, \ell_n$$ that guarantees a prefix-free code exists.
 
 2. Key idea: codewords as a tree
 
@@ -254,69 +192,15 @@ Prefix-free ⇨ codewords occupy distinct leaves (no codeword is ancestor of ano
 
 3. Counting leaves
 
-A binary tree of depth 
-𝐿
-L has 
-2
-𝐿
-2
-L
- possible leaves at level 
-𝐿
-L.
+A binary tree of depth $$L$$ has $$2^L$$ possible leaves at level $$L$$.
 
-If a codeword has length 
-ℓ
-𝑖
-ℓ
-i
-	​
+If a codeword has length $$\ell_i$$, it "consumes" $$2^{L-\ell_i}$$ leaves at level $$L$$ for any $$L \geq \ell_i$$.
 
-, it “consumes” 
-2
-𝐿
-−
-ℓ
-𝑖
-2
-L−ℓ
-i
-	​
+Normalized at level 1 (root): each codeword "occupies" $$2^{-\ell_i}$$ of the unit interval $$[0,1]$$.
 
- leaves at level 
-𝐿
-L for any 
-𝐿
-≥
-ℓ
-𝑖
-L≥ℓ
-i
-	​
+This is intuitive: a length-1 code splits [0,1] into halves → $$2^{-1}$$
 
-.
-
-Normalized at level 1 (root): each codeword “occupies” 
-2
-−
-ℓ
-𝑖
-2
-−ℓ
-i
-	​
-
- of the unit interval 
-[
-0
-,
-1
-]
-[0,1].
-
-This is intuitive: a length-1 code splits [0,1] into halves → 2^-1
-
-A length-2 code splits it into quarters → 2^-2, etc.
+A length-2 code splits it into quarters → $$2^{-2}$$, etc.
 
 
 
@@ -327,204 +211,40 @@ Example: Will a student pass the exam? Yes (1) or No (0).
 
 Or: Is this email spam (1) or not spam (0)?
 
-We want a model that takes input features 
-𝑥
-x (study hours, word frequencies, etc.) and predicts the probability of outcome 
-𝑦
-∈
-{
-0
-,
-1
-}
-y∈{0,1}.
+We want a model that takes input features $$x$$ (study hours, word frequencies, etc.) and predicts the probability of outcome $$y \in \{0,1\}$$.
 
 If we tried ordinary linear regression:
 
-𝑦
-≈
-𝑤
-⊤
-𝑥
-+
-𝑏
-,
-y≈w
-⊤
-x+b,
+$$y \approx w^\top x + b$$,
 
-it could predict values outside 
-[
-0
-,
-1
-]
-[0,1], which is not valid for probabilities.
+it could predict values outside $$[0,1]$$, which is not valid for probabilities.
 
-We map the linear score 
-𝑧
-=
-𝑤
-⊤
-𝑥
-+
-𝑏
-z=w
-⊤
-x+b through a sigmoid function:
+We map the linear score $$z = w^\top x + b$$ through a sigmoid function:
 
-𝑝
-(
-𝑦
-=
-1
-∣
-𝑥
-)
-=
-𝜎
-(
-𝑧
-)
-=
-1
-1
-+
-𝑒
-−
-𝑧
-.
-p(y=1∣x)=σ(z)=
-1+e
-−z
-1
-	​
-
-.
+$$p(y=1|x) = \sigma(z) = \frac{1}{1 + e^{-z}}$$.
 
 This ensures predictions are always between 0 and 1.
 
-If 
-𝑧
-z is very positive → 
-𝑝
-≈
-1
-p≈1.
+If $$z$$ is very positive → $$p \approx 1$$.
 
-If 
-𝑧
-z is very negative → 
-𝑝
-≈
-0
-p≈0.
+If $$z$$ is very negative → $$p \approx 0$$.
 
-If 
-𝑧
-=
-0
-z=0 → 
-𝑝
-=
-0.5
-p=0.5.
+If $$z = 0$$ → $$p = 0.5$$.
 
-Given a dataset 
-{
-(
-𝑥
-𝑖
-,
-𝑦
-𝑖
-)
-}
-{(x
-i
-	​
+Given a dataset $$\{(x_i, y_i)\}$$, we maximize the likelihood of the observed labels:
 
-,y
-i
-	​
-
-)}, we maximize the likelihood of the observed labels:
-
-𝐿
-(
-𝑤
-)
-=
-∏
-𝑖
-𝑝
-(
-𝑦
-𝑖
-∣
-𝑥
-𝑖
-)
-.
-L(w)=
-i
-∏
-	​
-
-p(y
-i
-	​
-
-∣x
-i
-	​
-
-).
+$$L(w) = \prod_i p(y_i|x_i)$$.
 
 Equivalently, minimize the log-loss (cross-entropy):
 
 
 Linear regression: predicts a real number (anywhere on the line).
 
-Logistic regression: predicts the log-odds of the binary event as a linear function of 
-𝑥
-x.
+Logistic regression: predicts the log-odds of the binary event as a linear function of $$x$$.
 
 Formally:
 
-log
-⁡
-𝑝
-(
-𝑦
-=
-1
-∣
-𝑥
-)
-𝑝
-(
-𝑦
-=
-0
-∣
-𝑥
-)
-=
-𝑤
-⊤
-𝑥
-+
-𝑏
-.
-log
-p(y=0∣x)
-p(y=1∣x)
-	​
-
-=w
-⊤
-x+b.
+$$\log \frac{p(y=1|x)}{p(y=0|x)} = w^\top x + b$$.
 
 That’s why it’s called logistic regression: the linear function models the log-odds
 
@@ -532,41 +252,9 @@ Logistic regression is a method for modeling binary outcomes. It assumes the log
 
 ----
 
-The log-ratio 
-log
-⁡
-𝜋
-𝜃
-𝜋
-ref
-log
-π
-ref
-	​
+The log-ratio $$\log \frac{\pi_\theta}{\pi_{\text{ref}}}$$ measures surprise or information gain when moving from the reference distribution to the new policy.
 
-π
-θ
-	​
-
-	​
-
- measures surprise or information gain when moving from the reference distribution to the new policy.
-
- Its expectation is KL divergence = “how many extra nats/bits you need if you code samples from 
-𝜋
-𝜃
-π
-θ
-	​
-
- with a code designed for 
-𝜋
-ref
-π
-ref
-	​
-
-.”
+ Its expectation is KL divergence = "how many extra nats/bits you need if you code samples from $$\pi_\theta$$ with a code designed for $$\pi_{\text{ref}}$$."
 
 reward learning, coding theory, and policy optimization are different views of the same principle: to optimize behavior, you are always tilting one distribution against another in log-space.
 
@@ -574,46 +262,11 @@ reward learning, coding theory, and policy optimization are different views of t
 
 importance sampling is fundamentally about probability ratios.
 
-Suppose you want to estimate an expectation under distribution 
-𝑃
-P, but can only sample from 
-𝑄
-Q.
+Suppose you want to estimate an expectation under distribution $$P$$, but can only sample from $$Q$$.
 
 The trick:
 
-𝐸
-𝑥
-∼
-𝑃
-[
-𝑓
-(
-𝑥
-)
-]
-=
-𝐸
-𝑥
-∼
-𝑄
- ⁣
-[
-𝑓
-(
-𝑥
-)
-⋅
-𝑃
-(
-𝑥
-)
-𝑄
-(
-𝑥
-)
-]
-.
+$$\mathbb{E}_{x \sim P}[f(x)] = \mathbb{E}_{x \sim Q}\left[f(x) \cdot \frac{P(x)}{Q(x)}\right]$$
 E
 x∼P
 	​
@@ -629,17 +282,7 @@ P(x)
 
 ].
 
-👉 That ratio 
-𝑃
-(
-𝑥
-)
-/
-𝑄
-(
-𝑥
-)
-P(x)/Q(x) is exactly the same structure as the KL log-ratio — except KL uses the log of it and takes an expectation.
+👉 That ratio $$P(x)/Q(x)$$ is exactly the same structure as the KL log-ratio — except KL uses the log of it and takes an expectation.
 
 So in RLHF / PPO:
 
@@ -651,53 +294,15 @@ That requires exactly these probability ratios.
 
 PPO even clips these ratios to stabilize training — another importance sampling trick.
 
-hannon defined the information content (or “surprisal”) of an event 
-𝑥
-x with probability 
-𝑝
-p:
+Shannon defined the information content (or "surprisal") of an event $$x$$ with probability $$p$$:
 
-𝐼
-(
-𝑥
-)
-=
-−
-log
-⁡
-𝑝
-(
-𝑥
-)
-.
-I(x)=−logp(x).
+$$I(x) = -\log p(x)$$.
 
 So the log is fundamental:
 
 It turns probabilities into additive information (two independent events → sum of their surprises).
 
-It makes entropy 
-𝐻
-(
-𝑃
-)
-=
-−
-𝐸
-𝑃
-[
-log
-⁡
-𝑃
-(
-𝑥
-)
-]
-H(P)=−E
-P
-	​
-
-[logP(x)].
+It makes entropy $$H(P) = -\mathbb{E}_P[\log P(x)]$$.
 
 It makes KL divergence a natural measure of “extra surprise” when coding with 
 𝑄
@@ -753,20 +358,7 @@ When Shannon asked: “What is the entropy of English text?” he was asking:
 
 👉 On average, how many bits of information does one letter (or word) of English carry?
 
-If letters were independent and uniform (26 letters equally likely), entropy = 
-log
-⁡
-2
-(
-26
-)
-≈
-4.7
-log
-2
-	​
-
-(26)≈4.7 bits/letter.
+If letters were independent and uniform (26 letters equally likely), entropy = $$\log_2(26) \approx 4.7$$ bits/letter.
 
 But English is not uniform:
 
