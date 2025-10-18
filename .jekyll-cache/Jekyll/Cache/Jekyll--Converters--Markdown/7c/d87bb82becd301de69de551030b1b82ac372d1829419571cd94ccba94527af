@@ -1,0 +1,376 @@
+I"�9<!-- 
+abstraction and generalization are fundamental mathematical activities.
+allow abstraction as one of the proof-finding methods which allows the proof finder to search for general techniques for proving a wide class of statements, as opposed to results that are more tailored to the specific target and hypotheses in the given problem state.
+
+
+Bayesianism in mathematics
+
+Learning from Errors
+
+
+motivations: formal statements of heuristic principles, and the purpose of having them in the library would be to model the know-how of an experienced human mathematician, providing a bridge between a problem state where a library result can be applied in a non-obvious way, and the library result itself
+
+
+----
+
+
+Combinator is a function without free variables. 
+
+Calculus is a method of computation or calculation in a special notation -->
+
+<p>In RL or NLP, gradients are often sparse or very noisy. Vanilla SGD uses a single learning rate for all parameters. Different parameters can have very different gradient magnitudes (e.g., early layers vs. late layers in CNNs). Choosing a good fixed learning rate is hard and often unstable.</p>
+
+<p>ADAM: Computes an adaptive learning rate per parameter using the moving average of squared gradients. Large-gradient parameters → smaller steps; small-gradient parameters → bigger steps</p>
+
+<p>Moving Average Trick:</p>
+
+<p>Dropout:
+. What Dropout Does
+Dropout randomly “turns off” neurons during training with probability \(p\).</p>
+
+<p>Each forward pass uses a different subnetwork</p>
+
+<p>Effect:</p>
+
+<p>Prevents the network from over-relying on specific neurons</p>
+
+<p>Improves generalization</p>
+
+<p>Acts as a regularizer like L2 weight decay</p>
+
+<p>Dropout is applied in the hidden layers only (not on output layer, because you need a valid probability distribution)</p>
+
+<p>====</p>
+
+<p>L2 regularization is a technique to prevent overfitting in neural networks (and other models) by discouraging the weights from becoming too large.</p>
+
+<p>Penalizing large weights discourages them from becoming too large. Smaller weights → network is less sensitive to small input changes. Reduces the risk of memorizing noise. Encourages smoother, more generalizable decision boundaries.</p>
+
+<p>Dropout: randomly zeroes some activations during training to prevent co-adaptation.</p>
+
+<p>L2: continuously shrinks weights to avoid large, overfit parameters.</p>
+
+<p>Both are regularizers, but they work in different ways and are often used together.</p>
+
+<hr />
+<p>if you insist on trying out Policy Gradients for your problem make sure you pay close attention to the tricks section in papers, start simple first, and use a variation of PG called TRPO, which almost always works better and more consistently than vanilla PG in practice. The core idea is to avoid parameter updates that change your policy too much, as enforced by a constraint on the KL divergence between the distributions predicted by the old and the new policy on a batch of data (instead of conjugate gradients the simplest instantiation of this idea could be implemented by doing a line search and checking the KL along the way).</p>
+
+<hr />
+<p>In the case of Reinforcement Learning for example, one strong baseline that should always be tried first is the cross-entropy method (CEM), a simple stochastic hill-climbing “guess and check” approach inspired loosely by evolution.</p>
+
+<hr />
+
+<p>: Dying ReLU problem — neurons output zero for all inputs if weights drive them into the negative region permanently (gradient becomes 0, so they never update).</p>
+
+<p>Leaky ReLU:</p>
+
+<p>Allows a small gradient for negative inputs (\(\alpha x\)), so neurons can recover even if they go negative.</p>
+
+<p>Reduces the chance of “dead” neurons.</p>
+
+<hr />
+<p>There’s a uniqueness theorem in information theory:</p>
+
+<p>If you want a measure of “information content” that is additive for independent events and monotonic in probability (rare events = more information), then the measure must be proportional to \(-\log p\).</p>
+
+<p>The functional equation</p>
+
+\[I(pq) = I(p) + I(q)\]
+
+<p>has a unique solution (up to a constant factor):</p>
+
+\[I(p) = -k \log p\]
+
+<p>where \(k\) is a constant (just a choice of log base: bits if base 2, nats if base \(e\)).</p>
+
+<p>The negative sign makes sense: smaller \(p\) means larger \(I(p)\). Rarer events should carry more information. The information from two independent events should be the sum of their individual information contents.</p>
+
+<p>This is why the only additive way to measure information is with a logarithm.</p>
+
+<p>Now, if \(I(p) = -\log p\) is the information content of one outcome, then the expected information across the distribution \(P\) is the entropy:</p>
+
+\[H(P) = \mathbb{E}_{x \sim P}[-\log P(x)] = -\sum_x P(x) \log P(x)\]
+
+<p>That’s Shannon entropy.</p>
+
+<p>Suppose instead of coding using the true distribution \(P\), you code using some wrong distribution \(Q\). The extra cost you pay per symbol is the difference in information content:</p>
+
+\[-\log Q(x) - \left(-\log P(x)\right) = \log \frac{P(x)}{Q(x)}\]
+
+<p>Take the expectation under the true distribution \(P\):</p>
+
+\[D_{\mathrm{KL}}(P \| Q) = \mathbb{E}_{x \sim P} \left[ \log \frac{P(x)}{Q(x)} \right] = \sum_x P(x) \log \frac{P(x)}{Q(x)}\]
+
+<p>So:</p>
+
+<ul>
+  <li><strong>Entropy</strong>: average self-information.</li>
+  <li><strong>KL</strong>: average excess information when using \(Q\) instead of \(P\).</li>
+</ul>
+
+<hr />
+
+<p>At the beginning, coding theory is about symbols: H, T, A, B, C, etc. Each symbol needs to be represented by a sequence of bits (like 0, 10, 11). So we care about the average number of bits per symbol.</p>
+
+<p>Not all symbols occur equally often. If you always send H, why waste a whole bit? You could assign H \(\to\) 0 and never need to code T at all. So the distribution of symbols matters: frequent ones should get shorter codes. We don’t care about the symbol itself, but its probability.</p>
+
+<p>Shannon asked: If outcomes occur with probabilities \(P(x)\), what is the best possible expected code length?</p>
+
+\[\text{Expected length} = \sum_x P(x) \cdot \ell(x)\]
+
+<p>where \(\ell(x)\) is the code length for symbol \(x\).</p>
+
+<p>For an optimal code,</p>
+
+\[\ell(x) \approx -\log_2 P(x)\]
+
+<p>Why? Because if you assign code lengths proportional to \(-\log P(x)\), the Kraft inequality (prefix-free constraint) is satisfied, and no other assignment can beat it.</p>
+
+<p>Kraft’s inequality</p>
+
+<p>Setup: prefix-free codes</p>
+
+<p>Suppose you have a set of symbols \(X = \{x_1, x_2, \ldots, x_n\}\).</p>
+
+<p>Each symbol \(x_i\) is assigned a binary codeword of length \(\ell_i\).</p>
+
+<p>A prefix-free code means no codeword is a prefix of another.</p>
+
+<p>Example: if “0” is a code, you cannot also have “01” or “001”.</p>
+
+<p>We want a condition on the lengths \(\ell_1, \ldots, \ell_n\) that guarantees a prefix-free code exists.</p>
+
+<ol>
+  <li>Key idea: codewords as a tree</li>
+</ol>
+
+<p>Think of all possible binary strings as nodes in a full binary tree:</p>
+
+<p>Root = empty string.</p>
+
+<p>Left edge = append “0”, right edge = append “1”.</p>
+
+<p>Each codeword is a leaf node.</p>
+
+<p>Prefix-free ⇨ codewords occupy distinct leaves (no codeword is ancestor of another).</p>
+
+<ol>
+  <li>Counting leaves</li>
+</ol>
+
+<p>A binary tree of depth \(L\) has \(2^L\) possible leaves at level \(L\).</p>
+
+<p>If a codeword has length \(\ell_i\), it “consumes” \(2^{L-\ell_i}\) leaves at level \(L\) for any \(L \geq \ell_i\).</p>
+
+<p>Normalized at level 1 (root): each codeword “occupies” \(2^{-\ell_i}\) of the unit interval \([0,1]\).</p>
+
+<p>This is intuitive: a length-1 code splits [0,1] into halves → \(2^{-1}\)</p>
+
+<p>A length-2 code splits it into quarters → \(2^{-2}\), etc.</p>
+
+<hr />
+<p>Suppose you want to predict a binary outcome:</p>
+
+<p>Example: Will a student pass the exam? Yes (1) or No (0).</p>
+
+<p>Or: Is this email spam (1) or not spam (0)?</p>
+
+<p>We want a model that takes input features \(x\) (study hours, word frequencies, etc.) and predicts the probability of outcome \(y \in \{0,1\}\).</p>
+
+<p>If we tried ordinary linear regression:</p>
+
+<p>\(y \approx w^\top x + b\),</p>
+
+<p>it could predict values outside \([0,1]\), which is not valid for probabilities.</p>
+
+<p>We map the linear score \(z = w^\top x + b\) through a sigmoid function:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>$$p(y=1</td>
+      <td>x) = \sigma(z) = \frac{1}{1 + e^{-z}}$$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This ensures predictions are always between 0 and 1.</p>
+
+<p>If \(z\) is very positive → \(p \approx 1\).</p>
+
+<p>If \(z\) is very negative → \(p \approx 0\).</p>
+
+<p>If \(z = 0\) → \(p = 0.5\).</p>
+
+<p>Given a dataset \(\{(x_i, y_i)\}\), we maximize the likelihood of the observed labels:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>$$L(w) = \prod_i p(y_i</td>
+      <td>x_i)$$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Equivalently, minimize the log-loss (cross-entropy):</p>
+
+<p>Linear regression: predicts a real number (anywhere on the line).</p>
+
+<p>Logistic regression: predicts the log-odds of the binary event as a linear function of \(x\).</p>
+
+<p>Formally:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>$$\log \frac{p(y=1</td>
+      <td>x)}{p(y=0</td>
+      <td>x)} = w^\top x + b$$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>That’s why it’s called logistic regression: the linear function models the log-odds</p>
+
+<p>Logistic regression is a method for modeling binary outcomes. It assumes the log-odds of the event is a linear function of the inputs, and it trains parameters by maximizing the probability of the observed labels.</p>
+
+<hr />
+
+<p>The log-ratio \(\log \frac{\pi_\theta}{\pi_{\text{ref}}}\) measures surprise or information gain when moving from the reference distribution to the new policy.</p>
+
+<p>Its expectation is KL divergence = “how many extra nats/bits you need if you code samples from \(\pi_\theta\) with a code designed for \(\pi_{\text{ref}}\).”</p>
+
+<p>reward learning, coding theory, and policy optimization are different views of the same principle: to optimize behavior, you are always tilting one distribution against another in log-space.</p>
+
+<p>importance sampling is fundamentally about probability ratios.</p>
+
+<p>Suppose you want to estimate an expectation under distribution \(P\), but can only sample from \(Q\).</p>
+
+<p>The trick:</p>
+
+<p>\(\mathbb{E}_{x \sim P}[f(x)] = \mathbb{E}_{x \sim Q}\left[f(x) \cdot \frac{P(x)}{Q(x)}\right]\)
+E
+x∼P
+	​</p>
+
+<p>[f(x)]=E
+x∼Q
+	​</p>
+
+<p>[f(x)⋅
+Q(x)
+P(x)
+	​</p>
+
+<p>].</p>
+
+<p>👉 That ratio \(P(x)/Q(x)\) is exactly the same structure as the KL log-ratio — except KL uses the log of it and takes an expectation.</p>
+
+<p>So in RLHF / PPO:</p>
+
+<p>You generate samples under your current policy.</p>
+
+<p>But you need to evaluate them under the old or reference policy.</p>
+
+<p>That requires exactly these probability ratios.</p>
+
+<p>PPO even clips these ratios to stabilize training — another importance sampling trick.</p>
+
+<p>Shannon defined the information content (or “surprisal”) of an event \(x\) with probability \(p\):</p>
+
+<p>\(I(x) = -\log p(x)\).</p>
+
+<p>So the log is fundamental:</p>
+
+<p>It turns probabilities into additive information (two independent events → sum of their surprises).</p>
+
+<p>It makes entropy \(H(P) = -\mathbb{E}_P[\log P(x)]\).</p>
+
+<p>It makes KL divergence a natural measure of “extra surprise” when coding with 
+𝑄
+Q instead of 
+𝑃
+P.</p>
+
+<hr />
+
+<p>KL Divergence is</p>
+
+<p>In DPO (Direct Preference Optimization), the reward and the KL divergence are related.</p>
+
+<p>The standard RL objective is:
+\(J(\theta) = \mathbb{E}_{y \sim \pi_\theta} \left[ r_\phi(y) \right] - \beta D_{\mathrm{KL}}(\pi_\theta \| \pi_{\text{ref}})\)</p>
+
+<p>where:</p>
+<ul>
+  <li>( r_\phi(y) ): learned reward model (from human preferences)</li>
+  <li>KL term: a regularizer, keeping the new policy close to the reference LM</li>
+</ul>
+
+<p>The pointwise contribution to the KL divergence is:
+\(\hat{r}_\theta(y) = \beta \log \frac{\pi_\theta(y|x)}{\pi_{\text{ref}}(y|x)}\)</p>
+
+<p>The KL divergence itself is:
+\(D_{\mathrm{KL}}(\pi_\theta \| \pi_{\text{ref}}) = \mathbb{E}_{y \sim \pi_\theta} \left[ \log \frac{\pi_\theta(y|x)}{\pi_{\text{ref}}(y|x)} \right]\)</p>
+
+<p>So the implicit DPO reward is the log-ratio inside the KL. But DPO doesn’t take the expectation — it uses these log-ratios directly in the Bradley–Terry logistic regression loss.</p>
+
+<p>In DPO, we define the implicit reward as:
+\(r_\theta(y|x) = \beta \log \frac{\pi_\theta(y|x)}{\pi_{\text{ref}}(y|x)}\)</p>
+
+<p>Then:
+\(\mathbb{E}_{y \sim \pi_\theta} [r_\theta(y|x)] = \beta D_{\mathrm{KL}}(\pi_\theta(\cdot|x) \| \pi_{\text{ref}}(\cdot|x))\)</p>
+
+<p>So the KL is just the expected log-ratio reward</p>
+
+<hr />
+
+<p>When Shannon asked: “What is the entropy of English text?” he was asking:</p>
+
+<p>👉 On average, how many bits of information does one letter (or word) of English carry?</p>
+
+<p>If letters were independent and uniform (26 letters equally likely), entropy = \(\log_2(26) \approx 4.7\) bits/letter.</p>
+
+<p>But English is not uniform:</p>
+
+<p>“e” is much more common than “z”</p>
+
+<p>letters are correlated (“q” is almost always followed by “u”)</p>
+
+<p>words and grammar add further predictability.</p>
+
+<p>Shannon ran clever experiments:</p>
+
+<p>He asked humans to guess the next character in text (like autocomplete).</p>
+
+<p>The better they could guess, the lower the entropy.</p>
+
+<p>Findings:</p>
+
+<p>He estimated English entropy to be between 0.6 and 1.3 bits per character (after accounting for long-range structure).</p>
+
+<p>That’s far lower than the maximum 4.7 bits/letter.</p>
+
+<p>🔹 What it means</p>
+
+<p>English is highly redundant — maybe 75–85% redundant.</p>
+
+<p>That’s why spelling mistakes or missing words don’t always stop us from understanding.</p>
+
+<p>Compression limit:</p>
+
+<p>Entropy gives a lower bound on how much you could compress English without losing information.</p>
+
+<p>E.g., if it’s ~1 bit/character, then in principle you could compress English text 4–5× smaller than raw ASCII (8 bits/char).</p>
+
+<p>Predictability of language:</p>
+
+<p>Entropy quantifies how much “choice” the writer has at each step, on average.</p>
+
+<p>Low entropy = the next symbol is quite constrained by context.</p>
+
+<p>With large text corpora, modern estimates also put English entropy around 1–1.5 bits per character.</p>
+
+<p>LLMs are basically entropy estimators + predictors: they model the probability distribution of the next token in order to minimize surprise (cross-entropy).</p>
+:ET

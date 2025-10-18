@@ -14,6 +14,10 @@ comments: false
 The other way is to model and optimize the policy directly (rather than indirectly). The value of the reward function depends on this policy and then various algorithms can be applied to optimize for the best reward. These are policy based methods. 
 
 
+How does backprop work with RL? https://x.com/dwarkesh_sp/status/1969120074104783270
+
+Application: https://cursor.com/en/blog/tab-rl
+
 -----
 
 Policy based methods are better in the following settings:
