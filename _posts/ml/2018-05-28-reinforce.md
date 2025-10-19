@@ -3,7 +3,7 @@ layout: post-normal
 title: Policy Gradient Methods
 date:   2024-05-28 09:00:11
 tag:
-categories: rl
+categories: ml
 excerpt:
 permalink: /reinforce
 comments: false
