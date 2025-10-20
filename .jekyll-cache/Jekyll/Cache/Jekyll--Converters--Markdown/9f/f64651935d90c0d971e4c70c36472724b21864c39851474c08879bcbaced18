@@ -1,0 +1,236 @@
+I"�5<blockquote>
+  <p>Learning from experience is about reducing surprise about what works.</p>
+</blockquote>
+
+<p>Log Probability seems to jump out everwhere in ML, not dissimilar to how $\pi$ comes up again and again in geometry.</p>
+
+<p>You often want to differentiate an expectation in reinforcement learning:</p>
+
+\[\nabla_{\theta} \mathbb{E}_{a \sim \pi_{\theta}(\cdot \mid s)}[f(a)]\]
+
+<p>The gradient passes through the distribution $\pi_{\theta}$, so you get:</p>
+
+\[\nabla_{\theta} \mathbb{E}_{\pi_{\theta}} [f(a)] = \mathbb{E}_{\pi_{\theta}} \left[ f(a) \nabla_{\theta} \log \pi_{\theta}(a \mid s) \right]\]
+
+<p>This is the score function trick or log-derivative trick, and it allows you to estimate gradients without differentiating through the random sampling process</p>
+
+<p>In Supervised Learning for classification, we minimize the negative log likelihood of the correct class (cross entropy loss):</p>
+
+\[L = -\log p_\theta(y_{\text{true}} \mid x)\]
+
+<p>In Diffusion Models, the training objective minimizes the KL divergence (difference of log-probabilities) between the forward and reverse processes.</p>
+
+<p>The Kullback-Leibler (KL) divergence is</p>
+
+\[D_{KL}(p \| q) = \mathbb{E}_{p}\left[ \log p(x) - \log q(x) \right]\]
+
+<p><strong>There is a practical reason</strong>: Whenever you have probabilities that multiply (e.g., joint or conditional probabilities), their logarithm turns products into sums:</p>
+
+<p>This is numerically stable and easier to differentiate, especially since probabilities are often tiny (so log keeps them in a manageable numerical range). We almost never optimize raw probabilities: we optimize log probabilities.</p>
+
+<p>But is this just a neat mathematical trick to make computation practical? Or is there something more to log probability? Is there an underlying intuition that ties its appearance evewhere?</p>
+
+<hr />
+
+<p>Logic is absolute. The real world is messy. What would reasoning look like if we model the world as a dynamic entity where many possible worlds are possible, where events unfold, and as we observe what happens alternative realities are destroyed?  What laws of thought would govern reasoning about uncertainty and information?</p>
+
+<p>When faced with uncertainty, instead of abandoning logic, we extend it through probability.  Probability is the study of correct reasoning under uncertainty.</p>
+
+<p>If logic deals in truth values: 0 or 1, probability deals in degrees of plausibility: [0,1]. Instead of propositions, we study events and evidence.</p>
+
+<p>So:</p>
+
+<p>P(A) = 1 =&gt; I know A is true.</p>
+
+<p>P(A) = 0 =&gt; I know A is false.</p>
+
+<p>Intermediate values =&gt; “I don’t know; A is more or less plausible.”</p>
+
+<p>Probabilities are thus generalized truth values.<sup id="fnref:cox" role="doc-noteref"><a href="#fn:cox" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>What rules of inference are there?</p>
+
+<p>Bayes’ theorem is then just generalized syllogism:</p>
+
+<p>In logic: If A implies B, and A is true, then B must be true.</p>
+
+<p>In probability: If A supports B with likelihood, and A is plausible, then B’s plausibility updates by Bayes’ rule.</p>
+
+<p>Probabilistic reasoning = belief revision under uncertainty</p>
+
+<p>A probabilistic model $p_\theta(x)$ encodes your beliefs about how likely different observations $x$ are, given parameters $\theta$.</p>
+
+<p>When you observe a new data point $x$, you want to update those beliefs—this is the essence of reasoning under uncertainty.</p>
+
+<p>Bayes’ rule formalizes this:</p>
+
+\[p(\theta \mid x) \propto p(x \mid \theta)\,p(\theta)\]
+
+<p>Inference = logic under uncertainty:</p>
+
+<p>Deduction: certainty: Boolean logic.</p>
+
+<p>Induction: uncertainty  Bayesian probability.</p>
+
+<hr />
+
+<p>The structure of reality is that uncertainty is multiplicative for independent events</p>
+
+<p>The uncertainty of world-states is what ties possible worlds to probability.  If one event is risky, and the other is risky, the risk of both occuring is muliplicative.</p>
+
+<p>Possible Worlds: Each independent degree of freedom multiplies the number of possible worlds. With nnn binary independent factors, you don’t get n+1n+1n+1 outcomes — you get 2n2^n2n. What compounds is the size of the state space of reality.</p>
+
+<p>Each new fact or discovered outcome slices away possible worlds. Learning both A and B means we’re narrowing further, i.e. moving into a smaller intersection.</p>
+
+<p>Consider several examples of multiplicative probability in independent events:</p>
+
+<ul>
+  <li>
+    <p><strong>Flipping 10 coins:</strong><br />
+The probability of obtaining one specific sequence of heads and tails is<br />
+\(\left(\frac{1}{2}\right)^{10}\)
+since each coin flip is independent with probability $\frac{1}{2}$ for each outcome.</p>
+  </li>
+  <li>
+    <p><strong>Observing 100 i.i.d. data points:</strong><br />
+The likelihood of observing a particular sequence is the product of the individual probabilities:
+\(p(x_1, x_2, \dots, x_{100}) = \prod_{i=1}^{100} p(x_i)\)
+provided the $x_i$ are independent and identically distributed.</p>
+  </li>
+  <li>
+    <p><strong>Joint risk of independent failures:</strong><br />
+Suppose a machine has a $\frac{1}{10}$ chance of failure each year.<br />
+If you run two machines independently in parallel, the probability that both fail is:
+\(\frac{1}{10} \times \frac{1}{10} = \frac{1}{100}\)</p>
+  </li>
+  <li>
+    <p><strong>False positives in independent tests:</strong><br />
+If the chance a suspect is guilty purely by random chance is $\frac{1}{100}$,<br />
+and each of two independent tests has a $\frac{1}{10}$ false-positive rate,<br />
+then the chance both tests indicate “guilty” by random chance is:
+\(\frac{1}{10} \times \frac{1}{10} = \frac{1}{100}\)</p>
+  </li>
+</ul>
+
+<p>Joint occurrence of facts is modelled by intersection. It is the natural operation for “compounding reality”.   When evidence accumulates, it’s through conjunction: Data point 1 and Data point 2 and Data point 3. The likelihood of all those observations is the product of their individual likelihoods (under independence).</p>
+
+<p>Probability is the study of correct reasoning about uncertainty,  the real world is messy: we rarely know truths with certainty, but instead of throwing our hands up, we can observev this: uncertainty is multiplicative for independent events.</p>
+
+<hr />
+
+<p>Information content of an event is how surprising an event is</p>
+
+<p>The real world is fundamentally uncertain. It consists of events that we observe. Once we observe an event, we get some information.</p>
+
+<p>How much information? How do we measure it? How do we reason about it? How should information from an observation behave under the logic of uncertainty?</p>
+
+<p>Shannon’s insight was to anchor information to how surprising an event is i.e. “how unlikely is the world we observe, given our expectations?”</p>
+
+<p>Shannon reasoned:</p>
+
+<p>Information should be a monotonic decreasing function of probability</p>
+
+<p>If something is expected (probability close to 1), it gives you little new knowledge. Example: “The sun rose this morning.” Low information. If something is rare (probability close to 0), it’s very informative. Example: “The stock market crashed today.” High information. Thus, the rarity (probability) of an event must set its information content. Higher ppp → less surprise → less information.</p>
+
+<p>For independent events, information should add up.</p>
+
+<p>If two events happen independently, the total information you get is the sum of information from each.</p>
+
+<p>Suppose you want to know the outcome of two independent experiments:</p>
+
+<p>Flip a fair coin (P=1/2P=1/2P=1/2)</p>
+
+<p>Roll a fair die (P=1/6P=1/6P=1/6)</p>
+
+<p>To identify both outcomes, you’d need the same number of yes/no questions as asking them separately, then adding the answers. This means any measure of “information” contained needs to be additive. vvv</p>
+
+<p>The only function that satisfies both is the logarithm:</p>
+
+<p>I(x)=−log⁡P(x)I(x) = -\log P(x)I(x)=−logP(x)v</p>
+
+<p>Log Probability is the measure of “information”.</p>
+
+<p>This is equivalvent to:  how many bits or yes/no questions would suffice to convey a piece of information.</p>
+
+<p>Coin flip surprise = 1 bit</p>
+
+<p>Die roll surprise = log⁡2(6)≈2.58\log_2(6) \approx 2.58log2​(6)≈2.58 bits</p>
+
+<p>Together: coin + die outcome surprise should be 1 + 2.58 ≈ 3.58 bits.</p>
+
+<p>Imagine a telegraph operator sending symbols (dots/dashes, or letters). Some symbols occur more often than others (“E” more than “Z”). To send messages efficiently, we’d like frequent symbols to use shorter codes, rare symbols to use longer codes (like Morse code).</p>
+
+<p>It makes information quantifiable We can measure “bits of surprise” without touching meaning or context. That universality is why Shannon’s theory underlies everything from file compression to genetics</p>
+
+<p>It connects to probability directly Rare events give lots of information (big surprise). Common events give little information (small surprise). Impossible events give infinite information (you’d have to revise your whole worldview).</p>
+
+<p>It’s operational If you want to transmit outcomes over a noisy channel, you need enough symbols to cover the worst-case surprise. That leads directly to coding theorems and compression limits.</p>
+
+<p>From Multiplication to Addition. When you want to combine many uncertainties (as in predicting outcomes across multiple steps), multiplying tiny probabilities quickly becomes intractable. Humans and our tools reason better in linear terms: sums, averages, margins. Nature speaks multiplication. We translate it into addition so that prediction and control become tractable..</p>
+
+<p>It ties prediction and control together Prediction: information tells you how much uncertainty was reduced by seeing the actual outcome. Control: information tells you how much “room to maneuver” you gain when you know what actually happened.</p>
+
+<p>Entropy: Shannon averaged surprise across the whole distribution, defining entropy as expected information. That’s the measure of uncertainty before observation</p>
+
+<p>Shannon’s “surprise = information” plugs directly into this Jaynesian view:</p>
+
+<p>Logic says: “If X is true, then Y must follow.”</p>
+
+<p>Probability says: “Given X, Y becomes more plausible.”</p>
+
+<p>Information says: “How much more plausible did Y get after we actually observed X?”</p>
+
+<hr />
+
+<h1 id="gradient-of-informationlog-likelihood-gradients-score-functions">Gradient of Information/Log-likelihood gradients (Score functions)</h1>
+
+<p>For any differentiable probability distribution $p_\theta(x)$:</p>
+
+\[\nabla_\theta p_\theta(x) = p_\theta(x)\ \nabla_\theta \log p_\theta(x)\]
+
+<hr />
+
+<p>So the chain is:</p>
+
+<p>Logic (absolute truths).</p>
+
+<p>Probability (graded plausibility).</p>
+
+<p>Information (change in plausibility after surprise).</p>
+
+<p>Gradients of information (log-probability) with respect to parameters  (score functions) show how beliefs should change.</p>
+
+<p>Belief Revision as Gradient Descent</p>
+
+<p>Every form of empirical learning — from a human forming intuitions to a neural network tuning weights — can be viewed as gradient descent on surprise.</p>
+
+<p>The beliefs are encoded in parameters θ\thetaθ.. The data are observations from the world.. The loss is information (−log P). The gradient tells us how beliefs should move to make the world less surprising.</p>
+
+<p>Logic tells us what must follow. Probability tells us what is likely. Information tells us how surprised we should be. The gradient of information tells us how to change our beliefs in light of that surprise.</p>
+
+<p>This is the architecture of learning: the world generates events, those events surprise us by amounts determined by our current beliefs, and the gradient tells us exactly how to revise those beliefs to be less surprised next time.</p>
+
+<p>Classical Intelligence is prowess at symbol manipulation.  Anchored in the real world, learning is the organized reduction of surprise, and the gradient of information is the compass that points the way.v</p>
+
+<hr />
+
+<p>This is the cross-entropy loss — the standard loss for almost all modern neural networks (softmax classifiers, transformers, etc.). It measures the average surprise of the model about true outcomes.</p>
+
+<p>Score function: ∇θ​logπθ​(a∣s). How surprised the model was to take action aaa. And in what direction in parameter space we should move to make that action less (or more) surprising.</p>
+
+<p>When we are reasoning about uncertain events in the real world, log likelihood of an event measures “surprise”.</p>
+
+<p>Reinforce:</p>
+
+<p>If a surprising action led to high reward, reduce its surprise next time - make it more expected. Shift probability mass toward actions that surprised us but worked well.</p>
+
+<p>Learning from experience is about reducing surprise about what works. REINFORCE works by adjusting the policy to make rewarding surprises less surprising — and the log-likelihood gradient is exactly the mathematical expression of that process.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:cox" role="doc-endnote">
+      <p>Cox asked: What if we generalize this to continuous degrees of belief, while preserving logical consistency (e.g., consistency with conjunction and negation rules)? He derived that any system obeying these logical consistency constraints must be isomorphic to probability theory — i.e., plausibility behaves like probability. <a href="#fnref:cox" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
