@@ -1,7 +1,7 @@
 ---
 layout: post-normal
 title: Inductive reasoning is special
-date:   2024-05-28 09:00:11
+date:   2025-10-19 09:00:11
 tag:
 categories: ml
 excerpt:
