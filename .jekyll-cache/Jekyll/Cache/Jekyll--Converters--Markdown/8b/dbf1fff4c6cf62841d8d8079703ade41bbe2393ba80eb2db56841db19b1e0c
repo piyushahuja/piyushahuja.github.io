@@ -1,4 +1,4 @@
-I"�<p><strong>From The World of Being to a World of Becoming</strong></p>
+I"+<p><strong>From The World of Being to a World of Becoming</strong></p>
 
 <p>All of us have an immediate grasp of what “reasoning” feels, a faculty as elemental as sight or touch, and just as readily available to us. When Descartes proclaimed “I think, therefore I am,” he established reasoning as foundational, the one undeniable truth.</p>
 
@@ -27,11 +27,11 @@ You conclude: “All swans are white.”</p>
 
 <p>With ML, we have, for the very first time, synthesized a very good inductive reasoner. This is a big deal because an inductive reasoner can observe, think, learn in the real world (the world of senses, the world of empiricism, the world of becoming) in a way a classical computer or a deductive reasoner can never.</p>
 
-<p>How would it all work?</p>
+<p>How does it work under the hood?</p>
 
 <ul>
-  <li>With probability, we model the world as a dynamic entity where many possible worlds are possible, where events unfold, and as we observe what happens alternative realities are destroyed.</li>
-  <li>We find laws that govern reasoning about uncertainty and information in this world.</li>
+  <li>With probability, we are able to model the world as a dynamic, uncertain, evolving entity where many possible worlds are possible, where events unfold, and as we observe what happens, alternative realities are destroyed.</li>
+  <li>Through information theory and laws that govern reasoning about uncertainty and information in this world.</li>
   <li>We make machines learn from experience by a reduction in surprise about what happens in the world.</li>
 </ul>
 

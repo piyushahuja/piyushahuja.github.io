@@ -1,12 +1,10 @@
-I"�<p>One way to solve RL tasks is by estimating how “good” a state or state/action pair is, and then we could have our agent behave greedily. Here, by state, one can think of finding out the best board configurations of Chess and Go.</p>
+I"�<p>One way to solve RL tasks is by estimating how “good” a state or state/action pair is, and then we could have our agent behave greedily. Here, by state, one can think of finding out the best board configurations of Chess and Go.</p>
 
 <p>The other way is to model and optimize the policy directly (rather than indirectly). The value of the reward function depends on this policy and then various algorithms can be applied to optimize for the best reward. These are policy based methods.</p>
 
 <p>How does backprop work with RL? https://x.com/dwarkesh_sp/status/1969120074104783270</p>
 
-<p>Application: https://cursor.com/en/blog/tab-rl</p>
-
-<hr />
+<h2 id="application-httpscursorcomenblogtab-">Application: https://cursor.com/en/blog/tab-</h2>
 
 <p>Policy based methods are better in the following settings:</p>
 <ul>
