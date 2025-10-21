@@ -39,7 +39,7 @@ Inductive reasoning allows us to generalize from experience, forming broader exp
 
 With ML, we have, for the very first time, synthesized a very good inductive reasoner. This is a big deal because an inductive reasoner can observe, think, learn in the real world (the world of senses, the world of empiricism, the world of becoming) in a way a classical computer or a deductive reasoner can never. 
 
-How does modern ML systems work under the hood? 
+Modern ML is based on theory of reasoning that is capable of operating on the actual world:
 
 * With probability, we are able to model the world as a dynamic, uncertain, evolving entity where many possible worlds are possible, where events unfold, and as we observe what happens, alternative realities are destroyed.  
 * Information theory helps us find laws that govern reasoning about uncertainty and information in this world.
