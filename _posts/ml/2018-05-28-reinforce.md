@@ -1,7 +1,7 @@
 ---
 layout: post-normal
 title: Policy Gradient Methods
-date:   2024-05-28 09:00:11
+date:   2025-07-28 09:00:11
 tag:
 categories: ml
 excerpt:
