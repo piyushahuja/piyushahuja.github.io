@@ -22,8 +22,8 @@ collections:
 
 
 include: ["_pages"]
-# disqus:
-#     shortname: 'piyushahuja'
+disqus:
+    shortname: 'piyushahuja'
 
 # pages_list:       
 #   About: '/about'
