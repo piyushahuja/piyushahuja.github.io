@@ -1,4 +1,4 @@
-I"ÅK<blockquote>
+I"M<blockquote>
   <p>Log likelihood jumps out everwhere in ML. But apparently its not just a computational trick that makes probabilities easy to deal with, but a natural consequence of this principle that underpins all modern ML: learning from experience is about reducing surprise about what works.</p>
 </blockquote>
 
@@ -266,6 +266,8 @@ Entropy: Shannon averaged surprise across the whole distribution, defining entro
 <!-- Philosopher Daid Hume argued that inductive reasoning is based on habit or custom.  For example, it is not necessarily true that the the sun will rise tomorrow, or that the laws of nature will hold tomorrow. Following Hume, Kant postulated inductive reasoning is possible because the mind structures experience causally; itâ€™s not something learned from the world but something that makes the world learnable.  
 
 Our brain encodes inductive expectations (that the world is stable, that causes persist, etc.). -->
+
+<p>Based on a logic that deals with uncertainties and events and actualities in becoming, ML and information theory orient us toward processes of wordly inference and information flow. This makes it capable of observing, acting, learning and evolving in the real world in a way classical computers could never.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
