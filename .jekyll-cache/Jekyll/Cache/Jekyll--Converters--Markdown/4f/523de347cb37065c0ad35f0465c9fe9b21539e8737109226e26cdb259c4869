@@ -1,0 +1,46 @@
+I",<p>All of us have an immediate grasp of what “reasoning” feels, a faculty as elemental as sight or touch, and just as readily available to us. When Descartes proclaimed “I think, therefore I am,” he established reasoning as foundational, the one undeniable truth.</p>
+
+<p>Reasoning is applied in everyday life in all sorts of informal ways.  There are many forms of reasoning: moral, legal, scientific, strategic, algorithmic, diagrammatic, visual, spatial. Different domains call for different types of reasoning, and the rules are not the same.</p>
+
+<p>But just we have found laws of nature that govern the interaction of particles or the motion of planets, could we find “laws of thought” by which all valid thought proceeds? Logic is the study of such universal laws for reasoning.</p>
+
+<p>Reasoning for Greeks was about rhetoric and persuasion.  But Aristotle took to formalize what “correct reasoning” is, and his attention was on categories or “essences” of things  (e.g., “humans”, “animals”, “mortals”).  This came from his worldview: he believed the real world itself is made of substances with properties, not relations. His logical system simply mirrored that metaphysical assumption.</p>
+
+<p>Aristotle discovered that correct reasoning has a form: two premises and one conclusion (a “syllogism”), and the truth is grounded in the structure of language and the necessity of inclusion.</p>
+
+<p>Aristotle considered subject–predicate propositions of a very specific kind:</p>
+
+<p>“All A are B.”“Some A are B.”“No A are B.”“Some A are not B.”</p>
+
+<p>Consider this argument: All men are mortal. Socrates is a man. Hence socrates is mortal.</p>
+
+<p>This is a valid argument because of its form, not because of what “men” or “mortality” means.</p>
+
+<p>But consider an argument of the form:  Some cat is feared by every mouse then it follows logically that: All mice are afraid of at least one cat.</p>
+
+<p>This express relations with multiple “quantifiers” or complex predicates. Second, it was relations between classes, not the internal structure of statements.</p>
+
+<p>Aristotle treats reasoning as operating over linguistic categories. But what if we don’t look at categories, but entire statements?</p>
+
+<p>Aristotle’s influence led logic to become a science of symbols, detached from empirical content. Logical validity became syntactic, about what follows from what under formal rules, not about how the world behaves.</p>
+
+<p>A proposition is a statement to which it makes sense to assign a truth value (either true or false).  Propositional logic is about whole statements, not about the internal structure of the terms. You can reason about combinations of propositions without ever referring to objects, categories, or relations inside them.</p>
+
+<p>Frege saw the limitation of propositional logic: it can’t handle multiple quantifiers or relationships between individuals. Predicate logic refines propositional logic: each proposition now has internal structure, allowing reasoning about objects and their relations. Predicate logic introduces: Variables (x, y, …) representing individuals, Predicates (P(x), L(x, y)) representing properties or relations, Quantifiers (∀, ∃) for “all” and “some.”v</p>
+
+<p>Example:</p>
+
+<p>Some cat is feared by every mouse</p>
+
+<p>∃c∀m FearedBy(m,c)\exists c \forall m \, FearedBy(m, c)∃c∀mFearedBy(m,c)</p>
+
+<p>The development of formal logic progressed with inference rules that tell us how truth values combine. Rules of inference: they tell us how to deduce (or ‘infer’) the truth of one propositional formula from the truth of other propositional formulae.</p>
+
+<p>Logic says: “If X is true, then Y must follow.” Example: If AAA is true and A  ⟹  BA \implies BA⟹B, then BBB must be true.</p>
+
+<p>Symbolic Logic A methodical way of breaking up a proposition into smaller components and seeing how these components fit together—this is called the logical structure of a proposition. Leibitz Developing a system of symbolic logic for reasoning about propositions. We will be able to represent a proposition using a string of variables, Logical Operators and quantifiers, and this expression will guide how we can prove the proposition and explore its consequence</p>
+
+<p>Logical validity became syntactic, about what follows from what under formal rules, not about how the world behaves.</p>
+
+<p>Aristotle’s emphasis on language and formal reasoning laid the groundwork for symbolic logic: treating reasoning as rule-based transformation of symbols. Logic became absolute.</p>
+:ET
