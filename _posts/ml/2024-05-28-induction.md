@@ -6,7 +6,7 @@ tag:
 categories: ml
 excerpt:
 permalink: /induction
-comments: false
+comments: true
 ---
 
 **From The World of Being to a World of Becoming**
@@ -37,13 +37,13 @@ This is induction: from specific observed cases, you infer a general rule - even
 
 Inductive reasoning allows us to generalize from experience, forming broader expectations and making predictions about future or unseen cases based on patterns in the data we have observed. 
 
-With ML, we have, for the very first time, synthesized a very good inductive reasoner. This is a big deal because an inductive reasoner can observe, think, learn and deal with  reality (the world of senses, the world of empiricism, the world of becoming) in a way a classical computer or a deductive reasoner can never. 
+With ML, we have, for the very first time, synthesized a very good inductive reasoner. This is a big deal because an inductive reasoner can observe, think, learn in the real world (the world of senses, the world of empiricism, the world of becoming) in a way a classical computer or a deductive reasoner can never. 
 
-How does it all work? 
+How would it all work? 
 
-* Through probability, we model the world as a dynamic entity where many possible worlds are possible, where events unfold, and as we observe what happens alternative realities are destroyed.  
+* With probability, we model the world as a dynamic entity where many possible worlds are possible, where events unfold, and as we observe what happens alternative realities are destroyed.  
 * We find laws that govern reasoning about uncertainty and information in this world.
-* Learning from experience is about reducing our surprise about what happens in the world. 
+* We make machines learn from experience by a reduction in surprise about what happens in the world. 
 
 <!-- 
 
