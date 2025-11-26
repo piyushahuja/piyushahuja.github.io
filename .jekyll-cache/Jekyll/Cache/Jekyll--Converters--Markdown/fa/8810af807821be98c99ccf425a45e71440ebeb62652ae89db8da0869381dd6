@@ -1,4 +1,4 @@
-I"*M<p>Log likelihood jumps out everwhere in ML. But apparently its not just a computational trick that makes probabilities easy to deal with, but a natural consequence of this principle that unifies and underpins all modern ML:</p>
+I"sM<p>Log likelihood jumps out everywhere in ML, occupying a place of prominence similar to what $\pi$ has in geometry. Is it just just a mathematical trick to make computations with probabilities tractable?  It turns out there is a deeper reason: it is natural consequence of this principle that underpins all modern ML.</p>
 
 <blockquote>
   <p>Learning from experience is about reducing surprise about what works.</p>
@@ -27,7 +27,7 @@ The brain and its cognitive structures evolved to generate models that match rea
 
 <p>In probability, Bayesian inference is inductive: If A supports B with likelihood, and A is plausible, then B’s plausibility updates by Bayes’ rule.</p>
 
-<p>To see an example of A probabilistic model $p_\theta(x)$ encodes your beliefs about how likely different observations $x$ are, given parameters $\theta$. When you observe a new data point $x$, you want to update those beliefs. The rule for inference here is called Bayes’ rule:</p>
+<p>To see an example of Bayesian inference: Imagine a probabilistic model $p_\theta(x)$ encodes your beliefs about how likely different observations $x$ are, given parameters $\theta$. When you observe a new data point $x$, you want to update those beliefs. The rule for inference here is called Bayes’ rule:</p>
 
 \[p(\theta \mid x) \propto p(x \mid \theta)\,p(\theta)\]
 
@@ -51,19 +51,16 @@ The likelihood of observing a particular sequence is the product of the individu
 \(p(x_1, x_2, \dots, x_{100}) = \prod_{i=1}^{100} p(x_i)\)
 provided the $x_i$ are independent and identically distributed.</p>
   </li>
-  <li>
-    <p><strong>Joint risk of independent failures:</strong><br />
+  <li><strong>Joint risk of independent failures:</strong><br />
 Suppose a machine has a $\frac{1}{10}$ chance of failure each year.<br />
 If you run two machines independently in parallel, the probability that both fail is:
-\(\frac{1}{10} \times \frac{1}{10} = \frac{1}{100}\)</p>
-  </li>
-  <li>
-    <p><strong>False positives in independent tests:</strong><br />
+\(\frac{1}{10} \times \frac{1}{10} = \frac{1}{100}\)
+&lt;!–</li>
+  <li><strong>False positives in independent tests:</strong><br />
 If the chance a suspect is guilty purely by random chance is $\frac{1}{100}$,<br />
 and each of two independent tests has a $\frac{1}{10}$ false-positive rate,<br />
 then the chance both tests indicate “guilty” by random chance is:
-\(\frac{1}{10} \times \frac{1}{10} = \frac{1}{100}\)</p>
-  </li>
+\(\frac{1}{10} \times \frac{1}{10} = \frac{1}{100}\) –&gt;</li>
 </ul>
 
 <!-- Joint occurrence of facts is modelled by intersection. It is the natural operation for “compounding reality”.   
@@ -73,17 +70,17 @@ then the chance both tests indicate “guilty” by random chance is:
 
 The uncertainty of world-states is what ties possible worlds to probability.  
 
-Possible Worlds: Each independent degree of freedom multiplies the number of possible worlds. With nnn binary independent factors, you don’t get n+1n+1n+1 outcomes — you get 2n2^n2n. What compounds is the size of the state space of reality. 
-
-Each new fact or discovered outcome slices away possible worlds. Learning both A and B means we’re narrowing further, i.e. moving into a smaller intersection.  -->
+.  -->
 
 <p>When you want to combine many uncertainties (as in predicting outcomes across multiple steps), multiplying tiny probabilities quickly becomes intractable.  Humans and our tools reason better in linear terms: sums, averages, margins. <strong>Converting probability to their logarithm turns products into sums: this is numerically stable and easier to differentiate</strong></p>
 
 <hr />
 
+<p>We could also think of possible world. Whenever we define n indepenent events or features or obserations, each independent degree of freedom multiplies the number of possible worlds.  Each new fact or discovered outcome slices away possible worlds. Learning both A and B means we’re narrowing further, i.e. moving into a smaller intersection.</p>
+
 <p>Once an uncertain event in the world is resolved, we get some information.</p>
 
-<p><strong>How much do we measure information? How should information from an observation behave when we reason about uncertainty?</strong></p>
+<p><strong>How much do we measure information? And how should information from an observation behave when we reason about uncertainty?</strong></p>
 
 <p>Common events (like the sun rising) barely update your beliefs; rare events (like a desert flood) force you to rewrite your model entirely. Thus, the rarity of an event must set its information content.</p>
 
@@ -182,11 +179,11 @@ Entropy: Shannon averaged surprise across the whole distribution, defining entro
 
 <p><strong>Learning as belief revision to reduce surprise</strong></p>
 
-<p>Learning from experience is about reducing surprise about what works.</p>
-
-<p>The beliefs are encoded in parameters $\theta$. The data are observations from the world. The loss is information $(−log P)$. The gradient tells us how beliefs should move to make the world less surprising.</p>
+<p>We could think of learning from experience as reducing surprise about what works.</p>
 
 <p>This is the architecture of learning: the world generates events, those events surprise us by amounts determined by our current beliefs, and the gradient tells us exactly how to revise those beliefs to be less surprised next time.</p>
+
+<p>The beliefs are encoded in parameters $\theta$. The data are observations from the world. The loss is information $(−log P)$. The gradient tells us how beliefs should move to make the world less surprising.</p>
 
 <p><strong>Examples</strong></p>
 
@@ -258,7 +255,7 @@ Entropy: Shannon averaged surprise across the whole distribution, defining entro
 
 <hr />
 
-<p><strong>Summary</strong>: There are many possible worlds. We reduce uncertainty when one world is revealed. Surprise: $-\log p(x)$ measures of how unexpected that world was.Cross-entropy measures expected surprise. Learning in ML is about minimizing expected surprise. We do this with the help of score function gradients: local rule for how to change beliefs, which are the differential form of  Bayes’ rule when the beliefs are not a distribution, but just a point estimate.</p>
+<p><strong>Summary</strong>: There are many possible worlds. We reduce uncertainty when one world is revealed. Surprise: $-\log p(x)$ measures of how unexpected that world was. Cross-entropy measures expected surprise. Learning in ML is about minimizing expected surprise. We do this with the help of score function gradients: local rule for how to change beliefs, which are the differential form of  Bayes’ rule when the beliefs are not a distribution, but just a point estimate.</p>
 
 <p>This is the unifying framework on almost all modern ML. 
 <!-- * Control: information buys freedom; less uncertainty = more precise, adaptive action. --></p>
