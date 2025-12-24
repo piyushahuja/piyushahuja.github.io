@@ -1,28 +1,18 @@
----
-layout: page-home
-title: Piyush Ahuja
-permalink: /
-section: Home
----
+I"�<p><strong>Currently</strong></p>
 
-**Interests**
+<p>I’m interested in diffusion models.</p>
 
-
-I'm looking for research opportunities in ML. 
+<p>I have prior background in maths, theoretical computer science (algorithms), and philosophy. I’m based in Cambridge.</p>
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
-
-
-
-
-__Contact__
-
+<p><strong>Contact</strong></p>
 
 <!-- If you are a student applying for jobs or further studies, a new grad looking for career advice, or an entepreneur working on a startup, please reach out: I'd be happy to help in any way I can.
  -->
-Email: piyushahuja.in@gmail.com
+<p>Email: piyushahuja.in@gmail.com</p>
 
 <!-- Social: [LinkedIn](https://www.linkedin.com/in/piyush-ahuja-2006041b/) \| [Twitter](https://x.com/piyushahuja_in) \|  [GitHub](https://github.com/piyushahuja)
 
  -->
+:ET
