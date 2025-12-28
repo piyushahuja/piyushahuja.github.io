@@ -8,7 +8,7 @@ section: Home
 **Currently**
 
 
-I am interested in Machine Learning, Maths, Philosophy, and Education. 
+I am interested in machine learning, maths, philosophy, and education. 
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
