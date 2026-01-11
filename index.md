@@ -12,10 +12,6 @@ I am interested in machine learning, maths, philosophy, and education.
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 
-
-
-
-
 __Contact__
 
 
