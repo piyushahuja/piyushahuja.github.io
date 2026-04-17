@@ -1,4 +1,4 @@
-I"sM<p>Log likelihood jumps out everywhere in ML, occupying a place of prominence similar to what $\pi$ has in geometry. Is it just just a mathematical trick to make computations with probabilities tractable?  It turns out there is a deeper reason: it is natural consequence of this principle that underpins all modern ML.</p>
+I"'M<p>Log likelihood jumps out everywhere in ML, occupying a place of prominence similar to what $\pi$ has in geometry. Is it just just a mathematical trick to make computations with probabilities tractable?  It turns out there is a deeper reason: it is natural consequence of this principle that underpins all modern ML.</p>
 
 <blockquote>
   <p>Learning from experience is about reducing surprise about what works.</p>
@@ -21,7 +21,7 @@ The brain and its cognitive structures evolved to generate models that match rea
 
 <p>Intermediate values =&gt; “I don’t know; A is more or less plausible.”</p>
 
-<p>Probabilities are thus generalized truth values.<sup id="fnref:cox" role="doc-noteref"><a href="#fn:cox" class="footnote" rel="footnote">1</a></sup></p>
+<p>Probabilities are thus generalized truth values.<sup id="fnref:cox"><a href="#fn:cox" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 
 <p>In logic, inference is deductive: If A implies B, and A is true, then B must be true.</p>
 
@@ -105,7 +105,7 @@ The uncertainty of world-states is what ties possible worlds to probability.
 
 \[I(x) = -\log P(x)\]
 
-<p>$-\log P(x)$ is the unique measure of information.<sup id="fnref:bits" role="doc-noteref"><a href="#fn:bits" class="footnote" rel="footnote">2</a></sup><sup id="fnref:addition" role="doc-noteref"><a href="#fn:addition" class="footnote" rel="footnote">3</a></sup></p>
+<p>$-\log P(x)$ is the unique measure of information.<sup id="fnref:bits"><a href="#fn:bits" class="footnote" rel="footnote" role="doc-noteref">2</a></sup><sup id="fnref:addition"><a href="#fn:addition" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
 
 <!-- 
 It ties prediction and control together Prediction: information tells you how much uncertainty was reduced by seeing the actual outcome. Control: information tells you how much “room to maneuver” you gain when you know what actually happened.
@@ -163,7 +163,7 @@ $\theta$ should move) is given by the score function plus the gradient of the pr
 \(\nabla_\theta \log p(\theta) = 0\)
 then the only term left is the score function.</p>
 
-<p>So to reduce surprise, we go in the same direction as we would go if we assumed that our  distribution  and did a Bayesian update on our .  Gradient ascent on log-likelihood (or descent on negative log likelihood) can be viewed as a Bayesian update in the limit of infinitesimal data and flat priors, or where the posterior distribution is a point estimate. <sup id="fnref:prior" role="doc-noteref"><a href="#fn:prior" class="footnote" rel="footnote">4</a></sup></p>
+<p>So to reduce surprise, we go in the same direction as we would go if we assumed that our  distribution  and did a Bayesian update on our .  Gradient ascent on log-likelihood (or descent on negative log likelihood) can be viewed as a Bayesian update in the limit of infinitesimal data and flat priors, or where the posterior distribution is a point estimate. <sup id="fnref:prior"><a href="#fn:prior" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
 
 <!-- 
 The Hessian of $\log p_\theta(x)$ defines the curvature: i.e., how fast uncertainty changes as you move in parameter space. That curvature is the geometry of information. 
@@ -270,16 +270,16 @@ Our brain encodes inductive expectations (that the world is stable, that causes 
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:cox" role="doc-endnote">
+    <li id="fn:cox">
       <p>Cox asked: What if we generalize this to continuous degrees of belief, while preserving logical consistency (e.g., consistency with conjunction and negation rules)? He derived that any system obeying these logical consistency constraints must be isomorphic to probability theory — i.e., plausibility behaves like probability. <a href="#fnref:cox" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:bits" role="doc-endnote">
+    <li id="fn:bits">
       <p>This is equivalent to: how many bits (or yes/no questions) would suffice to convey a piece of information. Coin flip surprise $= 1$ bit. Die roll surprise $= \log_2(6) \approx 2.58$ bits Together: coin + die outcome surprise should be $1 + 2.58 \approx 3.58$ bits. <a href="#fnref:bits" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:addition" role="doc-endnote">
+    <li id="fn:addition">
       <p>It makes information quantifiable. We can measure “bits of surprise” without touching meaning or context. That universality is why Shannon’s theory underlies everything from file compression to genetics.  When you want to combine many uncertainties (as in predicting outcomes across multiple steps), multiplying tiny probabilities quickly becomes intractable. Humans and our tools reason better in linear terms: sums, averages, margins. We translate it into addition so that prediction and control become tractable. <a href="#fnref:addition" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
-    <li id="fn:prior" role="doc-endnote">
+    <li id="fn:prior">
       <p>Bayes’ rule updates beliefs after seeing data. This is a global operation: it recomputes the entire distribution at once. One doesn’t move continuously through parameter space; one replaces the old belief with a new one.  Here priors express inductive biases explicitly. Bayesian models can “bake in” prior knowledge to perform well even with limited data. Whereas in Modern ML,  parameters are treated not as random variable with a prior distribution, but as deterministic (learned weights). And priors are implicit: L2 weight decay indirectly imposes a Gaussian prior on weights by penalizes large weight. And early stopping implicitly imposes a prior favoring smoother solutions. <a href="#fnref:prior" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>

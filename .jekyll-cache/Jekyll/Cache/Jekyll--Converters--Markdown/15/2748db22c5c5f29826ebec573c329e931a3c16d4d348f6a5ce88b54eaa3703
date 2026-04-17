@@ -112,15 +112,15 @@ Promise.all</p>
 <p>Interview question:
 Implement a callback based asynchronous function. The callback handles error cases and correct response cases.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">sinon</span><span class="p">.</span><span class="nx">stub</span><span class="p">(</span><span class="nx">tax</span><span class="p">,</span> <span class="dl">'</span><span class="s1">calculate</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">subtotal</span><span class="p">,</span> <span class="nx">state</span><span class="p">,</span> <span class="nx">done</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nx">done</span><span class="p">({</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">beforeEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">sinon</span><span class="p">.</span><span class="nf">stub</span><span class="p">(</span><span class="nx">tax</span><span class="p">,</span> <span class="dl">'</span><span class="s1">calculate</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">subtotal</span><span class="p">,</span> <span class="nx">state</span><span class="p">,</span> <span class="nx">done</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nf">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nf">done</span><span class="p">({</span>
           <span class="na">amount</span><span class="p">:</span> <span class="mi">30</span>
         <span class="p">});</span>
       <span class="p">},</span> <span class="mi">0</span><span class="p">);</span>
- <span class="nx">afterEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">tax</span><span class="p">.</span><span class="nx">calculate</span><span class="p">.</span><span class="nx">restore</span><span class="p">();</span>
+ <span class="nf">afterEach</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">tax</span><span class="p">.</span><span class="nx">calculate</span><span class="p">.</span><span class="nf">restore</span><span class="p">();</span>
   <span class="p">});</span>
 </code></pre></div></div>
 

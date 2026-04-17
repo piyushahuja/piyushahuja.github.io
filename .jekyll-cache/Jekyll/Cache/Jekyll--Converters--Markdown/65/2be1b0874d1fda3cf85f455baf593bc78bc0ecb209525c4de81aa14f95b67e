@@ -1,4 +1,4 @@
-I"Ã“<p><strong>Relationship Types</strong></p>
+I"°“<p><strong>Relationship Types</strong></p>
 
 <p>There are three types of relationships between entities:</p>
 <ul>
@@ -248,7 +248,7 @@ FROM PostTable
 JOIN PostTagTable ON PostId
 WHERE TagName = 
 </code></pre></div></div>
-<p>or<sup id="fnref:difference" role="doc-noteref"><a href="#fn:difference" class="footnote" rel="footnote">1</a></sup></p>
+<p>or<sup id="fnref:difference"><a href="#fn:difference" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SELECT *
 FROM PostTable, PostTagTable
@@ -520,32 +520,32 @@ All of this increases the code complecity.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="kd">let</span> <span class="nx">updateSuperpower</span> <span class="o">=</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="p">(</span><span class="k">async</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="p">(</span><span class="k">async </span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
     <span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="p">{};</span>
     <span class="kd">let</span> <span class="nx">tags</span> <span class="o">=</span>  <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">tags</span> <span class="o">||</span> <span class="p">[];</span>
     <span class="kd">let</span> <span class="nx">skills</span> <span class="o">=</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">skills</span> <span class="o">||</span> <span class="p">[];</span>
     <span class="c1">// Returns an array of tag documents. </span>
 
-    <span class="k">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nx">all</span><span class="p">([</span><span class="nx">powerHelper</span><span class="p">.</span><span class="nx">saveTags</span><span class="p">({</span><span class="na">tags</span><span class="p">:</span> <span class="nx">tags</span><span class="p">}),</span> <span class="nx">skillHelper</span><span class="p">.</span><span class="nx">saveSkills</span><span class="p">({</span><span class="na">skills</span><span class="p">:</span> <span class="nx">skills</span><span class="p">})]).</span><span class="nx">then</span><span class="p">((</span><span class="nx">results</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">await</span> <span class="nb">Promise</span><span class="p">.</span><span class="nf">all</span><span class="p">([</span><span class="nx">powerHelper</span><span class="p">.</span><span class="nf">saveTags</span><span class="p">({</span><span class="na">tags</span><span class="p">:</span> <span class="nx">tags</span><span class="p">}),</span> <span class="nx">skillHelper</span><span class="p">.</span><span class="nf">saveSkills</span><span class="p">({</span><span class="na">skills</span><span class="p">:</span> <span class="nx">skills</span><span class="p">})]).</span><span class="nf">then</span><span class="p">((</span><span class="nx">results</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
         <span class="nx">tags</span> <span class="o">=</span> <span class="nx">results</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
         <span class="nx">skills</span> <span class="o">=</span> <span class="nx">results</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
-      <span class="p">}).</span><span class="k">catch</span><span class="p">((</span><span class="nx">error</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Error: </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">error</span><span class="p">)})</span>
+      <span class="p">}).</span><span class="k">catch</span><span class="p">((</span><span class="nx">error</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Error: </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">error</span><span class="p">)})</span>
     <span class="kd">let</span> <span class="nx">tagIds</span> <span class="o">=</span> <span class="p">[];</span>
-    <span class="nx">tags</span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">tag</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-      <span class="nx">tagIds</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">tag</span><span class="p">.</span><span class="nx">_id</span><span class="p">);</span>
+    <span class="nx">tags</span><span class="p">.</span><span class="nf">filter</span><span class="p">((</span><span class="nx">tag</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="nx">tagIds</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span><span class="nx">tag</span><span class="p">.</span><span class="nx">_id</span><span class="p">);</span>
     <span class="p">});</span>
         
     <span class="kd">let</span> <span class="nx">skillIds</span> <span class="o">=</span> <span class="p">[];</span>
-    <span class="nx">skills</span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">skill</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-      <span class="nx">skillIds</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">skill</span><span class="p">.</span><span class="nx">_id</span><span class="p">);</span>
+    <span class="nx">skills</span><span class="p">.</span><span class="nf">filter</span><span class="p">((</span><span class="nx">skill</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="nx">skillIds</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span><span class="nx">skill</span><span class="p">.</span><span class="nx">_id</span><span class="p">);</span>
     <span class="p">});</span>
 
-    <span class="k">await</span> <span class="nx">powerHelper</span><span class="p">.</span><span class="nx">updateSuperpower</span><span class="p">({</span><span class="na">superpowerId</span><span class="p">:</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">superpowerId</span><span class="p">,</span> <span class="na">description</span><span class="p">:</span><span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">description</span><span class="p">,</span> <span class="na">tagIds</span><span class="p">:</span><span class="nx">tagIds</span><span class="p">,</span> <span class="na">skillIds</span><span class="p">:</span> <span class="nx">skillIds</span><span class="p">});</span>
+    <span class="k">await</span> <span class="nx">powerHelper</span><span class="p">.</span><span class="nf">updateSuperpower</span><span class="p">({</span><span class="na">superpowerId</span><span class="p">:</span> <span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">superpowerId</span><span class="p">,</span> <span class="na">description</span><span class="p">:</span><span class="nx">req</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">description</span><span class="p">,</span> <span class="na">tagIds</span><span class="p">:</span><span class="nx">tagIds</span><span class="p">,</span> <span class="na">skillIds</span><span class="p">:</span> <span class="nx">skillIds</span><span class="p">});</span>
     <span class="k">return</span> <span class="nx">response</span><span class="p">;</span>
-  <span class="p">})().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">response</span><span class="p">){</span>
-        <span class="nx">utils</span><span class="p">.</span><span class="nx">sendSuccess</span><span class="p">(</span><span class="nx">res</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Success</span><span class="dl">"</span><span class="p">,</span> <span class="nx">response</span><span class="p">);</span>
-    <span class="p">}).</span><span class="k">catch</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">error</span><span class="p">){</span>
-        <span class="nx">utils</span><span class="p">.</span><span class="nx">sendError</span><span class="p">(</span><span class="nx">res</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Failed</span><span class="dl">"</span><span class="p">);</span>
+  <span class="p">})().</span><span class="nf">then</span><span class="p">(</span><span class="nf">function </span><span class="p">(</span><span class="nx">response</span><span class="p">){</span>
+        <span class="nx">utils</span><span class="p">.</span><span class="nf">sendSuccess</span><span class="p">(</span><span class="nx">res</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Success</span><span class="dl">"</span><span class="p">,</span> <span class="nx">response</span><span class="p">);</span>
+    <span class="p">}).</span><span class="k">catch</span><span class="p">(</span><span class="nf">function </span><span class="p">(</span><span class="nx">error</span><span class="p">){</span>
+        <span class="nx">utils</span><span class="p">.</span><span class="nf">sendError</span><span class="p">(</span><span class="nx">res</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Failed</span><span class="dl">"</span><span class="p">);</span>
     <span class="p">});</span>
 <span class="p">}</span>
 </code></pre></div></div>
@@ -554,7 +554,7 @@ All of this increases the code complecity.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:difference" role="doc-endnote">
+    <li id="fn:difference">
       <p>There is no difference between the two. For larger queries the first way is more readable. If you have a mix left joins and some inner joins, then it is far more consistent to have the joins condition on the join clause, rather than some in the joins and some in the where clause.Â  Second representation makes query more readable and makes it look very clear as to which join corresponds to which condition.Â <a href="#fnref:difference" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>

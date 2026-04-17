@@ -6,7 +6,6 @@ date:   2019-10-26 10:45:11
 tag: 
 categories: 
     - journal
-    - public-journal
 excerpt: 
 permalink: /academia
 
