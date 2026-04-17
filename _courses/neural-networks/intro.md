@@ -1,11 +1,12 @@
 ---
 
 layout: page-home
-title: Maths Proof Techniques
+title: Neural Networks
 comments: false
 course: 
-lesson: intro
+lesson: intro-live
 live: yes
+
 
 ---
 
@@ -14,9 +15,8 @@ live: yes
 
 
 
-
 {% for post in site.courses %}
-{% if post.course == "maths" %}
+{% if post.course == "ml" %}
 <div class="section list">
   <h1>Lesson {{post.lesson}}</h1>
   <p class="line">

@@ -1,4 +1,4 @@
-I"�<p>One way to solve RL tasks is by estimating how “good” a state or state/action pair is, and then we could have our agent behave greedily. Here, by state, one can think of finding out the best board configurations of Chess and Go.</p>
+I"Ȼ<p>One way to solve RL tasks is by estimating how “good” a state or state/action pair is, and then we could have our agent behave greedily. Here, by state, one can think of finding out the best board configurations of Chess and Go.</p>
 
 <p>The other way is to model and optimize the policy directly (rather than indirectly). The value of the reward function depends on this policy and then various algorithms can be applied to optimize for the best reward. These are policy based methods.</p>
 
@@ -168,7 +168,7 @@ s \cdot (1 - \pi_{\theta}(i|s)), &amp; \text{if } k = i \\
 
 <p>The direction of the gradient is the state feature vector s.If a trajectory gives high reward, we push the weights towards the features of that state, so the policy will pick this action more often in similar states.</p>
 
-<p>If taking an action in a state leads to high reward, we adjust the policy parameters to increase the probability of taking that action in similar states (i.e., states with similar features) <sup id="fnref:Note" role="doc-noteref"><a href="#fn:Note" class="footnote" rel="footnote">1</a></sup></p>
+<p>If taking an action in a state leads to high reward, we adjust the policy parameters to increase the probability of taking that action in similar states (i.e., states with similar features) <sup id="fnref:Note"><a href="#fn:Note" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 
 <hr />
 
@@ -206,16 +206,16 @@ step wise returns. Learning is slow and unstable if episodes are long. rwards fa
 <p>Here we define a two layer policy network that outputs logits (on which we can apply softmax).</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">PolicyNetwork</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">dropout</span><span class="p">):</span>
-        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">layer1</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">)</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">layer2</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">layer1</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">relu</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">layer2</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">dropout</span><span class="p">):</span>
+        <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">layer1</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">layer2</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">layer1</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">dropout</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="nf">relu</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">layer2</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">x</span>
 </code></pre></div></div>
 
@@ -224,18 +224,18 @@ step wise returns. Learning is slow and unstable if episodes are long. rwards fa
 <p>Here we define a two layer policy network that outputs the probability of action UP.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">PolicyNetwork</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="o">=</span><span class="mi">6400</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="o">=</span><span class="mi">512</span><span class="p">):</span>
-        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">layer1</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">leaky_relu</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">LeakyReLU</span><span class="p">()</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">layer2</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">sigmoid</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Sigmoid</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="o">=</span><span class="mi">6400</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="o">=</span><span class="mi">512</span><span class="p">):</span>
+        <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">layer1</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">leaky_relu</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">LeakyReLU</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">layer2</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">sigmoid</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Sigmoid</span><span class="p">()</span>
         <span class="c1"># self.dropout = nn.Dropout(dropout)
-</span>    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
-        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">linear1</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
-        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">leaky_relu</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
-        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">linear2</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
-        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">sigmoid</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+</span>    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">linear1</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">leaky_relu</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">linear2</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">sigmoid</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">out</span>
 </code></pre></div></div>
 
@@ -269,12 +269,12 @@ nn.init.zeros_(self.layer1.bias)
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">calculate_stepwise_returns</span><span class="p">(</span><span class="n">rewards</span><span class="p">,</span> <span class="n">discount_factor</span><span class="p">):</span>
     <span class="n">returns</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="n">R</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">rewards</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="nf">reversed</span><span class="p">(</span><span class="n">rewards</span><span class="p">):</span>
          <span class="c1">#  if r != 0: R = 0 reset the sum; game boundary (pong)
 </span>        <span class="n">R</span> <span class="o">=</span> <span class="n">r</span> <span class="o">+</span> <span class="n">R</span> <span class="o">*</span> <span class="n">discount_factor</span> 
-        <span class="n">returns</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">R</span><span class="p">)</span>
-    <span class="n">returns</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">returns</span><span class="p">)</span>
-    <span class="n">normalized_returns</span> <span class="o">=</span> <span class="p">(</span><span class="n">returns</span> <span class="o">-</span> <span class="n">returns</span><span class="p">.</span><span class="n">mean</span><span class="p">())</span> <span class="o">/</span> <span class="n">returns</span><span class="p">.</span><span class="n">std</span><span class="p">()</span>
+        <span class="n">returns</span><span class="p">.</span><span class="nf">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">R</span><span class="p">)</span>
+    <span class="n">returns</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">tensor</span><span class="p">(</span><span class="n">returns</span><span class="p">)</span>
+    <span class="n">normalized_returns</span> <span class="o">=</span> <span class="p">(</span><span class="n">returns</span> <span class="o">-</span> <span class="n">returns</span><span class="p">.</span><span class="nf">mean</span><span class="p">())</span> <span class="o">/</span> <span class="n">returns</span><span class="p">.</span><span class="nf">std</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">normalized_returns</span>
 </code></pre></div></div>
 <p><strong>Example:</strong></p>
@@ -297,22 +297,22 @@ nn.init.zeros_(self.layer1.bias)
     <span class="n">rewards</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="n">done</span> <span class="o">=</span> <span class="bp">False</span>
     <span class="n">episode_return</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">policy</span><span class="p">.</span><span class="n">train</span><span class="p">()</span>
-    <span class="n">observation</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="p">.</span><span class="n">reset</span><span class="p">()</span>
+    <span class="n">policy</span><span class="p">.</span><span class="nf">train</span><span class="p">()</span>
+    <span class="n">observation</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="p">.</span><span class="nf">reset</span><span class="p">()</span>
     <span class="k">while</span> <span class="ow">not</span> <span class="n">done</span><span class="p">:</span>
-        <span class="n">observation</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">FloatTensor</span><span class="p">(</span><span class="n">observation</span><span class="p">).</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-        <span class="n">action_pred</span> <span class="o">=</span> <span class="n">policy</span><span class="p">(</span><span class="n">observation</span><span class="p">)</span>
-        <span class="n">action_prob</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">action_pred</span><span class="p">,</span> <span class="n">dim</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-        <span class="n">dist</span> <span class="o">=</span> <span class="n">distributions</span><span class="p">.</span><span class="n">Categorical</span><span class="p">(</span><span class="n">action_prob</span><span class="p">)</span>
-        <span class="n">action</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">sample</span><span class="p">()</span>
-        <span class="n">log_prob_action</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">log_prob</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
-        <span class="n">observation</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">terminated</span><span class="p">,</span> <span class="n">truncated</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="p">.</span><span class="n">step</span><span class="p">(</span><span class="n">action</span><span class="p">.</span><span class="n">item</span><span class="p">())</span>
+        <span class="n">observation</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nc">FloatTensor</span><span class="p">(</span><span class="n">observation</span><span class="p">).</span><span class="nf">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">action_pred</span> <span class="o">=</span> <span class="nf">policy</span><span class="p">(</span><span class="n">observation</span><span class="p">)</span>
+        <span class="n">action_prob</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="nf">softmax</span><span class="p">(</span><span class="n">action_pred</span><span class="p">,</span> <span class="n">dim</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">dist</span> <span class="o">=</span> <span class="n">distributions</span><span class="p">.</span><span class="nc">Categorical</span><span class="p">(</span><span class="n">action_prob</span><span class="p">)</span>
+        <span class="n">action</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="nf">sample</span><span class="p">()</span>
+        <span class="n">log_prob_action</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="nf">log_prob</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
+        <span class="n">observation</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">terminated</span><span class="p">,</span> <span class="n">truncated</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="p">.</span><span class="nf">step</span><span class="p">(</span><span class="n">action</span><span class="p">.</span><span class="nf">item</span><span class="p">())</span>
         <span class="n">done</span> <span class="o">=</span> <span class="n">terminated</span> <span class="ow">or</span> <span class="n">truncated</span>
-        <span class="n">log_prob_actions</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">log_prob_action</span><span class="p">)</span>
-        <span class="n">rewards</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">reward</span><span class="p">)</span>
+        <span class="n">log_prob_actions</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">log_prob_action</span><span class="p">)</span>
+        <span class="n">rewards</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">reward</span><span class="p">)</span>
         <span class="n">episode_return</span> <span class="o">+=</span> <span class="n">reward</span>
-    <span class="n">log_prob_actions</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">cat</span><span class="p">(</span><span class="n">log_prob_actions</span><span class="p">)</span>
-    <span class="n">stepwise_returns</span> <span class="o">=</span> <span class="n">calculate_stepwise_returns</span><span class="p">(</span><span class="n">rewards</span><span class="p">,</span> <span class="n">discount_factor</span><span class="p">)</span>
+    <span class="n">log_prob_actions</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">cat</span><span class="p">(</span><span class="n">log_prob_actions</span><span class="p">)</span>
+    <span class="n">stepwise_returns</span> <span class="o">=</span> <span class="nf">calculate_stepwise_returns</span><span class="p">(</span><span class="n">rewards</span><span class="p">,</span> <span class="n">discount_factor</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">episode_return</span><span class="p">,</span> <span class="n">stepwise_returns</span><span class="p">,</span> <span class="n">log_prob_actions</span>
 </code></pre></div></div>
 
@@ -321,35 +321,35 @@ nn.init.zeros_(self.layer1.bias)
 <p>For Pong, we preprocess the input</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1"># preprocess the observation, set input to network to be difference image
-</span><span class="n">current_observation</span> <span class="o">=</span> <span class="n">image_preprocess</span><span class="p">(</span><span class="n">observation</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-<span class="n">input_observation</span> <span class="o">=</span> <span class="n">cur_observation</span> <span class="o">-</span> <span class="n">prev_observation</span> <span class="k">if</span> <span class="n">prev_observation</span>  <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="k">else</span> <span class="n">torch</span><span class="p">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">D</span><span class="p">).</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+</span><span class="n">current_observation</span> <span class="o">=</span> <span class="nf">image_preprocess</span><span class="p">(</span><span class="n">observation</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
+<span class="n">input_observation</span> <span class="o">=</span> <span class="n">cur_observation</span> <span class="o">-</span> <span class="n">prev_observation</span> <span class="k">if</span> <span class="n">prev_observation</span>  <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="k">else</span> <span class="n">torch</span><span class="p">.</span><span class="nf">zeros</span><span class="p">(</span><span class="n">D</span><span class="p">).</span><span class="nf">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
 <span class="n">prev_observation</span>  <span class="o">=</span> <span class="n">cur_observation</span> 
 </code></pre></div></div>
 
 <p>get the output (action probabilities), sample the action, collect the reward.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">action_prob</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">input_observation</span><span class="p">)</span>
-<span class="n">dist</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">distributions</span><span class="p">.</span><span class="n">Bernoulli</span><span class="p">(</span><span class="n">probs</span><span class="o">=</span><span class="n">action_prob</span><span class="p">)</span>
-<span class="n">action</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="n">sample</span><span class="p">()</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">action_prob</span> <span class="o">=</span> <span class="nf">model</span><span class="p">(</span><span class="n">input_observation</span><span class="p">)</span>
+<span class="n">dist</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">distributions</span><span class="p">.</span><span class="nc">Bernoulli</span><span class="p">(</span><span class="n">probs</span><span class="o">=</span><span class="n">action_prob</span><span class="p">)</span>
+<span class="n">action</span> <span class="o">=</span> <span class="n">dist</span><span class="p">.</span><span class="nf">sample</span><span class="p">()</span>
  <span class="c1"># action = 1 if np.random.uniform() &lt; output.item() else 0  roll the dice!    
 </span> <span class="c1"># record value
-</span><span class="n">observations</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">input_observation</span> <span class="p">)</span>  <span class="c1"># observation
-</span><span class="n">gt_labels</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>  <span class="c1"># label
+</span><span class="n">observations</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">input_observation</span> <span class="p">)</span>  <span class="c1"># observation
+</span><span class="n">gt_labels</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>  <span class="c1"># label
 </span> <span class="c1"># step the environment and get new measurements
-</span><span class="n">observation</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">terminated</span><span class="p">,</span> <span class="n">truncated</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="p">.</span><span class="n">step</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
+</span><span class="n">observation</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">terminated</span><span class="p">,</span> <span class="n">truncated</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">env</span><span class="p">.</span><span class="nf">step</span><span class="p">(</span><span class="n">action</span><span class="p">)</span>
 <span class="n">cumulative_return</span> <span class="o">+=</span> <span class="n">reward</span>
-<span class="n">rewards</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">reward</span><span class="p">)</span>
+<span class="n">rewards</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">reward</span><span class="p">)</span>
 <span class="k">if</span> <span class="n">terminated</span> <span class="ow">or</span> <span class="n">truncated</span><span class="p">:</span>  <span class="c1"># an episode finished, multiple played games
 </span>        <span class="n">episode_number</span> <span class="o">+=</span> <span class="mi">1</span>
-        <span class="n">batch_mean_reward</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">reward_sum</span><span class="p">)</span>
+        <span class="n">batch_mean_reward</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">reward_sum</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>Pong episodes are very long compared to CartPole, so we batch episodes together, which helps with variance reduction.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># stack inputs, targets and rewards into a batch
-</span><span class="n">inputs</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">stack</span><span class="p">([</span><span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">observations</span><span class="p">]).</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
-<span class="n">stepwise_returns</span> <span class="o">=</span> <span class="n">calculate_stepwise_returns</span><span class="p">(</span><span class="n">rewards</span><span class="p">,</span> <span class="n">discount_factor</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-<span class="n">targets</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">stack</span><span class="p">([</span><span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">gt_labels</span><span class="p">]).</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">).</span><span class="nb">float</span><span class="p">()</span>
+</span><span class="n">inputs</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">stack</span><span class="p">([</span><span class="n">torch</span><span class="p">.</span><span class="nf">tensor</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">observations</span><span class="p">]).</span><span class="nf">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+<span class="n">stepwise_returns</span> <span class="o">=</span> <span class="nf">calculate_stepwise_returns</span><span class="p">(</span><span class="n">rewards</span><span class="p">,</span> <span class="n">discount_factor</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
+<span class="n">targets</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">stack</span><span class="p">([</span><span class="n">torch</span><span class="p">.</span><span class="nf">tensor</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">gt_labels</span><span class="p">]).</span><span class="nf">to</span><span class="p">(</span><span class="n">device</span><span class="p">).</span><span class="nf">float</span><span class="p">()</span>
 </code></pre></div></div>
 
 <hr />
@@ -362,29 +362,29 @@ nn.init.zeros_(self.layer1.bias)
 
 <p><strong>Cartpole</strong></p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">update_policy</span><span class="p">(</span><span class="n">stepwise_returns</span><span class="p">,</span> <span class="n">log_prob_actions</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">):</span>
-    <span class="n">stepwise_returns</span> <span class="o">=</span> <span class="n">stepwise_returns</span><span class="p">.</span><span class="n">detach</span><span class="p">()</span>
-    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="p">(</span><span class="n">stepwise_returns</span> <span class="o">*</span> <span class="n">log_prob_actions</span><span class="p">).</span><span class="nb">sum</span><span class="p">()</span>
-    <span class="n">optimizer</span><span class="p">.</span><span class="n">zero_grad</span><span class="p">()</span>
-    <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
-    <span class="n">optimizer</span><span class="p">.</span><span class="n">step</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">loss</span><span class="p">.</span><span class="n">item</span><span class="p">()</span>
+    <span class="n">stepwise_returns</span> <span class="o">=</span> <span class="n">stepwise_returns</span><span class="p">.</span><span class="nf">detach</span><span class="p">()</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="p">(</span><span class="n">stepwise_returns</span> <span class="o">*</span> <span class="n">log_prob_actions</span><span class="p">).</span><span class="nf">sum</span><span class="p">()</span>
+    <span class="n">optimizer</span><span class="p">.</span><span class="nf">zero_grad</span><span class="p">()</span>
+    <span class="n">loss</span><span class="p">.</span><span class="nf">backward</span><span class="p">()</span>
+    <span class="n">optimizer</span><span class="p">.</span><span class="nf">step</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">loss</span><span class="p">.</span><span class="nf">item</span><span class="p">()</span>
 </code></pre></div></div>
 
 <p>You usually don’t want to track gradients during the environment interaction. You often recompute log-probs at training time for stability and because you may want to process the whole trajectory as a batch
 When you call policy_forward, instead of discarding the raw logits, store them:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">output</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">preprocessed_observation</span><span class="p">)</span>
-<span class="n">logit_buffer</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>  <span class="c1"># store logits for training
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">output</span> <span class="o">=</span> <span class="nf">model</span><span class="p">(</span><span class="n">preprocessed_observation</span><span class="p">)</span>
+<span class="n">logit_buffer</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>  <span class="c1"># store logits for training
 </span></code></pre></div></div>
 <p>At training time, use the stored logits instead of calling model(inputs) again. Saves computation. Uses more memory (store one logit per timestep) and may complicate batching.</p>
 
 <p><strong>Pong</strong></p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1"># Calculate Loss and Grads
-</span><span class="n">action_probs</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">inputs</span><span class="p">)</span>
-<span class="n">log_prob_actions</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">BCELoss</span><span class="p">(</span><span class="n">reduction</span><span class="o">=</span><span class="s">'none'</span><span class="p">)(</span><span class="n">action_probs</span><span class="p">.</span><span class="n">squeeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">targets</span><span class="p">)</span> <span class="o">/</span> <span class="n">batch_size</span>  <span class="c1"># batch_size == grad accumulation iterations
+</span><span class="n">action_probs</span> <span class="o">=</span> <span class="nf">model</span><span class="p">(</span><span class="n">inputs</span><span class="p">)</span>
+<span class="n">log_prob_actions</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">BCELoss</span><span class="p">(</span><span class="n">reduction</span><span class="o">=</span><span class="sh">'</span><span class="s">none</span><span class="sh">'</span><span class="p">)(</span><span class="n">action_probs</span><span class="p">.</span><span class="nf">squeeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">targets</span><span class="p">)</span> <span class="o">/</span> <span class="n">batch_size</span>  <span class="c1"># batch_size == grad accumulation iterations
 </span><span class="n">loss</span> <span class="o">=</span> <span class="n">log_prob_actions</span> <span class="o">*</span> <span class="n">stepwise_returns</span>
-<span class="n">loss</span> <span class="o">=</span> <span class="n">loss</span><span class="p">.</span><span class="nb">sum</span><span class="p">()</span>  <span class="c1"># not average, since each episode is used as a one data sample
-</span><span class="n">weighted_loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
+<span class="n">loss</span> <span class="o">=</span> <span class="n">loss</span><span class="p">.</span><span class="nf">sum</span><span class="p">()</span>  <span class="c1"># not average, since each episode is used as a one data sample
+</span><span class="n">weighted_loss</span><span class="p">.</span><span class="nf">backward</span><span class="p">()</span>
 </code></pre></div></div>
 <p>batch_size represents number of episodes per update. If you divide by batch_size, each episode contributes a smaller gradient, effectively an average gradient, just a scaling to keep gradient magnitudes reasonable. equivalent to using a smaller learning rate.</p>
 
@@ -431,10 +431,10 @@ The BCE loss is equivalent to the negative log-likelihood for a Bernoulli distri
 
 <p>We could also do as in Cartpole:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">log_probs</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">log_softmax</span><span class="p">(</span><span class="n">model_preds</span><span class="p">,</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">log_prob_actions</span> <span class="o">=</span> <span class="n">log_probs</span><span class="p">.</span><span class="n">gather</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">targets</span><span class="p">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">1</span><span class="p">)).</span><span class="n">squeeze</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="p">(</span><span class="n">discounted_r</span> <span class="o">*</span> <span class="n">log_prob_actions</span><span class="p">).</span><span class="nb">sum</span><span class="p">()</span>
-<span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">log_probs</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">log_softmax</span><span class="p">(</span><span class="n">model_preds</span><span class="p">,</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">log_prob_actions</span> <span class="o">=</span> <span class="n">log_probs</span><span class="p">.</span><span class="nf">gather</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">targets</span><span class="p">.</span><span class="nf">unsqueeze</span><span class="p">(</span><span class="mi">1</span><span class="p">)).</span><span class="nf">squeeze</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="p">(</span><span class="n">discounted_r</span> <span class="o">*</span> <span class="n">log_prob_actions</span><span class="p">).</span><span class="nf">sum</span><span class="p">()</span>
+<span class="n">loss</span><span class="p">.</span><span class="nf">backward</span><span class="p">()</span>
 </code></pre></div></div>
 
 <p>Use Adam optimizer (with learning rate decay).
@@ -471,7 +471,7 @@ Try weight decay (L2 regularization).</p>
 </span><span class="n">HIDDEN_DIM</span> <span class="o">=</span> <span class="mi">128</span> <span class="c1"># Number of neurons in hidden layer
 </span><span class="n">OUTPUT_DIM</span> <span class="o">=</span> <span class="n">env</span><span class="p">.</span><span class="n">action_space</span><span class="p">.</span><span class="n">n</span> <span class="c1"># Number of actions (output dim)
 </span><span class="n">DROPOUT</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="c1"># Dropout probability in policy network
-</span><span class="n">policy</span> <span class="o">=</span> <span class="n">PolicyNetwork</span><span class="p">(</span><span class="n">INPUT_DIM</span><span class="p">,</span> <span class="n">HIDDEN_DIM</span><span class="p">,</span> <span class="n">OUTPUT_DIM</span><span class="p">,</span> <span class="n">DROPOUT</span><span class="p">)</span>
+</span><span class="n">policy</span> <span class="o">=</span> <span class="nc">PolicyNetwork</span><span class="p">(</span><span class="n">INPUT_DIM</span><span class="p">,</span> <span class="n">HIDDEN_DIM</span><span class="p">,</span> <span class="n">OUTPUT_DIM</span><span class="p">,</span> <span class="n">DROPOUT</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>And then you run a loop that does (1) forward passes and (2) parameter updates.
@@ -480,17 +480,17 @@ When the mean return for episodes is good enough, you can consider the agent tra
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">episode_returns</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="n">LEARNING_RATE</span> <span class="o">=</span> <span class="mf">0.01</span>
-<span class="n">optimizer</span> <span class="o">=</span> <span class="n">optim</span><span class="p">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">policy</span><span class="p">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span> <span class="o">=</span> <span class="n">LEARNING_RATE</span><span class="p">)</span>
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">optim</span><span class="p">.</span><span class="nc">Adam</span><span class="p">(</span><span class="n">policy</span><span class="p">.</span><span class="nf">parameters</span><span class="p">(),</span> <span class="n">lr</span> <span class="o">=</span> <span class="n">LEARNING_RATE</span><span class="p">)</span>
 
-<span class="k">for</span> <span class="n">episode</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">MAX_EPOCHS</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-    <span class="n">episode_return</span><span class="p">,</span> <span class="n">stepwise_returns</span><span class="p">,</span> <span class="n">log_prob_actions</span> <span class="o">=</span> <span class="n">forward_pass</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">policy</span><span class="p">,</span> <span class="n">DISCOUNT_FACTOR</span><span class="p">)</span>
-    <span class="n">_</span> <span class="o">=</span> <span class="n">update_policy</span><span class="p">(</span><span class="n">stepwise_returns</span><span class="p">,</span> <span class="n">log_prob_actions</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">)</span>
-    <span class="n">episode_returns</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">episode_return</span><span class="p">)</span>
-    <span class="n">mean_episode_return</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">episode_returns</span><span class="p">[</span><span class="o">-</span><span class="n">N_TRIALS</span><span class="p">:])</span>
+<span class="k">for</span> <span class="n">episode</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">MAX_EPOCHS</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">episode_return</span><span class="p">,</span> <span class="n">stepwise_returns</span><span class="p">,</span> <span class="n">log_prob_actions</span> <span class="o">=</span> <span class="nf">forward_pass</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">policy</span><span class="p">,</span> <span class="n">DISCOUNT_FACTOR</span><span class="p">)</span>
+    <span class="n">_</span> <span class="o">=</span> <span class="nf">update_policy</span><span class="p">(</span><span class="n">stepwise_returns</span><span class="p">,</span> <span class="n">log_prob_actions</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">)</span>
+    <span class="n">episode_returns</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">episode_return</span><span class="p">)</span>
+    <span class="n">mean_episode_return</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="n">episode_returns</span><span class="p">[</span><span class="o">-</span><span class="n">N_TRIALS</span><span class="p">:])</span>
     <span class="k">if</span> <span class="n">episode</span> <span class="o">%</span> <span class="n">PRINT_INTERVAL</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'| Episode: </span><span class="si">{</span><span class="n">episode</span><span class="p">:</span><span class="mi">3</span><span class="si">}</span><span class="s"> | Mean Rewards: </span><span class="si">{</span><span class="n">mean_episode_return</span><span class="p">:</span><span class="mf">5.1</span><span class="n">f</span><span class="si">}</span><span class="s"> |'</span><span class="p">)</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">'</span><span class="s">| Episode: </span><span class="si">{</span><span class="n">episode</span><span class="si">:</span><span class="mi">3</span><span class="si">}</span><span class="s"> | Mean Rewards: </span><span class="si">{</span><span class="n">mean_episode_return</span><span class="si">:</span><span class="mf">5.1</span><span class="n">f</span><span class="si">}</span><span class="s"> |</span><span class="sh">'</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">mean_episode_return</span> <span class="o">&gt;=</span> <span class="n">REWARD_THRESHOLD</span><span class="p">:</span>
-         <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Reached reward threshold in </span><span class="si">{</span><span class="n">episode</span><span class="si">}</span><span class="s"> episodes'</span><span class="p">)</span>
+         <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">'</span><span class="s">Reached reward threshold in </span><span class="si">{</span><span class="n">episode</span><span class="si">}</span><span class="s"> episodes</span><span class="sh">'</span><span class="p">)</span>
         <span class="k">break</span>
 </code></pre></div></div>
 
@@ -507,7 +507,7 @@ When the mean return for episodes is good enough, you can consider the agent tra
 <hr />
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:Note" role="doc-endnote">
+    <li id="fn:Note">
       <p>The linear model is very limited, because  it cannot capture complex, non-linear decision regions. it represents a single flat hyperplane divides state space into “prefer action i” vs. “prefer action j”, If the environment is simple and separable, this works.  In practice, we use neural networks, whose layers warps the state space into a feature space. In feature space, the final decision is still linear → hyperplanes in feature space When mapped back to the original state space, those hyperplanes become curved, flexible surfaces. <a href="#fnref:Note" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>

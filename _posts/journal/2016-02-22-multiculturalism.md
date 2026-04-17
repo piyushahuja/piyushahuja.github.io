@@ -6,7 +6,6 @@ date:   2016-02-22 23:46:11
 tag: 
 categories: 
     - journal
-    - public-journal
 excerpt: 
 permalink: /multiculturalism
 
