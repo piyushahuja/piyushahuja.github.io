@@ -1,5 +1,5 @@
 ---
-layout: post-normal
+layout: post-distill
 title: "The Birth of Neural Networks"
 subtitle: "From the mind–body problem to backpropagation — a history in seven moves"
 course: ml

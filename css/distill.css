@@ -1,0 +1,572 @@
+/* ============================================================
+   Distill-style layout — post-distill layout
+   ============================================================ */
+
+/* --- Body/site reset for distill pages --- */
+body:has(.d-title) {
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+/* Break out of the 46em #site cage */
+body:has(.d-title) #site {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+
+/* #page overflow: auto kills position: sticky — remove it for distill pages */
+body:has(.d-title) #page {
+  overflow: visible;
+  background: none;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/* ================================================================
+   TITLE BLOCK — white background, left-aligned, large black type
+   ================================================================ */
+.d-title {
+  background: #fff;
+  color: rgba(0,0,0,0.88);
+  display: grid;
+  grid-template-columns:
+    minmax(1.5rem, 80px)
+    180px
+    1fr
+    200px
+    minmax(1.5rem, 80px);
+  column-gap: 40px;
+  padding: 5rem 0 2rem;
+}
+
+.d-title h1,
+.d-title .d-subtitle {
+  grid-column: 3;
+}
+
+.d-title h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0 0 0.6rem;
+  color: rgba(0,0,0,0.9);
+  letter-spacing: -0.01em;
+}
+
+.d-subtitle {
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: rgba(0,0,0,0.55);
+  margin: 0 0 2.5rem;
+  line-height: 1.5;
+  max-width: 640px;
+}
+
+/* Thin rule separating title from byline */
+.d-title-rule {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 0;
+}
+
+/* ================================================================
+   BYLINE — tabular, labels above values, below a rule
+   ================================================================ */
+.d-byline {
+  display: grid;
+  grid-template-columns:
+    minmax(1.5rem, 80px)
+    180px
+    1fr
+    200px
+    minmax(1.5rem, 80px);
+  column-gap: 40px;
+  padding: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* inner wrapper sits in article column (col 3) */
+.d-byline-inner {
+  grid-column: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  padding: 1.25rem 0;
+}
+
+.d-byline-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.d-byline-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.4);
+}
+
+.d-byline-value {
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.75);
+}
+
+/* ================================================================
+   GRID LAYOUT — toc | article | gutter
+   ================================================================ */
+.d-article-grid {
+  display: grid;
+  grid-template-columns:
+    [screen-start] minmax(1.5rem, 80px)
+    [toc-start] 180px
+    [toc-end text-start] 1fr
+    [text-end gutter-start] 200px
+    [gutter-end] minmax(1.5rem, 80px)
+    [screen-end];
+  column-gap: 40px;
+  align-items: start;
+  padding: 3rem 0 6rem;
+}
+
+/* ================================================================
+   TABLE OF CONTENTS
+   ================================================================ */
+.d-contents {
+  grid-column: toc-start / toc-end;
+  position: sticky;
+  top: 2rem;
+  padding-top: 0.5rem;
+}
+
+.d-contents h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(0,0,0,0.75);
+  margin: 0 0 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.d-contents ul,
+.d-contents ul ul {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.d-contents ul li,
+.d-contents ul ul li {
+  list-style: none !important;
+  list-style-type: none !important;
+  margin-bottom: 0.55rem;
+}
+
+.d-contents ul li a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgba(0,0,0,0.65);
+  text-decoration: none;
+  line-height: 1.35;
+  display: block;
+  transition: color 0.12s;
+}
+
+.d-contents ul li a:hover {
+  color: #009688;
+  text-decoration: none;
+}
+
+/* h3-level ToC items (indented) */
+.d-contents ul ul {
+  padding-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.d-contents ul ul li {
+  margin-bottom: 0.3rem;
+}
+
+.d-contents ul ul li a {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgba(0,0,0,0.5);
+}
+
+/* ================================================================
+   ARTICLE BODY
+   ================================================================ */
+.d-article {
+  grid-column: text-start / text-end;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(0,0,0,0.82);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-width: 0;
+  overflow: visible;
+}
+
+.d-article p {
+  margin: 0 0 1em;
+  text-align: left;
+}
+
+.d-article h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #009688;
+  color: rgba(0,0,0,0.88);
+  line-height: 1.3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.d-article h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 1.75rem 0 0.6rem;
+  color: rgba(0,0,0,0.8);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.d-article h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 1.25rem 0 0.4rem;
+  color: rgba(0,0,0,0.72);
+}
+
+.d-article hr {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 2.5rem 0;
+}
+
+.d-article ul, .d-article ol {
+  margin: 0 0 1em 0;
+  padding-left: 1.5em;
+}
+
+.d-article ul li, .d-article ol li {
+  margin-bottom: 0.35em;
+  line-height: 1.65;
+}
+
+.d-article ul li { list-style-type: disc; }
+.d-article ol li { list-style-type: decimal; }
+
+.d-article blockquote {
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.25rem;
+  border-left: 3px solid #009688;
+  color: rgba(0,0,0,0.65);
+  font-size: 0.97rem;
+  background: hsl(0,0%,98.5%);
+}
+
+.d-article blockquote p { margin: 0; }
+
+.d-article a {
+  color: #004276;
+  text-decoration: underline;
+  text-decoration-color: rgba(0,66,118,0.25);
+}
+.d-article a:hover {
+  color: #009688;
+  text-decoration-color: #009688;
+}
+
+/* ================================================================
+   FIGURES
+   ================================================================ */
+.d-article figure.d-figure,
+.d-article .d-figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.d-article figcaption,
+.d-figure figcaption {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: rgba(0,0,0,0.5);
+  margin-top: 0.75rem;
+  text-align: left;
+}
+
+/* ================================================================
+   TABLES
+   ================================================================ */
+.d-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.d-article th {
+  background: hsl(0,0%,96%);
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid rgba(0,0,0,0.12);
+  text-align: left;
+}
+
+.d-article td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* ================================================================
+   SIDENOTES — float into gutter column
+   ================================================================ */
+.sidenote {
+  float: right;
+  clear: right;
+  margin-right: -244px;
+  width: 192px;
+  font-size: 0.77rem;
+  line-height: 1.5;
+  color: rgba(0,0,0,0.5);
+  margin-top: 0.1em;
+  margin-bottom: 1rem;
+  padding-left: 0.65rem;
+  border-left: 2px solid #80cbc4;
+}
+
+/* ================================================================
+   MATH
+   ================================================================ */
+.d-article .MathJax_Display,
+.d-article mjx-container[display="true"] {
+  margin: 1rem 0 !important;
+  overflow-x: auto;
+}
+
+/* ================================================================
+   CODE
+   ================================================================ */
+.d-article pre {
+  background: hsl(0,0%,97.5%);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 4px;
+  padding: 1rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  box-shadow: none;
+}
+
+.d-article code {
+  font-size: 0.88em;
+  background: hsl(0,0%,95.5%);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.d-article pre code {
+  background: transparent;
+  padding: 0;
+}
+
+/* ================================================================
+   GATE ROW (logic gate diagrams)
+   ================================================================ */
+.gate-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.gate-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.gate-label {
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+  line-height: 1.4;
+}
+
+/* ================================================================
+   TIMELINE
+   ================================================================ */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.45rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: linear-gradient(to bottom, #009688, #80cbc4);
+}
+
+.tl-item {
+  position: relative;
+  margin-bottom: 1.75rem;
+}
+
+.tl-dot {
+  position: absolute;
+  left: -1.72rem;
+  top: 0.3rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #009688;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #009688;
+}
+
+.tl-year {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #009688;
+  margin-bottom: 0.15rem;
+}
+
+.tl-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: rgba(0,0,0,0.82);
+  margin-bottom: 0.25rem;
+}
+
+.tl-body {
+  font-size: 0.87rem;
+  color: rgba(0,0,0,0.62);
+  line-height: 1.55;
+}
+
+/* ================================================================
+   INTERACTIVE WIDGETS
+   ================================================================ */
+.boundary-canvas,
+.d-article canvas {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: hsl(0,0%,99%);
+}
+
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: rgba(0,0,0,0.6);
+  max-width: 460px;
+  margin: 0.5rem auto 0;
+}
+
+.slider-row input[type=range] {
+  flex: 1;
+  accent-color: #009688;
+}
+
+.slider-val {
+  min-width: 2.5rem;
+  font-variant-numeric: tabular-nums;
+  color: rgba(0,0,0,0.75);
+}
+
+.btn-row {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.nn-btn {
+  padding: 0.3rem 0.9rem;
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 3px;
+  background: #fff;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: rgba(0,0,0,0.7);
+  font-family: inherit;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nn-btn:hover {
+  background: #009688;
+  color: #fff;
+  border-color: #009688;
+}
+
+/* ================================================================
+   RESPONSIVE
+   ================================================================ */
+@media (max-width: 1100px) {
+  .d-article-grid {
+    grid-template-columns:
+      [screen-start] 1rem
+      [toc-start] 200px
+      [toc-end text-start] 1fr
+      [text-end gutter-start gutter-end] 1rem
+      [screen-end];
+    column-gap: 28px;
+  }
+
+  .sidenote {
+    float: none;
+    margin: 0.75rem 0;
+    width: auto;
+    display: block;
+    background: hsl(174, 20%, 97%);
+    border-left: 2px solid #80cbc4;
+    border-radius: 0 4px 4px 0;
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .d-article-grid {
+    grid-template-columns: [screen-start toc-start text-start] 1fr [toc-end text-end gutter-start gutter-end screen-end];
+    padding: 2rem 1.25rem 4rem;
+  }
+
+  .d-contents {
+    position: static;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .d-title {
+    padding-left: 1.25rem;
+    padding-top: 3rem;
+  }
+
+  .d-byline {
+    padding-left: 1.25rem;
+  }
+
+  .d-title h1 { font-size: 2.2rem; }
+  .d-article { font-size: 0.95rem; }
+}
