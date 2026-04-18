@@ -1,0 +1,93 @@
+/* ─────────────────────────────────────────────────────────
+   demos.css  —  shared styles for interactive canvas demos
+   ───────────────────────────────────────────────────────── */
+
+/* ── Demo shell ──────────────────────────────────────────── */
+.demo-box {
+  margin: 2.5rem 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #0d0d0d;
+}
+.demo-box canvas {
+  display: block;
+  width: 100%;
+}
+
+/* ── Controls bar ────────────────────────────────────────── */
+.demo-controls {
+  background: #1a1a1a;
+  padding: .85rem 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.5rem;
+  align-items: center;
+  border-top: 1px solid #2a2a2a;
+}
+.demo-controls label {
+  color: #aaa;
+  font-size: .82rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  white-space: nowrap;
+}
+.demo-controls input[type=range] {
+  width: 110px;
+  cursor: pointer;
+  accent-color: #7eb8f7;
+}
+.demo-controls .val {
+  color: #7eb8f7;
+  font-family: monospace;
+  font-size: .82rem;
+  min-width: 2.8rem;
+}
+.demo-controls button {
+  background: #2a2a2a;
+  color: #ccc;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: .3rem .8rem;
+  cursor: pointer;
+  font-size: .8rem;
+  font-family: inherit;
+}
+.demo-controls button:hover  { background: #3a3a3a; color: #fff; }
+.demo-controls button.active { background: #7eb8f7; color: #000; border-color: #7eb8f7; }
+
+/* ── Caption bar ─────────────────────────────────────────── */
+.demo-caption {
+  background: #111;
+  color: #888;
+  font-size: .8rem;
+  font-style: italic;
+  padding: .6rem 1.2rem;
+  border-top: 1px solid #1e1e1e;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* ── Frame-switcher tabs (relativity demo) ───────────────── */
+.frame-tabs {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 0;
+}
+.frame-tabs button {
+  flex: 1;
+  padding: .5rem;
+  background: #1e1e1e;
+  color: #888;
+  border: 1px solid #333;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  font-size: .82rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  transition: background .15s, color .15s;
+}
+.frame-tabs button.active              { background: #0d0d0d; color: #7eb8f7; border-color: #444; }
+.frame-tabs button:hover:not(.active)  { background: #252525; color: #ccc; }
