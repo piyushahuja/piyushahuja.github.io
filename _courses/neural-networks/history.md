@@ -419,5 +419,18 @@ Each "left open" is where the next decade's work came from.
 
 ---
 
+---
+
+<figure class="d-figure" style="margin: 2rem 0;">
+<video
+  src="/videos/prime-intellect-nn.mp4"
+  controls
+  loop
+  playsinline
+  style="width:100%;border-radius:6px;display:block;"
+></video>
+<figcaption>Neural networks in their full glory. You now know how we got here.</figcaption>
+</figure>
+
 <script src="/js/nn-history.js"></script>
 <script src="/js/gd-viz.js"></script>
