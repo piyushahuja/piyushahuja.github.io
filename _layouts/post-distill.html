@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="d-title">
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="d-subtitle">{{ page.subtitle }}</p>{% endif %}
+</div>
+
+<hr class="d-title-rule">
+
+<div class="d-byline">
+  <div class="d-byline-inner">
+    <div class="d-byline-col">
+      <span class="d-byline-label">Author</span>
+      <span class="d-byline-value">{{ page.author }}</span>
+    </div>
+    <div class="d-byline-col">
+      <span class="d-byline-label">Published</span>
+      <span class="d-byline-value">{{ page.date | date: "%b %-d, %Y" }}</span>
+    </div>
+  </div>
+</div>
+
+<div class="d-article-grid">
+
+  <nav class="d-contents" id="d-toc">
+    <h4>Contents</h4>
+    <ul id="toc-list"></ul>
+  </nav>
+
+  <article class="d-article">
+    {{ content }}
+  </article>
+
+</div>
+
+<script>
+(function() {
+  var headings = document.querySelectorAll('.d-article h2, .d-article h3');
+  var toc = document.getElementById('toc-list');
+  var currentH2Li = null;
+  var currentSubList = null;
+
+  headings.forEach(function(h, i) {
+    if (!h.id) h.id = 'section-' + i;
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+
+    if (h.tagName === 'H2') {
+      toc.appendChild(li);
+      currentH2Li = li;
+      currentSubList = null;
+    } else if (h.tagName === 'H3') {
+      if (!currentSubList) {
+        currentSubList = document.createElement('ul');
+        if (currentH2Li) currentH2Li.appendChild(currentSubList);
+        else toc.appendChild(currentSubList);
+      }
+      currentSubList.appendChild(li);
+    }
+  });
+})();
+</script>

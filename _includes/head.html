@@ -28,6 +28,10 @@
 
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
 
+    {% if page.layout == "post-distill" %}
+    <link rel="stylesheet" href="{{ "/css/distill.css" | prepend: site.baseurl }}">
+    {% endif %}
+
     
 
     <script>
