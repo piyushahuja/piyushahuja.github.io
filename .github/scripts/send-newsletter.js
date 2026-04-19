@@ -7,14 +7,19 @@ const { execSync } = require("child_process");
 const BUTTONDOWN_API_KEY = process.env.BUTTONDOWN_API_KEY;
 const SITE_URL = "https://piyushahuja.com";
 const STATE_FILE = ".github/newsletter-state.json";
+const COURSES_DIR = "_courses";
 
-function getNewCourseFiles() {
-  const diff = execSync("git diff HEAD~1 HEAD --name-only --diff-filter=A")
-    .toString()
-    .trim();
-  return diff
-    .split("\n")
-    .filter((f) => f.startsWith("_courses/") && f.endsWith(".md") && f !== "_courses/index.md");
+function getCourseFiles(dir) {
+  const results = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      results.push(...getCourseFiles(fullPath));
+    } else if (entry.name.endsWith(".md") && entry.name !== "index.md") {
+      results.push(fullPath);
+    }
+  }
+  return results;
 }
 
 function parseFrontmatter(content) {
@@ -28,6 +33,12 @@ function parseFrontmatter(content) {
   return fm;
 }
 
+function setNewsletterFlag(filePath, value) {
+  const content = fs.readFileSync(filePath, "utf8");
+  const updated = content.replace(/^newsletter:\s*(true|false)/m, `newsletter: ${value}`);
+  fs.writeFileSync(filePath, updated);
+}
+
 function loadState() {
   if (fs.existsSync(STATE_FILE)) {
     return JSON.parse(fs.readFileSync(STATE_FILE, "utf8"));
@@ -36,18 +47,13 @@ function loadState() {
 }
 
 function saveState(state) {
+  fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
 }
 
 function fileToUrl(filePath) {
-  // _courses/neural-networks/1943-1969.md -> /courses/neural-networks/1943-1969
-  return (
-    SITE_URL +
-    "/" +
-    filePath
-      .replace(/^_/, "")
-      .replace(/\.md$/, "")
-  );
+  // _courses/neural-networks/1943-1969.md -> https://piyushahuja.com/courses/neural-networks/1943-1969
+  return SITE_URL + "/" + filePath.replace(/^_/, "").replace(/\.md$/, "");
 }
 
 async function createDraft(title, subtitle, url) {
@@ -66,11 +72,7 @@ ${subtitle ? `<p><em>${subtitle}</em></p>` : ""}
       Authorization: `Token ${BUTTONDOWN_API_KEY}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      subject: title,
-      body,
-      status: "draft",
-    }),
+    body: JSON.stringify({ subject: title, body, status: "draft" }),
   });
 
   if (!response.ok) {
@@ -87,25 +89,17 @@ async function main() {
     process.exit(1);
   }
 
-  const newFiles = getNewCourseFiles();
-  if (newFiles.length === 0) {
-    console.log("No new course files detected.");
-    return;
-  }
-
+  const files = getCourseFiles(COURSES_DIR);
   const state = loadState();
+  const toCommit = [];
 
-  for (const file of newFiles) {
-    if (state.sent.includes(file)) {
-      console.log(`Already sent newsletter for ${file}, skipping.`);
-      continue;
-    }
-
+  for (const file of files) {
     const content = fs.readFileSync(file, "utf8");
     const fm = parseFrontmatter(content);
 
-    if (!fm.date) {
-      console.log(`${file} has no date field, skipping.`);
+    if (fm.newsletter !== "true") continue;
+    if (state.sent.includes(file)) {
+      console.log(`Already sent for ${file}, skipping.`);
       continue;
     }
 
@@ -118,9 +112,23 @@ async function main() {
     console.log(`Draft created: ${draft.id} — review at https://buttondown.com/emails/drafts`);
 
     state.sent.push(file);
+    setNewsletterFlag(file, "false");
+    toCommit.push(file);
+  }
+
+  if (toCommit.length === 0) {
+    console.log("No files with newsletter: true found.");
+    return;
   }
 
   saveState(state);
+
+  // Commit the flipped flags + state
+  execSync("git config user.name 'GitHub Actions'");
+  execSync("git config user.email 'actions@github.com'");
+  execSync(`git add ${STATE_FILE} ${toCommit.join(" ")}`);
+  execSync(`git commit -m "newsletter drafts created, reset newsletter flags [skip ci]"`);
+  execSync("git push");
 }
 
 main().catch((err) => {
