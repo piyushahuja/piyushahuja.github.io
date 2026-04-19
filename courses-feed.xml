@@ -1,0 +1,24 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }} – Courses</title>
+    <description>New course posts from {{ site.title | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/courses</link>
+    <atom:link href="{{ "/courses-feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    {% assign sorted_courses = site.courses | sort: 'date' | reverse %}
+    {% for post in sorted_courses limit:20 %}
+      {% if post.date %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+      </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>
