@@ -3,7 +3,7 @@ layout: post-normal
 title: "Light, Refraction & Special Relativity"
 date: 2024-01-01 09:00:00
 tag:
-course: ml
+course: 
 excerpt: "Interactive explorations of Snell's law, refraction, and how special relativity explains magnetism."
 comments: false
 ---
