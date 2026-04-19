@@ -27,6 +27,8 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add .github/newsletter-state.json
-          git diff --staged --quiet || git commit -m "update newsletter state [skip ci]"
-          git push
+          if [ -f .github/newsletter-state.json ]; then
+            git add .github/newsletter-state.json
+            git diff --staged --quiet || git commit -m "update newsletter state [skip ci]"
+            git push
+          fi
