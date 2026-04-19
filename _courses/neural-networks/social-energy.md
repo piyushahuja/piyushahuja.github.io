@@ -2,7 +2,7 @@
 layout: post-distill
 title: "The Science of Social Energy"
 subtitle: "What actually happens between people — co-regulation, chemosignaling, neural synchrony, and five ML applications that could give humans extraordinary social perception"
-course: ml
+course: 
 date: 2026-04-18
 author: Piyush Ahuja
 comments: false

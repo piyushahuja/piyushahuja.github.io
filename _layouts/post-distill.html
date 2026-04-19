@@ -80,6 +80,17 @@ layout: default
     popup.classList.remove('visible');
   }
 
+  // Keep popup open when mouse moves into it
+  popup.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+  popup.addEventListener('mouseleave', function() { hideTimer = setTimeout(hide, 200); });
+
+  // Click outside to close
+  document.addEventListener('click', function(e) {
+    if (!popup.contains(e.target)) hide();
+  });
+
+  popup.style.pointerEvents = 'auto';
+
   document.querySelectorAll('.d-article sup[id^="fnref"] a').forEach(function(a) {
     var supEl = a.parentElement;
     a.addEventListener('mouseenter', function() {
