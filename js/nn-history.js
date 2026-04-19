@@ -4,6 +4,8 @@
    PERCEPTRON BOUNDARY DEMO
 ══════════════════════════════════════════════ */
 var pCanvas = document.getElementById('perc-canvas');
+if (!pCanvas) { /* not on this page */ }
+else {
 var pCtx    = pCanvas.getContext('2d');
 
 var pts = [
@@ -102,12 +104,15 @@ document.getElementById('btn-reset').addEventListener('click', function() {
   epochSlider.value=0; epochVal.textContent='0'; drawPerceptron(0);
 });
 drawPerceptron(0);
+} // end perc-canvas guard
 
 
 /* ══════════════════════════════════════════════
    XOR SPACE TRANSFORMATION
 ══════════════════════════════════════════════ */
 var xCanvas = document.getElementById('xor-canvas');
+if (!xCanvas) { /* not on this page */ }
+else {
 var xCtx    = xCanvas.getContext('2d');
 
 function drawXorTransform() {
@@ -168,12 +173,15 @@ function drawXorTransform() {
   }
 }
 drawXorTransform();
+} // end xor-canvas guard
 
 
 /* ══════════════════════════════════════════════
    ACTIVATION FUNCTIONS
 ══════════════════════════════════════════════ */
 var aCanvas = document.getElementById('act-canvas');
+if (!aCanvas) { /* not on this page */ }
+else {
 var aCtx    = aCanvas.getContext('2d');
 var AW = aCanvas.width, AH = aCanvas.height;
 
@@ -249,5 +257,6 @@ document.getElementById('btn-sigmoid').addEventListener('click', function(){ dra
 document.getElementById('btn-relu').addEventListener('click',    function(){ drawActivation('ReLU');    });
 document.getElementById('btn-tanh').addEventListener('click',    function(){ drawActivation('Tanh');    });
 drawActivation('Sigmoid');
+} // end act-canvas guard
 
 })();
