@@ -1,18 +1,24 @@
 ---
 layout: post-distill
 title: "The Birth of Neural Networks"
-subtitle: "From the mind–body problem to backpropagation — a history in seven moves"
+subtitle: "There are artifacts you can build out of sand that convert energy into intelligence. How is that possible? Where does the intelligence come from, and why can energy be converted into it?"
 course: ml
 date: 2019-03-23
 author: Piyush Ahuja
 comments: false
 ---
 
-> **Central idea:** mental phenomena can be described by interconnected networks of simple and often uniform units — neurons connected by synapses, as in the brain.
+> The original idea: mental phenomena is emergent from interconnected networks of simple and often uniform units, for example, neurons connected by synapses as in the brain.
+
+
+
 
 ---
 
 ## The Problem That Started Everything
+
+
+
 
 Before there were neural networks, there was a scandal: **the mind existed, and nobody could explain it.**
 
@@ -20,17 +26,19 @@ For centuries, the dominant view was **dualism** — mind and body are made of d
 
 Then three separate fields converged on the same problem from different directions:
 
-- **The Biologist's piece:** Cajal established the brain was discrete individual cells — neurons — each separated by a tiny gap (the synapse). But how does a series of electrical sparks become a thought?
+- **The Biologist's piece:** Cajal[^cajal] established the brain was discrete individual cells — neurons — each separated by a tiny gap (the synapse). But how does a series of electrical sparks become a thought?
 - **The Logician's piece:** Whitehead and Russell proved all mathematics could be built from three logical primitives: **AND, OR, NOT**.
-- **The Collision:** Walter Pitts saw what nobody had connected: *if logic can represent mathematics, and neurons can represent logic — then neurons can represent everything.* The mind wasn't separate from the body — it was the body's wiring diagram.
+- **The Collision:** Walter Pitts[^pitts] saw what nobody had connected: *if logic can represent mathematics, and neurons can represent logic — then neurons can represent everything.* The mind wasn't separate from the body — it was the body's wiring diagram.
 
-This was the generative insight. Everything else is a consequence.
+[^pitts]: Pitts was a runaway teenager living on the streets of Chicago when McCulloch found him. He had taught himself Greek, Latin, and Principia Mathematica by age 12. He never finished high school, never earned a degree, and wrote one of the most influential papers in the history of neuroscience at age 18.
+
+This was the generative insight. Everything else is a consequence.[^macy]
 
 ---
 
 ## 1943 — McCulloch & Pitts: The Brain as Logic Machine
 
-Warren McCulloch and Walter Pitts formalized the collision in "A Logical Calculus of Ideas Immanent in Nervous Activity."
+Warren McCulloch[^mcculloch] and Walter Pitts formalized the collision in "A Logical Calculus of Ideas Immanent in Nervous Activity."
 
 Their core claim: **a neuron "realizes" a logical sentence if its firing pattern (On/Off) matches the True/False values of that sentence.**
 
@@ -169,7 +177,7 @@ Formally: $\Delta w_{ij} \propto x_i \cdot x_j$
 
 ## 1958 — Rosenblatt: The Perceptron Learns
 
-Rosenblatt's perceptron introduced one revolutionary addition: **variable weights** that update based on mistakes.
+Rosenblatt's[^rosenblatt] perceptron introduced one revolutionary addition: **variable weights** that update based on mistakes.
 
 ### The Geometry of a Weight
 
@@ -217,7 +225,7 @@ The cosine $\frac{W \cdot W^*}{|W||W^*|}$ must eventually reach 1. The knife is 
 
 ## 1969 — Minsky & Papert: The Crisis
 
-Minsky and Papert proved formally:
+Minsky and Papert[^minsky] proved formally:
 
 **A single-layer perceptron can only solve linearly separable problems.**
 
@@ -289,7 +297,7 @@ The chain rule from calculus decomposes the gradient layer by layer:
 
 $$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial \hat{y}} \cdot \frac{\partial \hat{y}}{\partial h} \cdot \frac{\partial h}{\partial w}$$
 
-Each term is a local derivative — easy to compute at each layer. The **backward pass** multiplies them together. The error "flows backward," assigning a proportional share of blame to every weight.
+Each term is a local derivative — easy to compute at each layer. The **backward pass** multiplies them together. The error "flows backward," assigning a proportional share of blame to every weight.[^backprop]
 
 This wasn't a trick. Given the compositional structure of a neural network, the chain rule is the only tool that decomposes the gradient correctly.
 
@@ -429,8 +437,20 @@ Each "left open" is where the next decade's work came from.
   playsinline
   style="width:100%;border-radius:6px;display:block;"
 ></video>
-<figcaption>Neural networks in their full glory. You now know how we got here.</figcaption>
+<figcaption>There are physical objects you can build out of sand that convert input energy into output intelligence. How is that possible? Where does the intelligence come from in the first, original place and why can energy be converted into it? </figcaption>
 </figure>
+
+[^cajal]: Cajal and Golgi shared the 1906 Nobel Prize in a ceremony that was reportedly icy. The irony: Cajal had used Golgi's own silver staining technique to prove Golgi wrong. Golgi believed the nervous system was one continuous reticular net — a single fused web. Cajal's meticulous drawings showed instead discrete individual cells with gaps between them. They stood at the same podium and disagreed in their lectures. Golgi never accepted Cajal's evidence.
+
+[^macy]: The paper didn't emerge from isolation. McCulloch and Pitts were embedded in the Macy Conferences (1946–1953), an extraordinary interdisciplinary salon that brought together Norbert Wiener, John von Neumann, Claude Shannon, Gregory Bateson, and Margaret Mead. Neuroscience, computing, information theory, and social science were being invented simultaneously in the same rooms. The concept of feedback and control — cybernetics — was the shared air. The McCulloch-Pitts paper was the output of an entire intellectual ecosystem, not two people working alone.
+
+[^mcculloch]: McCulloch was a 40-year-old established neuropsychiatrist when he encountered Pitts, a homeless teenager, and brought him into his household. Their collaboration lasted years and produced foundational work. It ended in personal catastrophe: Norbert Wiener's wife spread a rumor that Pitts had made advances toward Wiener's daughters. Wiener cut off contact with McCulloch's entire group without explanation. Pitts, who had treated Wiener as a father figure, was devastated. He burned his unpublished manuscripts, retreated into alcoholism, and died at 46. McCulloch never learned the true cause of the rupture until after Pitts was dead.
+
+[^rosenblatt]: Rosenblatt was a showman. He held press conferences. The *New York Times* in 1958 reported the Navy had built a machine that "will be able to walk, talk, see, write, reproduce itself and be conscious of its existence." Rosenblatt didn't exactly say all of this, but he didn't discourage it either. The hype created the target. When Minsky and Papert published *Perceptrons* in 1969, the takedown landed harder because expectations had been so inflated. Rosenblatt died in a boating accident in 1971 — the year before the AI Winter fully set in. He never saw the vindication.
+
+[^minsky]: The politics behind *Perceptrons* (1969) are still debated. Minsky was at MIT; Rosenblatt at Cornell. They were rivals. The book's proof was technically correct — single-layer perceptrons cannot learn XOR — but it was widely read as condemning neural networks entirely, which it did not actually claim. The effect on funding was real and immediate. DARPA pulled support. An entire research programme collapsed. Whether this was a dispassionate scientific critique or a territorial hit on a competing paradigm, the book shaped what got funded for the next decade, which shaped what got discovered.
+
+[^backprop]: Backpropagation was not invented by Rumelhart, Hinton, and Williams — it was rediscovered by them. Paul Werbos derived it in his 1974 Harvard PhD thesis and got essentially no response. David Parker rediscovered it in 1982. Yann LeCun independently derived it in 1985. Rumelhart's 1986 *Nature* paper received the credit largely because of timing and Hinton's institutional prominence. Werbos spent years watching others get credit for his work. The history of ideas is full of this: the idea that gets remembered is not always the first one, but the one that lands in fertile ground.
 
 <script src="/js/nn-history.js"></script>
 <script src="/js/gd-viz.js"></script>
