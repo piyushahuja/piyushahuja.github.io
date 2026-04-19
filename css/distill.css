@@ -520,6 +520,30 @@ body:has(.d-title) #page {
 }
 
 /* ================================================================
+   EXTERNAL DEMO LINKS
+   ================================================================ */
+.demo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+  padding: 0.65rem 1rem;
+  background: hsl(174, 20%, 97%);
+  border-left: 3px solid #009688;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.875rem;
+}
+.demo-link a {
+  color: #009688;
+  font-weight: 600;
+  text-decoration: none;
+}
+.demo-link a:hover { text-decoration: underline; }
+.demo-link .demo-label {
+  color: #555;
+}
+
+/* ================================================================
    FOOTNOTE POPUPS
    ================================================================ */
 .fn-popup {
