@@ -36,6 +36,68 @@ layout: default
 </div>
 
 <script>
+// Footnote popups
+(function() {
+  var popup = document.createElement('div');
+  popup.className = 'fn-popup';
+  document.body.appendChild(popup);
+
+  var hideTimer;
+
+  function getFootnoteContent(id) {
+    // id is like "fnref:key", footnote li id is "fn:key"
+    var fnId = id.replace('fnref:', 'fn:').replace('fnref-', 'fn:');
+    var li = document.getElementById(fnId) || document.getElementById(fnId.replace('fn:', 'fn-'));
+    if (!li) return null;
+    // Clone and strip the backref link
+    var clone = li.cloneNode(true);
+    var backref = clone.querySelector('.reversefootnote');
+    if (backref) backref.remove();
+    return clone.innerHTML.trim();
+  }
+
+  function show(content, anchorEl) {
+    popup.innerHTML = content;
+    popup.classList.add('visible');
+
+    var rect = anchorEl.getBoundingClientRect();
+    var top = rect.bottom + 8;
+    var left = rect.left;
+
+    // Keep within viewport
+    if (left + 340 > window.innerWidth - 16) {
+      left = window.innerWidth - 340 - 16;
+    }
+    if (top + 200 > window.innerHeight) {
+      top = rect.top - 8 - popup.offsetHeight;
+    }
+
+    popup.style.top = top + 'px';
+    popup.style.left = left + 'px';
+  }
+
+  function hide() {
+    popup.classList.remove('visible');
+  }
+
+  document.querySelectorAll('.d-article sup[id^="fnref"] a').forEach(function(a) {
+    var supEl = a.parentElement;
+    a.addEventListener('mouseenter', function() {
+      clearTimeout(hideTimer);
+      var content = getFootnoteContent(supEl.id);
+      if (content) show(content, a);
+    });
+    a.addEventListener('mouseleave', function() {
+      hideTimer = setTimeout(hide, 200);
+    });
+    // Prevent jumping to footnote on click
+    a.addEventListener('click', function(e) { e.preventDefault(); });
+  });
+})();
+</script>
+
+<script>
+// Table of contents
 (function() {
   var headings = document.querySelectorAll('.d-article h2, .d-article h3');
   var toc = document.getElementById('toc-list');
