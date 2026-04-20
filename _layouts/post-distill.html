@@ -58,22 +58,35 @@ layout: default
 
   function show(content, anchorEl) {
     popup.innerHTML = content;
+
+    // Measure height before revealing to get accurate offsetHeight
+    popup.style.visibility = 'hidden';
+    popup.style.display = 'block';
     popup.classList.add('visible');
 
     var rect = anchorEl.getBoundingClientRect();
-    var top = rect.bottom + 8;
-    var left = rect.left;
+    var popupH = popup.offsetHeight;
+    var popupW = 340;
+    var gap = 8;
 
-    // Keep within viewport
-    if (left + 340 > window.innerWidth - 16) {
-      left = window.innerWidth - 340 - 16;
+    var left = rect.left;
+    if (left + popupW > window.innerWidth - 16) {
+      left = window.innerWidth - popupW - 16;
     }
-    if (top + 200 > window.innerHeight) {
-      top = rect.top - 8 - popup.offsetHeight;
+    if (left < 8) left = 8;
+
+    // Default: below the anchor
+    var top = rect.bottom + gap;
+    // Flip above if it would overflow the bottom
+    if (top + popupH > window.innerHeight - 8) {
+      top = rect.top - gap - popupH;
     }
+    // If flipping above also goes off-screen (very tall popup), clamp to top
+    if (top < 8) top = 8;
 
     popup.style.top = top + 'px';
     popup.style.left = left + 'px';
+    popup.style.visibility = '';
   }
 
   function hide() {
