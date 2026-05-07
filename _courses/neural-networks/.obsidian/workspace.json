@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "68901b906d6181e3",
+        "id": "a572252991e51b84",
         "type": "tabs",
         "children": [
           {
-            "id": "0e85cf3d564d8f2e",
+            "id": "6588e53962581312",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1943-1969.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1943-1969"
+              "title": "New tab"
             }
           }
         ]
@@ -183,11 +179,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "0e85cf3d564d8f2e",
+  "active": "6588e53962581312",
   "lastOpenFiles": [
-    "2016-2017.md",
+    "1986-2012.md",
     "2012-2016.md",
-    "Untitled.base",
-    "1943-1969.md"
+    "1943-1969.md",
+    "2016-2017.md",
+    "Untitled.base"
   ]
 }
