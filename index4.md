@@ -9,7 +9,7 @@ section: Home
 
 I'm an independent researcher and entrepreneur based in Cambridge. 
 
-Broadly, my interests span maths, computing, machine learning, software engineering, philosophy, and education.  
+Broadly, I'm interested in maths, computing, machine learning, philosophy, and education.  
 
 
 
