@@ -40,12 +40,12 @@ AI and Society
 
 :   Artificial Intelligence began as a field probing some of the most fundamental questions of science - the nature of intelligence and the design of intelligent artifacts. But it has grown into a discipline that is deeply entwined with commerce and society. Today's AI technology, such as expert systems and intelligent assistants, raise difficult questions of risk, trust and accountability. In this paper, we present these concerns, examining them in the context of historical developments that have shaped the nature and direction of AI research. We also suggest the exploration and further development of two paradigms - human intelligence-machine cooperation and a sociological view of intelligence - which will help address these concerns.
 
-_[Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Technology][aipaper]{:.pdf :}_. _Preprint_ at [Arxiv](http://arxiv.org/abs/1307.7010)
+_[Man and Machine: Questions of Risk, Trust and Accountability in Today's AI Technology][aipaper]{:.pdf :}_. _Preprint_ at [Arxiv](https://arxiv.org/abs/1307.7127)
 
 
 
 
-Economics 
+Economics and Finance
 =====
 
 [Market Mechanisms And Financial Derivatives For Internet Congestion]() 

@@ -7,7 +7,7 @@ section: Home
 
 **Currently**
 
-I'm an independent researcher and entrepreneur based in Cambridge. 
+I'm an independent researcher, engineer, and entrepreneur based in Cambridge. 
 
 <!-- <img  src="files/images/mypic.jpeg" title='Piyush Ahuja' width='100px' align='right' />  -->
 

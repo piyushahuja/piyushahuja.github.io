@@ -7,10 +7,9 @@ section: Home
 
 **Currently**
 
-I'm an independent researcher and entrepreneur based in Cambridge. 
+I'm an independent researcher and entrepeneur based in Cambridge. 
 
 Broadly, I'm interested in maths, computing, machine learning, philosophy, and education.  
-
 
 
 -----
@@ -19,7 +18,7 @@ Broadly, I'm interested in maths, computing, machine learning, philosophy, and e
 
 I spent five wonderful years at IIT Delhi, graduating  with a five-year Integrated Masters in Maths and Computing in 2013. My master's thesis was in the [design of approximation algorithms for networks](../files/research/thesis.pdf) under [Naveen Garg](https://en.wikipedia.org/wiki/Naveen_Garg). 
 
-After IIT Delhi, I read for a second BA in Philosophy, Politics and Economics with senior status at the University of Oxford. At Oxford, I was tutored in philosophy of maths, ethics, metaphysics, epistemology, macroeconomics, and political theory. I also wrote a thesis on [congestion option pricing](../files/research/ppethesis.pdf), the culmination of prior research from a summer at NUS. <!-- [These are some essays](/philosophy) from that time. -->
+After IIT Delhi, I read for a second BA in Philosophy, Politics and Economics with senior status at the University of Oxford. At Oxford, I spent two years reading and writing about philosophy of maths, ethics, metaphysics, epistemology, macroeconomics, and political theory.  I also wrote a thesis on [congestion option pricing](../files/research/ppethesis.pdf), the culmination of prior research from a summer at NUS. <!-- [These are some essays](/philosophy) from that time. -->
 
 ---
 
