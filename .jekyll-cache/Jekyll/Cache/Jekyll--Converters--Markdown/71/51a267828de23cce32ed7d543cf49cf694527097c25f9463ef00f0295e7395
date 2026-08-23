@@ -1,2 +1,0 @@
-I"<p>The essential idea is that an abstract data type is defined by its operations. The set of operations for a type T, along with their specifications, fully characterize what we mean by T. when we talk about the List type, what we mean is not a linked list or an array or any other specific data structure for representing a list. Instead we mean a set of opaque values – the possible objects that can have List type – that satisfy the specifications of all the operations of List: get(), size(), etc. (maps to interfaces in Java?)</p>
-:ET
