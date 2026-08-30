@@ -5,3 +5,4 @@ _site
 .obsidian/
 *.sublime-workspace
 sftp-config.json
+transcripts/
