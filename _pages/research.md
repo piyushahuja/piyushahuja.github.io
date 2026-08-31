@@ -22,7 +22,7 @@ We studied this question by analyzing a clever but natural primal dual formulati
 
 _[Approximation Algorithms in Network Design][thesis]{:.pdf :}_
 
-Maths 
+<!-- Maths 
 =====
 
 [Redimensioning of Euclidean Spaces]()
@@ -53,7 +53,7 @@ Economics and Finance
 :   Could market mechanisms be employed to tackle or relieve Internet congestion? We look at three market mechanisms: consumer-side congestion pricing, content-side paid prioritization, and bilateral risk sharing agree- ments. While the former two have been heavily studied in economic literature, the risk sharing approach towards congestion is a novel addition of this thesis. We treat the uncertainty in broadband congestion levels as an economic risk that consumers and Internet businesses are forced to bear. We design congestion-based financial instruments, similar to derivatives in a stock market, that efficiently allocate risk borne out of congestion.
 
 
-_[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
+_[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_  -->
 
 
 <!-- 
