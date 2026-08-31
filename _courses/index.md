@@ -1,7 +1,7 @@
 ---
 title: My learning notes
 layout: page-home
-permalink: /courses/
+permalink: /learn/
 
 section: Home
 lesson: index
