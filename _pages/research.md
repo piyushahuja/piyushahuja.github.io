@@ -56,7 +56,7 @@ Economics and Finance
 _[Congestion Based Financial Instruments for the Internet Economy][ppethesis]{:.pdf :}_ 
 
 
-
+<!-- 
 Behavioral Economics
 =====
 
@@ -64,7 +64,7 @@ Behavioral Economics
 
 :   Is our instinct for altruism fatal to the assumptions of strict rationality in mainstream economics? Or is the utility function in expected utility theory flexible enough to accomodate altruistic preferences? Rationality in expected utility theory (specifically Von Neumann­-Morgenstern rationality) requires the satisfaction of four axioms: completeness, transitivity, continuity, independence. These are quite reasonable requirements of rational behavior. We argue, however, that the human altruistic instinct can lead to violations of transitivity and independence axioms, and propose experiments to demonstrate it. We also explain these departures from VNM rationality in light of the recent literature on behavioral economics. Lastly, we hypothesize that the psychological value of money depends on ownership, and propose further experiments to test it. 
 
-_[Essays in Economics and Morality][rbn]{:.pdf :}_
+_[Essays in Economics and Morality][rbn]{:.pdf :}_ -->
 
 
 <!-- 
