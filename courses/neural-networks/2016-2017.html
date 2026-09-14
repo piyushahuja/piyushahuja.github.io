@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+   <meta http-equiv="content-type" content="text/html"; charset= "utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Some passably good ideas">
+    <meta name ="author" content="Piyush Ahuja">
+
+    
+    
+    <title>Neural Networks: Sequence, Memory, and Attention</title>
+  <!--    -->
+    <link rel="canonical" href="https://piyushahuja.com/courses/neural-networks/2016-2017">  
+
+    <link rel="stylesheet" href="/css/main-new.css" media="screen and (max-width: 479px)">
+
+    <!-- Desktop styles -->
+    <link rel="stylesheet" href="/css/screen.css" media="screen and (min-width: 480px)">
+
+   
+
+
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    
+    <link rel="stylesheet" href="/css/distill.css">
+    
+
+    
+
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$'], ['\\[','\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+   
+</head>
+
+
+
+
+
+  
+  <body id = "">
+
+  <div id = "site">
+
+  <div class="d-title">
+  <h1>Neural Networks: Sequence, Memory, and Attention</h1>
+  <p class="d-subtitle">How a loop through time and a carefully designed memory cell taught machines to read, translate, and listen.</p>
+</div>
+
+<hr class="d-title-rule">
+
+<div class="d-byline">
+  <div class="d-byline-inner">
+    <div class="d-byline-col">
+      <span class="d-byline-label">Author</span>
+      <span class="d-byline-value">Piyush Ahuja</span>
+    </div>
+    <div class="d-byline-col">
+      <span class="d-byline-label">Published</span>
+      <span class="d-byline-value">Apr 21, 2026</span>
+    </div>
+  </div>
+</div>
+
+<div class="d-article-grid">
+
+  <nav class="d-contents" id="d-toc">
+    <h4>Contents</h4>
+    <ul id="toc-list"></ul>
+  </nav>
+
+  <article class="d-article">
+    <blockquote>
+  <p>The feedforward network sees the world as a flat snapshot. The recurrent network sees it as a scroll unrolling through time — and has to hold, in a fixed-size vector, everything that matters about what it has read so far.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="the-gap-cnns-left-open">The Gap CNNs Left Open</h2>
+
+<p>CNNs solved a specific structure: spatial locality and translation invariance. When a pattern could appear anywhere in an image, the convolutional filter found it wherever it was. But this architecture assumed the input had a fixed grid structure — every pixel in its place.</p>
+
+<p>Language has none of these properties. “The animal didn’t cross the street because <strong>it</strong> was too tired” — to resolve what “it” refers to, you need to remember “animal” from five words ago. Protein sequences have dependencies spanning hundreds of residues. A speech signal has phonemes depending on what came before. <strong>The relevant context is not spatially local; it is temporally distant and variable in distance.</strong></p>
+
+<p>Three things made a different architecture necessary:</p>
+
+<ul>
+  <li><strong>Variable-length inputs</strong>: a sentence can be 3 words or 300; a CNN with fixed filter sizes cannot handle this without padding tricks.</li>
+  <li><strong>Sequential dependencies</strong>: the meaning of word $t$ depends on words $1, \ldots, t-1$. An FC network applied to the full sequence treats every position independently; order becomes invisible.</li>
+  <li><strong>Shared temporal patterns</strong>: the word “the” before a noun means the same thing at position 3 or position 300. You want weights that are shared across time, the way convolutions share weights across space.</li>
+</ul>
+
+<p>The architecture that addresses all three is the <strong>Recurrent Neural Network</strong> — a network with a loop.</p>
+
+<hr />
+
+<h2 id="the-recurrent-neural-network">The Recurrent Neural Network</h2>
+
+<p>The central idea is simple: at each time step, the network receives an input and also its own previous output. This previous output — the <strong>hidden state</strong> — is a summary of everything the network has seen so far.</p>
+
+<p>\(h_t = f(W_h h_{t-1} + W_x x_t + b)\)
+\(y_t = g(W_y h_t)\)</p>
+
+<p>The same weights $W_h, W_x, W_y$ apply at every time step. This is weight sharing through time, exactly analogous to convolutional weight sharing through space.<span class="sidenote">The conceptual predecessors are Elman (1990) and Jordan (1986) networks. Jordan fed the network’s own output back as input; Elman fed the hidden state back. Both had the recurrence idea. The key shift was realising the hidden state, not just the output, carries the relevant history. Jordan networks are nearly forgotten; Elman networks became the standard model studied in cognitive science throughout the 1990s as models of syntax acquisition and language comprehension.</span></p>
+
+<figure class="d-figure">
+<div id="rnn-unroll-viz"></div>
+<figcaption><strong>An RNN unrolled through time.</strong> The same cell (same weights) processes each input token, passing its hidden state forward. The cell on the left shows the "loop" view; the right shows it unrolled as a feedforward-like diagram. Click to step through a sequence.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">See it run on text:</span> <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/" target="_blank">Karpathy — The Unreasonable Effectiveness of RNNs</a> — the canonical blog post. Shows Shakespeare, Wikipedia, LaTeX, C source code, and Linux kernel generated character by character. Essential reading before going further.</div>
+
+<div class="demo-link">⚡ <span class="demo-label">Build it from scratch:</span> <a href="https://www.youtube.com/watch?v=PaCmpygFfXo" target="_blank">Karpathy — Building makemore (YouTube)</a> — implements a character-level language model from scratch, building up from bigrams to a full MLP, then to an RNN.</div>
+
+<h3 id="what-it-is-not">What It Is Not</h3>
+
+<p>An RNN is not a lookup table for sequences. A Markov model says the next token depends only on the last $n$ tokens — the context window is fixed and explicit. An RNN compresses <em>all</em> prior context into $h_t$, with no hard cutoff. The question is whether the compression is any good — and for long sequences, the answer turns out to be often no.</p>
+
+<p>An RNN is also not a sequence-to-sequence model by default. A single-output RNN predicts one thing at the end of a sequence. A many-to-many RNN produces one output per input token. The encoder-decoder architecture — two RNNs, one that reads, one that generates — is a separate design that comes later.</p>
+
+<h3 id="backpropagation-through-time">Backpropagation Through Time</h3>
+
+<p>Training an RNN means computing gradients through the unrolled graph. At each time step, the same weight matrix $W_h$ appears — multiplied together across time steps. The gradient at time step $t$ involves the product:</p>
+
+\[\frac{\partial h_T}{\partial h_t} = \prod_{k=t}^{T-1} \frac{\partial h_{k+1}}{\partial h_k} = \prod_{k=t}^{T-1} W_h^T \cdot \text{diag}(f'(h_k))\]
+
+<p>If $W_h$ has singular values less than 1, this product <strong>vanishes exponentially</strong> in $(T - t)$. If they’re greater than 1, it <strong>explodes</strong>. Gradient clipping (clip $|\nabla| &gt; \theta$ to $\theta$) handles explosions cheaply. Vanishing gradients are the harder problem — the network simply cannot learn dependencies longer than its effective gradient horizon.<span class="sidenote">Hochreiter proved this rigorously in his 1991 diploma thesis — the same thesis that diagnosed vanishing gradients in deep feedforward networks. The recurrent version is worse: the same weight matrix is multiplied once per time step, so a 100-step sequence has $W_h^{100}$ in the gradient. Unless all singular values of $W_h$ are exactly 1.0, the gradient either disappears or explodes. The thesis was largely ignored at the time. Hochreiter went on to write the LSTM paper with Schmidhuber in 1997.</span></p>
+
+<div class="demo-link">⚡ <span class="demo-label">Visualise gradient flow through time:</span> <a href="https://distill.pub/2019/memorization-in-rnns/" target="_blank">Distill — Memorization in RNNs</a> — shows which parts of an input sequence an RNN actually attends to when producing an output. Watch the "garden path" — gradients die well before the start of long sequences.</div>
+
+<hr />
+
+<h2 id="1997--the-lstm-a-cell-with-a-memory">1997 — The LSTM: A Cell with a Memory</h2>
+
+<p>Sepp Hochreiter and Jürgen Schmidhuber’s solution appeared in <em>Neural Computation</em> in 1997.<sup id="fnref:lstm"><a href="#fn:lstm" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> Their diagnosis: the problem is the recurrence itself. Every time step, the hidden state is overwritten by a new non-linear transformation. There is no path through which a gradient can flow without being multiplied by something less than 1.</p>
+
+<p>The fix: <strong>add a separate memory cell</strong> that has an identity self-connection — a wire that carries information forward untransformed. The cell state $C_t$ flows through time like a conveyor belt: information can be added or removed, but the default is that it passes through unchanged.</p>
+
+<p>\(C_t = f_t \odot C_{t-1} + i_t \odot \tilde{C}_t\)
+\(h_t = o_t \odot \tanh(C_t)\)</p>
+
+<p>Three <strong>gates</strong> control what happens to the cell state:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Gate</th>
+      <th>What it does</th>
+      <th>When it fires</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Forget</strong> $f_t$</td>
+      <td>Erase parts of the cell state</td>
+      <td>“Forget the previous subject when a new one starts”</td>
+    </tr>
+    <tr>
+      <td><strong>Input</strong> $i_t$</td>
+      <td>Write new content to cell state</td>
+      <td>“Remember this new number/name/entity”</td>
+    </tr>
+    <tr>
+      <td><strong>Output</strong> $o_t$</td>
+      <td>Read from cell state into hidden state</td>
+      <td>“Output the current subject for pronoun resolution”</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Each gate is a sigmoid over a learned linear function of $h_{t-1}$ and $x_t$. Each produces a vector of values in $[0, 1]$, applied element-wise. Gates are soft: they don’t switch sharply but continuously interpolate.</p>
+
+<figure class="d-figure">
+<div id="lstm-cell-viz"></div>
+<figcaption><strong>Inside an LSTM cell.</strong> The cell state C (top horizontal line) flows through time with minimal interference — the forget gate erases, the input gate writes new content. The hidden state h is a filtered read of the cell state through the output gate. Hover each gate to see what it controls.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">The clearest diagram-level explanation:</span> <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/" target="_blank">Colah — Understanding LSTM Networks</a> — the definitive illustrated guide. Every diagram in this field traces back to this post. Read it with the equations above.</div>
+
+<div class="demo-link">⚡ <span class="demo-label">Distill interactive:</span> <a href="https://distill.pub/2016/augmented-rnns/" target="_blank">Distill — Attention and Augmented RNNs</a> — covers Neural Turing Machines, attention, and memory-augmented networks with interactive diagrams. The "attention" section is directly relevant to the next section.</div>
+
+<h3 id="the-constant-error-carousel">The Constant Error Carousel</h3>
+
+<p>Hochreiter’s name for the key mechanism: a <strong>constant error carousel</strong>. The gradient of the cell state with respect to itself, through the forget gate, is exactly $f_t$ — which can be 1 if the gate is open. When $f_t \approx 1$, the gradient flows back through the cell state unchanged: $\partial C_t / \partial C_{t-1} = f_t \approx 1$. No exponential decay.</p>
+
+<p>The forget gate is the key to long-range memory. If the network learns to keep $f_t \approx 1$ for a particular dimension of the cell state, that dimension carries its value indefinitely — hundreds of time steps — with a gradient that doesn’t vanish.<span class="sidenote">This is structurally the same insight as the ResNet skip connection: provide a path through which the gradient can flow without being multiplied by a learned weight. In ResNets the skip connection is fixed at +1. In LSTMs the “skip” is learnable via the forget gate — which is more powerful but also more complex to train. Both solve the gradient highway problem by different means.</span></p>
+
+<h3 id="what-it-is-not-1">What It Is Not</h3>
+
+<p>The cell state is not a RAM register. It doesn’t store symbols that can be looked up by address. It stores a continuous-valued vector, mixed and blended at every step by soft gates. What the LSTM learns to remember is whatever pattern of activations is most useful for predicting the next output — often interpretable as “the current subject,” “the open parenthesis count,” or “the tense of the clause,” but these are emergent, not explicitly designed.</p>
+
+<p>The misconception: <em>LSTM completely solves vanishing gradients for all sequence lengths.</em> It greatly extends the effective memory, but it still degrades over very long sequences. The forget gate can still close ($f_t \approx 0$), erasing memory. And the hidden state output at each step still goes through $\tanh$ and the output gate. For sequences of thousands of steps, LSTMs still struggle — which is part of what motivated attention and eventually transformers.</p>
+
+<h3 id="gru-the-simplified-alternative">GRU: The Simplified Alternative</h3>
+
+<p>Kyunghyun Cho’s 2014 <strong>Gated Recurrent Unit</strong> merges the cell state and hidden state into one, with two gates instead of three:</p>
+
+<ul>
+  <li><strong>Update gate</strong> $z_t$: combines the forget and input gates — $z_t$ controls how much of the old hidden state to keep and how much to replace.</li>
+  <li><strong>Reset gate</strong> $r_t$: controls how much of the previous hidden state to use when computing the new candidate.</li>
+</ul>
+
+\[h_t = (1 - z_t) \odot h_{t-1} + z_t \odot \tilde{h}_t\]
+
+<p>Fewer parameters, faster to train, comparable performance on most benchmarks. LSTMs are more expressive in principle; GRUs are more efficient in practice. The community split on which to use and largely never resolved the question — transformers made it moot.</p>
+
+<hr />
+
+<h2 id="karpathys-experiment-what-rnns-actually-learn">Karpathy’s Experiment: What RNNs Actually Learn</h2>
+
+<p>In 2015, Andrej Karpathy trained a character-level LSTM on large text corpora and let it generate text one character at a time.<span class="sidenote">Karpathy was a PhD student under Fei-Fei Li at Stanford — the same Fei-Fei Li who built ImageNet. The char-rnn experiments were a side project, written in Lua/Torch over a few evenings. The blog post about them received more attention than most peer-reviewed papers from that year. Karpathy later said the point was not the generated text itself but what the <em>internal representations</em> revealed about what RNNs had learned to track.</span></p>
+
+<p>The results were striking — not because the output was good, but because of what inspecting the hidden states revealed:</p>
+
+<ul>
+  <li>A neuron tracking <strong>open/close quote depth</strong> — its activation went up when text was inside quotation marks and down when it exited.</li>
+  <li>A neuron tracking <strong>line position</strong> — its activation tracked whether the model was near the start or end of a line of code.</li>
+  <li>A neuron tracking <strong>if-block nesting depth</strong> — activation correlated with the indentation level in C source code.</li>
+</ul>
+
+<p>None of these properties were specified in the objective. The model was trained only to predict the next character. It learned these tracking properties because they were predictive — you can’t close a quote without having opened one; you can’t end an if-block without knowing you’re inside one.</p>
+
+<div class="demo-link">⚡ <span class="demo-label">Read the full analysis:</span> <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/" target="_blank">Karpathy — The Unreasonable Effectiveness of RNNs (2015)</a> — Section 4 "Visualizing the Predictions and the 'Neuron' Firings in the RNN" shows the coloured activation heatmaps. The Shakespeare, Wikipedia, algebraic geometry textbook, and Linux kernel samples each show a different aspect of what the model captures.</div>
+
+<hr />
+
+<h2 id="2014--seq2seq-encoding-to-decoding">2014 — Seq2Seq: Encoding to Decoding</h2>
+
+<p>Machine translation requires a different architecture: the input sequence (one language) must be entirely read before the output sequence (another language) begins. Word order differs between languages; you cannot translate word-by-word.</p>
+
+<p>Sutskever, Vinyals, and Le’s 2014 paper introduced the <strong>encoder-decoder</strong> (seq2seq) architecture:<span class="sidenote">Ilya Sutskever — the same Sutskever who built AlexNet with Krizhevsky and Hinton. He was now at Google Brain. The seq2seq paper appeared in NeurIPS 2014 and had an immediate practical impact: it was deployed in Google Translate, replacing the phrase-based statistical MT system that had been the state of the art for a decade.</span></p>
+
+<ol>
+  <li><strong>Encoder</strong>: an LSTM reads the entire source sentence, producing a final hidden state — the <strong>context vector</strong> $c$ — that encodes everything the decoder will need.</li>
+  <li><strong>Decoder</strong>: a second LSTM, initialised with $c$, generates the target sentence token by token.</li>
+</ol>
+
+<p>\(c = \text{Encoder}(x_1, \ldots, x_T)\)
+\(y_t = \text{Decoder}(c, y_1, \ldots, y_{t-1})\)</p>
+
+<p>The analogy: the encoder compresses the source sentence into a single thought; the decoder uncompresses it into the target language.</p>
+
+<p>The irony: the better the compression, the more is lost. A single fixed-size context vector must carry <em>all</em> the information from a sentence of arbitrary length. For short sentences this works. For long ones, the encoder forgets early words by the time it finishes reading. The bottleneck is not the architecture — it is the context vector itself.</p>
+
+<figure class="d-figure">
+<div id="seq2seq-viz"></div>
+<figcaption><strong>Encoder-decoder (seq2seq).</strong> The encoder LSTM processes each source token, building a context vector c. The decoder LSTM generates target tokens conditioned on c and its own previous outputs. The entire source must fit in the fixed-size vector c — the information bottleneck.</figcaption>
+</figure>
+
+<hr />
+
+<h2 id="2015--attention-breaking-the-bottleneck">2015 — Attention: Breaking the Bottleneck</h2>
+
+<p>Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio’s 2015 paper made a single change that transformed the field: instead of compressing the source into one vector, let the decoder <strong>look back</strong> at all encoder hidden states, with a different weight for each.</p>
+
+<p>At each decoder step $t$, compute an attention weight $\alpha_{t,s}$ for each source position $s$:</p>
+
+\[\alpha_{t,s} = \frac{\exp(e_{t,s})}{\sum_{s'} \exp(e_{t,s'})} \quad \text{where } e_{t,s} = a(h^{\text{dec}}_t, h^{\text{enc}}_s)\]
+
+<p>The context vector at each step is now a weighted sum of <em>all</em> encoder states:</p>
+
+\[c_t = \sum_s \alpha_{t,s} h^{\text{enc}}_s\]
+
+<p>The alignment function $a$ is itself a small neural network, learned jointly with the encoder and decoder. <strong>Attention is learned, not designed.</strong></p>
+
+<p>The result: when translating “the cat sat on the mat” and generating the word corresponding to “chat” in French, the decoder can look directly at the encoder’s representation of “cat” — wherever it appears in the source sequence — regardless of sequence length.</p>
+
+<figure class="d-figure">
+<div id="attention-viz"></div>
+<figcaption><strong>Attention alignment matrix.</strong> Each row is a decoder step (output word); each column is an encoder step (input word). Brightness = attention weight. The near-diagonal pattern shows roughly monotonic alignment for similar-language pairs; off-diagonal shows reordering.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">Original attention paper:</span> <a href="https://arxiv.org/abs/1409.0473" target="_blank">Bahdanau et al. (2015) — Neural Machine Translation by Jointly Learning to Align and Translate</a> — Figure 3 shows the attention alignment heatmaps that made the mechanism immediately intuitive.</div>
+
+<div class="demo-link">⚡ <span class="demo-label">Interactive attention:</span> <a href="https://distill.pub/2016/augmented-rnns/" target="_blank">Distill — Attention and Augmented RNNs</a> — animated attention diagrams for translation and sequence copying tasks. Also covers Neural Turing Machines (external memory) and Pointer Networks.</div>
+
+<h3 id="what-attention-actually-is">What Attention Actually Is</h3>
+
+<p>Attention is a <strong>soft, differentiable lookup</strong>. Given a query (the decoder state), keys (the encoder states), and values (also the encoder states), it:</p>
+
+<ol>
+  <li>Scores each key against the query (how relevant is this source position?)</li>
+  <li>Normalises scores to weights via softmax</li>
+  <li>Returns a weighted sum of values</li>
+</ol>
+
+<p>This query-key-value framing turns out to be the general mechanism behind transformers. In transformers, every token can attend to every other token — not just decoders attending to encoders. The “attention” in “self-attention” is the same computation, applied within a single sequence.</p>
+
+<p>The irony: attention was introduced as a fix for a specific RNN failure mode. Within two years, Vaswani et al. would show that if you had attention, you didn’t need the RNN at all.</p>
+
+<hr />
+
+<h2 id="real-world-applications-what-the-era-built">Real-World Applications: What the Era Built</h2>
+
+<p>The RNN era (roughly 2013–2017) produced systems that worked in production:</p>
+
+<p><strong>Speech recognition</strong>: deep bidirectional LSTMs (reading forward and backward simultaneously) replaced hand-crafted acoustic models. The 2014 DeepSpeech paper from Baidu showed that a sufficiently large LSTM, trained end-to-end on raw audio spectrograms with enough data, matched the best engineered speech pipelines. The same principle: raw input, end-to-end learning, scale.</p>
+
+<p><strong>Machine translation</strong>: seq2seq + attention replaced the phrase-based statistical MT systems (Moses, etc.) that had been state of the art since the early 2000s. Google deployed GNMT (Google Neural Machine Translation) in 2016, replacing their existing system overnight for eight languages. The quality jump was the largest single improvement in Google Translate’s history.</p>
+
+<p><strong>Language modelling</strong>: character-level LSTMs generated text that, for the first time, was locally coherent — grammatical sentences, plausible paragraph structure, even approximately correct code. Not because the model understood meaning, but because language has enough local statistical structure that a good hidden-state compression captures it.<span class="sidenote">The distinction between “locally coherent” and “globally coherent” is sharp. A character-level LSTM generates text that looks good for a few sentences, then drifts — it has no mechanism to maintain a consistent argument, narrative, or code logic over more than ~100 characters. It knows that after “the cat sat on the” comes something consistent with English noun phrases, but it doesn’t know that the story is about a cat specifically who has been introduced three paragraphs ago. Long-range consistency requires long-range gradient flow, which the LSTM only partially solves.</span></p>
+
+<p><strong>Handwriting generation</strong>: Alex Graves’s 2013 handwriting generation paper showed that a mixture-density LSTM could generate smooth, realistic handwriting — predicting the next pen position as a probability distribution over 2D coordinates. The model had to predict not just the stroke, but when to lift the pen. The generated samples were indistinguishable from human handwriting.</p>
+
+<div class="demo-link">⚡ <span class="demo-label">Graves handwriting demo:</span> <a href="https://www.cs.toronto.edu/~graves/handwriting.html" target="_blank">Graves — Generating Sequences with RNNs</a> — type any text, get handwriting in different styles. The model has no concept of letters — it only predicts pen-tip movements.</div>
+
+<hr />
+
+<h2 id="what-this-era-left-open">What This Era Left Open</h2>
+
+<p>The RNN era established that sequential structure could be learned end-to-end. Three gaps remained:</p>
+
+<p><strong>The parallelism problem</strong>: an RNN is fundamentally sequential. To compute $h_t$, you need $h_{t-1}$. You cannot process time steps in parallel. This is not a software limitation — it is intrinsic to the recurrence. For long sequences, training is slow. For very long sequences, it is prohibitive. GPUs are built for parallelism; RNNs cannot use it. This is the decisive computational argument for transformers.</p>
+
+<p><strong>The long-range dependency problem</strong>: LSTMs extend the effective memory but do not solve it. The cell state can carry information for tens or hundreds of steps; across thousands of steps, it still degrades. Attention with a fixed number of decoder steps looks at the full encoder, but the encoder itself still runs sequentially and can forget. Full pairwise attention — every position attending to every other — solves this, but requires $O(n^2)$ computation.</p>
+
+<p><strong>The inductive bias question</strong>: RNNs assume sequential, causal structure — position $t$ depends only on positions $1, \ldots, t-1$. This is right for language generation (you can’t use future words to predict the current one) but wrong for many other tasks where bidirectional context helps. The transformer’s self-attention is non-causal by default — every position sees every other — and causality is imposed by masking when needed.</p>
+
+<p>The answer to all three arrived in 2017. Vaswani et al.’s “Attention Is All You Need” removed the recurrence, kept the attention, and showed that the parallel transformer could train faster, attend over longer sequences, and match or exceed RNN performance on translation. The RNN’s role as the sequence model was over in roughly three years.</p>
+
+<p><em>Continued in <a href="/courses/neural-networks/2017-present">Neural Networks: Attention Is All You Need</a></em></p>
+
+<hr />
+
+<script src="/js/nn-history.js"></script>
+
+<script src="/js/rnn-unroll-viz.js"></script>
+
+<script src="/js/lstm-cell-viz.js"></script>
+
+<script src="/js/seq2seq-viz.js"></script>
+
+<script src="/js/attention-viz.js"></script>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:lstm">
+      <p>Hochreiter and Schmidhuber’s 1997 LSTM paper received roughly 15 citations per year for its first five years. Schmidhuber spent the next two decades documenting, carefully and at length, that the LSTM was his lab’s work and that the field had not properly credited it. He was not wrong about the credit; he was unusual in the vigour with which he pursued it. The paper now has approximately 98,000 citations — one of the most-cited papers in machine learning history. Hochreiter received the Milner Award (British Royal Society) in 2024, the same year Hinton received the Nobel Prize. <a href="#fnref:lstm" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+<script>
+// Footnote popups
+(function() {
+  var popup = document.createElement('div');
+  popup.className = 'fn-popup';
+  document.body.appendChild(popup);
+
+  var hideTimer;
+
+  function getFootnoteContent(id) {
+    // id is like "fnref:key", footnote li id is "fn:key"
+    var fnId = id.replace('fnref:', 'fn:').replace('fnref-', 'fn:');
+    var li = document.getElementById(fnId) || document.getElementById(fnId.replace('fn:', 'fn-'));
+    if (!li) return null;
+    // Clone and strip the backref link
+    var clone = li.cloneNode(true);
+    var backref = clone.querySelector('.reversefootnote');
+    if (backref) backref.remove();
+    return clone.innerHTML.trim();
+  }
+
+  function show(content, anchorEl) {
+    popup.innerHTML = content;
+
+    // Measure height before revealing to get accurate offsetHeight
+    popup.style.visibility = 'hidden';
+    popup.style.display = 'block';
+    popup.classList.add('visible');
+
+    var rect = anchorEl.getBoundingClientRect();
+    var popupH = popup.offsetHeight;
+    var popupW = 340;
+    var gap = 8;
+
+    var left = rect.left;
+    if (left + popupW > window.innerWidth - 16) {
+      left = window.innerWidth - popupW - 16;
+    }
+    if (left < 8) left = 8;
+
+    // Default: below the anchor
+    var top = rect.bottom + gap;
+    // Flip above if it would overflow the bottom
+    if (top + popupH > window.innerHeight - 8) {
+      top = rect.top - gap - popupH;
+    }
+    // If flipping above also goes off-screen (very tall popup), clamp to top
+    if (top < 8) top = 8;
+
+    popup.style.top = top + 'px';
+    popup.style.left = left + 'px';
+    popup.style.visibility = '';
+  }
+
+  function hide() {
+    popup.classList.remove('visible');
+  }
+
+  // Keep popup open when mouse moves into it
+  popup.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+  popup.addEventListener('mouseleave', function() { hideTimer = setTimeout(hide, 200); });
+
+  // Click outside to close
+  document.addEventListener('click', function(e) {
+    if (!popup.contains(e.target)) hide();
+  });
+
+  popup.style.pointerEvents = 'auto';
+
+  document.querySelectorAll('.d-article sup[id^="fnref"] a').forEach(function(a) {
+    var supEl = a.parentElement;
+    a.addEventListener('mouseenter', function() {
+      clearTimeout(hideTimer);
+      var content = getFootnoteContent(supEl.id);
+      if (content) show(content, a);
+    });
+    a.addEventListener('mouseleave', function() {
+      hideTimer = setTimeout(hide, 200);
+    });
+    // Prevent jumping to footnote on click
+    a.addEventListener('click', function(e) { e.preventDefault(); });
+  });
+})();
+</script>
+
+<script>
+// Table of contents
+(function() {
+  var headings = document.querySelectorAll('.d-article h2, .d-article h3');
+  var toc = document.getElementById('toc-list');
+  var currentH2Li = null;
+  var currentSubList = null;
+
+  headings.forEach(function(h, i) {
+    if (!h.id) h.id = 'section-' + i;
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+
+    if (h.tagName === 'H2') {
+      toc.appendChild(li);
+      currentH2Li = li;
+      currentSubList = null;
+    } else if (h.tagName === 'H3') {
+      if (!currentSubList) {
+        currentSubList = document.createElement('ul');
+        if (currentH2Li) currentH2Li.appendChild(currentSubList);
+        else toc.appendChild(currentSubList);
+      }
+      currentSubList.appendChild(li);
+    }
+  });
+})();
+</script>
+
+
+    
+ <!--  <div id="footer">
+          <address>
+            <span class="copyright">
+                Content &amp; Design by <a href="/about/">Piyush Ahuja</a>
+                <br/>
+                (<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)      
+            </span>
+            <span class="engine">
+                Powered by <a href="http://github.com/mreid/jekyll/" title="A static, minimalist CMS">Jekyll</a>
+            </span>
+        </address>
+
+  </div>  -->
+
+  </div> 
+
+
+</body>
+</html>
+
+
+
+
+  
+  
+  

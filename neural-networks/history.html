@@ -1,0 +1,452 @@
+<!doctype html>
+<meta charset="utf-8">
+<script src="https://distill.pub/template.v2.js"></script>
+
+<d-front-matter>
+<script type="text/json">{
+  "title": "The Birth of Neural Networks",
+  "description": "From the mind–body problem to backpropagation — a history in seven moves.",
+  "authors": [
+    { "author": "Piyush Ahuja", "authorURL": "https://piyushahuja.com" }
+  ]
+}</script>
+</d-front-matter>
+
+<style>
+/* ── Demo panels ─────────────────────────────────────── */
+.demo-panel {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem 1rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+.demo-panel figcaption,
+.demo-panel .caption {
+  font-size: 0.8em;
+  color: #999;
+  margin-top: 0.75rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* slider controls */
+.ctrl-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.5rem 0;
+  font-size: 0.85em;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+.ctrl-row label { display: flex; align-items: center; gap: 0.4rem; color: #555; }
+.ctrl-row input[type=range] { width: 120px; cursor: pointer; }
+.ctrl-val { font-family: monospace; min-width: 2.5rem; color: #1a56c4; }
+.ctrl-row .nn-btn {
+  padding: 0.25rem 0.75rem;
+  background: #1a56c4;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.82em;
+  font-family: sans-serif;
+}
+.ctrl-row .nn-btn:hover { background: #1240a0; }
+
+/* gate diagrams */
+.gate-row { display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; margin: 1rem 0; }
+.gate-box { text-align: center; }
+.gate-label { font-size: 0.78em; color: #666; margin-top: 0.3rem; }
+
+/* timeline */
+.timeline { position: relative; padding-left: 2rem; margin: 1rem 0; }
+.timeline::before { content: ''; position: absolute; left: 0.55rem; top: 0; bottom: 0; width: 2px; background: #e0e0e0; }
+.tl-item { position: relative; margin-bottom: 1.2rem; }
+.tl-dot { position: absolute; left: -1.5rem; top: 0.3rem; width: 11px; height: 11px; border-radius: 50%; background: #1a56c4; border: 2px solid #fff; box-shadow: 0 0 0 2px #1a56c4; }
+.tl-year { font-weight: bold; font-size: 0.78em; color: #1a56c4; letter-spacing: 0.06em; font-family: sans-serif; }
+.tl-title { font-weight: bold; font-size: 0.95em; }
+.tl-body { font-size: 0.88em; color: #555; margin-top: 0.15rem; }
+
+canvas { display: block; max-width: 100%; }
+</style>
+
+<d-title>
+  <h1>The Birth of Neural Networks</h1>
+  <p>From the mind–body problem to backpropagation — a history in seven moves.</p>
+</d-title>
+
+<d-byline></d-byline>
+
+<d-article>
+
+<d-abstract>
+  <p>Mental phenomena can be described by interconnected networks of simple and often uniform units. This article traces how that idea emerged — from Cajal's neurons and Russell's logic, through the Perceptron and the AI Winter, to backpropagation and deep learning — treating each breakthrough as the answer to a question left open by the one before it.</p>
+</d-abstract>
+
+
+<h2>The Problem That Started Everything</h2>
+
+<p>Before there were neural networks, there was a scandal: <strong>the mind existed, and nobody could explain it.</strong></p>
+
+<p>For centuries, the dominant view was <strong>dualism</strong> — mind and body are made of different stuff. Descartes put the soul in the pineal gland and moved on. Nobody had a better answer.</p>
+
+<p>Then three separate fields converged on the same problem from different directions:</p>
+
+<ul>
+  <li><strong>The Biologist's piece:</strong> Cajal established the brain was discrete individual cells — neurons — each separated by a tiny gap (the synapse). But how does a series of electrical sparks become a thought?</li>
+  <li><strong>The Logician's piece:</strong> Whitehead and Russell proved all mathematics could be built from three logical primitives: <strong>AND, OR, NOT</strong>.</li>
+  <li><strong>The Collision:</strong> Walter Pitts saw what nobody had connected: <em>if logic can represent mathematics, and neurons can represent logic — then neurons can represent everything.</em> The mind wasn't separate from the body — it was the body's wiring diagram.</li>
+</ul>
+
+<p>This was the generative insight. Everything else is a consequence.</p>
+
+
+<h2>1943 — McCulloch &amp; Pitts: The Brain as Logic Machine</h2>
+
+<p>Warren McCulloch and Walter Pitts formalized the collision in "A Logical Calculus of Ideas Immanent in Nervous Activity." Their core claim: <strong>a neuron "realizes" a logical sentence if its firing pattern (On/Off) matches the True/False values of that sentence.</strong></p>
+
+<h3>The Idealization</h3>
+
+<p>Real neurons are messy: graded potentials, variable thresholds, continuous time, chemical soup. McCulloch and Pitts made a deliberate sacrifice: strip the neuron to a <strong>binary abstraction</strong>. Fire or don't fire. One or zero.</p>
+
+<p><em>Why was this the right trade?</em> Binary firing = Boolean algebra. Boolean algebra can express any finite logical statement. What you lose: biological realism. What you gain: mathematical power.<d-footnote>Boole published <em>Laws of Thought</em> in 1854. Russell and Whitehead built on it directly in <em>Principia Mathematica</em> (1910–13).</d-footnote></p>
+
+<h3>The Idealized Neuron</h3>
+
+<figure class="demo-panel">
+<svg width="520" height="160" viewBox="0 0 520 160" style="display:block;margin:0 auto;max-width:100%">
+  <line x1="30" y1="55"  x2="162" y2="78"  stroke="#888" stroke-width="1.5"/>
+  <line x1="30" y1="80"  x2="162" y2="80"  stroke="#888" stroke-width="1.5"/>
+  <line x1="30" y1="105" x2="162" y2="82"  stroke="#888" stroke-width="1.5"/>
+  <line x1="30" y1="130" x2="162" y2="94"  stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <circle cx="30" cy="55"  r="14" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="30" cy="80"  r="14" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="30" cy="105" r="14" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="30" cy="130" r="14" fill="#fdecea" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="30" y="55"  text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif">x₁</text>
+  <text x="30" y="80"  text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif">x₂</text>
+  <text x="30" y="105" text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif">x₃</text>
+  <text x="30" y="130" text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif" fill="#c0392b">inh</text>
+  <text x="84" y="60"  font-size="10" font-family="sans-serif" fill="#777">w₁</text>
+  <text x="84" y="79"  font-size="10" font-family="sans-serif" fill="#777">w₂</text>
+  <text x="84" y="97"  font-size="10" font-family="sans-serif" fill="#777">w₃</text>
+  <text x="84" y="114" font-size="10" font-family="sans-serif" fill="#c0392b">−</text>
+  <circle cx="200" cy="80" r="36" fill="#e8f0fb" stroke="#4a90d9" stroke-width="2"/>
+  <text x="200" y="75" text-anchor="middle" font-size="12" font-family="sans-serif" fill="#333">Σ ≥ θ</text>
+  <text x="200" y="91" text-anchor="middle" font-size="10" font-family="sans-serif" fill="#888">(threshold)</text>
+  <line x1="236" y1="80" x2="340" y2="80" stroke="#888" stroke-width="1.5"/>
+  <polygon points="340,75 353,80 340,85" fill="#888"/>
+  <circle cx="385" cy="80" r="26" fill="#eafaf1" stroke="#27ae60" stroke-width="2"/>
+  <text x="385" y="80" text-anchor="middle" dominant-baseline="middle" font-size="13" font-family="sans-serif" fill="#27ae60">0/1</text>
+  <text x="248" y="66" font-size="10" font-family="sans-serif" fill="#666">fires if</text>
+  <text x="248" y="79" font-size="10" font-family="sans-serif" fill="#666">Σ ≥ θ and</text>
+  <text x="248" y="92" font-size="10" font-family="sans-serif" fill="#666">not inhibited</text>
+</svg>
+<figcaption>The McCulloch–Pitts neuron. Excitatory inputs (blue) sum; if the total meets threshold θ and no inhibitory input (red dashed) fires, the neuron outputs 1.</figcaption>
+</figure>
+
+<h3>Building Logic from Neurons</h3>
+
+<p>Specific wiring arrangements implement each logical gate:</p>
+
+<div class="gate-row">
+<div class="gate-box">
+<svg width="160" height="110" style="display:block;margin:0 auto">
+  <line x1="20" y1="40" x2="76" y2="54" stroke="#888" stroke-width="1.5"/>
+  <line x1="20" y1="68" x2="76" y2="54" stroke="#888" stroke-width="1.5"/>
+  <circle cx="20" cy="40" r="12" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="20" cy="68" r="12" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="20" y="40" text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif">A</text>
+  <text x="20" y="68" text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif">B</text>
+  <circle cx="100" cy="54" r="26" fill="#e8f0fb" stroke="#4a90d9" stroke-width="2"/>
+  <text x="100" y="50" text-anchor="middle" font-size="11" font-family="sans-serif">θ = 1</text>
+  <text x="100" y="63" text-anchor="middle" font-size="9" font-family="sans-serif" fill="#888">any fires</text>
+  <line x1="126" y1="54" x2="148" y2="54" stroke="#888" stroke-width="1.5"/>
+  <polygon points="148,49 156,54 148,59" fill="#888"/>
+</svg>
+<div class="gate-label"><strong>OR</strong><br>threshold = 1</div>
+</div>
+<div class="gate-box">
+<svg width="160" height="110" style="display:block;margin:0 auto">
+  <line x1="20" y1="40" x2="76" y2="54" stroke="#888" stroke-width="1.5"/>
+  <line x1="20" y1="68" x2="76" y2="54" stroke="#888" stroke-width="1.5"/>
+  <circle cx="20" cy="40" r="12" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="20" cy="68" r="12" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="20" y="40" text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif">A</text>
+  <text x="20" y="68" text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif">B</text>
+  <circle cx="100" cy="54" r="26" fill="#e8f0fb" stroke="#4a90d9" stroke-width="2"/>
+  <text x="100" y="50" text-anchor="middle" font-size="11" font-family="sans-serif">θ = 2</text>
+  <text x="100" y="63" text-anchor="middle" font-size="9" font-family="sans-serif" fill="#888">both fire</text>
+  <line x1="126" y1="54" x2="148" y2="54" stroke="#888" stroke-width="1.5"/>
+  <polygon points="148,49 156,54 148,59" fill="#888"/>
+</svg>
+<div class="gate-label"><strong>AND</strong><br>threshold = 2</div>
+</div>
+<div class="gate-box">
+<svg width="160" height="110" style="display:block;margin:0 auto">
+  <line x1="20" y1="54" x2="74" y2="54" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <circle cx="20" cy="54" r="12" fill="#fdecea" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="20" y="54" text-anchor="middle" dominant-baseline="middle" font-size="11" font-family="sans-serif" fill="#c0392b">A</text>
+  <circle cx="100" cy="54" r="26" fill="#fdecea" stroke="#c0392b" stroke-width="2"/>
+  <text x="100" y="50" text-anchor="middle" font-size="11" font-family="sans-serif">inhibit</text>
+  <text x="100" y="63" text-anchor="middle" font-size="9" font-family="sans-serif" fill="#c0392b">silences</text>
+  <line x1="126" y1="54" x2="148" y2="54" stroke="#888" stroke-width="1.5"/>
+  <polygon points="148,49 156,54 148,59" fill="#888"/>
+</svg>
+<div class="gate-label"><strong>NOT</strong><br>inhibitory input</div>
+</div>
+</div>
+
+<p>Since AND + OR + NOT can express any logical statement (<em>Principia Mathematica</em>), a network of neurons can compute <strong>anything a Turing machine can compute</strong>. The geometry of connections <em>is</em> the software.</p>
+
+<p><strong>What M-P left unexplored:</strong> the connections were hand-wired. There was no learning. <em>Can the connections be learned from experience?</em></p>
+
+
+<h2>1949 — Hebb: The First Learning Rule</h2>
+
+<p>Donald Hebb proposed a simple principle:</p>
+
+<blockquote><strong>"Neurons that fire together, wire together."</strong></blockquote>
+
+<p>Formally: <d-math>\Delta w_{ij} \propto x_i \cdot x_j</d-math></p>
+
+<figure class="demo-panel">
+<svg width="420" height="110" viewBox="0 0 420 110" style="display:block;margin:0 auto;max-width:100%">
+  <circle cx="70"  cy="54" r="20" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="160" cy="54" r="20" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="90" y1="54" x2="140" y2="54" stroke="#ccc" stroke-width="3"/>
+  <text x="115" y="44" font-size="9" fill="#aaa" text-anchor="middle" font-family="sans-serif">weak</text>
+  <text x="70"  y="54" text-anchor="middle" dominant-baseline="middle" font-size="12" font-family="sans-serif">A</text>
+  <text x="160" y="54" text-anchor="middle" dominant-baseline="middle" font-size="12" font-family="sans-serif">B</text>
+  <text x="115" y="90" text-anchor="middle" font-size="10" fill="#aaa" font-family="sans-serif">Before</text>
+  <text x="205" y="58" font-size="22" fill="#4a90d9" font-family="sans-serif">→</text>
+  <circle cx="260" cy="54" r="20" fill="#d4e8ff" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="350" cy="54" r="20" fill="#d4e8ff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="280" y1="54" x2="330" y2="54" stroke="#4a90d9" stroke-width="4.5"/>
+  <text x="305" y="44" font-size="9" fill="#4a90d9" text-anchor="middle" font-family="sans-serif">strong</text>
+  <text x="260" y="54" text-anchor="middle" dominant-baseline="middle" font-size="12" font-family="sans-serif">A</text>
+  <text x="350" y="54" text-anchor="middle" dominant-baseline="middle" font-size="12" font-family="sans-serif">B</text>
+  <text x="305" y="90" text-anchor="middle" font-size="10" fill="#4a90d9" font-family="sans-serif">After co-activation</text>
+</svg>
+<figcaption>Hebbian learning: the synapse A→B strengthens when both neurons fire simultaneously.</figcaption>
+</figure>
+
+<p><strong>The crack in the foundation:</strong> Hebb's rule has no error signal. It adjusts based on <em>what fires together</em>, not <em>whether the network was right</em>. It can build associations but cannot correct itself.</p>
+
+
+<h2>1958 — Rosenblatt: The Perceptron Learns</h2>
+
+<p>Rosenblatt introduced one revolutionary addition: <strong>variable weights</strong> that update based on mistakes.</p>
+
+<h3>The Geometry of a Weight</h3>
+
+<p>Think of each input as a dimension. Two inputs → each example is a point in 2D space. The weights define a <strong>line</strong> — a knife cutting the plane in two. <strong>Learning = rotating that knife until it correctly separates all the data.</strong></p>
+
+<p>The bias term <d-math>b</d-math> lets the boundary slide freely anywhere in the plane. The full computation: <d-math>w \cdot x + b \geq 0</d-math>.</p>
+
+<figure class="demo-panel">
+  <canvas id="perc-canvas" width="520" height="300" style="border:1px solid #eee;border-radius:3px;width:100%"></canvas>
+  <div class="ctrl-row" style="margin-top:0.5rem">
+    <label>Epoch <input type="range" id="epoch-slider" min="0" max="30" value="0"> <span class="ctrl-val" id="epoch-val">0</span></label>
+    <button class="nn-btn" id="btn-animate">▶ Animate</button>
+    <button class="nn-btn" id="btn-reset" style="background:#888">Reset</button>
+  </div>
+  <div class="caption">Drag the slider or press Animate. Watch the decision boundary rotate toward the correct separation. Blue = class 1, orange = class 0.</div>
+</figure>
+
+<p>The update rule:</p>
+<d-math block>w_{i}^{\text{new}} = w_{i}^{\text{old}} + \alpha\,(y - \hat{y})\,x_i \qquad b^{\text{new}} = b^{\text{old}} + \alpha\,(y - \hat{y})</d-math>
+
+<p>When the perceptron is right, <d-math>(y-\hat{y})=0</d-math> and nothing changes. When wrong, the weights shift in proportion to the input that caused the mistake.</p>
+
+<h3>The Convergence Theorem</h3>
+
+<p>Rosenblatt proved: if a separating solution exists, the algorithm will find it in finite steps.<d-footnote>The proof uses the Cauchy–Schwarz inequality. Two quantities compete: alignment with the ideal weights grows linearly with mistakes, while the norm grows as √mistakes — so the cosine of the angle between them must eventually reach 1.</d-footnote></p>
+
+<p><strong>What Rosenblatt left unexplored:</strong> the linearity constraint. The knife can only be a straight line. What if no straight line separates the data?</p>
+
+
+<h2>1969 — Minsky &amp; Papert: The Crisis</h2>
+
+<p>Minsky and Papert proved: <strong>a single-layer perceptron can only solve linearly separable problems.</strong></p>
+
+<p>The diagnostic case is <strong>XOR</strong> — output 1 when inputs differ, 0 when they match:</p>
+
+<figure class="demo-panel" style="display:flex;gap:2rem;align-items:flex-start;flex-wrap:wrap">
+<div style="flex:0 0 auto">
+<table style="font-size:0.9em;border-collapse:collapse">
+<thead><tr><th style="padding:4px 10px;border:1px solid #ddd">x₁</th><th style="padding:4px 10px;border:1px solid #ddd">x₂</th><th style="padding:4px 10px;border:1px solid #ddd">XOR</th></tr></thead>
+<tbody>
+<tr><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">0</td><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">0</td><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">0</td></tr>
+<tr><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">0</td><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">1</td><td style="padding:4px 10px;border:1px solid #ddd;text-align:center;color:#1a56c4;font-weight:bold">1</td></tr>
+<tr><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">1</td><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">0</td><td style="padding:4px 10px;border:1px solid #ddd;text-align:center;color:#1a56c4;font-weight:bold">1</td></tr>
+<tr><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">1</td><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">1</td><td style="padding:4px 10px;border:1px solid #ddd;text-align:center">0</td></tr>
+</tbody>
+</table>
+</div>
+<div style="flex:1;min-width:180px">
+<svg width="200" height="200" viewBox="0 0 200 200" style="display:block">
+  <line x1="30" y1="170" x2="185" y2="170" stroke="#ccc" stroke-width="1"/>
+  <line x1="30" y1="170" x2="30"  y2="15"  stroke="#ccc" stroke-width="1"/>
+  <text x="188" y="173" font-size="10" fill="#aaa" font-family="sans-serif">x₁</text>
+  <text x="25"  y="13"  font-size="10" fill="#aaa" font-family="sans-serif">x₂</text>
+  <circle cx="60"  cy="140" r="11" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <circle cx="155" cy="50"  r="11" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5"/>
+  <circle cx="60"  cy="50"  r="11" fill="#4a90d9" stroke="#2a6cb0" stroke-width="1.5"/>
+  <circle cx="155" cy="140" r="11" fill="#4a90d9" stroke="#2a6cb0" stroke-width="1.5"/>
+  <text x="60"  y="140" text-anchor="middle" dominant-baseline="middle" font-size="8" font-family="sans-serif" fill="#666">(0,0)</text>
+  <text x="60"  y="50"  text-anchor="middle" dominant-baseline="middle" font-size="8" font-family="sans-serif" fill="#fff">(0,1)</text>
+  <text x="155" y="140" text-anchor="middle" dominant-baseline="middle" font-size="8" font-family="sans-serif" fill="#fff">(1,0)</text>
+  <text x="155" y="50"  text-anchor="middle" dominant-baseline="middle" font-size="8" font-family="sans-serif" fill="#666">(1,1)</text>
+  <line x1="30" y1="170" x2="185" y2="15" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="6,3" opacity=".5"/>
+  <line x1="30" y1="15"  x2="185" y2="170" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="6,3" opacity=".5"/>
+  <text x="100" y="192" text-anchor="middle" font-size="9" fill="#c0392b" font-family="sans-serif">No line separates ● from ○</text>
+</svg>
+</div>
+<div class="caption" style="width:100%">The two 1s sit at diagonally opposite corners. No straight line can separate blue from grey — not hard, <em>geometrically impossible</em>. This killed funding. The AI Winter began.</div>
+</figure>
+
+<p>The crucial distinction: M-P proved you <em>can</em> build XOR with a hand-wired multi-layer circuit. Minsky &amp; Papert proved a single-layer network <em>cannot learn</em> the weights for XOR. Multi-layer networks could <strong>represent</strong> anything — but nobody knew how to <strong>train</strong> them. This is the <strong>credit assignment problem</strong>: how do you propagate error backward through hidden layers?</p>
+
+
+<h2>The Hidden Layer Insight</h2>
+
+<p>The solution was geometrically obvious once seen: <strong>if one layer can only draw straight lines, multiple layers can warp the space itself</strong> before drawing the final line.</p>
+
+<figure class="demo-panel">
+  <canvas id="xor-canvas" width="520" height="220" style="width:100%"></canvas>
+  <div class="caption">Left: XOR is not linearly separable in input space. Right: after a hidden layer transforms the space, the same four points <em>are</em> linearly separable. Each layer learns a new representation until the final cut is easy.</div>
+</figure>
+
+
+<h2>The Three Breakthroughs of the 1980s</h2>
+
+<h3>A. Backpropagation</h3>
+
+<p>Training is finding the lowest valley in a loss landscape. Gradient descent measures the local slope and steps downhill. The challenge: how do you compute the gradient when weights are buried inside many composed functions?</p>
+
+<p>The chain rule decomposes the gradient layer by layer:</p>
+
+<d-math block>\frac{\partial L}{\partial w} = \frac{\partial L}{\partial \hat{y}} \cdot \frac{\partial \hat{y}}{\partial h} \cdot \frac{\partial h}{\partial w}</d-math>
+
+<p>Each term is a local derivative — easy to compute at each layer. The <strong>backward pass</strong> multiplies them together. Error flows backward, assigning proportional blame to every weight. This wasn't a trick: given the compositional structure of a neural network, the chain rule is the only tool that decomposes the gradient correctly.</p>
+
+<h3>B. Non-Linear Activation Functions</h3>
+
+<p>Stack linear layers and you still have one big matrix: <d-math>W_2(W_1 x) = (W_2 W_1)x</d-math>. Non-linearity introduces kinks that let the network learn curves and complex boundaries:</p>
+
+<figure class="demo-panel">
+  <canvas id="act-canvas" width="520" height="200" style="width:100%"></canvas>
+  <div class="ctrl-row" style="margin-top:0.5rem">
+    <button class="nn-btn" id="btn-sigmoid">Sigmoid</button>
+    <button class="nn-btn" id="btn-relu" style="background:#27ae60">ReLU</button>
+    <button class="nn-btn" id="btn-tanh" style="background:#e67e22">Tanh</button>
+  </div>
+  <div class="caption">Function (solid) and derivative (dashed). The derivative is what flows backward as gradient. Notice how ReLU's derivative is exactly 1 for positive inputs — no shrinkage.</div>
+</figure>
+
+<h3>C. The Vanishing Gradient — Why the 25-Year Gap</h3>
+
+<p>Sigmoid's derivative peaks at <strong>0.25</strong>. Chain-multiply through 10 layers:</p>
+
+<d-math block>0.25^{10} \approx 10^{-6}</d-math>
+
+<p>Early layers receive nearly zero gradient and don't learn. Three fixes:<d-footnote>Hochreiter identified the vanishing gradient problem in his 1991 diploma thesis — years before the hardware and architectural fixes arrived.</d-footnote></p>
+
+<table>
+<thead><tr><th>Problem</th><th>Fix</th><th>Mechanism</th></tr></thead>
+<tbody>
+<tr><td>Shrinking gradients</td><td><strong>ReLU</strong></td><td>Derivative = 1 for positive inputs</td></tr>
+<tr><td>Unhealthy activations</td><td><strong>Batch Norm</strong></td><td>Re-centers each layer</td></tr>
+<tr><td>Deep gradient death</td><td><strong>Residual connections</strong></td><td>Skip-connections bypass the chain</td></tr>
+</tbody>
+</table>
+
+
+<h2>Universal Approximation</h2>
+
+<p><strong>A neural network with one hidden layer and enough neurons can approximate any continuous function to arbitrary precision.</strong><d-footnote>Proved independently by Cybenko (1989) for sigmoid activations and Hornik (1991) for general non-polynomial activations.</d-footnote></p>
+
+<p>The representational question is settled. But notice what this does <em>not</em> guarantee: how <em>big</em> the network needs to be; that you can <em>learn</em> the right weights; or that it will <em>generalize</em>. These three gaps — efficiency, learnability, generalization — are what the entire subsequent history of ML is working to close.</p>
+
+
+<h2>History as a Tree of Open Questions</h2>
+
+<div class="timeline">
+  <div class="tl-item"><div class="tl-dot"></div>
+    <div class="tl-year">1943</div>
+    <div class="tl-title">McCulloch &amp; Pitts</div>
+    <div class="tl-body">Neurons can represent logic. <em>Left open:</em> connections must be hand-wired — can they be learned?</div>
+  </div>
+  <div class="tl-item"><div class="tl-dot"></div>
+    <div class="tl-year">1949</div>
+    <div class="tl-title">Hebb</div>
+    <div class="tl-body">Connections strengthen through co-activation. <em>Left open:</em> no error signal — can't do supervised correction.</div>
+  </div>
+  <div class="tl-item"><div class="tl-dot"></div>
+    <div class="tl-year">1958</div>
+    <div class="tl-title">Rosenblatt</div>
+    <div class="tl-body">Single-layer networks learn from mistakes. <em>Left open:</em> only linearly separable data; can't train hidden layers.</div>
+  </div>
+  <div class="tl-item"><div class="tl-dot"></div>
+    <div class="tl-year">1969</div>
+    <div class="tl-title">Minsky &amp; Papert</div>
+    <div class="tl-body">Precisely bounded single-layer expressiveness. <em>Left open:</em> multi-layer training unsolved. AI Winter begins.</div>
+  </div>
+  <div class="tl-item"><div class="tl-dot"></div>
+    <div class="tl-year">1986</div>
+    <div class="tl-title">Rumelhart, Hinton &amp; Williams</div>
+    <div class="tl-body">Backprop solves multi-layer training. <em>Left open:</em> vanishing gradients block deep networks.</div>
+  </div>
+  <div class="tl-item"><div class="tl-dot"></div>
+    <div class="tl-year">1989–98</div>
+    <div class="tl-title">LeCun — CNNs</div>
+    <div class="tl-body">Weight sharing + spatial filters for vision. <em>Left open:</em> limited by compute and data.</div>
+  </div>
+  <div class="tl-item"><div class="tl-dot"></div>
+    <div class="tl-year">2012</div>
+    <div class="tl-title">AlexNet / GPU Revolution</div>
+    <div class="tl-body">Scale unlocks everything. <em>Left open:</em> why do deeper networks generalize? (still open)</div>
+  </div>
+</div>
+
+<p>Each "left open" is where the next decade's work came from.</p>
+
+
+<h2>The Why-Regress</h2>
+
+<p><em>Why do neural networks work?</em> → Universal Approximation: they can represent any function.</p>
+<p><em>Why can they represent any function?</em> → Non-linearity lets them warp space; depth lets them compose transformations.</p>
+<p><em>Why does warping space help?</em> → Any classification is a geometry question. Transform the space until the classes are linearly separable, then a single cut solves it.</p>
+<p><em>Why is linear separability the right primitive?</em> → Because it's what a single threshold unit can compute. The whole architecture is built to make the final cut easy.</p>
+<p><em>Why does data have structure a network can exploit?</em> → <strong>The world has regularities.</strong> Without regularity, no learning algorithm works. Neural networks are machines for extracting and encoding that structure.</p>
+
+</d-article>
+
+<d-appendix>
+  <d-footnote-list></d-footnote-list>
+  <d-citation-list></d-citation-list>
+</d-appendix>
+
+<script src="/js/nn-history.js"></script>
+<script>
+// resize canvases to container width on load and resize
+(function() {
+  function resizeCanvas(id) {
+    var c = document.getElementById(id);
+    if (!c) return;
+    var w = c.parentElement.clientWidth - 48;
+    if (w > 0) c.width = w;
+  }
+  function resizeAll() {
+    resizeCanvas('perc-canvas');
+    resizeCanvas('xor-canvas');
+    resizeCanvas('act-canvas');
+  }
+  window.addEventListener('load', resizeAll);
+  window.addEventListener('resize', resizeAll);
+})();
+</script>

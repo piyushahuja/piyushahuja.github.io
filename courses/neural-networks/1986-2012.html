@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+   <meta http-equiv="content-type" content="text/html"; charset= "utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Some passably good ideas">
+    <meta name ="author" content="Piyush Ahuja">
+
+    
+    
+    <title>Neural Networks: Backpropagation and the Long Climb Back</title>
+  <!--    -->
+    <link rel="canonical" href="https://piyushahuja.com/courses/neural-networks/1986-2012">  
+
+    <link rel="stylesheet" href="/css/main-new.css" media="screen and (max-width: 479px)">
+
+    <!-- Desktop styles -->
+    <link rel="stylesheet" href="/css/screen.css" media="screen and (min-width: 480px)">
+
+   
+
+
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    
+    <link rel="stylesheet" href="/css/distill.css">
+    
+
+    
+
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$'], ['\\[','\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+   
+</head>
+
+
+
+
+
+  
+  <body id = "">
+
+  <div id = "site">
+
+  <div class="d-title">
+  <h1>Neural Networks: Backpropagation and the Long Climb Back</h1>
+  <p class="d-subtitle">How the chain rule solved credit assignment, why depth still failed, and what kept the field alive through a second winter.</p>
+</div>
+
+<hr class="d-title-rule">
+
+<div class="d-byline">
+  <div class="d-byline-inner">
+    <div class="d-byline-col">
+      <span class="d-byline-label">Author</span>
+      <span class="d-byline-value">Piyush Ahuja</span>
+    </div>
+    <div class="d-byline-col">
+      <span class="d-byline-label">Published</span>
+      <span class="d-byline-value">Mar 24, 2019</span>
+    </div>
+  </div>
+</div>
+
+<div class="d-article-grid">
+
+  <nav class="d-contents" id="d-toc">
+    <h4>Contents</h4>
+    <ul id="toc-list"></ul>
+  </nav>
+
+  <article class="d-article">
+    <blockquote>
+  <p>The hidden layer insight: if one layer can only draw straight lines, multiple layers can warp the space itself.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="the-ideas-in-conflict">The Ideas in Conflict</h2>
+
+<p>The AI Winter didn’t freeze everyone equally. By the early 1980s, <strong>expert systems</strong> were the dominant paradigm — commercially deployed, DARPA-funded, institutionally respectable. The approach: hire a domain expert, interview them exhaustively, encode their knowledge as explicit IF-THEN rules, run an inference engine over them. XCON, deployed at Digital Equipment Corporation in 1982, was saving the company $40M a year.<sup id="fnref:expertsystems"><a href="#fn:expertsystems" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<p>The competing ideas were:</p>
+
+<ul>
+  <li><strong>Connectionism</strong> — the underground view that intelligence emerges from learning, not from hand-crafted rules. The PDP (Parallel Distributed Processing) group at UCSD — Rumelhart,<span class="sidenote">David Rumelhart, first author of the 1986 backprop paper, developed Pick’s disease (frontotemporal dementia) in the mid-1990s and retired in 1998 unable to work. He died in 2011, unable to speak or write for his last decade. The Rumelhart Prize — the field’s highest honour, named after him — was first awarded in 2001 to Hinton. Rumelhart was already incapacitated. He died one year before AlexNet.</span> McClelland, Hinton<span class="sidenote">Hinton moved to Toronto in 1987 partly on principle: he refused DARPA funding with defence applications. He stayed 25 years. His students — LeCun, Sutskever, Krizhevsky — built the modern field. The principled retreat that looked like obscurity was the founding of an intellectual dynasty.</span> — were its intellectual centre. Their 1986 two-volume manifesto <em>Parallel Distributed Processing</em> was a declaration of war.</li>
+  <li><strong>Statistics</strong> — a separate discipline entirely. Statisticians had logistic regression, linear discriminant analysis, and maximum likelihood. They considered neural networks unprincipled black boxes with no theoretical guarantees.</li>
+  <li><strong>Control theory</strong> — Widrow and Hoff’s ADALINE (1960) had used gradient descent on single-layer networks. The mathematics was there; nobody had extended it to multiple layers.</li>
+</ul>
+
+<p>The question that separated these camps: <strong>does intelligence come from knowledge representation, or from learning?</strong> Expert systems said: encode what you know. Connectionists said: learn it from data.</p>
+
+<p>The expert systems camp had funding, prestige, and commercial success. The connectionists had a better idea.</p>
+
+<hr />
+
+<h2 id="1986--backpropagation-the-chain-rule-as-credit-assignment">1986 — Backpropagation: The Chain Rule as Credit Assignment</h2>
+
+<p>The problem Minsky left open in 1969 was <strong>credit assignment</strong>: given an error at the output, how do you apportion blame to hidden units deep in the network? A hidden unit’s error isn’t directly observable — you only see the final output. How does the signal get back?</p>
+
+<h3 id="the-ideas-rosenblatt-was-working-against-redux">The Ideas Rosenblatt Was Working Against (Redux)</h3>
+
+<p>The block wasn’t mathematical difficulty. The chain rule is 200 years old. The block was conceptual:</p>
+
+<ul>
+  <li>Nobody believed multi-layer networks were worth training. Minsky’s verdict had poisoned the well.</li>
+  <li>Credit assignment seemed to require <strong>global coordination</strong> — some central controller surveying the whole network, deciding who was responsible. Local units computing their own blame seemed circular.</li>
+</ul>
+
+<p>The insight that broke the impasse: <strong>the architecture is a composition of functions.</strong> Each layer applies a function to the previous layer’s output. The derivative of a composition is — by the chain rule — a product of local derivatives. Each unit only needs to know its own local gradient and the gradient flowing in from the layer above.</p>
+
+\[\frac{\partial L}{\partial w} = \frac{\partial L}{\partial \hat{y}} \cdot \frac{\partial \hat{y}}{\partial h} \cdot \frac{\partial h}{\partial w}\]
+
+<p>No global coordination required. The forward pass computes activations layer by layer; the backward pass computes gradients layer by layer, in reverse. The error <em>flows backward</em> through the same structure the activations flowed forward through.</p>
+
+<p>This wasn’t a trick. It was the only tool that correctly decomposes the gradient given the compositional structure. The architecture already contained the solution. The same structure that made credit assignment seem impossible made it uniquely tractable.<sup id="fnref:backprop"><a href="#fn:backprop" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> <span class="sidenote">What led Werbos to backprop in 1974 was Freud, not control theory — he was trying to mathematise Freud’s idea of backward credit flow through a psychic system. His Harvard committee called it “crazy, megalomaniac, nutzoid.” He survived by secretly embedding the algorithm inside a political science thesis, eating soybean soup in a Roxbury slum to conserve money. He couldn’t publish it cleanly for eight more years. Sources: <a href="https://gwern.net/doc/ai/nn/1974-werbos.pdf">thesis</a>, <a href="https://gwern.net/doc/ai/nn/rnn/1998-werbos.pdf">1993 interview</a>.</span></p>
+
+<div class="demo-link">⚡ <span class="demo-label">Build it from scratch:</span> <a href="https://www.youtube.com/watch?v=VMj-3S1tku0" target="_blank">Karpathy's micrograd (2.5hr)</a> — implement backprop yourself in pure Python, from a single neuron up to a full computational graph with automatic differentiation.</div>
+
+<h3 id="the-computational-graph">The Computational Graph</h3>
+
+<p>Backprop is most clearly understood on a computational graph — a directed acyclic graph where each node is an operation and edges carry values (forward) or gradients (backward).</p>
+
+<figure class="d-figure">
+<div id="backprop-graph-viz"></div>
+<figcaption><strong>A computational graph for a two-layer network.</strong> Use the buttons to step through: forward pass (green) computes values left to right; backward pass (red) computes gradients right to left. Each node multiplies incoming gradient by its local derivative.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">Step through it:</span> <a href="https://sajalsharma.com/backprop-visualization/" target="_blank">Backprop Visualization</a> — a concrete computation graph (step 1/4 … 4/4) showing exact forward values and chain-rule gradients at each node. Also: <a href="https://colah.github.io/posts/2015-08-Backprop/" target="_blank">Colah's Calculus on Computational Graphs</a> — the clearest diagram-level explanation.</div>
+
+<div class="demo-link">⚡ <span class="demo-label">Step through it:</span> <a href="https://xnought.github.io/backprop-explainer/" target="_blank">Backprop Explainer (VISxAI 2021)</a> — interactive computational graph, step forward and backward, inspect every gradient.</div>
+
+<h3 id="gradient-descent-on-a-loss-surface">Gradient Descent on a Loss Surface</h3>
+
+<p>Training is finding the lowest valley in a loss landscape. <strong>Gradient descent</strong> says: measure the local slope, take a small step downhill, repeat.</p>
+
+<figure class="d-figure">
+<div id="gd-viz"></div>
+<div class="slider-row" style="margin-top:.75rem;">
+  <span style="font-size:.82rem;font-family:sans-serif;width:7rem;">Learning rate α</span>
+  <input type="range" id="gd-lr" min="1" max="100" value="20" step="1" />
+  <span class="slider-val" id="gd-lr-val">0.20</span>
+</div>
+<div class="slider-row">
+  <span style="font-size:.82rem;font-family:sans-serif;width:7rem;">Momentum β</span>
+  <input type="range" id="gd-mom" min="0" max="98" value="0" step="1" />
+  <span class="slider-val" id="gd-mom-val">0.00</span>
+</div>
+<figcaption><strong>Gradient descent on a loss surface.</strong> Drag to change learning rate and momentum. High α → overshooting. Momentum → faster convergence through ravines.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">SGD vs Momentum vs Adam:</span> <a href="https://observablehq.com/@emiliendupont/visualizing-optimization-algorithms-in-deep-learning" target="_blank">Observable: Optimizer Trajectories</a> — click anywhere on a 2D contour to set start; watch SGD, Momentum, RMSProp, and Adam race to the minimum. Also: <a href="https://distill.pub/2017/momentum/" target="_blank">Why Momentum Really Works (Distill)</a> — the richest article on this topic, with interactive phase diagrams and parameter-space heatmaps.</div>
+
+<div class="demo-link">⚡ <span class="demo-label">3D loss landscape:</span> <a href="https://www.telesens.co/loss-landscape-viz/viewer.html" target="_blank">Loss Landscape Viewer</a> — rotate and zoom a WebGL loss surface for ResNet-20, ResNet-56, VGG-16, DenseNet-121. Compare sharp vs flat minima.</div>
+
+<hr />
+
+<h2 id="non-linear-activations-why-linear-layers-are-useless-stacked">Non-Linear Activations: Why Linear Layers Are Useless Stacked</h2>
+
+<p>If you stack linear layers: $W_2(W_1 x) = (W_2 W_1)x$ — still one big matrix. No matter how many layers, you are still cutting space with a single straight line. Depth without non-linearity collapses.</p>
+
+<p>Non-linearity introduces <strong>kinks</strong> that let the network learn curved, complex boundaries. Each activation breaks the linearity at that layer, so subsequent layers compose <em>genuinely different</em> transformations.</p>
+
+<figure class="d-figure">
+<canvas id="act-canvas" width="460" height="180" style="display:block;margin:0 auto;"></canvas>
+<div class="btn-row" style="margin-top:.4rem;">
+  <button class="nn-btn" id="btn-sigmoid">Sigmoid</button>
+  <button class="nn-btn" id="btn-relu">ReLU</button>
+  <button class="nn-btn" id="btn-tanh">Tanh</button>
+</div>
+<figcaption>Three activation functions (solid) with their derivatives (dashed). The derivative controls how strongly gradient signal passes backward through that unit. Click to switch.</figcaption>
+</figure>
+
+<p>The competing ideas about which non-linearity to use:</p>
+
+<ul>
+  <li><strong>Sigmoid</strong> (1986) — biologically motivated, smooth, bounded. Problem: derivative peaks at 0.25. This mattered enormously once networks went deep.</li>
+  <li><strong>Tanh</strong> (zero-centred sigmoid) — a small improvement. Same peak derivative problem.</li>
+  <li><strong>ReLU</strong> — <em>Rectified Linear Unit</em>, $\max(0, x)$. Known in neuroscience for decades (biological neurons are roughly ReLU-shaped). Nobody thought to use it in artificial networks until Glorot &amp; Bengio (2010) analysed why sigmoid was failing, and Nair &amp; Hinton (2010) showed ReLU worked better in practice.<sup id="fnref:relu"><a href="#fn:relu" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></li>
+</ul>
+
+<hr />
+
+<h2 id="the-vanishing-gradient-why-depth-still-failed">The Vanishing Gradient: Why Depth Still Failed</h2>
+
+<p>Backprop solved multi-layer <em>training</em>. It did not solve deep networks. The field discovered this the hard way through the late 1980s and 1990s.</p>
+
+<h3 id="the-problem">The Problem</h3>
+
+<p>Sigmoid’s derivative peaks at <strong>0.25</strong>. Chain-multiply through 10 layers:</p>
+
+\[0.25^{10} \approx 10^{-6}\]
+
+<p>Early layers receive nearly zero gradient. They don’t learn. The network is theoretically deep but effectively shallow — only the last few layers are actually training. The further back you go, the less information arrives.<span class="sidenote">Hochreiter proved this rigorously in his <a href="https://www.bioinf.jku.at/publications/older/2304.pdf">1991 diploma thesis</a> at TU Munich: for sigmoid activations, the gradient-scaling product along any path is provably less than 1, decaying exponentially with depth. Increasing weights makes it worse — as weights grow, f’ shrinks toward zero. The thesis was written in German, by an unknown student, and received almost no attention.</span></p>
+
+<figure class="d-figure">
+<div id="vanishing-grad-viz"></div>
+<figcaption><strong>Gradient magnitude per layer, sigmoid vs ReLU.</strong> With sigmoid, gradients shrink exponentially toward the input. With ReLU, gradient magnitude stays roughly constant — derivative is 1 for positive inputs, so no compounding decay.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">See gradient flow collapse:</span> <a href="https://dsgiitr.github.io/vanishing-gradients-demo/" target="_blank">Vanishing Gradients Demo</a> — choose sigmoid vs ReLU, set depth, train on Iris. Link colours and intensities show gradient magnitude per layer — blue positive, red negative. Watch early layers go dark with sigmoid. Also: <a href="https://playground.tensorflow.org/#activation=sigmoid&amp;batchSize=10&amp;dataset=spiral&amp;regDataset=reg-plane&amp;learningRate=0.03&amp;regularizationRate=0&amp;noise=0&amp;networkShape=8,8,8,8&amp;seed=0.72615&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;cosX=false&amp;sinX=false&amp;cosY=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=false" target="_blank">TensorFlow Playground</a> — 4 sigmoid layers on spiral → switch to ReLU and compare.</div>
+
+<h3 id="the-fixes">The Fixes</h3>
+
+<p>The fixes arrived over two decades from three separate communities:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Era</th>
+      <th>Problem</th>
+      <th>Fix</th>
+      <th>Why it works</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2010</td>
+      <td>Shrinking gradients</td>
+      <td><strong>ReLU</strong></td>
+      <td>Derivative = 1 for positive inputs — no compounding decay</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Internal covariate shift</td>
+      <td><strong>Batch Normalisation</strong></td>
+      <td>Re-centres and rescales activations at each layer; gradient flow stabilised</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Deep gradient death</td>
+      <td><strong>Residual connections</strong><sup id="fnref:residual"><a href="#fn:residual" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></td>
+      <td>Skip-connections route gradient directly to earlier layers, bypassing the chain entirely</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>None of these arrived together. ReLU required recognising sigmoid as the culprit. BatchNorm came from a Google team noticing training became unstable as depth increased. ResNets arose from an anomaly: adding more layers was <em>making performance worse</em>, not better — which shouldn’t happen if the extra layers could simply learn identity mappings.</p>
+
+<div class="demo-link">⚡ <span class="demo-label">Decision boundaries in real time:</span> <a href="https://playground.tensorflow.org/" target="_blank">TensorFlow Playground</a> — configure layers, activations, datasets. Watch the spiral dataset fail with sigmoid and succeed with ReLU + depth.</div>
+
+<p>The solution to vanishing gradients for <em>recurrent</em> networks came earlier and from a different direction. Hochreiter and Schmidhuber’s <a href="https://direct.mit.edu/neco/article/9/8/1735/6109/Long-Short-Term-Memory">LSTM (1997)</a> introduced the <strong>constant error carousel</strong> — a memory cell with an identity self-connection (weight 1.0), so the gradient neither grows nor shrinks as it circulates through time.<span class="sidenote">Hochreiter named it the “constant error carousel” because error signals could circulate indefinitely without decay. Gating units decide what enters and leaves the cell. The <a href="https://direct.mit.pub/neco/article/9/8/1735/6109">1997 paper</a> received ~15 citations/year for five years. It now has ~98,000 — one of the most cited papers in ML history.</span></p>
+
+<hr />
+
+<h2 id="universal-approximation">Universal Approximation</h2>
+
+<p><strong>A neural network with one hidden layer and enough neurons, using a non-linear activation, can approximate any continuous function to arbitrary precision.</strong><span class="sidenote">Proved independently by Cybenko (1989) for sigmoid activations and Hornik (1991) for general activations.</span></p>
+
+<p>The proof is constructive: each neuron carves out a “bump” in the input space. Stack enough bumps, you can approximate any shape.</p>
+
+<figure class="d-figure">
+<div id="uat-viz"></div>
+<figcaption><strong>Universal approximation in action.</strong> Each neuron contributes a scaled, shifted sigmoid bump. Their sum approximates the target function. More neurons = finer approximation.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">Build the intuition:</span> <a href="http://neuralnetworksanddeeplearning.com/chap4.html" target="_blank">Nielsen's Chapter 4</a> — drag weight and bias sliders on individual neurons and watch how their contributions sum to approximate any function. Also: <a href="https://arogozhnikov.github.io/3d_nn/" target="_blank">3D Neural Network (WebGL)</a> — single hidden layer, 8 tanh neurons, 3D spatial input; scroll to adjust weights and watch the learned surface reshape in GPU-rendered shaders.</div>
+
+<p>But notice what Universal Approximation does <em>not</em> guarantee:</p>
+
+<ul>
+  <li>How <em>large</em> the network needs to be (could be exponentially large)</li>
+  <li>That you can <em>learn</em> the right weights (existence ≠ findability)</li>
+  <li>That the network will <em>generalise</em> to new data</li>
+</ul>
+
+<p>These three gaps — efficiency, learnability, generalisation — define the open problems of the next 30 years.</p>
+
+<hr />
+
+<h2 id="19891998--lecun-and-cnns">1989–1998 — LeCun and CNNs</h2>
+
+<p>The vanishing gradient problem stalled deep <em>fully-connected</em> networks. But Yann LeCun found a different path: <strong>exploit the structure of the input domain</strong>.</p>
+
+<p>The competing approaches to vision in the late 1980s:</p>
+
+<ul>
+  <li>
+    <p><strong>Hand-crafted features</strong>  Computer vision researchers spent years designing features  based on their understanding of image structure — edge detectors, HOG descriptors, SIFT.  These features were engineered and then fed to a classifier. Learning was not part of the pipeline.</p>
+  </li>
+  <li>
+    <p><strong>Fully-connected networks</strong> — treat each pixel independently. An FC network must learn that a cat’s ear looks the same whether it appears top-left or centre-right, redundantly, for every position.</p>
+  </li>
+</ul>
+
+<p><strong>LeCun’s insight</strong>: natural images have <em>spatial structure</em>. Patterns that matter (edges, textures, shapes) appear at multiple locations. The same detector should work everywhere — <strong>share weights across positions</strong>.</p>
+
+<h3 id="the-insight">The Insight</h3>
+
+<p>A <strong>convolution</strong> is a filter that scans across the input, applying the same small set of weights at every position. One filter learns one kind of pattern (an edge, a curve, a texture) and finds it <em>wherever it appears</em>.</p>
+
+<p>This buys two things:</p>
+
+<ol>
+  <li><strong>Translation equivariance</strong> — if the pattern moves, the activation moves with it. The network doesn’t have to re-learn “cat ear in top-left” separately from “cat ear in centre.”</li>
+  <li><strong>Parameter efficiency</strong> — instead of a weight connecting every input pixel to every hidden unit ($784 \times 500 = 392{,}000$ parameters for a tiny MNIST network), a $5 \times 5$ filter has 25 parameters and applies them everywhere.</li>
+</ol>
+
+<p>Stack convolution layers and you get a hierarchy: the first layer learns edges, the second learns textures built from edges, the third learns shapes built from textures. Each layer abstracts over the layer before. <span class="sidenote">LeCun arrived at Bell Labs in 1988 after a postdoc under Hinton in Toronto. His account of weight-sharing is undramatic: “the logical thing to do.” The <a href="https://direct.mit.edu/neco/article/1/4/541/5515">1989 paper</a> explicitly cites Hubel and Wiesel’s 1962 discovery of oriented edge detectors in cat visual cortex. Those cells were hand-wired by evolution; LeCun’s could be learned end-to-end with backprop. That combination had not been made before.</span></p>
+
+<figure class="d-figure">
+<div id="conv-layer-viz"></div>
+<figcaption><strong>A convolutional layer.</strong> The filter slides across the input, computing a dot product at each position. The output (feature map) shows where the pattern the filter learned appears in the input. Multiple filters in the same layer detect multiple patterns in parallel.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">Inspect filters live:</span> <a href="https://poloclub.github.io/cnn-explainer/" target="_blank">CNN Explainer (Georgia Tech)</a> — runs a real CNN in the browser. Hover any neuron to see its receptive field; click layers to inspect what each filter has learned.</div>
+
+<div class="demo-link">⚡ <span class="demo-label">Draw a digit:</span> <a href="https://adamharley.com/nn_vis/cnn/3d.html" target="_blank">Adam Harley's 3D CNN</a> — draw a digit, watch activations propagate through conv → pool → fc layers in 3D.</div>
+
+<h3 id="what-lenet-actually-did">What LeNet Actually Did</h3>
+
+<p>LeCun’s LeNet (1989, refined to LeNet-5 in 1998) was not a research curiosity. It was deployed in real systems: by the late 1990s, LeNet was reading handwritten cheques at ATMs across the United States, processing an estimated 10–20% of all cheques written in the country.<sup id="fnref:lenet"><a href="#fn:lenet" class="footnote" rel="footnote" role="doc-noteref">5</a></sup> Deep learning was running production systems while the academic field was still debating whether neural networks worked at all.</p>
+
+<p>The architecture:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input (32×32) → Conv → Pool → Conv → Pool → FC → FC → Output (10 classes)
+</code></pre></div></div>
+
+<p>Each conv-pool block reduces spatial size while increasing depth. The FC layers at the end combine learned features to produce a classification.</p>
+
+<h3 id="what-it-left-open">What It Left Open</h3>
+
+<p>CNNs worked because images have spatial structure. The same principle — <strong>exploit domain structure through architectural inductive bias</strong> — would take decades to apply elsewhere:</p>
+
+<ul>
+  <li>Text has <em>sequential</em> structure → RNNs, then Transformers</li>
+  <li>Graphs have <em>relational</em> structure → GNNs</li>
+  <li>Physics has <em>symmetry</em> structure → equivariant networks</li>
+</ul>
+
+<p>The CNN insight is really a meta-insight: <strong>the right inductive bias, baked into the architecture, can substitute for enormous amounts of data and compute</strong>. This remained the dominant design principle until scale made it optional.</p>
+
+<hr />
+
+<h2 id="what-this-era-left-open">What This Era Left Open</h2>
+
+<p>The backprop era solved the training problem for shallow networks and, with CNNs, for structured domains. What remained:</p>
+
+<ul>
+  <li><strong>Scale</strong>: LeNet worked on small images (32×32). Real-world images are orders of magnitude larger. Training on them required compute that didn’t exist yet.</li>
+  <li><strong>Data</strong>: Supervised learning requires labels. Getting millions of labelled examples requires infrastructure that also didn’t exist yet.</li>
+  <li><strong>Depth for unstructured domains</strong>: Fully-connected deep networks still failed on raw pixels at scale. The vanishing gradient fixes (ReLU, BatchNorm, ResNets) arrived in 2010–2015 — not yet.</li>
+  <li><strong>Generalisation theory</strong>: Why do these networks generalise to unseen data? Especially: why do <em>overparameterised</em> networks generalise? This question remains genuinely open.</li>
+</ul>
+
+<p>The door was briefly reopened in 2006 by Hinton’s <a href="https://www.cs.toronto.edu/~fritz/absps/ncfast.pdf">deep belief network paper</a>,<span class="sidenote">Hinton’s insight was <em>complementary priors</em>: if the prior over a hidden layer matches the posterior the layer below computes, the “explaining away” problem cancels exactly. This made greedy layer-wise training of RBMs theoretically justified. Pretraining turned out to be unnecessary once ReLU arrived — but it bought six years of renewed research and ended the second neural network winter.</span> which showed that greedy layer-wise pretraining could give gradient descent a starting point good enough to train deep networks. The compute and data problems were solved together in 2012 — the story of AlexNet, ImageNet, and the GPU revolution.<span class="sidenote">After AlexNet’s 2012 victory — 15.3% top-5 error vs second place’s 26.2% — Hinton and students Krizhevsky and Sutskever formed DNNresearch and ran an auction. Hinton’s back condition prevents flying; bidding happened by laptop between conference sessions in Lake Tahoe. Google, Microsoft, DeepMind, and Baidu bid. Google won for ~$44M. Hinton had spent 25 years working against the current.</span> That is the next era.</p>
+
+<p><em>Continued in <a href="/courses/neural-networks/2012-present">Neural Networks: The Deep Learning Revolution</a></em></p>
+
+<hr />
+
+<script src="/js/nn-history.js"></script>
+
+<script src="/js/gd-viz.js"></script>
+
+<script src="/js/backprop-graph-viz.js"></script>
+
+<script src="/js/vanishing-grad-viz.js"></script>
+
+<script src="/js/uat-viz.js"></script>
+
+<script src="/js/conv-layer-viz.js"></script>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:expertsystems">
+      <p>Expert systems peaked commercially in the early 1980s. By 1987 the market had collapsed: the hardware (Lisp machines) was being undercut by general-purpose workstations, and the fundamental limitations of encoding knowledge manually had become apparent. Companies like Symbolics, IntelliCorp, and Teknowledge shed most of their value. The expert system winter hit just as backpropagation was published — two failures clearing the ground for something new. <a href="#fnref:expertsystems" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:backprop">
+      <p>Backpropagation was not invented by Rumelhart, Hinton, and Williams — it was rediscovered by them. Paul Werbos derived it in his <a href="https://gwern.net/doc/ai/nn/1974-werbos.pdf">1974 Harvard PhD thesis</a>. David Parker rediscovered it in 1982. Yann LeCun independently derived it in 1985. Rumelhart’s 1986 <em><a href="https://gwern.net/doc/ai/nn/1986-rumelhart-2.pdf">Nature</a></em> paper received the credit largely because of timing and institutional prominence. The idea that gets remembered is not always the first one, but the one that lands in fertile ground. <a href="#fnref:backprop" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:relu">
+      <p>ReLU-like activations were known in neuroscience modelling since the 1960s. Glorot and Bengio’s 2010 paper showed <em>why</em> sigmoid was failing; Nair and Hinton showed ReLU worked better empirically. Krizhevsky used it in AlexNet (2012). An activation function matching the biology was ignored by ML for 50 years. <a href="#fnref:relu" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:residual">
+      <p>He et al. observed that a 56-layer network performed <em>worse</em> than a 20-layer one on training data — impossible if extra layers could learn identity mappings. The residual connection $F(x) + x$ reframes the problem: learn the <em>residual</em> from identity rather than the full transformation. Near-zero is easier to learn than the input itself, and the skip connection gives gradients a direct highway to early layers. <a href="#fnref:residual" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:lenet">
+      <p>AT&amp;T Bell Labs estimates LeNet or its descendants were processing 10–20% of all cheques written in the United States by the late 1990s. Deep learning was running critical financial infrastructure while the research community had moved on to SVMs. Practical success in deployment did not translate into academic interest — academic interest tracks theory and benchmarks, not production systems. <a href="#fnref:lenet" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+<script>
+// Footnote popups
+(function() {
+  var popup = document.createElement('div');
+  popup.className = 'fn-popup';
+  document.body.appendChild(popup);
+
+  var hideTimer;
+
+  function getFootnoteContent(id) {
+    // id is like "fnref:key", footnote li id is "fn:key"
+    var fnId = id.replace('fnref:', 'fn:').replace('fnref-', 'fn:');
+    var li = document.getElementById(fnId) || document.getElementById(fnId.replace('fn:', 'fn-'));
+    if (!li) return null;
+    // Clone and strip the backref link
+    var clone = li.cloneNode(true);
+    var backref = clone.querySelector('.reversefootnote');
+    if (backref) backref.remove();
+    return clone.innerHTML.trim();
+  }
+
+  function show(content, anchorEl) {
+    popup.innerHTML = content;
+
+    // Measure height before revealing to get accurate offsetHeight
+    popup.style.visibility = 'hidden';
+    popup.style.display = 'block';
+    popup.classList.add('visible');
+
+    var rect = anchorEl.getBoundingClientRect();
+    var popupH = popup.offsetHeight;
+    var popupW = 340;
+    var gap = 8;
+
+    var left = rect.left;
+    if (left + popupW > window.innerWidth - 16) {
+      left = window.innerWidth - popupW - 16;
+    }
+    if (left < 8) left = 8;
+
+    // Default: below the anchor
+    var top = rect.bottom + gap;
+    // Flip above if it would overflow the bottom
+    if (top + popupH > window.innerHeight - 8) {
+      top = rect.top - gap - popupH;
+    }
+    // If flipping above also goes off-screen (very tall popup), clamp to top
+    if (top < 8) top = 8;
+
+    popup.style.top = top + 'px';
+    popup.style.left = left + 'px';
+    popup.style.visibility = '';
+  }
+
+  function hide() {
+    popup.classList.remove('visible');
+  }
+
+  // Keep popup open when mouse moves into it
+  popup.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+  popup.addEventListener('mouseleave', function() { hideTimer = setTimeout(hide, 200); });
+
+  // Click outside to close
+  document.addEventListener('click', function(e) {
+    if (!popup.contains(e.target)) hide();
+  });
+
+  popup.style.pointerEvents = 'auto';
+
+  document.querySelectorAll('.d-article sup[id^="fnref"] a').forEach(function(a) {
+    var supEl = a.parentElement;
+    a.addEventListener('mouseenter', function() {
+      clearTimeout(hideTimer);
+      var content = getFootnoteContent(supEl.id);
+      if (content) show(content, a);
+    });
+    a.addEventListener('mouseleave', function() {
+      hideTimer = setTimeout(hide, 200);
+    });
+    // Prevent jumping to footnote on click
+    a.addEventListener('click', function(e) { e.preventDefault(); });
+  });
+})();
+</script>
+
+<script>
+// Table of contents
+(function() {
+  var headings = document.querySelectorAll('.d-article h2, .d-article h3');
+  var toc = document.getElementById('toc-list');
+  var currentH2Li = null;
+  var currentSubList = null;
+
+  headings.forEach(function(h, i) {
+    if (!h.id) h.id = 'section-' + i;
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+
+    if (h.tagName === 'H2') {
+      toc.appendChild(li);
+      currentH2Li = li;
+      currentSubList = null;
+    } else if (h.tagName === 'H3') {
+      if (!currentSubList) {
+        currentSubList = document.createElement('ul');
+        if (currentH2Li) currentH2Li.appendChild(currentSubList);
+        else toc.appendChild(currentSubList);
+      }
+      currentSubList.appendChild(li);
+    }
+  });
+})();
+</script>
+
+
+    
+ <!--  <div id="footer">
+          <address>
+            <span class="copyright">
+                Content &amp; Design by <a href="/about/">Piyush Ahuja</a>
+                <br/>
+                (<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)      
+            </span>
+            <span class="engine">
+                Powered by <a href="http://github.com/mreid/jekyll/" title="A static, minimalist CMS">Jekyll</a>
+            </span>
+        </address>
+
+  </div>  -->
+
+  </div> 
+
+
+</body>
+</html>
+
+
+
+
+  
+  
+  

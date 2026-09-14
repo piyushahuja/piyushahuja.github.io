@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+   <meta http-equiv="content-type" content="text/html"; charset= "utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Some passably good ideas">
+    <meta name ="author" content="Piyush Ahuja">
+
+    
+    
+    <title>The Birth of Neural Networks</title>
+  <!--    -->
+    <link rel="canonical" href="https://piyushahuja.com/courses/neural-networks/1943-1969">  
+
+    <link rel="stylesheet" href="/css/main-new.css" media="screen and (max-width: 479px)">
+
+    <!-- Desktop styles -->
+    <link rel="stylesheet" href="/css/screen.css" media="screen and (min-width: 480px)">
+
+   
+
+
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    
+    <link rel="stylesheet" href="/css/distill.css">
+    
+
+    
+
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$'], ['\\[','\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+   
+</head>
+
+
+
+
+
+  
+  <body id = "">
+
+  <div id = "site">
+
+  <div class="d-title">
+  <h1>The Birth of Neural Networks</h1>
+  <p class="d-subtitle">There are artifacts you can build out of sand that convert energy into intelligence.  How is that possible? Where does the intelligence come from?</p>
+</div>
+
+<hr class="d-title-rule">
+
+<div class="d-byline">
+  <div class="d-byline-inner">
+    <div class="d-byline-col">
+      <span class="d-byline-label">Author</span>
+      <span class="d-byline-value">Piyush Ahuja</span>
+    </div>
+    <div class="d-byline-col">
+      <span class="d-byline-label">Published</span>
+      <span class="d-byline-value">Apr 19, 2026</span>
+    </div>
+  </div>
+</div>
+
+<div class="d-article-grid">
+
+  <nav class="d-contents" id="d-toc">
+    <h4>Contents</h4>
+    <ul id="toc-list"></ul>
+  </nav>
+
+  <article class="d-article">
+    <p>Where does mental phenomenon (logic, reasoning, memory) reside? Is it purely in the brain, is it it brain + non physical “mind” stuff?</p>
+
+<p>The idea behind connectionism is that mental phenomena is emergent from patterns of physical organization such as interconnected networks of simple units. For intelligent animals, these might be neurons connected by synapses as in the brain.</p>
+
+<p>This falls within the larger paradigm of physicalism, believe living systems obeyed the same physical laws as everything else, but outside vitalism, who held that life required some irreducible non-physical principle, elan vital.</p>
+
+<p>There is no accepted evidence for an élan vital, “life force,” or special nonphysical substance that distinguishes living matter from nonliving matter. - metabolism became chemistry, heredity became genetics and molecular biology, development became gene regulation + cell signaling, biological energy became ordinary thermodynamics and biochemistry, reproduction became explicable through cells, DNA, proteins, membranes, etc.</p>
+
+<p>The mind remained last stronghold of the vitalists.</p>
+
+<p>Dualism made the question of consciousness officially out of bounds for empirical investigation.</p>
+
+<hr />
+
+<p>In early 20th century, Gottlob Frege and Bertrand Russell sought to derive all mathematics from pure logic.  While Boole showed how logic could be expressed through algebraic formulas (Boolean algebra), Frege and Russel extended this to quantifiers (“for all,” “there exists”) and complex propositional logic, providing a more expressive formal language. While they succeeded in deriving basic arithmetic, in 1931 Gödel proved that in any logical system complex enough to do math, there will always be true statements that cannot be proven using the rules of that system.</p>
+
+<p>In 1937, Shannon wrote what is often called the most important master’s thesis in history (“A Symbolic Analysis of Relay and Switching Circuits”). He made a connection between the “abstract” logic of Boole and Russell could be mapped onto physical switches: if a switch is Open, it’s a 0; if a switch is closed, it’s a 1. If you put two switches in a row (series), you have an AND gate. If you put them side-by-side (Parallel), you have an OR gate. He went on to prove that it should also be possible to use arrangements of relays to solve Boolean algebra problems.  Shannon’s thesis became the foundation of practical digital circuit design.  The utilization of the binary properties of electrical switches to perform logic functions is the basic concept that underlies all electronic digital computer designs.</p>
+
+<p>The neuron doctrine: The dominant biological view, the reticular theory<sup id="fnref:cajal"><a href="#fn:cajal" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>,  held that the nervous system was one continuous net, a single fused web with no internal structure. Against this, Cajal argued the brain was made of <em>discrete</em> individual cells, each separated by a gap. Discrete cells meant a <em>circuit</em>, not a fog. It meant the brain had structure that could in principle be described.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>The Pioneer</th>
+      <th>The “Substrate” (The Stuff)</th>
+      <th>The Insight</th>
+      <th>The Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Claude Shannon</td>
+      <td>Electrical Relays</td>
+      <td>Switches are just Boolean Logic in physical form.</td>
+      <td>Digital Computers</td>
+    </tr>
+    <tr>
+      <td>Walter Pitts</td>
+      <td>Biological Neurons</td>
+      <td>Nerve firings are just Boolean Logic in biological form.</td>
+      <td>Artificial Intelligence</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Shannon realized that it didn’t matter if a switch was made of copper, vacuum tubes, or wood—as long as it could represent On/Off: Pitts (along with McCulloch) realized it didn’t matter that a brain was “wet” and made of cells. If a neuron only fires when it reaches a certain threshold of inputs, it is performing computation. Shannon proved that machines could be Logical.  <strong>Pitts</strong> proved that biology could be, too.</p>
+
+<p>The Competing Idea: “The Ghost in the Machine”. By saying the brain is just a “Net” of logical gates (The McCulloch-Pitts Neuron), they effectively “killed the ghost.” They suggested that if you build a big enough network of these gates, you don’t just get a calculator; you eventually get consciousness.</p>
+
+<hr />
+
+<h2 id="1943">1943</h2>
+
+<p>The reticular theory at the time assumed a nervous system was continuous fog with no discernable discrete structure.  Real neurons are messy: Real neurons don’t just send 1s and 0s; they send chemical pulses at different frequencies, they have hormones, and they “leak.” they fire in graded potentials, variable thresholds, continuous time, chemical soup.   Gestalt psychology said cognition couldn’t be decomposed into elements at all: the whole is not the sum of its parts. Both denied that the parts had independent structure.</p>
+
+<p>Warren McCulloch<sup id="fnref:mcculloch"><a href="#fn:mcculloch" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> and Walter Pitts<sup id="fnref:pitts"><a href="#fn:pitts" class="footnote" rel="footnote" role="doc-noteref">3</a></sup>  key move was one of abstraction: they stripped all of the messiness of a neuron to retain one functional detail  that made a connection between logic and neuroscience is possible.<sup id="fnref:macy"><a href="#fn:macy" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, namely, that a neuron’s threshold function has the same identical structure as a logic gate.</p>
+
+<p>If neurons were discrete units that fire or don’t fire, they were binary. Binary operations could express boolean logic. So you could treat a neuron like a logic gate.   This transformed a fog of mess into discrete structures that computed</p>
+
+<p>Shannon’s relay switches are the same gate in copper.</p>
+
+<p>A logical sentence says: <em>“this is true if and only if these conditions are met.”</em> A neuron says: <em>“I fire if and only if my inputs exceed my threshold.”</em> These are the same operation, expressed in different vocabularies.</p>
+
+<p>From there, everything follows from what Russell and Whitehead had already proved. Any logical statement can be built from AND, OR, NOT. Any computation can be expressed as a logical statement. Therefore: any computation can be built from neurons. A network of neurons can calculate anything a Turing machine can calculate. The geometry of connections <em>is</em> the software. The brain becomes a “Logic Machine.”, express any finite logical statement, expressing any logical thought</p>
+
+<p>A neuron “realizes” a logical sentence if its firing pattern (On/Off) matches the True/False values of that sentence</p>
+
+<p>But three problems stood between the insight and a rigorous proof:</p>
+
+<ul>
+  <li><strong>Time.</strong> Logic is timeless; neurons fire in sequence. They introduced discrete time steps and showed the equivalence holds at each step,  sidestepping continuous neural dynamics.</li>
+  <li><strong>Inhibition.</strong> AND and OR follow naturally from excitatory inputs summing to a threshold. NOT requires a different mechanism: an input that <em>blocks</em> firing rather than promotes it. Real neurons have inhibitory synapses, and they showed these map cleanly to logical negation.</li>
+  <li><strong>Cycles.</strong> Networks with feedback loops can represent memory and state. Do the logical equivalences still hold when a neuron’s output feeds back into its own input? They proved they do, with one caveat: loops that would generate logical paradoxes must be excluded. A cyclic M-P network turned out to be equivalent to a finite automaton — a result Kleene formalised in 1951. McCulloch and Pitts thought cycles were <em>the</em> interesting part, the mechanism for memory and thought. The field spent the next 40 years ignoring them. They came back as Hopfield networks (1982), then LSTMs (1997), then the attention mechanism in transformers: where cycles and memory are, again, everything.<sup id="fnref:cycles"><a href="#fn:cycles" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></li>
+</ul>
+
+<figure class="d-figure">
+<svg width="480" height="160" viewBox="0 0 480 160" style="display:block;margin:0 auto;">
+  <line x1="30" y1="55" x2="162" y2="78" stroke="#888" stroke-width="1.5" />
+  <line x1="30" y1="80" x2="162" y2="80" stroke="#888" stroke-width="1.5" />
+  <line x1="30" y1="105" x2="162" y2="82" stroke="#888" stroke-width="1.5" />
+  <line x1="30" y1="130" x2="162" y2="94" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5,3" />
+  <circle cx="30" cy="55" r="14" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5" />
+  <circle cx="30" cy="80" r="14" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5" />
+  <circle cx="30" cy="105" r="14" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5" />
+  <circle cx="30" cy="130" r="14" fill="#fdecea" stroke="#c0392b" stroke-width="1.5" />
+  <text x="30" y="55" text-anchor="middle" dominant-baseline="middle" font-size="11">x₁</text>
+  <text x="30" y="80" text-anchor="middle" dominant-baseline="middle" font-size="11">x₂</text>
+  <text x="30" y="105" text-anchor="middle" dominant-baseline="middle" font-size="11">x₃</text>
+  <text x="30" y="130" text-anchor="middle" dominant-baseline="middle" font-size="11" fill="#c0392b">inh</text>
+  <text x="84" y="60" font-size="10" fill="#555">w₁</text>
+  <text x="84" y="79" font-size="10" fill="#555">w₂</text>
+  <text x="84" y="97" font-size="10" fill="#555">w₃</text>
+  <text x="84" y="114" font-size="10" fill="#c0392b">−</text>
+  <circle cx="200" cy="80" r="36" fill="#e8f0fb" stroke="#4a90d9" stroke-width="2" />
+  <text x="200" y="75" text-anchor="middle" font-size="11" fill="#333">Σ ≥ θ</text>
+  <text x="200" y="90" text-anchor="middle" font-size="10" fill="#777">(threshold)</text>
+  <line x1="236" y1="80" x2="340" y2="80" stroke="#888" stroke-width="1.5" />
+  <polygon points="340,75 352,80 340,85" fill="#888" />
+  <circle cx="382" cy="80" r="24" fill="#eafaf1" stroke="#27ae60" stroke-width="2" />
+  <text x="382" y="80" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#27ae60">0 / 1</text>
+  <text x="244" y="68" font-size="10" fill="#555">fires if</text>
+  <text x="244" y="80" font-size="10" fill="#555">Σ ≥ θ and</text>
+  <text x="244" y="92" font-size="10" fill="#555">not inhibited</text>
+</svg>
+<figcaption>The McCulloch–Pitts neuron. Excitatory inputs (blue) sum up; if the total meets threshold θ and no inhibitory input (red dashed) is active, the neuron outputs 1.</figcaption>
+</figure>
+
+<div class="demo-link">⚡ <span class="demo-label">Try it:</span> <a href="https://www.jmeiners.com/neural-nets-sim/" target="_blank">jmeiners.com/neural-nets-sim</a> — build AND/OR/NOT networks yourself, set thresholds, watch neurons fire.</div>
+
+<p>What It Left Open, and Where It Led The connections were fixed and hand-wired by the designer. There was no learning. The open question: <em>Can the connections be learned from experience?</em></p>
+
+<p>The two threads M-P opened: (1) the feedforward thread — fixed logical circuits as a proof of representational power, which Rosenblatt would turn into a learning machine; (2) the cycles thread — feedback loops as the mechanism for memory and state, which the field ignored for 40 years before it returned as Hopfield nets (1982), LSTMs (1997), and transformers’ attention (2017).</p>
+
+<hr />
+
+<p>Donald Hebb proposed a simple principle: “Neurons that fire together, wire together.” ## 1949 — Hebb: The First Learning Rule</p>
+
+<p>Formally: $\Delta w_{ij} \propto x_i \cdot x_j$</p>
+
+<figure class="d-figure">
+<svg width="400" height="120" viewBox="0 0 400 120" style="display:block;margin:0 auto;">
+  <circle cx="80" cy="58" r="22" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5" />
+  <circle cx="180" cy="58" r="22" fill="#e8f0fb" stroke="#4a90d9" stroke-width="1.5" />
+  <line x1="102" y1="58" x2="158" y2="58" stroke="#ccc" stroke-width="3" />
+  <text x="130" y="48" font-size="9" fill="#aaa" text-anchor="middle">weak</text>
+  <text x="80" y="58" text-anchor="middle" dominant-baseline="middle" font-size="12">A</text>
+  <text x="180" y="58" text-anchor="middle" dominant-baseline="middle" font-size="12">B</text>
+  <text x="130" y="100" text-anchor="middle" font-size="10" fill="#999">Before co-activation</text>
+
+  <text x="228" y="63" font-size="22" fill="#4a90d9">→</text>
+
+  <circle cx="290" cy="58" r="22" fill="#d4e8ff" stroke="#4a90d9" stroke-width="2" />
+  <circle cx="382" cy="58" r="22" fill="#d4e8ff" stroke="#4a90d9" stroke-width="2" />
+  <line x1="312" y1="58" x2="360" y2="58" stroke="#4a90d9" stroke-width="4.5" />
+  <text x="336" y="48" font-size="9" fill="#4a90d9" text-anchor="middle">strong</text>
+  <text x="290" y="58" text-anchor="middle" dominant-baseline="middle" font-size="12">A</text>
+  <text x="382" y="58" text-anchor="middle" dominant-baseline="middle" font-size="12">B</text>
+  <text x="336" y="100" text-anchor="middle" font-size="10" fill="#4a90d9">After co-activation</text>
+</svg>
+<figcaption>Hebbian learning: the synapse from A to B strengthens when both fire simultaneously.</figcaption>
+</figure>
+
+<p>Hebb’s rule has no error signal. It adjusts based on <em>what fires together</em>, not <em>whether the network was right</em>. It can build associations but cannot correct itself. For correction, you need a signal from the outside world saying <em>you were wrong.</em> That gap is what Rosenblatt would fill nine years later. <span class="sidenote">Easy to confuse: Hebb’s rule and backpropagation both update weights, but they solve completely different problems. Hebb is unsupervised and local — it strengthens correlations with no knowledge of the output. Backprop is supervised and global — it uses a scalar error signal and the chain rule to assign blame backward through every layer. They are not interchangeable.</span></p>
+
+<p>Because it needs no labels, Hebb’s rule picks up the statistical structure of inputs on its own — the seed of unsupervised learning. Its descendants are autoencoders, PCA, and modern self-supervised models. The supervised thread (Rosenblatt, backprop) and the unsupervised thread (Hebb) run in parallel through the entire history of the field.</p>
+
+<hr />
+<p>Three competing frameworks shaped what “learning” was even supposed to mean in 1958:</p>
+
+<ul>
+  <li>Behaviourism held that learning was stimulus-response conditioning: no internal representation needed, just input-output associations shaped by reward and punishment. It said nothing about the internal structure of the learner.</li>
+  <li>Gestalt psychology argued that perception was holistic and you couldn’t decompose it into discrete units. The whole was not the sum of its parts. A unit-based network was, from this view, a category error.</li>
+</ul>
+
+<p>Rosenblatt made it a matter of engineering: can we take the mathematical model of a neuron to make a machine “see” or perceive? Mcculloch-Pitts had proved that neurons can <em>compute</em>. Rosenblatt asked: can they <em>learn to</em> compute?</p>
+
+<p>Rosenblatt<sup id="fnref:rosenblatt"><a href="#fn:rosenblatt" class="footnote" rel="footnote" role="doc-noteref">6</a></sup> was a psychologist thinking about <em>perception</em>, specifically, how the visual cortex learns to recognise things.</p>
+
+<p>The Mark I Perceptron (1957): a 20×20 grid of 400 photocells as the “eye”.
+These were were wired randomly and fixed to 512 association units  in a middle layer. Each A-unit thresholded its incoming light signals and output a binary voltage: <strong>1</strong> (high voltage signal if fired) or <strong>0</strong> (no voltage).</p>
+
+<p>The machine: I</p>
+
+<p>Rosenblatt hypothesized that the human visual cortex initially processes raw retinal data through semi-random neural wiring before higher-level learning takes place
+Each $A$-unit was connected via a physical patchboard to a random subset of up to 40 photocells. Some connections from photocells to an $A$-unit were wired to add voltage (+1), while others subtracted voltage (-1). The $A$-unit calculated the net voltage from its specific bundle of photocells. If the total voltage exceeded a fixed internal threshold $\theta$, the $A$-unit fired, outputting $x_i = 1$. If it failed to cross the threshold, it output $x_i = 0$.</p>
+
+<p>What is a potentiometer? A potentiometer is an adjustable electrical resistor with a physical dial/knob (like a mechanical volume slider). Rotating the knob changes the resistance, controlling how much voltage passes through. In the Perceptron, the physical angle of the knob represented the <strong>numerical value of the weight ($w_i$)</strong>. Because the Mark I was built before digital RAM and software code, there was no computer memory to store weight variables as numbers. To “update a weight” during training, a tiny direct-current (DC) electric motor was attached to each potentiometer knob. When the Perceptron made a classification error, the machine sent electrical pulses to the motors, physically spinning the knobs clockwise or counter-clockwise to alter their resistance.</p>
+
+<p>What were the weights? Connection weights were stored as the physical rotation angles of 512 motor-driven potentiometers essentially motorised volume knobs. When the machine made a mistake, electric motors physically turned the knobs to adjust the weights. <br /></p>
+
+<p>It filled an entire room. <a href="https://en.wikipedia.org/wiki/Mark_I_Perceptron" target="_blank">Wikipedia</a><br /></p>
+
+<p>; 8 output units.  The S→A connections ; only the A→R weights learned. I</p>
+
+<p>Random projections into a high-dimensional space make many problems linearly separable that weren’t before — an insight that resurfaced decades later in kernel methods and reservoir computing. In his 1962 book <em>Principles of Neurodynamics</em>, Rosenblatt tried going further with four-layer networks, using a time-dependent non-supervised rule to modify lower-layer weights before switching to error-correction. He couldn’t make it work. Hinton cracked the same problem in 2006 with greedy layer-by-layer unsupervised pretraining — the idea that unlocked deep networks. Rosenblatt had identified the right question 44 years earlier.</p>
+
+<p>The gap between the two was the error signal — the same structural problem a judge faces: you can see the final verdict was wrong, but which witness (which hidden weight) do you correct? Hebb’s rule adjusted weights based on co-activation but with no feedback from the world about whether the result was <em>right</em>. Rosenblatt imported the correction idea from control theory and behaviourist reinforcement: if the output is wrong, use the mistake to compute which direction to push the weights.</p>
+
+<p>What makes this work geometrically: the perceptron computes $w \cdot x + b$. The error $(y - \hat{y})$ times the input $x$ gives you exactly the direction in weight space that would have made the output more correct. The mistake <em>is</em> the gradient. You don’t need calculus — the structure of the dot product hands it to you.</p>
+
+<p>The Geometry” Each input is a dimension. Two inputs → each training example is a point in 2D space. The weight vector defines a <strong>line</strong> — a knife cutting space in two.<span class="sidenote">The bias term $b$ lets the boundary slide freely rather than being forced through the origin. Full computation: $w \cdot x + b \geq 0$.</span></p>
+
+<p>Learning: rotating that knife until it correctly separates all the data.</p>
+
+<figure class="d-figure">
+<canvas id="perc-canvas" class="boundary-canvas" width="360" height="280"></canvas>
+<div class="slider-row" style="max-width:360px;margin:.5rem auto 0;">
+  <label style="min-width:72px">Epoch:</label>
+  <input type="range" id="epoch-slider" min="0" max="30" value="0" style="flex:1;" />
+  <span class="slider-val" id="epoch-val">0</span>
+</div>
+<div class="btn-row">
+  <button class="nn-btn" id="btn-animate">▶ Animate</button>
+  <button class="nn-btn" id="btn-reset">Reset</button>
+</div>
+<figcaption>Drag the slider or press Animate to watch the decision boundary converge. Blue = class 1, red = class 0.</figcaption>
+</figure>
+
+<p>The Perceptron Learning Rule:</p>
+
+\[w_{i}^{\text{new}} = w_{i}^{\text{old}} + \alpha\,(y - \hat{y})\,x_i\]
+
+\[b^{\text{new}} = b^{\text{old}} + \alpha\,(y - \hat{y})\]
+
+<p>When right, $(y - \hat{y}) = 0$ and nothing changes. When wrong, weights shift toward the correct orientation.</p>
+
+<div class="demo-link">⚡ <span class="demo-label">Try it:</span> <a href="https://perceptrondemo.com" target="_blank">perceptrondemo.com</a> — add your own points, train the perceptron, watch the boundary rotate in real time.</div>
+
+<div class="demo-link">⚡ <span class="demo-label">Also:</span> <a href="https://phiresky.github.io/kogsys-demos/neural-network-demo/?preset=Rosenblatt+Perceptron" target="_blank">phiresky Rosenblatt preset</a> — step through convergence one update at a time.</div>
+
+<hr />
+
+<p>A rigorous proof (1962)</p>
+
+<p><strong>Problem</strong> How do you prove a system will stop making mistakes when you don’t know the future inputs? The sequence of inputs might be noisy, messy, or even chosen by an adversary.  When an algorithm updates step-by-step based on local errors, you cannot write a simple closed-form formula for the state of the system at step $k$.</p>
+
+<p><strong>Solution</strong>
+The Lyapunov / Cauchy-Schwarz skeleton is the universal mathematical tool created to overcome this exact problem. theory of stability just requires one thing: Define a “potential energy” function for your system, and prove that this energy constantly decreases until the system comes to rest.</p>
+<ul>
+  <li>Base case: Imagine a marble rolling around inside a bowl. You might not know the exact, messy trajectory the marble takes, but you know two things: Friction constantly decreases its potential energy (it monotonically improves/moves in one direction). Energy cannot go below zero (it is bounded below). Because of these two facts, the marble <em>must</em> eventually stop at the bottom.</li>
+  <li>In cybernetics, “energy” is usually “error.” Both Rosenblatt and Novikoff used this exact cybernetic/Lyapunov skeleton, but they built their potential functions differently. Rosenblatt built his potential function out of probabilities. The Potential Function: The <em>probability</em> of the machine making an error across the entire environment. The Bound: Probability cannot drop below 0. The Monotonic Step: He proved that the <em>expected</em> (average) drift of the weights pushes the system into a state where the probability of error is exactly 0 (the absorbing state).</li>
+  <li>A Lyapunov argument bypasses the high-dimensional trajectory entirely through a trick of dimensionality reduction: You project the complex state $w_k$ down to a single 1D scalar quantity (a potential or energy function, $V(w)$). You prove that every mistake forces this 1D scalar to move in a single direction (monotonically improve). You show that the scalar has a hard physical ceiling (it is bounded). If a quantity increases by at least a fixed amount every time an event occurs, but the total quantity can never exceed a fixed upper limit, that event can only happen a finite number of times.</li>
+  <li>In the Perceptron proof, we define a “potential function” that tracks two things at once whenever a mistake occurs: How close the current weight vector $w_k$ is pointing toward an ideal solution $w^*$. The overall length (norm) of the weight vector $\Vert{}w_k\Vert{}$.</li>
+  <li>
+    <p>The strategy that bounds k the odometer move. How do you cap how many times an event can happen, when you can’t watch each one? You attach a gauge to the process such that (i) every event advances the gauge by at least a fixed step, and (ii) the gauge has a ceiling it cannot pass. Then trivially: number of events ≤ ceiling ÷ step. This is the monovariant / potential-function argument, and it’s the universal tool for “prove it terminates” — the Euclidean algorithm, “every game of chess ends,” loop-termination proofs, all wear this shape. When to reach for it: any time you must prove a process can’t run forever and direct counting is hopeless</p>
+  </li>
+  <li>The beauty of this chain of thought is that it turns the algorithm’s greatest weakness into its own proof. You might initially worry: <em>“How can I prove it stops when I only have information about the mistakes?”</em> The mathematician realizes: <em>“The fact that it is a mistake is the exact mathematical property I need to bound the vector’s growth.”</em> It perfectly bridges abstract geometry (angles and margins) with algorithmic conditions (only updating on errors).</li>
+  <li>It is the canonical way to analyze online feedback loops: An agent operates under uncertainty, receiving local error signals step-by-step. Whenever you cannot calculate a global optimum upfront, you map the system’s local updates to a global potential function, pit two competing growth rates against each other, and let fundamental mathematical bounds (like $\cos \theta \le 1$ or $Entropy \ge 0$) prove that the system must stabilize.</li>
+</ul>
+
+<p>Rosenblatt’s gut says: each correction makes progress. His mental picture was loose and probabilistic — the weight state drifting, under repeated reinforcement, toward the region of settings that work; on average, corrections nudge you the right way.</p>
+
+<p>The mathematical property of a mistake is a negative cross-term. In the Perceptron, the fact that an update only occurs on a mistake isn’t just a computational shortcut to save time; it is the exact mathematical “braking mechanism” that prevents the weight vector from growing out of control. If we updated the weights on a <em>correct</em> prediction, the cross-term would be positive, and the total length would explode exponentially. But because we only update on a mistake, we mathematically guarantee that the cross-term $2y(w_{\text{old}} \cdot x)$ is less than or equal to zero. The length of the vector isn’t growing by the size of the cross-term; the cross-term is actually pulling it backward! The maximum possible growth per step is strictly bounded by the size of the input ($\Vert{}x\Vert{}^2$). Because the input has a maximum size (let’s call it $R^2$), after $k$ mistakes, the total squared length can be at most $k \cdot R^2$.
+Let’s look at the new length squared: $\Vert{}w_{new}\Vert{}^2 = \Vert{}w_{old}\Vert{}^2 + 2(w_{old} \cdot \text{Update}) + \Vert{}\text{Update}\Vert{}^2$.
+What is the mathematical definition of a mistake? It means our current vector $w_{old}$ guessed wrong—it was pointing in the opposite direction of the correct update.
+The vector wants to grow by the size of the input, but because we <em>only</em> update on mistakes, the current weights actively fight against the update, pulling the total length down. The squared length grows linearly ($O(k)$), which means the actual length only grows by the square root ($O(\sqrt{k})$). 
+If mistakes $k$ kept happening forever, the shadow ($O(k)$) would eventually become longer than the vector casting it ($O(\sqrt{k})$). Because that is a geometric impossibility in Euclidean space, the mistakes are forced to stop.**</p>
+
+<p>Finding Invariant The Search for a “Progress Bar”</p>
+
+<ul>
+  <li>
+    <p>Candidate: the number of mistakes. But we’ve just seen the thing that makes that hunch hard to cash out: the number of misclassified points does not fall steadily — fix one, break another, the weights swing. So “progress = fewer mistakes” is dead. That’s precisely the gap between Rosenblatt’s “it drifts toward the answer on  average” and a real proof: someone has to name a quantity that improves every single time If “progress” can’t mean “fewer mistakes remaining,” then what is the thing we might plausibly be getting steadily  closer to with each correction?</p>
+  </li>
+  <li>
+    <p>Candidate: the average error from all</p>
+    <ul>
+      <li>Good instinct: you’ve jumped from counting mistakes to aggregating their size, which is the right kind of move: a smooth gauge beats a jumpy count. And Rosenblatt would have reached for exactly this. the probabilistic mind loves an average. But let’s hold it to the fire, because it has the same illness. Does average error fall on every step? Picture points B and C sitting just barely on the correct side, and A wrong. You add z_A to rescue A — but z_A happens to point away from B and C, shoving both from “barely right” to “wrong,” by more than A improved. Net error just went up. Same jiggle: the update serves one point at the others’ expense. So “average error decreases each step” is not true — it’s the mistake-count disease wearing a smoother coat. (This is why Rosenblatt’s “on average it  drifts down” is a hunch, not a proof: on any given step it can drift up.)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>But don’t throw your answer away — squeeze the good part out of it. “Average error is less” is really shorthand for “closer to a state with no error.” So the thing you’re circling isn’t a measure, it’s a destination: a setting of the weights that classifies everything correctly.</p>
+
+<p>Candidate: Can we guarantee that every correction, we get nearer to the ideal solution, assuming one exists</p>
+
+<p>Attempt 1 (Distance):** Maybe I measure the Euclidean distance between my current weights $w_k$ and a perfect set of weights $w^*$. If distance shrinks every step, it converges!</p>
+
+<ul>
+  <li><em>Failure:</em> When you do the algebra, distance doesn’t strictly shrink. A mistake can sometimes push the vector slightly further away from $w^*$ while fixing a local error.</li>
+</ul>
+
+<p>Attempt 2 (Direction/Angle): In classification, the <em>length</em> of the weight vector doesn’t actually matter. Only the <em>direction</em> matters (since checking if $w \cdot x &gt; 0$ is just about the angle). <strong>:</strong> My progress bar shouldn’t be distance. It should be the <strong>angle</strong> between my current vector and the perfect vector $w^*$. If I can prove the angle is constantly closing, I win. How do we measure the angle between two vectors? We use the cosine formula:</p>
+
+\[\cos(\theta) = \frac{\text{Numerator (Alignment)}}{\text{Denominator (Length)}}\]
+
+<p>Mental move:  When a mathematician has an object that surely exists but can’t be computed (“the data is separable” means a perfect separator exists.), the reflex is simple: give it a name, carry it through the algebra as a symbol, and bet that its unknown value drops  out by the end. So let w* be any perfect separating direction. We can’t write down its numbers — we don’t care. We’ll measure our wandering w against it, blind. This is exactly where the geometers part from Rosenblatt. He kept thinking in ensembles and probabilities “the state tends  toward the solution region.” Novikoff’s colder, sharper move: nail down one phantom w*, and clock the wandering weights against it deterministically.</p>
+
+<p>Now we have a fixed-but-unknown perfect direction w<em>, and our own drifting w. We want to track “how much has w come to resemble w</em>.”</p>
+
+<p>We want one number, built from our list w and the ideal list w*, that is large when the two lists agree entry-by-entry (same signs, comparable sizes) and small or negative when they disagree. What simple combination of the two lists does that?</p>
+
+<p>Dot product — our progress gauge is P = w·w* = Σᵢ wᵢ w<em>ᵢ, the overlap between our weight-list and the ideal one. Now the natural thing to do with a candidate progress measure: test it on one step. Does a correction actually push P up?
+		- On a mistake we add a correction to the weights — call it z. If we should have fired but didn’t, the correction is z = x (strengthen toward the pattern). If we fired  but shouldn’t have, the correction is z = −x (weaken). Either way the new weights are w + z. Compute the new overlap after the correction — (w + z)·w</em> — and split it into the old overlap plus a change term. Then, using only the fact that w* gets this point right, tell me the sign of that change term
+		- the correction z pushes the weights the way the true label wants, and w* already embodies every true label perfectly — so z and w* are both servants of the same ground truth, and servants of the same master can’t point opposite ways. Hence w<em>·z &gt; 0 on every mistake, so P climbs every single time. That’s the deterministic bone we’ve been trying to give Rosenblatt’s “on average, it drifts right.”
+	- What guarantees that each climb is at least some fixed, non-shrinking amount — i.e., that w</em>·z can’t be positive-but-arbitrarily-tiny across the mistakes? why does the gauge need a minimum step
+		-  Here’s the trap that makes it non-optional. Suppose the gauge climbed by 1/2, then 1/4, then 1/8, … It moves every step, stays bounded forever — and yet makes infinitely many steps. Bounded range alone proves nothing; you must also forbid the steps from shrinking toward zero. So the moment you commit to the odometer move, a question is forced on you: “is each step at least some fixed size?” (This, incidentally, is a gap Rosenblatt’s probabilistic instinct would glide over: “expected progress each step is positive”  sounds like enough, but the deterministic proof needs the worst-case floor γ — no step may quietly vanish.)</p>
+
+<p>The count of mistakes, k: forced by the meaning of “stop.” “Does the process halt?” literally means “does it make only finitely many corrections?” So k = number of mistakes isn’t a clever pick; it’s the thing the question is about. Rosenblatt’s”does it converge?” = “is k finite?” You don’t invent k; you rename the question.</p>
+
+<ul>
+  <li>One more natural thought before any formula: a separator’s length is irrelevant — doubling w* classifies everything identically — so what matters about w* is only its direction.
+    <ul>
+      <li>The machine fires when w·x ≥ θ — that’s the only thing
+that decides a point’s fate. Now double everything, weights and threshold (you’ll note I keep the θ; forgetting it here would be your tell):
+\((2w)\cdot x \ge 2\theta \quad\Longleftrightarrow\quad 2(w\cdot x) \ge 2\theta \quad\Longleftrightarrow\quad w\cdot x \ge
+\theta.\)
+Multiplying both sides of an inequality by a positive number never flips it. So every point gets the identical verdict — same points fire, same stay silent — hence same idealness, zero new error. No geometry used; just “positive scaling preserves an inequality.” (This, incidentally, is why we fold θ in as a weight: then “double the whole vector” is clean, and “only direction
+matters” becomes literally true.)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p>The Convergence Theorem Rosenblatt proved: if a linearly separable solution exists, the rule will find it in finite steps. The proof is a neat squeeze argumenttwo quantities grow at different rates, and their ratio is forced to 1.</p>
+
+<p>Per mistake, two things happen to the weight vector $W$:</p>
+
+<ol>
+  <li>Alignment with the optimal $W^\star$ grows linearly — each correction pushes $W$ toward $W^\star$ by a fixed minimum amount, so $W \cdot W^\star$ increases by at least a constant per mistake.</li>
+  <li>The magnitude $|W|$ grows as $\sqrt{\text{mistakes}}$ — each update adds at most a bounded amount to $|W|^2$, so $|W|$ grows no faster than the square root of the mistake count.</li>
+</ol>
+
+<p>Their ratio — the cosine $\dfrac{W \cdot W^\star}{|W|\,|W^\star|}$ — has a numerator growing linearly and a denominator growing as $\sqrt{t}$. The cosine must eventually reach 1. The knife is guaranteed to converge.<span class="sidenote">The proof structure is a Lyapunov argument: define a quantity that must monotonically improve and is bounded, then conclude convergence — the standard tool in control theory for proving system stability. The specific geometric step (bounding a cosine by 1 via the inner product) is Cauchy-Schwarz applied dynamically. Rosenblatt absorbed the Lyapunov style from the cybernetics environment around him; the same skeleton appears in online learning theory (Littlestone’s mistake-bound proofs, 1988) and, much earlier, in von Neumann’s minimax theorem (1928).</span></p>
+
+<figure class="d-figure">
+<div id="convergence-viz"></div>
+<figcaption>The squeeze argument made visible. As mistakes accumulate, alignment (blue) grows linearly while magnitude (orange) grows as √t. Their ratio — the cosine — is forced toward 1. Press Run to animate.</figcaption>
+</figure>
+
+<p>The linearity constraint: the knife can only be a straight line. If no straight line separates the data, the algorithm doesn’t just fail to converge: it cycles forever. <span class="sidenote">Common confusion: the convergence theorem guarantees finding <em>a</em> separator, not <em>the best</em> one. Any hyperplane that correctly divides the data counts. This is why the perceptron doesn’t generalise well even when it converges — it finds the first valid boundary, not the widest one. That gap is what the Support Vector Machine (1990s) fixed, using the same geometric intuition but optimising for maximum margin.</span></p>
+
+<p>The perceptron’s learning rule was the first proof that weights could be found automatically from data. That idea of error-driven correction seeded everything in supervised learning. But it only worked for one layer. Could it work for more layers? The question it left open was exactly the one Minsky and Papert would weaponise.</p>
+
+<hr />
+
+<p>By 1969, two positions were hardening:</p>
+
+<ul>
+  <li>The connectionist view:  neural networks, learning from examples, distributed representations. Rosenblatt’s camp.</li>
+  <li>The symbolic AI view: explicit rules, logic, hand-crafted knowledge representations. <a href="https://en.wikipedia.org/wiki/GOFAI">GOFAI</a>. Minsky’s camp.</li>
+</ul>
+
+<p>Both agreed that multi-layer networks could <em>represent</em> anything. McCulloch Pitts had proved that in 1943. The dispute was whether that representational power was <em>reachable</em> by any learning rule.  Minsky and Papert<sup id="fnref:minsky"><a href="#fn:minsky" class="footnote" rel="footnote" role="doc-noteref">7</a></sup> argued credit assignment: apportioning blame to hidden weights from an output error was intractable.<sup id="fnref:winter"><a href="#fn:winter" class="footnote" rel="footnote" role="doc-noteref">8</a></sup></p>
+
+<p><strong>The Theorem: A single-layer perceptron can only solve linearly separable problems.</strong></p>
+
+<p>The diagnostic case is XOR: output 1 when inputs differ, 0 when they match.</p>
+
+<figure class="d-figure">
+<div style="display:flex;gap:2rem;align-items:flex-start;justify-content:center;flex-wrap:wrap;">
+<div>
+<p style="font-size:.85rem;color:#555;margin-bottom:.4rem;">The four XOR cases:</p>
+<table style="width:auto;font-size:.9rem;">
+<thead><tr><th>x₁</th><th>x₂</th><th>output</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>0</td><td><strong>0</strong></td></tr>
+<tr><td>0</td><td>1</td><td style="color:#4a90d9"><strong>1</strong></td></tr>
+<tr><td>1</td><td>0</td><td style="color:#4a90d9"><strong>1</strong></td></tr>
+<tr><td>1</td><td>1</td><td><strong>0</strong></td></tr>
+</tbody>
+</table>
+</div>
+<svg width="200" height="200" viewBox="0 0 200 200">
+  <line x1="30" y1="170" x2="185" y2="170" stroke="#ccc" stroke-width="1" />
+  <line x1="30" y1="170" x2="30" y2="15" stroke="#ccc" stroke-width="1" />
+  <text x="188" y="173" font-size="10" fill="#aaa">x₁</text>
+  <text x="25" y="13" font-size="10" fill="#aaa">x₂</text>
+  <circle cx="60" cy="140" r="11" fill="#e9e9e9" stroke="#aaa" stroke-width="1.5" />
+  <circle cx="155" cy="50" r="11" fill="#e9e9e9" stroke="#aaa" stroke-width="1.5" />
+  <circle cx="60" cy="50" r="11" fill="#4a90d9" stroke="#2a6cb0" stroke-width="1.5" />
+  <circle cx="155" cy="140" r="11" fill="#4a90d9" stroke="#2a6cb0" stroke-width="1.5" />
+  <text x="60" y="140" text-anchor="middle" dominant-baseline="middle" font-size="9" fill="#666">(0,0)</text>
+  <text x="60" y="50" text-anchor="middle" dominant-baseline="middle" font-size="9" fill="#fff">(0,1)</text>
+  <text x="155" y="140" text-anchor="middle" dominant-baseline="middle" font-size="9" fill="#fff">(1,0)</text>
+  <text x="155" y="50" text-anchor="middle" dominant-baseline="middle" font-size="9" fill="#666">(1,1)</text>
+  <line x1="30" y1="170" x2="185" y2="15" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="6,3" opacity=".5" />
+  <line x1="30" y1="15" x2="185" y2="170" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="6,3" opacity=".5" />
+  <text x="100" y="192" text-anchor="middle" font-size="10" fill="#c0392b">No line separates ● from ○</text>
+</svg>
+</div>
+<figcaption>The two 1s sit at diagonally opposite corners. No straight line can separate blue from grey — not hard, <em>geometrically impossible</em>.</figcaption>
+</figure>
+
+<p>The crucial distinction, easy to miss:</p>
+<ul>
+  <li>M-P proved: you <em>can</em> build XOR with a hand-wired multi-layer circuit.</li>
+  <li>Minsky &amp; Papert proved: a single-layer network <em>cannot learn</em> the weights for XOR.</li>
+</ul>
+
+<p>These are different claims. The first is about representational capacity. The second is about learnability. Minsky and Papert were right about single-layer networks.</p>
+
+<p>The implicit claim that multi-layer networks couldn’t be trained either was never proved. It was an open problem, stated as a verdict.</p>
+
+<p><span class="sidenote">XOR is not showing that neural networks can’t learn nonlinear patterns. It’s showing that a single-layer network can’t even <em>represent</em> XOR — no weights exist that would make it correct, because no line can separate the points. Add one hidden layer and the problem vanishes: the hidden layer bends the input space until the classes are linearly separable. </span></p>
+
+<div class="demo-link">⚡ <span class="demo-label">Try it out:</span> <a href="https://www.playwithml.com/projects/xor" target="_blank">playwithml.com/projects/xor</a> — set hidden layers to 0 and watch it fail, then add a hidden layer and watch it work.</div>
+
+<p>The Irony The credit assignment problem asks: how do you propagate an error signal backward through multiple layers to assign blame to hidden weights?
+The answer was already implicit in the architecture. Multi-layer networks are <em>compositions</em> of functions. The chain rule from calculus decomposes the gradient of any composition layer by layer. This is exactly what was needed. The same compositional structure that made the networks hard to train made the gradient decomposable. The problem contained its own solution.</p>
+
+<p>The ideas for backpropagation existed earlier<sup id="fnref:backprop2"><a href="#fn:backprop2" class="footnote" rel="footnote" role="doc-noteref">9</a></sup> but didn’t land until the conditions were right.
+Say you are about to make a stupid decision. Be honest - would you rather your therapist say nothing, call you out kindly, or call you out frankly?</p>
+
+<p>Where the Threads Went: Three threads survived the winter independently and reconverged in the 1980s–90s:</p>
+<ul>
+  <li>The supervised learning thread (Rosenblatt → Werbos → Rumelhart/Hinton, backprop 1986);</li>
+  <li>The unsupervised thread (Hebb → Hopfield’s associative memory 1982, which showed that recurrent networks with Hebbian-style weights could store and retrieve patterns);</li>
+  <li>The cycles thread (M-P → Kleene → Hopfield → LSTMs → transformers). None of them died. They went underground and came back as the ingredients of deep learning.</li>
+</ul>
+
+<p>How it was solved is the story of the next era — continued in <a href="/courses/neural-networks/1986-2012">Neural Networks: The Deep Learning Revolution</a>.</p>
+
+<p><strong>XOR Symmetry Proof</strong></p>
+
+<p>But the conjecture is false for the general case (if the data is not linearly separable):</p>
+
+<p>Think of XOR function on input (x1, x2). We want the machine to say YES when either x1, or x2, but not both, are 1, otherwise 0. Think about what one correction, made to fix one point, can do to the other three. Convergence would mean every  point correctly classified, which would mean a w*. But does there exist such a vector?</p>
+
+<p>Proof:</p>
+<ul>
+  <li>Perceptron’s decision boundary is exactly the set where a weighted sum crosses a threshold. This is the machine’s capability.  That set is a straight line. We can translate this problem to a graph, with the inputs as coordinates. Here inputs represent four corners of the square. The search for a weight vector then be thought of as a search of a line that separates the cases where XOR is 1 from cases where XOR is 0. Plotting inputs as points imports geometry’s entire vocabulary, sides, betweenness, convexity - for free,
+and those are precisely the notions a threshold machine traffics in.</li>
+</ul>
+
+<p>Once you commit to “what must every line obey,” you look at a line’s output — a half-plane — as a set, and ask: what operations is this set closed under? But you don’t test random operations. The form of the tool tells you which operation to probe.</p>
+
+<ul>
+  <li>You tried and failed once. The amateur tries ten more times; the move is to treat repeated failure as evidence of a law and go hunting for the law.  Once you’re hunting a law, you ask what property no straight line can escape.  The question silently changes from “where does the line go?” to “what must every possible line obey?” Find the invariant</li>
+  <li>That’s the segment property (half-planes are convex).  Once you commit to “what must every line obey,” you look at a line’s output — a half-plane — as a set, and ask: what operations is this set closed under? But you don’t test random operations. The form of the tool tells you which operation to probe. Your tool is linear (a weighted sum), and the one thing
+linearity always respects is averaging: n·(average of points) = average of (n·points). So the natural operation to test is “take two points in the set and average them.” Do it: two points on the same side of the cut — is their midpoint also on that side? Yes, forced. That closure-under-averaging is convexity.</li>
+  <li>The key realisation is what an invariant is: a necessary condition, not a construction recipe.  Convexity tells you what a valid line must satisfy; it gives you no procedure to build one. So you literally cannot “take th invariant and find the line” — a necessary property can only rule lines out, never conjure one. the invariant’s only power is negative: to prove no line exists. How do you turn a property into an impossibility? An nvariant hands you implications: “valid line ⟹ this point on this side.” One implication never contradicts itself. To get a  contradiction you need two implications that make incompatible demands on the same object.</li>
+  <li>That is why you go hunting for a shared witness — a single object that two of the problem’s requirements both constrain.A shared witness. Then you look for a single point that two opposing requirements are both forced to claim. The centre is that witness: it lies on the fire-diagonal and the silent-diagonal at once. One object, two incompatible demands — a contradiction. 
+    - “both fire-points together” ⟹ their midpoint on the fire side,
+    - “both silent-points together” ⟹ their midpoint on the silent side,
+    <ul>
+      <li>And you ask: is there an object both clauses talk about? The two midpoints — and they’re the same point. Collision.</li>
+    </ul>
+
+    <p>So the search for the shared witness is the search for where the invariant’s two implications overlap</p>
+  </li>
+  <li>So at every weight setting at least one of the four points is misclassified; there is always a correction waiting; the corrections perpetually undo one another. The weight arrow swings back and forth, chasing a line that isn’t there, and the machine never falls silent.</li>
+</ul>
+
+<p>Let the data be two bit (x1, x2) and the function we need to compute be XOR
+or let the data be n bits (x1,x2….xn) and the function to be represented by a machine is parity. Note the data is invariant under permitation: permute any input and the output should be the same. Any machine that computes this must also inherit this symmetry. False. weighted wires can also compute symmetry. What does that mean?</p>
+
+<p>If a problem exhibits symmetry, any unique or optimal solution must inherit that symmetry. Swapping the input data fed into the original machine is mathematically identical to feeding the original input data into a rewired machine.</p>
+
+<p>Symmetry proof that computing parity is impossible for a perceptron with order d</p>
+
+<p>(2) The result fed into broader conversations about the <a href="https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis">Church-Turing thesis</a> — what machines can in principle compute.</p>
+
+<p>(3) The thread was then largely dropped by the neural network field, which pivoted to <em>learning</em> via feedforward networks where error signals are easier to define. Cyclic networks came back as <a href="https://en.wikipedia.org/wiki/Hopfield_network">Hopfield networks (1982)</a>, then <a href="https://en.wikipedia.org/wiki/Long_short-term_memory">LSTMs (1997)</a>, and finally the <a href="https://en.wikipedia.org/wiki/Attention_(machine_learning)">attention mechanism</a> in transformers — where memory and temporal reasoning are, again, everything.</p>
+
+<script src="/js/nn-history.js"></script>
+
+<script src="/js/convergence-viz.js"></script>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:cajal">
+      <p>Cajal and Golgi shared the 1906 Nobel Prize — and Golgi used his acceptance speech to publicly deny Cajal’s findings. The irony was complete: Cajal had used Golgi’s own silver staining technique to disprove Golgi’s theory. Golgi had the better tools; Cajal had the better eyes. They stood at the same podium and contradicted each other. Golgi never conceded. The neuron doctrine won not because its opponents were persuaded, but because they died. <a href="#fnref:cajal" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:mcculloch">
+      <p>McCulloch was a 40-year-old established neuropsychiatrist when he encountered Pitts, a homeless teenager, and brought him into his household. Their collaboration lasted years and produced foundational work. It ended in personal catastrophe: Norbert Wiener’s wife spread a rumor that Pitts had made advances toward Wiener’s daughters. Wiener cut off contact with McCulloch’s entire group without explanation. Pitts, who had treated Wiener as a father figure, was devastated. He burned his unpublished manuscripts, retreated into alcoholism, and died at 46. McCulloch never learned the true cause of the rupture until after Pitts was dead. <a href="#fnref:mcculloch" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:pitts">
+      <p>Pitts was a runaway teenager living on the streets of Chicago when McCulloch found him. He had taught himself Greek, Latin, and Principia Mathematica by age 12. He never finished high school, never earned a degree, and wrote one of the most influential papers in the history of neuroscience at age 18. <a href="#fnref:pitts" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:macy">
+      <p>The paper didn’t emerge from isolation. McCulloch and Pitts were embedded in the Macy Conferences (1946–1953), an extraordinary interdisciplinary salon that brought together Norbert Wiener, John von Neumann, Claude Shannon, Gregory Bateson, and Margaret Mead. Neuroscience, computing, information theory, and social science were being invented simultaneously in the same rooms. The concept of feedback and control — cybernetics — was the shared air. The McCulloch-Pitts paper was the output of an entire intellectual ecosystem, not two people working alone. <a href="#fnref:macy" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:cycles">
+      <p>The cycles thread split three ways. (1) <a href="https://en.wikipedia.org/wiki/Kleene%27s_theorem">Kleene (1951)</a> proved that M-P networks with cycles characterise exactly the <a href="https://en.wikipedia.org/wiki/Regular_language">regular languages</a> — the same class recognised by finite automata. This became a foundational result in formal language theory, still in every automata textbook, usually without crediting its neural net origin. <a href="#fnref:cycles" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:rosenblatt">
+      <p>Rosenblatt was a showman. He held press conferences. The <em>New York Times</em> in 1958 reported the Navy had built a machine that “will be able to walk, talk, see, write, reproduce itself and be conscious of its existence.” Rosenblatt didn’t exactly say all of this, but he didn’t discourage it either. The hype created the target. When Minsky and Papert published <em>Perceptrons</em> in 1969, the takedown landed harder because expectations had been so inflated. Rosenblatt died in a boating accident in 1971 — the year before the AI Winter fully set in. He never saw the vindication. <a href="#fnref:rosenblatt" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:minsky">
+      <p>The politics behind <em>Perceptrons</em> (1969) are still debated. Minsky was at MIT; Rosenblatt at Cornell. They were rivals. The book’s proof was technically correct — single-layer perceptrons cannot learn XOR — but it was widely read as condemning neural networks entirely, which it did not actually claim. The field largely believed this reading. The effect on funding was real and immediate. DARPA pulled support. An entire research programme collapsed. Whether this was a dispassionate scientific critique or a territorial hit on a competing paradigm, the book shaped what got funded for the next decade, which shaped what got discovered. <a href="#fnref:minsky" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:winter">
+      <p>The AI Winter that followed was institutional. DARPA cut neural network funding almost entirely after <em>Perceptrons</em>. Universities stopped hiring in the area. Graduate students were warned away from the topic — it was career poison. The handful of researchers who kept working (Hinton in Toronto, LeCun in Bell Labs, Schmidhuber in Switzerland) did so at the margins, on shoestring budgets, against professional advice. The ideas didn’t die; they went underground. What the funding structure decided was unproductive turned out to be the most productive direction in the history of machine learning. <a href="#fnref:winter" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:backprop2">
+      <p>Paul Werbos derived backpropagation in his 1974 Harvard PhD thesis. He got essentially no response — neuroscientists didn’t see the relevance, computer scientists weren’t reading theses in that corner of the library. David Parker rediscovered it independently in 1982. Yann LeCun derived it again in 1985. None of these earlier derivations had institutional weight behind them. Rumelhart, Hinton, and Williams published in <em>Nature</em> in 1986 — the same mathematics, but backed by the right names, at the right moment, in the right journal. The idea that gets remembered is the one that lands in fertile ground. The same discovery, made in the wrong soil, disappears. <a href="#fnref:backprop2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+<script>
+// Footnote popups
+(function() {
+  var popup = document.createElement('div');
+  popup.className = 'fn-popup';
+  document.body.appendChild(popup);
+
+  var hideTimer;
+
+  function getFootnoteContent(id) {
+    // id is like "fnref:key", footnote li id is "fn:key"
+    var fnId = id.replace('fnref:', 'fn:').replace('fnref-', 'fn:');
+    var li = document.getElementById(fnId) || document.getElementById(fnId.replace('fn:', 'fn-'));
+    if (!li) return null;
+    // Clone and strip the backref link
+    var clone = li.cloneNode(true);
+    var backref = clone.querySelector('.reversefootnote');
+    if (backref) backref.remove();
+    return clone.innerHTML.trim();
+  }
+
+  function show(content, anchorEl) {
+    popup.innerHTML = content;
+
+    // Measure height before revealing to get accurate offsetHeight
+    popup.style.visibility = 'hidden';
+    popup.style.display = 'block';
+    popup.classList.add('visible');
+
+    var rect = anchorEl.getBoundingClientRect();
+    var popupH = popup.offsetHeight;
+    var popupW = 340;
+    var gap = 8;
+
+    var left = rect.left;
+    if (left + popupW > window.innerWidth - 16) {
+      left = window.innerWidth - popupW - 16;
+    }
+    if (left < 8) left = 8;
+
+    // Default: below the anchor
+    var top = rect.bottom + gap;
+    // Flip above if it would overflow the bottom
+    if (top + popupH > window.innerHeight - 8) {
+      top = rect.top - gap - popupH;
+    }
+    // If flipping above also goes off-screen (very tall popup), clamp to top
+    if (top < 8) top = 8;
+
+    popup.style.top = top + 'px';
+    popup.style.left = left + 'px';
+    popup.style.visibility = '';
+  }
+
+  function hide() {
+    popup.classList.remove('visible');
+  }
+
+  // Keep popup open when mouse moves into it
+  popup.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+  popup.addEventListener('mouseleave', function() { hideTimer = setTimeout(hide, 200); });
+
+  // Click outside to close
+  document.addEventListener('click', function(e) {
+    if (!popup.contains(e.target)) hide();
+  });
+
+  popup.style.pointerEvents = 'auto';
+
+  document.querySelectorAll('.d-article sup[id^="fnref"] a').forEach(function(a) {
+    var supEl = a.parentElement;
+    a.addEventListener('mouseenter', function() {
+      clearTimeout(hideTimer);
+      var content = getFootnoteContent(supEl.id);
+      if (content) show(content, a);
+    });
+    a.addEventListener('mouseleave', function() {
+      hideTimer = setTimeout(hide, 200);
+    });
+    // Prevent jumping to footnote on click
+    a.addEventListener('click', function(e) { e.preventDefault(); });
+  });
+})();
+</script>
+
+<script>
+// Table of contents
+(function() {
+  var headings = document.querySelectorAll('.d-article h2, .d-article h3');
+  var toc = document.getElementById('toc-list');
+  var currentH2Li = null;
+  var currentSubList = null;
+
+  headings.forEach(function(h, i) {
+    if (!h.id) h.id = 'section-' + i;
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+
+    if (h.tagName === 'H2') {
+      toc.appendChild(li);
+      currentH2Li = li;
+      currentSubList = null;
+    } else if (h.tagName === 'H3') {
+      if (!currentSubList) {
+        currentSubList = document.createElement('ul');
+        if (currentH2Li) currentH2Li.appendChild(currentSubList);
+        else toc.appendChild(currentSubList);
+      }
+      currentSubList.appendChild(li);
+    }
+  });
+})();
+</script>
+
+
+    
+ <!--  <div id="footer">
+          <address>
+            <span class="copyright">
+                Content &amp; Design by <a href="/about/">Piyush Ahuja</a>
+                <br/>
+                (<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)      
+            </span>
+            <span class="engine">
+                Powered by <a href="http://github.com/mreid/jekyll/" title="A static, minimalist CMS">Jekyll</a>
+            </span>
+        </address>
+
+  </div>  -->
+
+  </div> 
+
+
+</body>
+</html>
+
+
+
+
+  
+  
+  

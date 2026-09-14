@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+   <meta http-equiv="content-type" content="text/html"; charset= "utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Some passably good ideas">
+    <meta name ="author" content="Piyush Ahuja">
+
+    
+    
+    <title>Neural Networks: The Deep Learning Revolution</title>
+  <!--    -->
+    <link rel="canonical" href="https://piyushahuja.com/courses/neural-networks/2012-2016">  
+
+    <link rel="stylesheet" href="/css/main-new.css" media="screen and (max-width: 479px)">
+
+    <!-- Desktop styles -->
+    <link rel="stylesheet" href="/css/screen.css" media="screen and (min-width: 480px)">
+
+   
+
+
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    
+    <link rel="stylesheet" href="/css/distill.css">
+    
+
+    
+
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$'], ['\\[','\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+   
+</head>
+
+
+
+
+
+  
+  <body id = "">
+
+  <div id = "site">
+
+  <div class="d-title">
+  <h1>Neural Networks: The Deep Learning Revolution</h1>
+  <p class="d-subtitle">How raw pixels beat hand-crafted features, and what the architecture wars revealed about depth.</p>
+</div>
+
+<hr class="d-title-rule">
+
+<div class="d-byline">
+  <div class="d-byline-inner">
+    <div class="d-byline-col">
+      <span class="d-byline-label">Author</span>
+      <span class="d-byline-value">Piyush Ahuja</span>
+    </div>
+    <div class="d-byline-col">
+      <span class="d-byline-label">Published</span>
+      <span class="d-byline-value">Apr 20, 2026</span>
+    </div>
+  </div>
+</div>
+
+<div class="d-article-grid">
+
+  <nav class="d-contents" id="d-toc">
+    <h4>Contents</h4>
+    <ul id="toc-list"></ul>
+  </nav>
+
+  <article class="d-article">
+    <blockquote>
+  <p>The idea that you could take raw pixels and learn everything — features, combinations, decisions — in a single end-to-end pass had been dismissed for 20 years. Then it worked.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="what-came-before-the-hand-crafted-feature-era">What Came Before: The Hand-Crafted Feature Era</h2>
+
+<p>By 2010, computer vision had a standard pipeline. You hired domain experts to specify what patterns mattered — edges, gradients, histograms of oriented gradients — and encoded these as hand-crafted feature extractors. Then you fed those features to a classifier, usually an SVM. Learning happened only at the final stage. The features themselves were never learned; they were engineered.</p>
+
+<p>The assumption behind this pipeline: raw pixels are too noisy, too high-dimensional, too full of irrelevant variation. You need human domain knowledge to distill the signal. The gap between pixels and meaning is too large to bridge by learning alone.</p>
+
+<p>Three things were competing with neural networks in 2011:</p>
+
+<ul>
+  <li><strong>SVMs with engineered features</strong> — SIFT, HOG, Fisher vectors. Theoretically grounded, strong benchmark performance, interpretable. The academic mainstream.</li>
+  <li><strong>Shallow neural nets</strong> — still struggling with the vanishing gradient on anything deeper than 2–3 layers. Hinton’s 2006 pretraining had reopened the question, but on most benchmarks they still didn’t beat SVMs.</li>
+  <li><strong>The assumption that data didn’t matter</strong> — the field was bottlenecked, it was thought, by algorithms, not by data. More images wouldn’t help if the models couldn’t use them.</li>
+</ul>
+
+<p>The question that separated these camps: <strong>does intelligence come from better algorithms applied to compact representations, or from learning representations directly from data at scale?</strong></p>
+
+<p>The answer arrived in September 2012, in a single result.</p>
+
+<hr />
+
+<h2 id="the-data-that-made-it-possible-imagenet">The Data That Made It Possible: ImageNet</h2>
+
+<p>Before the algorithm, there had to be the data. In January 2007, Fei-Fei Li arrived at Princeton as a new assistant professor with an idea that her field considered too ambitious.<span class="sidenote">Jitendra Malik, one of the most respected figures in computer vision, warned her: <em>“The trick to science is to grow with your field. Not to leap so far ahead of it.”</em> She built ImageNet anyway.</span></p>
+
+<p>Her insight was that the field was wrong about where the bottleneck was. It wasn’t algorithms. It was data. Cognitive psychologist Irving Biederman estimated humans recognise roughly 30,000 object categories. The datasets the field was training on had tens or hundreds. The mismatch wasn’t a detail — it was the entire problem.</p>
+
+<p>She designed ImageNet after WordNet, a linguistic database of English concepts, mapping the noun hierarchy to images. The architecture was clear. The labour was not. Labelling millions of images by hand was humanly impossible.</p>
+
+<p>Then a graduate student showed her Amazon Mechanical Turk in a hallway. She later said: <em>“Literally that day, I knew the ImageNet project was going to happen.”</em> Over the next 21 months — July 2008 to April 2010 — 49,000 workers from 167 countries labelled 14 million images, each labelled three times. Approximately 19 human-years of effort at maximum classification speed.</p>
+
+<p>The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) launched in 2010. In 2010 and 2011, the winners used linear SVMs on compressed features. Top-5 error rates hovered around 26%. The problems felt hard. Progress felt incremental.</p>
+
+<p>In 2012, a team called SuperVision entered. Top-5 error: <strong>15.3%</strong>. Second place: <strong>26.2%</strong>.</p>
+
+<p>The gap was not incremental. It was a discontinuity.</p>
+
+<hr />
+
+<h2 id="2012--alexnet-the-same-ideas-finally-at-scale">2012 — AlexNet: The Same Ideas, Finally at Scale</h2>
+
+<p>The SuperVision team was three people: Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, all at the University of Toronto.<sup id="fnref:alexnet"><a href="#fn:alexnet" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> Their network — later called AlexNet — was not architecturally novel. The ideas were all from lesson 2: convolutions, pooling, ReLU, backprop. What was new was the assembly.</p>
+
+<h3 id="the-gpu-insight">The GPU Insight</h3>
+
+<p>The network had 60 million parameters. A single NVIDIA GTX 580 GPU had 3GB of VRAM. It didn’t fit. Krizhevsky split the network across two GPUs — half the feature maps on each, communicating at specific layers. This was a constraint, not a design choice. But it worked.</p>
+
+<p>A GPU is hardware for massively parallel floating-point operations — built for rendering video games, where millions of pixels need the same matrix operations applied simultaneously. A forward pass through a neural network is the same operation: for every neuron, compute a weighted sum of inputs. The computation is embarrassingly parallel. The hardware was already there. Krizhevsky wrote the CUDA kernels to use it.</p>
+
+<p>Training time: 5–6 days. The same network on a CPU would have taken months.</p>
+
+<figure class="d-figure">
+<div id="alexnet-arch-viz"></div>
+<figcaption><strong>AlexNet architecture.</strong> Input image flows through 5 convolutional layers (split across two GPUs, shown in blue/orange) then 3 fully-connected layers to 1000-class output. Hover layers to see dimensions and parameter counts.</figcaption>
+</figure>
+
+<h3 id="relu-the-activation-that-made-depth-work">ReLU: The Activation That Made Depth Work</h3>
+
+<p>Lesson 2 introduced the vanishing gradient: sigmoid’s derivative peaks at 0.25, so gradients decay exponentially through deep layers. AlexNet trained 6× faster than an equivalent tanh network, and the reason was ReLU.<span class="sidenote">ReLU — $\max(0,x)$ — has derivative exactly 1 for positive inputs. Chain-multiplying 1s through 10 layers gives 1, not $0.25^{10} \approx 10^{-6}$. No compounding decay. The function was well-known in computational neuroscience for decades — biological neurons are approximately ReLU-shaped. Nobody thought to use it in artificial networks until Glorot &amp; Bengio (2010) diagnosed why sigmoid was failing, and Nair &amp; Hinton (2010) showed ReLU worked better. Krizhevsky used it in AlexNet two years later.</span></p>
+
+<p>The derivative of ReLU is either 0 (neuron off) or 1 (neuron on). Gradients pass through active neurons unchanged. Dead neurons contribute nothing — but enough neurons stay active that the network trains.</p>
+
+<h3 id="dropout-regularisation-as-ensembling">Dropout: Regularisation as Ensembling</h3>
+
+<p>With 60 million parameters and ~1 million training images, AlexNet should have overfit catastrophically. It didn’t, largely because of dropout.</p>
+
+<p>The mechanism: during each forward pass, randomly zero out each neuron with probability 0.5. At test time, use all neurons but scale activations down by 0.5 (or equivalently, scale up during training — <em>inverted dropout</em>).<span class="sidenote">Hinton’s first implementation didn’t work. He had missed that at test time, each neuron fires with probability 1 but was trained expecting to fire only 50% of the time. The expected activation at test time is twice the training-time expectation. The fix: scale activations by $(1-p)$ at test, or by $1/p$ during training. The second approach (inverted dropout) is now standard — no scaling needed at inference.</span></p>
+
+<p>The ensemble interpretation: each dropout mask defines a different subnetwork. Training with dropout is approximately training $2^n$ different networks (one per mask) that share parameters. At test time, the full network is a geometric mean of this ensemble. This is why it doesn’t overfit — it can’t memorise with different units disabled each time.</p>
+
+<h3 id="data-augmentation-turning-one-image-into-many">Data Augmentation: Turning One Image into Many</h3>
+
+<p>AlexNet introduced several augmentation techniques that are now standard:</p>
+
+<ul>
+  <li><strong>Random crops</strong>: resize so the shorter side is random in [256, 480], then sample random 224×224 crops. At test: 10 fixed crops (4 corners + centre, times 2 for horizontal flip). Average their scores.</li>
+  <li><strong>Horizontal flipping</strong>: one line of numpy. Doubles the dataset. Cats are cats whether facing left or right.</li>
+  <li><strong>PCA colour jittering</strong>: compute the principal components of the RGB values across training images — the directions colour varies most. Apply random perturbations along these axes. The network becomes invariant to lighting and colour cast.</li>
+</ul>
+
+<p>The philosophy: think about what transformations your classifier should be invariant to, then artificially introduce those variations.</p>
+
+<h3 id="the-result--and-what-it-meant">The Result — and What It Meant</h3>
+
+<p>15.3% vs 26.2% was not a better result. It was a different regime. The hand-crafted feature pipeline had been refined for 20 years. AlexNet’s raw-pixel-to-label approach, with the right hardware and the right regularisation, beat it on the first serious attempt.</p>
+
+<p>The irony: nothing in AlexNet was mathematically new. Convolutions (LeCun, 1989). ReLU (known since the 1960s in neuroscience). Dropout (Hinton, 2012 — but the concept of ensemble regularisation was not new). The GPU was repurposed gaming hardware. What was new was the decision to assemble all of it at once, at scale.</p>
+
+<p>The field converted almost overnight. The 2013 ILSVRC top entries were all deep convolutional networks.</p>
+
+<hr />
+
+<h2 id="the-architecture-wars-20132016">The Architecture Wars: 2013–2016</h2>
+
+<p>The next three years produced a rapid series of architectures, each introducing one key idea. The effect was cumulative: each solved a problem left open by the previous one.</p>
+
+<h3 id="vggnet-2014--depth-through-uniformity">VGGNet (2014) — Depth Through Uniformity</h3>
+
+<p>Karen Simonyan and Andrew Zisserman at Oxford asked: what if you used <em>only</em> 3×3 filters, everywhere, and just went deeper?</p>
+
+<p>The key observation: two stacked 3×3 convolutions have the same receptive field as one 5×5. Three stacked 3×3s equal one 7×7. But the parameters differ dramatically:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Filter</th>
+      <th>Parameters (C channels)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7×7 single</td>
+      <td>49C²</td>
+    </tr>
+    <tr>
+      <td>Three 3×3 stacked</td>
+      <td>27C²</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Fewer parameters, same receptive field, <strong>more nonlinearity</strong> (three ReLUs vs. one). The case for small filters stacked deep is almost arithmetically obvious in hindsight. VGGNet discovered it empirically — the theoretical framing came later.</p>
+
+<p>VGGNet went to 16–19 layers. It won the 2014 ILSVRC localisation task and came second in classification. The lesson: depth matters more than filter size, and uniformity (one kind of block, repeated) is easier to tune than complexity.</p>
+
+<p>The problem VGGNet exposed: its fully-connected layers at the end hold most of its parameters and memory. You can’t run large batches on a single GPU. The architecture worked; it didn’t scale cleanly.</p>
+
+<figure class="d-figure">
+<div id="filter-stack-viz"></div>
+<figcaption><strong>3×3 stacking vs. large filters.</strong> Two 3×3 convolutions reach the same 5×5 receptive field as one 5×5, with 18C² parameters instead of 25C² and an extra nonlinearity. Three reach a 7×7 field for 27C² instead of 49C². Slide to see the receptive field grow.</figcaption>
+</figure>
+
+<h3 id="googlenet--inception-2014--width-through-parallel-paths">GoogLeNet / Inception (2014) — Width Through Parallel Paths</h3>
+
+<p>Google’s entry asked the opposite question: instead of going deeper uniformly, what if the network decided which scale mattered at each layer?</p>
+
+<p>The Inception module runs multiple convolutions in parallel — 1×1, 3×3, 5×5 — and concatenates their outputs. At each layer, the network can detect fine-grained local patterns (1×1), medium structures (3×3), and coarser patterns (5×5) simultaneously. Pooling runs in parallel too.</p>
+
+<figure class="d-figure">
+<div id="inception-module-viz"></div>
+<figcaption><strong>The Inception module.</strong> Four parallel branches — 1×1 conv, 3×3 conv, 5×5 conv, max pooling — concatenated depth-wise. The 1×1 convolutions before the 3×3 and 5×5 branches are bottlenecks that reduce channel depth before the expensive operations.</figcaption>
+</figure>
+
+<p>The problem: running 5×5 convolutions on a deep feature map is expensive. The solution was the <strong>1×1 convolution</strong> as a bottleneck.</p>
+
+<p>A 1×1 convolution looks trivial — a dot product applied to each spatial location independently, no spatial context. But it mixes channels. If you have 256 channels and apply 64 1×1 filters, you project from 256-dimensional to 64-dimensional at each spatial location. Then run your 3×3 convolution in 64-dimensional space instead of 256-dimensional. Then project back up with another 1×1. Parameters: $C \to C/4 \to C/4 \to C$ via 1×1, 3×3, 1×1 costs roughly $3.75C^2$ instead of $9C^2$ for a plain 3×3 in the full space.<span class="sidenote">The 1×1 convolution is equivalent to a fully-connected layer applied independently at each spatial location — sometimes called “network-in-network.” It was proposed independently by Lin et al. (2013) as a general architectural principle. GoogLeNet imported it as a tool for computational efficiency.</span></p>
+
+<p>GoogLeNet had 22 layers but fewer parameters than AlexNet. It removed the fully-connected layers at the end entirely, replacing them with Global Average Pooling — average each feature map to a single number, then classify. This dropped parameter count by an order of magnitude and eliminated VGGNet’s memory problem.</p>
+
+<h3 id="resnet-2015--the-anomaly-that-changed-everything">ResNet (2015) — The Anomaly That Changed Everything</h3>
+
+<p>Kaiming He and colleagues at Microsoft Research Asia observed something that shouldn’t happen: a 56-layer network performed <strong>worse than a 20-layer network on training data</strong>.</p>
+
+<p>This is not overfitting. Overfitting means the training accuracy is high but test accuracy is low. Here, training accuracy itself was lower with more layers. If the extra 36 layers could learn identity mappings — output equals input — the 56-layer net would at worst equal the 20-layer net. It did worse. Something was preventing the optimiser from finding even the identity solution.</p>
+
+<p>The insight: the identity mapping is hard to learn when you’re looking for it directly. If you parameterise a layer as $F(x)$, it needs to produce $x$ exactly when the right answer is “do nothing.” But if you parameterise it as a <em>residual</em> — frame the layer as learning $F(x) = H(x) - x$, the difference from identity — then “do nothing” corresponds to $F(x) = 0$. And learning zero is easy: just push the weights toward zero.</p>
+
+\[\text{Output} = F(x) + x\]
+
+<p>The skip connection $+x$ costs nothing — it’s a wire, not a parameter. The layer learns the residual; the identity flows through the shortcut.<span class="sidenote">The residual connection also solves the vanishing gradient. Gradients can flow directly through the skip path — bypassing the layer entirely — so the signal reaching early layers doesn’t decay through 100 chain-rule multiplications. This is the same structural insight as the LSTM’s constant error carousel: build an identity highway for gradients.</span></p>
+
+<figure class="d-figure">
+<div id="residual-block-viz"></div>
+<figcaption><strong>A residual block.</strong> The input x flows through two conv layers (computing F(x)) and also directly via skip connection. Output = F(x) + x. Toggle "plain" vs "residual" to see gradient flow during backprop — watch how the skip connection routes signal directly to early layers.</figcaption>
+</figure>
+
+<p>ResNet went to 152 layers. ImageNet top-5 error: 3.57% — roughly human performance. It won ILSVRC 2015 across classification, detection, localisation, and segmentation simultaneously. It is the most cited deep learning paper in history (298,000+ citations).</p>
+
+<p>The irony: the problem that motivated residual connections — “why can’t extra layers learn identity?” — had its answer in the framing itself. The problem wasn’t depth. It was parameterisation. Change how you frame the target, and depth stops being the enemy.</p>
+
+<div class="demo-link">⚡ <span class="demo-label">Architecture comparison:</span> <a href="https://paperswithcode.com/sota/image-classification-on-imagenet" target="_blank">Papers With Code: ImageNet Leaderboard</a> — see the full progression from AlexNet (2012) to the present. Error rate as a function of year is a picture of what the architecture wars accomplished.</div>
+
+<hr />
+
+<h2 id="what-transfer-learning-revealed">What Transfer Learning Revealed</h2>
+
+<p>The architecture wars produced a side discovery more important than any single benchmark: deep CNNs learn <em>general</em> visual representations, not task-specific ones.</p>
+
+<p>In 2013, researchers took AlexNet — trained entirely on ImageNet — froze its weights, attached a simple linear classifier to its penultimate layer, and applied it to completely different datasets: scene recognition, fine-grained bird classification, medical imaging. The result, which the community called the “Astounding Baseline”: these frozen ImageNet features beat hand-crafted state-of-the-art pipelines on nearly every dataset tested.</p>
+
+<p>The network had never seen a bird category. It had never seen a medical scan. But the features it learned — edges in layer 1, textures in layer 2, parts in layer 3, objects in layer 4 — transferred. The lower layers were learning genuinely universal visual primitives.</p>
+
+<p>This reframed what deep learning was doing. It wasn’t just classification. It was <strong>representation learning</strong> — finding a compressed, general description of visual structure that was useful for any downstream task.</p>
+
+<h3 id="the-transfer-learning-recipe">The Transfer Learning Recipe</h3>
+
+<figure class="d-figure">
+<div id="transfer-learning-viz"></div>
+<figcaption><strong>Transfer learning strategy by dataset size.</strong> Lower layers learn universal features (edges, textures) — safe to freeze. Upper layers learn task-specific features — fine-tune these. The less data you have, the more you freeze.</figcaption>
+</figure>
+
+<p>Three regimes:</p>
+
+<ol>
+  <li>
+    <p><strong>Very small dataset</strong> (hundreds of examples): freeze the entire network, replace the final softmax with a linear classifier for your classes, train only that layer. The network is a fixed feature extractor. You can cache the features to disk — the expensive forward pass only runs once.</p>
+  </li>
+  <li>
+    <p><strong>Moderate dataset</strong> (thousands of examples): freeze lower layers (edges, textures — universal), fine-tune upper layers (task-specific combinations). Use a lower learning rate than the original training — the upper layers are already in a good neighbourhood; large updates would destroy that.<span class="sidenote">Why lower learning rate? The last layer is randomly initialised (it has your classes, not ImageNet classes), so its gradients are large in early fine-tuning. If the learning rate is too high, these large gradients propagate backward and corrupt the carefully-learned lower layers. Start by training only the last layer until it stabilises, then unfreeze upper layers with a smaller learning rate.</span></p>
+  </li>
+  <li>
+    <p><strong>Large dataset</strong> (millions of examples): fine-tune everything. You have enough data to update all weights without overfitting. The pretrained weights still help — they give gradient descent a good starting point.</p>
+  </li>
+</ol>
+
+<p>What it is NOT: starting from scratch. Even with a large dataset, starting from pretrained weights almost always beats random initialisation. The landscape of the loss function near a good pretrained solution is smoother than near random initialisation.</p>
+
+<hr />
+
+<h2 id="the-same-idea-on-a-different-board-alphago">The Same Idea on a Different Board: AlphaGo</h2>
+
+<p>In 2016, DeepMind’s AlphaGo defeated Lee Sedol, the world champion Go player, 4–1. Go had been considered AI-complete — a domain where brute-force search was impossible (the branching factor is ~250, vs chess’s ~35) and human intuition seemed irreplaceable. AlphaGo used CNNs as its core.<sup id="fnref:alphago"><a href="#fn:alphago" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
+
+<p>The insight, due to David Silver and Demis Hassabis: <strong>a Go board is an image</strong>. A 19×19 position encoded as 48 feature planes (stone colour, liberties, move history) is a 19×19×48 tensor. A convolutional filter scanning this tensor detects local patterns — the same local-pattern-detection that makes CNNs work on photographs. A “ladder” — a well-known capture sequence spanning many stones — is a spatial pattern. A CNN with enough depth can recognise it.</p>
+
+<p>The policy network (13 convolutional layers, no pooling) takes a board position and outputs a probability distribution over legal moves. The value network takes a position and outputs a single scalar — expected win probability. These networks were trained first on human expert games (supervised), then improved by self-play (reinforcement learning). Monte Carlo Tree Search used both networks to guide search.</p>
+
+<p>The CNN insight here is the meta-insight from lesson 2: <strong>the right inductive bias, baked into the architecture, can substitute for enormous amounts of search and domain knowledge</strong>. A Go board has local spatial structure — whether a group lives or dies depends on nearby stones. Convolutions capture exactly this. The domain knowledge isn’t hand-coded; it emerges from the architecture’s assumption that nearby inputs are related.</p>
+
+<p>The same principle extends everywhere that spatial or local relational structure exists: protein folding (AlphaFold), drug discovery, physics simulations, circuit design.</p>
+
+<hr />
+
+<h2 id="what-this-era-left-open">What This Era Left Open</h2>
+
+<p>The CNN era solved end-to-end visual learning. Three gaps remained:</p>
+
+<p><strong>Sequential data</strong>: CNNs work because images have spatial structure — translation equivariance is the right inductive bias for pixels. But text, audio, and any sequence where context spans long distances has <em>temporal</em> structure, not spatial. A word’s meaning depends on words arbitrarily far away, not just its neighbours. CNNs applied naively to text have limited receptive fields. This gap is what RNNs and then transformers were built to close — the story of the next era.</p>
+
+<p><strong>The generalisation mystery</strong>: ResNet has 25 million parameters. ImageNet has 1.2 million training images. Classical statistics says this should overfit catastrophically — there are far more model degrees of freedom than data points. It doesn’t. The networks generalise. Why? The classical theory (VC dimension, Rademacher complexity) says they shouldn’t. The empirical fact is that they do. This gap between theory and practice — the <em>double descent</em> phenomenon, benign overfitting — remains genuinely open.</p>
+
+<p><strong>The inductive bias question</strong>: Every architecture in this era baked in assumptions. CNNs assume local spatial structure. ResNets assume identity is a reasonable starting point. GoogLeNet assumes multiple scales matter simultaneously. These assumptions were right for images, and made the architectures enormously data-efficient. But as scale increased, an alternative emerged: use a completely general architecture with almost no inductive bias, train it on enough data, and let the bias emerge. That architecture is the transformer. When built-in bias helps vs. when raw scale makes it unnecessary is still not understood.</p>
+
+<p><em>Continued in <a href="/courses/neural-networks/2016-2017">Neural Networks: Sequence, Memory, and Attention</a></em></p>
+
+<hr />
+
+<script src="/js/nn-history.js"></script>
+
+<script src="/js/alexnet-arch-viz.js"></script>
+
+<script src="/js/filter-stack-viz.js"></script>
+
+<script src="/js/inception-module-viz.js"></script>
+
+<script src="/js/residual-block-viz.js"></script>
+
+<script src="/js/transfer-learning-viz.js"></script>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:alexnet">
+      <p>Hinton has said: <em>“Ilya thought we should do it, Alex made it work, and I got the Nobel Prize.”</em> Sutskever believed neural network performance would scale with data; Krizhevsky built the CUDA implementation that proved it. After winning ILSVRC 2012, the three formed DNNresearch. Hinton’s back condition prevents flying; the acquisition auction with Google, Microsoft, DeepMind, and Baidu happened by laptop between sessions at a conference in Lake Tahoe. Google won for approximately $44 million in March 2013. <a href="#fnref:alexnet" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:alphago">
+      <p>Hassabis founded DeepMind in 2010 with the explicit goal of building general AI, starting with games. Silver, his research lead, had done his PhD on reinforcement learning for board games. The AlphaGo result shocked the Go community — Lee Sedol described move 37 in game 2, played by AlphaGo, as something no human would ever play, violating principles taught to every student. A professional commentator initially thought it was a mistake. It turned out to be a move of extraordinary creativity, invisible to human intuition because human players are trained to think locally. AlphaGo, with no such training bias, found it by policy gradient. <a href="#fnref:alphago" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+<script>
+// Footnote popups
+(function() {
+  var popup = document.createElement('div');
+  popup.className = 'fn-popup';
+  document.body.appendChild(popup);
+
+  var hideTimer;
+
+  function getFootnoteContent(id) {
+    // id is like "fnref:key", footnote li id is "fn:key"
+    var fnId = id.replace('fnref:', 'fn:').replace('fnref-', 'fn:');
+    var li = document.getElementById(fnId) || document.getElementById(fnId.replace('fn:', 'fn-'));
+    if (!li) return null;
+    // Clone and strip the backref link
+    var clone = li.cloneNode(true);
+    var backref = clone.querySelector('.reversefootnote');
+    if (backref) backref.remove();
+    return clone.innerHTML.trim();
+  }
+
+  function show(content, anchorEl) {
+    popup.innerHTML = content;
+
+    // Measure height before revealing to get accurate offsetHeight
+    popup.style.visibility = 'hidden';
+    popup.style.display = 'block';
+    popup.classList.add('visible');
+
+    var rect = anchorEl.getBoundingClientRect();
+    var popupH = popup.offsetHeight;
+    var popupW = 340;
+    var gap = 8;
+
+    var left = rect.left;
+    if (left + popupW > window.innerWidth - 16) {
+      left = window.innerWidth - popupW - 16;
+    }
+    if (left < 8) left = 8;
+
+    // Default: below the anchor
+    var top = rect.bottom + gap;
+    // Flip above if it would overflow the bottom
+    if (top + popupH > window.innerHeight - 8) {
+      top = rect.top - gap - popupH;
+    }
+    // If flipping above also goes off-screen (very tall popup), clamp to top
+    if (top < 8) top = 8;
+
+    popup.style.top = top + 'px';
+    popup.style.left = left + 'px';
+    popup.style.visibility = '';
+  }
+
+  function hide() {
+    popup.classList.remove('visible');
+  }
+
+  // Keep popup open when mouse moves into it
+  popup.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+  popup.addEventListener('mouseleave', function() { hideTimer = setTimeout(hide, 200); });
+
+  // Click outside to close
+  document.addEventListener('click', function(e) {
+    if (!popup.contains(e.target)) hide();
+  });
+
+  popup.style.pointerEvents = 'auto';
+
+  document.querySelectorAll('.d-article sup[id^="fnref"] a').forEach(function(a) {
+    var supEl = a.parentElement;
+    a.addEventListener('mouseenter', function() {
+      clearTimeout(hideTimer);
+      var content = getFootnoteContent(supEl.id);
+      if (content) show(content, a);
+    });
+    a.addEventListener('mouseleave', function() {
+      hideTimer = setTimeout(hide, 200);
+    });
+    // Prevent jumping to footnote on click
+    a.addEventListener('click', function(e) { e.preventDefault(); });
+  });
+})();
+</script>
+
+<script>
+// Table of contents
+(function() {
+  var headings = document.querySelectorAll('.d-article h2, .d-article h3');
+  var toc = document.getElementById('toc-list');
+  var currentH2Li = null;
+  var currentSubList = null;
+
+  headings.forEach(function(h, i) {
+    if (!h.id) h.id = 'section-' + i;
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+
+    if (h.tagName === 'H2') {
+      toc.appendChild(li);
+      currentH2Li = li;
+      currentSubList = null;
+    } else if (h.tagName === 'H3') {
+      if (!currentSubList) {
+        currentSubList = document.createElement('ul');
+        if (currentH2Li) currentH2Li.appendChild(currentSubList);
+        else toc.appendChild(currentSubList);
+      }
+      currentSubList.appendChild(li);
+    }
+  });
+})();
+</script>
+
+
+    
+ <!--  <div id="footer">
+          <address>
+            <span class="copyright">
+                Content &amp; Design by <a href="/about/">Piyush Ahuja</a>
+                <br/>
+                (<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)      
+            </span>
+            <span class="engine">
+                Powered by <a href="http://github.com/mreid/jekyll/" title="A static, minimalist CMS">Jekyll</a>
+            </span>
+        </address>
+
+  </div>  -->
+
+  </div> 
+
+
+</body>
+</html>
+
+
+
+
+  
+  
+  

@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+   <meta http-equiv="content-type" content="text/html"; charset= "utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Some passably good ideas">
+    <meta name ="author" content="Piyush Ahuja">
+
+    
+    
+    <title>Generative Models</title>
+  <!--    -->
+    <link rel="canonical" href="https://piyushahuja.com/courses/neural-networks/generative-models">  
+
+    <link rel="stylesheet" href="/css/main-new.css" media="screen and (max-width: 479px)">
+
+    <!-- Desktop styles -->
+    <link rel="stylesheet" href="/css/screen.css" media="screen and (min-width: 480px)">
+
+   
+
+
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    
+    <link rel="stylesheet" href="/css/distill.css">
+    
+
+    
+
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$'], ['\\[','\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+   
+</head>
+
+
+
+
+
+  
+  <body id = "">
+
+  <div id = "site">
+
+  <div class="d-title">
+  <h1>Generative Models</h1>
+  <p class="d-subtitle">Every image you have ever seen is a single point in a space so vast it dwarfs the observable universe. A generative model is a machine for navigating that space. How do you build one?</p>
+</div>
+
+<hr class="d-title-rule">
+
+<div class="d-byline">
+  <div class="d-byline-inner">
+    <div class="d-byline-col">
+      <span class="d-byline-label">Author</span>
+      <span class="d-byline-value">Piyush Ahuja</span>
+    </div>
+    <div class="d-byline-col">
+      <span class="d-byline-label">Published</span>
+      <span class="d-byline-value">Apr 19, 2026</span>
+    </div>
+  </div>
+</div>
+
+<div class="d-article-grid">
+
+  <nav class="d-contents" id="d-toc">
+    <h4>Contents</h4>
+    <ul id="toc-list"></ul>
+  </nav>
+
+  <article class="d-article">
+    <blockquote>
+  <p>The fundamental question of generative modelling: given that you have seen some things, what is the shape of the space of all possible things?</p>
+</blockquote>
+
+<hr />
+
+<h2 id="the-basic-problem">The Basic Problem</h2>
+
+<p>Before we can generate anything, we need to understand what <em>generating</em> means.</p>
+
+<p>Start concrete. You have a dataset of handwritten digits — 60,000 images of the number “7”. Each image is 28×28 pixels, each pixel either black or white. You want to build a machine that, when asked, produces <em>new</em> digits that look like authentic 7s. Not copies of training examples. Genuinely novel members of the distribution.</p>
+
+<p>This is not the same as memorizing the training set and returning one of them. That’s a lookup table. What you want is a <em>model of the distribution</em> — a compressed, generalized description of what makes a 7 look like a 7, from which you can sample endlessly.</p>
+
+<p><strong>The data-generating process.</strong> The deep assumption underneath all of this is: there exists an unknown true distribution $p_{\text{data}}$ over, say, the space of all 28×28 images. When a human writes a 7, they are in some sense <em>sampling</em> from $p_{\text{data}}$. Your job is to approximate this distribution with a model $p_\theta$ — a parameterized family of distributions indexed by weights $\theta$.</p>
+
+\[p_\theta \approx p_{\text{data}}\]
+
+<p>This is an extraordinarily compressed statement. Unpacking it fully reveals everything you need to build:</p>
+
+<ol>
+  <li><strong>Data</strong> — samples from $p_{\text{data}}$. This is your training set.</li>
+  <li><strong>A model family</strong> — what distributions can your model represent? Gaussians? Bayesian networks? Neural networks?</li>
+  <li><strong>A loss / similarity measure</strong> — how do you measure the gap between $p_\theta$ and $p_{\text{data}}$? KL divergence? Maximum likelihood? Adversarial divergences?</li>
+  <li><strong>Optimization</strong> — how do you move $\theta$ to close that gap?</li>
+</ol>
+
+<p>Once you have $p_\theta$, you can <strong>sample</strong> to generate new data, <strong>evaluate densities</strong> $p_\theta(x)$ for anomaly detection, and use learned representations as features for downstream tasks. The model becomes a <em>simulator</em> of the data distribution.<sup id="fnref:datagenerating"><a href="#fn:datagenerating" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<h3 id="what-makes-a-model-generative">What makes a model <em>generative</em>?</h3>
+
+<p>The word is doing a lot of work. A generative model, in the probabilistic sense, is one that models the <em>joint</em> distribution $p(X, Y)$ or, in the purely unsupervised case, $p(X)$. From the joint, you can generate by sampling. A <em>discriminative</em> model, by contrast, only models $p(Y \mid X)$ — the boundary between classes, not the distribution of the data itself. We will return to this distinction at length.</p>
+
+<hr />
+
+<h2 id="the-curse-of-dimensionality">The Curse of Dimensionality</h2>
+
+<p>Here is where every student first feels the ground give way.</p>
+
+<p>Consider a single binary pixel. It takes one parameter to specify: $p(\text{pixel}=1) = q$. Two binary pixels: four possible states (00, 01, 10, 11), three free parameters. Three pixels: eight states, seven parameters. For $n$ binary pixels: $2^n$ possible configurations, $2^n - 1$ free parameters.</p>
+
+<p>A 28×28 image has 784 pixels. If binary, it requires $2^{784} - 1$ parameters for the most general joint distribution. To put this in perspective: the observable universe contains roughly $10^{80}$ atoms. That is about $2^{265}$. Even reaching 784 bits — less than a 30×30 pixel image — makes the parameter count incomparably larger than anything physical in the known universe.<sup id="fnref:curse"><a href="#fn:curse" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
+
+<p><strong>The library metaphor.</strong> Imagine a library containing one book for every possible image. For 1 pixel, two books. For 2 pixels, four books. Every time you add a pixel, you don’t add a book — you clone the entire library and double it. By pixel 30, you have cloned the library thirty times. The library isn’t big. It isn’t just astronomical. It exceeds any physical metaphor. The universe itself isn’t big enough to hold the index.</p>
+
+<figure class="d-figure">
+  <div id="dim-demo"></div>
+  <div class="ctrl-row">
+    <label>Pixels <input type="range" id="dim-slider" min="1" max="28" value="4" /> <span class="ctrl-val" id="dim-val">4</span></label>
+  </div>
+  <figcaption>Each pixel doubles the number of possible images. Drag right to feel the explosion. The bar shows 2ⁿ relative to 2²⁸. At n≥28, the label turns red.</figcaption>
+</figure>
+
+<p><strong>The chain rule doesn’t save you.</strong> One might hope that the chain rule of probability gives a tractable escape route. It does decompose the joint:</p>
+
+\[p(x_1, x_2, \dots, x_n) = p(x_1) \cdot p(x_2 \mid x_1) \cdot p(x_3 \mid x_1, x_2) \cdots p(x_n \mid x_1, \dots, x_{n-1})\]
+
+<p>This is always valid, requiring zero assumptions. But notice: the last conditional $p(x_n \mid x_1, \dots, x_{n-1})$ still conditions on all previous pixels. If you tabulate it naively, it still requires $2^{n-1}$ entries. The exponential hasn’t left — it has just moved to the conditionals. We are stuck.</p>
+
+<p><strong>The only escape: impose structure.</strong> We cannot tabulate the full joint. We cannot tabulate the conditionals. We <em>must</em> make assumptions — restrictions on which variables can influence which — that compress the model to something tractable. These restrictions are called <em>inductive biases</em>, and choosing the right ones is the central art of generative modelling.</p>
+
+<hr />
+
+<h2 id="imposing-structure">Imposing Structure</h2>
+
+<p>The word “structure” in machine learning means: <em>deciding which connections to cut</em>. You start from the full joint (everything depends on everything) and snap edges until what remains is tractable. What you keep determines what your model can learn. What you remove determines how much data you need.</p>
+
+<h3 id="full-independence-the-baseline-that-doesnt-work">Full Independence: The Baseline That Doesn’t Work</h3>
+
+<p>The most aggressive cut: assume all pixels are independent.</p>
+
+\[p(x_1, \dots, x_n) = \prod_{i=1}^n p(x_i)\]
+
+<p>Parameter count drops from $2^n$ to $n$. A 784-pixel image needs 784 parameters, not $2^{784}$.</p>
+
+<p>The cost: you’ve thrown away every correlation in the data. Each pixel is modelled as if it had no relationship to any other. If you sample from this model, each pixel is flipped independently. The result: white noise. TV static.<span class="sidenote">This isn’t a failure of fitting — it’s a failure of representation. A fully-independent model literally cannot represent “pixel A is more likely to be white when pixel B is white.” The correlation is structurally absent.</span></p>
+
+<h3 id="bayesian-networks-selective-connections">Bayesian Networks: Selective Connections</h3>
+
+<p>A middle ground: keep some connections, cut others. A <strong>Bayesian network</strong> is a directed acyclic graph where each node (variable) depends only on its <em>parents</em> in the graph, not on everything:</p>
+
+\[p(x_1, \dots, x_n) = \prod_{i=1}^n p(x_i \mid \text{parents}(x_i))\]
+
+<p>If node $i$ has $k$ parents, its conditional table has $2^k$ entries — manageable if $k$ is small. The graph structure <em>is</em> the independence assumption. Nodes not connected by any path are independent.</p>
+
+<p><strong>The autoregressive model</strong> is the maximally complex Bayesian network you can build: each variable depends on all <em>previous</em> variables under some ordering. This makes no independence assumptions at all — it retains the full expressiveness of the chain rule. The trick is in <em>how</em> you parameterize those conditionals, which is where neural networks enter.</p>
+
+<p><strong>The Markov model</strong> is one of the simplest: each variable depends only on the <em>immediately preceding</em> one. Parameter count drops from exponential to linear, but the context is too short for real data — a pixel can’t “see” what happened 100 pixels ago.</p>
+
+<p><strong>Naïve Bayes</strong> is the most aggressively independent Bayesian network: given the class label, all features are independent. Enormously useful in limited-data regimes; we will dissect its failure mode in the discriminative vs. generative section.</p>
+
+<figure class="d-figure">
+  <div style="display:flex;gap:1.5rem;align-items:flex-start;flex-wrap:wrap;">
+    <div id="graph-demo" style="width:320px;height:320px;flex-shrink:0;"></div>
+    <div id="graph-sample" style="flex:1;min-width:160px;"></div>
+  </div>
+  <div class="ctrl-row">
+    <button class="nn-btn active" id="btn-fulljoint">Full Joint</button>
+    <button class="nn-btn" id="btn-independent">Independent</button>
+    <button class="nn-btn" id="btn-structured">Neural Net</button>
+  </div>
+  <figcaption>Structure = choosing which connections to keep. Fewer connections = stronger assumption = less data needed, lower ceiling. The sample panel shows what a draw from each model looks like.</figcaption>
+</figure>
+
+<h3 id="neural-networks-learned-structure">Neural Networks: Learned Structure</h3>
+
+<p>The Bayesian network approach requires you to hand-specify the graph. Neural networks offer a different deal: <em>learn</em> the conditional structure from data.</p>
+
+<p>Instead of a lookup table for $p(x_i \mid \text{parents}(x_i))$, you use a neural network:</p>
+
+\[p(x_i \mid x_1, \dots, x_{i-1}) = \sigma\bigl(h_\theta(x_1, \dots, x_{i-1})\bigr)\]
+
+<p>where $h_\theta$ is a neural network. This replaces an exponential-size table with a polynomial-size parameter set. The network learns which dependencies matter.</p>
+
+<p>But neural networks are not free from inductive bias — they are, in fact, full of it. A <strong>CNN</strong> is constrained to look at local spatial patches. This is exactly the right bias for images, where edges are local. An <strong>RNN</strong> shares weights across time positions, encoding the assumption that the same rule applies at every timestep. A <strong>Transformer</strong> uses global attention with learned positional encodings. Each architecture is a different set of bets about what structure exists in the data.<sup id="fnref:inductive"><a href="#fn:inductive" class="footnote" rel="footnote" role="doc-noteref">3</a></sup></p>
+
+<p><strong>The fundamental trade-off:</strong> stronger assumptions = less data needed, lower ceiling. Weaker assumptions = more data needed, higher ceiling. The art is matching assumption strength to the amount of data you have and the complexity of the true distribution.</p>
+
+<figure class="d-figure">
+  <div id="landscape-canvas-wrapper" style="width:100%;aspect-ratio:16/9;max-height:340px;">
+    <canvas id="landscape-canvas"></canvas>
+  </div>
+  <div class="ctrl-row">
+    <button class="nn-btn" id="btn-uniform">Uniform</button>
+    <button class="nn-btn" id="btn-gaussian">Single Gaussian</button>
+    <button class="nn-btn" id="btn-mixture">Mixture</button>
+    <label>Peaks <input type="range" id="peaks-slider" min="2" max="6" value="3" /> <span class="ctrl-val" id="peaks-val">3</span></label>
+  </div>
+  <figcaption>p(x) as a 3D surface over a 2D input space. This is what your model must learn. Drag to orbit. A real image distribution would have thousands of sharp, narrow peaks — one for each coherent image type.</figcaption>
+</figure>
+
+<hr />
+
+<h2 id="discriminative-vs-generative">Discriminative vs. Generative</h2>
+
+<p>The two approaches to modelling $p(Y \mid X)$ reveal a deep philosophical divide.</p>
+
+<p><strong>The setup.</strong> You have the Enron email dataset: spam and ham, represented as binary word-occurrence vectors. Does the word “BANK” appear? “PRINCE”? “MEETING”? Each email is a high-dimensional binary vector $X$, with label $Y \in {\text{spam, ham}}$.</p>
+
+<p><strong>Path 1: Discriminative.</strong> Learn $p(Y \mid X)$ directly. Logistic regression asks: given this word vector, what’s the probability of spam? It draws a boundary in the feature space and assigns probabilities based on which side you land on. It never models <em>what spam emails look like</em> — only <em>where the boundary is</em>.</p>
+
+<p><strong>Path 2: Generative.</strong> Model the full joint $p(X, Y) = p(Y) \cdot p(X \mid Y)$. This means learning two things:</p>
+
+<ul>
+  <li>$p(Y)$: the <em>prior</em> — roughly 40% of email is spam</li>
+  <li>$p(X \mid Y)$: the <em>likelihood</em> — what does spam email look like? What does ham email look like?</li>
+</ul>
+
+<p>To classify a new email, apply Bayes’ rule:</p>
+
+\[p(Y \mid X) = \frac{p(X \mid Y) \cdot p(Y)}{p(X)}\]
+
+<p>You classify by asking: which class was more likely to have <em>generated</em> this email?</p>
+
+<h3 id="the-naïve-bayes-failure-mode">The Naïve Bayes Failure Mode</h3>
+
+<p>Naïve Bayes is the simplest generative classifier. It applies the full-independence assumption: <em>given the class, all words are independent</em>. Mathematically:</p>
+
+\[p(X \mid Y) = \prod_{i} p(X_i \mid Y)\]
+
+<p>This is almost always wrong. But the question is: how badly does it hurt?</p>
+
+<p>For most word pairs, it doesn’t matter much. But consider: your spam corpus contains the word “BANK” and the word “ACCOUNT” in near-perfect correlation — spammers write “bank account” together constantly. Naïve Bayes sees both, treats them as independent, and multiplies the evidence <em>twice</em>. An email with both “BANK” and “ACCOUNT” gets flagged with far more confidence than it deserves.</p>
+
+<p><strong>The detective metaphor.</strong> Imagine two witnesses to a crime. You interview the first witness — they describe the perpetrator clearly. You interview the second witness — they give an identical description. A good detective thinks: <em>these two are friends; they talked; their descriptions aren’t independent</em>. One is roughly as much evidence as the other. Naïve Bayes thinks: <em>two independent miracles! Double the evidence!</em> It becomes catastrophically overconfident.</p>
+
+<p>The discriminative logistic regression <em>doesn’t assume independence</em>. It can observe that “BANK” and “ACCOUNT” tend to co-occur, and effectively set one coefficient to zero — one witness is redundant, count them once. It has no incentive to double-count because it’s directly optimizing for the boundary, not building a full simulator of each class.<sup id="fnref:naivebayes"><a href="#fn:naivebayes" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></p>
+
+<figure class="d-figure">
+  <div class="ctrl-row" style="flex-wrap:wrap;gap:.5rem;margin-bottom:.75rem;">
+    <span style="font-size:.82em;color:#666;">Click words to add to email:</span>
+    <button class="word-chip" data-word="URGENT">URGENT</button>
+    <button class="word-chip" data-word="BANK">BANK</button>
+    <button class="word-chip" data-word="ACCOUNT">ACCOUNT</button>
+    <button class="word-chip" data-word="PRINCE">PRINCE</button>
+    <button class="word-chip" data-word="MEETING">MEETING</button>
+    <button class="word-chip" data-word="LUNCH">LUNCH</button>
+    <button class="word-chip" data-word="PROJECT">PROJECT</button>
+    <button class="nn-btn" id="btn-clear-words" style="background:#888;margin-left:.5rem;">Clear</button>
+  </div>
+  <div style="display:flex;gap:1.5rem;flex-wrap:wrap;">
+    <div style="flex:1;min-width:220px;">
+      <p style="font-size:.8em;font-weight:bold;color:#555;margin:0 0 .4rem;">Discriminative (logistic regression)</p>
+      <canvas id="spam-scatter" width="260" height="220"></canvas>
+      <div id="spam-disc-result" style="font-size:.85em;margin-top:.4rem;"></div>
+    </div>
+    <div style="flex:1;min-width:220px;">
+      <p style="font-size:.8em;font-weight:bold;color:#555;margin:0 0 .4rem;">Generative (Naïve Bayes)</p>
+      <canvas id="spam-bars" width="260" height="220"></canvas>
+      <div id="spam-gen-result" style="font-size:.85em;margin-top:.4rem;"></div>
+    </div>
+  </div>
+  <figcaption>Add BANK and ACCOUNT together to see the double-counting effect. The discriminative model treats them as partially redundant; Naïve Bayes multiplies their evidence independently.</figcaption>
+</figure>
+
+<h3 id="when-generative-models-win">When Generative Models Win</h3>
+
+<p>The discriminative model’s boundary is a knife. It’s sharp, fast, and excellent at cutting — but it knows nothing about the data itself. The generative model’s simulator is a full understanding of each class.</p>
+
+<p>This has consequences:</p>
+
+<ul>
+  <li><strong>Missing data:</strong> if a feature is missing at test time, a generative model can marginalize over it; a discriminative model can only impute or fail.</li>
+  <li><strong>New tasks:</strong> once you have $p(X, Y)$, you can do anomaly detection, sample new emails, compute $p(Y)$ for priors — things a pure discriminative model cannot do.</li>
+  <li><strong>Small data:</strong> strong generative assumptions (like Naïve Bayes) function as a regularizer. With 10 labeled examples, Naïve Bayes can be more accurate than logistic regression.</li>
+</ul>
+
+<p>Deep discriminative models (neural classifiers) and deep generative models (autoregressive, VAE, flow) have both become the norm. The distinction isn’t “old vs. new” — it’s <em>what question you are answering</em>. If you only need to classify, discriminate. If you need to understand, sample, or detect anomalies, generate.<sup id="fnref:gendisc"><a href="#fn:gendisc" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></p>
+
+<hr />
+
+<h2 id="normalization-by-construction">Normalization by Construction</h2>
+
+<p>Every valid probability distribution must integrate to 1:</p>
+
+\[\int p_\theta(x) \, dx = 1\]
+
+<p>For a neural network parameterized by millions of weights, there is no reason this should hold — and ensuring it naively requires computing an integral over all possible inputs, which is the $2^n$ problem all over again.</p>
+
+<p>The elegance of modern generative model families is that they achieve normalization <em>for free</em>, by construction — through architectural choices that guarantee the constraint is satisfied without ever computing the integral.</p>
+
+<h3 id="autoregressive-models">Autoregressive Models</h3>
+
+<p>The chain rule gives you normalization automatically:</p>
+
+\[p_\theta(x_1, \dots, x_n) = \prod_{i=1}^n p_\theta(x_i \mid x_1, \dots, x_{i-1})\]
+
+<p>Each factor $p_\theta(x_i \mid \cdot)$ is a valid conditional distribution (output of a softmax or sigmoid — normalized by construction). A product of normalized distributions is normalized.<sup id="fnref:ar"><a href="#fn:ar" class="footnote" rel="footnote" role="doc-noteref">6</a></sup></p>
+
+<p>The gallon of water: pour it into the first cup. Whatever remains goes to the second cup, conditioned on what went to the first. Continue. No water is created or destroyed. You’ve sliced the probability mass into an ordered sequence of conditional slices that reassemble perfectly to the original unit.</p>
+
+<h3 id="latent-variable-models">Latent Variable Models</h3>
+
+<p>Introduce a hidden variable $z$ drawn from a simple prior $p(z)$ (e.g., a standard Gaussian):</p>
+
+\[p_\theta(x) = \int p_\theta(x \mid z) \, p(z) \, dz\]
+
+<p>If $p(z)$ is normalized and $p_\theta(x \mid z)$ is a normalized conditional for every $z$, then the marginal $p_\theta(x)$ is normalized:</p>
+
+\[\int p_\theta(x) \, dx = \int \left(\int p_\theta(x \mid z) \, p(z) \, dz\right) dx = \int p(z) \underbrace{\left(\int p_\theta(x \mid z) \, dx\right)}_{=1} dz = 1\]
+
+<p>The analogy: several 1-gallon buckets weighted by the prior. Each bucket’s decoder pours exactly 1 gallon into $x$-space. The weighted average of multiple 1-gallon pours is still exactly 1 gallon.<span class="sidenote">The trick in VAEs: this integral is intractable to compute exactly (you can’t enumerate all $z$). Normalization is guaranteed, but computing $p_\theta(x)$ for a specific $x$ requires approximating the integral, which is what the encoder + ELBO framework does.</span></p>
+
+<h3 id="normalizing-flows">Normalizing Flows</h3>
+
+<p>A flow starts with a simple distribution $z \sim p_z(z)$ (Gaussian) and applies a learned invertible transformation $f_\theta$:</p>
+
+\[x = f_\theta(z), \quad z = f_\theta^{-1}(x)\]
+
+<p>The change-of-variables formula gives the density in $x$-space:</p>
+
+\[p_\theta(x) = p_z(f_\theta^{-1}(x)) \cdot \left|\det J_{f_\theta^{-1}}(x)\right|\]
+
+<p>Normalization is guaranteed because the Jacobian factor exactly accounts for how the transformation stretches or compresses space. If the transformation doubles the volume in some region, the density is halved — probability mass is conserved.</p>
+
+<p>The physical metaphor: take a block of wet clay (the Gaussian). Twist, stretch, and squash it into a complex sculpture. The clay doesn’t gain or lose volume — it is merely redistributed. The shape is wild, but the total mass is exactly what you started with.<sup id="fnref:flows"><a href="#fn:flows" class="footnote" rel="footnote" role="doc-noteref">7</a></sup></p>
+
+<figure class="d-figure">
+  <canvas id="flow-canvas" width="400" height="400" style="display:block;margin:0 auto;max-width:100%;image-rendering:pixelated;"></canvas>
+  <div class="ctrl-row" style="margin-top:.75rem;">
+    <label>Flow strength <input type="range" id="flow-strength" min="0" max="100" value="0" /> <span class="ctrl-val" id="flow-strength-val">0.00</span></label>
+  </div>
+  <div class="ctrl-row">
+    <label>Flow steps <input type="range" id="flow-steps" min="1" max="4" value="1" /> <span class="ctrl-val" id="flow-steps-val">1</span></label>
+  </div>
+  <div id="flow-guarantee" style="font-size:.82em;font-family:monospace;text-align:center;margin-top:.4rem;color:#27ae60;">By construction: ∫p = 1.000</div>
+  <figcaption>A normalizing flow transforms a Gaussian into a complex distribution via invertible warpings. Total probability mass is conserved by the invertibility constraint. Increase strength to see the Gaussian twisted into new shapes.</figcaption>
+</figure>
+
+<h3 id="energy-based-models-breaking-the-rule">Energy-Based Models: Breaking the Rule</h3>
+
+<p>Energy-based models (EBMs) break the normalization-by-construction principle deliberately, for expressive power:</p>
+
+\[p_\theta(x) = \frac{e^{-E_\theta(x)}}{Z(\theta)}, \quad Z(\theta) = \int e^{-E_\theta(x)} \, dx\]
+
+<p>The energy function $E_\theta(x)$ can be any neural network — completely flexible. But the normalization constant $Z(\theta)$ (the partition function) is an integral over all inputs. Computing it is intractable. Training requires estimating gradients of $\log Z(\theta)$, which typically involves Markov chain sampling. The penalty for maximum expressive freedom is maximum training difficulty.<sup id="fnref:ebm"><a href="#fn:ebm" class="footnote" rel="footnote" role="doc-noteref">8</a></sup></p>
+
+<h3 id="the-probability-budget--a-visual-summary">The Probability Budget — A Visual Summary</h3>
+
+<svg width="100%" viewBox="0 0 660 260" style="display:block;max-width:660px;margin:1.5rem auto;font-family:Georgia,serif;">
+  <!-- Column headers -->
+  <text x="110" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Autoregressive</text>
+  <text x="330" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Latent Variable</text>
+  <text x="550" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Normalizing Flow</text>
+
+  <!-- Autoregressive: stacked slices reassembling to 1×1 -->
+  <rect x="60" y="35" width="100" height="190" fill="none" stroke="#bbb" stroke-width="1" />
+  <!-- Slices -->
+  <rect x="61" y="36" width="98" height="38" fill="#4a90d9" opacity="0.85" />
+  <text x="110" y="59" text-anchor="middle" font-size="10" fill="#fff">p(x₁) = 0.4</text>
+  <rect x="61" y="75" width="98" height="28" fill="#4a90d9" opacity="0.65" />
+  <text x="110" y="93" text-anchor="middle" font-size="10" fill="#fff">p(x₂|x₁)</text>
+  <rect x="61" y="104" width="98" height="48" fill="#4a90d9" opacity="0.5" />
+  <text x="110" y="132" text-anchor="middle" font-size="10" fill="#fff">p(x₃|x₁,x₂)</text>
+  <rect x="61" y="153" width="98" height="36" fill="#4a90d9" opacity="0.35" />
+  <text x="110" y="175" text-anchor="middle" font-size="10" fill="#fff">p(x₄|…)</text>
+  <rect x="61" y="190" width="98" height="35" fill="#4a90d9" opacity="0.2" />
+  <text x="110" y="212" text-anchor="middle" font-size="10" fill="#555">p(xₙ|…)</text>
+  <text x="110" y="240" text-anchor="middle" font-size="10" fill="#27ae60">Product = 1.0 ✓</text>
+
+  <!-- Vertical dividers -->
+  <line x1="220" y1="30" x2="220" y2="250" stroke="#eee" stroke-width="1" />
+  <line x1="440" y1="30" x2="440" y2="250" stroke="#eee" stroke-width="1" />
+
+  <!-- Latent variable: prior bell + decoder bells inside -->
+  <!-- Prior Gaussian outline -->
+  <path d="M260,220 Q280,220 295,180 Q310,100 330,80 Q350,100 365,180 Q380,220 400,220 Z" fill="#e67e22" opacity="0.18" stroke="#e67e22" stroke-width="1.5" />
+  <text x="330" y="238" text-anchor="middle" font-size="10" fill="#e67e22">p(z)  prior</text>
+  <!-- Small decoder bells -->
+  <path d="M285,195 Q292,195 298,175 Q303,150 310,140 Q317,150 322,175 Q328,195 335,195 Z" fill="#4a90d9" opacity="0.55" />
+  <path d="M320,190 Q327,190 333,175 Q338,155 345,148 Q352,155 357,175 Q362,190 370,190 Z" fill="#4a90d9" opacity="0.55" />
+  <text x="310" y="135" text-anchor="middle" font-size="9" fill="#4a90d9">p(x|z₁)</text>
+  <text x="347" y="143" text-anchor="middle" font-size="9" fill="#4a90d9">p(x|z₂)</text>
+  <text x="330" y="215" text-anchor="middle" font-size="10" fill="#27ae60">∫ p(x|z)p(z)dz = 1 ✓</text>
+
+  <!-- Normalizing Flow: regular grid warped -->
+  <!-- Regular grid on left side of arrow -->
+  <g transform="translate(470,38)">
+    <!-- Grid cells 4x5 -->
+    <rect x="0" y="0" width="25" height="25" fill="#27ae60" opacity="0.25" stroke="#27ae60" stroke-width="0.5" />
+    <rect x="25" y="0" width="25" height="25" fill="#27ae60" opacity="0.30" stroke="#27ae60" stroke-width="0.5" />
+    <rect x="0" y="25" width="25" height="25" fill="#27ae60" opacity="0.35" stroke="#27ae60" stroke-width="0.5" />
+    <rect x="25" y="25" width="25" height="25" fill="#27ae60" opacity="0.25" stroke="#27ae60" stroke-width="0.5" />
+    <rect x="0" y="50" width="25" height="25" fill="#27ae60" opacity="0.40" stroke="#27ae60" stroke-width="0.5" />
+    <rect x="25" y="50" width="25" height="25" fill="#27ae60" opacity="0.30" stroke="#27ae60" stroke-width="0.5" />
+    <rect x="0" y="75" width="25" height="25" fill="#27ae60" opacity="0.28" stroke="#27ae60" stroke-width="0.5" />
+    <rect x="25" y="75" width="25" height="25" fill="#27ae60" opacity="0.35" stroke="#27ae60" stroke-width="0.5" />
+    <text x="25" y="120" text-anchor="middle" font-size="9" fill="#555">z ~ Gaussian</text>
+  </g>
+  <!-- Arrow -->
+  <line x1="535" y1="100" x2="565" y2="100" stroke="#555" stroke-width="1.5" />
+  <polygon points="565,96 572,100 565,104" fill="#555" />
+  <text x="553" y="94" text-anchor="middle" font-size="8" fill="#555">f θ</text>
+  <!-- Warped grid -->
+  <g transform="translate(570,38)">
+    <path d="M0,0 Q15,-5 28,4 L32,28 Q18,22 0,26 Z" fill="#27ae60" opacity="0.25" stroke="#27ae60" stroke-width="0.5" />
+    <path d="M28,4 Q42,-2 55,6 L56,30 Q43,24 32,28 Z" fill="#27ae60" opacity="0.30" stroke="#27ae60" stroke-width="0.5" />
+    <path d="M0,26 Q18,22 32,28 L28,55 Q12,48 0,52 Z" fill="#27ae60" opacity="0.35" stroke="#27ae60" stroke-width="0.5" />
+    <path d="M32,28 Q43,24 56,30 L52,56 Q38,50 28,55 Z" fill="#27ae60" opacity="0.25" stroke="#27ae60" stroke-width="0.5" />
+    <path d="M0,52 Q12,48 28,55 L22,82 Q8,76 0,78 Z" fill="#27ae60" opacity="0.40" stroke="#27ae60" stroke-width="0.5" />
+    <path d="M28,55 Q38,50 52,56 L48,84 Q34,79 22,82 Z" fill="#27ae60" opacity="0.30" stroke="#27ae60" stroke-width="0.5" />
+    <path d="M0,78 Q8,76 22,82 L18,105 Q4,100 0,102 Z" fill="#27ae60" opacity="0.28" stroke="#27ae60" stroke-width="0.5" />
+    <path d="M22,82 Q34,79 48,84 L44,108 Q30,104 18,105 Z" fill="#27ae60" opacity="0.35" stroke="#27ae60" stroke-width="0.5" />
+    <text x="28" y="120" text-anchor="middle" font-size="9" fill="#555">x = f(z)</text>
+  </g>
+  <text x="550" y="215" text-anchor="middle" font-size="10" fill="#27ae60">|det J| conserves area ✓</text>
+</svg>
+
+<hr />
+
+<h2 id="the-inductive-bias-checklist">The Inductive Bias Checklist</h2>
+
+<p>Every architectural decision is a bet. Before training, you should be able to articulate <em>exactly</em> what bets you are making. Here is a checklist for designing generative models.</p>
+
+<h3 id="1-what-are-you-predicting-and-conditioning-on">1. What are you predicting and conditioning on?</h3>
+
+<p>Write down the joint distribution you want to model. Explicitly:</p>
+
+<ul>
+  <li>What is $X$? Pixels $X_{i,j}$? Tokens $X_t$? Audio samples $X_t$?</li>
+  <li>What structure exists in $X$? Is it a grid? A sequence? An unordered set? A graph?</li>
+  <li>Are you conditioning on anything? Captions $Y$ given image $X$? Translations $T$ given source $S$?</li>
+</ul>
+
+<p>This seems trivial. It is not. The formulation determines what architectures are even applicable.</p>
+
+<h3 id="2-local-or-global">2. Local or global?</h3>
+
+<p>Where does the <em>signal</em> live in your domain?</p>
+
+<ul>
+  <li><strong>Images:</strong> edges and textures are local. Long-range correlations exist (the sky above matches the sky below) but are softer. CNNs exploit locality; their failure mode is missing long-range structure.</li>
+  <li><strong>Language:</strong> syntax is local (adjacent words constrain each other); but <em>facts</em> can span thousands of tokens. A transformer attends globally; an RNN compresses history into a fixed vector and forgets.</li>
+  <li><strong>Translation:</strong> alignment between source and target is often sparse but crucial — one word in English maps to one specific word in the target, and that pairing must be preserved exactly.</li>
+</ul>
+
+<h3 id="3-dense-or-sparse">3. Dense or sparse?</h3>
+
+<p>Does every input dimension matter equally, or is there one needle in a massive haystack?</p>
+
+<p>Attention mechanisms are a powerful answer to sparsity: they learn <em>which</em> inputs to attend to, rather than weighting all inputs uniformly. For dense signals, convolutions are more efficient — every spatial location matters roughly equally.</p>
+
+<h3 id="4-invariance-and-equivariance">4. Invariance and equivariance?</h3>
+
+<p>Does the meaning change if you rotate the image? Shift the sequence by one token? Reorder a set?</p>
+
+<ul>
+  <li><strong>Translational invariance</strong> (CNNs): a cat is a cat regardless of where it appears in the image.</li>
+  <li><strong>Sequence translation equivariance</strong> (RNNs, Transformers): the grammar rule for “not” applies regardless of which position it appears at.</li>
+  <li><strong>Permutation invariance</strong> (DeepSets, GNNs): a set of points has no inherent ordering.</li>
+</ul>
+
+<p>Baking these symmetries into the architecture means the model doesn’t have to learn them from scratch — it gets them for free, freeing capacity for harder problems.<sup id="fnref:symmetry"><a href="#fn:symmetry" class="footnote" rel="footnote" role="doc-noteref">9</a></sup></p>
+
+<h3 id="5-what-will-fail-and-why">5. What will fail and why?</h3>
+
+<p>Before training, identify the failure mode of your chosen inductive bias:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Architecture</th>
+      <th>Bets you’re making</th>
+      <th>How it will fail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CNN</td>
+      <td>Local spatial correlations</td>
+      <td>Misses global structure; long-range dependencies invisible</td>
+    </tr>
+    <tr>
+      <td>RNN/LSTM</td>
+      <td>Temporal sequence compressible into fixed state</td>
+      <td>Blurs precise historical details over long distances</td>
+    </tr>
+    <tr>
+      <td>Transformer</td>
+      <td>Global attention sufficient; position encodable</td>
+      <td>Brute-forces correlations that don’t exist; quadratic cost</td>
+    </tr>
+    <tr>
+      <td>Autoregressive</td>
+      <td>Chain rule factorization; left-to-right causality</td>
+      <td>Can’t capture bidirectional dependencies in one pass</td>
+    </tr>
+    <tr>
+      <td>VAE</td>
+      <td>Posterior approximable by Gaussian</td>
+      <td>Posterior collapse; blurry samples</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="the-why-regress">The Why-Regress</h2>
+
+<p><em>Why do we need generative models?</em> → To model $p_{\text{data}}$: sample from it, evaluate densities, do unsupervised learning.</p>
+
+<p><em>Why is modelling $p_{\text{data}}$ hard?</em> → The data lives in a space with $2^n$ configurations. No tractable parameterization of the full joint exists.</p>
+
+<p><em>Why does the exponential arise?</em> → Because each variable might depend on every other. The full joint requires one parameter per configuration.</p>
+
+<p><em>Why must we impose structure?</em> → Because we don’t have $2^n$ parameters, or $2^n$ data points, or physical storage. We must compress.</p>
+
+<p><em>Why does structure help?</em> → It encodes assumptions about which dependencies are real. If the assumption is right, you need much less data. If wrong, you hit a ceiling.</p>
+
+<p><em>Why does the ceiling exist?</em> → Because structure is a constraint. Constrained models can’t represent distributions that violate the constraint, even with infinite data.</p>
+
+<p><em>Why do we have normalization-by-construction families?</em> → Because the alternative — computing the partition function — is the same $2^n$ problem. Clever architecture sidesteps the integration.</p>
+
+<p><em>Why does the world have structure at all?</em> → <strong>Because physics imposes it.</strong> Nearby pixels covary because light reflects coherently from objects. Words co-occur because they encode ideas that cluster in meaning-space. DNA sequences have patterns because molecular constraints prohibit many configurations. Without physical structure in the world, no learning algorithm could work — there would be nothing to compress. <strong>Generative models are machines for finding and exploiting the structure that physics put there.</strong></p>
+
+<hr />
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/controls/OrbitControls.js"></script>
+
+<script src="/js/nn-generative.js"></script>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:datagenerating">
+      <p>The framing of machine learning as distribution approximation — $p_\theta \approx p_{\text{data}}$ — now feels like it was always the obvious way to think about the problem. It wasn’t. In the 1980s and early 1990s, the dominant paradigm was connectionism: neural networks as loosely brain-inspired function approximators, trained to minimize prediction error, with little probabilistic scaffolding. The clean probabilistic framing crystallised gradually, driven by a specific set of people — Judea Pearl working on Bayesian networks, Geoffrey Hinton and his students pushing maximum likelihood training, Michael Jordan synthesising graphical models and neural networks — each operating partly independently, partly in dialogue, all embedded in an academic culture that was simultaneously fascinated and sceptical of the project. The idea that the right question was “learn $p_{\text{data}}$” rather than “fit a function” was not obvious in advance. It was a sociological and intellectual convergence, not a logical inevitability. <a href="#fnref:datagenerating" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:curse">
+      <p>The exact count for an $n$-pixel binary image is $2^n - 1$ free parameters (since probabilities must sum to 1). For a 28×28 image: $2^{784} \approx 10^{236}$. The observable universe has roughly $10^{80}$ atoms. Even specifying one parameter per Planck volume ($\sim 10^{185}$ per observable universe) falls incomparably short of $10^{236}$. <a href="#fnref:curse" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:inductive">
+      <p>The choice of inductive bias is arguably the most important design decision in deep learning — more important than the optimization algorithm, the initialization, or even the dataset size within an order of magnitude. LeCun’s 1989 insight — that images have local spatial structure, and that parameter sharing across spatial positions (convolution) encodes this — is the direct reason CNNs work as well as they do. The bias wasn’t a kludge; it was a hard-won structural insight about the data domain. <a href="#fnref:inductive" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:naivebayes">
+      <p>Naïve Bayes dominated NLP through the 1990s not purely because it was the best available method, but because it was computationally tractable at a time when the alternative — anything requiring gradient descent over large parameter counts — was prohibitively expensive. The hardware and software infrastructure for training large discriminative models simply didn’t exist. What looked, in hindsight, like a principled commitment to the generative paradigm was partly an accident of the compute landscape. When logistic regression became easy to train at scale, and then SVMs arrived with their theoretical guarantees, Naïve Bayes was displaced rapidly. The lesson is not that generative models were wrong — they weren’t — but that the sociology of which methods get used depends heavily on what is <em>tractable right now</em>, which is as much a function of Moore’s law and available libraries as of intellectual merit. Ideas that were genuinely good but computationally premature often wait a decade to be vindicated. <a href="#fnref:naivebayes" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:gendisc">
+      <p>Ng and Jordan’s 2001 paper “On Discriminative vs. Generative Classifiers: A comparison of logistic regression and naive Bayes” gave a clean theoretical treatment: generative classifiers converge to their asymptotic error faster (in $O(\log n)$ examples), but their asymptotic error is higher because the model is misspecified (the independence assumption is wrong). Discriminative classifiers converge more slowly ($O(n)$ examples) but converge to a lower asymptotic error. In small data regimes, go generative. In large data regimes, go discriminative — or use a deep network that renders the distinction moot. <a href="#fnref:gendisc" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:ar">
+      <p>The original autoregressive language model in modern form traces to Bengio et al.’s 2003 “A Neural Probabilistic Language Model,” which replaced discrete lookup tables for conditionals with a feedforward neural network. The chain rule of probability had existed since Kolmogorov, but pairing it with neural network conditionals was the insight that eventually led to GPT. Everything in large language models is, at its core, an application of the autoregressive factorization with a very large neural network estimating each conditional. <a href="#fnref:ar" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:flows">
+      <p>Normalizing flows feel, in retrospect, like an obvious tool: if you can invert a transformation and compute its Jacobian, you get exact likelihoods for free. The change-of-variables formula is nineteenth-century calculus. And yet the modern normalizing flow — as a practical deep learning method — was not seriously developed until Rezende &amp; Mohamed’s <em>Variational Inference with Normalizing Flows</em> (2015) and Dinh et al.’s <em>NICE</em> (2014), nearly a decade after VAEs and a quarter-century after backpropagation. Why the delay? Partly because designing architectures with tractable Jacobians is non-trivial and required specific insights (coupling layers, autoregressive transforms). Partly because the research community’s attention was elsewhere — on discriminative models, then on VAEs and GANs. The path from the change-of-variables formula to RealNVP to Glow to the eventual influence on diffusion models is not a straight line of logical development. It is a story of particular researchers (Laurent Dinh, Jascha Sohl-Dickstein, Durk Kingma) pursuing threads that seemed marginal or esoteric to most of the field, until suddenly they didn’t. At the time of writing, diffusion models — which can be understood as infinitely deep normalizing flows — are the dominant paradigm for image generation. Nothing about this was obvious in 2013. <a href="#fnref:flows" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:ebm">
+      <p>EBMs have fallen in and out of fashion. Hinton’s restricted Boltzmann machines (2006) used Gibbs sampling to estimate the partition function gradient, which worked but was slow. The resurgence of EBMs in the 2010s used Langevin dynamics and contrastive divergence. Modern score-based models (Song &amp; Ermon, 2019) approximate the gradient of the log-density without ever computing the partition function — a clever escape from the normalization problem that EBMs usually face. The boundary between score-based models and diffusion models is thin; diffusion models (Ho et al., 2020) are essentially EBMs trained with a particular noise schedule that makes the score tractable. <a href="#fnref:ebm" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:symmetry">
+      <p>The mathematical framework for symmetries in neural networks is equivariance theory, developed rigorously by Kondor and Trivedi (2018) and Cohen &amp; Welling (2016). The core theorem: if the data distribution is invariant under a group $G$, then the optimal function is equivariant under $G$. This means symmetry-exploiting architectures are not just computationally efficient — they are, in a precise sense, optimal for structured data. The practical implication: when you know your data has a symmetry, baking it in is strictly better than letting the network discover it from data. <a href="#fnref:symmetry" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+<script>
+// Footnote popups
+(function() {
+  var popup = document.createElement('div');
+  popup.className = 'fn-popup';
+  document.body.appendChild(popup);
+
+  var hideTimer;
+
+  function getFootnoteContent(id) {
+    // id is like "fnref:key", footnote li id is "fn:key"
+    var fnId = id.replace('fnref:', 'fn:').replace('fnref-', 'fn:');
+    var li = document.getElementById(fnId) || document.getElementById(fnId.replace('fn:', 'fn-'));
+    if (!li) return null;
+    // Clone and strip the backref link
+    var clone = li.cloneNode(true);
+    var backref = clone.querySelector('.reversefootnote');
+    if (backref) backref.remove();
+    return clone.innerHTML.trim();
+  }
+
+  function show(content, anchorEl) {
+    popup.innerHTML = content;
+
+    // Measure height before revealing to get accurate offsetHeight
+    popup.style.visibility = 'hidden';
+    popup.style.display = 'block';
+    popup.classList.add('visible');
+
+    var rect = anchorEl.getBoundingClientRect();
+    var popupH = popup.offsetHeight;
+    var popupW = 340;
+    var gap = 8;
+
+    var left = rect.left;
+    if (left + popupW > window.innerWidth - 16) {
+      left = window.innerWidth - popupW - 16;
+    }
+    if (left < 8) left = 8;
+
+    // Default: below the anchor
+    var top = rect.bottom + gap;
+    // Flip above if it would overflow the bottom
+    if (top + popupH > window.innerHeight - 8) {
+      top = rect.top - gap - popupH;
+    }
+    // If flipping above also goes off-screen (very tall popup), clamp to top
+    if (top < 8) top = 8;
+
+    popup.style.top = top + 'px';
+    popup.style.left = left + 'px';
+    popup.style.visibility = '';
+  }
+
+  function hide() {
+    popup.classList.remove('visible');
+  }
+
+  // Keep popup open when mouse moves into it
+  popup.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+  popup.addEventListener('mouseleave', function() { hideTimer = setTimeout(hide, 200); });
+
+  // Click outside to close
+  document.addEventListener('click', function(e) {
+    if (!popup.contains(e.target)) hide();
+  });
+
+  popup.style.pointerEvents = 'auto';
+
+  document.querySelectorAll('.d-article sup[id^="fnref"] a').forEach(function(a) {
+    var supEl = a.parentElement;
+    a.addEventListener('mouseenter', function() {
+      clearTimeout(hideTimer);
+      var content = getFootnoteContent(supEl.id);
+      if (content) show(content, a);
+    });
+    a.addEventListener('mouseleave', function() {
+      hideTimer = setTimeout(hide, 200);
+    });
+    // Prevent jumping to footnote on click
+    a.addEventListener('click', function(e) { e.preventDefault(); });
+  });
+})();
+</script>
+
+<script>
+// Table of contents
+(function() {
+  var headings = document.querySelectorAll('.d-article h2, .d-article h3');
+  var toc = document.getElementById('toc-list');
+  var currentH2Li = null;
+  var currentSubList = null;
+
+  headings.forEach(function(h, i) {
+    if (!h.id) h.id = 'section-' + i;
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent;
+    li.appendChild(a);
+
+    if (h.tagName === 'H2') {
+      toc.appendChild(li);
+      currentH2Li = li;
+      currentSubList = null;
+    } else if (h.tagName === 'H3') {
+      if (!currentSubList) {
+        currentSubList = document.createElement('ul');
+        if (currentH2Li) currentH2Li.appendChild(currentSubList);
+        else toc.appendChild(currentSubList);
+      }
+      currentSubList.appendChild(li);
+    }
+  });
+})();
+</script>
+
+
+    
+ <!--  <div id="footer">
+          <address>
+            <span class="copyright">
+                Content &amp; Design by <a href="/about/">Piyush Ahuja</a>
+                <br/>
+                (<a rel="licence" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Some rights reserved</a>)      
+            </span>
+            <span class="engine">
+                Powered by <a href="http://github.com/mreid/jekyll/" title="A static, minimalist CMS">Jekyll</a>
+            </span>
+        </address>
+
+  </div>  -->
+
+  </div> 
+
+
+</body>
+</html>
+
+
+
+
+  
+  
+  
